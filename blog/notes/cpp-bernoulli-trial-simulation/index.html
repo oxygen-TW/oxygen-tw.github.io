@@ -1,0 +1,1169 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        <script type="application/ld+json">
+    {
+        "@context" : "http://schema.org",
+        "@type" : "BlogPosting",
+        "mainEntityOfPage": {
+             "@type": "WebPage",
+             "@id": "https://oxygentw.net"
+        },
+        "articleSection" : "blog",
+        "name" : "C&#43;&#43; 獨立重複白努力試驗模擬",
+        "headline" : "C&#43;&#43; 獨立重複白努力試驗模擬",
+        "description" : "數學課上到這部分，依據大數法則，試驗的次數越多，結果會越相似於常態分佈，但丟硬幣100次都嫌累了，根本沒辦法看出甚麼所以然來，這時電腦就好用了，寫個小程式，數分鐘內幫你丟五億次硬幣! 還可以更多呢!
+/* * Bernoulli Trial simulation * By C++ * License MIT * 2017/09/19 oxygen */ #include &lt;iostream&gt; #include &lt;fstream&gt; #include &lt;cstdlib&gt; #include &lt;ctime&gt; using namespace std; //Global Variable unsigned long long sample = 0,run_time = 0; void init() { fstream fp; fp.open(&quot;data.txt&quot;,ios::out); fp&lt;&lt;&quot;id,true,false,True-rate,False-rate\n&quot;; fp.close(); srand( (unsigned)time(NULL)); cout&lt;&lt;&quot;Program is running...\n&quot;; } bool Random() { unsigned int ran = (int)((rand() / (RAND_MAX+1.0)) * (10 - 1 + 1.0) + 1); if(ran % 2 == 0) return true; return false; } void write_file(const int id,const unsigned long long True_number,const unsigned long long False_number) { fstream fp; fp.open(&quot;data.txt&quot;,ios::out|ios::app); fp&lt;&lt;id&lt;&lt;&quot;,&quot;&lt;&lt;True_number&lt;&lt;&quot;,&quot;&lt;&lt;False_number&lt;&lt;&quot;,&quot;&lt;&lt;(True_number/(double)run_time)*100&lt;&lt;&quot;%,&quot;&lt;&lt;(False_number/(double)run_time)*100&lt;&lt;&quot;%\n&quot;; fp.close(); } int main() { cout&lt;&lt;&quot;How many times do yo want to run? &gt;&quot;; cin &gt;&gt; sample; cout&lt;&lt;&quot;How many times do yo want to run in one sample(n)? &gt;&quot;; cin &gt;&gt; run_time; init(); for(int c=0; c&lt;sample; c++) { unsigned long long True_number = 0,False_number = 0; for(unsigned long long i=0; i&lt;run_time; i++) { if(Random()) True_number++; else False_number++; } write_file(c+1,True_number,False_number); } cout&lt;&lt;&quot;Complete!\n&quot;; }  解釋一下程式碼
+init() 是程式一開始執行的函式，會把輸出檔案的標題輸出好，並初始化亂數器。
+Random() 是最主要的部份，會隨機取出1~10的數字，如果是偶數則當作成功，回傳 true ，若是奇數則做為失敗，回傳 false。
+write_file() 很簡單，把每一筆計算過的結果寫入檔案，參數需傳入[樣本編號][成功次數][失敗次數]，他便會算出比率並寫入檔案。
+main() 會先詢問使用者要執行幾回，每回有幾次試驗，輸入完後就會執行 init() 做初始化，隨後開始自動計數，每當 Random() 回傳 true 成功加一，回傳 false 失敗加一，直到達到使用者設定的次數，變數因為希望可以儲存很大的數字，所以我宣告 unsigned long long，理論上可以儲存到 18446744073709551615 這麼大的數字，但我實際測試到十四億就不行了，還在找原因中&hellip;&hellip;
+
+我把程式寫完後就遠端送到 Linux 去處理，性能比較好些，於是我也寫了 Makefile。
+# Makefile of Bernoulli Trial simulation all:Bernoulli-Trial-simulation.cpp g++ Bernoulli-Trial-simulation.cpp -o Bernoulli-Trial-simulation clean: rm -f Bernoulli-Trial-simulation  超簡單的 Makefile XD就只是編譯和移除兩行指令而已，但能只打 make 就編譯還是比較方便 !",
+        "inLanguage" : "en",
+        "author" : "",
+        "creator" : "",
+        "publisher": "",
+        "accountablePerson" : "",
+        "copyrightHolder" : "",
+        "copyrightYear" : "2017",
+        "datePublished": "2017-09-19 00:00:00 &#43;0000 UTC",
+        "dateModified" : "2017-09-19 00:00:00 &#43;0000 UTC",
+        "url" : "https://oxygentw.net/blog/notes/cpp-bernoulli-trial-simulation/",
+        "wordCount" : "209",
+        "keywords" : [ "Blog" ]
+    }
+    </script>
+        
+            
+                <title>C&#43;&#43; 獨立重複白努力試驗模擬</title>
+            
+        
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="generator" content="Hugo 0.49.2" />
+        
+
+
+        
+            <meta name="author" content="oxygen">
+        
+        
+            
+                <meta name="description" content="Oxygen&#39;s 札記">
+            
+        
+
+        <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="C&#43;&#43; 獨立重複白努力試驗模擬"/>
+<meta name="twitter:description" content="數學課上到這部分，依據大數法則，試驗的次數越多，結果會越相似於常態分佈，但丟硬幣100次都嫌累了，根本沒辦法看出甚麼所以然來，這時電腦就好用了，寫個小程式，數分鐘內幫你丟五億次硬幣! 還可以更多呢!
+/* * Bernoulli Trial simulation * By C&#43;&#43; * License MIT * 2017/09/19 oxygen */ #include &lt;iostream&gt; #include &lt;fstream&gt; #include &lt;cstdlib&gt; #include &lt;ctime&gt; using namespace std; //Global Variable unsigned long long sample = 0,run_time = 0; void init() { fstream fp; fp.open(&quot;data.txt&quot;,ios::out); fp&lt;&lt;&quot;id,true,false,True-rate,False-rate\n&quot;; fp.close(); srand( (unsigned)time(NULL)); cout&lt;&lt;&quot;Program is running...\n&quot;; } bool Random() { unsigned int ran = (int)((rand() / (RAND_MAX&#43;1.0)) * (10 - 1 &#43; 1.0) &#43; 1); if(ran % 2 == 0) return true; return false; } void write_file(const int id,const unsigned long long True_number,const unsigned long long False_number) { fstream fp; fp.open(&quot;data.txt&quot;,ios::out|ios::app); fp&lt;&lt;id&lt;&lt;&quot;,&quot;&lt;&lt;True_number&lt;&lt;&quot;,&quot;&lt;&lt;False_number&lt;&lt;&quot;,&quot;&lt;&lt;(True_number/(double)run_time)*100&lt;&lt;&quot;%,&quot;&lt;&lt;(False_number/(double)run_time)*100&lt;&lt;&quot;%\n&quot;; fp.close(); } int main() { cout&lt;&lt;&quot;How many times do yo want to run? &gt;&quot;; cin &gt;&gt; sample; cout&lt;&lt;&quot;How many times do yo want to run in one sample(n)? &gt;&quot;; cin &gt;&gt; run_time; init(); for(int c=0; c&lt;sample; c&#43;&#43;) { unsigned long long True_number = 0,False_number = 0; for(unsigned long long i=0; i&lt;run_time; i&#43;&#43;) { if(Random()) True_number&#43;&#43;; else False_number&#43;&#43;; } write_file(c&#43;1,True_number,False_number); } cout&lt;&lt;&quot;Complete!\n&quot;; }  解釋一下程式碼
+init() 是程式一開始執行的函式，會把輸出檔案的標題輸出好，並初始化亂數器。
+Random() 是最主要的部份，會隨機取出1~10的數字，如果是偶數則當作成功，回傳 true ，若是奇數則做為失敗，回傳 false。
+write_file() 很簡單，把每一筆計算過的結果寫入檔案，參數需傳入[樣本編號][成功次數][失敗次數]，他便會算出比率並寫入檔案。
+main() 會先詢問使用者要執行幾回，每回有幾次試驗，輸入完後就會執行 init() 做初始化，隨後開始自動計數，每當 Random() 回傳 true 成功加一，回傳 false 失敗加一，直到達到使用者設定的次數，變數因為希望可以儲存很大的數字，所以我宣告 unsigned long long，理論上可以儲存到 18446744073709551615 這麼大的數字，但我實際測試到十四億就不行了，還在找原因中&hellip;&hellip;
+
+我把程式寫完後就遠端送到 Linux 去處理，性能比較好些，於是我也寫了 Makefile。
+# Makefile of Bernoulli Trial simulation all:Bernoulli-Trial-simulation.cpp g&#43;&#43; Bernoulli-Trial-simulation.cpp -o Bernoulli-Trial-simulation clean: rm -f Bernoulli-Trial-simulation  超簡單的 Makefile XD就只是編譯和移除兩行指令而已，但能只打 make 就編譯還是比較方便 !"/>
+
+        <meta property="og:title" content="C&#43;&#43; 獨立重複白努力試驗模擬" />
+<meta property="og:description" content="數學課上到這部分，依據大數法則，試驗的次數越多，結果會越相似於常態分佈，但丟硬幣100次都嫌累了，根本沒辦法看出甚麼所以然來，這時電腦就好用了，寫個小程式，數分鐘內幫你丟五億次硬幣! 還可以更多呢!
+/* * Bernoulli Trial simulation * By C&#43;&#43; * License MIT * 2017/09/19 oxygen */ #include &lt;iostream&gt; #include &lt;fstream&gt; #include &lt;cstdlib&gt; #include &lt;ctime&gt; using namespace std; //Global Variable unsigned long long sample = 0,run_time = 0; void init() { fstream fp; fp.open(&quot;data.txt&quot;,ios::out); fp&lt;&lt;&quot;id,true,false,True-rate,False-rate\n&quot;; fp.close(); srand( (unsigned)time(NULL)); cout&lt;&lt;&quot;Program is running...\n&quot;; } bool Random() { unsigned int ran = (int)((rand() / (RAND_MAX&#43;1.0)) * (10 - 1 &#43; 1.0) &#43; 1); if(ran % 2 == 0) return true; return false; } void write_file(const int id,const unsigned long long True_number,const unsigned long long False_number) { fstream fp; fp.open(&quot;data.txt&quot;,ios::out|ios::app); fp&lt;&lt;id&lt;&lt;&quot;,&quot;&lt;&lt;True_number&lt;&lt;&quot;,&quot;&lt;&lt;False_number&lt;&lt;&quot;,&quot;&lt;&lt;(True_number/(double)run_time)*100&lt;&lt;&quot;%,&quot;&lt;&lt;(False_number/(double)run_time)*100&lt;&lt;&quot;%\n&quot;; fp.close(); } int main() { cout&lt;&lt;&quot;How many times do yo want to run? &gt;&quot;; cin &gt;&gt; sample; cout&lt;&lt;&quot;How many times do yo want to run in one sample(n)? &gt;&quot;; cin &gt;&gt; run_time; init(); for(int c=0; c&lt;sample; c&#43;&#43;) { unsigned long long True_number = 0,False_number = 0; for(unsigned long long i=0; i&lt;run_time; i&#43;&#43;) { if(Random()) True_number&#43;&#43;; else False_number&#43;&#43;; } write_file(c&#43;1,True_number,False_number); } cout&lt;&lt;&quot;Complete!\n&quot;; }  解釋一下程式碼
+init() 是程式一開始執行的函式，會把輸出檔案的標題輸出好，並初始化亂數器。
+Random() 是最主要的部份，會隨機取出1~10的數字，如果是偶數則當作成功，回傳 true ，若是奇數則做為失敗，回傳 false。
+write_file() 很簡單，把每一筆計算過的結果寫入檔案，參數需傳入[樣本編號][成功次數][失敗次數]，他便會算出比率並寫入檔案。
+main() 會先詢問使用者要執行幾回，每回有幾次試驗，輸入完後就會執行 init() 做初始化，隨後開始自動計數，每當 Random() 回傳 true 成功加一，回傳 false 失敗加一，直到達到使用者設定的次數，變數因為希望可以儲存很大的數字，所以我宣告 unsigned long long，理論上可以儲存到 18446744073709551615 這麼大的數字，但我實際測試到十四億就不行了，還在找原因中&hellip;&hellip;
+
+我把程式寫完後就遠端送到 Linux 去處理，性能比較好些，於是我也寫了 Makefile。
+# Makefile of Bernoulli Trial simulation all:Bernoulli-Trial-simulation.cpp g&#43;&#43; Bernoulli-Trial-simulation.cpp -o Bernoulli-Trial-simulation clean: rm -f Bernoulli-Trial-simulation  超簡單的 Makefile XD就只是編譯和移除兩行指令而已，但能只打 make 就編譯還是比較方便 !" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://oxygentw.net/blog/notes/cpp-bernoulli-trial-simulation/" /><meta property="article:published_time" content="2017-09-19T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2017-09-19T00:00:00&#43;00:00"/>
+
+        <meta property="og:image" content="https://oxygentw.net/images/logo.png">
+        <meta property="og:image:type" content="image/png">
+        <meta property="og:image:width" content="512">
+        <meta property="og:image:height" content="512">
+        
+<meta itemprop="name" content="C&#43;&#43; 獨立重複白努力試驗模擬">
+<meta itemprop="description" content="數學課上到這部分，依據大數法則，試驗的次數越多，結果會越相似於常態分佈，但丟硬幣100次都嫌累了，根本沒辦法看出甚麼所以然來，這時電腦就好用了，寫個小程式，數分鐘內幫你丟五億次硬幣! 還可以更多呢!
+/* * Bernoulli Trial simulation * By C&#43;&#43; * License MIT * 2017/09/19 oxygen */ #include &lt;iostream&gt; #include &lt;fstream&gt; #include &lt;cstdlib&gt; #include &lt;ctime&gt; using namespace std; //Global Variable unsigned long long sample = 0,run_time = 0; void init() { fstream fp; fp.open(&quot;data.txt&quot;,ios::out); fp&lt;&lt;&quot;id,true,false,True-rate,False-rate\n&quot;; fp.close(); srand( (unsigned)time(NULL)); cout&lt;&lt;&quot;Program is running...\n&quot;; } bool Random() { unsigned int ran = (int)((rand() / (RAND_MAX&#43;1.0)) * (10 - 1 &#43; 1.0) &#43; 1); if(ran % 2 == 0) return true; return false; } void write_file(const int id,const unsigned long long True_number,const unsigned long long False_number) { fstream fp; fp.open(&quot;data.txt&quot;,ios::out|ios::app); fp&lt;&lt;id&lt;&lt;&quot;,&quot;&lt;&lt;True_number&lt;&lt;&quot;,&quot;&lt;&lt;False_number&lt;&lt;&quot;,&quot;&lt;&lt;(True_number/(double)run_time)*100&lt;&lt;&quot;%,&quot;&lt;&lt;(False_number/(double)run_time)*100&lt;&lt;&quot;%\n&quot;; fp.close(); } int main() { cout&lt;&lt;&quot;How many times do yo want to run? &gt;&quot;; cin &gt;&gt; sample; cout&lt;&lt;&quot;How many times do yo want to run in one sample(n)? &gt;&quot;; cin &gt;&gt; run_time; init(); for(int c=0; c&lt;sample; c&#43;&#43;) { unsigned long long True_number = 0,False_number = 0; for(unsigned long long i=0; i&lt;run_time; i&#43;&#43;) { if(Random()) True_number&#43;&#43;; else False_number&#43;&#43;; } write_file(c&#43;1,True_number,False_number); } cout&lt;&lt;&quot;Complete!\n&quot;; }  解釋一下程式碼
+init() 是程式一開始執行的函式，會把輸出檔案的標題輸出好，並初始化亂數器。
+Random() 是最主要的部份，會隨機取出1~10的數字，如果是偶數則當作成功，回傳 true ，若是奇數則做為失敗，回傳 false。
+write_file() 很簡單，把每一筆計算過的結果寫入檔案，參數需傳入[樣本編號][成功次數][失敗次數]，他便會算出比率並寫入檔案。
+main() 會先詢問使用者要執行幾回，每回有幾次試驗，輸入完後就會執行 init() 做初始化，隨後開始自動計數，每當 Random() 回傳 true 成功加一，回傳 false 失敗加一，直到達到使用者設定的次數，變數因為希望可以儲存很大的數字，所以我宣告 unsigned long long，理論上可以儲存到 18446744073709551615 這麼大的數字，但我實際測試到十四億就不行了，還在找原因中&hellip;&hellip;
+
+我把程式寫完後就遠端送到 Linux 去處理，性能比較好些，於是我也寫了 Makefile。
+# Makefile of Bernoulli Trial simulation all:Bernoulli-Trial-simulation.cpp g&#43;&#43; Bernoulli-Trial-simulation.cpp -o Bernoulli-Trial-simulation clean: rm -f Bernoulli-Trial-simulation  超簡單的 Makefile XD就只是編譯和移除兩行指令而已，但能只打 make 就編譯還是比較方便 !">
+
+
+<meta itemprop="datePublished" content="2017-09-19T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2017-09-19T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="209">
+
+
+
+<meta itemprop="keywords" content="" />
+
+        
+
+        
+            
+        
+
+        
+        
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800,900|Source+Sans+Pro:400,700">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.css">
+            <link rel="stylesheet" href="https://oxygentw.net/css/main.css">
+            <link rel="stylesheet" href="https://oxygentw.net/css/add-on.css">
+            <link rel="stylesheet" href="https://oxygentw.net/css/academicons.min.css">
+        
+
+        
+            
+                
+            
+        
+
+
+  
+    
+    <link href='//cdn.bootcss.com/highlight.js/9.11.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+  
+
+
+      
+    </head>
+    <body>
+
+      
+      <div id="wrapper">
+
+    
+    
+<header id="header">
+    
+      <h1><a href="https://oxygentw.net/">blog</a></h1>
+    
+
+    <nav class="links">
+        <ul>
+            
+                <li>
+                    <a href="https://oxygentw.net/">
+                            <i class="fa fa-home">&nbsp;</i>Home
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="https://oxygentw.net/about/">
+                            <i class="fa fa-id-card-o">&nbsp;</i>About
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="https://oxygentw.net/blog/">
+                            <i class="fa fa-newspaper-o">&nbsp;</i>Blog
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="https://oxygentw.net/categories/">
+                            <i class="fa fa-sitemap">&nbsp;</i>Categories
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="https://oxygentw.net/contact/">
+                            <i class="fa fa-envelope-o">&nbsp;</i>Contact
+                    </a>
+                </li>
+            
+        </ul>
+    </nav>
+    <nav class="main">
+        <ul>
+            
+            <li id="share-nav" class="share-menu" style="display:none;">
+                <a class="fa-share-alt" href="#share-menu">Share</a>
+            </li>
+            
+            <li class="search">
+                <a class="fa-search" href="#search">Search</a>
+                <form id="search" method="get" action="//google.com/search">
+                    <input type="text" name="q" placeholder="Search" />
+                    <input type="hidden" name="as_sitesearch" value="https://oxygentw.net">
+                </form>
+            </li>
+            <li class="menu">
+                <a class="fa-bars" href="#menu">Menu</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+<section id="menu">
+
+    
+        <section>
+            <form class="search" method="get" action="//google.com/search">
+                <input type="text" name="q" placeholder="Search" />
+                <input type="hidden" name="as_sitesearch" value="https://oxygentw.net">
+            </form>
+        </section>
+
+    
+        <section>
+            <ul class="links">
+                
+                    <li>
+                        <a href="https://oxygentw.net/">
+                            <h3>
+                                <i class="fa fa-home">&nbsp;</i>Home
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://oxygentw.net/about/">
+                            <h3>
+                                <i class="fa fa-id-card-o">&nbsp;</i>About
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://oxygentw.net/blog/">
+                            <h3>
+                                <i class="fa fa-newspaper-o">&nbsp;</i>Blog
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://oxygentw.net/categories/">
+                            <h3>
+                                <i class="fa fa-sitemap">&nbsp;</i>Categories
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://oxygentw.net/contact/">
+                            <h3>
+                                <i class="fa fa-envelope-o">&nbsp;</i>Contact
+                            </h3>
+                        </a>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+        <section class="recent-posts">
+            <div class="mini-posts">
+                <header>
+                    <h3>Recent Posts</h3>
+                </header>
+                
+
+                
+                    
+                
+
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="https://oxygentw.net/blog/notes/abnormal-behavior-4d/">變態行為診斷 4D</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2018-11-05'>
+                                    November 5, 2018</time>
+                            </header>
+                            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+        
+        
+        
+
+        <a href="https://oxygentw.net/blog/notes/abnormal-behavior-4d/" class="image featured">
+            <img src="https://oxygentw.net/img/2018/11/" alt="">
+        </a>
+    
+
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="https://oxygentw.net/blog/notes/about-bpd/">淺談邊緣型人格疾患</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2018-09-10'>
+                                    September 10, 2018</time>
+                            </header>
+                            
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="https://oxygentw.net/blog/poetry/unwarranted-aspersion/">莫須有</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2017-12-30'>
+                                    December 30, 2017</time>
+                            </header>
+                            
+
+                        </article>
+                
+
+                
+                    <a href=
+                        
+                            /blog/
+                        
+                        class="button">View more posts</a>
+                
+            </div>
+        </section>
+
+    
+        
+</section>
+
+    <section id="share-menu">
+    <section id="social-share-nav">
+        <ul class="links">
+            <header>
+                <h3>Share this post <i class="fa fa-smile-o"></i></h3>
+            </header>
+            
+
+
+
+<li>
+  <a href="//twitter.com/share?url=https%3a%2f%2foxygentw.net%2fblog%2fnotes%2fcpp-bernoulli-trial-simulation%2f&amp;text=C%2b%2b%20%e7%8d%a8%e7%ab%8b%e9%87%8d%e8%a4%87%e7%99%bd%e5%8a%aa%e5%8a%9b%e8%a9%a6%e9%a9%97%e6%a8%a1%e6%93%ac&amp;via=" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+    </a>
+</li>
+
+
+
+
+<li>
+  <a href="//plus.google.com/share?url=https%3a%2f%2foxygentw.net%2fblog%2fnotes%2fcpp-bernoulli-trial-simulation%2f" target="_blank" class="share-btn google-plus">
+    <i class="fa fa-google-plus"></i>
+    <p>Google+</p>
+  </a>
+</li>
+
+
+
+
+
+<li>
+  <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2foxygentw.net%2fblog%2fnotes%2fcpp-bernoulli-trial-simulation%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+    </a>
+</li>
+
+
+
+
+<li>
+  <a href="//reddit.com/submit?url=https%3a%2f%2foxygentw.net%2fblog%2fnotes%2fcpp-bernoulli-trial-simulation%2f&amp;title=C%2b%2b%20%e7%8d%a8%e7%ab%8b%e9%87%8d%e8%a4%87%e7%99%bd%e5%8a%aa%e5%8a%9b%e8%a9%a6%e9%a9%97%e6%a8%a1%e6%93%ac" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+  </a>
+</li>
+
+
+
+
+
+
+
+
+
+
+<li>
+  <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2foxygentw.net%2fblog%2fnotes%2fcpp-bernoulli-trial-simulation%2f&amp;description=C%2b%2b%20%e7%8d%a8%e7%ab%8b%e9%87%8d%e8%a4%87%e7%99%bd%e5%8a%aa%e5%8a%9b%e8%a9%a6%e9%a9%97%e6%a8%a1%e6%93%ac" target="_blank" class="share-btn pinterest">
+    <i class="fa fa-pinterest-p"></i>
+    <p>Pinterest</p>
+  </a>
+</li>
+
+
+
+
+<li>
+  <a href="mailto:?subject=Check out this post by oxygen&amp;body=https%3a%2f%2foxygentw.net%2fblog%2fnotes%2fcpp-bernoulli-trial-simulation%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+  </a>
+</li>
+
+
+        </ul>
+    </section>
+</section>
+
+    
+    <div id="main">
+        
+        
+        <article class="post">
+  <header>
+    <div class="title">
+        
+            <h1><a href="https://oxygentw.net/blog/notes/cpp-bernoulli-trial-simulation/">C&#43;&#43; 獨立重複白努力試驗模擬</a></h1>
+            
+        
+        
+    </div>
+    <div class="meta">
+        
+
+        <time class="published"
+            datetime='2017-09-19'>
+            September 19, 2017</time>
+        <span class="author">oxygen</span>
+        
+            <p>1 minute read</p>
+        
+        
+    </div>
+</header>
+
+
+  
+    <section id="social-share">
+      <ul class="icons">
+        
+
+
+
+<li>
+  <a href="//twitter.com/share?url=https%3a%2f%2foxygentw.net%2fblog%2fnotes%2fcpp-bernoulli-trial-simulation%2f&amp;text=C%2b%2b%20%e7%8d%a8%e7%ab%8b%e9%87%8d%e8%a4%87%e7%99%bd%e5%8a%aa%e5%8a%9b%e8%a9%a6%e9%a9%97%e6%a8%a1%e6%93%ac&amp;via=" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+    </a>
+</li>
+
+
+
+
+<li>
+  <a href="//plus.google.com/share?url=https%3a%2f%2foxygentw.net%2fblog%2fnotes%2fcpp-bernoulli-trial-simulation%2f" target="_blank" class="share-btn google-plus">
+    <i class="fa fa-google-plus"></i>
+    <p>Google+</p>
+  </a>
+</li>
+
+
+
+
+
+<li>
+  <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2foxygentw.net%2fblog%2fnotes%2fcpp-bernoulli-trial-simulation%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+    </a>
+</li>
+
+
+
+
+<li>
+  <a href="//reddit.com/submit?url=https%3a%2f%2foxygentw.net%2fblog%2fnotes%2fcpp-bernoulli-trial-simulation%2f&amp;title=C%2b%2b%20%e7%8d%a8%e7%ab%8b%e9%87%8d%e8%a4%87%e7%99%bd%e5%8a%aa%e5%8a%9b%e8%a9%a6%e9%a9%97%e6%a8%a1%e6%93%ac" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+  </a>
+</li>
+
+
+
+
+
+
+
+
+
+
+<li>
+  <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2foxygentw.net%2fblog%2fnotes%2fcpp-bernoulli-trial-simulation%2f&amp;description=C%2b%2b%20%e7%8d%a8%e7%ab%8b%e9%87%8d%e8%a4%87%e7%99%bd%e5%8a%aa%e5%8a%9b%e8%a9%a6%e9%a9%97%e6%a8%a1%e6%93%ac" target="_blank" class="share-btn pinterest">
+    <i class="fa fa-pinterest-p"></i>
+    <p>Pinterest</p>
+  </a>
+</li>
+
+
+
+
+<li>
+  <a href="mailto:?subject=Check out this post by oxygen&amp;body=https%3a%2f%2foxygentw.net%2fblog%2fnotes%2fcpp-bernoulli-trial-simulation%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+  </a>
+</li>
+
+
+      </ul>
+    </section>
+  
+
+  
+
+  <div id="content">
+    <p>數學課上到這部分，依據大數法則，試驗的次數越多，結果會越相似於常態分佈，但丟硬幣100次都嫌累了，根本沒辦法看出甚麼所以然來，這時電腦就好用了，寫個小程式，數分鐘內幫你丟五億次硬幣! 還可以更多呢!</p>
+
+<pre><code class="language-cpp">/*
+ * Bernoulli Trial simulation
+ * By C++
+ * License MIT
+ * 2017/09/19 oxygen
+ */
+
+#include &lt;iostream&gt;
+#include &lt;fstream&gt;
+#include &lt;cstdlib&gt;
+#include &lt;ctime&gt;
+
+using namespace std;
+
+//Global Variable
+unsigned long long sample = 0,run_time = 0;
+
+void init()
+{
+    fstream fp;
+    fp.open(&quot;data.txt&quot;,ios::out);
+    fp&lt;&lt;&quot;id,true,false,True-rate,False-rate\n&quot;;
+    fp.close();
+
+    srand( (unsigned)time(NULL));
+    cout&lt;&lt;&quot;Program is running...\n&quot;;
+}
+
+bool Random()
+{
+    unsigned int ran = (int)((rand() / (RAND_MAX+1.0)) * (10 - 1 + 1.0) + 1);
+    if(ran % 2 == 0)
+        return true;
+    return false;
+}
+
+void write_file(const int id,const unsigned long long True_number,const unsigned long long False_number)
+{
+    fstream fp;
+    fp.open(&quot;data.txt&quot;,ios::out|ios::app);
+    fp&lt;&lt;id&lt;&lt;&quot;,&quot;&lt;&lt;True_number&lt;&lt;&quot;,&quot;&lt;&lt;False_number&lt;&lt;&quot;,&quot;&lt;&lt;(True_number/(double)run_time)*100&lt;&lt;&quot;%,&quot;&lt;&lt;(False_number/(double)run_time)*100&lt;&lt;&quot;%\n&quot;;
+    fp.close();
+}
+
+int main()
+{
+    cout&lt;&lt;&quot;How many times do yo want to run? &gt;&quot;;
+    cin &gt;&gt; sample;
+    cout&lt;&lt;&quot;How many times do yo want to run in one sample(n)? &gt;&quot;;
+    cin &gt;&gt; run_time;
+
+    init();
+
+    for(int c=0; c&lt;sample; c++)
+    {
+        unsigned long long True_number = 0,False_number = 0;
+        for(unsigned long long i=0; i&lt;run_time; i++)
+        {
+            if(Random())
+                True_number++;
+            else
+                False_number++;
+        }
+        write_file(c+1,True_number,False_number);
+    }
+
+    cout&lt;&lt;&quot;Complete!\n&quot;;
+}
+</code></pre>
+
+<p>解釋一下程式碼</p>
+
+<p><code>init()</code> 是程式一開始執行的函式，會把輸出檔案的標題輸出好，並初始化亂數器。</p>
+
+<p>Random() 是最主要的部份，會隨機取出1~10的數字，如果是偶數則當作成功，回傳 true ，若是奇數則做為失敗，回傳 false。</p>
+
+<p><code>write_file()</code> 很簡單，把每一筆計算過的結果寫入檔案，參數需傳入[樣本編號][成功次數][失敗次數]，他便會算出比率並寫入檔案。</p>
+
+<p><code>main()</code> 會先詢問使用者要執行幾回，每回有幾次試驗，輸入完後就會執行 <code>init()</code> 做初始化，隨後開始自動計數，每當 <code>Random()</code> 回傳 true 成功加一，回傳 false 失敗加一，直到達到使用者設定的次數，變數因為希望可以儲存很大的數字，所以我宣告 unsigned long long，理論上可以儲存到 18446744073709551615 這麼大的數字，但我實際測試到十四億就不行了，還在找原因中&hellip;&hellip;</p>
+
+<p><br/></p>
+
+<p>我把程式寫完後就遠端送到 Linux 去處理，性能比較好些，於是我也寫了 Makefile。</p>
+
+<pre><code class="language-shell"># Makefile of Bernoulli Trial simulation
+all:Bernoulli-Trial-simulation.cpp
+    g++ Bernoulli-Trial-simulation.cpp -o Bernoulli-Trial-simulation
+clean:
+    rm -f Bernoulli-Trial-simulation
+</code></pre>
+
+<p>超簡單的 Makefile XD就只是編譯和移除兩行指令而已，但能只打 make 就編譯還是比較方便 !</p>
+
+  </div>
+
+  <footer>
+    <ul class="stats">
+  <li class="categories">
+    <ul>
+        
+            
+            
+                <i class="fa fa-folder"></i>
+                
+                
+                <li><a class="article-category-link" href="https://oxygentw.net/categories/notes">notes</a></li>
+                
+                
+                <li><a class="article-category-link" href="https://oxygentw.net/categories/computer">computer</a></li>
+                
+            
+        
+    </ul>
+  </li>
+  <li class="tags">
+    <ul>
+        
+    </ul>
+  </li>
+</ul>
+
+  </footer>
+
+</article>
+
+    <article class="post">
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "shortname" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </article>
+
+
+<ul class="actions pagination">
+    
+        <li><a href="https://oxygentw.net/blog/notes/dsm-5-305-90-translation/"
+                class="button big previous">翻譯 - DSM-5 305.90 咖啡因依賴症</a></li>
+    
+
+    
+        <li><a href="https://oxygentw.net/blog/poetry/unwarranted-aspersion/"
+                class="button big next">莫須有</a></li>
+    
+</ul>
+
+
+    </div>
+    
+<section id="sidebar">
+
+  
+  <section id="intro">
+    
+    
+      
+        <a href='https://oxygentw.net/' class="logo"><img src="https://oxygentw.net/img/main/logo2.jpg" alt="Hugo Future Imperfect" /></a>
+      
+    
+    
+      <header>
+        <h2>Oxygen&#39;s 札記</h2>
+        <p>你來自南方的紅色啊，是否也是個動人的故事啊</p>
+      </header>
+    
+    
+      <ul class="icons">
+        
+          
+    <li><a href="https://oxygentw.net/index.xml" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a></li>
+
+
+        
+        
+  <li><a href="//github.com/oxygen-TW" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//www.instagram.com/biological_user" target="_blank" title="Instagram" class="fa fa-instagram"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="mailto:oxygen5307@gmail.com" title="Email" class="fa fa-envelope"></a></li>
+
+
+      </ul>
+    
+  </section>
+
+  
+  <section class="recent-posts">
+    <div class="mini-posts">
+      <header>
+        <h3>Recent Posts</h3>
+      </header>
+      <div class="posts-container">
+        
+
+        
+          
+        
+
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="https://oxygentw.net/blog/notes/abnormal-behavior-4d/">變態行為診斷 4D</a>
+              </h3>
+              
+              <time class="published" datetime='2018-11-05'>
+                November 5, 2018
+              </time>
+            </header>
+            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+        
+        
+        
+
+        <a href="https://oxygentw.net/blog/notes/abnormal-behavior-4d/" class="image featured">
+            <img src="https://oxygentw.net/img/2018/11/" alt="">
+        </a>
+    
+
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="https://oxygentw.net/blog/notes/about-bpd/">淺談邊緣型人格疾患</a>
+              </h3>
+              
+              <time class="published" datetime='2018-09-10'>
+                September 10, 2018
+              </time>
+            </header>
+            
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="https://oxygentw.net/blog/poetry/unwarranted-aspersion/">莫須有</a>
+              </h3>
+              
+              <time class="published" datetime='2017-12-30'>
+                December 30, 2017
+              </time>
+            </header>
+            
+
+          </article>
+        
+      </div>
+
+      
+        <a href=
+          
+            /blog/
+          
+        class="button">View more posts</a>
+      
+    </div>
+  </section>
+
+  
+  
+  
+  
+  
+    <section id="categories">
+      <header>
+        <h3>
+          <a href="https://oxygentw.net/categories/">Categories</a>
+        </h3>
+      </header>
+        
+          
+        
+
+        
+        <p>
+          <article>
+            <header>
+              
+              
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://oxygentw.net/categories/notes/">notes</a>
+                <span style="float:right;">4</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://oxygentw.net/categories/poetry/">poetry</a>
+                <span style="float:right;">3</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://oxygentw.net/categories/prose/">prose</a>
+                <span style="float:right;">2</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://oxygentw.net/categories/computer/">computer</a>
+                <span style="float:right;">1</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://oxygentw.net/categories/medical-knowledge/">medical-knowledge</a>
+                <span style="float:right;">1</span>
+              
+            </header>
+          </article>
+        </p>
+        
+    </section>
+  
+  
+
+  
+  
+    <section id="mini-bio">
+      <h3>About</h3>
+      <p>紀錄一些筆記，還有每次旅行的故事。</p>
+      <a href="https://oxygentw.net/about/" class="button">Learn More</a>
+    </section>
+  
+
+  
+  <section id="footer">
+    
+      <ul class="icons">
+        
+          
+    <li><a href="https://oxygentw.net/index.xml" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a></li>
+
+
+        
+        
+  <li><a href="//github.com/oxygen-TW" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//www.instagram.com/biological_user" target="_blank" title="Instagram" class="fa fa-instagram"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="mailto:oxygen5307@gmail.com" title="Email" class="fa fa-envelope"></a></li>
+
+
+      </ul>
+    
+    <p class="copyright">
+      
+        &copy; 2018
+        
+          Oxygen&#39;s 生活札記
+        
+      .
+      Powered by <a href="//gohugo.io" target="_blank">Hugo</a>
+    </p>
+  </section>
+</section>
+
+    </div>
+    <a id="back-to-top" href="#" class="fa fa-arrow-up fa-border fa-2x"></a>
+    
+
+    
+      
+    
+
+    
+      
+      
+      
+        <script src="//cdn.bootcss.com/highlight.js/9.11.0/highlight.min.js"></script>
+        
+        
+        
+        <script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/r.min.js"></script>
+        <script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/yaml.min.js"></script>
+        <script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/css.min.js"></script>
+        <script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+      
+    
+    
+    
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/skel/3.0.1/skel.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.js"></script>
+      <script src="https://oxygentw.net/js/util.js"></script>
+      <script src="https://oxygentw.net/js/main.js"></script>
+      <script src="https://oxygentw.net/js/backToTop.js"></script>
+    
+
+    
+      
+        
+      
+    
+
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+      <script src="//yihui.name/js/math-code.js"></script>
+<script async
+src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
+  </body>
+</html>
+

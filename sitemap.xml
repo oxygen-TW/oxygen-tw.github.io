@@ -18,6 +18,36 @@
   </url>
   
   <url>
+    <loc>https://oxygentw.net/blog/poetry/unwarranted-aspersion/</loc>
+    <lastmod>2017-12-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://oxygentw.net/blog/notes/cpp-bernoulli-trial-simulation/</loc>
+    <lastmod>2017-09-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://oxygentw.net/blog/notes/dsm-5-305-90-translation/</loc>
+    <lastmod>2017-08-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://oxygentw.net/blog/prose/about-suicide-depression/</loc>
+    <lastmod>2017-07-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://oxygentw.net/blog/prose/wine/</loc>
+    <lastmod>2017-07-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://oxygentw.net/blog/poetry/desk_memories/</loc>
+    <lastmod>2017-06-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://oxygentw.net/itemized/item1/</loc>
     <lastmod>2017-06-22T00:00:00+00:00</lastmod>
   </url>
@@ -35,6 +65,11 @@
   <url>
     <loc>https://oxygentw.net/itemized/item4/</loc>
     <lastmod>2017-06-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://oxygentw.net/blog/poetry/sacrifice-love/</loc>
+    <lastmod>2017-04-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -73,6 +108,12 @@
   </url>
   
   <url>
+    <loc>https://oxygentw.net/categories/computer/</loc>
+    <lastmod>2017-09-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://oxygentw.net/categories/medical-knowledge/</loc>
     <lastmod>2018-09-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -81,6 +122,18 @@
   <url>
     <loc>https://oxygentw.net/categories/notes/</loc>
     <lastmod>2018-11-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://oxygentw.net/categories/poetry/</loc>
+    <lastmod>2017-12-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://oxygentw.net/categories/prose/</loc>
+    <lastmod>2017-07-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
