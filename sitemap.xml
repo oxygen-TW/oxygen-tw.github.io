@@ -3,89 +3,89 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.com/blog/notes/abnormal-behavior-4d/</loc>
+    <loc>https://osygentw.net/blog/notes/abnormal-behavior-4d/</loc>
     <lastmod>2018-11-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.com/about/</loc>
+    <loc>https://osygentw.net/about/</loc>
     <lastmod>2018-11-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.com/blog/notes/about-bpd/</loc>
+    <loc>https://osygentw.net/blog/notes/about-bpd/</loc>
     <lastmod>2018-09-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.com/itemized/item1/</loc>
+    <loc>https://osygentw.net/itemized/item1/</loc>
     <lastmod>2017-06-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.com/itemized/item2/</loc>
+    <loc>https://osygentw.net/itemized/item2/</loc>
     <lastmod>2017-06-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.com/itemized/item3/</loc>
+    <loc>https://osygentw.net/itemized/item3/</loc>
     <lastmod>2017-06-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.com/itemized/item4/</loc>
+    <loc>https://osygentw.net/itemized/item4/</loc>
     <lastmod>2017-06-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.com/categories/</loc>
+    <loc>https://osygentw.net/categories/</loc>
     <lastmod>2017-06-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.com/blog/</loc>
+    <loc>https://osygentw.net/blog/</loc>
     <lastmod>2018-11-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.com/categories/</loc>
+    <loc>https://osygentw.net/categories/</loc>
     <lastmod>2017-06-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.com/itemized/</loc>
+    <loc>https://osygentw.net/itemized/</loc>
     <lastmod>2017-06-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.com/</loc>
+    <loc>https://osygentw.net/</loc>
     <lastmod>2018-11-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/</loc>
+    <loc>https://osygentw.net/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.com/categories/medical-knowledge/</loc>
+    <loc>https://osygentw.net/categories/medical-knowledge/</loc>
     <lastmod>2018-09-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.com/categories/notes/</loc>
+    <loc>https://osygentw.net/categories/notes/</loc>
     <lastmod>2018-11-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.com/contact/</loc>
+    <loc>https://osygentw.net/contact/</loc>
   </url>
   
 </urlset>
