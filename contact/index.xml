@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>聯絡我 | Contact on Oxygen&#39;s 生活札記</title>
-    <link>https://osygentw.net/contact/</link>
+    <link>https://oxygentw.net/contact/</link>
     <description>Recent content in 聯絡我 | Contact on Oxygen&#39;s 生活札記</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     
-	<atom:link href="https://osygentw.net/contact/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://oxygentw.net/contact/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

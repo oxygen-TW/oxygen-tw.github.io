@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Oxygen&#39;s 生活札記</title>
-    <link>https://osygentw.net/categories/</link>
+    <link>https://oxygentw.net/categories/</link>
     <description>Recent content in Categories on Oxygen&#39;s 生活札記</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <lastBuildDate>Thu, 22 Jun 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://osygentw.net/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://oxygentw.net/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>https://osygentw.net/categories/</link>
+      <link>https://oxygentw.net/categories/</link>
       <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://osygentw.net/categories/</guid>
+      <guid>https://oxygentw.net/categories/</guid>
       <description></description>
     </item>
     
     <item>
       <title>medical-knowledge</title>
-      <link>https://osygentw.net/categories/medical-knowledge/</link>
+      <link>https://oxygentw.net/categories/medical-knowledge/</link>
       <pubDate>Mon, 10 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://osygentw.net/categories/medical-knowledge/</guid>
+      <guid>https://oxygentw.net/categories/medical-knowledge/</guid>
       <description></description>
     </item>
     
     <item>
       <title>notes</title>
-      <link>https://osygentw.net/categories/notes/</link>
+      <link>https://oxygentw.net/categories/notes/</link>
       <pubDate>Mon, 05 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://osygentw.net/categories/notes/</guid>
+      <guid>https://oxygentw.net/categories/notes/</guid>
       <description></description>
     </item>
     
   </channel>
 </rss>tle>
-      <link>https://osygentw.net/itemized/item4/</link>
+      <link>https://oxygentw.net/itemized/item4/</link>
       <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://osygentw.net/itemized/item4/</guid>
+      <guid>https://oxygentw.net/itemized/item4/</guid>
       <description> App 4 </description>
     </item>
     
