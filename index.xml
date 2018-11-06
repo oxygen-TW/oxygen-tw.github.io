@@ -6,10 +6,54 @@
     <description>Recent content on Oxygen&#39;s 札記</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Mon, 05 Nov 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 Nov 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://oxygentw.net/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>基本化學物命名 Chemical Nomenclature</title>
+      <link>https://oxygentw.net/blog/notes/simple-chemical-nomenclature/</link>
+      <pubDate>Tue, 06 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/notes/simple-chemical-nomenclature/</guid>
+      <description>期中考期中考期中考，一大堆化學啊啊啊，順手把化學命名放上網站，就要繼續泡在化學堆了&amp;hellip;
+離子化合物  金屬 + 非金屬
+陰離子名字後 + &amp;ldquo;ide&amp;rdquo;
+ BaCl2 barium chloride
+K2O potassium oxide
+KNO3 potassium nitrate
+
+過渡金屬化合物  用羅馬數字在金屬名稱後標明價數
+ FeCl2 Iron(II) chloride
+FeCl3 Iron(III) chlor**ide
+
+分子化合物  非金屬(Nonmetals) or 非金屬 + 類金屬(metalloids)
+週期表中高週期的元素和越接近1A族放名稱前面
+若化合物中有多個同一元素則用 prefixes 指出數量
+最後元素以 &amp;ldquo;ide&amp;rdquo; 結尾
+ HI hydrogen iodide
+NF3 nitrogen trifluoride
+N2Cl4 dinitrogen tetrachloride
+
+Prifixes table    Prefix Number     mono- 1   di- 2   tri- 3   tetra- 4   penta- 5   hexa- 6   hepta- 7   octa- 8   nona- 9   deca- 10    
+氫酸 純物質狀態下  hydrogen + 另一化合物名 + ide
+ HCl(g) hydrogen chloride
+HI(g) hydrogen iodide
+
+溶於水狀態下  hydro化合物名ic + acid
+ HCl(aq) hydrochloric acid
+HI(aq) hydroiodic acid
+H2S(aq) hydrosulfuric acid
+
+含氧酸  依照不同酸種適用下列表格
+含氧酸移除所有氫後稱為 Oxoanion
+若有移除氫但不是完全移除，則須於前面用 prefix 註明氫的數量
+    酸 Oxoacid Oxoanion     過酸 per- -ic acid per- -ate   正酸 -ic acid -ate   亞酸 -ous acid -ite   次酸 hypo- -ous acid hypo- -ite    
+過氯酸 HClO4 perchloric acid
+氯酸 HClO3 chloric acid
+亞氯酸 HClO2 chlor*ous acid</description>
+    </item>
     
     <item>
       <title>變態行為診斷 4D</title>
