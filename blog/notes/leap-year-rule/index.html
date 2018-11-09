@@ -11,38 +11,31 @@
              "@id": "https://oxygentw.net"
         },
         "articleSection" : "blog",
-        "name" : "莫須有",
-        "headline" : "莫須有",
-        "description" : "即使在校園中，仍然存在著不平等的權力與欺騙，是無知，或誣陷，不實的指控成為強而有力的刺刀，罪人的演技很好，他的淚水贏得了多少同情? 而我們呢? 真誠的面對世界，解釋一切非我們所為，以為一切就會歸於平靜，然而卻遭到更多的懷疑與迫害，或許，我們犯的錯就是，過度信任信任這回事。
-創作於 2017 / 11 /24 身為嫌疑犯的夜晚
-燦爛的笑容 鋒利的匕首
-光輝下的陰暗 由誰來識破？
-萬無一失的謊言 包覆著利益的複合體
-複合著你的利益與他的悲鳴
--
-莫須有 實在也是一個罪名
-不論你以「莫須有」或「莫，須有」解釋
-都能說得通
-更加為你的推論提供了佐證
-喔，抱歉 你不需要證據
--
-通貨膨脹
-當貨幣的內涵小於面額時發生
-信任的通貨膨脹
-人際間的互動以安然的外殼掩飾內在的空虛
-信任貶值
-人們開始利益的以物易物
--
-一舉一動受到無形的監視
-信任的後果是謀殺
-破碎的血肉
-是被蹂躪過橫的鮮紅顏料
-在陽光的反照下 頗美的 不是嗎?
--
-權力的殿堂中供奉著你們的狂喜
-權力之下將成為必需的供品
-無效的怒吼 無力的掙扎
-抗議著不公與真理被蒙蔽是百姓最後的嘆息",
+        "name" : "閏年規則由來",
+        "headline" : "閏年規則由來",
+        "description" : " 我們現在使用的曆法屬於太陽曆，也就是以太陽運行為標準所訂下的，大多數人都知道有一個用來修正時間的規則 — 閏年，使的特定年份會有366天，但其中設計這套規則的意義就較不為人所知了。
+從閏年規則說起，以下是我們熟知的閏年規則
+ 每四年閏一年 逢百年不閏 逢四百年閏一年  說起來還真的有些複雜，事實上，我們所說的修正，其實是在修正我們所認知的一年與回歸年(tropical year)之間的差距，那甚麼是回歸年呢?
+
+回歸年 回歸年是指太陽在黃道上回到同一位置的週期，是從地球上觀察的角度定義的，一回歸年等於365.2422個平均太陽日，又因為地球自轉軸進動(自轉軸每年會有小角度變化，這又是另一個學問，在此先不談)的影響，每年會和恆星年有 20分24秒的差距。
+ 　一年 = 365平均太陽日
+1回歸年 = 365.2422平均太陽日
+1恆星年 = 365.2564平均太陽日
+ 每年有 365.2422天，那少過的0.2422天呢? 我們沒辦法過 0.2422天，但也不能當作沒這回事啊，因此將他累積起來，積到差不多一天的時候再來修正，因此每四年會閏一年，但 0.2422 * 4 ≠ 1，所以接下來會繼續累積，修正，累積，修正……我用下面的算式說明。
+ 過了四年，總共少0.9388天
+-0.2422天 * 4 = -0.9388天
+# 每四年閏一次，多加一天進去，但這樣卻多了0.0312天 -0.9388天 +1天 = 0.0312天
+# 過了一百年後，居然多了 0.78天 0.0312天 * 25 = 0.78天
+# 於是逢百不閏，扣掉多的天數，但又少0.22天
+0.78天 - 1 = -0.22天
+# 四百年後，少的天數達0.88天
+-0.22天 * 4 = -0.88天
+# 逢四百一閏，減掉多餘的一天
+-0.88天 + 1 = +0.12天
+ 
+各位可能會有個疑問，就算四百年閏一天，不也還有多0.12天嗎? 為甚麼不繼續寫下去? 沒錯！的確是要修正，照理會在0.12天 * 8 = 0.96天發生時修正，也就是每3200年一次，不過現在是2017年，還用不到，所以沒有才制定，大致上這就是為什麼要閏年，又為什麼是這樣的規則的原因。
+閏年的計算在以程式語言實作非常簡單，僅需簡單的運算與判斷即可達成，放上一段範例 code。
+def IsLeapYear(year): if year % 400 == 0: return True #是閏年 elif year % 100 == 0: return False #不是閏年 elif year % 4 == 0: return True #是閏年 return False #不是閏年  ",
         "inLanguage" : "en",
         "author" : "",
         "creator" : "",
@@ -50,16 +43,16 @@
         "accountablePerson" : "",
         "copyrightHolder" : "",
         "copyrightYear" : "2017",
-        "datePublished": "2017-12-30 00:00:00 &#43;0000 UTC",
-        "dateModified" : "2017-12-30 00:00:00 &#43;0000 UTC",
-        "url" : "https://oxygentw.net/blog/poetry/unwarranted-aspersion/",
-        "wordCount" : "45",
+        "datePublished": "2017-12-27 00:00:00 &#43;0000 UTC",
+        "dateModified" : "2017-12-27 00:00:00 &#43;0000 UTC",
+        "url" : "https://oxygentw.net/blog/notes/leap-year-rule/",
+        "wordCount" : "112",
         "keywords" : [ "Blog" ]
     }
     </script>
         
             
-                <title>莫須有</title>
+                <title>閏年規則由來</title>
             
         
 
@@ -81,114 +74,93 @@
         
 
         <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="莫須有"/>
-<meta name="twitter:description" content="即使在校園中，仍然存在著不平等的權力與欺騙，是無知，或誣陷，不實的指控成為強而有力的刺刀，罪人的演技很好，他的淚水贏得了多少同情? 而我們呢? 真誠的面對世界，解釋一切非我們所為，以為一切就會歸於平靜，然而卻遭到更多的懷疑與迫害，或許，我們犯的錯就是，過度信任信任這回事。
-創作於 2017 / 11 /24 身為嫌疑犯的夜晚
-燦爛的笑容 鋒利的匕首
-光輝下的陰暗 由誰來識破？
-萬無一失的謊言 包覆著利益的複合體
-複合著你的利益與他的悲鳴
--
-莫須有 實在也是一個罪名
-不論你以「莫須有」或「莫，須有」解釋
-都能說得通
-更加為你的推論提供了佐證
-喔，抱歉 你不需要證據
--
-通貨膨脹
-當貨幣的內涵小於面額時發生
-信任的通貨膨脹
-人際間的互動以安然的外殼掩飾內在的空虛
-信任貶值
-人們開始利益的以物易物
--
-一舉一動受到無形的監視
-信任的後果是謀殺
-破碎的血肉
-是被蹂躪過橫的鮮紅顏料
-在陽光的反照下 頗美的 不是嗎?
--
-權力的殿堂中供奉著你們的狂喜
-權力之下將成為必需的供品
-無效的怒吼 無力的掙扎
-抗議著不公與真理被蒙蔽是百姓最後的嘆息"/>
+<meta name="twitter:title" content="閏年規則由來"/>
+<meta name="twitter:description" content=" 我們現在使用的曆法屬於太陽曆，也就是以太陽運行為標準所訂下的，大多數人都知道有一個用來修正時間的規則 — 閏年，使的特定年份會有366天，但其中設計這套規則的意義就較不為人所知了。
+從閏年規則說起，以下是我們熟知的閏年規則
+ 每四年閏一年 逢百年不閏 逢四百年閏一年  說起來還真的有些複雜，事實上，我們所說的修正，其實是在修正我們所認知的一年與回歸年(tropical year)之間的差距，那甚麼是回歸年呢?
 
-        <meta property="og:title" content="莫須有" />
-<meta property="og:description" content="即使在校園中，仍然存在著不平等的權力與欺騙，是無知，或誣陷，不實的指控成為強而有力的刺刀，罪人的演技很好，他的淚水贏得了多少同情? 而我們呢? 真誠的面對世界，解釋一切非我們所為，以為一切就會歸於平靜，然而卻遭到更多的懷疑與迫害，或許，我們犯的錯就是，過度信任信任這回事。
-創作於 2017 / 11 /24 身為嫌疑犯的夜晚
-燦爛的笑容 鋒利的匕首
-光輝下的陰暗 由誰來識破？
-萬無一失的謊言 包覆著利益的複合體
-複合著你的利益與他的悲鳴
--
-莫須有 實在也是一個罪名
-不論你以「莫須有」或「莫，須有」解釋
-都能說得通
-更加為你的推論提供了佐證
-喔，抱歉 你不需要證據
--
-通貨膨脹
-當貨幣的內涵小於面額時發生
-信任的通貨膨脹
-人際間的互動以安然的外殼掩飾內在的空虛
-信任貶值
-人們開始利益的以物易物
--
-一舉一動受到無形的監視
-信任的後果是謀殺
-破碎的血肉
-是被蹂躪過橫的鮮紅顏料
-在陽光的反照下 頗美的 不是嗎?
--
-權力的殿堂中供奉著你們的狂喜
-權力之下將成為必需的供品
-無效的怒吼 無力的掙扎
-抗議著不公與真理被蒙蔽是百姓最後的嘆息" />
+回歸年 回歸年是指太陽在黃道上回到同一位置的週期，是從地球上觀察的角度定義的，一回歸年等於365.2422個平均太陽日，又因為地球自轉軸進動(自轉軸每年會有小角度變化，這又是另一個學問，在此先不談)的影響，每年會和恆星年有 20分24秒的差距。
+ 　一年 = 365平均太陽日
+1回歸年 = 365.2422平均太陽日
+1恆星年 = 365.2564平均太陽日
+ 每年有 365.2422天，那少過的0.2422天呢? 我們沒辦法過 0.2422天，但也不能當作沒這回事啊，因此將他累積起來，積到差不多一天的時候再來修正，因此每四年會閏一年，但 0.2422 * 4 ≠ 1，所以接下來會繼續累積，修正，累積，修正……我用下面的算式說明。
+ 過了四年，總共少0.9388天
+-0.2422天 * 4 = -0.9388天
+# 每四年閏一次，多加一天進去，但這樣卻多了0.0312天 -0.9388天 &#43;1天 = 0.0312天
+# 過了一百年後，居然多了 0.78天 0.0312天 * 25 = 0.78天
+# 於是逢百不閏，扣掉多的天數，但又少0.22天
+0.78天 - 1 = -0.22天
+# 四百年後，少的天數達0.88天
+-0.22天 * 4 = -0.88天
+# 逢四百一閏，減掉多餘的一天
+-0.88天 &#43; 1 = &#43;0.12天
+ 
+各位可能會有個疑問，就算四百年閏一天，不也還有多0.12天嗎? 為甚麼不繼續寫下去? 沒錯！的確是要修正，照理會在0.12天 * 8 = 0.96天發生時修正，也就是每3200年一次，不過現在是2017年，還用不到，所以沒有才制定，大致上這就是為什麼要閏年，又為什麼是這樣的規則的原因。
+閏年的計算在以程式語言實作非常簡單，僅需簡單的運算與判斷即可達成，放上一段範例 code。
+def IsLeapYear(year): if year % 400 == 0: return True #是閏年 elif year % 100 == 0: return False #不是閏年 elif year % 4 == 0: return True #是閏年 return False #不是閏年  "/>
+
+        <meta property="og:title" content="閏年規則由來" />
+<meta property="og:description" content=" 我們現在使用的曆法屬於太陽曆，也就是以太陽運行為標準所訂下的，大多數人都知道有一個用來修正時間的規則 — 閏年，使的特定年份會有366天，但其中設計這套規則的意義就較不為人所知了。
+從閏年規則說起，以下是我們熟知的閏年規則
+ 每四年閏一年 逢百年不閏 逢四百年閏一年  說起來還真的有些複雜，事實上，我們所說的修正，其實是在修正我們所認知的一年與回歸年(tropical year)之間的差距，那甚麼是回歸年呢?
+
+回歸年 回歸年是指太陽在黃道上回到同一位置的週期，是從地球上觀察的角度定義的，一回歸年等於365.2422個平均太陽日，又因為地球自轉軸進動(自轉軸每年會有小角度變化，這又是另一個學問，在此先不談)的影響，每年會和恆星年有 20分24秒的差距。
+ 　一年 = 365平均太陽日
+1回歸年 = 365.2422平均太陽日
+1恆星年 = 365.2564平均太陽日
+ 每年有 365.2422天，那少過的0.2422天呢? 我們沒辦法過 0.2422天，但也不能當作沒這回事啊，因此將他累積起來，積到差不多一天的時候再來修正，因此每四年會閏一年，但 0.2422 * 4 ≠ 1，所以接下來會繼續累積，修正，累積，修正……我用下面的算式說明。
+ 過了四年，總共少0.9388天
+-0.2422天 * 4 = -0.9388天
+# 每四年閏一次，多加一天進去，但這樣卻多了0.0312天 -0.9388天 &#43;1天 = 0.0312天
+# 過了一百年後，居然多了 0.78天 0.0312天 * 25 = 0.78天
+# 於是逢百不閏，扣掉多的天數，但又少0.22天
+0.78天 - 1 = -0.22天
+# 四百年後，少的天數達0.88天
+-0.22天 * 4 = -0.88天
+# 逢四百一閏，減掉多餘的一天
+-0.88天 &#43; 1 = &#43;0.12天
+ 
+各位可能會有個疑問，就算四百年閏一天，不也還有多0.12天嗎? 為甚麼不繼續寫下去? 沒錯！的確是要修正，照理會在0.12天 * 8 = 0.96天發生時修正，也就是每3200年一次，不過現在是2017年，還用不到，所以沒有才制定，大致上這就是為什麼要閏年，又為什麼是這樣的規則的原因。
+閏年的計算在以程式語言實作非常簡單，僅需簡單的運算與判斷即可達成，放上一段範例 code。
+def IsLeapYear(year): if year % 400 == 0: return True #是閏年 elif year % 100 == 0: return False #不是閏年 elif year % 4 == 0: return True #是閏年 return False #不是閏年  " />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://oxygentw.net/blog/poetry/unwarranted-aspersion/" /><meta property="article:published_time" content="2017-12-30T00:00:00&#43;00:00"/>
-<meta property="article:modified_time" content="2017-12-30T00:00:00&#43;00:00"/>
+<meta property="og:url" content="https://oxygentw.net/blog/notes/leap-year-rule/" /><meta property="article:published_time" content="2017-12-27T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2017-12-27T00:00:00&#43;00:00"/>
 
         <meta property="og:image" content="https://oxygentw.net/images/logo.png">
         <meta property="og:image:type" content="image/png">
         <meta property="og:image:width" content="512">
         <meta property="og:image:height" content="512">
         
-<meta itemprop="name" content="莫須有">
-<meta itemprop="description" content="即使在校園中，仍然存在著不平等的權力與欺騙，是無知，或誣陷，不實的指控成為強而有力的刺刀，罪人的演技很好，他的淚水贏得了多少同情? 而我們呢? 真誠的面對世界，解釋一切非我們所為，以為一切就會歸於平靜，然而卻遭到更多的懷疑與迫害，或許，我們犯的錯就是，過度信任信任這回事。
-創作於 2017 / 11 /24 身為嫌疑犯的夜晚
-燦爛的笑容 鋒利的匕首
-光輝下的陰暗 由誰來識破？
-萬無一失的謊言 包覆著利益的複合體
-複合著你的利益與他的悲鳴
--
-莫須有 實在也是一個罪名
-不論你以「莫須有」或「莫，須有」解釋
-都能說得通
-更加為你的推論提供了佐證
-喔，抱歉 你不需要證據
--
-通貨膨脹
-當貨幣的內涵小於面額時發生
-信任的通貨膨脹
-人際間的互動以安然的外殼掩飾內在的空虛
-信任貶值
-人們開始利益的以物易物
--
-一舉一動受到無形的監視
-信任的後果是謀殺
-破碎的血肉
-是被蹂躪過橫的鮮紅顏料
-在陽光的反照下 頗美的 不是嗎?
--
-權力的殿堂中供奉著你們的狂喜
-權力之下將成為必需的供品
-無效的怒吼 無力的掙扎
-抗議著不公與真理被蒙蔽是百姓最後的嘆息">
+<meta itemprop="name" content="閏年規則由來">
+<meta itemprop="description" content=" 我們現在使用的曆法屬於太陽曆，也就是以太陽運行為標準所訂下的，大多數人都知道有一個用來修正時間的規則 — 閏年，使的特定年份會有366天，但其中設計這套規則的意義就較不為人所知了。
+從閏年規則說起，以下是我們熟知的閏年規則
+ 每四年閏一年 逢百年不閏 逢四百年閏一年  說起來還真的有些複雜，事實上，我們所說的修正，其實是在修正我們所認知的一年與回歸年(tropical year)之間的差距，那甚麼是回歸年呢?
+
+回歸年 回歸年是指太陽在黃道上回到同一位置的週期，是從地球上觀察的角度定義的，一回歸年等於365.2422個平均太陽日，又因為地球自轉軸進動(自轉軸每年會有小角度變化，這又是另一個學問，在此先不談)的影響，每年會和恆星年有 20分24秒的差距。
+ 　一年 = 365平均太陽日
+1回歸年 = 365.2422平均太陽日
+1恆星年 = 365.2564平均太陽日
+ 每年有 365.2422天，那少過的0.2422天呢? 我們沒辦法過 0.2422天，但也不能當作沒這回事啊，因此將他累積起來，積到差不多一天的時候再來修正，因此每四年會閏一年，但 0.2422 * 4 ≠ 1，所以接下來會繼續累積，修正，累積，修正……我用下面的算式說明。
+ 過了四年，總共少0.9388天
+-0.2422天 * 4 = -0.9388天
+# 每四年閏一次，多加一天進去，但這樣卻多了0.0312天 -0.9388天 &#43;1天 = 0.0312天
+# 過了一百年後，居然多了 0.78天 0.0312天 * 25 = 0.78天
+# 於是逢百不閏，扣掉多的天數，但又少0.22天
+0.78天 - 1 = -0.22天
+# 四百年後，少的天數達0.88天
+-0.22天 * 4 = -0.88天
+# 逢四百一閏，減掉多餘的一天
+-0.88天 &#43; 1 = &#43;0.12天
+ 
+各位可能會有個疑問，就算四百年閏一天，不也還有多0.12天嗎? 為甚麼不繼續寫下去? 沒錯！的確是要修正，照理會在0.12天 * 8 = 0.96天發生時修正，也就是每3200年一次，不過現在是2017年，還用不到，所以沒有才制定，大致上這就是為什麼要閏年，又為什麼是這樣的規則的原因。
+閏年的計算在以程式語言實作非常簡單，僅需簡單的運算與判斷即可達成，放上一段範例 code。
+def IsLeapYear(year): if year % 400 == 0: return True #是閏年 elif year % 100 == 0: return False #不是閏年 elif year % 4 == 0: return True #是閏年 return False #不是閏年  ">
 
 
-<meta itemprop="datePublished" content="2017-12-30T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2017-12-30T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="45">
+<meta itemprop="datePublished" content="2017-12-27T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2017-12-27T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="112">
 
 
 
@@ -440,7 +412,7 @@ if (!doNotTrack) {
 
 
 <li>
-  <a href="//twitter.com/share?url=https%3a%2f%2foxygentw.net%2fblog%2fpoetry%2funwarranted-aspersion%2f&amp;text=%e8%8e%ab%e9%a0%88%e6%9c%89&amp;via=" target="_blank" class="share-btn twitter">
+  <a href="//twitter.com/share?url=https%3a%2f%2foxygentw.net%2fblog%2fnotes%2fleap-year-rule%2f&amp;text=%e9%96%8f%e5%b9%b4%e8%a6%8f%e5%89%87%e7%94%b1%e4%be%86&amp;via=" target="_blank" class="share-btn twitter">
     <i class="fa fa-twitter"></i>
     <p>Twitter</p>
     </a>
@@ -450,7 +422,7 @@ if (!doNotTrack) {
 
 
 <li>
-  <a href="//plus.google.com/share?url=https%3a%2f%2foxygentw.net%2fblog%2fpoetry%2funwarranted-aspersion%2f" target="_blank" class="share-btn google-plus">
+  <a href="//plus.google.com/share?url=https%3a%2f%2foxygentw.net%2fblog%2fnotes%2fleap-year-rule%2f" target="_blank" class="share-btn google-plus">
     <i class="fa fa-google-plus"></i>
     <p>Google+</p>
   </a>
@@ -461,7 +433,7 @@ if (!doNotTrack) {
 
 
 <li>
-  <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2foxygentw.net%2fblog%2fpoetry%2funwarranted-aspersion%2f" target="_blank" class="share-btn facebook">
+  <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2foxygentw.net%2fblog%2fnotes%2fleap-year-rule%2f" target="_blank" class="share-btn facebook">
     <i class="fa fa-facebook"></i>
     <p>Facebook</p>
     </a>
@@ -471,7 +443,7 @@ if (!doNotTrack) {
 
 
 <li>
-  <a href="//reddit.com/submit?url=https%3a%2f%2foxygentw.net%2fblog%2fpoetry%2funwarranted-aspersion%2f&amp;title=%e8%8e%ab%e9%a0%88%e6%9c%89" target="_blank" class="share-btn reddit">
+  <a href="//reddit.com/submit?url=https%3a%2f%2foxygentw.net%2fblog%2fnotes%2fleap-year-rule%2f&amp;title=%e9%96%8f%e5%b9%b4%e8%a6%8f%e5%89%87%e7%94%b1%e4%be%86" target="_blank" class="share-btn reddit">
     <i class="fa fa-reddit-alien"></i>
     <p>Reddit</p>
   </a>
@@ -487,7 +459,7 @@ if (!doNotTrack) {
 
 
 <li>
-  <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2foxygentw.net%2fblog%2fpoetry%2funwarranted-aspersion%2f&amp;description=%e8%8e%ab%e9%a0%88%e6%9c%89" target="_blank" class="share-btn pinterest">
+  <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2foxygentw.net%2fblog%2fnotes%2fleap-year-rule%2f&amp;description=%e9%96%8f%e5%b9%b4%e8%a6%8f%e5%89%87%e7%94%b1%e4%be%86" target="_blank" class="share-btn pinterest">
     <i class="fa fa-pinterest-p"></i>
     <p>Pinterest</p>
   </a>
@@ -497,7 +469,7 @@ if (!doNotTrack) {
 
 
 <li>
-  <a href="mailto:?subject=Check out this post by oxygen&amp;body=https%3a%2f%2foxygentw.net%2fblog%2fpoetry%2funwarranted-aspersion%2f" target="_blank" class="share-btn email">
+  <a href="mailto:?subject=Check out this post by oxygen&amp;body=https%3a%2f%2foxygentw.net%2fblog%2fnotes%2fleap-year-rule%2f" target="_blank" class="share-btn email">
     <i class="fa fa-envelope"></i>
     <p>Email</p>
   </a>
@@ -516,7 +488,7 @@ if (!doNotTrack) {
   <header>
     <div class="title">
         
-            <h1><a href="https://oxygentw.net/blog/poetry/unwarranted-aspersion/">莫須有</a></h1>
+            <h1><a href="https://oxygentw.net/blog/notes/leap-year-rule/">閏年規則由來</a></h1>
             
         
         
@@ -525,8 +497,8 @@ if (!doNotTrack) {
         
 
         <time class="published"
-            datetime='2017-12-30'>
-            December 30, 2017</time>
+            datetime='2017-12-27'>
+            December 27, 2017</time>
         <span class="author">oxygen</span>
         
             <p>1 minute read</p>
@@ -544,7 +516,7 @@ if (!doNotTrack) {
 
 
 <li>
-  <a href="//twitter.com/share?url=https%3a%2f%2foxygentw.net%2fblog%2fpoetry%2funwarranted-aspersion%2f&amp;text=%e8%8e%ab%e9%a0%88%e6%9c%89&amp;via=" target="_blank" class="share-btn twitter">
+  <a href="//twitter.com/share?url=https%3a%2f%2foxygentw.net%2fblog%2fnotes%2fleap-year-rule%2f&amp;text=%e9%96%8f%e5%b9%b4%e8%a6%8f%e5%89%87%e7%94%b1%e4%be%86&amp;via=" target="_blank" class="share-btn twitter">
     <i class="fa fa-twitter"></i>
     <p>Twitter</p>
     </a>
@@ -554,7 +526,7 @@ if (!doNotTrack) {
 
 
 <li>
-  <a href="//plus.google.com/share?url=https%3a%2f%2foxygentw.net%2fblog%2fpoetry%2funwarranted-aspersion%2f" target="_blank" class="share-btn google-plus">
+  <a href="//plus.google.com/share?url=https%3a%2f%2foxygentw.net%2fblog%2fnotes%2fleap-year-rule%2f" target="_blank" class="share-btn google-plus">
     <i class="fa fa-google-plus"></i>
     <p>Google+</p>
   </a>
@@ -565,7 +537,7 @@ if (!doNotTrack) {
 
 
 <li>
-  <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2foxygentw.net%2fblog%2fpoetry%2funwarranted-aspersion%2f" target="_blank" class="share-btn facebook">
+  <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2foxygentw.net%2fblog%2fnotes%2fleap-year-rule%2f" target="_blank" class="share-btn facebook">
     <i class="fa fa-facebook"></i>
     <p>Facebook</p>
     </a>
@@ -575,7 +547,7 @@ if (!doNotTrack) {
 
 
 <li>
-  <a href="//reddit.com/submit?url=https%3a%2f%2foxygentw.net%2fblog%2fpoetry%2funwarranted-aspersion%2f&amp;title=%e8%8e%ab%e9%a0%88%e6%9c%89" target="_blank" class="share-btn reddit">
+  <a href="//reddit.com/submit?url=https%3a%2f%2foxygentw.net%2fblog%2fnotes%2fleap-year-rule%2f&amp;title=%e9%96%8f%e5%b9%b4%e8%a6%8f%e5%89%87%e7%94%b1%e4%be%86" target="_blank" class="share-btn reddit">
     <i class="fa fa-reddit-alien"></i>
     <p>Reddit</p>
   </a>
@@ -591,7 +563,7 @@ if (!doNotTrack) {
 
 
 <li>
-  <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2foxygentw.net%2fblog%2fpoetry%2funwarranted-aspersion%2f&amp;description=%e8%8e%ab%e9%a0%88%e6%9c%89" target="_blank" class="share-btn pinterest">
+  <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2foxygentw.net%2fblog%2fnotes%2fleap-year-rule%2f&amp;description=%e9%96%8f%e5%b9%b4%e8%a6%8f%e5%89%87%e7%94%b1%e4%be%86" target="_blank" class="share-btn pinterest">
     <i class="fa fa-pinterest-p"></i>
     <p>Pinterest</p>
   </a>
@@ -601,7 +573,7 @@ if (!doNotTrack) {
 
 
 <li>
-  <a href="mailto:?subject=Check out this post by oxygen&amp;body=https%3a%2f%2foxygentw.net%2fblog%2fpoetry%2funwarranted-aspersion%2f" target="_blank" class="share-btn email">
+  <a href="mailto:?subject=Check out this post by oxygen&amp;body=https%3a%2f%2foxygentw.net%2fblog%2fnotes%2fleap-year-rule%2f" target="_blank" class="share-btn email">
     <i class="fa fa-envelope"></i>
     <p>Email</p>
   </a>
@@ -615,67 +587,74 @@ if (!doNotTrack) {
   
 
   <div id="content">
-    <p>即使在校園中，仍然存在著不平等的權力與欺騙，是無知，或誣陷，不實的指控成為強而有力的刺刀，罪人的演技很好，他的淚水贏得了多少同情? 而我們呢? 真誠的面對世界，解釋一切非我們所為，以為一切就會歸於平靜，然而卻遭到更多的懷疑與迫害，或許，我們犯的錯就是，過度信任信任這回事。</p>
+    
 
-<p>創作於 2017 / 11 /24 身為嫌疑犯的夜晚</p>
+<p>我們現在使用的曆法屬於太陽曆，也就是以太陽運行為標準所訂下的，大多數人都知道有一個用來修正時間的規則 — 閏年，使的特定年份會有366天，但其中設計這套規則的意義就較不為人所知了。</p>
 
-<hr />
+<p>從閏年規則說起，以下是我們熟知的閏年規則</p>
 
-<p>燦爛的笑容 鋒利的匕首</p>
+<ul>
+<li>每四年閏一年</li>
+<li>逢百年不閏</li>
+<li>逢四百年閏一年</li>
+</ul>
 
-<p>光輝下的陰暗 由誰來識破？</p>
+<p>說起來還真的有些複雜，事實上，我們所說的修正，其實是在修正我們所認知的一年與回歸年(tropical year)之間的差距，那甚麼是回歸年呢?</p>
 
-<p>萬無一失的謊言 包覆著利益的複合體</p>
+<p><br/></p>
 
-<p>複合著你的利益與他的悲鳴</p>
+<h1 id="回歸年">回歸年</h1>
 
-<p>-</p>
+<p>回歸年是指太陽在黃道上回到同一位置的週期，是從地球上觀察的角度定義的，一回歸年等於365.2422個平均太陽日，又因為地球自轉軸進動(自轉軸每年會有小角度變化，這又是另一個學問，在此先不談)的影響，每年會和恆星年有 20分24秒的差距。</p>
 
-<p>莫須有 實在也是一個罪名</p>
+<blockquote>
+<p>　一年 = 365平均太陽日</p>
 
-<p>不論你以「莫須有」或「莫，須有」解釋</p>
+<p>1回歸年 = 365.2422平均太陽日</p>
 
-<p>都能說得通</p>
+<p>1恆星年 = 365.2564平均太陽日</p>
+</blockquote>
 
-<p>更加為你的推論提供了佐證</p>
+<p>每年有 365.2422天，那少過的0.2422天呢? 我們沒辦法過 0.2422天，但也不能當作沒這回事啊，因此將他累積起來，積到差不多一天的時候再來修正，因此每四年會閏一年，但 0.2422 * 4 ≠ 1，所以接下來會繼續累積，修正，累積，修正……我用下面的算式說明。</p>
 
-<p>喔，抱歉 你不需要證據</p>
+<blockquote>
+<p>過了四年，總共少0.9388天<br />
+    -0.2422天 * 4 = -0.9388天</p>
 
-<p>-</p>
+<p># 每四年閏一次，多加一天進去，但這樣卻多了0.0312天
+    -0.9388天 +1天 = 0.0312天</p>
 
-<p>通貨膨脹</p>
+<p># 過了一百年後，居然多了
+    0.78天  0.0312天 * 25 = 0.78天</p>
 
-<p>當貨幣的內涵小於面額時發生</p>
+<p># 於是逢百不閏，扣掉多的天數，但又少0.22天<br />
+    0.78天 - 1 = -0.22天</p>
 
-<p>信任的通貨膨脹</p>
+<p># 四百年後，少的天數達0.88天<br />
+    -0.22天 * 4 = -0.88天</p>
 
-<p>人際間的互動以安然的外殼掩飾內在的空虛</p>
+<p># 逢四百一閏，減掉多餘的一天<br />
+    -0.88天 + 1 = +0.12天</p>
+</blockquote>
 
-<p>信任貶值</p>
+<p><br/></p>
 
-<p>人們開始利益的以物易物</p>
+<p>各位可能會有個疑問，就算四百年閏一天，不也還有多0.12天嗎? 為甚麼不繼續寫下去? 沒錯！的確是要修正，照理會在0.12天 * 8 = 0.96天發生時修正，也就是每3200年一次，不過現在是2017年，還用不到，所以沒有才制定，大致上這就是為什麼要閏年，又為什麼是這樣的規則的原因。</p>
 
-<p>-</p>
+<p>閏年的計算在以程式語言實作非常簡單，僅需簡單的運算與判斷即可達成，放上一段範例 code。</p>
 
-<p>一舉一動受到無形的監視</p>
-
-<p>信任的後果是謀殺</p>
-
-<p>破碎的血肉</p>
-
-<p>是被蹂躪過橫的鮮紅顏料</p>
-
-<p>在陽光的反照下 頗美的 不是嗎?</p>
-
-<p>-</p>
-
-<p>權力的殿堂中供奉著你們的狂喜</p>
-
-<p>權力之下將成為必需的供品</p>
-
-<p>無效的怒吼 無力的掙扎</p>
-
-<p>抗議著不公與真理被蒙蔽是百姓最後的嘆息</p>
+<pre><code class="language-python">def IsLeapYear(year):
+    if year % 400 == 0:
+        return True   #是閏年
+ 
+    elif year % 100 == 0:
+        return False  #不是閏年
+ 
+    elif year % 4 == 0:
+        return True   #是閏年
+ 
+    return False      #不是閏年
+</code></pre>
 
   </div>
 
@@ -689,7 +668,7 @@ if (!doNotTrack) {
                 <i class="fa fa-folder"></i>
                 
                 
-                <li><a class="article-category-link" href="https://oxygentw.net/categories/poetry">poetry</a></li>
+                <li><a class="article-category-link" href="https://oxygentw.net/categories/notes">notes</a></li>
                 
             
         
@@ -732,13 +711,13 @@ if (!doNotTrack) {
 
 <ul class="actions pagination">
     
-        <li><a href="https://oxygentw.net/blog/notes/leap-year-rule/"
-                class="button big previous">閏年規則由來</a></li>
+        <li><a href="https://oxygentw.net/blog/notes/cpp-bernoulli-trial-simulation/"
+                class="button big previous">C&#43;&#43; 獨立重複白努力試驗模擬</a></li>
     
 
     
-        <li><a href="https://oxygentw.net/blog/notes/about-bpd/"
-                class="button big next">淺談邊緣型人格疾患</a></li>
+        <li><a href="https://oxygentw.net/blog/poetry/unwarranted-aspersion/"
+                class="button big next">莫須有</a></li>
     
 </ul>
 
