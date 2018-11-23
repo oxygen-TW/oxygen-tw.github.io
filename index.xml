@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Oxygen&#39;s 札記</title>
-    <link>https://oxygentw.net/</link>
-    <description>Recent content on Oxygen&#39;s 札記</description>
+    <title>Oxygen&#39;s 生活札記</title>
+    <link>http://example.com/</link>
+    <description>Recent content on Oxygen&#39;s 生活札記</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <lastBuildDate>Tue, 06 Nov 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://oxygentw.net/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://example.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>基本化學物命名 Chemical Nomenclature</title>
-      <link>https://oxygentw.net/blog/notes/simple-chemical-nomenclature/</link>
+      <link>http://example.com/blog/notes/simple-chemical-nomenclature/</link>
       <pubDate>Tue, 06 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://oxygentw.net/blog/notes/simple-chemical-nomenclature/</guid>
+      <guid>http://example.com/blog/notes/simple-chemical-nomenclature/</guid>
       <description>期中考期中考期中考，一大堆化學啊啊啊，順手把化學命名放上網站，就要繼續泡在化學堆了&amp;hellip;
 離子化合物  金屬 + 非金屬
 陰離子名字後 + &amp;ldquo;ide&amp;rdquo;
@@ -57,11 +57,11 @@ H2S(aq) hydrosulfuric acid
     
     <item>
       <title>變態行為診斷 4D</title>
-      <link>https://oxygentw.net/blog/notes/abnormal-behavior-4d/</link>
+      <link>http://example.com/blog/notes/abnormal-behavior-4d/</link>
       <pubDate>Mon, 05 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://oxygentw.net/blog/notes/abnormal-behavior-4d/</guid>
-      <description>Abnormal behavior 4D  Deviance Distress Dysfunction/Disability Danger   Deviance 異常 異常是指一個人的行為不同於普遍社會規範，和大多數人們不同，以統計數據上表示即為偏離常態分佈的個體，不過此項標準在鑑定上顯得模稜量可，因社會規範會因文化族群而異，對一部分族群的規範不一定適用另一族群，即使年齡層不同也可能形成差異，若是這種情況，即使有個體與&amp;rdquo;我們群體&amp;rdquo;異常也不可被分類為變態行為。 如年輕人與老年人的思考方式不同，會造成雙方的不理解。
+      <guid>http://example.com/blog/notes/abnormal-behavior-4d/</guid>
+      <description>變態行為診斷 Abnormal behavior 4D  Deviance Distress Dysfunction/Disability Danger   Deviance 異常 異常是指一個人的行為不同於普遍社會規範，和大多數人們不同，以統計數據上表示即為偏離常態分佈的個體，不過此項標準在鑑定上顯得模稜量可，因社會規範會因文化族群而異，對一部分族群的規範不一定適用另一族群，即使年齡層不同也可能形成差異，若是這種情況，即使有個體與&amp;rdquo;我們群體&amp;rdquo;異常也不可被分類為變態行為。 如年輕人與老年人的思考方式不同，會造成雙方的不理解。
 
 Distress 痛苦 指變態行為本身對個體造成壓力、恐懼、憂鬱、焦慮等等心理上的傷害，此痛苦需由變態行為本身引起，而不是社會大眾對變態行為的不理解或是敵意所產生。例如躁鬱症病患內心的拉扯、自傷行為患者對於自己傷害自己這個行為產生恐懼就可以歸類於這邊所述的痛苦，而像同性戀者的性向與社會多數不同，但因其符合自身意願，同性戀者的痛苦多半來自於社會的異樣眼光，則此痛苦就不符合由行為本身造成。
 
@@ -73,10 +73,10 @@ Danger 危險 指變態行為者的自傷或傷人行為，自傷可能包含割
     
     <item>
       <title>淺談邊緣型人格疾患</title>
-      <link>https://oxygentw.net/blog/notes/about-bpd/</link>
+      <link>http://example.com/blog/notes/about-bpd/</link>
       <pubDate>Mon, 10 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://oxygentw.net/blog/notes/about-bpd/</guid>
+      <guid>http://example.com/blog/notes/about-bpd/</guid>
       <description>常常會和別人說 &amp;ldquo;XXX是邊緣人&amp;rdquo;、&amp;rdquo;不想成為邊緣人&amp;rdquo; 之類的話，邊緣人已經成為家喻戶曉的名詞了，但你知道嗎? 在精神疾病診斷與統計手冊(DSM)中有實際收錄一個疾病叫 &amp;ldquo;邊緣型人格違常(Borderline Personality Disorder)&amp;ldquo;，不過這個疾病和我們熟知的邊緣人截然不同喔。
 邊緣型人格違常屬於人格疾患，顧名思義是人格形成上出了點差錯，邊緣型人格違常主要會有以下狀況:
  無法忍受被人拋棄 極端思考，非黑即白 自我認同障礙，自信低下 自我傷害行為 以自殺、自殘行為脅迫他人 憂鬱情緒持續較長 害怕孤單、空虛感 難以控制憤怒 可能出現妄想或解離現象   邊緣型人格違常的成因目前理論認為是因為在童年時期與父母分離，產生分離焦慮而導致，一個人年幼時人格正在發展，但母親/主要照顧者不知道或是不能滿足幼兒的需求，甚至表現出不耐煩，冷漠的態度，在建築人格的過程中得不到母親給予的安全感而產生恐慌，甚至認為自己沒有資格得到照顧，失去依附對象，進而造成人格發展不全。
@@ -88,10 +88,10 @@ Danger 危險 指變態行為者的自傷或傷人行為，自傷可能包含割
     
     <item>
       <title>莫須有</title>
-      <link>https://oxygentw.net/blog/poetry/unwarranted-aspersion/</link>
+      <link>http://example.com/blog/poetry/unwarranted-aspersion/</link>
       <pubDate>Sat, 30 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://oxygentw.net/blog/poetry/unwarranted-aspersion/</guid>
+      <guid>http://example.com/blog/poetry/unwarranted-aspersion/</guid>
       <description>即使在校園中，仍然存在著不平等的權力與欺騙，是無知，或誣陷，不實的指控成為強而有力的刺刀，罪人的演技很好，他的淚水贏得了多少同情? 而我們呢? 真誠的面對世界，解釋一切非我們所為，以為一切就會歸於平靜，然而卻遭到更多的懷疑與迫害，或許，我們犯的錯就是，過度信任信任這回事。
 創作於 2017 / 11 /24 身為嫌疑犯的夜晚
 燦爛的笑容 鋒利的匕首
@@ -126,10 +126,10 @@ Danger 危險 指變態行為者的自傷或傷人行為，自傷可能包含割
     
     <item>
       <title>閏年規則由來</title>
-      <link>https://oxygentw.net/blog/notes/leap-year-rule/</link>
+      <link>http://example.com/blog/notes/leap-year-rule/</link>
       <pubDate>Wed, 27 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://oxygentw.net/blog/notes/leap-year-rule/</guid>
+      <guid>http://example.com/blog/notes/leap-year-rule/</guid>
       <description> 我們現在使用的曆法屬於太陽曆，也就是以太陽運行為標準所訂下的，大多數人都知道有一個用來修正時間的規則 — 閏年，使的特定年份會有366天，但其中設計這套規則的意義就較不為人所知了。
 從閏年規則說起，以下是我們熟知的閏年規則
  每四年閏一年 逢百年不閏 逢四百年閏一年  說起來還真的有些複雜，事實上，我們所說的修正，其實是在修正我們所認知的一年與回歸年(tropical year)之間的差距，那甚麼是回歸年呢?
@@ -157,10 +157,10 @@ def IsLeapYear(year): if year % 400 == 0: return True #是閏年 elif year % 100
     
     <item>
       <title>C&#43;&#43; 獨立重複白努力試驗模擬</title>
-      <link>https://oxygentw.net/blog/notes/cpp-bernoulli-trial-simulation/</link>
+      <link>http://example.com/blog/notes/cpp-bernoulli-trial-simulation/</link>
       <pubDate>Tue, 19 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://oxygentw.net/blog/notes/cpp-bernoulli-trial-simulation/</guid>
+      <guid>http://example.com/blog/notes/cpp-bernoulli-trial-simulation/</guid>
       <description>數學課上到這部分，依據大數法則，試驗的次數越多，結果會越相似於常態分佈，但丟硬幣100次都嫌累了，根本沒辦法看出甚麼所以然來，這時電腦就好用了，寫個小程式，數分鐘內幫你丟五億次硬幣! 還可以更多呢!
 /* * Bernoulli Trial simulation * By C++ * License MIT * 2017/09/19 oxygen */ #include &amp;lt;iostream&amp;gt; #include &amp;lt;fstream&amp;gt; #include &amp;lt;cstdlib&amp;gt; #include &amp;lt;ctime&amp;gt; using namespace std; //Global Variable unsigned long long sample = 0,run_time = 0; void init() { fstream fp; fp.open(&amp;quot;data.txt&amp;quot;,ios::out); fp&amp;lt;&amp;lt;&amp;quot;id,true,false,True-rate,False-rate\n&amp;quot;; fp.close(); srand( (unsigned)time(NULL)); cout&amp;lt;&amp;lt;&amp;quot;Program is running...\n&amp;quot;; } bool Random() { unsigned int ran = (int)((rand() / (RAND_MAX+1.0)) * (10 - 1 + 1.0) + 1); if(ran % 2 == 0) return true; return false; } void write_file(const int id,const unsigned long long True_number,const unsigned long long False_number) { fstream fp; fp.open(&amp;quot;data.txt&amp;quot;,ios::out|ios::app); fp&amp;lt;&amp;lt;id&amp;lt;&amp;lt;&amp;quot;,&amp;quot;&amp;lt;&amp;lt;True_number&amp;lt;&amp;lt;&amp;quot;,&amp;quot;&amp;lt;&amp;lt;False_number&amp;lt;&amp;lt;&amp;quot;,&amp;quot;&amp;lt;&amp;lt;(True_number/(double)run_time)*100&amp;lt;&amp;lt;&amp;quot;%,&amp;quot;&amp;lt;&amp;lt;(False_number/(double)run_time)*100&amp;lt;&amp;lt;&amp;quot;%\n&amp;quot;; fp.close(); } int main() { cout&amp;lt;&amp;lt;&amp;quot;How many times do yo want to run? &amp;gt;&amp;quot;; cin &amp;gt;&amp;gt; sample; cout&amp;lt;&amp;lt;&amp;quot;How many times do yo want to run in one sample(n)? &amp;gt;&amp;quot;; cin &amp;gt;&amp;gt; run_time; init(); for(int c=0; c&amp;lt;sample; c++) { unsigned long long True_number = 0,False_number = 0; for(unsigned long long i=0; i&amp;lt;run_time; i++) { if(Random()) True_number++; else False_number++; } write_file(c+1,True_number,False_number); } cout&amp;lt;&amp;lt;&amp;quot;Complete!\n&amp;quot;; }  解釋一下程式碼
 init() 是程式一開始執行的函式，會把輸出檔案的標題輸出好，並初始化亂數器。
@@ -174,10 +174,10 @@ main() 會先詢問使用者要執行幾回，每回有幾次試驗，輸入完�
     
     <item>
       <title>翻譯 - DSM-5 305.90 咖啡因依賴症</title>
-      <link>https://oxygentw.net/blog/notes/dsm-5-305-90-translation/</link>
+      <link>http://example.com/blog/notes/dsm-5-305-90-translation/</link>
       <pubDate>Sat, 26 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://oxygentw.net/blog/notes/dsm-5-305-90-translation/</guid>
+      <guid>http://example.com/blog/notes/dsm-5-305-90-translation/</guid>
       <description>引言 咖啡因中毒是一種由高劑量咖啡因所引起的中樞神經過度刺激。咖啡因，世界上消耗量最大的精神藥物，具有高成癮性且能對生理、心理、精神造成損害。咖啡是攝取高劑量咖啡因最普遍的來源，其他來源包含茶、能量飲料、蘇打飲料、巧克力、止痛藥及感冒藥。攝取咖啡因可以提振精神、專注、警覺性與認知能力。根據DSM-5(APA, 2013) 的估計，美國有85%的人會固定攝取咖啡因。儘管咖啡因中毒正常不會持續超過一天，但極高劑量會有立即急救的必要，並可以致命。咖啡因中毒最常見的反應是睡眠受到干擾，青少年和學生飲用能量飲料導致咖啡因中毒的問題在年輕族群中增加。一個人每天攝取超過250毫克的咖啡因及符合過量的標準，根據DSM-5 一罐8-6盎司的能量飲料含有70-180毫克的咖啡因，一瓶energy shot 含有171毫克，24盎司的大容量裝可以高達500毫克，一杯咖啡則含有100-200毫克(Child &amp;amp; de Wit, 2011)。
 
 咖啡因中毒的症狀 咖啡因中毒的可能症狀包含焦慮、易怒、過度興奮、多尿、腸胃不適及過度緊戒。DSM-5 的咖啡因中毒診斷必須有大於250毫克的高劑量攝取咖啡因，並且含有多於五項下列症狀:
@@ -198,10 +198,10 @@ Introduction Caffeine intoxication is an over-stimulation of the central nervous
     
     <item>
       <title>淺談自殺</title>
-      <link>https://oxygentw.net/blog/prose/about-suicide-depression/</link>
+      <link>http://example.com/blog/prose/about-suicide-depression/</link>
       <pubDate>Mon, 17 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://oxygentw.net/blog/prose/about-suicide-depression/</guid>
+      <guid>http://example.com/blog/prose/about-suicide-depression/</guid>
       <description>自殺。
 或許是一種逃避，或許是種不負責任的行為，也或許代表著解脫。
 我們很常聽到這些話:
@@ -221,10 +221,10 @@ Introduction Caffeine intoxication is an over-stimulation of the central nervous
     
     <item>
       <title>酒精</title>
-      <link>https://oxygentw.net/blog/prose/wine/</link>
+      <link>http://example.com/blog/prose/wine/</link>
       <pubDate>Sun, 09 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://oxygentw.net/blog/prose/wine/</guid>
+      <guid>http://example.com/blog/prose/wine/</guid>
       <description>「鐘鼓饌玉不足貴，但願長醉不願醒」，酒精，兩碳五氫再加個羥基，好一個「何以解憂？唯有杜康。」
 啤酒下肚味覺苦如嘗膽，烈酒下肚食道灼如火燒，飲酒看似一種變態的自虐，卻又爲什麼時常出現在古代詩歌中，又爲什麼那麼多人嗜酒成性呢？
 喝酒，爲的不是果汁般的甘甜，那口感太過於諂媚，也不是要茉莉花茶的清香，茶香太清純，反而不符世道，唯獨酒類，入口即體會到人生苦悶的轉化，那是種在傍偟中的依靠，彷彿找到一個知己，一個情緒的出口。
@@ -235,10 +235,10 @@ Introduction Caffeine intoxication is an over-stimulation of the central nervous
     
     <item>
       <title>嗯？趴在桌子上，回憶著回憶</title>
-      <link>https://oxygentw.net/blog/poetry/desk_memories/</link>
+      <link>http://example.com/blog/poetry/desk_memories/</link>
       <pubDate>Sat, 24 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://oxygentw.net/blog/poetry/desk_memories/</guid>
+      <guid>http://example.com/blog/poetry/desk_memories/</guid>
       <description>不知不覺的兩年半過去了
 我們關係早已不再密切，那不曾存在的關係
 但總是會在某個安靜的時刻想起當年
@@ -254,46 +254,46 @@ Introduction Caffeine intoxication is an over-stimulation of the central nervous
     
     <item>
       <title>Fancy App 1</title>
-      <link>https://oxygentw.net/itemized/item1/</link>
+      <link>http://example.com/itemized/item1/</link>
       <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://oxygentw.net/itemized/item1/</guid>
+      <guid>http://example.com/itemized/item1/</guid>
       <description> App 1 </description>
     </item>
     
     <item>
       <title>Fancy App 2</title>
-      <link>https://oxygentw.net/itemized/item2/</link>
+      <link>http://example.com/itemized/item2/</link>
       <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://oxygentw.net/itemized/item2/</guid>
+      <guid>http://example.com/itemized/item2/</guid>
       <description> App 2 </description>
     </item>
     
     <item>
       <title>Fancy App 3</title>
-      <link>https://oxygentw.net/itemized/item3/</link>
+      <link>http://example.com/itemized/item3/</link>
       <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://oxygentw.net/itemized/item3/</guid>
+      <guid>http://example.com/itemized/item3/</guid>
       <description> App 3 </description>
     </item>
     
     <item>
       <title>Fancy App 4</title>
-      <link>https://oxygentw.net/itemized/item4/</link>
+      <link>http://example.com/itemized/item4/</link>
       <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://oxygentw.net/itemized/item4/</guid>
+      <guid>http://example.com/itemized/item4/</guid>
       <description> App 4 </description>
     </item>
     
     <item>
       <title>祭情</title>
-      <link>https://oxygentw.net/blog/poetry/sacrifice-love/</link>
+      <link>http://example.com/blog/poetry/sacrifice-love/</link>
       <pubDate>Fri, 14 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://oxygentw.net/blog/poetry/sacrifice-love/</guid>
+      <guid>http://example.com/blog/poetry/sacrifice-love/</guid>
       <description>人們生來有情，對於感情的追逐與執著，是人類最獨特的反應
 初相識的靦腆，和那漸漸建立的信任與情愫
 心有靈犀的曖昧，到漠然的分隔

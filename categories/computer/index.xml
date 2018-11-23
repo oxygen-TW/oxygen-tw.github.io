@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>computer on Oxygen&#39;s 札記</title>
-    <link>https://oxygentw.net/categories/computer/</link>
-    <description>Recent content in computer on Oxygen&#39;s 札記</description>
+    <title>computer on Oxygen&#39;s 生活札記</title>
+    <link>http://example.com/categories/computer/</link>
+    <description>Recent content in computer on Oxygen&#39;s 生活札記</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <lastBuildDate>Tue, 19 Sep 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://oxygentw.net/categories/computer/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://example.com/categories/computer/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>C&#43;&#43; 獨立重複白努力試驗模擬</title>
-      <link>https://oxygentw.net/blog/notes/cpp-bernoulli-trial-simulation/</link>
+      <link>http://example.com/blog/notes/cpp-bernoulli-trial-simulation/</link>
       <pubDate>Tue, 19 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://oxygentw.net/blog/notes/cpp-bernoulli-trial-simulation/</guid>
+      <guid>http://example.com/blog/notes/cpp-bernoulli-trial-simulation/</guid>
       <description>數學課上到這部分，依據大數法則，試驗的次數越多，結果會越相似於常態分佈，但丟硬幣100次都嫌累了，根本沒辦法看出甚麼所以然來，這時電腦就好用了，寫個小程式，數分鐘內幫你丟五億次硬幣! 還可以更多呢!
 /* * Bernoulli Trial simulation * By C++ * License MIT * 2017/09/19 oxygen */ #include &amp;lt;iostream&amp;gt; #include &amp;lt;fstream&amp;gt; #include &amp;lt;cstdlib&amp;gt; #include &amp;lt;ctime&amp;gt; using namespace std; //Global Variable unsigned long long sample = 0,run_time = 0; void init() { fstream fp; fp.open(&amp;quot;data.txt&amp;quot;,ios::out); fp&amp;lt;&amp;lt;&amp;quot;id,true,false,True-rate,False-rate\n&amp;quot;; fp.close(); srand( (unsigned)time(NULL)); cout&amp;lt;&amp;lt;&amp;quot;Program is running...\n&amp;quot;; } bool Random() { unsigned int ran = (int)((rand() / (RAND_MAX+1.0)) * (10 - 1 + 1.0) + 1); if(ran % 2 == 0) return true; return false; } void write_file(const int id,const unsigned long long True_number,const unsigned long long False_number) { fstream fp; fp.open(&amp;quot;data.txt&amp;quot;,ios::out|ios::app); fp&amp;lt;&amp;lt;id&amp;lt;&amp;lt;&amp;quot;,&amp;quot;&amp;lt;&amp;lt;True_number&amp;lt;&amp;lt;&amp;quot;,&amp;quot;&amp;lt;&amp;lt;False_number&amp;lt;&amp;lt;&amp;quot;,&amp;quot;&amp;lt;&amp;lt;(True_number/(double)run_time)*100&amp;lt;&amp;lt;&amp;quot;%,&amp;quot;&amp;lt;&amp;lt;(False_number/(double)run_time)*100&amp;lt;&amp;lt;&amp;quot;%\n&amp;quot;; fp.close(); } int main() { cout&amp;lt;&amp;lt;&amp;quot;How many times do yo want to run? &amp;gt;&amp;quot;; cin &amp;gt;&amp;gt; sample; cout&amp;lt;&amp;lt;&amp;quot;How many times do yo want to run in one sample(n)? &amp;gt;&amp;quot;; cin &amp;gt;&amp;gt; run_time; init(); for(int c=0; c&amp;lt;sample; c++) { unsigned long long True_number = 0,False_number = 0; for(unsigned long long i=0; i&amp;lt;run_time; i++) { if(Random()) True_number++; else False_number++; } write_file(c+1,True_number,False_number); } cout&amp;lt;&amp;lt;&amp;quot;Complete!\n&amp;quot;; }  解釋一下程式碼
 init() 是程式一開始執行的函式，會把輸出檔案的標題輸出好，並初始化亂數器。
