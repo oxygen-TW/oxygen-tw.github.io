@@ -3,152 +3,152 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.com/about/</loc>
+    <loc>https://oxygentw.net/about/</loc>
     <lastmod>2018-11-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.com/blog/notes/simple-chemical-nomenclature/</loc>
+    <loc>https://oxygentw.net/blog/notes/simple-chemical-nomenclature/</loc>
     <lastmod>2018-11-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.com/blog/notes/abnormal-behavior-4d/</loc>
+    <loc>https://oxygentw.net/blog/notes/abnormal-behavior-4d/</loc>
     <lastmod>2018-11-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.com/blog/notes/about-bpd/</loc>
+    <loc>https://oxygentw.net/blog/notes/about-bpd/</loc>
     <lastmod>2018-09-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.com/blog/poetry/unwarranted-aspersion/</loc>
+    <loc>https://oxygentw.net/blog/poetry/unwarranted-aspersion/</loc>
     <lastmod>2017-12-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.com/blog/notes/leap-year-rule/</loc>
+    <loc>https://oxygentw.net/blog/notes/leap-year-rule/</loc>
     <lastmod>2017-12-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.com/blog/notes/cpp-bernoulli-trial-simulation/</loc>
+    <loc>https://oxygentw.net/blog/notes/cpp-bernoulli-trial-simulation/</loc>
     <lastmod>2017-09-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.com/blog/notes/dsm-5-305-90-translation/</loc>
+    <loc>https://oxygentw.net/blog/notes/dsm-5-305-90-translation/</loc>
     <lastmod>2017-08-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.com/blog/prose/about-suicide-depression/</loc>
+    <loc>https://oxygentw.net/blog/prose/about-suicide-depression/</loc>
     <lastmod>2017-07-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.com/blog/prose/wine/</loc>
+    <loc>https://oxygentw.net/blog/prose/wine/</loc>
     <lastmod>2017-07-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.com/blog/poetry/desk_memories/</loc>
+    <loc>https://oxygentw.net/blog/poetry/desk_memories/</loc>
     <lastmod>2017-06-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.com/itemized/item1/</loc>
+    <loc>https://oxygentw.net/itemized/item1/</loc>
     <lastmod>2017-06-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.com/itemized/item2/</loc>
+    <loc>https://oxygentw.net/itemized/item2/</loc>
     <lastmod>2017-06-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.com/itemized/item3/</loc>
+    <loc>https://oxygentw.net/itemized/item3/</loc>
     <lastmod>2017-06-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.com/itemized/item4/</loc>
+    <loc>https://oxygentw.net/itemized/item4/</loc>
     <lastmod>2017-06-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.com/blog/poetry/sacrifice-love/</loc>
+    <loc>https://oxygentw.net/blog/poetry/sacrifice-love/</loc>
     <lastmod>2017-04-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.com/categories/</loc>
+    <loc>https://oxygentw.net/categories/</loc>
     <lastmod>2017-06-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.com/blog/</loc>
+    <loc>https://oxygentw.net/blog/</loc>
     <lastmod>2018-11-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.com/categories/</loc>
+    <loc>https://oxygentw.net/categories/</loc>
     <lastmod>2017-06-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.com/itemized/</loc>
+    <loc>https://oxygentw.net/itemized/</loc>
     <lastmod>2017-06-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.com/</loc>
+    <loc>https://oxygentw.net/</loc>
     <lastmod>2018-11-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/</loc>
+    <loc>https://oxygentw.net/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.com/categories/computer/</loc>
+    <loc>https://oxygentw.net/categories/computer/</loc>
     <lastmod>2017-09-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.com/categories/medical-knowledge/</loc>
+    <loc>https://oxygentw.net/categories/medical-knowledge/</loc>
     <lastmod>2018-09-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.com/categories/notes/</loc>
+    <loc>https://oxygentw.net/categories/notes/</loc>
     <lastmod>2018-11-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.com/categories/poetry/</loc>
+    <loc>https://oxygentw.net/categories/poetry/</loc>
     <lastmod>2017-12-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.com/categories/prose/</loc>
+    <loc>https://oxygentw.net/categories/prose/</loc>
     <lastmod>2017-07-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.com/contact/</loc>
+    <loc>https://oxygentw.net/contact/</loc>
   </url>
   
 </urlset>
