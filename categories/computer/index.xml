@@ -78,6 +78,134 @@ sudo a2dismod php7.0 ; sudo a2enmod php5.6 ; sudo service apache2 restart
     </item>
     
     <item>
+      <title>Linux Server Network interface 基本設定</title>
+      <link>https://oxygentw.net/blog/computer/linux-server-network-interface-basic-setup/</link>
+      <pubDate>Tue, 24 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/linux-server-network-interface-basic-setup/</guid>
+      <description>伺服器安裝過程中設定固定IP是很重要的一個步驟，雖然簡單卻不可大意，interface 要是改錯伺服器會無法連網，若是透過SSH維護就得跑一趟機房了，因此我記錄一下伺服器的基本網路設定。
+以 Ubuntu Server 16.04 LTS 發行版為例
+
+備份原設定檔並編輯設定檔 sudo cp /etc/network/interface /etc/network/interface.backup sudo vim /etc/network/interface  設定固定 IP auto lo iface lo inet loopback #修改以下部分 auto eth0 iface eth0 inet static # static = 固定 IP。 address 203.72.xxx.xxx # IP 位址。 netmask 255.255.255.0 # 子網路遮罩。 gateway 203.72.xxx.xxx # 預設閘道位置。 dns-nameservers 168.95.1.1 8.8.8.8 # DNS Server(以空格分開)  重新啟動網路服務 sudo service networking restart  
+若修改後發現網路有問題，就把 interface 刪除， interface.backup 改名為 interface 並重新啟動網路服務應該會修好</description>
+    </item>
+    
+    <item>
+      <title>ubuntu 升級作業系統版本</title>
+      <link>https://oxygentw.net/blog/computer/ubuntu-do-release-upgrade/</link>
+      <pubDate>Mon, 19 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/ubuntu-do-release-upgrade/</guid>
+      <description>我管理的伺服器有一台是 ubuntu 14.04，看了好討厭喔XD 就決定把它升級成 16.04。
+
+先更新套件管理工具
+sudo apt-get update
+
+升級套件
+sudo apt-get upgrade
+
+升級目前系統
+sudo apt-get dist-upgrade
+
+關鍵來了！升級作業系統版本的指令，執行後依序回答他跑出來的問題，等他跑完就更新好。
+sudo do-release-upgrade
+
+最後做個收尾
+sudo apt-get autoremove sudo reboot  完成，很簡單吧！但我更新後有遇到一些小問題，例如 14.04 使用 php5.6，而 16.04 是 php7.0，Apache就出了點問題，需要更換 php 版本才能正常運作，不過整體上都是不會有差別的。</description>
+    </item>
+    
+    <item>
+      <title>Linux 壓縮檔相關指令</title>
+      <link>https://oxygentw.net/blog/computer/linux-zip-file-command/</link>
+      <pubDate>Wed, 27 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/linux-zip-file-command/</guid>
+      <description>在使用 Linux Server 的時候常常需要使用命令列介面解壓縮，因為沒有 GUI 啊！那麼多種壓縮檔，每個指令又那麼像&amp;hellip;&amp;hellip;每次要用都得查一次，不如我就來整理一番！
+zip 相關套件 zip unzip
+壓縮 zip fileName.zip Directory
+解壓 unzip fileName.zip
+
+rar 相關套件 rar
+壓縮 rar a fileName.rar Directory
+解壓 rar e fileName.rar
+
+tar 相關套件 tar (應該內建都有)
+壓縮 tar cvf fileName.tar Directory
+解壓 tar xvf fileName.tar
+
+gz 相關套件 gzip
+壓縮 gzip fileName.gz Directory
+解壓 gzip -d fileName.gz
+
+tgz 相關套件 tar
+壓縮 tar zcvf fileName.tgz file
+解壓 tar zxvf fileName.tgz
+
+bz 相關套件 bzip2
+壓縮 ??
+解壓 bzip2 -d fileName.bz
+
+bz2 相關套件 bzip2
+壓縮 bzip2 -z fileName.bz2 Directory
+解壓 bzip2 -d fileName.bz2
+
+Z 相關套件 tar
+壓縮 compress fileName
+解壓 uncompress fileName.Z
+
+7z 相關套件 7zip-full 壓縮 7z a fileName.7z Directory [-pPASSWOWD]
+解壓 7z x fileName.xz
+
+xz 相關套件 xz-utils
+壓縮 xz -z fileName
+解壓 xz -d fileName.xz
+
+lha 相關套件 lha
+壓縮 lha -a fileName.lha Directory
+解壓 lha -e fileName.lha
+tar.gz 相關套件 tar
+壓縮 tar zcvf fileName.gz Directory
+解壓 tar zxvf fileName.gz
+
+tar.bz 相關套件 tar
+壓縮 ??
+解壓 tar jxvf fileName.tar.bz
+
+tar.bz2 相關套件 tar
+壓縮 tar jcvf fileName.tar.bz2 Directory
+解壓 tar jxvf fileName.tar.bz2
+
+tar.xz 相關套件 tar
+壓縮 tar Jcvf fileName.tar.xz Directory
+解壓 tar Jxvf fileName.tar.xz
+
+tar.z 相關套件 tar
+壓縮 tar Zcvf fileName.tar.z Directory
+解壓 tar Zxvf fileName.</description>
+    </item>
+    
+    <item>
+      <title>Linux 安裝 Go 語言環境</title>
+      <link>https://oxygentw.net/blog/computer/linux-install-go-environment/</link>
+      <pubDate>Sun, 24 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/linux-install-go-environment/</guid>
+      <description>Go 是 Google 開發的程式語言，語法和 C語言 相似，但變數宣告並不相同，而且有垃圾回收機制，我接觸一下 Go 語言後就愛上它了，它可以非常方便的建立 Web 服務，加上 goroutine 的非阻塞式執行函式等等的功能，它還可以開發 Android 和 ios 的應用程式，Go 所編譯出來的都是原生二進制執行檔，不會像 Python 一樣部署的時候一堆檔案亂七八糟的很麻煩，同時也可以保護程式碼的安全！
+現在就來安裝 Go 的開發環境吧~
+
+這又是簡單到不行的一個安裝，只須以下幾個步驟
+更新套件資料庫與升級 sudo apt-get update sudo apt-get upgrade  
+安裝 Go 語言套件 sudo apt-get install golang
+
+檢查是否成功安裝，成功則會顯示類似文字 : go version go1.6.2 linux/amd64
+go version
+
+查看 Go 環境參數 go env
+
+完成 !</description>
+    </item>
+    
+    <item>
       <title>C&#43;&#43; 獨立重複白努力試驗模擬</title>
       <link>https://oxygentw.net/blog/notes/cpp-bernoulli-trial-simulation/</link>
       <pubDate>Tue, 19 Sep 2017 00:00:00 +0000</pubDate>
@@ -92,6 +220,157 @@ main() 會先詢問使用者要執行幾回，每回有幾次試驗，輸入完�
 
 我把程式寫完後就遠端送到 Linux 去處理，性能比較好些，於是我也寫了 Makefile。
 # Makefile of Bernoulli Trial simulation all:Bernoulli-Trial-simulation.cpp g++ Bernoulli-Trial-simulation.cpp -o Bernoulli-Trial-simulation clean: rm -f Bernoulli-Trial-simulation  超簡單的 Makefile XD就只是編譯和移除兩行指令而已，但能只打 make 就編譯還是比較方便 !</description>
+    </item>
+    
+    <item>
+      <title>Linux 架設 Minecraft Server</title>
+      <link>https://oxygentw.net/blog/computer/linux-minecraft-server/</link>
+      <pubDate>Sat, 29 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/linux-minecraft-server/</guid>
+      <description>如果有人有玩 Minecraft 應該會覺得這遊戲就是要多人才好玩吧，但架伺服器拿自己家裡的電腦就不能長時間開機，不然很耗電! IP設定也大多需要 Hamachi，比較不方便，如果把 Minecraft Server和有其他服務的伺服器放在一起，就可以順便用一點點資源借來玩遊戲啦! 通常伺服器用 Linux系統，所以我就用 Linux教學囉~
+示範主機為 CentOS 7
+Minecraft 是用 Java寫的，所以先檢查有沒有安裝 Java，如果沒有就去裝一下吧。
+java -version
+
+接著，我們新增一個 Minecraft Server 的資料夾
+mkdir minecraft_server cd minecraft_server  
+再來下載伺服器軟體，有官方載點和水桶載點等等，如果有架過就選自己喜歡的，沒有的話就用官方的就行了，沒有差很多。 官方伺服器軟體:
+wget https://s3.amazonaws.com/Minecraft.Download/versions/1.12/minecraft_server.1.12.jar
+或是從 Bukkit 網站 下載後放入伺服器
+
+新增一個文件 run.sh，這是用來開啟伺服器的bash，-Xms 後加上伺服器最小記憶體用量， -Xmx則是最大用量。
+nohup java -Xms256M -Xmx512M -jar minecraft_server.1.12.jar &amp;amp;
+
+然後以 root 權限執行他，執行後不會成功啟動，但資料夾裡會多出一些檔案，我們等等要修改他。
+ sh run.sh 
+
+修改 elua.txt elua=false 改成elua=true
+
+修改 server.properties 加入兩行字
+server-ip=你的IP位置
+online-mode=true/false #是否驗證正版，如果希望迷版也可以玩就設false，不希望反之。
+
+接著再用 root 執行一次
+sh run.sh 伺服器就會開啟，如要查看log檔可以去 nohup.out 或 log的資料夾裡看</description>
+    </item>
+    
+    <item>
+      <title>Linux 使用終端機製作開機碟</title>
+      <link>https://oxygentw.net/blog/computer/linux-use-terminal-makebootdisk/</link>
+      <pubDate>Sat, 15 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/linux-use-terminal-makebootdisk/</guid>
+      <description>之前需要在 linux 的環境下製作 server 的開機碟，但我不會用給 linux 的燒錄工具（有內建工具，只是我懶所以就直接用終端機處理XD）於是就來分享一下做法~
+我使用的作業系統是 linux lite(Ubuntu)
+先查看 USB 在哪個位置（不能看錯噢！等等映像燒錯磁碟會非常可怕&amp;hellip;)
+lsblk
+
+卸載磁碟來進行後續步驟，USB 位置填剛剛 lsblk 查到的位置。
+umount /media/user/149C-FF09
+
+再來要格式化磁碟，記得先備份 USB 裡的東西。 以我的電腦而言是 /dev/sdb 你的或許不同，千萬不要照抄
+sudo mkfs.vfat /dev/sdb
+
+如果遇到這個錯誤就加個 -I 參數: mkfs.vfat: Device partition expected, not making filesystem on entire device &amp;lsquo;/dev/sdb&amp;rsquo; (use -I to override)
+sudo mkfs.vfat -I /dev/sdb
+
+接者寫入映像檔，if(input file) 填入映像檔路徑，of(output file) 填入要寫入的路徑
+sudo dd if=/home/user/download/ubuntu-16.04.2-server-amd64.iso of=/dev/sdb
+
+燒錄需要一點時間，等他跑完就完成了！</description>
+    </item>
+    
+    <item>
+      <title>windows &amp; Linux 雙系統 grub 被覆蓋的解決方法</title>
+      <link>https://oxygentw.net/blog/computer/windows-linux-grub/</link>
+      <pubDate>Sat, 15 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/windows-linux-grub/</guid>
+      <description>有時候在電腦上安裝 Linux和 Windows雙系統時，如果 Windows比 Linux晚裝，或是 Windows重灌，都有可能導致 grub不能正常作用，一開機直接進入 Windows，其實修正他不會很難，只有下面幾個步驟。
+首先，找到一個 Linux的開機 USB或 Live CD，用他開機，進入 Linux系統，開啟終端機。
+輸入 fdisk -l
+
+找到 Linux的開機磁區，通常是 /boot 或 / ，我的是 sdb5 /boot。
+接著輸入(如果 bootloader在/ 就把 boot改成 root，磁碟編號自行修改)
+mount /dev/sdb5 /mnt sudo grub-install --boot-directory=/mnt/ /dev/sdb5  
+這樣就能從 grub進入到原本的 Linux系統了。
+reboot
+
+把 USB移除，回到原本的 Linux開終端機輸入
+sudo update-grub
+
+這時 grub就會去找硬碟上的作業系統，下次就可以正常用 grub選單選擇系統了!</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu 安裝 WordPress</title>
+      <link>https://oxygentw.net/blog/computer/ubuntu-install-wordpress/</link>
+      <pubDate>Sun, 09 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/ubuntu-install-wordpress/</guid>
+      <description>WordPress 是一個非常好用的網站架設工具，但我覺得他網頁版的免費方案擴充功能不夠完善，還會有廣告，只好花點時間自己在伺服器上安裝，這樣就沒有方案的問題了。
+
+不過一般人家裡不適合放一臺主機，組一臺主機很貴啊。。。而且還要確保供電不中斷，電費也是一筆開銷，所以如果要自己架，可以使用網路上 openshift 的主機，或是使用樹莓派來架設，樹莓派是一種微電腦，耗電小，體積小，功能也齊全，只要不要做太大型的運算，基本上都很穩定！
+
+廢話不多說，開啓終端機進入安裝步驟，伺服器必須預裝好 LAMP 喔！
+1.登入MySQL
+sudo mysql -u root -p;
+
+2.創建MySQL資料庫
+CREATE DATABASE DB_NAME;
+
+3.創建MySQL用戶
+GRANT ALL ON wordpress.* TO &#39;USERNAME&#39;@&#39;localhost&#39; IDENTIFIED BY &#39;PASSWORD&#39;;
+
+4.更新
+FLUSH PRIVILEGES;
+
+5.退出MySQL
+quit;
+
+6.啓用.htaccess
+sudo vim /etc/apache2/apache2.conf
+
+7.把Directory區塊中的AllowOverride的值設定爲All
+
+8.重新啓動模組
+sudo a2enmod rewrite
+
+9.檢查組態檔
+sudo apache2ctl configtest
+
+10.伺服器重啓
+sudo service apache2 restart
+
+11.下載WordPress 版本可自行修改成最新版本
+cd /tmp curl -O https://tw.wordpress.org/wordpress-4.7.3-zh_TW.tar.gz  
+12.解壓縮
+tar xzvf wordpress-4.7.3-zh_TW.tar.gz
+
+13.創建 .htaccess文件並修改權限
+touch /tmp/wordpress/.htaccess chmod 660 /tmp/wordpress/.htaccess  
+14.創建組態文件
+cp /tmp/wordpress/wp-config-sample.php /tmp/wordpress/wp-config.php
+
+15.將WordPress 複製到網站根目錄 (注意!會清除所有伺服器根目錄的檔案)
+sudo rm -rf /var/www/html/* sudo cp -a /tmp/wordpress/. /var/www/html  
+16.更改WordPress 目錄權限 (把LINUX-USER換成自己的linux帳戶)
+sudo chown –R LINUX-USER:www–data /var/www/html
+
+17.更改WordPress 根目錄權限
+sudo find /var/www/html -type d -exec chmod g+s {} \; sudo chmod g+w /var/www/html/wp-content sudo chmod -R g+w /var/www/html/wp-content/themes sudo chmod -R g+w /var/www/html/wp-content/plugins  
+17.編輯WordPress 配置文件
+sudo vim /var/www/html/wp-config.php 分別修改資料庫名稱、用戶名稱、用戶密碼  
+18.添加一行文字，防止插件安裝出現FTP認證界面
+define(&#39;FS_METHOD&#39;, &#39;direct&#39;);
+
+19.設置密鑰—取得密鑰
+curl -s https://api.wordpress.org/secret-key/1.1/salt/
+
+20.替換WordPress組態文件中的值
+
+21.安裝完成！ 參考資料:http://blog.topspeedsnail.com/archives/4646</description>
     </item>
     
   </channel>

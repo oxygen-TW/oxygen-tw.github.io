@@ -43,8 +43,23 @@
   </url>
   
   <url>
+    <loc>https://oxygentw.net/blog/travel/travel-medicine-first-aid-kits/</loc>
+    <lastmod>2018-06-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://oxygentw.net/blog/computer/php7-downgrade-to-php5/</loc>
     <lastmod>2018-06-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://oxygentw.net/blog/computer/linux-server-network-interface-basic-setup/</loc>
+    <lastmod>2018-04-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://oxygentw.net/blog/computer/ubuntu-do-release-upgrade/</loc>
+    <lastmod>2018-03-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -58,6 +73,16 @@
   </url>
   
   <url>
+    <loc>https://oxygentw.net/blog/computer/linux-zip-file-command/</loc>
+    <lastmod>2017-09-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://oxygentw.net/blog/computer/linux-install-go-environment/</loc>
+    <lastmod>2017-09-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://oxygentw.net/blog/notes/cpp-bernoulli-trial-simulation/</loc>
     <lastmod>2017-09-19T00:00:00+00:00</lastmod>
   </url>
@@ -68,8 +93,18 @@
   </url>
   
   <url>
+    <loc>https://oxygentw.net/blog/computer/linux-minecraft-server/</loc>
+    <lastmod>2017-07-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://oxygentw.net/blog/prose/about-suicide-depression/</loc>
     <lastmod>2017-07-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://oxygentw.net/blog/computer/linux-use-terminal-makebootdisk/</loc>
+    <lastmod>2017-07-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -103,8 +138,18 @@
   </url>
   
   <url>
+    <loc>https://oxygentw.net/blog/computer/windows-linux-grub/</loc>
+    <lastmod>2017-04-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://oxygentw.net/blog/poetry/sacrifice-love/</loc>
     <lastmod>2017-04-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://oxygentw.net/blog/computer/ubuntu-install-wordpress/</loc>
+    <lastmod>2017-04-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -169,6 +214,12 @@
   <url>
     <loc>https://oxygentw.net/categories/prose/</loc>
     <lastmod>2017-07-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://oxygentw.net/categories/travel/</loc>
+    <lastmod>2018-06-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
