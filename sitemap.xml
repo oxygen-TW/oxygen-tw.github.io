@@ -23,6 +23,31 @@
   </url>
   
   <url>
+    <loc>https://oxygentw.net/blog/computer/c-standard-library-qsort/</loc>
+    <lastmod>2018-08-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://oxygentw.net/blog/computer/python-requests/</loc>
+    <lastmod>2018-08-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://oxygentw.net/blog/computer/urlretrieve-python3/</loc>
+    <lastmod>2018-08-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://oxygentw.net/blog/computer/apache-server-force-https/</loc>
+    <lastmod>2018-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://oxygentw.net/blog/computer/php7-downgrade-to-php5/</loc>
+    <lastmod>2018-06-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://oxygentw.net/blog/poetry/unwarranted-aspersion/</loc>
     <lastmod>2017-12-30T00:00:00+00:00</lastmod>
   </url>
@@ -119,7 +144,7 @@
   
   <url>
     <loc>https://oxygentw.net/categories/computer/</loc>
-    <lastmod>2017-09-19T00:00:00+00:00</lastmod>
+    <lastmod>2018-08-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

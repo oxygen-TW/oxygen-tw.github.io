@@ -11,36 +11,36 @@
              "@id": "https://oxygentw.net"
         },
         "articleSection" : "blog",
-        "name" : "嗯？趴在桌子上，回憶著回憶",
-        "headline" : "嗯？趴在桌子上，回憶著回憶",
-        "description" : "不知不覺的兩年半過去了
-我們關係早已不再密切，那不曾存在的關係
-但總是會在某個安靜的時刻想起當年
-我坐在妳右邊，傻傻的看着妳的日子
-往日的笑顏就像成爲我心靈的一部分
-此生大概已無法抹滅
- 創作於2017/06/22 一個平凡的晚自習時間
-當我將妳的意象注入我靈魂之中
-如烙刻在我心的是妳的神韻
-妳的笑與我的喜；妳的淚與我的悲
-以一種複雜而浪漫的深情纏繞",
+        "name" : "C Standard Library QSort 函式",
+        "headline" : "C Standard Library QSort 函式",
+        "description" : "前些天很意外地得知學校程式設計居然是教 C語言，非工程相關應該不需要學到這種中階語言才對吧…… 好歹來個 C++ 啊 !!!!
+抱怨歸抱怨，課還是得上，只好重新翻閱C的標準函式庫複習一下，結果在裡面挖到很多好用的東西呢XD 其中 stdlib.h 的 qsort 函式我覺得最驚喜，我一直以為只有 C++ 的 STL library才有 sort()，沒想到C語言也有！ 不過用法有點複雜，紀錄一下。
+
+Function Prototype
+ void qsort(void* base, size_t n, size_t size, int (cmp)(const void, const void*))
+  base 是被排序陣列的指標 n 是被排序陣列的大小 = sizeof(array)/sizeof(array_type) size 是陣列中元素的大小 = sizeof(array_type) 最後是指向比較函數的指標  
+指向比較函數的指標比較特別，就像 STL sort 如果要改變排序方向的話必須傳入第三個參數，自行定義的比較函數。
+範例如下：
+int cmpfunc (const void * a, const void * b) { return ( *(int*)a - *(int*)b ) }  傳入 a,b 兩參數型別是 void ，需要強制轉型成被排序陣列的型別，如範例中 a,b 先被強制轉型成整數指標 (int)，再對他取值做處理。
+完整範例
+#include &lt;stdio.h&gt; #include &lt;stdlib.h&gt; void printIntArr(int *arr,int arrSize) { for(int i=0; i&lt;arrSize; i++) {printf(&quot;%d &quot;,arr[i]);} printf(&quot;\n&quot;); } int cmpfunc (const void * a, const void * b) { return *(int*)a &gt; *(int*)b; } int main () { int arr[] = { 56, 45, 48, 12, 4, 3, 4568, 45, 48, 213, 54, 32, 4, 8, 9, 6, 4, 23, 0, -2, 56 }; printIntArr(arr,(sizeof(arr)/sizeof(int))); qsort(arr,sizeof(arr)/sizeof(int),sizeof(int),cmpfunc); //Quick sort printIntArr(arr,(sizeof(arr)/sizeof(int))); return 0; }  ",
         "inLanguage" : "en",
         "author" : "",
         "creator" : "",
         "publisher": "",
         "accountablePerson" : "",
         "copyrightHolder" : "",
-        "copyrightYear" : "2017",
-        "datePublished": "2017-06-24 00:00:00 &#43;0000 UTC",
-        "dateModified" : "2017-06-24 00:00:00 &#43;0000 UTC",
-        "url" : "https://oxygentw.net/blog/poetry/desk_memories/",
-        "wordCount" : "12",
+        "copyrightYear" : "2018",
+        "datePublished": "2018-08-30 00:00:00 &#43;0000 UTC",
+        "dateModified" : "2018-08-30 00:00:00 &#43;0000 UTC",
+        "url" : "https://oxygentw.net/blog/computer/c-standard-library-qsort/",
+        "wordCount" : "146",
         "keywords" : [ "Blog" ]
     }
     </script>
         
             
-                <title>嗯？趴在桌子上，回憶著回憶</title>
+                <title>C Standard Library QSort 函式</title>
             
         
 
@@ -62,57 +62,57 @@
         
 
         <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="嗯？趴在桌子上，回憶著回憶"/>
-<meta name="twitter:description" content="不知不覺的兩年半過去了
-我們關係早已不再密切，那不曾存在的關係
-但總是會在某個安靜的時刻想起當年
-我坐在妳右邊，傻傻的看着妳的日子
-往日的笑顏就像成爲我心靈的一部分
-此生大概已無法抹滅
- 創作於2017/06/22 一個平凡的晚自習時間
-當我將妳的意象注入我靈魂之中
-如烙刻在我心的是妳的神韻
-妳的笑與我的喜；妳的淚與我的悲
-以一種複雜而浪漫的深情纏繞"/>
+<meta name="twitter:title" content="C Standard Library QSort 函式"/>
+<meta name="twitter:description" content="前些天很意外地得知學校程式設計居然是教 C語言，非工程相關應該不需要學到這種中階語言才對吧…… 好歹來個 C&#43;&#43; 啊 !!!!
+抱怨歸抱怨，課還是得上，只好重新翻閱C的標準函式庫複習一下，結果在裡面挖到很多好用的東西呢XD 其中 stdlib.h 的 qsort 函式我覺得最驚喜，我一直以為只有 C&#43;&#43; 的 STL library才有 sort()，沒想到C語言也有！ 不過用法有點複雜，紀錄一下。
 
-        <meta property="og:title" content="嗯？趴在桌子上，回憶著回憶" />
-<meta property="og:description" content="不知不覺的兩年半過去了
-我們關係早已不再密切，那不曾存在的關係
-但總是會在某個安靜的時刻想起當年
-我坐在妳右邊，傻傻的看着妳的日子
-往日的笑顏就像成爲我心靈的一部分
-此生大概已無法抹滅
- 創作於2017/06/22 一個平凡的晚自習時間
-當我將妳的意象注入我靈魂之中
-如烙刻在我心的是妳的神韻
-妳的笑與我的喜；妳的淚與我的悲
-以一種複雜而浪漫的深情纏繞" />
+Function Prototype
+ void qsort(void* base, size_t n, size_t size, int (cmp)(const void, const void*))
+  base 是被排序陣列的指標 n 是被排序陣列的大小 = sizeof(array)/sizeof(array_type) size 是陣列中元素的大小 = sizeof(array_type) 最後是指向比較函數的指標  
+指向比較函數的指標比較特別，就像 STL sort 如果要改變排序方向的話必須傳入第三個參數，自行定義的比較函數。
+範例如下：
+int cmpfunc (const void * a, const void * b) { return ( *(int*)a - *(int*)b ) }  傳入 a,b 兩參數型別是 void ，需要強制轉型成被排序陣列的型別，如範例中 a,b 先被強制轉型成整數指標 (int)，再對他取值做處理。
+完整範例
+#include &lt;stdio.h&gt; #include &lt;stdlib.h&gt; void printIntArr(int *arr,int arrSize) { for(int i=0; i&lt;arrSize; i&#43;&#43;) {printf(&quot;%d &quot;,arr[i]);} printf(&quot;\n&quot;); } int cmpfunc (const void * a, const void * b) { return *(int*)a &gt; *(int*)b; } int main () { int arr[] = { 56, 45, 48, 12, 4, 3, 4568, 45, 48, 213, 54, 32, 4, 8, 9, 6, 4, 23, 0, -2, 56 }; printIntArr(arr,(sizeof(arr)/sizeof(int))); qsort(arr,sizeof(arr)/sizeof(int),sizeof(int),cmpfunc); //Quick sort printIntArr(arr,(sizeof(arr)/sizeof(int))); return 0; }  "/>
+
+        <meta property="og:title" content="C Standard Library QSort 函式" />
+<meta property="og:description" content="前些天很意外地得知學校程式設計居然是教 C語言，非工程相關應該不需要學到這種中階語言才對吧…… 好歹來個 C&#43;&#43; 啊 !!!!
+抱怨歸抱怨，課還是得上，只好重新翻閱C的標準函式庫複習一下，結果在裡面挖到很多好用的東西呢XD 其中 stdlib.h 的 qsort 函式我覺得最驚喜，我一直以為只有 C&#43;&#43; 的 STL library才有 sort()，沒想到C語言也有！ 不過用法有點複雜，紀錄一下。
+
+Function Prototype
+ void qsort(void* base, size_t n, size_t size, int (cmp)(const void, const void*))
+  base 是被排序陣列的指標 n 是被排序陣列的大小 = sizeof(array)/sizeof(array_type) size 是陣列中元素的大小 = sizeof(array_type) 最後是指向比較函數的指標  
+指向比較函數的指標比較特別，就像 STL sort 如果要改變排序方向的話必須傳入第三個參數，自行定義的比較函數。
+範例如下：
+int cmpfunc (const void * a, const void * b) { return ( *(int*)a - *(int*)b ) }  傳入 a,b 兩參數型別是 void ，需要強制轉型成被排序陣列的型別，如範例中 a,b 先被強制轉型成整數指標 (int)，再對他取值做處理。
+完整範例
+#include &lt;stdio.h&gt; #include &lt;stdlib.h&gt; void printIntArr(int *arr,int arrSize) { for(int i=0; i&lt;arrSize; i&#43;&#43;) {printf(&quot;%d &quot;,arr[i]);} printf(&quot;\n&quot;); } int cmpfunc (const void * a, const void * b) { return *(int*)a &gt; *(int*)b; } int main () { int arr[] = { 56, 45, 48, 12, 4, 3, 4568, 45, 48, 213, 54, 32, 4, 8, 9, 6, 4, 23, 0, -2, 56 }; printIntArr(arr,(sizeof(arr)/sizeof(int))); qsort(arr,sizeof(arr)/sizeof(int),sizeof(int),cmpfunc); //Quick sort printIntArr(arr,(sizeof(arr)/sizeof(int))); return 0; }  " />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://oxygentw.net/blog/poetry/desk_memories/" /><meta property="article:published_time" content="2017-06-24T00:00:00&#43;00:00"/>
-<meta property="article:modified_time" content="2017-06-24T00:00:00&#43;00:00"/>
+<meta property="og:url" content="https://oxygentw.net/blog/computer/c-standard-library-qsort/" /><meta property="article:published_time" content="2018-08-30T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2018-08-30T00:00:00&#43;00:00"/>
 
         <meta property="og:image" content="https://oxygentw.net/images/logo.png">
         <meta property="og:image:type" content="image/png">
         <meta property="og:image:width" content="512">
         <meta property="og:image:height" content="512">
         
-<meta itemprop="name" content="嗯？趴在桌子上，回憶著回憶">
-<meta itemprop="description" content="不知不覺的兩年半過去了
-我們關係早已不再密切，那不曾存在的關係
-但總是會在某個安靜的時刻想起當年
-我坐在妳右邊，傻傻的看着妳的日子
-往日的笑顏就像成爲我心靈的一部分
-此生大概已無法抹滅
- 創作於2017/06/22 一個平凡的晚自習時間
-當我將妳的意象注入我靈魂之中
-如烙刻在我心的是妳的神韻
-妳的笑與我的喜；妳的淚與我的悲
-以一種複雜而浪漫的深情纏繞">
+<meta itemprop="name" content="C Standard Library QSort 函式">
+<meta itemprop="description" content="前些天很意外地得知學校程式設計居然是教 C語言，非工程相關應該不需要學到這種中階語言才對吧…… 好歹來個 C&#43;&#43; 啊 !!!!
+抱怨歸抱怨，課還是得上，只好重新翻閱C的標準函式庫複習一下，結果在裡面挖到很多好用的東西呢XD 其中 stdlib.h 的 qsort 函式我覺得最驚喜，我一直以為只有 C&#43;&#43; 的 STL library才有 sort()，沒想到C語言也有！ 不過用法有點複雜，紀錄一下。
+
+Function Prototype
+ void qsort(void* base, size_t n, size_t size, int (cmp)(const void, const void*))
+  base 是被排序陣列的指標 n 是被排序陣列的大小 = sizeof(array)/sizeof(array_type) size 是陣列中元素的大小 = sizeof(array_type) 最後是指向比較函數的指標  
+指向比較函數的指標比較特別，就像 STL sort 如果要改變排序方向的話必須傳入第三個參數，自行定義的比較函數。
+範例如下：
+int cmpfunc (const void * a, const void * b) { return ( *(int*)a - *(int*)b ) }  傳入 a,b 兩參數型別是 void ，需要強制轉型成被排序陣列的型別，如範例中 a,b 先被強制轉型成整數指標 (int)，再對他取值做處理。
+完整範例
+#include &lt;stdio.h&gt; #include &lt;stdlib.h&gt; void printIntArr(int *arr,int arrSize) { for(int i=0; i&lt;arrSize; i&#43;&#43;) {printf(&quot;%d &quot;,arr[i]);} printf(&quot;\n&quot;); } int cmpfunc (const void * a, const void * b) { return *(int*)a &gt; *(int*)b; } int main () { int arr[] = { 56, 45, 48, 12, 4, 3, 4568, 45, 48, 213, 54, 32, 4, 8, 9, 6, 4, 23, 0, -2, 56 }; printIntArr(arr,(sizeof(arr)/sizeof(int))); qsort(arr,sizeof(arr)/sizeof(int),sizeof(int),cmpfunc); //Quick sort printIntArr(arr,(sizeof(arr)/sizeof(int))); return 0; }  ">
 
 
-<meta itemprop="datePublished" content="2017-06-24T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2017-06-24T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="12">
+<meta itemprop="datePublished" content="2018-08-30T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2018-08-30T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="146">
 
 
 
@@ -388,7 +388,7 @@ if (!doNotTrack) {
 
 
 <li>
-  <a href="//twitter.com/share?url=https%3a%2f%2foxygentw.net%2fblog%2fpoetry%2fdesk_memories%2f&amp;text=%e5%97%af%ef%bc%9f%e8%b6%b4%e5%9c%a8%e6%a1%8c%e5%ad%90%e4%b8%8a%ef%bc%8c%e5%9b%9e%e6%86%b6%e8%91%97%e5%9b%9e%e6%86%b6&amp;via=" target="_blank" class="share-btn twitter">
+  <a href="//twitter.com/share?url=https%3a%2f%2foxygentw.net%2fblog%2fcomputer%2fc-standard-library-qsort%2f&amp;text=C%20Standard%20Library%20QSort%20%e5%87%bd%e5%bc%8f&amp;via=" target="_blank" class="share-btn twitter">
     <i class="fa fa-twitter"></i>
     <p>Twitter</p>
     </a>
@@ -398,7 +398,7 @@ if (!doNotTrack) {
 
 
 <li>
-  <a href="//plus.google.com/share?url=https%3a%2f%2foxygentw.net%2fblog%2fpoetry%2fdesk_memories%2f" target="_blank" class="share-btn google-plus">
+  <a href="//plus.google.com/share?url=https%3a%2f%2foxygentw.net%2fblog%2fcomputer%2fc-standard-library-qsort%2f" target="_blank" class="share-btn google-plus">
     <i class="fa fa-google-plus"></i>
     <p>Google+</p>
   </a>
@@ -409,7 +409,7 @@ if (!doNotTrack) {
 
 
 <li>
-  <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2foxygentw.net%2fblog%2fpoetry%2fdesk_memories%2f" target="_blank" class="share-btn facebook">
+  <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2foxygentw.net%2fblog%2fcomputer%2fc-standard-library-qsort%2f" target="_blank" class="share-btn facebook">
     <i class="fa fa-facebook"></i>
     <p>Facebook</p>
     </a>
@@ -419,7 +419,7 @@ if (!doNotTrack) {
 
 
 <li>
-  <a href="//reddit.com/submit?url=https%3a%2f%2foxygentw.net%2fblog%2fpoetry%2fdesk_memories%2f&amp;title=%e5%97%af%ef%bc%9f%e8%b6%b4%e5%9c%a8%e6%a1%8c%e5%ad%90%e4%b8%8a%ef%bc%8c%e5%9b%9e%e6%86%b6%e8%91%97%e5%9b%9e%e6%86%b6" target="_blank" class="share-btn reddit">
+  <a href="//reddit.com/submit?url=https%3a%2f%2foxygentw.net%2fblog%2fcomputer%2fc-standard-library-qsort%2f&amp;title=C%20Standard%20Library%20QSort%20%e5%87%bd%e5%bc%8f" target="_blank" class="share-btn reddit">
     <i class="fa fa-reddit-alien"></i>
     <p>Reddit</p>
   </a>
@@ -435,7 +435,7 @@ if (!doNotTrack) {
 
 
 <li>
-  <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2foxygentw.net%2fblog%2fpoetry%2fdesk_memories%2f&amp;description=%e5%97%af%ef%bc%9f%e8%b6%b4%e5%9c%a8%e6%a1%8c%e5%ad%90%e4%b8%8a%ef%bc%8c%e5%9b%9e%e6%86%b6%e8%91%97%e5%9b%9e%e6%86%b6" target="_blank" class="share-btn pinterest">
+  <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2foxygentw.net%2fblog%2fcomputer%2fc-standard-library-qsort%2f&amp;description=C%20Standard%20Library%20QSort%20%e5%87%bd%e5%bc%8f" target="_blank" class="share-btn pinterest">
     <i class="fa fa-pinterest-p"></i>
     <p>Pinterest</p>
   </a>
@@ -445,7 +445,7 @@ if (!doNotTrack) {
 
 
 <li>
-  <a href="mailto:?subject=Check out this post by oxygen&amp;body=https%3a%2f%2foxygentw.net%2fblog%2fpoetry%2fdesk_memories%2f" target="_blank" class="share-btn email">
+  <a href="mailto:?subject=Check out this post by oxygen&amp;body=https%3a%2f%2foxygentw.net%2fblog%2fcomputer%2fc-standard-library-qsort%2f" target="_blank" class="share-btn email">
     <i class="fa fa-envelope"></i>
     <p>Email</p>
   </a>
@@ -464,7 +464,7 @@ if (!doNotTrack) {
   <header>
     <div class="title">
         
-            <h1><a href="https://oxygentw.net/blog/poetry/desk_memories/">嗯？趴在桌子上，回憶著回憶</a></h1>
+            <h1><a href="https://oxygentw.net/blog/computer/c-standard-library-qsort/">C Standard Library QSort 函式</a></h1>
             
         
         
@@ -473,8 +473,8 @@ if (!doNotTrack) {
         
 
         <time class="published"
-            datetime='2017-06-24'>
-            June 24, 2017</time>
+            datetime='2018-08-30'>
+            August 30, 2018</time>
         <span class="author">oxygen</span>
         
             <p>1 minute read</p>
@@ -492,7 +492,7 @@ if (!doNotTrack) {
 
 
 <li>
-  <a href="//twitter.com/share?url=https%3a%2f%2foxygentw.net%2fblog%2fpoetry%2fdesk_memories%2f&amp;text=%e5%97%af%ef%bc%9f%e8%b6%b4%e5%9c%a8%e6%a1%8c%e5%ad%90%e4%b8%8a%ef%bc%8c%e5%9b%9e%e6%86%b6%e8%91%97%e5%9b%9e%e6%86%b6&amp;via=" target="_blank" class="share-btn twitter">
+  <a href="//twitter.com/share?url=https%3a%2f%2foxygentw.net%2fblog%2fcomputer%2fc-standard-library-qsort%2f&amp;text=C%20Standard%20Library%20QSort%20%e5%87%bd%e5%bc%8f&amp;via=" target="_blank" class="share-btn twitter">
     <i class="fa fa-twitter"></i>
     <p>Twitter</p>
     </a>
@@ -502,7 +502,7 @@ if (!doNotTrack) {
 
 
 <li>
-  <a href="//plus.google.com/share?url=https%3a%2f%2foxygentw.net%2fblog%2fpoetry%2fdesk_memories%2f" target="_blank" class="share-btn google-plus">
+  <a href="//plus.google.com/share?url=https%3a%2f%2foxygentw.net%2fblog%2fcomputer%2fc-standard-library-qsort%2f" target="_blank" class="share-btn google-plus">
     <i class="fa fa-google-plus"></i>
     <p>Google+</p>
   </a>
@@ -513,7 +513,7 @@ if (!doNotTrack) {
 
 
 <li>
-  <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2foxygentw.net%2fblog%2fpoetry%2fdesk_memories%2f" target="_blank" class="share-btn facebook">
+  <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2foxygentw.net%2fblog%2fcomputer%2fc-standard-library-qsort%2f" target="_blank" class="share-btn facebook">
     <i class="fa fa-facebook"></i>
     <p>Facebook</p>
     </a>
@@ -523,7 +523,7 @@ if (!doNotTrack) {
 
 
 <li>
-  <a href="//reddit.com/submit?url=https%3a%2f%2foxygentw.net%2fblog%2fpoetry%2fdesk_memories%2f&amp;title=%e5%97%af%ef%bc%9f%e8%b6%b4%e5%9c%a8%e6%a1%8c%e5%ad%90%e4%b8%8a%ef%bc%8c%e5%9b%9e%e6%86%b6%e8%91%97%e5%9b%9e%e6%86%b6" target="_blank" class="share-btn reddit">
+  <a href="//reddit.com/submit?url=https%3a%2f%2foxygentw.net%2fblog%2fcomputer%2fc-standard-library-qsort%2f&amp;title=C%20Standard%20Library%20QSort%20%e5%87%bd%e5%bc%8f" target="_blank" class="share-btn reddit">
     <i class="fa fa-reddit-alien"></i>
     <p>Reddit</p>
   </a>
@@ -539,7 +539,7 @@ if (!doNotTrack) {
 
 
 <li>
-  <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2foxygentw.net%2fblog%2fpoetry%2fdesk_memories%2f&amp;description=%e5%97%af%ef%bc%9f%e8%b6%b4%e5%9c%a8%e6%a1%8c%e5%ad%90%e4%b8%8a%ef%bc%8c%e5%9b%9e%e6%86%b6%e8%91%97%e5%9b%9e%e6%86%b6" target="_blank" class="share-btn pinterest">
+  <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2foxygentw.net%2fblog%2fcomputer%2fc-standard-library-qsort%2f&amp;description=C%20Standard%20Library%20QSort%20%e5%87%bd%e5%bc%8f" target="_blank" class="share-btn pinterest">
     <i class="fa fa-pinterest-p"></i>
     <p>Pinterest</p>
   </a>
@@ -549,7 +549,7 @@ if (!doNotTrack) {
 
 
 <li>
-  <a href="mailto:?subject=Check out this post by oxygen&amp;body=https%3a%2f%2foxygentw.net%2fblog%2fpoetry%2fdesk_memories%2f" target="_blank" class="share-btn email">
+  <a href="mailto:?subject=Check out this post by oxygen&amp;body=https%3a%2f%2foxygentw.net%2fblog%2fcomputer%2fc-standard-library-qsort%2f" target="_blank" class="share-btn email">
     <i class="fa fa-envelope"></i>
     <p>Email</p>
   </a>
@@ -563,23 +563,67 @@ if (!doNotTrack) {
   
 
   <div id="content">
-    <blockquote>
-<p>不知不覺的兩年半過去了<br />
-我們關係早已不再密切，那不曾存在的關係<br />
-但總是會在某個安靜的時刻想起當年<br />
-我坐在妳右邊，傻傻的看着妳的日子<br />
-往日的笑顏就像成爲我心靈的一部分<br />
-此生大概已無法抹滅</p>
+    <p>前些天很意外地得知學校程式設計居然是教 C語言，非工程相關應該不需要學到這種中階語言才對吧…… 好歹來個 C++ 啊 !!!!</p>
+
+<p>抱怨歸抱怨，課還是得上，只好重新翻閱C的標準函式庫複習一下，結果在裡面挖到很多好用的東西呢XD 其中 stdlib.h 的 qsort 函式我覺得最驚喜，我一直以為只有 C++ 的 STL library才有 sort()，沒想到C語言也有！ 不過用法有點複雜，紀錄一下。</p>
+
+<p><br/></p>
+
+<p>Function Prototype</p>
+
+<blockquote>
+<p>void qsort(void* base, size_t n, size_t size, int (<em>cmp)(const void</em>, const void*))</p>
 </blockquote>
 
-<p>創作於2017/06/22 一個平凡的晚自習時間</p>
+<ul>
+<li>base 是被排序陣列的指標</li>
+<li>n 是被排序陣列的大小 = sizeof(array)/sizeof(array_type)</li>
+<li>size 是陣列中元素的大小 = sizeof(array_type)</li>
+<li>最後是指向比較函數的指標</li>
+</ul>
+
+<p><br/></p>
+
+<p>指向比較函數的指標比較特別，就像 STL sort 如果要改變排序方向的話必須傳入第三個參數，自行定義的比較函數。</p>
+
+<p>範例如下：</p>
+
+<pre><code class="language-cpp">int cmpfunc (const void * a, const void * b)
+{
+   return ( *(int*)a - *(int*)b )
+}
+</code></pre>
+
+<p>傳入 a,b 兩參數型別是 void <em>，需要強制轉型成被排序陣列的型別，如範例中 a,b <font color=red>先被強制轉型成整數指標 (int</em>)，再對他取值做處理。</font></p>
 
 <hr />
 
-<p><em>當我將妳的意象注入我靈魂之中<br />
-如烙刻在我心的是妳的神韻<br />
-妳的笑與我的喜；妳的淚與我的悲<br />
-以一種複雜而浪漫的深情纏繞</em></p>
+<p>完整範例</p>
+
+<pre><code class="language-cpp">#include &lt;stdio.h&gt;
+#include &lt;stdlib.h&gt;
+ 
+void printIntArr(int *arr,int arrSize) {
+for(int i=0; i&lt;arrSize; i++) {printf(&quot;%d &quot;,arr[i]);} printf(&quot;\n&quot;);
+}
+ 
+int cmpfunc (const void * a, const void * b) {
+return *(int*)a &gt; *(int*)b;
+}
+ 
+int main ()
+{
+int arr[] = { 56, 45, 48, 12, 4, 3, 4568, 45, 48, 213, 54, 32, 4, 8, 9, 6, 4, 23, 0, -2, 56 };
+ 
+printIntArr(arr,(sizeof(arr)/sizeof(int)));
+ 
+qsort(arr,sizeof(arr)/sizeof(int),sizeof(int),cmpfunc); //Quick sort
+ 
+printIntArr(arr,(sizeof(arr)/sizeof(int)));
+ 
+return 0;
+}
+</code></pre>
 
   </div>
 
@@ -593,7 +637,7 @@ if (!doNotTrack) {
                 <i class="fa fa-folder"></i>
                 
                 
-                <li><a class="article-category-link" href="https://oxygentw.net/categories/poetry">poetry</a></li>
+                <li><a class="article-category-link" href="https://oxygentw.net/categories/computer">computer</a></li>
                 
             
         
@@ -636,13 +680,13 @@ if (!doNotTrack) {
 
 <ul class="actions pagination">
     
-        <li><a href="https://oxygentw.net/blog/poetry/sacrifice-love/"
-                class="button big previous">祭情</a></li>
+        <li><a href="https://oxygentw.net/blog/computer/python-requests/"
+                class="button big previous">Python Requests 套件</a></li>
     
 
     
-        <li><a href="https://oxygentw.net/blog/prose/wine/"
-                class="button big next">酒精</a></li>
+        <li><a href="https://oxygentw.net/blog/notes/about-bpd/"
+                class="button big next">淺談邊緣型人格疾患</a></li>
     
 </ul>
 

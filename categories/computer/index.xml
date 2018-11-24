@@ -6,10 +6,76 @@
     <description>Recent content in computer on Oxygen&#39;s 生活札記</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Tue, 19 Sep 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 30 Aug 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://oxygentw.net/categories/computer/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>C Standard Library QSort 函式</title>
+      <link>https://oxygentw.net/blog/computer/c-standard-library-qsort/</link>
+      <pubDate>Thu, 30 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/c-standard-library-qsort/</guid>
+      <description>前些天很意外地得知學校程式設計居然是教 C語言，非工程相關應該不需要學到這種中階語言才對吧…… 好歹來個 C++ 啊 !!!!
+抱怨歸抱怨，課還是得上，只好重新翻閱C的標準函式庫複習一下，結果在裡面挖到很多好用的東西呢XD 其中 stdlib.h 的 qsort 函式我覺得最驚喜，我一直以為只有 C++ 的 STL library才有 sort()，沒想到C語言也有！ 不過用法有點複雜，紀錄一下。
+
+Function Prototype
+ void qsort(void* base, size_t n, size_t size, int (cmp)(const void, const void*))
+  base 是被排序陣列的指標 n 是被排序陣列的大小 = sizeof(array)/sizeof(array_type) size 是陣列中元素的大小 = sizeof(array_type) 最後是指向比較函數的指標  
+指向比較函數的指標比較特別，就像 STL sort 如果要改變排序方向的話必須傳入第三個參數，自行定義的比較函數。
+範例如下：
+int cmpfunc (const void * a, const void * b) { return ( *(int*)a - *(int*)b ) }  傳入 a,b 兩參數型別是 void ，需要強制轉型成被排序陣列的型別，如範例中 a,b 先被強制轉型成整數指標 (int)，再對他取值做處理。
+完整範例
+#include &amp;lt;stdio.h&amp;gt; #include &amp;lt;stdlib.h&amp;gt; void printIntArr(int *arr,int arrSize) { for(int i=0; i&amp;lt;arrSize; i++) {printf(&amp;quot;%d &amp;quot;,arr[i]);} printf(&amp;quot;\n&amp;quot;); } int cmpfunc (const void * a, const void * b) { return *(int*)a &amp;gt; *(int*)b; } int main () { int arr[] = { 56, 45, 48, 12, 4, 3, 4568, 45, 48, 213, 54, 32, 4, 8, 9, 6, 4, 23, 0, -2, 56 }; printIntArr(arr,(sizeof(arr)/sizeof(int))); qsort(arr,sizeof(arr)/sizeof(int),sizeof(int),cmpfunc); //Quick sort printIntArr(arr,(sizeof(arr)/sizeof(int))); return 0; }  </description>
+    </item>
+    
+    <item>
+      <title>Urlretrieve 的 Python3 寫法</title>
+      <link>https://oxygentw.net/blog/computer/urlretrieve-python3/</link>
+      <pubDate>Sat, 18 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/urlretrieve-python3/</guid>
+      <description>要透過 urllib.urlretrieve 從網頁裡下載圖片，卻發現腳本報錯 AttributeError: module &#39;urllib&#39; has no attribute &#39;urlretrieve&#39;，原來是因為 Python3 後的寫法已經改變了，改法如下。
+
+引入的部分
+import urllib 改成 import urllib.request  呼叫的部分
+urllib.urlretrieve(URL, &amp;quot;FILENAME&amp;quot;) 改成 urllib.request.urlretrieve(URL, &amp;quot;FILENAME&amp;quot;)  修改後即可正常運作！</description>
+    </item>
+    
+    <item>
+      <title>網頁伺服器強制使用 HTTPS 安全連線</title>
+      <link>https://oxygentw.net/blog/computer/apache-server-force-https/</link>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/apache-server-force-https/</guid>
+      <description>今天在處理轉移主機 SSL 的問題，重新申請憑證後我用 Why No Padlock? 來檢查憑證是否正確安裝，我發現有一項 Force HTTPS 檢查未通過，於是照著他的指示修改檔，讓使用者以後如果使用 HTTP 訪問我的 Apache 網頁伺服器會強制轉成由 HTTPS 訪問。
+
+在 .htaccess 裡加入以下三行 把yourSite.com的地方改成你的網址，注意第一行裡網址遇到”.”前面要加\
+RewriteCond %{HTTP_HOST} yourSite\.com [NC] RewriteCond %{SERVER_PORT} 80 RewriteRule ^(.*)$ https://yourSite.com/$1 [R,L]  OK 這樣就完成了。</description>
+    </item>
+    
+    <item>
+      <title>PHP 5 ↔ 7 版本轉換</title>
+      <link>https://oxygentw.net/blog/computer/php7-downgrade-to-php5/</link>
+      <pubDate>Tue, 05 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/php7-downgrade-to-php5/</guid>
+      <description>在 LAMP 的環境下有時會遇到 PHP 版本和服務需求不符的情況，有點麻煩，上網找了一下論壇發現有方法可以解決，在此紀錄一下。
+環境: Ubuntu Server 16.04 LTS
+關閉 Apache2 模組
+sudo a2dismod proxy_fcgi proxy; sudo service apache2 restart
+
+下載 PHP 所需套件
+sudo add-apt-repository ppa:ondrej/php sudo apt-get update sudo apt-get install php7.0 php5.6 php5.6-mysql php-gettext php5.6-mbstring php-mbstring php7.0-mbstring php-xdebug libapache2-mod-php5.6 libapache2-mod-php7.0  
+一切準備好後，升級和降級分別為以下兩種方法
+將 PHP 從 5.6 升到 7.0
+sudo a2dismod php5.6 ; sudo a2enmod php7.0 ; sudo service apache2 restart
+將 PHP 從 7.0 升到 5.6
+sudo a2dismod php7.0 ; sudo a2enmod php5.6 ; sudo service apache2 restart
+
+參考資料 https://askubuntu.com/questions/761713/how-can-i-downgrade-from-php-7-to-php-5-6-on-ubuntu-16-04</description>
+    </item>
     
     <item>
       <title>C&#43;&#43; 獨立重複白努力試驗模擬</title>
