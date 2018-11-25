@@ -26,8 +26,45 @@ Function Prototype
 指向比較函數的指標比較特別，就像 STL sort 如果要改變排序方向的話必須傳入第三個參數，自行定義的比較函數。
 範例如下：
 int cmpfunc (const void * a, const void * b) { return ( *(int*)a - *(int*)b ) }  傳入 a,b 兩參數型別是 void ，需要強制轉型成被排序陣列的型別，如範例中 a,b 先被強制轉型成整數指標 (int)，再對他取值做處理。
-完整範例
-#include &amp;lt;stdio.h&amp;gt; #include &amp;lt;stdlib.h&amp;gt; void printIntArr(int *arr,int arrSize) { for(int i=0; i&amp;lt;arrSize; i++) {printf(&amp;quot;%d &amp;quot;,arr[i]);} printf(&amp;quot;\n&amp;quot;); } int cmpfunc (const void * a, const void * b) { return *(int*)a &amp;gt; *(int*)b; } int main () { int arr[] = { 56, 45, 48, 12, 4, 3, 4568, 45, 48, 213, 54, 32, 4, 8, 9, 6, 4, 23, 0, -2, 56 }; printIntArr(arr,(sizeof(arr)/sizeof(int))); qsort(arr,sizeof(arr)/sizeof(int),sizeof(int),cmpfunc); //Quick sort printIntArr(arr,(sizeof(arr)/sizeof(int))); return 0; }  </description>
+完整範例 #include &amp;lt;stdio.h&amp;gt;#include &amp;lt;stdlib.h&amp;gt; void printIntArr(int *arr,int arrSize) {for(int i=0; i&amp;lt;arrSize; i++) {printf(&amp;#34;%d &amp;#34;,arr[i]);} printf(&amp;#34;\n&amp;#34;);}int cmpfunc (const void * a, const void * b) {return *(int*)a &amp;gt; *(int*)b;}int main (){int arr[] = { 56, 45, 48, 12, 4, 3, 4568, 45, 48, 213, 54, 32, 4, 8, 9, 6, 4, 23, 0, -2, 56 };printIntArr(arr,(sizeof(arr)/sizeof(int)));qsort(arr,sizeof(arr)/sizeof(int),sizeof(int),cmpfunc); //Quick sort printIntArr(arr,(sizeof(arr)/sizeof(int)));return 0;}</description>
+    </item>
+    
+    <item>
+      <title>Python Requests 套件</title>
+      <link>https://oxygentw.net/blog/computer/python-requests/</link>
+      <pubDate>Thu, 30 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/python-requests/</guid>
+      <description>透過 Python 做數據分析或網路爬蟲時幾乎一定會上網下載網頁原始碼或其他 HTTP 請求，因此 Requests 這個套件非常重要，他簡單又實用，不過我從來沒有詳細研究過他，趁現在有時間把他的文件閱讀了一遍。
+套件資訊  License: Apache Software License (Apache 2.0) Author: Kenneth Reitz Requires: Python &amp;gt;=2.6, !=3.0., !=3.1., !=3.2., !=3.3.  
+安裝套件 pip install requests  
+使用方法 1.引入 import requests
+
+2.HTTP GET r = requests.get(&amp;#39;https://api.github.com/events&amp;#39;)
+
+3.HTTP POST r = requests.post(&amp;#39;http://httpbin.org/post&amp;#39;, data = {&amp;#39;key&amp;#39;:&amp;#39;value&amp;#39;})
+
+4.PUT, DELETE, HEAD, OPTIONS 請求 r = requests.put(&amp;#39;http://httpbin.org/put&amp;#39;, data = {&amp;#39;key&amp;#39;:&amp;#39;value&amp;#39;})r = requests.delete(&amp;#39;http://httpbin.org/delete&amp;#39;)r = requests.head(&amp;#39;http://httpbin.org/get&amp;#39;)r = requests.options(&amp;#39;http://httpbin.org/get&amp;#39;)
+
+5.傳遞 URLs 參數 當 URLs 參數的 dictionary 裡可以把 list 當成一個項目，但不可以加入 None的項目。
+
+payload = {&amp;#39;key1&amp;#39;: &amp;#39;value1&amp;#39;, &amp;#39;key2&amp;#39;: &amp;#39;value2&amp;#39;}r = requests.get(&amp;#39;http://httpbin.org/get&amp;#39;, params=payload)print(r.url) #查看傳送的 URL 
+6.回應資料分析 從回應中取出各種我們需要的資料
+print(r.text) #列出文字 print(r.encoding) #列出編碼 print(r.status_code) #列出 HTTP 狀態碼 print(r.headers) #列出 HTTP Response Headers print(r.headers[&amp;#39;Content-Type&amp;#39;]) #印出 Header 中的 Content-Type 
+7.解析 JSON 資料 如果取得的是 json 格式資料，requests 有內建解析函式。
+r = requests.get(&amp;#39;https://api.github.com/events&amp;#39;)r.json() 
+8.自訂 Header 許多時候網站會擋掉 UA 是 python-request 的請求，因此我們很常需要自訂 Header
+url = &amp;#39;https://api.github.com/some/endpoint&amp;#39;headers = {&amp;#39;user-agent&amp;#39;: &amp;#39;Mozilla/5.0&amp;#39;}r = requests.get(url, headers=headers) 
+9.設定 Timeout 避免程式在維修中或故障的網站停留太久，或是用來檢查是否可存取時很方便。
+requests.get(&amp;#39;http://github.com&amp;#39;, timeout=[SECOND]) 
+10.指定編碼 通常網站會使用 UTF-8 編碼，但若不是，可用這個方法修改讀取編碼。
+r.encoding = &amp;#39;ISO-8859-1&amp;#39; 
+11.取得 Cookie url = &amp;#39;http://example.com/some/cookie/setting/url&amp;#39;r = requests.get(url)r.cookies[&amp;#39;example_cookie_name&amp;#39;]
+
+12 .修改 Cookie url = &amp;#39;http://httpbin.org/cookies&amp;#39;cookies = dict(cookies_are=&amp;#39;working&amp;#39;)r = requests.get(url, cookies=cookies)r.text
+
+參考資料 https://pypi.org/project/requests/
+https://github.com/requests/requests</description>
     </item>
     
     <item>
@@ -88,6 +125,34 @@ sudo a2dismod php7.0 ; sudo a2enmod php5.6 ; sudo service apache2 restart
 
 備份原設定檔並編輯設定檔 sudo cp /etc/network/interface /etc/network/interface.backup sudo vim /etc/network/interface  設定固定 IP auto lo iface lo inet loopback #修改以下部分 auto eth0 iface eth0 inet static # static = 固定 IP。 address 203.72.xxx.xxx # IP 位址。 netmask 255.255.255.0 # 子網路遮罩。 gateway 203.72.xxx.xxx # 預設閘道位置。 dns-nameservers 168.95.1.1 8.8.8.8 # DNS Server(以空格分開)  重新啟動網路服務 sudo service networking restart  
 若修改後發現網路有問題，就把 interface 刪除， interface.backup 改名為 interface 並重新啟動網路服務應該會修好</description>
+    </item>
+    
+    <item>
+      <title>架設 VoIP Server</title>
+      <link>https://oxygentw.net/blog/computer/use-umurmur-build-voip-server/</link>
+      <pubDate>Sat, 07 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/use-umurmur-build-voip-server/</guid>
+      <description>來試試 VoIP Server，以前都沒想過可以自己架，最近心血來潮找了找，找到 umurmur 這套軟體，他是用C語言寫成的輕量級伺服器軟體，還可以安裝在 openWRT 路由器之類的設備上喔！
+
+環境: Ubuntu Server 16.04
+軟體: umurmur
+下載原始碼 目前最新版本0.2.17 sudo wget https://github.com/umurmur/umurmur/archive/0.2.17.zipsudo unzip 0.2.17.zip -d /optcd /opt/umurmur-0.2.17 
+安裝必要套件 sudo apt-get updatesudo apt-get install libconfig-dev libprotobuf-c-dev libssl-dev cmake build-essential 
+編譯程式並安裝 cd ..sudo mkdir umurmur-buildcd umurmur-buildsudo cmake ../umurmur-0.2.17/ -DSSL=opensslsudo makesudo make install 
+修改組態 sudo vim /usr/local/etc/umurmur.conf welcometext = &amp;ldquo;歡迎詞&amp;rdquo;;
+password = &amp;ldquo;VoIP Password&amp;rdquo;;
+max_users = 最大連線數;
+bindport = VoIP 服務 Port; bindaddr = &amp;ldquo;VoIP 服務 Address&amp;rdquo;;
+
+設定頻道資訊 name = &amp;ldquo;頻道名稱&amp;rdquo;;
+parent = &amp;ldquo;上層頻道名稱&amp;rdquo;;
+description =&amp;ldquo;頻道描述&amp;rdquo;;
+noenter=true/false; #是否禁止進入
+silent = true/false; #是否為安靜模式
+position = 0/1/2/3&amp;hellip;&amp;hellip; #同層頻道排列順序，依照字母排序
+password = &amp;ldquo;頻道密碼&amp;rdquo;;
+設定範例 channels = ( { name = &amp;#34;Root&amp;#34;; parent = &amp;#34;&amp;#34;; description = &amp;#34;Root channel. No entry.&amp;#34;; noenter = true; }, { name = &amp;#34;Lobby&amp;#34;; parent = &amp;#34;Root&amp;#34;; description = &amp;#34;Lobby channel&amp;#34;; }, { name = &amp;#34;Silent&amp;#34;; parent = &amp;#34;Root&amp;#34;; description = &amp;#34;Silent channel&amp;#34;; silent = true; # Optional. Default is false  }, { name = &amp;#34;Team A&amp;#34;; parent = &amp;#34;Lobby&amp;#34;; description = &amp;#34;The Team A channel&amp;#34;;position = 0; # Optional. Default is 0 and the channels will be shown in alphabetic order. # password = &amp;#34;nopassword&amp;#34;; },{name = &amp;#34;Team B&amp;#34;;parent = &amp;#34;Lobby&amp;#34;;description = &amp;#34;The Team B channel&amp;#34;;position = 1; # Optional.</description>
     </item>
     
     <item>

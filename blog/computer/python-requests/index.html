@@ -13,7 +13,36 @@
         "articleSection" : "blog",
         "name" : "Python Requests 套件",
         "headline" : "Python Requests 套件",
-        "description" : "",
+        "description" : "透過 Python 做數據分析或網路爬蟲時幾乎一定會上網下載網頁原始碼或其他 HTTP 請求，因此 Requests 這個套件非常重要，他簡單又實用，不過我從來沒有詳細研究過他，趁現在有時間把他的文件閱讀了一遍。
+套件資訊  License: Apache Software License (Apache 2.0) Author: Kenneth Reitz Requires: Python &gt;=2.6, !=3.0., !=3.1., !=3.2., !=3.3.  
+安裝套件 pip install requests  
+使用方法 1.引入 import requests
+
+2.HTTP GET r = requests.get(&#39;https://api.github.com/events&#39;)
+
+3.HTTP POST r = requests.post(&#39;http://httpbin.org/post&#39;, data = {&#39;key&#39;:&#39;value&#39;})
+
+4.PUT, DELETE, HEAD, OPTIONS 請求 r = requests.put(&#39;http://httpbin.org/put&#39;, data = {&#39;key&#39;:&#39;value&#39;})r = requests.delete(&#39;http://httpbin.org/delete&#39;)r = requests.head(&#39;http://httpbin.org/get&#39;)r = requests.options(&#39;http://httpbin.org/get&#39;)
+
+5.傳遞 URLs 參數 當 URLs 參數的 dictionary 裡可以把 list 當成一個項目，但不可以加入 None的項目。
+
+payload = {&#39;key1&#39;: &#39;value1&#39;, &#39;key2&#39;: &#39;value2&#39;}r = requests.get(&#39;http://httpbin.org/get&#39;, params=payload)print(r.url) #查看傳送的 URL 
+6.回應資料分析 從回應中取出各種我們需要的資料
+print(r.text) #列出文字 print(r.encoding) #列出編碼 print(r.status_code) #列出 HTTP 狀態碼 print(r.headers) #列出 HTTP Response Headers print(r.headers[&#39;Content-Type&#39;]) #印出 Header 中的 Content-Type 
+7.解析 JSON 資料 如果取得的是 json 格式資料，requests 有內建解析函式。
+r = requests.get(&#39;https://api.github.com/events&#39;)r.json() 
+8.自訂 Header 許多時候網站會擋掉 UA 是 python-request 的請求，因此我們很常需要自訂 Header
+url = &#39;https://api.github.com/some/endpoint&#39;headers = {&#39;user-agent&#39;: &#39;Mozilla/5.0&#39;}r = requests.get(url, headers=headers) 
+9.設定 Timeout 避免程式在維修中或故障的網站停留太久，或是用來檢查是否可存取時很方便。
+requests.get(&#39;http://github.com&#39;, timeout=[SECOND]) 
+10.指定編碼 通常網站會使用 UTF-8 編碼，但若不是，可用這個方法修改讀取編碼。
+r.encoding = &#39;ISO-8859-1&#39; 
+11.取得 Cookie url = &#39;http://example.com/some/cookie/setting/url&#39;r = requests.get(url)r.cookies[&#39;example_cookie_name&#39;]
+
+12 .修改 Cookie url = &#39;http://httpbin.org/cookies&#39;cookies = dict(cookies_are=&#39;working&#39;)r = requests.get(url, cookies=cookies)r.text
+
+參考資料 https://pypi.org/project/requests/
+https://github.com/requests/requests",
         "inLanguage" : "en",
         "author" : "",
         "creator" : "",
@@ -24,7 +53,7 @@
         "datePublished": "2018-08-30 00:00:00 &#43;0000 UTC",
         "dateModified" : "2018-08-30 00:00:00 &#43;0000 UTC",
         "url" : "https://oxygentw.net/blog/computer/python-requests/",
-        "wordCount" : "0",
+        "wordCount" : "178",
         "keywords" : [ "Blog" ]
     }
     </script>
@@ -53,10 +82,68 @@
 
         <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Python Requests 套件"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:description" content="透過 Python 做數據分析或網路爬蟲時幾乎一定會上網下載網頁原始碼或其他 HTTP 請求，因此 Requests 這個套件非常重要，他簡單又實用，不過我從來沒有詳細研究過他，趁現在有時間把他的文件閱讀了一遍。
+套件資訊  License: Apache Software License (Apache 2.0) Author: Kenneth Reitz Requires: Python &gt;=2.6, !=3.0., !=3.1., !=3.2., !=3.3.  
+安裝套件 pip install requests  
+使用方法 1.引入 import requests
+
+2.HTTP GET r = requests.get(&#39;https://api.github.com/events&#39;)
+
+3.HTTP POST r = requests.post(&#39;http://httpbin.org/post&#39;, data = {&#39;key&#39;:&#39;value&#39;})
+
+4.PUT, DELETE, HEAD, OPTIONS 請求 r = requests.put(&#39;http://httpbin.org/put&#39;, data = {&#39;key&#39;:&#39;value&#39;})r = requests.delete(&#39;http://httpbin.org/delete&#39;)r = requests.head(&#39;http://httpbin.org/get&#39;)r = requests.options(&#39;http://httpbin.org/get&#39;)
+
+5.傳遞 URLs 參數 當 URLs 參數的 dictionary 裡可以把 list 當成一個項目，但不可以加入 None的項目。
+
+payload = {&#39;key1&#39;: &#39;value1&#39;, &#39;key2&#39;: &#39;value2&#39;}r = requests.get(&#39;http://httpbin.org/get&#39;, params=payload)print(r.url) #查看傳送的 URL 
+6.回應資料分析 從回應中取出各種我們需要的資料
+print(r.text) #列出文字 print(r.encoding) #列出編碼 print(r.status_code) #列出 HTTP 狀態碼 print(r.headers) #列出 HTTP Response Headers print(r.headers[&#39;Content-Type&#39;]) #印出 Header 中的 Content-Type 
+7.解析 JSON 資料 如果取得的是 json 格式資料，requests 有內建解析函式。
+r = requests.get(&#39;https://api.github.com/events&#39;)r.json() 
+8.自訂 Header 許多時候網站會擋掉 UA 是 python-request 的請求，因此我們很常需要自訂 Header
+url = &#39;https://api.github.com/some/endpoint&#39;headers = {&#39;user-agent&#39;: &#39;Mozilla/5.0&#39;}r = requests.get(url, headers=headers) 
+9.設定 Timeout 避免程式在維修中或故障的網站停留太久，或是用來檢查是否可存取時很方便。
+requests.get(&#39;http://github.com&#39;, timeout=[SECOND]) 
+10.指定編碼 通常網站會使用 UTF-8 編碼，但若不是，可用這個方法修改讀取編碼。
+r.encoding = &#39;ISO-8859-1&#39; 
+11.取得 Cookie url = &#39;http://example.com/some/cookie/setting/url&#39;r = requests.get(url)r.cookies[&#39;example_cookie_name&#39;]
+
+12 .修改 Cookie url = &#39;http://httpbin.org/cookies&#39;cookies = dict(cookies_are=&#39;working&#39;)r = requests.get(url, cookies=cookies)r.text
+
+參考資料 https://pypi.org/project/requests/
+https://github.com/requests/requests"/>
 
         <meta property="og:title" content="Python Requests 套件" />
-<meta property="og:description" content="" />
+<meta property="og:description" content="透過 Python 做數據分析或網路爬蟲時幾乎一定會上網下載網頁原始碼或其他 HTTP 請求，因此 Requests 這個套件非常重要，他簡單又實用，不過我從來沒有詳細研究過他，趁現在有時間把他的文件閱讀了一遍。
+套件資訊  License: Apache Software License (Apache 2.0) Author: Kenneth Reitz Requires: Python &gt;=2.6, !=3.0., !=3.1., !=3.2., !=3.3.  
+安裝套件 pip install requests  
+使用方法 1.引入 import requests
+
+2.HTTP GET r = requests.get(&#39;https://api.github.com/events&#39;)
+
+3.HTTP POST r = requests.post(&#39;http://httpbin.org/post&#39;, data = {&#39;key&#39;:&#39;value&#39;})
+
+4.PUT, DELETE, HEAD, OPTIONS 請求 r = requests.put(&#39;http://httpbin.org/put&#39;, data = {&#39;key&#39;:&#39;value&#39;})r = requests.delete(&#39;http://httpbin.org/delete&#39;)r = requests.head(&#39;http://httpbin.org/get&#39;)r = requests.options(&#39;http://httpbin.org/get&#39;)
+
+5.傳遞 URLs 參數 當 URLs 參數的 dictionary 裡可以把 list 當成一個項目，但不可以加入 None的項目。
+
+payload = {&#39;key1&#39;: &#39;value1&#39;, &#39;key2&#39;: &#39;value2&#39;}r = requests.get(&#39;http://httpbin.org/get&#39;, params=payload)print(r.url) #查看傳送的 URL 
+6.回應資料分析 從回應中取出各種我們需要的資料
+print(r.text) #列出文字 print(r.encoding) #列出編碼 print(r.status_code) #列出 HTTP 狀態碼 print(r.headers) #列出 HTTP Response Headers print(r.headers[&#39;Content-Type&#39;]) #印出 Header 中的 Content-Type 
+7.解析 JSON 資料 如果取得的是 json 格式資料，requests 有內建解析函式。
+r = requests.get(&#39;https://api.github.com/events&#39;)r.json() 
+8.自訂 Header 許多時候網站會擋掉 UA 是 python-request 的請求，因此我們很常需要自訂 Header
+url = &#39;https://api.github.com/some/endpoint&#39;headers = {&#39;user-agent&#39;: &#39;Mozilla/5.0&#39;}r = requests.get(url, headers=headers) 
+9.設定 Timeout 避免程式在維修中或故障的網站停留太久，或是用來檢查是否可存取時很方便。
+requests.get(&#39;http://github.com&#39;, timeout=[SECOND]) 
+10.指定編碼 通常網站會使用 UTF-8 編碼，但若不是，可用這個方法修改讀取編碼。
+r.encoding = &#39;ISO-8859-1&#39; 
+11.取得 Cookie url = &#39;http://example.com/some/cookie/setting/url&#39;r = requests.get(url)r.cookies[&#39;example_cookie_name&#39;]
+
+12 .修改 Cookie url = &#39;http://httpbin.org/cookies&#39;cookies = dict(cookies_are=&#39;working&#39;)r = requests.get(url, cookies=cookies)r.text
+
+參考資料 https://pypi.org/project/requests/
+https://github.com/requests/requests" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://oxygentw.net/blog/computer/python-requests/" /><meta property="article:published_time" content="2018-08-30T00:00:00&#43;00:00"/>
 <meta property="article:modified_time" content="2018-08-30T00:00:00&#43;00:00"/>
@@ -67,12 +154,41 @@
         <meta property="og:image:height" content="512">
         
 <meta itemprop="name" content="Python Requests 套件">
-<meta itemprop="description" content="">
+<meta itemprop="description" content="透過 Python 做數據分析或網路爬蟲時幾乎一定會上網下載網頁原始碼或其他 HTTP 請求，因此 Requests 這個套件非常重要，他簡單又實用，不過我從來沒有詳細研究過他，趁現在有時間把他的文件閱讀了一遍。
+套件資訊  License: Apache Software License (Apache 2.0) Author: Kenneth Reitz Requires: Python &gt;=2.6, !=3.0., !=3.1., !=3.2., !=3.3.  
+安裝套件 pip install requests  
+使用方法 1.引入 import requests
+
+2.HTTP GET r = requests.get(&#39;https://api.github.com/events&#39;)
+
+3.HTTP POST r = requests.post(&#39;http://httpbin.org/post&#39;, data = {&#39;key&#39;:&#39;value&#39;})
+
+4.PUT, DELETE, HEAD, OPTIONS 請求 r = requests.put(&#39;http://httpbin.org/put&#39;, data = {&#39;key&#39;:&#39;value&#39;})r = requests.delete(&#39;http://httpbin.org/delete&#39;)r = requests.head(&#39;http://httpbin.org/get&#39;)r = requests.options(&#39;http://httpbin.org/get&#39;)
+
+5.傳遞 URLs 參數 當 URLs 參數的 dictionary 裡可以把 list 當成一個項目，但不可以加入 None的項目。
+
+payload = {&#39;key1&#39;: &#39;value1&#39;, &#39;key2&#39;: &#39;value2&#39;}r = requests.get(&#39;http://httpbin.org/get&#39;, params=payload)print(r.url) #查看傳送的 URL 
+6.回應資料分析 從回應中取出各種我們需要的資料
+print(r.text) #列出文字 print(r.encoding) #列出編碼 print(r.status_code) #列出 HTTP 狀態碼 print(r.headers) #列出 HTTP Response Headers print(r.headers[&#39;Content-Type&#39;]) #印出 Header 中的 Content-Type 
+7.解析 JSON 資料 如果取得的是 json 格式資料，requests 有內建解析函式。
+r = requests.get(&#39;https://api.github.com/events&#39;)r.json() 
+8.自訂 Header 許多時候網站會擋掉 UA 是 python-request 的請求，因此我們很常需要自訂 Header
+url = &#39;https://api.github.com/some/endpoint&#39;headers = {&#39;user-agent&#39;: &#39;Mozilla/5.0&#39;}r = requests.get(url, headers=headers) 
+9.設定 Timeout 避免程式在維修中或故障的網站停留太久，或是用來檢查是否可存取時很方便。
+requests.get(&#39;http://github.com&#39;, timeout=[SECOND]) 
+10.指定編碼 通常網站會使用 UTF-8 編碼，但若不是，可用這個方法修改讀取編碼。
+r.encoding = &#39;ISO-8859-1&#39; 
+11.取得 Cookie url = &#39;http://example.com/some/cookie/setting/url&#39;r = requests.get(url)r.cookies[&#39;example_cookie_name&#39;]
+
+12 .修改 Cookie url = &#39;http://httpbin.org/cookies&#39;cookies = dict(cookies_are=&#39;working&#39;)r = requests.get(url, cookies=cookies)r.text
+
+參考資料 https://pypi.org/project/requests/
+https://github.com/requests/requests">
 
 
 <meta itemprop="datePublished" content="2018-08-30T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2018-08-30T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="0">
+<meta itemprop="wordCount" content="178">
 
 
 
@@ -437,7 +553,7 @@ if (!doNotTrack) {
             August 30, 2018</time>
         <span class="author">oxygen</span>
         
-            <p>0 minute read</p>
+            <p>1 minute read</p>
         
         
     </div>
@@ -524,6 +640,136 @@ if (!doNotTrack) {
 
   <div id="content">
     
+
+<p>透過 Python 做數據分析或網路爬蟲時幾乎一定會上網下載網頁原始碼或其他 HTTP 請求，因此 Requests 這個套件非常重要，他簡單又實用，不過我從來沒有詳細研究過他，趁現在有時間把他的文件閱讀了一遍。</p>
+
+<hr />
+
+<h2 id="套件資訊">套件資訊</h2>
+
+<ul>
+<li>License: Apache Software License (Apache 2.0)</li>
+<li>Author: Kenneth Reitz</li>
+<li>Requires: Python &gt;=2.6, !=3.0.<em>, !=3.1.</em>, !=3.2.<em>, !=3.3.</em></li>
+</ul>
+
+<p><br/></p>
+
+<h2 id="安裝套件">安裝套件</h2>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"> pip install requests </code></pre></div>
+
+<p><br/></p>
+
+<h2 id="使用方法">使用方法</h2>
+
+<p>1.引入
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> requests</code></pre></div></p>
+
+<p><br/></p>
+
+<p>2.HTTP GET
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">r <span style="color:#f92672">=</span> requests<span style="color:#f92672">.</span>get(<span style="color:#e6db74">&#39;https://api.github.com/events&#39;</span>)</code></pre></div></p>
+
+<p><br/></p>
+
+<p>3.HTTP POST
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">r <span style="color:#f92672">=</span> requests<span style="color:#f92672">.</span>post(<span style="color:#e6db74">&#39;http://httpbin.org/post&#39;</span>, data <span style="color:#f92672">=</span> {<span style="color:#e6db74">&#39;key&#39;</span>:<span style="color:#e6db74">&#39;value&#39;</span>})</code></pre></div></p>
+
+<p><br/></p>
+
+<p>4.PUT, DELETE, HEAD, OPTIONS 請求
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">r <span style="color:#f92672">=</span> requests<span style="color:#f92672">.</span>put(<span style="color:#e6db74">&#39;http://httpbin.org/put&#39;</span>, data <span style="color:#f92672">=</span> {<span style="color:#e6db74">&#39;key&#39;</span>:<span style="color:#e6db74">&#39;value&#39;</span>})
+r <span style="color:#f92672">=</span> requests<span style="color:#f92672">.</span>delete(<span style="color:#e6db74">&#39;http://httpbin.org/delete&#39;</span>)
+r <span style="color:#f92672">=</span> requests<span style="color:#f92672">.</span>head(<span style="color:#e6db74">&#39;http://httpbin.org/get&#39;</span>)
+r <span style="color:#f92672">=</span> requests<span style="color:#f92672">.</span>options(<span style="color:#e6db74">&#39;http://httpbin.org/get&#39;</span>)</code></pre></div></p>
+
+<p><br/></p>
+
+<p>5.傳遞 URLs 參數
+當 URLs 參數的 dictionary 裡可以把 list 當成一個項目，但不可以加入 None的項目。</p>
+
+<p><br/></p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">payload <span style="color:#f92672">=</span> {<span style="color:#e6db74">&#39;key1&#39;</span>: <span style="color:#e6db74">&#39;value1&#39;</span>, <span style="color:#e6db74">&#39;key2&#39;</span>: <span style="color:#e6db74">&#39;value2&#39;</span>}
+r <span style="color:#f92672">=</span> requests<span style="color:#f92672">.</span>get(<span style="color:#e6db74">&#39;http://httpbin.org/get&#39;</span>, params<span style="color:#f92672">=</span>payload)
+
+<span style="color:#66d9ef">print</span>(r<span style="color:#f92672">.</span>url) <span style="color:#75715e">#查看傳送的 URL</span></code></pre></div>
+
+<p><br/></p>
+
+<p>6.回應資料分析
+從回應中取出各種我們需要的資料</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">print</span>(r<span style="color:#f92672">.</span>text) <span style="color:#75715e">#列出文字</span>
+
+<span style="color:#66d9ef">print</span>(r<span style="color:#f92672">.</span>encoding) <span style="color:#75715e">#列出編碼</span>
+
+<span style="color:#66d9ef">print</span>(r<span style="color:#f92672">.</span>status_code) <span style="color:#75715e">#列出 HTTP 狀態碼</span>
+
+<span style="color:#66d9ef">print</span>(r<span style="color:#f92672">.</span>headers) <span style="color:#75715e">#列出 HTTP Response Headers</span>
+
+<span style="color:#66d9ef">print</span>(r<span style="color:#f92672">.</span>headers[<span style="color:#e6db74">&#39;Content-Type&#39;</span>]) <span style="color:#75715e">#印出 Header 中的 Content-Type</span></code></pre></div>
+
+<p><br/></p>
+
+<p>7.解析 JSON 資料
+如果取得的是 json 格式資料，requests 有內建解析函式。</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">r <span style="color:#f92672">=</span> requests<span style="color:#f92672">.</span>get(<span style="color:#e6db74">&#39;https://api.github.com/events&#39;</span>)
+r<span style="color:#f92672">.</span>json()</code></pre></div>
+
+<p><br/></p>
+
+<p>8.自訂 Header
+許多時候網站會擋掉 UA 是 python-request 的請求，因此我們很常需要自訂 Header</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">url <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;https://api.github.com/some/endpoint&#39;</span>
+headers <span style="color:#f92672">=</span> {<span style="color:#e6db74">&#39;user-agent&#39;</span>: <span style="color:#e6db74">&#39;Mozilla/5.0&#39;</span>}
+
+r <span style="color:#f92672">=</span> requests<span style="color:#f92672">.</span>get(url, headers<span style="color:#f92672">=</span>headers)</code></pre></div>
+
+<p><br/></p>
+
+<p>9.設定 Timeout
+避免程式在維修中或故障的網站停留太久，或是用來檢查是否可存取時很方便。</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">requests<span style="color:#f92672">.</span>get(<span style="color:#e6db74">&#39;http://github.com&#39;</span>, timeout<span style="color:#f92672">=</span>[SECOND])</code></pre></div>
+
+<p><br/></p>
+
+<p>10.指定編碼
+通常網站會使用 UTF-8 編碼，但若不是，可用這個方法修改讀取編碼。</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">r<span style="color:#f92672">.</span>encoding <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;ISO-8859-1&#39;</span></code></pre></div>
+
+<p><br/></p>
+
+<p>11.取得 Cookie
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">url <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;http://example.com/some/cookie/setting/url&#39;</span>
+r <span style="color:#f92672">=</span> requests<span style="color:#f92672">.</span>get(url)
+
+r<span style="color:#f92672">.</span>cookies[<span style="color:#e6db74">&#39;example_cookie_name&#39;</span>]</code></pre></div></p>
+
+<p><br/></p>
+
+<p>12 .修改 Cookie
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">url <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;http://httpbin.org/cookies&#39;</span>
+cookies <span style="color:#f92672">=</span> dict(cookies_are<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;working&#39;</span>)
+
+r <span style="color:#f92672">=</span> requests<span style="color:#f92672">.</span>get(url, cookies<span style="color:#f92672">=</span>cookies)
+r<span style="color:#f92672">.</span>text</code></pre></div></p>
+
+<p><br/></p>
+
+<h5 id="參考資料">參考資料</h5>
+
+<p><a href="https://pypi.org/project/requests/">https://pypi.org/project/requests/</a></p>
+
+<p><a href="https://github.com/requests/requests">https://github.com/requests/requests</a></p>
+
+<p><a href="http://docs.python-requests.org/en/master/user/quickstart/">http://docs.python-requests.org/en/master/user/quickstart/</a></p>
+
   </div>
 
   <footer>
@@ -536,7 +782,7 @@ if (!doNotTrack) {
                 <i class="fa fa-folder"></i>
                 
                 
-                <li><a class="article-category-link" href="https://oxygentw.net/categories/notes">notes</a></li>
+                <li><a class="article-category-link" href="https://oxygentw.net/categories/computer">computer</a></li>
                 
             
         
@@ -821,7 +1067,7 @@ if (!doNotTrack) {
             <header>
               
                 <a href="https://oxygentw.net/categories/computer/">computer</a>
-                <span style="float:right;">13</span>
+                <span style="float:right;">15</span>
               
             </header>
           </article>
@@ -832,7 +1078,7 @@ if (!doNotTrack) {
             <header>
               
                 <a href="https://oxygentw.net/categories/notes/">notes</a>
-                <span style="float:right;">8</span>
+                <span style="float:right;">7</span>
               
             </header>
           </article>
@@ -874,8 +1120,8 @@ if (!doNotTrack) {
           <article>
             <header>
               
-                <a href="https://oxygentw.net/categories/medical-knowledge/">medical-knowledge</a>
-                <span style="float:right;">1</span>
+                <a href="https://oxygentw.net/categories/travel/">travel</a>
+                <span style="float:right;">2</span>
               
             </header>
           </article>
@@ -885,7 +1131,7 @@ if (!doNotTrack) {
           <article>
             <header>
               
-                <a href="https://oxygentw.net/categories/travel/">travel</a>
+                <a href="https://oxygentw.net/categories/medical-knowledge/">medical-knowledge</a>
                 <span style="float:right;">1</span>
               
             </header>
