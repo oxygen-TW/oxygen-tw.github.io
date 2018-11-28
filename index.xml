@@ -101,7 +101,9 @@ Function Prototype
 指向比較函數的指標比較特別，就像 STL sort 如果要改變排序方向的話必須傳入第三個參數，自行定義的比較函數。
 範例如下：
 int cmpfunc (const void * a, const void * b) { return ( *(int*)a - *(int*)b ) }  傳入 a,b 兩參數型別是 void ，需要強制轉型成被排序陣列的型別，如範例中 a,b 先被強制轉型成整數指標 (int)，再對他取值做處理。
-完整範例 #include &amp;lt;stdio.h&amp;gt;#include &amp;lt;stdlib.h&amp;gt; void printIntArr(int *arr,int arrSize) {for(int i=0; i&amp;lt;arrSize; i++) {printf(&amp;#34;%d &amp;#34;,arr[i]);} printf(&amp;#34;\n&amp;#34;);}int cmpfunc (const void * a, const void * b) {return *(int*)a &amp;gt; *(int*)b;}int main (){int arr[] = { 56, 45, 48, 12, 4, 3, 4568, 45, 48, 213, 54, 32, 4, 8, 9, 6, 4, 23, 0, -2, 56 };printIntArr(arr,(sizeof(arr)/sizeof(int)));qsort(arr,sizeof(arr)/sizeof(int),sizeof(int),cmpfunc); //Quick sort printIntArr(arr,(sizeof(arr)/sizeof(int)));return 0;}</description>
+完整範例 #include &amp;lt;stdio.h&amp;gt;#include &amp;lt;stdlib.h&amp;gt; void printIntArr(int *arr,int arrSize) {for(int i=0; i&amp;lt;arrSize; i++) {printf(&amp;#34;%d &amp;#34;,arr[i]);} printf(&amp;#34;\n&amp;#34;);}int cmpfunc (const void * a, const void * b) {return *(int*)a - *(int*)b;}int main (){int arr[] = { 56, 45, 48, 12, 4, 3, 4568, 45, 48, 213, 54, 32, 4, 8, 9, 6, 4, 23, 0, -2, 56 };printIntArr(arr,(sizeof(arr)/sizeof(int)));qsort(arr,sizeof(arr)/sizeof(int),sizeof(int),cmpfunc); //Quick sort printIntArr(arr,(sizeof(arr)/sizeof(int)));return 0;} 
+
+輸出結果:</description>
     </item>
     
     <item>
@@ -121,9 +123,8 @@ int cmpfunc (const void * a, const void * b) { return ( *(int*)a - *(int*)b ) } 
 
 4.PUT, DELETE, HEAD, OPTIONS 請求 r = requests.put(&amp;#39;http://httpbin.org/put&amp;#39;, data = {&amp;#39;key&amp;#39;:&amp;#39;value&amp;#39;})r = requests.delete(&amp;#39;http://httpbin.org/delete&amp;#39;)r = requests.head(&amp;#39;http://httpbin.org/get&amp;#39;)r = requests.options(&amp;#39;http://httpbin.org/get&amp;#39;)
 
-5.傳遞 URLs 參數 當 URLs 參數的 dictionary 裡可以把 list 當成一個項目，但不可以加入 None的項目。
+5.傳遞 URLs 參數 當 URLs 參數的 dictionary 裡可以把 list 當成一個項目，但不可以加入 None的項目。 payload = {&amp;#39;key1&amp;#39;: &amp;#39;value1&amp;#39;, &amp;#39;key2&amp;#39;: &amp;#39;value2&amp;#39;}r = requests.get(&amp;#39;http://httpbin.org/get&amp;#39;, params=payload)print(r.url) #查看傳送的 URL
 
-payload = {&amp;#39;key1&amp;#39;: &amp;#39;value1&amp;#39;, &amp;#39;key2&amp;#39;: &amp;#39;value2&amp;#39;}r = requests.get(&amp;#39;http://httpbin.org/get&amp;#39;, params=payload)print(r.url) #查看傳送的 URL 
 6.回應資料分析 從回應中取出各種我們需要的資料
 print(r.text) #列出文字 print(r.encoding) #列出編碼 print(r.status_code) #列出 HTTP 狀態碼 print(r.headers) #列出 HTTP Response Headers print(r.headers[&amp;#39;Content-Type&amp;#39;]) #印出 Header 中的 Content-Type 
 7.解析 JSON 資料 如果取得的是 json 格式資料，requests 有內建解析函式。
@@ -139,7 +140,8 @@ r.encoding = &amp;#39;ISO-8859-1&amp;#39;
 12 .修改 Cookie url = &amp;#39;http://httpbin.org/cookies&amp;#39;cookies = dict(cookies_are=&amp;#39;working&amp;#39;)r = requests.get(url, cookies=cookies)r.text
 
 參考資料 https://pypi.org/project/requests/
-https://github.com/requests/requests</description>
+https://github.com/requests/requests
+http://docs.python-requests.org/en/master/user/quickstart/</description>
     </item>
     
     <item>
@@ -334,6 +336,41 @@ sudo do-release-upgrade
 
 最後做個收尾
 sudo apt-get autoremove sudo reboot  完成，很簡單吧！但我更新後有遇到一些小問題，例如 14.04 使用 php5.6，而 16.04 是 php7.0，Apache就出了點問題，需要更換 php 版本才能正常運作，不過整體上都是不會有差別的。</description>
+    </item>
+    
+    <item>
+      <title>使用 gitea 自行架設 git 伺服器</title>
+      <link>https://oxygentw.net/blog/computer/use-gitea-build-own-git-server/</link>
+      <pubDate>Sun, 18 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/use-gitea-build-own-git-server/</guid>
+      <description>雖然說有 github 的免費服務可以用，但有時候若程式碼不想公開又需要用到 git 版本管理就會有些不方便，既然現在有空伺服器，就幫學校架一個吧！也分享安裝過程給其他想自己架設 git server 的人。
+我使用 gitea 這套用 go 語言開發的開源，第一步到 gitea 的 GitHub 依照自己的作業系統下載主程式。
+我以 ubuntu server 為例。
+   
+如果不知道自己電腦是什麼架構可以用arch指令查詢
+arch 
+下載完成後，因為主程式會自動生成一些檔案，先把它移到安裝目錄下並把程式名稱改短一點
+sudo mkdir /opt/giteasudo mv gitea-1.4.0-rc3-linux-amd64 /opt/gitea/giteacd /opt/giteasudo chmod +x gitea 
+安裝前我們還需要 Mysql 資料庫，若已安裝可略過這步。
+#Installsudo apt-get updatesudo apt-get install mysql-server#Configuremysql_secure_installation 
+接著在 Mysql 中創建一個給 gitea 使用的資料庫，這邊我就不贅述了，不會操作的話可以參考網路上的這篇文章。
+啟動主程式，gitea預設會使用 port 3000，防火牆記得允許！
+sudo ./gitea 
+用瀏覽器訪問你伺服器的 port 3000，依照安裝頁面設定。 設定完後按立即安裝，等他一會兒就自動安裝好了！
+    
+再次訪問 gitea 看到這畫面安裝就完成啦！不過還差一步，把 gitea 設成系統服務。
+  在/etc/init.d新增一個檔案
+sudo touch /etc/init.d/giteasudo chmod +x /etc/init.d/gitea 
+複製這個網頁裡的文字到剛剛新建的檔案，找到以下內容並修改。
+(這檔案適用 ubuntu/debian，其他作業系統可以到這頁面找找)
+DESC=&amp;#34;對這個軟體的描述&amp;#34;NAME=giteaSERVICEVERBOSE=yesPIDFILE=/var/run/$NAME.pidSCRIPTNAME=/etc/init.d/$NAMEWORKINGDIR=安裝目錄路徑DAEMON=$WORKINGDIR/$NAMEDAEMON_ARGS=&amp;#34;web&amp;#34;USER=用來啟動 gitea 的使用者 
+啟動服務
+sudo /etc/init.d/gitea start  檢查是否成功啟動
+sudo lsof -i :gitea 的監聽 port | grep LISTEN
+
+出現這樣就是成功
+gitea 15793 root 8u IPv6 15140468 0t0 TCP *:x11 (LISTEN) 完成！</description>
     </item>
     
     <item>

@@ -11,28 +11,35 @@
              "@id": "https://oxygentw.net"
         },
         "articleSection" : "blog",
-        "name" : "架設 VoIP Server",
-        "headline" : "架設 VoIP Server",
-        "description" : "來試試 VoIP Server，以前都沒想過可以自己架，最近心血來潮找了找，找到 umurmur 這套軟體，他是用C語言寫成的輕量級伺服器軟體，還可以安裝在 openWRT 路由器之類的設備上喔！
+        "name" : "使用 gitea 自行架設 git 伺服器",
+        "headline" : "使用 gitea 自行架設 git 伺服器",
+        "description" : "雖然說有 github 的免費服務可以用，但有時候若程式碼不想公開又需要用到 git 版本管理就會有些不方便，既然現在有空伺服器，就幫學校架一個吧！也分享安裝過程給其他想自己架設 git server 的人。
+我使用 gitea 這套用 go 語言開發的開源，第一步到 gitea 的 GitHub 依照自己的作業系統下載主程式。
+我以 ubuntu server 為例。
+   
+如果不知道自己電腦是什麼架構可以用arch指令查詢
+arch 
+下載完成後，因為主程式會自動生成一些檔案，先把它移到安裝目錄下並把程式名稱改短一點
+sudo mkdir /opt/giteasudo mv gitea-1.4.0-rc3-linux-amd64 /opt/gitea/giteacd /opt/giteasudo chmod +x gitea 
+安裝前我們還需要 Mysql 資料庫，若已安裝可略過這步。
+#Installsudo apt-get updatesudo apt-get install mysql-server#Configuremysql_secure_installation 
+接著在 Mysql 中創建一個給 gitea 使用的資料庫，這邊我就不贅述了，不會操作的話可以參考網路上的這篇文章。
+啟動主程式，gitea預設會使用 port 3000，防火牆記得允許！
+sudo ./gitea 
+用瀏覽器訪問你伺服器的 port 3000，依照安裝頁面設定。 設定完後按立即安裝，等他一會兒就自動安裝好了！
+    
+再次訪問 gitea 看到這畫面安裝就完成啦！不過還差一步，把 gitea 設成系統服務。
+  在/etc/init.d新增一個檔案
+sudo touch /etc/init.d/giteasudo chmod +x /etc/init.d/gitea 
+複製這個網頁裡的文字到剛剛新建的檔案，找到以下內容並修改。
+(這檔案適用 ubuntu/debian，其他作業系統可以到這頁面找找)
+DESC=&#34;對這個軟體的描述&#34;NAME=giteaSERVICEVERBOSE=yesPIDFILE=/var/run/$NAME.pidSCRIPTNAME=/etc/init.d/$NAMEWORKINGDIR=安裝目錄路徑DAEMON=$WORKINGDIR/$NAMEDAEMON_ARGS=&#34;web&#34;USER=用來啟動 gitea 的使用者 
+啟動服務
+sudo /etc/init.d/gitea start  檢查是否成功啟動
+sudo lsof -i :gitea 的監聽 port | grep LISTEN
 
-環境: Ubuntu Server 16.04
-軟體: umurmur
-下載原始碼 目前最新版本0.2.17 sudo wget https://github.com/umurmur/umurmur/archive/0.2.17.zipsudo unzip 0.2.17.zip -d /optcd /opt/umurmur-0.2.17 
-安裝必要套件 sudo apt-get updatesudo apt-get install libconfig-dev libprotobuf-c-dev libssl-dev cmake build-essential 
-編譯程式並安裝 cd ..sudo mkdir umurmur-buildcd umurmur-buildsudo cmake ../umurmur-0.2.17/ -DSSL=opensslsudo makesudo make install 
-修改組態 sudo vim /usr/local/etc/umurmur.conf welcometext = &ldquo;歡迎詞&rdquo;;
-password = &ldquo;VoIP Password&rdquo;;
-max_users = 最大連線數;
-bindport = VoIP 服務 Port; bindaddr = &ldquo;VoIP 服務 Address&rdquo;;
-
-設定頻道資訊 name = &ldquo;頻道名稱&rdquo;;
-parent = &ldquo;上層頻道名稱&rdquo;;
-description =&ldquo;頻道描述&rdquo;;
-noenter=true/false; #是否禁止進入
-silent = true/false; #是否為安靜模式
-position = 0/1/2/3&hellip;&hellip; #同層頻道排列順序，依照字母排序
-password = &ldquo;頻道密碼&rdquo;;
-設定範例 channels = ( { name = &#34;Root&#34;; parent = &#34;&#34;; description = &#34;Root channel. No entry.&#34;; noenter = true; }, { name = &#34;Lobby&#34;; parent = &#34;Root&#34;; description = &#34;Lobby channel&#34;; }, { name = &#34;Silent&#34;; parent = &#34;Root&#34;; description = &#34;Silent channel&#34;; silent = true; # Optional. Default is false  }, { name = &#34;Team A&#34;; parent = &#34;Lobby&#34;; description = &#34;The Team A channel&#34;;position = 0; # Optional. Default is 0 and the channels will be shown in alphabetic order. # password = &#34;nopassword&#34;; },{name = &#34;Team B&#34;;parent = &#34;Lobby&#34;;description = &#34;The Team B channel&#34;;position = 1; # Optional.",
+出現這樣就是成功
+gitea 15793 root 8u IPv6 15140468 0t0 TCP *:x11 (LISTEN) 完成！",
         "inLanguage" : "en",
         "author" : "",
         "creator" : "",
@@ -40,16 +47,16 @@ password = &ldquo;頻道密碼&rdquo;;
         "accountablePerson" : "",
         "copyrightHolder" : "",
         "copyrightYear" : "2018",
-        "datePublished": "2018-04-07 00:00:00 &#43;0000 UTC",
-        "dateModified" : "2018-04-07 00:00:00 &#43;0000 UTC",
-        "url" : "https://oxygentw.net/blog/computer/use-umurmur-build-voip-server/",
-        "wordCount" : "374",
+        "datePublished": "2018-03-18 00:00:00 &#43;0000 UTC",
+        "dateModified" : "2018-03-18 00:00:00 &#43;0000 UTC",
+        "url" : "https://oxygentw.net/blog/computer/use-gitea-build-own-git-server/",
+        "wordCount" : "117",
         "keywords" : [ "Blog" ]
     }
     </script>
         
             
-                <title>架設 VoIP Server</title>
+                <title>使用 gitea 自行架設 git 伺服器</title>
             
         
 
@@ -71,84 +78,105 @@ password = &ldquo;頻道密碼&rdquo;;
         
 
         <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="架設 VoIP Server"/>
-<meta name="twitter:description" content="來試試 VoIP Server，以前都沒想過可以自己架，最近心血來潮找了找，找到 umurmur 這套軟體，他是用C語言寫成的輕量級伺服器軟體，還可以安裝在 openWRT 路由器之類的設備上喔！
+<meta name="twitter:title" content="使用 gitea 自行架設 git 伺服器"/>
+<meta name="twitter:description" content="雖然說有 github 的免費服務可以用，但有時候若程式碼不想公開又需要用到 git 版本管理就會有些不方便，既然現在有空伺服器，就幫學校架一個吧！也分享安裝過程給其他想自己架設 git server 的人。
+我使用 gitea 這套用 go 語言開發的開源，第一步到 gitea 的 GitHub 依照自己的作業系統下載主程式。
+我以 ubuntu server 為例。
+   
+如果不知道自己電腦是什麼架構可以用arch指令查詢
+arch 
+下載完成後，因為主程式會自動生成一些檔案，先把它移到安裝目錄下並把程式名稱改短一點
+sudo mkdir /opt/giteasudo mv gitea-1.4.0-rc3-linux-amd64 /opt/gitea/giteacd /opt/giteasudo chmod &#43;x gitea 
+安裝前我們還需要 Mysql 資料庫，若已安裝可略過這步。
+#Installsudo apt-get updatesudo apt-get install mysql-server#Configuremysql_secure_installation 
+接著在 Mysql 中創建一個給 gitea 使用的資料庫，這邊我就不贅述了，不會操作的話可以參考網路上的這篇文章。
+啟動主程式，gitea預設會使用 port 3000，防火牆記得允許！
+sudo ./gitea 
+用瀏覽器訪問你伺服器的 port 3000，依照安裝頁面設定。 設定完後按立即安裝，等他一會兒就自動安裝好了！
+    
+再次訪問 gitea 看到這畫面安裝就完成啦！不過還差一步，把 gitea 設成系統服務。
+  在/etc/init.d新增一個檔案
+sudo touch /etc/init.d/giteasudo chmod &#43;x /etc/init.d/gitea 
+複製這個網頁裡的文字到剛剛新建的檔案，找到以下內容並修改。
+(這檔案適用 ubuntu/debian，其他作業系統可以到這頁面找找)
+DESC=&#34;對這個軟體的描述&#34;NAME=giteaSERVICEVERBOSE=yesPIDFILE=/var/run/$NAME.pidSCRIPTNAME=/etc/init.d/$NAMEWORKINGDIR=安裝目錄路徑DAEMON=$WORKINGDIR/$NAMEDAEMON_ARGS=&#34;web&#34;USER=用來啟動 gitea 的使用者 
+啟動服務
+sudo /etc/init.d/gitea start  檢查是否成功啟動
+sudo lsof -i :gitea 的監聽 port | grep LISTEN
 
-環境: Ubuntu Server 16.04
-軟體: umurmur
-下載原始碼 目前最新版本0.2.17 sudo wget https://github.com/umurmur/umurmur/archive/0.2.17.zipsudo unzip 0.2.17.zip -d /optcd /opt/umurmur-0.2.17 
-安裝必要套件 sudo apt-get updatesudo apt-get install libconfig-dev libprotobuf-c-dev libssl-dev cmake build-essential 
-編譯程式並安裝 cd ..sudo mkdir umurmur-buildcd umurmur-buildsudo cmake ../umurmur-0.2.17/ -DSSL=opensslsudo makesudo make install 
-修改組態 sudo vim /usr/local/etc/umurmur.conf welcometext = &ldquo;歡迎詞&rdquo;;
-password = &ldquo;VoIP Password&rdquo;;
-max_users = 最大連線數;
-bindport = VoIP 服務 Port; bindaddr = &ldquo;VoIP 服務 Address&rdquo;;
+出現這樣就是成功
+gitea 15793 root 8u IPv6 15140468 0t0 TCP *:x11 (LISTEN) 完成！"/>
 
-設定頻道資訊 name = &ldquo;頻道名稱&rdquo;;
-parent = &ldquo;上層頻道名稱&rdquo;;
-description =&ldquo;頻道描述&rdquo;;
-noenter=true/false; #是否禁止進入
-silent = true/false; #是否為安靜模式
-position = 0/1/2/3&hellip;&hellip; #同層頻道排列順序，依照字母排序
-password = &ldquo;頻道密碼&rdquo;;
-設定範例 channels = ( { name = &#34;Root&#34;; parent = &#34;&#34;; description = &#34;Root channel. No entry.&#34;; noenter = true; }, { name = &#34;Lobby&#34;; parent = &#34;Root&#34;; description = &#34;Lobby channel&#34;; }, { name = &#34;Silent&#34;; parent = &#34;Root&#34;; description = &#34;Silent channel&#34;; silent = true; # Optional. Default is false  }, { name = &#34;Team A&#34;; parent = &#34;Lobby&#34;; description = &#34;The Team A channel&#34;;position = 0; # Optional. Default is 0 and the channels will be shown in alphabetic order. # password = &#34;nopassword&#34;; },{name = &#34;Team B&#34;;parent = &#34;Lobby&#34;;description = &#34;The Team B channel&#34;;position = 1; # Optional."/>
+        <meta property="og:title" content="使用 gitea 自行架設 git 伺服器" />
+<meta property="og:description" content="雖然說有 github 的免費服務可以用，但有時候若程式碼不想公開又需要用到 git 版本管理就會有些不方便，既然現在有空伺服器，就幫學校架一個吧！也分享安裝過程給其他想自己架設 git server 的人。
+我使用 gitea 這套用 go 語言開發的開源，第一步到 gitea 的 GitHub 依照自己的作業系統下載主程式。
+我以 ubuntu server 為例。
+   
+如果不知道自己電腦是什麼架構可以用arch指令查詢
+arch 
+下載完成後，因為主程式會自動生成一些檔案，先把它移到安裝目錄下並把程式名稱改短一點
+sudo mkdir /opt/giteasudo mv gitea-1.4.0-rc3-linux-amd64 /opt/gitea/giteacd /opt/giteasudo chmod &#43;x gitea 
+安裝前我們還需要 Mysql 資料庫，若已安裝可略過這步。
+#Installsudo apt-get updatesudo apt-get install mysql-server#Configuremysql_secure_installation 
+接著在 Mysql 中創建一個給 gitea 使用的資料庫，這邊我就不贅述了，不會操作的話可以參考網路上的這篇文章。
+啟動主程式，gitea預設會使用 port 3000，防火牆記得允許！
+sudo ./gitea 
+用瀏覽器訪問你伺服器的 port 3000，依照安裝頁面設定。 設定完後按立即安裝，等他一會兒就自動安裝好了！
+    
+再次訪問 gitea 看到這畫面安裝就完成啦！不過還差一步，把 gitea 設成系統服務。
+  在/etc/init.d新增一個檔案
+sudo touch /etc/init.d/giteasudo chmod &#43;x /etc/init.d/gitea 
+複製這個網頁裡的文字到剛剛新建的檔案，找到以下內容並修改。
+(這檔案適用 ubuntu/debian，其他作業系統可以到這頁面找找)
+DESC=&#34;對這個軟體的描述&#34;NAME=giteaSERVICEVERBOSE=yesPIDFILE=/var/run/$NAME.pidSCRIPTNAME=/etc/init.d/$NAMEWORKINGDIR=安裝目錄路徑DAEMON=$WORKINGDIR/$NAMEDAEMON_ARGS=&#34;web&#34;USER=用來啟動 gitea 的使用者 
+啟動服務
+sudo /etc/init.d/gitea start  檢查是否成功啟動
+sudo lsof -i :gitea 的監聽 port | grep LISTEN
 
-        <meta property="og:title" content="架設 VoIP Server" />
-<meta property="og:description" content="來試試 VoIP Server，以前都沒想過可以自己架，最近心血來潮找了找，找到 umurmur 這套軟體，他是用C語言寫成的輕量級伺服器軟體，還可以安裝在 openWRT 路由器之類的設備上喔！
-
-環境: Ubuntu Server 16.04
-軟體: umurmur
-下載原始碼 目前最新版本0.2.17 sudo wget https://github.com/umurmur/umurmur/archive/0.2.17.zipsudo unzip 0.2.17.zip -d /optcd /opt/umurmur-0.2.17 
-安裝必要套件 sudo apt-get updatesudo apt-get install libconfig-dev libprotobuf-c-dev libssl-dev cmake build-essential 
-編譯程式並安裝 cd ..sudo mkdir umurmur-buildcd umurmur-buildsudo cmake ../umurmur-0.2.17/ -DSSL=opensslsudo makesudo make install 
-修改組態 sudo vim /usr/local/etc/umurmur.conf welcometext = &ldquo;歡迎詞&rdquo;;
-password = &ldquo;VoIP Password&rdquo;;
-max_users = 最大連線數;
-bindport = VoIP 服務 Port; bindaddr = &ldquo;VoIP 服務 Address&rdquo;;
-
-設定頻道資訊 name = &ldquo;頻道名稱&rdquo;;
-parent = &ldquo;上層頻道名稱&rdquo;;
-description =&ldquo;頻道描述&rdquo;;
-noenter=true/false; #是否禁止進入
-silent = true/false; #是否為安靜模式
-position = 0/1/2/3&hellip;&hellip; #同層頻道排列順序，依照字母排序
-password = &ldquo;頻道密碼&rdquo;;
-設定範例 channels = ( { name = &#34;Root&#34;; parent = &#34;&#34;; description = &#34;Root channel. No entry.&#34;; noenter = true; }, { name = &#34;Lobby&#34;; parent = &#34;Root&#34;; description = &#34;Lobby channel&#34;; }, { name = &#34;Silent&#34;; parent = &#34;Root&#34;; description = &#34;Silent channel&#34;; silent = true; # Optional. Default is false  }, { name = &#34;Team A&#34;; parent = &#34;Lobby&#34;; description = &#34;The Team A channel&#34;;position = 0; # Optional. Default is 0 and the channels will be shown in alphabetic order. # password = &#34;nopassword&#34;; },{name = &#34;Team B&#34;;parent = &#34;Lobby&#34;;description = &#34;The Team B channel&#34;;position = 1; # Optional." />
+出現這樣就是成功
+gitea 15793 root 8u IPv6 15140468 0t0 TCP *:x11 (LISTEN) 完成！" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://oxygentw.net/blog/computer/use-umurmur-build-voip-server/" /><meta property="article:published_time" content="2018-04-07T00:00:00&#43;00:00"/>
-<meta property="article:modified_time" content="2018-04-07T00:00:00&#43;00:00"/>
+<meta property="og:url" content="https://oxygentw.net/blog/computer/use-gitea-build-own-git-server/" /><meta property="article:published_time" content="2018-03-18T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2018-03-18T00:00:00&#43;00:00"/>
 
         <meta property="og:image" content="https://oxygentw.net/images/logo.png">
         <meta property="og:image:type" content="image/png">
         <meta property="og:image:width" content="512">
         <meta property="og:image:height" content="512">
         
-<meta itemprop="name" content="架設 VoIP Server">
-<meta itemprop="description" content="來試試 VoIP Server，以前都沒想過可以自己架，最近心血來潮找了找，找到 umurmur 這套軟體，他是用C語言寫成的輕量級伺服器軟體，還可以安裝在 openWRT 路由器之類的設備上喔！
+<meta itemprop="name" content="使用 gitea 自行架設 git 伺服器">
+<meta itemprop="description" content="雖然說有 github 的免費服務可以用，但有時候若程式碼不想公開又需要用到 git 版本管理就會有些不方便，既然現在有空伺服器，就幫學校架一個吧！也分享安裝過程給其他想自己架設 git server 的人。
+我使用 gitea 這套用 go 語言開發的開源，第一步到 gitea 的 GitHub 依照自己的作業系統下載主程式。
+我以 ubuntu server 為例。
+   
+如果不知道自己電腦是什麼架構可以用arch指令查詢
+arch 
+下載完成後，因為主程式會自動生成一些檔案，先把它移到安裝目錄下並把程式名稱改短一點
+sudo mkdir /opt/giteasudo mv gitea-1.4.0-rc3-linux-amd64 /opt/gitea/giteacd /opt/giteasudo chmod &#43;x gitea 
+安裝前我們還需要 Mysql 資料庫，若已安裝可略過這步。
+#Installsudo apt-get updatesudo apt-get install mysql-server#Configuremysql_secure_installation 
+接著在 Mysql 中創建一個給 gitea 使用的資料庫，這邊我就不贅述了，不會操作的話可以參考網路上的這篇文章。
+啟動主程式，gitea預設會使用 port 3000，防火牆記得允許！
+sudo ./gitea 
+用瀏覽器訪問你伺服器的 port 3000，依照安裝頁面設定。 設定完後按立即安裝，等他一會兒就自動安裝好了！
+    
+再次訪問 gitea 看到這畫面安裝就完成啦！不過還差一步，把 gitea 設成系統服務。
+  在/etc/init.d新增一個檔案
+sudo touch /etc/init.d/giteasudo chmod &#43;x /etc/init.d/gitea 
+複製這個網頁裡的文字到剛剛新建的檔案，找到以下內容並修改。
+(這檔案適用 ubuntu/debian，其他作業系統可以到這頁面找找)
+DESC=&#34;對這個軟體的描述&#34;NAME=giteaSERVICEVERBOSE=yesPIDFILE=/var/run/$NAME.pidSCRIPTNAME=/etc/init.d/$NAMEWORKINGDIR=安裝目錄路徑DAEMON=$WORKINGDIR/$NAMEDAEMON_ARGS=&#34;web&#34;USER=用來啟動 gitea 的使用者 
+啟動服務
+sudo /etc/init.d/gitea start  檢查是否成功啟動
+sudo lsof -i :gitea 的監聽 port | grep LISTEN
 
-環境: Ubuntu Server 16.04
-軟體: umurmur
-下載原始碼 目前最新版本0.2.17 sudo wget https://github.com/umurmur/umurmur/archive/0.2.17.zipsudo unzip 0.2.17.zip -d /optcd /opt/umurmur-0.2.17 
-安裝必要套件 sudo apt-get updatesudo apt-get install libconfig-dev libprotobuf-c-dev libssl-dev cmake build-essential 
-編譯程式並安裝 cd ..sudo mkdir umurmur-buildcd umurmur-buildsudo cmake ../umurmur-0.2.17/ -DSSL=opensslsudo makesudo make install 
-修改組態 sudo vim /usr/local/etc/umurmur.conf welcometext = &ldquo;歡迎詞&rdquo;;
-password = &ldquo;VoIP Password&rdquo;;
-max_users = 最大連線數;
-bindport = VoIP 服務 Port; bindaddr = &ldquo;VoIP 服務 Address&rdquo;;
-
-設定頻道資訊 name = &ldquo;頻道名稱&rdquo;;
-parent = &ldquo;上層頻道名稱&rdquo;;
-description =&ldquo;頻道描述&rdquo;;
-noenter=true/false; #是否禁止進入
-silent = true/false; #是否為安靜模式
-position = 0/1/2/3&hellip;&hellip; #同層頻道排列順序，依照字母排序
-password = &ldquo;頻道密碼&rdquo;;
-設定範例 channels = ( { name = &#34;Root&#34;; parent = &#34;&#34;; description = &#34;Root channel. No entry.&#34;; noenter = true; }, { name = &#34;Lobby&#34;; parent = &#34;Root&#34;; description = &#34;Lobby channel&#34;; }, { name = &#34;Silent&#34;; parent = &#34;Root&#34;; description = &#34;Silent channel&#34;; silent = true; # Optional. Default is false  }, { name = &#34;Team A&#34;; parent = &#34;Lobby&#34;; description = &#34;The Team A channel&#34;;position = 0; # Optional. Default is 0 and the channels will be shown in alphabetic order. # password = &#34;nopassword&#34;; },{name = &#34;Team B&#34;;parent = &#34;Lobby&#34;;description = &#34;The Team B channel&#34;;position = 1; # Optional.">
+出現這樣就是成功
+gitea 15793 root 8u IPv6 15140468 0t0 TCP *:x11 (LISTEN) 完成！">
 
 
-<meta itemprop="datePublished" content="2018-04-07T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2018-04-07T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="374">
+<meta itemprop="datePublished" content="2018-03-18T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2018-03-18T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="117">
 
 
 
@@ -424,7 +452,7 @@ if (!doNotTrack) {
 
 
 <li>
-  <a href="//twitter.com/share?url=https%3a%2f%2foxygentw.net%2fblog%2fcomputer%2fuse-umurmur-build-voip-server%2f&amp;text=%e6%9e%b6%e8%a8%ad%20VoIP%20Server&amp;via=" target="_blank" class="share-btn twitter">
+  <a href="//twitter.com/share?url=https%3a%2f%2foxygentw.net%2fblog%2fcomputer%2fuse-gitea-build-own-git-server%2f&amp;text=%e4%bd%bf%e7%94%a8%20gitea%20%e8%87%aa%e8%a1%8c%e6%9e%b6%e8%a8%ad%20git%20%e4%bc%ba%e6%9c%8d%e5%99%a8&amp;via=" target="_blank" class="share-btn twitter">
     <i class="fa fa-twitter"></i>
     <p>Twitter</p>
     </a>
@@ -434,7 +462,7 @@ if (!doNotTrack) {
 
 
 <li>
-  <a href="//plus.google.com/share?url=https%3a%2f%2foxygentw.net%2fblog%2fcomputer%2fuse-umurmur-build-voip-server%2f" target="_blank" class="share-btn google-plus">
+  <a href="//plus.google.com/share?url=https%3a%2f%2foxygentw.net%2fblog%2fcomputer%2fuse-gitea-build-own-git-server%2f" target="_blank" class="share-btn google-plus">
     <i class="fa fa-google-plus"></i>
     <p>Google+</p>
   </a>
@@ -445,7 +473,7 @@ if (!doNotTrack) {
 
 
 <li>
-  <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2foxygentw.net%2fblog%2fcomputer%2fuse-umurmur-build-voip-server%2f" target="_blank" class="share-btn facebook">
+  <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2foxygentw.net%2fblog%2fcomputer%2fuse-gitea-build-own-git-server%2f" target="_blank" class="share-btn facebook">
     <i class="fa fa-facebook"></i>
     <p>Facebook</p>
     </a>
@@ -455,7 +483,7 @@ if (!doNotTrack) {
 
 
 <li>
-  <a href="//reddit.com/submit?url=https%3a%2f%2foxygentw.net%2fblog%2fcomputer%2fuse-umurmur-build-voip-server%2f&amp;title=%e6%9e%b6%e8%a8%ad%20VoIP%20Server" target="_blank" class="share-btn reddit">
+  <a href="//reddit.com/submit?url=https%3a%2f%2foxygentw.net%2fblog%2fcomputer%2fuse-gitea-build-own-git-server%2f&amp;title=%e4%bd%bf%e7%94%a8%20gitea%20%e8%87%aa%e8%a1%8c%e6%9e%b6%e8%a8%ad%20git%20%e4%bc%ba%e6%9c%8d%e5%99%a8" target="_blank" class="share-btn reddit">
     <i class="fa fa-reddit-alien"></i>
     <p>Reddit</p>
   </a>
@@ -471,7 +499,7 @@ if (!doNotTrack) {
 
 
 <li>
-  <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2foxygentw.net%2fblog%2fcomputer%2fuse-umurmur-build-voip-server%2f&amp;description=%e6%9e%b6%e8%a8%ad%20VoIP%20Server" target="_blank" class="share-btn pinterest">
+  <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2foxygentw.net%2fblog%2fcomputer%2fuse-gitea-build-own-git-server%2f&amp;description=%e4%bd%bf%e7%94%a8%20gitea%20%e8%87%aa%e8%a1%8c%e6%9e%b6%e8%a8%ad%20git%20%e4%bc%ba%e6%9c%8d%e5%99%a8" target="_blank" class="share-btn pinterest">
     <i class="fa fa-pinterest-p"></i>
     <p>Pinterest</p>
   </a>
@@ -481,7 +509,7 @@ if (!doNotTrack) {
 
 
 <li>
-  <a href="mailto:?subject=Check out this post by oxygen&amp;body=https%3a%2f%2foxygentw.net%2fblog%2fcomputer%2fuse-umurmur-build-voip-server%2f" target="_blank" class="share-btn email">
+  <a href="mailto:?subject=Check out this post by oxygen&amp;body=https%3a%2f%2foxygentw.net%2fblog%2fcomputer%2fuse-gitea-build-own-git-server%2f" target="_blank" class="share-btn email">
     <i class="fa fa-envelope"></i>
     <p>Email</p>
   </a>
@@ -500,7 +528,7 @@ if (!doNotTrack) {
   <header>
     <div class="title">
         
-            <h1><a href="https://oxygentw.net/blog/computer/use-umurmur-build-voip-server/">架設 VoIP Server</a></h1>
+            <h1><a href="https://oxygentw.net/blog/computer/use-gitea-build-own-git-server/">使用 gitea 自行架設 git 伺服器</a></h1>
             
         
         
@@ -509,11 +537,11 @@ if (!doNotTrack) {
         
 
         <time class="published"
-            datetime='2018-04-07'>
-            April 7, 2018</time>
+            datetime='2018-03-18'>
+            March 18, 2018</time>
         <span class="author">oxygen</span>
         
-            <p>2 minute read</p>
+            <p>1 minute read</p>
         
         
     </div>
@@ -528,7 +556,7 @@ if (!doNotTrack) {
 
 
 <li>
-  <a href="//twitter.com/share?url=https%3a%2f%2foxygentw.net%2fblog%2fcomputer%2fuse-umurmur-build-voip-server%2f&amp;text=%e6%9e%b6%e8%a8%ad%20VoIP%20Server&amp;via=" target="_blank" class="share-btn twitter">
+  <a href="//twitter.com/share?url=https%3a%2f%2foxygentw.net%2fblog%2fcomputer%2fuse-gitea-build-own-git-server%2f&amp;text=%e4%bd%bf%e7%94%a8%20gitea%20%e8%87%aa%e8%a1%8c%e6%9e%b6%e8%a8%ad%20git%20%e4%bc%ba%e6%9c%8d%e5%99%a8&amp;via=" target="_blank" class="share-btn twitter">
     <i class="fa fa-twitter"></i>
     <p>Twitter</p>
     </a>
@@ -538,7 +566,7 @@ if (!doNotTrack) {
 
 
 <li>
-  <a href="//plus.google.com/share?url=https%3a%2f%2foxygentw.net%2fblog%2fcomputer%2fuse-umurmur-build-voip-server%2f" target="_blank" class="share-btn google-plus">
+  <a href="//plus.google.com/share?url=https%3a%2f%2foxygentw.net%2fblog%2fcomputer%2fuse-gitea-build-own-git-server%2f" target="_blank" class="share-btn google-plus">
     <i class="fa fa-google-plus"></i>
     <p>Google+</p>
   </a>
@@ -549,7 +577,7 @@ if (!doNotTrack) {
 
 
 <li>
-  <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2foxygentw.net%2fblog%2fcomputer%2fuse-umurmur-build-voip-server%2f" target="_blank" class="share-btn facebook">
+  <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2foxygentw.net%2fblog%2fcomputer%2fuse-gitea-build-own-git-server%2f" target="_blank" class="share-btn facebook">
     <i class="fa fa-facebook"></i>
     <p>Facebook</p>
     </a>
@@ -559,7 +587,7 @@ if (!doNotTrack) {
 
 
 <li>
-  <a href="//reddit.com/submit?url=https%3a%2f%2foxygentw.net%2fblog%2fcomputer%2fuse-umurmur-build-voip-server%2f&amp;title=%e6%9e%b6%e8%a8%ad%20VoIP%20Server" target="_blank" class="share-btn reddit">
+  <a href="//reddit.com/submit?url=https%3a%2f%2foxygentw.net%2fblog%2fcomputer%2fuse-gitea-build-own-git-server%2f&amp;title=%e4%bd%bf%e7%94%a8%20gitea%20%e8%87%aa%e8%a1%8c%e6%9e%b6%e8%a8%ad%20git%20%e4%bc%ba%e6%9c%8d%e5%99%a8" target="_blank" class="share-btn reddit">
     <i class="fa fa-reddit-alien"></i>
     <p>Reddit</p>
   </a>
@@ -575,7 +603,7 @@ if (!doNotTrack) {
 
 
 <li>
-  <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2foxygentw.net%2fblog%2fcomputer%2fuse-umurmur-build-voip-server%2f&amp;description=%e6%9e%b6%e8%a8%ad%20VoIP%20Server" target="_blank" class="share-btn pinterest">
+  <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2foxygentw.net%2fblog%2fcomputer%2fuse-gitea-build-own-git-server%2f&amp;description=%e4%bd%bf%e7%94%a8%20gitea%20%e8%87%aa%e8%a1%8c%e6%9e%b6%e8%a8%ad%20git%20%e4%bc%ba%e6%9c%8d%e5%99%a8" target="_blank" class="share-btn pinterest">
     <i class="fa fa-pinterest-p"></i>
     <p>Pinterest</p>
   </a>
@@ -585,7 +613,7 @@ if (!doNotTrack) {
 
 
 <li>
-  <a href="mailto:?subject=Check out this post by oxygen&amp;body=https%3a%2f%2foxygentw.net%2fblog%2fcomputer%2fuse-umurmur-build-voip-server%2f" target="_blank" class="share-btn email">
+  <a href="mailto:?subject=Check out this post by oxygen&amp;body=https%3a%2f%2foxygentw.net%2fblog%2fcomputer%2fuse-gitea-build-own-git-server%2f" target="_blank" class="share-btn email">
     <i class="fa fa-envelope"></i>
     <p>Email</p>
   </a>
@@ -599,160 +627,131 @@ if (!doNotTrack) {
   
 
   <div id="content">
-    
-
-<p>來試試 VoIP Server，以前都沒想過可以自己架，最近心血來潮找了找，找到 umurmur 這套軟體，他是用C語言寫成的輕量級伺服器軟體，還可以安裝在 openWRT 路由器之類的設備上喔！</p>
-
-<p><br/></p>
-
-<p>環境: Ubuntu Server 16.04</p>
-
-<p>軟體: <a href="https://github.com/umurmur/umurmur &quot;umurmur">umurmur</a></p>
+    <p>雖然說有 github 的免費服務可以用，但有時候若程式碼不想公開又需要用到 git 版本管理就會有些不方便，既然現在有空伺服器，就幫學校架一個吧！也分享安裝過程給其他想自己架設 git server 的人。</p>
 
 <hr />
 
-<h2 id="下載原始碼-目前最新版本0-2-17">下載原始碼 目前最新版本0.2.17</h2>
+<p>我使用 gitea 這套用 go 語言開發的開源，第一步到 gitea 的 <a href="https://github.com/go-gitea/gitea/releases" title="GitHub">GitHub</a> 依照自己的作業系統下載主程式。</p>
 
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">sudo wget https://github.com/umurmur/umurmur/archive/0.2.17.zip
-sudo unzip <span style="color:#ae81ff">0</span>.2.17.zip -d /opt
-cd /opt/umurmur-0.2.17</code></pre></div>
+<p>我以 ubuntu server 為例。</p>
 
-<p><br/></p>
+<p>
+<figure>
+    
+        <img src="https://oxygentw.net/img/post/use-gitea-build-own-git-server/gitea.png" alt="loperamide" height="500px" />
+    
+    
+</figure>
 
-<h2 id="安裝必要套件">安裝必要套件</h2>
+<br/></p>
 
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">sudo apt-get update
-sudo apt-get install libconfig-dev libprotobuf-c-dev libssl-dev cmake build-essential</code></pre></div>
+<p>如果不知道自己電腦是什麼架構可以用arch指令查詢</p>
 
-<p><br/></p>
-
-<h2 id="編譯程式並安裝">編譯程式並安裝</h2>
-
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">cd ..
-sudo mkdir umurmur-build
-cd umurmur-build
-sudo cmake ../umurmur-0.2.17/ -DSSL<span style="color:#f92672">=</span>openssl
-sudo make
-sudo make install</code></pre></div>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">arch</code></pre></div>
 
 <p><br/></p>
 
-<h2 id="修改組態">修改組態</h2>
+<p>下載完成後，因為主程式會自動生成一些檔案，先把它移到安裝目錄下並把程式名稱改短一點</p>
 
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">sudo vim /usr/local/etc/umurmur.conf</code></pre></div>
-
-<p>welcometext = &ldquo;歡迎詞&rdquo;;<br />
-password = &ldquo;VoIP Password&rdquo;;<br />
-max_users = 最大連線數;<br />
-bindport = VoIP 服務 Port;
-bindaddr = &ldquo;VoIP 服務 Address&rdquo;;</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">sudo mkdir /opt/gitea
+sudo mv gitea-1.4.0-rc3-linux-amd64 /opt/gitea/gitea
+cd /opt/gitea
+sudo chmod +x gitea</code></pre></div>
 
 <p><br/></p>
 
-<h2 id="設定頻道資訊">設定頻道資訊</h2>
+<p>安裝前我們還需要 Mysql 資料庫，若已安裝可略過這步。</p>
 
-<p>name = &ldquo;頻道名稱&rdquo;;<br />
-parent = &ldquo;上層頻道名稱&rdquo;;<br />
-description =&ldquo;頻道描述&rdquo;;<br />
-noenter=true/false; #是否禁止進入<br />
-silent = true/false; #是否為安靜模式<br />
-position = 0/1/2/3&hellip;&hellip; #同層頻道排列順序，依照字母排序<br />
-password = &ldquo;頻道密碼&rdquo;;</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e">#Install
+</span><span style="color:#75715e"></span>sudo apt-get update
+sudo apt-get install mysql-server
 
-<h3 id="設定範例">設定範例</h3>
-
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">channels <span style="color:#f92672">=</span> <span style="color:#f92672">(</span> <span style="color:#f92672">{</span>   
-  name <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Root&#34;</span>;   
-  parent <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&#34;</span>;   
-  description <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Root channel. No entry.&#34;</span>;   
-  noenter <span style="color:#f92672">=</span> true;   
-  <span style="color:#f92672">}</span>,   
-  <span style="color:#f92672">{</span>   
-  name <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Lobby&#34;</span>;   
-  parent <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Root&#34;</span>;   
-  description <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Lobby channel&#34;</span>;   
-  <span style="color:#f92672">}</span>,   
-  <span style="color:#f92672">{</span>   
-  name <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Silent&#34;</span>;   
-  parent <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Root&#34;</span>;   
-  description <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Silent channel&#34;</span>;   
-   
-  silent <span style="color:#f92672">=</span> true; <span style="color:#75715e"># Optional. Default is false   
-</span><span style="color:#75715e"></span>  <span style="color:#f92672">}</span>,   
-  <span style="color:#f92672">{</span>   
-  name <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Team A&#34;</span>;   
-  parent <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Lobby&#34;</span>;   
-  description <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;The Team A channel&#34;</span>;
-  position <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; <span style="color:#75715e"># Optional. Default is 0 and the channels will be shown in alphabetic order.
-</span><span style="color:#75715e"></span>  <span style="color:#75715e"># password = &#34;nopassword&#34;;
-</span><span style="color:#75715e"></span>  <span style="color:#f92672">}</span>,
-  <span style="color:#f92672">{</span>
-  name <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Team B&#34;</span>;
-  parent <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Lobby&#34;</span>;
-  description <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;The Team B channel&#34;</span>;
-  position <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; <span style="color:#75715e"># Optional. Default is 0 and the channels will be shown in alphabetic order.
-</span><span style="color:#75715e"></span>  password <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;bluepassword&#34;</span>;
-  <span style="color:#f92672">}</span>
-<span style="color:#f92672">)</span>;</code></pre></div>
+<span style="color:#75715e">#Configure
+</span><span style="color:#75715e"></span>mysql_secure_installation</code></pre></div>
 
 <p><br/></p>
 
-<h2 id="設定頻道連結">設定頻道連結</h2>
+<p>接著在 Mysql 中創建一個給 gitea 使用的資料庫，這邊我就不贅述了，不會操作的話可以參考網路上的<a href="https://github.com/go-gitea/gitea/releases" title="這篇文章">這篇文章</a>。</p>
 
-<p>上面修改後下面也要改，否則會錯誤。</p>
+<p>啟動主程式，<font color=red>gitea預設會使用 port 3000，防火牆記得允許！</font></p>
 
-<p>source -&gt; 上層頻道 destination -&gt; 下層頻道，以此類推。</p>
-
-<h3 id="設定範例-1">設定範例</h3>
-
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">channel_links <span style="color:#f92672">=</span> <span style="color:#f92672">(</span> <span style="color:#f92672">{</span>
-
-  source <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Lobby&#34;</span>;
-  destination <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Team A&#34;</span>;
-  <span style="color:#f92672">}</span>,
-  <span style="color:#f92672">{</span>
-  source <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Lobby&#34;</span>;
-  destination <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Team B&#34;</span>;
-  <span style="color:#f92672">}</span>
-<span style="color:#f92672">)</span>;</code></pre></div>
-
-<h3 id="設定預設頻道">設定預設頻道</h3>
-
-<p>default_channel = &ldquo;預設頻道名稱&rdquo;;</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">sudo ./gitea</code></pre></div>
 
 <p><br/></p>
 
-<h2 id="啟動程式">啟動程式</h2>
+<p>用瀏覽器訪問你伺服器的 port 3000，依照安裝頁面設定。
+設定完後按立即安裝，等他一會兒就自動安裝好了！</p>
 
-<p>若上述組態有設定好，直接執行 umurmurd 即可啟動，若要其他設定依照下方說明設定參數。</p>
 
-<p>uMurmur version 0.2.17 (&lsquo;Colin&rsquo;). Mumble protocol 1.2.4<br />
-Usage: umurmurd [-d] [-r] [-h] [-p <pidfile>] [-t] [-c <conf file>] [-a <addr>] [-b <port>]</p>
+<figure>
+    
+        <img src="https://oxygentw.net/img/post/use-gitea-build-own-git-server/gitea2.png" alt="loperamide" height="500px" />
+    
+    
+</figure>
 
-<p>-d - Do not daemonize - run in foreground.<br />
--r - Run with realtime priority<br />
--p &lt;pidfile&gt; - Write PID to this file<br />
--c &lt;conf file&gt; - Specify configuration file (default /usr/local/etc/umurmur.conf)<br />
--t - Test config. Error message to stderr + non-zero exit code on error<br />
--a &lt;address&gt; - Bind to IP address<br />
--A &lt;address&gt; - Bind to IPv6 address
--b &lt;port&gt; - Bind to port<br />
--B &lt;port&gt; - Bind to port (IPv6)
--h - Print this help</p>
+
+
+<figure>
+    
+        <img src="https://oxygentw.net/img/post/use-gitea-build-own-git-server/gitea3.png" alt="loperamide" height="500px" />
+    
+    
+</figure>
+
 
 <p><br/></p>
 
-<h2 id="連線客戶端">連線客戶端</h2>
+<p>再次訪問 gitea 看到這畫面安裝就完成啦！不過還差一步，把 gitea 設成系統服務。</p>
 
-<p>Android: <a href="https://play.google.com/store/apps/details?id=com.morlunk.mumbleclient.free">https://play.google.com/store/apps/details?id=com.morlunk.mumbleclient.free</a></p>
 
-<p>ios: <a href="https://itunes.apple.com/tw/app/mumble/id443472808?mt=8">https://itunes.apple.com/tw/app/mumble/id443472808?mt=8</a></p>
+<figure>
+    
+        <img src="https://oxygentw.net/img/post/use-gitea-build-own-git-server/gitea4.png" alt="loperamide" height="500px" />
+    
+    
+</figure>
 
-<p>PC: <a href="http://download.mumble.com/en/mumble-1.2.19.msi">http://download.mumble.com/en/mumble-1.2.19.msi</a></p>
 
-<p>MAC: <a href="http://download.mumble.com/en/mumble-1.2.19.dmg">http://download.mumble.com/en/mumble-1.2.19.dmg</a></p>
+<p>在/etc/init.d新增一個檔案</p>
 
-<p>Linux: <a href="http://wiki.mumble.info/wiki/Installing_Mumble#Linux">http://wiki.mumble.info/wiki/Installing_Mumble#Linux</a></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">sudo touch /etc/init.d/gitea
+sudo chmod +x /etc/init.d/gitea</code></pre></div>
+
+<p><br/></p>
+
+<p>複製<a href="https://github.com/go-gitea/gitea/blob/master/contrib/init/debian/gitea">這個網頁</a>裡的文字到剛剛新建的檔案，找到以下內容並修改。</p>
+
+<p>(這檔案適用 ubuntu/debian，其他作業系統可以到<a href="https://github.com/go-gitea/gitea/tree/master/contrib/init">這頁面</a>找找)</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">DESC<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;對這個軟體的描述&#34;</span>
+NAME<span style="color:#f92672">=</span>gitea
+SERVICEVERBOSE<span style="color:#f92672">=</span>yes
+PIDFILE<span style="color:#f92672">=</span>/var/run/$NAME.pid
+SCRIPTNAME<span style="color:#f92672">=</span>/etc/init.d/$NAME
+WORKINGDIR<span style="color:#f92672">=</span>安裝目錄路徑
+DAEMON<span style="color:#f92672">=</span>$WORKINGDIR/$NAME
+DAEMON_ARGS<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;web&#34;</span>
+USER<span style="color:#f92672">=</span>用來啟動 gitea 的使用者</code></pre></div>
+
+<p><br/></p>
+
+<p>啟動服務</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">sudo /etc/init.d/gitea start</code></pre></div>
+
+<p><br/>
+檢查是否成功啟動</p>
+
+<p>sudo lsof -i :<font color=orange>gitea 的監聽 port</font> | grep LISTEN</p>
+
+<p><br/></p>
+
+<p>出現這樣就是成功</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">gitea <span style="color:#ae81ff">15793</span> root 8u IPv6 <span style="color:#ae81ff">15140468</span> 0t0 TCP *:x11 <span style="color:#f92672">(</span>LISTEN<span style="color:#f92672">)</span></code></pre></div>
+
+<p>完成！</p>
 
   </div>
 
@@ -809,13 +808,13 @@ Usage: umurmurd [-d] [-r] [-h] [-p <pidfile>] [-t] [-c <conf file>] [-a <addr>] 
 
 <ul class="actions pagination">
     
-        <li><a href="https://oxygentw.net/blog/computer/ubuntu-do-release-upgrade/"
-                class="button big previous">ubuntu 升級作業系統版本</a></li>
+        <li><a href="https://oxygentw.net/blog/poetry/unwarranted-aspersion/"
+                class="button big previous">莫須有</a></li>
     
 
     
-        <li><a href="https://oxygentw.net/blog/computer/linux-server-network-interface-basic-setup/"
-                class="button big next">Linux Server Network interface 基本設定</a></li>
+        <li><a href="https://oxygentw.net/blog/computer/ubuntu-do-release-upgrade/"
+                class="button big next">ubuntu 升級作業系統版本</a></li>
     
 </ul>
 
