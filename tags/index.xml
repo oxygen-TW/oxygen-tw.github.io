@@ -6,9 +6,19 @@
     <description>Recent content in Tags on Oxygen&#39;s 生活札記</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
+    <lastBuildDate>Wed, 28 Nov 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://oxygentw.net/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>MLS</title>
+      <link>https://oxygentw.net/tags/mls/</link>
+      <pubDate>Wed, 28 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/tags/mls/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
