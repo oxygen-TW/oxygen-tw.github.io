@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://oxygentw.net/blog/travel/the-1st-provincial-road/</loc>
+    <lastmod>2018-12-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://oxygentw.net/blog/notes/medical-laboratory-operate-process/</loc>
     <lastmod>2018-11-28T00:00:00+00:00</lastmod>
   </url>
@@ -179,8 +184,12 @@
   </url>
   
   <url>
+    <loc>https://oxygentw.net/sidebar/</loc>
+  </url>
+  
+  <url>
     <loc>https://oxygentw.net/blog/</loc>
-    <lastmod>2018-11-28T00:00:00+00:00</lastmod>
+    <lastmod>2018-12-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -204,7 +213,7 @@
   
   <url>
     <loc>https://oxygentw.net/</loc>
-    <lastmod>2018-11-28T00:00:00+00:00</lastmod>
+    <lastmod>2018-12-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -246,7 +255,13 @@
   
   <url>
     <loc>https://oxygentw.net/categories/travel/</loc>
-    <lastmod>2018-06-25T00:00:00+00:00</lastmod>
+    <lastmod>2018-12-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://oxygentw.net/tags/%E6%97%85%E8%A1%8C%E5%BF%83%E6%83%85%E6%9C%AD%E8%A8%98/</loc>
+    <lastmod>2018-12-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
