@@ -6,15 +6,48 @@
     <description>Recent content in Blog on Oxygen&#39;s 生活札記</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Thu, 06 Dec 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 08 Dec 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://oxygentw.net/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>聚合酶連鎖反應</title>
+      <link>https://oxygentw.net/blog/notes/pcr-introduction/</link>
+      <pubDate>Sat, 08 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/notes/pcr-introduction/</guid>
+      <description>什麼是 PCR? The Polymerase Chain Reaction(PCR) 中譯聚合酶連鎖反應，為生物科技中一個極度重要的革命性技術，操作難度不高，但應用面卻極為廣泛，在 1986 年由 Kary Banks Mullis 博士發明，1993年他因這項技術獲得諾貝爾化學獎。
+PCR 主要的功能在放大基因序，把微小的 DNA 樣本(可小到 nanogram)複製非常多份，以便後續的分析與操作，例如從刑案現場採集到的微小 DNA，量不足以進行分析，就可以使用PCR放大成足夠的量來進行各項實驗。
+
+PCR 所需材料  DNA 模板(DNA template) 引子(Primers) DNA 聚合酶(DNA polymerase) 去氧核糖核苷三磷酸(dNTP) 緩衝液(Buffer)  
+PCR 原理 在細胞中 DNA 複製流程大致如下，詳細可參考DNA複製
+ DNA 解旋酶解開雙股螺旋 RNA 引子附著在 DNA 上 DNA 聚合酶接上 DNA 進行新股合成  現在我們將這個步驟移到試管中
+1. Denaturation 變性 [ 94~95℃ , 30-60 sec ] 在細胞中是由DNA 解旋酶解開 DNA 的結構，在細胞外我們使用熱來破壞DNA的氫鍵，迫使他回到單股DNA的形態。
+
+2. Annealing 降溫接合 [ 50~60℃ , 30-60 sec ] 解開後我們加入 RNA 引子，把溫度降到50~60C讓引子能順利地與單股DNA形成氫鍵結，實際上的溫度依照引子的不同種核苷酸數目而定，由以下公式粗略計算。
+ Tm = ( 4 x [ G+C ] + 2 x [ A+T ]) ℃
+ 這個步驟非常重要，若溫度過低會導致引子與模板不正確的鍵結，溫度過高則引子無法和模板鍵結，通常會以較高的溫度慢慢往下降，因為若一開始溫度過低而錯誤鍵結就失敗了。
+
+3. Extension 延伸 [ 72℃ , 30-60 sec ] 加入 taq polymerase，這是一種由 Thermus aquaticus 耐熱菌株中提取出的 DNA 聚合酶，到94℃仍然不會永久失活，最高效率溫度在72℃，這時DNA聚合酶會從引子的地方進入，並由 3&amp;rsquo; 往 5&amp;rsquo; 開始 DNA 複製新股。
+
+4. Denaturation II [ 94~95℃ , 30-60 sec ] 第二循環的變性步驟溫度會再回到 94~95℃，這時上個循環合成的DNA新股會脫離變成獨立的新股，同時也成為下一循環的模板，完整PCR 流程約會循環 35 次，大約 2 小時。
+
+PCR 的結束 PCR 是連鎖反應，但不代表他會永無止盡的進行下去，當下面兩項條件達成一項時 DNA 數目會停止增加趨於穩定
+ 反應物消耗殆盡 DNA 聚合酶被破壞  最後的產物要拿去進行瓊脂電泳，確認複製出來的 DNA 片段是否為正確的片段。
+
+設計引子 引子的設計十分重要，兩端引子3&amp;rsquo;的包含區域暨是被大量複製的DNA序列區域，如果設計錯誤則會導致DNA複製跟著錯誤，也因此引子的特殊性很重要，我們要確保設計出來的引子只會和我們想要的序列區互補，而不會有其他可互補的地方，要做到這一點我們就得增加引子的核苷酸數量，越多特殊性就越高，不過這時問題來了，核苷酸越多越難合成，也會拖慢整個 PCR 過程的效率，那到底該用多少個核苷酸才適合呢?
+人類的基因是所有生物中最多的，有 3x109 bp，以簡單的機率估算，會有 1.2x1010 種可能，假設今天我們用八個核甘酸來設計引子，會有 65536 種可能，這樣算出在人類所有基因可以和我們設計的引子序列互補的區塊有 3x109 / 65536 = 46000 個，如果引子和46000個地方互補了，這樣 PCR 還做得下去嗎?!
+所以我們會使用17個以上的核苷酸來設計引子，通常取18~20個，因為 3x109 / 417 &amp;lt;&amp;lt; 1，在這樣的情況下就能設計出能達到特殊性要求的最短引子。
+
+PCR 應用實例  診斷遺傳疾病 感染病原檢驗 基因複製 基因工程 親子鑑定 法醫鑑識 癌症篩檢 等等極廣的應用  
+參考資料 賴雯玲教授 分子生物概論 2018/12/6</description>
+    </item>
+    
+    <item>
       <title>臺一線</title>
       <link>https://oxygentw.net/blog/travel/the-1st-provincial-road/</link>
-      <pubDate>Thu, 06 Dec 2018 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 07 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>https://oxygentw.net/blog/travel/the-1st-provincial-road/</guid>
       <description>臺一線，又名縱貫公路、西部幹線，從清朝開始就是縱貫南北的交通要道。北起臺北市忠孝西路、中山南路，南至屏東縣枋山鄉楓港，全長461.081公里。經過臺灣西部14個縣市。
