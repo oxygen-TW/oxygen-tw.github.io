@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Oxygen&#39;s 生活札記</title>
+    <title>Categories on Oxygen&#39;s 生活札記</title>
     <link>https://oxygentw.net/categories/</link>
-    <description>Recent content on Oxygen&#39;s 生活札記</description>
+    <description>Recent content in Categories on Oxygen&#39;s 生活札記</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <lastBuildDate>Thu, 22 Jun 2017 00:00:00 +0000</lastBuildDate>
@@ -12,43 +12,41 @@
     
     
     <item>
-      <title>Fancy App 1</title>
-      <link>https://oxygentw.net/itemized/item1/</link>
+      <title></title>
+      <link>https://oxygentw.net/categories/</link>
       <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://oxygentw.net/itemized/item1/</guid>
-      <description> App 1 </description>
+      <guid>https://oxygentw.net/categories/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>Fancy App 2</title>
-      <link>https://oxygentw.net/itemized/item2/</link>
-      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      <title>computer</title>
+      <link>https://oxygentw.net/categories/computer/</link>
+      <pubDate>Thu, 30 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://oxygentw.net/itemized/item2/</guid>
-      <description> App 2 </description>
+      <guid>https://oxygentw.net/categories/computer/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>Fancy App 3</title>
-      <link>https://oxygentw.net/itemized/item3/</link>
-      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      <title>medical-knowledge</title>
+      <link>https://oxygentw.net/categories/medical-knowledge/</link>
+      <pubDate>Sat, 08 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://oxygentw.net/itemized/item3/</guid>
-      <description> App 3 </description>
+      <guid>https://oxygentw.net/categories/medical-knowledge/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>Fancy App 4</title>
-      <link>https://oxygentw.net/itemized/item4/</link>
-      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      <title>notes</title>
+      <link>https://oxygentw.net/categories/notes/</link>
+      <pubDate>Sat, 08 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://oxygentw.net/itemized/item4/</guid>
-      <description> App 4 </description>
+      <guid>https://oxygentw.net/categories/notes/</guid>
+      <description></description>
     </item>
     
-  </channel>
-</rss>
     <item>
       <title>poetry</title>
       <link>https://oxygentw.net/categories/poetry/</link>
