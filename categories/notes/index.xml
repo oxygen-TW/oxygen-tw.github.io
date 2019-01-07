@@ -6,10 +6,22 @@
     <description>Recent content in notes on Oxygen&#39;s 生活札記</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sat, 08 Dec 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 07 Jan 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://oxygentw.net/categories/notes/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Physical properties of functional group</title>
+      <link>https://oxygentw.net/blog/notes/physical-properties-of-functional-group/</link>
+      <pubDate>Mon, 07 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/notes/physical-properties-of-functional-group/</guid>
+      <description> 官能基比較表    官能基 極性 分子間作用力 水溶能力 沸點 info     醇 alcohol True H-bond 高/隨碳鍊增長遞減 較高 氫鍵給予者   醚 ether True weak 偶極-偶極 / 立體障礙H-bond / 和水形成 烴 &amp;lt; 醚 &amp;lt; 醇 低 / 接近烴類 氫鍵接受者   硫醇 thiol False 偶極-偶極 低 烴&amp;lt; 醚 &amp;lt; 硫醇 &amp;lt; 醇    胺 amine True 1°/2° weak H-bond 高/隨碳鍊增長遞減 胺 &amp;lt; 醇    醛 aldehyde True 偶極-偶極 高/隨碳鍊增長遞減 烴&amp;lt;醛&amp;lt;酮 C親電子/O親核   酮 ketone True 偶極-偶極 高/隨碳鍊增長遞減 烴&amp;lt;醛&amp;lt;酮    羧 carbonyl True strong H-bond / 形成雙體 醇/酮 &amp;lt; 羧酸隨碳鍊增長遞減 醇/酮 &amp;lt; 羧酸     ​
+沸點比較  醯胺 &amp;gt; 羧酸 &amp;gt; 醇 &amp;gt; 胺 &amp;gt; 酮 &amp;gt; &amp;gt; 醛 &amp;gt; 醚 &amp;gt; 烴
+ ​
+常用氫鍵強度  F—H ᠁ :F （155 kJ/mol 或 40 kcal/mol） O—H ᠁ :N （29 kJ/mol 或 6.9 kcal/mol） O—H ᠁ :O （21 kJ/mol 或 5.0 kcal/mol） N—H ᠁ :N （13 kJ/mol 或 3.1 kcal/mol） N—H ᠁ :O （8 kJ/mol 或 1.9 kcal/mol） HO—H ᠁ :OH3+ （18 kJ/mol 或 4.3 kcal/mol）  </description>
+    </item>
     
     <item>
       <title>聚合酶連鎖反應</title>
