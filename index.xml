@@ -6,10 +6,38 @@
     <description>Recent content on Oxygen&#39;s 生活札記</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Mon, 07 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 08 Jan 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://oxygentw.net/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Quantum Numbers</title>
+      <link>https://oxygentw.net/blog/notes/quantum-numbers/</link>
+      <pubDate>Tue, 08 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/notes/quantum-numbers/</guid>
+      <description>(n , l , ml , ms) = (主量子數,角量子數,磁量子數,自旋量子數)
+ 
+主量子數 Principal QN  n = 1,2,3&amp;hellip;..
+  決定原子的大小和能量
+ n2 = 能形成的軌域數總和  ​
+角量子數 Angular QN  l = 0 ~ n-1
+  決定軌域的形狀,數目 &amp;gt;軌域數目 = 2l+1 &amp;gt; &amp;gt;因為 -l ~ l = 2l+1
+ 角量子數字母代碼
+ 0 = s 1 = p 2 = d 3 = f 4 = g  f 以後照字母排
+ 字母代表意義
+ s = Sharp p = Principal d = Diffuse f = Fundamental   
+磁量子數 Magnetic QN  ml = -l ~ l
+  決定軌域的方向 依據角量子數的不同會有不同的組合 總軌域和就是所有磁量子數組合的總和  
+電子自旋量子數 Electron Spin QN  ms = +1&amp;frasl;2 or -1&amp;frasl;2
+  決定電子的自旋狀態  Example 3d orbital  n = 3 l = 0,1,2(s,p,d) ml = -2,-1,0,1,2   
+5f orbital  n = 5 l = 0,1,2,3,(s,p,d,f) ml = -3 ~ 3  
+n = 4  l = 0,1,2,3 l = 4s,4p,4d,4f ml = -3 ~ 3  
+write all QN of 3p orbital  (3,1,-1,-1&amp;frasl;2) (3,1,-1,+1&amp;frasl;2) (3,1,0,-1&amp;frasl;2) (3,1,0,+1&amp;frasl;2) (3,1,1,-1&amp;frasl;2) (3,1,01+1&amp;frasl;2)   相關定理 包利不相容原理 Pauli Exclusion Principle  在每一個原子中，沒有任何兩個電子可以擁有同組的四個量子數
+每個軌域只能填入兩個自旋相反的電子
+ 遞鍵原理 The Aufbau Principle  電子填入 Hydrogen-like 軌域時以低能量的先填</description>
+    </item>
     
     <item>
       <title>Physical properties of functional group</title>
