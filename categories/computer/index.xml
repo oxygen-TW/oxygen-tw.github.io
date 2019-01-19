@@ -154,7 +154,7 @@ noenter=true/false; #是否禁止進入
 silent = true/false; #是否為安靜模式
 position = 0/1/2/3&amp;hellip;&amp;hellip; #同層頻道排列順序，依照字母排序
 password = &amp;ldquo;頻道密碼&amp;rdquo;;
-設定範例 channels = ( { name = &amp;#34;Root&amp;#34;; parent = &amp;#34;&amp;#34;; description = &amp;#34;Root channel. No entry.&amp;#34;; noenter = true; }, { name = &amp;#34;Lobby&amp;#34;; parent = &amp;#34;Root&amp;#34;; description = &amp;#34;Lobby channel&amp;#34;; }, { name = &amp;#34;Silent&amp;#34;; parent = &amp;#34;Root&amp;#34;; description = &amp;#34;Silent channel&amp;#34;; silent = true; # Optional. Default is false  }, { name = &amp;#34;Team A&amp;#34;; parent = &amp;#34;Lobby&amp;#34;; description = &amp;#34;The Team A channel&amp;#34;;position = 0; # Optional. Default is 0 and the channels will be shown in alphabetic order. # password = &amp;#34;nopassword&amp;#34;; },{name = &amp;#34;Team B&amp;#34;;parent = &amp;#34;Lobby&amp;#34;;description = &amp;#34;The Team B channel&amp;#34;;position = 1; # Optional.</description>
+設定範例 channels = ( { name = &amp;#34;Root&amp;#34;; parent = &amp;#34;&amp;#34;; description = &amp;#34;Root channel. No entry.&amp;#34;; noenter = true; }, { name = &amp;#34;Lobby&amp;#34;; parent = &amp;#34;Root&amp;#34;; description = &amp;#34;Lobby channel&amp;#34;; }, { name = &amp;#34;Silent&amp;#34;; parent = &amp;#34;Root&amp;#34;; description = &amp;#34;Silent channel&amp;#34;; silent = true; # Optional. Default is false }, { name = &amp;#34;Team A&amp;#34;; parent = &amp;#34;Lobby&amp;#34;; description = &amp;#34;The Team A channel&amp;#34;;position = 0; # Optional. Default is 0 and the channels will be shown in alphabetic order.# password = &amp;#34;nopassword&amp;#34;;},{name = &amp;#34;Team B&amp;#34;;parent = &amp;#34;Lobby&amp;#34;;description = &amp;#34;The Team B channel&amp;#34;;position = 1; # Optional.</description>
     </item>
     
     <item>
@@ -190,7 +190,7 @@ sudo apt-get autoremove sudo reboot  完成，很簡單吧！但我更新後有�
       <description>雖然說有 github 的免費服務可以用，但有時候若程式碼不想公開又需要用到 git 版本管理就會有些不方便，既然現在有空伺服器，就幫學校架一個吧！也分享安裝過程給其他想自己架設 git server 的人。
 我使用 gitea 這套用 go 語言開發的開源，第一步到 gitea 的 GitHub 依照自己的作業系統下載主程式。
 我以 ubuntu server 為例。
-   
+  
 如果不知道自己電腦是什麼架構可以用arch指令查詢
 arch 
 下載完成後，因為主程式會自動生成一些檔案，先把它移到安裝目錄下並把程式名稱改短一點

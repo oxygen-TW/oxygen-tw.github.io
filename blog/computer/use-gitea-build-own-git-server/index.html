@@ -16,7 +16,7 @@
         "description" : "雖然說有 github 的免費服務可以用，但有時候若程式碼不想公開又需要用到 git 版本管理就會有些不方便，既然現在有空伺服器，就幫學校架一個吧！也分享安裝過程給其他想自己架設 git server 的人。
 我使用 gitea 這套用 go 語言開發的開源，第一步到 gitea 的 GitHub 依照自己的作業系統下載主程式。
 我以 ubuntu server 為例。
-   
+  
 如果不知道自己電腦是什麼架構可以用arch指令查詢
 arch 
 下載完成後，因為主程式會自動生成一些檔案，先把它移到安裝目錄下並把程式名稱改短一點
@@ -65,7 +65,7 @@ gitea 15793 root 8u IPv6 15140468 0t0 TCP *:x11 (LISTEN) 完成！",
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="keywords" content="" >
 
-        <meta name="generator" content="Hugo 0.49.2" />
+        <meta name="generator" content="Hugo 0.53" />
         
 
 
@@ -83,7 +83,7 @@ gitea 15793 root 8u IPv6 15140468 0t0 TCP *:x11 (LISTEN) 完成！",
 <meta name="twitter:description" content="雖然說有 github 的免費服務可以用，但有時候若程式碼不想公開又需要用到 git 版本管理就會有些不方便，既然現在有空伺服器，就幫學校架一個吧！也分享安裝過程給其他想自己架設 git server 的人。
 我使用 gitea 這套用 go 語言開發的開源，第一步到 gitea 的 GitHub 依照自己的作業系統下載主程式。
 我以 ubuntu server 為例。
-   
+  
 如果不知道自己電腦是什麼架構可以用arch指令查詢
 arch 
 下載完成後，因為主程式會自動生成一些檔案，先把它移到安裝目錄下並把程式名稱改短一點
@@ -112,7 +112,7 @@ gitea 15793 root 8u IPv6 15140468 0t0 TCP *:x11 (LISTEN) 完成！"/>
 <meta property="og:description" content="雖然說有 github 的免費服務可以用，但有時候若程式碼不想公開又需要用到 git 版本管理就會有些不方便，既然現在有空伺服器，就幫學校架一個吧！也分享安裝過程給其他想自己架設 git server 的人。
 我使用 gitea 這套用 go 語言開發的開源，第一步到 gitea 的 GitHub 依照自己的作業系統下載主程式。
 我以 ubuntu server 為例。
-   
+  
 如果不知道自己電腦是什麼架構可以用arch指令查詢
 arch 
 下載完成後，因為主程式會自動生成一些檔案，先把它移到安裝目錄下並把程式名稱改短一點
@@ -149,7 +149,7 @@ gitea 15793 root 8u IPv6 15140468 0t0 TCP *:x11 (LISTEN) 完成！" />
 <meta itemprop="description" content="雖然說有 github 的免費服務可以用，但有時候若程式碼不想公開又需要用到 git 版本管理就會有些不方便，既然現在有空伺服器，就幫學校架一個吧！也分享安裝過程給其他想自己架設 git server 的人。
 我使用 gitea 這套用 go 語言開發的開源，第一步到 gitea 的 GitHub 依照自己的作業系統下載主程式。
 我以 ubuntu server 為例。
-   
+  
 如果不知道自己電腦是什麼架構可以用arch指令查詢
 arch 
 下載完成後，因為主程式會自動生成一些檔案，先把它移到安裝目錄下並把程式名稱改短一點
@@ -436,6 +436,30 @@ if (!doNotTrack) {
                                     December 7, 2018</time>
                             </header>
                             
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+
+
+        
+        
+        
+
+        <a href="https://oxygentw.net/blog/travel/the-1st-provincial-road/" class="image featured">
+            <img src="https://oxygentw.net/img/post/The-1st-Provincial-Road/feature.jpg" alt="">
+        </a>
+    
+
 
                         </article>
                 
@@ -684,12 +708,9 @@ if (!doNotTrack) {
 
 <p>我以 ubuntu server 為例。</p>
 
-<p>
-<figure>
-    
-        <img src="https://oxygentw.net/img/post/use-gitea-build-own-git-server/gitea.png" alt="loperamide" height="500px" />
-    
-    
+<p><figure>
+    <img src="https://oxygentw.net/img/post/use-gitea-build-own-git-server/gitea.png"
+         alt="loperamide" height="500px"/> 
 </figure>
 
 <br/></p>
@@ -711,12 +732,12 @@ sudo chmod +x gitea</code></pre></div>
 
 <p>安裝前我們還需要 Mysql 資料庫，若已安裝可略過這步。</p>
 
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e">#Install
-</span><span style="color:#75715e"></span>sudo apt-get update
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e">#Install</span>
+sudo apt-get update
 sudo apt-get install mysql-server
 
-<span style="color:#75715e">#Configure
-</span><span style="color:#75715e"></span>mysql_secure_installation</code></pre></div>
+<span style="color:#75715e">#Configure</span>
+mysql_secure_installation</code></pre></div>
 
 <p><br/></p>
 
@@ -731,21 +752,15 @@ sudo apt-get install mysql-server
 <p>用瀏覽器訪問你伺服器的 port 3000，依照安裝頁面設定。
 設定完後按立即安裝，等他一會兒就自動安裝好了！</p>
 
-
 <figure>
-    
-        <img src="https://oxygentw.net/img/post/use-gitea-build-own-git-server/gitea2.png" alt="loperamide" height="500px" />
-    
-    
+    <img src="https://oxygentw.net/img/post/use-gitea-build-own-git-server/gitea2.png"
+         alt="loperamide" height="500px"/> 
 </figure>
 
 
-
 <figure>
-    
-        <img src="https://oxygentw.net/img/post/use-gitea-build-own-git-server/gitea3.png" alt="loperamide" height="500px" />
-    
-    
+    <img src="https://oxygentw.net/img/post/use-gitea-build-own-git-server/gitea3.png"
+         alt="loperamide" height="500px"/> 
 </figure>
 
 
@@ -753,12 +768,9 @@ sudo apt-get install mysql-server
 
 <p>再次訪問 gitea 看到這畫面安裝就完成啦！不過還差一步，把 gitea 設成系統服務。</p>
 
-
 <figure>
-    
-        <img src="https://oxygentw.net/img/post/use-gitea-build-own-git-server/gitea4.png" alt="loperamide" height="500px" />
-    
-    
+    <img src="https://oxygentw.net/img/post/use-gitea-build-own-git-server/gitea4.png"
+         alt="loperamide" height="500px"/> 
 </figure>
 
 
@@ -1073,6 +1085,30 @@ USER<span style="color:#f92672">=</span>用來啟動 gitea 的使用者</code></
               </time>
             </header>
             
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+
+
+        
+        
+        
+
+        <a href="https://oxygentw.net/blog/travel/the-1st-provincial-road/" class="image featured">
+            <img src="https://oxygentw.net/img/post/The-1st-Provincial-Road/feature.jpg" alt="">
+        </a>
+    
+
 
           </article>
         
