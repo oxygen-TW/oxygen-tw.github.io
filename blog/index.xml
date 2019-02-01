@@ -6,10 +6,103 @@
     <description>Recent content in Blog on Oxygen&#39;s 生活札記</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Tue, 08 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 01 Feb 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://oxygentw.net/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>架設家用伺服器 PART 0 — 準備硬體</title>
+      <link>https://oxygentw.net/blog/computer/homeserver/0-prepare-hardware/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/homeserver/0-prepare-hardware/</guid>
+      <description>樹苺派是一款微電腦，話雖如此，他也擁有一般 Linux 電腦的所有功能，只是性能較差一點，因此用他來架設流量不會太大的家用伺服器，畢竟只有家人會用到而已嘛，用樹苺派有以下優點
+ 沒有風扇，靜音 低耗電量 機體小巧  說缺點當然也是有
+ 運算能力較差 不能承受大流量  那廢話不多說，我們從買材料開始吧！
+必須準備的物品  Raspberry Pi 2 / 3 約1495元
+ micro SD 容量 8GB以上，速度 Class 10 / UHS 1 以上 約300元
+ 2A/5V 電源供應器 約100元
+ micro USB cable 約100元
+ 網路線 約30元
+ HDMI 連接線 約200元
+ 一台螢幕
+  
+可選擇的物品  VGA 轉 HDMI線 約250元 Wi-Fi 網卡(RPi 則免) 約250元 Raspberry Pi 保護殼 約100元 Raspberry Pi 專用散熱片 約15元(通常買樹苺派會送)  一切都準備好後就可以進入下一步囉 -&amp;gt; 安裝系統
+
+Picture source: https://www.maxpixel.net/Technology-Tech-Raspberry-Pi-Device-Electronic-3676379</description>
+    </item>
+    
+    <item>
+      <title>架設家用伺服器 PART 2 — 設定系統</title>
+      <link>https://oxygentw.net/blog/computer/homeserver/2-system-setting/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/homeserver/2-system-setting/</guid>
+      <description>DietPi 有預裝 Dropbear SSH Server，機器安裝好系統開機後即可透過 SSH 連入伺服器，預設IP是 192.168.0.100，也可以接上螢幕透過螢幕來設定，我們使用 KITTY 來做 SSH 操作。
+透過 SSH 連線 在 Host Name 的地方輸入主機位置，Port 輸入 SSH連接埠號(預設22)，就可以建立連線，連進去後會被詢問帳號密碼。
+預設帳號：root
+預設密碼：dietpi
+
+進行 dietpi-config 設定 成功進入系統只是第一步，作業系統會自動引導你進行 dietpi-update 做作業系統的升級，升級後我們得去 dietpi-config 設定系統。
+選擇 DietPi-Config 進入設定頁面
+
+進入這個畫面，我們分別對以下進行設定，我以我個人的需求示範，若你有其他需求務必自行修改，不要盲目照抄我的設定，改壞了頂多重灌，不會把機器弄壞的。
+
+記憶體分配 Display Options -&amp;gt; GPU/RAM Memory Split -&amp;gt; Server 16 MB GPU | 1008 MB RAM
+
+超頻設定 Performance Options -&amp;gt; Overclocking -&amp;gt; none 1200 MHz ARM
+
+CPU 分配 Performance Options -&amp;gt; CPU Throttle Up -&amp;gt; 85
+
+系統語系 Language/Regional Options -&amp;gt; Locale -&amp;gt; en_US.UTF-8
+
+系統時區 Language/Regional Options -&amp;gt; Timezone -&amp;gt; Asia -&amp;gt; Taipei
+
+Root 密碼 Security Options -&amp;gt; Change Root Password -&amp;gt; 新的Root密碼
+
+主機名稱 Security Options -&amp;gt; Change Hostname -&amp;gt; 新主機名稱
+
+網路設定 Network Options: Adapters -&amp;gt; 參考進階網路設定
+
+NTP 伺服器設定 Network Options: NAS/Misc -&amp;gt; NTPD Mirror -&amp;gt; asia.pool.ntp.org
+
+接著離開 DietPi-Config，系統會要求重新開機，重新開機後系統設定就完成了。
+下一步 -&amp;gt; DietPi-Software 軟體安裝</description>
+    </item>
+    
+    <item>
+      <title>架設家用伺服器 Part 1 — 安裝系統</title>
+      <link>https://oxygentw.net/blog/computer/homeserver/1-home-server-install-os/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/homeserver/1-home-server-install-os/</guid>
+      <description>有了所有需要的硬體材料後，就像組電腦一樣，第一步要進行的就是安裝作業系統，沒有系統就不能開機了啊！
+我們開始吧！
+STEP 1 : 下載必要軟體  SD Card formatter 用來格式化記憶卡的工具
+ USB Image Tool  燒錄映像檔到記憶卡的工具  
+STEP 2 : 下載映像檔 我採用 DietPi 輕量化系統，預設沒有 GUI ，它是基於 Raspbian 優化和輕量化，並加入許多好用工具程式的作業系統，如果不喜歡也可以換成自己想要的，可以參考這個網頁 Raspberry Pi 的基礎 - 40 套作業系統任你選 。
+
+STEP 3 : 格式化記憶卡 打開 SD Formatter ，並確定記憶卡的磁碟編號，萬萬要仔細確認 !!!!!! 如果不小心格式化到其他裝置資料會全部消失，選項設定最好是選擇覆寫格式化，那樣清的最乾淨，不過經過我多次測試快速格式化也沒問題，速度會快很多，邏輯大小調整選擇 (ON)
+
+STEP 4 : 燒錄映像檔 這也要仔細檢查磁區編號，燒錯地方也是檔案全部毀損&amp;hellip;.選擇要燒錄的記憶卡，按 restore 並選擇剛剛下載的映像檔，他就會自己開始把系統燒錄至記憶卡了。
+
+STEP 5 : 設定 config.txt 其實燒錄完成後就可以啟動系統了，但如果你是用 HDMI 轉 VGA 的方式連接螢幕可能會有開機沒畫面的現象，解決方法很簡單，只需要把SD卡插進電腦，找到一個叫 config.txt 的檔案，用記事本打開後搜尋以下參數，並修改成下列的設定！
+hdmi_group=2
+hdmi_mode=16
+hdmi_drive=2
+hdmi_force_hotplug=1
+config_hdmi_boost=4
+
+如果要設定連接 Wi-Fi，那再開啟 dietpi.txt，修改以下組態
+AUTO_SETUP_NET_WIFI_ENABLED=1
+AUTO_SETUP_NET_WIFI_SSID=YOUR_SSID
+AUTO_SETUP_NET_WIFI_KEY=YOUR_PASSWORD
+
+STEP 6 : 啟動系統 把記憶卡插進樹莓派的記憶卡插槽，接上螢幕、電源，就完成系統安裝囉！
+接著我們來進行系統設定 -&amp;gt; 系統設定
+參考資料 : http://www.arthurtoday.com/2014/05/raspberry-pi-hdmi-to-vga-how-to.html https://www.flickr.com/photos/christiaancolen/21133467186</description>
+    </item>
     
     <item>
       <title>Quantum Numbers</title>
@@ -482,6 +575,36 @@ gitea 15793 root 8u IPv6 15140468 0t0 TCP *:x11 (LISTEN) 完成！</description>
     </item>
     
     <item>
+      <title>Ubuntu 安裝 node.js 和 redis 資料庫</title>
+      <link>https://oxygentw.net/blog/computer/ubuntu-install-nodejs-and-redis/</link>
+      <pubDate>Sat, 17 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/ubuntu-install-nodejs-and-redis/</guid>
+      <description>團隊職位更換後我負責管理伺服器，服務後端需要用到 node.js 和 Redis，順手記錄一下安裝過程。
+安裝 node.js
+curl -sL https://deb.nodesource.com/setup_9.x | sudo -E bash - sudo apt-get install -y nodejs 
+檢查 node.js 版本
+node -vv9.5.0 
+安裝 Redis sudo apt-get updatesudo apt-get install redis-server
+
+檢查redis伺服器狀態
+netstat -nlt|grep 6379 
+執行 redis-cli 測試
+127.0.0.1:6379&amp;gt; keys *(empty list or set) 
+為了保護資料庫，必須設置資料庫密碼，修改 /etc/redis/redis.conf。
+取消註解 requirepass 並設置密碼
+
+為了讓遠端主機可以存取 Redis，找到 bind 127.0.0.1 這行，將允許訪問資料庫的IP補上去
+Example:
+bind 127.0.0.1 192.168.1.156 #允許所有主機連入 bind 0.0.0.0
+重新啟動資料庫
+sudo service redis restart Redis 遠端連線指令 redis-cli -a [Redis Password] -h [Remote Host Address]
+
+參考資料 https://github.com/nodesource/distributions
+http://blog.fens.me/linux-redis-install/</description>
+    </item>
+    
+    <item>
       <title>[食譜] 簡單茶凍</title>
       <link>https://oxygentw.net/blog/notes/tea-pudding/</link>
       <pubDate>Wed, 07 Feb 2018 00:00:00 +0000</pubDate>
@@ -535,6 +658,20 @@ LiPo Rider Pro 模組燈號    CH pin level (紅色 LED) OK pin level (綠色 LE
    把太陽能板拿到陽光下看看燈號是否正常(紅綠皆亮)，若是晚上或陰天可以拿到鹵素燈下測試。
      大功告成！可以充電，但真的很慢，可能要再加一片太陽能板才行。
   </description>
+    </item>
+    
+    <item>
+      <title>允許 Mysql 從外網存取</title>
+      <link>https://oxygentw.net/blog/computer/allow-mysql-access-from-internet/</link>
+      <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/allow-mysql-access-from-internet/</guid>
+      <description>開發 node.js 應用程式時需要遠端存取 Mysql 資料庫，即使遠端主機的防火牆都允許 Mysql 的埠號了卻還是一直連接失敗，Google 後才發現原來是 Mysql 設定檔中預設只允許本機連入的關係，只要修改一行設定即可開放外網存取的權限。
+編輯 /etc/mysql/mysql.conf.d/mysqld.cnf
+
+將 bind-address(紅框處)的127.0.0.1 改成 0.0.0.0， 允許所有主機連入。
+
+再 sudo service mysql restart 重新啟動資料庫即可。</description>
     </item>
     
     <item>
@@ -604,6 +741,31 @@ LiPo Rider Pro 模組燈號    CH pin level (紅色 LED) OK pin level (綠色 LE
 各位可能會有個疑問，就算四百年閏一天，不也還有多0.12天嗎? 為甚麼不繼續寫下去? 沒錯！的確是要修正，照理會在0.12天 * 8 = 0.96天發生時修正，也就是每3200年一次，不過現在是2017年，還用不到，所以沒有才制定，大致上這就是為什麼要閏年，又為什麼是這樣的規則的原因。
 閏年的計算在以程式語言實作非常簡單，僅需簡單的運算與判斷即可達成，放上一段範例 code。
 def IsLeapYear(year): if year % 400 == 0: return True #是閏年 elif year % 100 == 0: return False #不是閏年 elif year % 4 == 0: return True #是閏年 return False #不是閏年  </description>
+    </item>
+    
+    <item>
+      <title>WSL — Windows 下的原生 Ubuntu 系統</title>
+      <link>https://oxygentw.net/blog/computer/windows-subsystem-for-linux/</link>
+      <pubDate>Sat, 21 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/windows-subsystem-for-linux/</guid>
+      <description>WSL(Windows Subsystem for Linux) 是由 Microsoft 和 Canonical 共同開發，讓使用者可以在 Windows 系統下原生執行 Linux 二進制執行檔，並提供了一個 Bash 以及其他 Linux 內和所支援的功能。若你是開發者，你將可以在 Windows 下編譯原生 ELF 格式檔案，也可以使用 make 等等開發工具。
+先加入測試人員組建，確定把 Windows 10 升級到 16215.0 以上，而且要是 64 位元系統(現在大多數都是了)。
+直接到 Microsoft 市集搜尋 linux 找到自己喜歡的發行版並安裝它，我以 Ubuntu 為例。Microsoft Store 連結
+
+安裝完成後啟動，應該會看到這個錯誤，這是因為系統還沒有啟動 WSL 的功能。
+Installation Failed! Error: 0x8007887e
+
+以系統管理員身分執行 PowerShell，輸入以下指令來啟動 WSL
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
+
+完成後 PowerShell 會叫你重新啟動電腦以完成設定，就重新啟動吧~
+重新啟動後再開啟 Ubuntu 這個「應用程式」，它會自動開始安裝。
+等它個幾分鐘，完成後會叫你設定帳號和密碼，設定完就可以使用 Ubuntu 了！
+
+
+接下來的用法就和正常的 Linux 一樣，既然一樣，你可能會想說裝個 GUI 來用，嗯&amp;hellip;&amp;hellip;建議不要，我試過安裝 KDE-Desktop 和 Xfce4，KDE 會有程式崩潰的問題，Xfce 雖然不會，但仍然很不穩定，動不動就會 X server 無法啟動或是 GUI 崩潰，所以建議目前先不要安裝 GUI，就當作是 SSH 遠端來使用吧！等到更新幾次之後再試看看。
+有了這個後寫程式真的變得異常方便啊！不需要開一整個虛擬機就有 Linux 可以用，有 make 是多麼美好的一件事~ 順帶一提，Windows 原本的 C槽路徑會是 /mnt/c，而D槽是 /mnt/d 以此類推。</description>
     </item>
     
     <item>

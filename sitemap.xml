@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://oxygentw.net/blog/computer/homeserver/0-prepare-hardware/</loc>
+    <lastmod>2019-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://oxygentw.net/blog/computer/homeserver/2-system-setting/</loc>
+    <lastmod>2019-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://oxygentw.net/blog/computer/homeserver/1-home-server-install-os/</loc>
+    <lastmod>2019-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://oxygentw.net/blog/notes/quantum-numbers/</loc>
     <lastmod>2019-01-08T00:00:00+00:00</lastmod>
   </url>
@@ -103,6 +118,11 @@
   </url>
   
   <url>
+    <loc>https://oxygentw.net/blog/computer/ubuntu-install-nodejs-and-redis/</loc>
+    <lastmod>2018-02-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://oxygentw.net/blog/notes/tea-pudding/</loc>
     <lastmod>2018-02-07T00:00:00+00:00</lastmod>
   </url>
@@ -113,6 +133,11 @@
   </url>
   
   <url>
+    <loc>https://oxygentw.net/blog/computer/allow-mysql-access-from-internet/</loc>
+    <lastmod>2018-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://oxygentw.net/blog/poetry/unwarranted-aspersion/</loc>
     <lastmod>2017-12-30T00:00:00+00:00</lastmod>
   </url>
@@ -120,6 +145,11 @@
   <url>
     <loc>https://oxygentw.net/blog/notes/leap-year-rule/</loc>
     <lastmod>2017-12-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://oxygentw.net/blog/computer/windows-subsystem-for-linux/</loc>
+    <lastmod>2017-10-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -214,7 +244,7 @@
   
   <url>
     <loc>https://oxygentw.net/blog/</loc>
-    <lastmod>2019-01-08T00:00:00+00:00</lastmod>
+    <lastmod>2019-02-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -237,6 +267,12 @@
   </url>
   
   <url>
+    <loc>https://oxygentw.net/tags/home-server-series/</loc>
+    <lastmod>2019-02-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://oxygentw.net/itemized/</loc>
     <lastmod>2017-06-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -250,7 +286,7 @@
   
   <url>
     <loc>https://oxygentw.net/</loc>
-    <lastmod>2019-01-08T00:00:00+00:00</lastmod>
+    <lastmod>2019-02-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -262,7 +298,7 @@
   
   <url>
     <loc>https://oxygentw.net/categories/computer/</loc>
-    <lastmod>2018-08-30T00:00:00+00:00</lastmod>
+    <lastmod>2019-02-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
