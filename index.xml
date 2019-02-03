@@ -23,7 +23,7 @@ ServerTokens ServerToken 的等級決定 Apache 回傳給用戶的 Response head
 Syntax : ServerTokens Major|Minor|Min[imal]|Prod[uctOnly]|OS|Full
 
 詳細參數說明參考 httpd.apache.org 的文件
-   參數 說明 Response header 範例     Full 全部顯示 Server: Apache/2.0.41 (Unix) PHP/4.2.2 MyMod/1.2   OS 詳細伺服器軟體版本號與作業系統 Server: Apache/2.0.41 (Unix)   Min or imal 詳細伺服器軟體版本號 Server: Apache/2.0.41   Minor 伺服器軟體版本號 Server: Apache/2.0   Major 精簡伺服器軟體版本號 Server: Apache/2   Prod or uctOnly 僅顯示伺服器軟體 Server: Apache    
+   參數 說明 Response header 範例     Full 全部顯示 Server: Apache/2.0.41 (Unix) PHP/4.2.2 MyMod/1.2   OS 詳細伺服器軟體版本號與作業系統 Server: Apache/2.0.41 (Unix)   Min(imal) 詳細伺服器軟體版本號 Server: Apache/2.0.41   Minor 伺服器軟體版本號 Server: Apache/2.0   Major 精簡伺服器軟體版本號 Server: Apache/2   Prod(uctOnly) 僅顯示伺服器軟體 Server: Apache    
 ServerSignature ServerSignature 決定是否在網頁回應預設錯誤 HTTP status page 時顯示伺服器詳細資訊，這裡面提供的資料可詳細了，還是關掉會安全一點。
 ServerSignature On -&amp;gt; ServerSignature Off
 
