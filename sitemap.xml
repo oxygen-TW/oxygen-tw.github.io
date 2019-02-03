@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://oxygentw.net/blog/computer/apache-hide-sensitive-info/</loc>
+    <lastmod>2019-02-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://oxygentw.net/blog/computer/homeserver/0-prepare-hardware/</loc>
     <lastmod>2019-02-01T00:00:00+00:00</lastmod>
   </url>
@@ -198,22 +203,22 @@
   </url>
   
   <url>
-    <loc>https://oxygentw.net/itemized/item1/</loc>
+    <loc>https://oxygentw.net/series/item1/</loc>
     <lastmod>2017-06-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://oxygentw.net/itemized/item2/</loc>
+    <loc>https://oxygentw.net/series/item2/</loc>
     <lastmod>2017-06-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://oxygentw.net/itemized/item3/</loc>
+    <loc>https://oxygentw.net/series/item3/</loc>
     <lastmod>2017-06-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://oxygentw.net/itemized/item4/</loc>
+    <loc>https://oxygentw.net/series/item4/</loc>
     <lastmod>2017-06-22T00:00:00+00:00</lastmod>
   </url>
   
@@ -244,7 +249,7 @@
   
   <url>
     <loc>https://oxygentw.net/blog/</loc>
-    <lastmod>2019-02-01T00:00:00+00:00</lastmod>
+    <lastmod>2019-02-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -273,12 +278,6 @@
   </url>
   
   <url>
-    <loc>https://oxygentw.net/itemized/</loc>
-    <lastmod>2017-06-22T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://oxygentw.net/tags/mls/</loc>
     <lastmod>2018-11-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -286,7 +285,13 @@
   
   <url>
     <loc>https://oxygentw.net/</loc>
-    <lastmod>2019-02-01T00:00:00+00:00</lastmod>
+    <lastmod>2019-02-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://oxygentw.net/series/</loc>
+    <lastmod>2017-06-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -298,7 +303,7 @@
   
   <url>
     <loc>https://oxygentw.net/categories/computer/</loc>
-    <lastmod>2019-02-01T00:00:00+00:00</lastmod>
+    <lastmod>2019-02-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

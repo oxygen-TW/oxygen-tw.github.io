@@ -6,10 +6,35 @@
     <description>Recent content in computer on Oxygen&#39;s 生活札記</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Fri, 01 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 03 Feb 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://oxygentw.net/categories/computer/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Apache Server 隱藏敏感性資訊設定</title>
+      <link>https://oxygentw.net/blog/computer/apache-hide-sensitive-info/</link>
+      <pubDate>Sun, 03 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/apache-hide-sensitive-info/</guid>
+      <description>紀錄 Apache Server 的一些基礎安全設定，可以避免伺服器版本號或作業系統等機敏性資料輕易的被取得，雖然說真的有心人士要攻擊的話這些簡單的設定應該也防不了，不過總是多一分保障啦，至少可以擋一些技術不成熟的攻擊者啊XD
+
+ServerTokens ServerToken 的等級決定 Apache 回傳給用戶的 Response header 裡面伺服器系統資訊的多寡。
+Syntax : ServerTokens Major|Minor|Min[imal]|Prod[uctOnly]|OS|Full
+
+詳細參數說明參考 httpd.apache.org 的文件
+   參數 說明 Response header 範例     Full 全部顯示 Server: Apache/2.0.41 (Unix) PHP/4.2.2 MyMod/1.2   OS 詳細伺服器軟體版本號與作業系統 Server: Apache/2.0.41 (Unix)   Min or imal 詳細伺服器軟體版本號 Server: Apache/2.0.41   Minor 伺服器軟體版本號 Server: Apache/2.0   Major 精簡伺服器軟體版本號 Server: Apache/2   Prod or uctOnly 僅顯示伺服器軟體 Server: Apache    
+ServerSignature ServerSignature 決定是否在網頁回應預設錯誤 HTTP status page 時顯示伺服器詳細資訊，這裡面提供的資料可詳細了，還是關掉會安全一點。
+ServerSignature On -&amp;gt; ServerSignature Off
+
+Root Directory Indexes 修改此設定能避免網頁目錄裡沒有 index 的時候整個目錄被看光光，防止進一步讓攻擊者了解網站架構。
+&amp;lt;Directory /var/www/&amp;gt; Options Indexes FollowSymLinks ... &amp;lt;/Directory&amp;gt;  拿掉 Indexes 改成
+&amp;lt;Directory /var/www/&amp;gt; Options FollowSymLinks ... &amp;lt;/Directory&amp;gt;  
+expose_php 若有安裝 php 建議到 php.ini 也關閉掉 expose_php，這能讓用戶知道這台伺服器有沒有安裝 php，雖然不會有直接威脅，但依據我的經驗，很多被我找到 vulnerability 的網站都是用 php&amp;hellip; 所以如果有 php 我就會特別積極的去找XD 避免自己伺服器有這樣的遭遇還是關了吧！
+expose_php = On -&amp;gt; expose_php = Off
+
+參考資料 http://bojack.pixnet.net/blog/post/3941260-apache-%E5%AE%89%E5%85%A8%E6%80%A7%E8%AA%BF%E6%A0%A1%E7%AF%87 http://ms7.fhsh.tp.edu.tw/php5c/ini.core.html</description>
+    </item>
     
     <item>
       <title>架設家用伺服器 PART 0 — 準備硬體</title>
@@ -543,6 +568,15 @@ sudo mkfs.vfat -I /dev/sdb
 sudo dd if=/home/user/download/ubuntu-16.04.2-server-amd64.iso of=/dev/sdb
 
 燒錄需要一點時間，等他跑完就完成了！</description>
+    </item>
+    
+    <item>
+      <title>Fancy App 1</title>
+      <link>https://oxygentw.net/series/item1/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/series/item1/</guid>
+      <description> App 1 </description>
     </item>
     
     <item>
