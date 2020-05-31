@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Oxygen&#39;s 生活札記</title>
@@ -6,26 +6,44 @@
     <description>Recent content in Categories on Oxygen&#39;s 生活札記</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Thu, 22 Jun 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 09 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://oxygentw.net/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title></title>
-      <link>https://oxygentw.net/categories/</link>
-      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      <title>computer</title>
+      <link>https://oxygentw.net/categories/computer/</link>
+      <pubDate>Sat, 09 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://oxygentw.net/categories/</guid>
+      <guid>https://oxygentw.net/categories/computer/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>computer</title>
-      <link>https://oxygentw.net/categories/computer/</link>
-      <pubDate>Sun, 03 Feb 2019 00:00:00 +0000</pubDate>
+      <title>life-story</title>
+      <link>https://oxygentw.net/categories/life-story/</link>
+      <pubDate>Sun, 22 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://oxygentw.net/categories/computer/</guid>
+      <guid>https://oxygentw.net/categories/life-story/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>notes</title>
+      <link>https://oxygentw.net/categories/notes/</link>
+      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/categories/notes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>travel</title>
+      <link>https://oxygentw.net/categories/travel/</link>
+      <pubDate>Mon, 29 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/categories/travel/</guid>
       <description></description>
     </item>
     
@@ -35,15 +53,6 @@
       <pubDate>Sat, 08 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>https://oxygentw.net/categories/medical-knowledge/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>notes</title>
-      <link>https://oxygentw.net/categories/notes/</link>
-      <pubDate>Tue, 08 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://oxygentw.net/categories/notes/</guid>
       <description></description>
     </item>
     
@@ -62,15 +71,6 @@
       <pubDate>Mon, 17 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>https://oxygentw.net/categories/prose/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>travel</title>
-      <link>https://oxygentw.net/categories/travel/</link>
-      <pubDate>Fri, 07 Dec 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://oxygentw.net/categories/travel/</guid>
       <description></description>
     </item>
     

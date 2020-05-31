@@ -1,1173 +1,194 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on Oxygen&#39;s 生活札記</title>
+    <title>Blogs on Oxygen&#39;s 生活札記</title>
     <link>https://oxygentw.net/blog/</link>
-    <description>Recent content in Blog on Oxygen&#39;s 生活札記</description>
+    <description>Recent content in Blogs on Oxygen&#39;s 生活札記</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sun, 03 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 24 May 2020 17:46:18 +0800</lastBuildDate>
     
 	<atom:link href="https://oxygentw.net/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Apache Server 隱藏敏感性資訊設定</title>
-      <link>https://oxygentw.net/blog/computer/apache-hide-sensitive-info/</link>
-      <pubDate>Sun, 03 Feb 2019 00:00:00 +0000</pubDate>
+      <title>關於 | About</title>
+      <link>https://oxygentw.net/blog/about/</link>
+      <pubDate>Sun, 24 May 2020 17:46:18 +0800</pubDate>
       
-      <guid>https://oxygentw.net/blog/computer/apache-hide-sensitive-info/</guid>
-      <description>紀錄 Apache Server 的一些基礎安全設定，可以避免伺服器版本號或作業系統等機敏性資料輕易的被取得，雖然說真的有心人士要攻擊的話這些簡單的設定應該也防不了，不過總是多一分保障啦，至少可以擋一些技術不成熟的攻擊者啊XD
-
-ServerTokens ServerToken 的等級決定 Apache 回傳給用戶的 Response header 裡面伺服器系統資訊的多寡。
-Syntax : ServerTokens Major|Minor|Min[imal]|Prod[uctOnly]|OS|Full
-
-詳細參數說明參考 httpd.apache.org 的文件
-   參數 說明 Response header 範例     Full 全部顯示 Server: Apache/2.0.41 (Unix) PHP/4.2.2 MyMod/1.2   OS 詳細伺服器軟體版本號與作業系統 Server: Apache/2.0.41 (Unix)   Min(imal) 詳細伺服器軟體版本號 Server: Apache/2.0.41   Minor 伺服器軟體版本號 Server: Apache/2.0   Major 精簡伺服器軟體版本號 Server: Apache/2   Prod(uctOnly) 僅顯示伺服器軟體 Server: Apache    
-ServerSignature ServerSignature 決定是否在網頁回應預設錯誤 HTTP status page 時顯示伺服器詳細資訊，這裡面提供的資料可詳細了，還是關掉會安全一點。
-ServerSignature On -&amp;gt; ServerSignature Off
-
-Root Directory Indexes 修改此設定能避免網頁目錄裡沒有 index 的時候整個目錄被看光光，防止進一步讓攻擊者了解網站架構。
-&amp;lt;Directory /var/www/&amp;gt; Options Indexes FollowSymLinks ... &amp;lt;/Directory&amp;gt;  拿掉 Indexes 改成
-&amp;lt;Directory /var/www/&amp;gt; Options FollowSymLinks ... &amp;lt;/Directory&amp;gt;  
-expose_php 若有安裝 php 建議到 php.ini 也關閉掉 expose_php，這能讓用戶知道這台伺服器有沒有安裝 php，雖然不會有直接威脅，但依據我的經驗，很多被我找到 vulnerability 的網站都是用 php&amp;hellip; 所以如果有 php 我就會特別積極的去找XD 避免自己伺服器有這樣的遭遇還是關了吧！
-expose_php = On -&amp;gt; expose_php = Off
-
-參考資料 http://bojack.pixnet.net/blog/post/3941260-apache-%E5%AE%89%E5%85%A8%E6%80%A7%E8%AA%BF%E6%A0%A1%E7%AF%87 http://ms7.fhsh.tp.edu.tw/php5c/ini.core.html</description>
+      <guid>https://oxygentw.net/blog/about/</guid>
+      <description>嚮往旅行的人，期待著能走遍世界，深入每一個城市、村落體驗各地生活與民情。 以救人為己任，學習醫學與生物科技，期望能成為協助病人脫離病痛的醫事人</description>
     </item>
     
     <item>
-      <title>架設家用伺服器 PART 0 — 準備硬體</title>
-      <link>https://oxygentw.net/blog/computer/homeserver/0-prepare-hardware/</link>
-      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      <title>Zuvio 自動點名程式</title>
+      <link>https://oxygentw.net/blog/computer/zuvio-auto/</link>
+      <pubDate>Sat, 09 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://oxygentw.net/blog/computer/homeserver/0-prepare-hardware/</guid>
-      <description>樹苺派是一款微電腦，話雖如此，他也擁有一般 Linux 電腦的所有功能，只是性能較差一點，因此用他來架設流量不會太大的家用伺服器，畢竟只有家人會用到而已嘛，用樹苺派有以下優點
- 沒有風扇，靜音 低耗電量 機體小巧  說缺點當然也是有
- 運算能力較差 不能承受大流量  那廢話不多說，我們從買材料開始吧！
-必須準備的物品  Raspberry Pi 2 / 3 約1495元
- micro SD 容量 8GB以上，速度 Class 10 / UHS 1 以上 約300元
- 2A/5V 電源供應器 約100元
- micro USB cable 約100元
- 網路線 約30元
- HDMI 連接線 約200元
- 一台螢幕
-  
-可選擇的物品  VGA 轉 HDMI線 約250元 Wi-Fi 網卡(RPi 則免) 約250元 Raspberry Pi 保護殼 約100元 Raspberry Pi 專用散熱片 約15元(通常買樹苺派會送)  一切都準備好後就可以進入下一步囉 -&amp;gt; 安裝系統
-
-Picture source: https://www.maxpixel.net/Technology-Tech-Raspberry-Pi-Device-Electronic-3676379</description>
+      <guid>https://oxygentw.net/blog/computer/zuvio-auto/</guid>
+      <description>許多大學會用 Zuvio IRS 來線上點名，而線上點名有一個好處，只要不是開 GPS 點名，我可以在任何有網路的地方做點名的動作，但仍有一個缺點，我們不知道老師神呢</description>
     </item>
     
     <item>
-      <title>架設家用伺服器 PART 2 — 設定系統</title>
-      <link>https://oxygentw.net/blog/computer/homeserver/2-system-setting/</link>
-      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      <title>入住中山醫宿舍感想...真心不建議</title>
+      <link>https://oxygentw.net/blog/life-story/about-csmu-dorm/</link>
+      <pubDate>Sun, 22 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://oxygentw.net/blog/computer/homeserver/2-system-setting/</guid>
-      <description>DietPi 有預裝 Dropbear SSH Server，機器安裝好系統開機後即可透過 SSH 連入伺服器，預設IP是 192.168.0.100，也可以接上螢幕透過螢幕來設定，我們使用 KITTY 來做 SSH 操作。
-透過 SSH 連線 在 Host Name 的地方輸入主機位置，Port 輸入 SSH連接埠號(預設22)，就可以建立連線，連進去後會被詢問帳號密碼。
-預設帳號：root
-預設密碼：dietpi
-
-進行 dietpi-config 設定 成功進入系統只是第一步，作業系統會自動引導你進行 dietpi-update 做作業系統的升級，升級後我們得去 dietpi-config 設定系統。
-選擇 DietPi-Config 進入設定頁面
-
-進入這個畫面，我們分別對以下進行設定，我以我個人的需求示範，若你有其他需求務必自行修改，不要盲目照抄我的設定，改壞了頂多重灌，不會把機器弄壞的。
-
-記憶體分配 Display Options -&amp;gt; GPU/RAM Memory Split -&amp;gt; Server 16 MB GPU | 1008 MB RAM
-
-超頻設定 Performance Options -&amp;gt; Overclocking -&amp;gt; none 1200 MHz ARM
-
-CPU 分配 Performance Options -&amp;gt; CPU Throttle Up -&amp;gt; 85
-
-系統語系 Language/Regional Options -&amp;gt; Locale -&amp;gt; en_US.UTF-8
-
-系統時區 Language/Regional Options -&amp;gt; Timezone -&amp;gt; Asia -&amp;gt; Taipei
-
-Root 密碼 Security Options -&amp;gt; Change Root Password -&amp;gt; 新的Root密碼
-
-主機名稱 Security Options -&amp;gt; Change Hostname -&amp;gt; 新主機名稱
-
-網路設定 Network Options: Adapters -&amp;gt; 參考進階網路設定
-
-NTP 伺服器設定 Network Options: NAS/Misc -&amp;gt; NTPD Mirror -&amp;gt; asia.pool.ntp.org
-
-接著離開 DietPi-Config，系統會要求重新開機，重新開機後系統設定就完成了。
-下一步 -&amp;gt; DietPi-Software 軟體安裝</description>
+      <guid>https://oxygentw.net/blog/life-story/about-csmu-dorm/</guid>
+      <description>又到了很多高中生選學校的時候，或許有人會來中山醫，所以我介紹一下中山醫的宿舍，給各位當參考&amp;hellip;或是說勸世(? 關於中山醫的宿舍呢&amp;</description>
     </item>
     
     <item>
-      <title>架設家用伺服器 Part 1 — 安裝系統</title>
-      <link>https://oxygentw.net/blog/computer/homeserver/1-home-server-install-os/</link>
-      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      <title>如何關閉 linux server 螢幕</title>
+      <link>https://oxygentw.net/blog/computer/turn-off-linux-server-moniter/</link>
+      <pubDate>Sat, 25 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://oxygentw.net/blog/computer/homeserver/1-home-server-install-os/</guid>
-      <description>有了所有需要的硬體材料後，就像組電腦一樣，第一步要進行的就是安裝作業系統，沒有系統就不能開機了啊！
-我們開始吧！
-STEP 1 : 下載必要軟體  SD Card formatter 用來格式化記憶卡的工具
- USB Image Tool  燒錄映像檔到記憶卡的工具  
-STEP 2 : 下載映像檔 我採用 DietPi 輕量化系統，預設沒有 GUI ，它是基於 Raspbian 優化和輕量化，並加入許多好用工具程式的作業系統，如果不喜歡也可以換成自己想要的，可以參考這個網頁 Raspberry Pi 的基礎 - 40 套作業系統任你選 。
-
-STEP 3 : 格式化記憶卡 打開 SD Formatter ，並確定記憶卡的磁碟編號，萬萬要仔細確認 !!!!!! 如果不小心格式化到其他裝置資料會全部消失，選項設定最好是選擇覆寫格式化，那樣清的最乾淨，不過經過我多次測試快速格式化也沒問題，速度會快很多，邏輯大小調整選擇 (ON)
-
-STEP 4 : 燒錄映像檔 這也要仔細檢查磁區編號，燒錯地方也是檔案全部毀損&amp;hellip;.選擇要燒錄的記憶卡，按 restore 並選擇剛剛下載的映像檔，他就會自己開始把系統燒錄至記憶卡了。
-
-STEP 5 : 設定 config.txt 其實燒錄完成後就可以啟動系統了，但如果你是用 HDMI 轉 VGA 的方式連接螢幕可能會有開機沒畫面的現象，解決方法很簡單，只需要把SD卡插進電腦，找到一個叫 config.txt 的檔案，用記事本打開後搜尋以下參數，並修改成下列的設定！
-hdmi_group=2
-hdmi_mode=16
-hdmi_drive=2
-hdmi_force_hotplug=1
-config_hdmi_boost=4
-
-如果要設定連接 Wi-Fi，那再開啟 dietpi.txt，修改以下組態
-AUTO_SETUP_NET_WIFI_ENABLED=1
-AUTO_SETUP_NET_WIFI_SSID=YOUR_SSID
-AUTO_SETUP_NET_WIFI_KEY=YOUR_PASSWORD
-
-STEP 6 : 啟動系統 把記憶卡插進樹莓派的記憶卡插槽，接上螢幕、電源，就完成系統安裝囉！
-接著我們來進行系統設定 -&amp;gt; 系統設定
-參考資料 : http://www.arthurtoday.com/2014/05/raspberry-pi-hdmi-to-vga-how-to.html https://www.flickr.com/photos/christiaancolen/21133467186</description>
+      <guid>https://oxygentw.net/blog/computer/turn-off-linux-server-moniter/</guid>
+      <description>Raspberry Pi 的運行溫度越來越高不太穩定，所以最近把一台舊筆電改造成伺服器，裝好系統後發現我不需要用螢幕啊啊啊啊，我用 SSH 就好不要開著螢幕耗電，於是上網</description>
     </item>
     
     <item>
-      <title>Quantum Numbers</title>
-      <link>https://oxygentw.net/blog/notes/quantum-numbers/</link>
-      <pubDate>Tue, 08 Jan 2019 00:00:00 +0000</pubDate>
+      <title>Python BMI 計算程式</title>
+      <link>https://oxygentw.net/blog/computer/python-bmi/</link>
+      <pubDate>Thu, 23 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://oxygentw.net/blog/notes/quantum-numbers/</guid>
-      <description>一些關於量子數與原子軌域的筆記
- (n , l , ml , ms) = (主量子數,角量子數,磁量子數,自旋量子數)
- 
-主量子數 Principal QN  n = 1,2,3&amp;hellip;..
-  決定原子的大小和能量
- n2 = 能形成的軌域數總和  ​
-角量子數 Angular QN  l = 0 ~ n-1
-  決定軌域的形狀,數目 &amp;gt;軌域數目 = 2l+1 &amp;gt; &amp;gt;因為 -l ~ l = 2l+1
- 角量子數字母代碼
- 0 = s 1 = p 2 = d 3 = f 4 = g  f 以後照字母排
- 字母代表意義
- s = Sharp p = Principal d = Diffuse f = Fundamental   
-磁量子數 Magnetic QN  ml = -l ~ l
-  決定軌域的方向 依據角量子數的不同會有不同的組合 總軌域和就是所有磁量子數組合的總和  
-電子自旋量子數 Electron Spin QN  ms = +1&amp;frasl;2 or -1&amp;frasl;2
-  決定電子的自旋狀態  Example 3d orbital  n = 3 l = 0,1,2(s,p,d) ml = -2,-1,0,1,2   
-5f orbital  n = 5 l = 0,1,2,3,(s,p,d,f) ml = -3 ~ 3  
-n = 4  l = 0,1,2,3 l = 4s,4p,4d,4f ml = -3 ~ 3  
-write all QN of 3p orbital  (3,1,-1,-1&amp;frasl;2) (3,1,-1,+1&amp;frasl;2) (3,1,0,-1&amp;frasl;2) (3,1,0,+1&amp;frasl;2) (3,1,1,-1&amp;frasl;2) (3,1,01+1&amp;frasl;2)   相關定理 包利不相容原理 Pauli Exclusion Principle  在每一個原子中，沒有任何兩個電子可以擁有同組的四個量子數
-每個軌域只能填入兩個自旋相反的電子
- 遞鍵原理 The Aufbau Principle  電子填入 Hydrogen-like 軌域時以低能量的先填</description>
+      <guid>https://oxygentw.net/blog/computer/python-bmi/</guid>
+      <description>BMI 很重要吧！衡量體重的一個重要指標，然而有時要計算一堆個案需要達到多少體重才符合標準也挺麻煩的，所以用 Python 寫一個小程式，可以計算BMI並分類，</description>
     </item>
     
     <item>
-      <title>Physical properties of functional group</title>
-      <link>https://oxygentw.net/blog/notes/physical-properties-of-functional-group/</link>
-      <pubDate>Mon, 07 Jan 2019 00:00:00 +0000</pubDate>
+      <title>心臟停止的急救技術</title>
+      <link>https://oxygentw.net/blog/notes/simple-cpr/</link>
+      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://oxygentw.net/blog/notes/physical-properties-of-functional-group/</guid>
-      <description> 簡單整理官能基的物理性質
-官能基比較表    官能基 極性 分子間作用力 水溶能力 沸點 info     醇 alcohol True H-bond 高/隨碳鍊增長遞減 較高 氫鍵給予者   醚 ether True weak 偶極-偶極 / 立體障礙H-bond / 和水形成 烴 &amp;lt; 醚 &amp;lt; 醇 低 / 接近烴類 氫鍵接受者   硫醇 thiol False 偶極-偶極 低 烴&amp;lt; 醚 &amp;lt; 硫醇 &amp;lt; 醇    胺 amine True 1°/2° weak H-bond 高/隨碳鍊增長遞減 胺 &amp;lt; 醇    醛 aldehyde True 偶極-偶極 高/隨碳鍊增長遞減 烴&amp;lt;醛&amp;lt;酮 C親電子/O親核   酮 ketone True 偶極-偶極 高/隨碳鍊增長遞減 烴&amp;lt;醛&amp;lt;酮    羧 carbonyl True strong H-bond / 形成雙體 醇/酮 &amp;lt; 羧酸隨碳鍊增長遞減 醇/酮 &amp;lt; 羧酸     ​
-沸點比較  醯胺 &amp;gt; 羧酸 &amp;gt; 醇 &amp;gt; 胺 &amp;gt; 酮 &amp;gt; &amp;gt; 醛 &amp;gt; 醚 &amp;gt; 烴
- ​
-常用氫鍵強度  F—H ᠁ :F （155 kJ/mol 或 40 kcal/mol） O—H ᠁ :N （29 kJ/mol 或 6.9 kcal/mol） O—H ᠁ :O （21 kJ/mol 或 5.0 kcal/mol） N—H ᠁ :N （13 kJ/mol 或 3.1 kcal/mol） N—H ᠁ :O （8 kJ/mol 或 1.9 kcal/mol） HO—H ᠁ :OH3+ （18 kJ/mol 或 4.3 kcal/mol）  </description>
+      <guid>https://oxygentw.net/blog/notes/simple-cpr/</guid>
+      <description>CPR 想必大家不陌生，很多連續劇裡也都會演(? 身為醫事人員我們必須學會基本的急救技術，所以在醫學院裡的學生都會學，但我覺得這項技能應該是全民都該</description>
     </item>
     
     <item>
-      <title>聚合酶連鎖反應</title>
-      <link>https://oxygentw.net/blog/notes/pcr-introduction/</link>
-      <pubDate>Sat, 08 Dec 2018 00:00:00 +0000</pubDate>
+      <title>西班牙文筆記</title>
+      <link>https://oxygentw.net/blog/notes/spanish-note/</link>
+      <pubDate>Sat, 28 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://oxygentw.net/blog/notes/pcr-introduction/</guid>
-      <description>什麼是 PCR? The Polymerase Chain Reaction(PCR) 中譯聚合酶連鎖反應，為生物科技中一個極度重要的革命性技術，操作難度不高，但應用面卻極為廣泛，在 1986 年由 Kary Banks Mullis 博士發明，1993年他因這項技術獲得諾貝爾化學獎。
-PCR 主要的功能在放大基因序，把微小的 DNA 樣本(可小到 nanogram)複製非常多份，以便後續的分析與操作，例如從刑案現場採集到的微小 DNA，量不足以進行分析，就可以使用PCR放大成足夠的量來進行各項實驗。
-
-PCR 所需材料  DNA 模板(DNA template) 引子(Primers) DNA 聚合酶(DNA polymerase) 去氧核糖核苷三磷酸(dNTP) 緩衝液(Buffer)  
-PCR 原理 在細胞中 DNA 複製流程大致如下，詳細可參考DNA複製
- DNA 解旋酶解開雙股螺旋 RNA 引子附著在 DNA 上 DNA 聚合酶接上 DNA 進行新股合成  現在我們將這個步驟移到試管中
-1. Denaturation 變性 [ 94~95℃ , 30-60 sec ] 在細胞中是由DNA 解旋酶解開 DNA 的結構，在細胞外我們使用熱來破壞DNA的氫鍵，迫使他回到單股DNA的形態。
-
-2. Annealing 降溫接合 [ 50~60℃ , 30-60 sec ] 解開後我們加入 RNA 引子，把溫度降到50~60C讓引子能順利地與單股DNA形成氫鍵結，實際上的溫度依照引子的不同種核苷酸數目而定，由以下公式粗略計算。
- Tm = ( 4 x [ G+C ] + 2 x [ A+T ]) ℃
- 這個步驟非常重要，若溫度過低會導致引子與模板不正確的鍵結，溫度過高則引子無法和模板鍵結，通常會以較高的溫度慢慢往下降，因為若一開始溫度過低而錯誤鍵結就失敗了。
-
-3. Extension 延伸 [ 72℃ , 30-60 sec ] 加入 taq polymerase，這是一種由 Thermus aquaticus 耐熱菌株中提取出的 DNA 聚合酶，到94℃仍然不會永久失活，最高效率溫度在72℃，這時DNA聚合酶會從引子的地方進入，並由 3&amp;rsquo; 往 5&amp;rsquo; 開始 DNA 複製新股。
-
-4. Denaturation II [ 94~95℃ , 30-60 sec ] 第二循環的變性步驟溫度會再回到 94~95℃，這時上個循環合成的DNA新股會脫離變成獨立的新股，同時也成為下一循環的模板，完整PCR 流程約會循環 35 次，大約 2 小時。
-
-PCR 的結束 PCR 是連鎖反應，但不代表他會永無止盡的進行下去，當下面兩項條件達成一項時 DNA 數目會停止增加趨於穩定
- 反應物消耗殆盡 DNA 聚合酶被破壞  最後的產物要拿去進行瓊脂電泳，確認複製出來的 DNA 片段是否為正確的片段。
-
-設計引子 引子的設計十分重要，兩端引子3&amp;rsquo;的包含區域暨是被大量複製的DNA序列區域，如果設計錯誤則會導致DNA複製跟著錯誤，也因此引子的特殊性很重要，我們要確保設計出來的引子只會和我們想要的序列區互補，而不會有其他可互補的地方，要做到這一點我們就得增加引子的核苷酸數量，越多特殊性就越高，不過這時問題來了，核苷酸越多越難合成，也會拖慢整個 PCR 過程的效率，那到底該用多少個核苷酸才適合呢?
-人類的基因是所有生物中最多的，有 3x109 bp，以簡單的機率估算，會有 1.2x1010 種可能，假設今天我們用八個核甘酸來設計引子，會有 65536 種可能，這樣算出在人類所有基因可以和我們設計的引子序列互補的區塊有 3x109 / 65536 = 46000 個，如果引子和46000個地方互補了，這樣 PCR 還做得下去嗎?!
-所以我們會使用17個以上的核苷酸來設計引子，通常取18~20個，因為 3x109 / 417 &amp;lt;&amp;lt; 1，在這樣的情況下就能設計出能達到特殊性要求的最短引子。
-
-PCR 應用實例  診斷遺傳疾病 感染病原檢驗 基因複製 基因工程 親子鑑定 法醫鑑識 癌症篩檢 等等極廣的應用  
-參考資料 賴雯玲教授 分子生物概論 2018/12/6</description>
+      <guid>https://oxygentw.net/blog/notes/spanish-note/</guid>
+      <description>Tema 1 Ser 用來表示不常變動的狀態，例如國籍、職業、價值判斷等。 Estar 用來表示當下的心裡、生理狀態、空間、地點、位置等。 Ser 與 Estar 的差別類似天氣與氣候定義</description>
     </item>
     
     <item>
-      <title>臺一線</title>
-      <link>https://oxygentw.net/blog/travel/the-1st-provincial-road/</link>
-      <pubDate>Fri, 07 Dec 2018 00:00:00 +0000</pubDate>
+      <title>在 VMware 中安裝 MacOS Mojave</title>
+      <link>https://oxygentw.net/blog/computer/install-macos-in-vmware/</link>
+      <pubDate>Sun, 22 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://oxygentw.net/blog/travel/the-1st-provincial-road/</guid>
-      <description>臺一線，又名縱貫公路、西部幹線，從清朝開始就是縱貫南北的交通要道。北起臺北市忠孝西路、中山南路，南至屏東縣枋山鄉楓港，全長 461.081 公里。經過臺灣西部14個縣市。
-
-第一次，我認識臺一線是在小學，那時我們家常常去墾丁，我好奇問爸爸墾丁要怎麼去呀? 他回應：下國道三號後走臺十七線，轉臺一線，最後從臺26線一直走就會到了，小小年紀的我，不會開車，對地理不是很有概念，這路線我卻深深記著。
-
-長大一些，我知道臺一線是縱貫線，可以從臺北直接到屏東，是一條很重要的交通要道，國小畢業那年，媽媽帶著我騎機車從臺北到高雄，我們沿途經過臺一線與臺三線南下，那時候我對臺一線的概念是，只要沿著他走就能到目的地，不會迷路。
-
-今天，我有了機車駕照，離開了臺北，一個人到外縣市求學，喜歡旅行和冒險的我還沒開學就騎著機車一天來回200公里從臺中到嘉義找朋友，那一天，和朋友道別後要騎回臺中，在大林繞呀繞的，尋覓著回去的路，終於在一條小路的出口看到一條大馬路，到路口時我看到中央分隔島上的藍色盾牌標誌寫著，1 向北，那一刻，真的瞬間心中充滿了安全感，在一片陌生的道路中，他是一條可以回家的路，看到他，等於看到家，跟著他走，等於走回家，不只可以到臺中，還可以到臺北! 雖然那一次的返程又濕又冷，沿途也荒涼黯然，不過至少心中是溫暖的，充滿著回家的期待。
-
-公路不只是交通運輸的工具，他記載著許多旅人的故事，也記載著許多人的童年與青春，每天有多少人經過一條公路，那條公路就寫下多少篇不同的故事，不論是開心，難過，憤怒的情緒，你都能夠回想到「那天我在這條路上，我正要去&amp;hellip;&amp;hellip;而後來我&amp;hellip;&amp;hellip;」
-
-今天我寫下的，就是臺一線為我記錄的成長故事。
-臺一線，從我理解他存在，到我知道他的功能，再到現在我感受他的情感。
-
-圖片來源：https://www.flickr.com/photos/jefflen/98371599/</description>
+      <guid>https://oxygentw.net/blog/computer/install-macos-in-vmware/</guid>
+      <description>最近很常用到 apple 的工具，但是用 itune web 又不好用，本來就對 MacOS 有些好奇，於是就打算裝到虛擬機上來玩玩看，我用 VMware 15 來安裝，要開始之前大家可以先到下面官網</description>
     </item>
     
     <item>
-      <title>醫事檢驗流程</title>
-      <link>https://oxygentw.net/blog/notes/medical-laboratory-operate-process/</link>
-      <pubDate>Wed, 28 Nov 2018 00:00:00 +0000</pubDate>
+      <title>計算 Line 訊息數的小工具</title>
+      <link>https://oxygentw.net/blog/computer/line-counter/</link>
+      <pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://oxygentw.net/blog/notes/medical-laboratory-operate-process/</guid>
-      <description>大家應該都有在醫院做檢查的經驗，我們給醫院的檢體(尿液、血液、切片等等)大多不是醫師在檢驗，而是由檢驗科內專門的醫事檢驗師進行，醫師只會開立醫囑與檢驗單告訴醫檢師他希望做甚麼檢查來協助他診斷，就像醫師開立處方簽給藥師一樣，從醫師告訴你要去哪裡做檢查的那一刻起檢驗的流程就開始了，這個流程粗略可以分成下列幾步。
-
-檢驗前  醫師用 LIS(Laboratory Information System) 開立醫囑 採檢人員對病人採檢 將檢驗單與檢體送至醫學實驗室 檢驗科依照檢驗單醫囑收件  檢驗中  由醫事檢驗師進行各項檢驗工作 確保檢驗品質與正確性  檢驗後  醫事檢驗師檢查報告是否正確並簽署 由 LIS 傳輸 檢驗報告/臨危值通報 給醫師 保存檢體  一般實驗室標準是 ISO 17025，醫學實驗室則是 ISO 15189，在規範上更為嚴謹，是負責檢驗醫學的重要部門，一個看似簡單的健康檢查背後涉及到一整個流程與許多醫事人員的參與，一再的確認與品管，嚴格的自檢程序確保每一份報告送到醫師手上都是正確的，畢竟醫學實驗室送出去的數值若是錯誤可能會白白葬送一條無辜的生命。</description>
+      <guid>https://oxygentw.net/blog/computer/line-counter/</guid>
+      <description>前陣子看了這篇解析 Line 對話的文章 讓我對解析 Line 匯出的純文字聊天紀錄有點概念，後來一時興起想計算我和朋友總共聊了多少訊息，寫了一個很簡單的小程式。</description>
     </item>
     
     <item>
-      <title>基本化學物命名 Chemical Nomenclature</title>
-      <link>https://oxygentw.net/blog/notes/simple-chemical-nomenclature/</link>
-      <pubDate>Tue, 06 Nov 2018 00:00:00 +0000</pubDate>
+      <title>介紹 pipenv 套件管理工具</title>
+      <link>https://oxygentw.net/blog/computer/python-pipenv/</link>
+      <pubDate>Fri, 15 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://oxygentw.net/blog/notes/simple-chemical-nomenclature/</guid>
-      <description>期中考期中考期中考，一大堆化學啊啊啊，順手把化學命名放上網站，就要繼續泡在化學堆了&amp;hellip;
-離子化合物  金屬 + 非金屬
-陰離子名字後 + &amp;ldquo;ide&amp;rdquo;
- BaCl2 barium chloride
-K2O potassium oxide
-KNO3 potassium nitrate
-
-過渡金屬化合物  用羅馬數字在金屬名稱後標明價數
- FeCl2 Iron(II) chloride
-FeCl3 Iron(III) chloride
-
-分子化合物  非金屬(Nonmetals) or 非金屬 + 類金屬(metalloids)
-週期表中高週期的元素和越接近1A族放名稱前面
-若化合物中有多個同一元素則用 prefixes 指出數量
-最後元素以 &amp;ldquo;ide&amp;rdquo; 結尾
- HI hydrogen iodide
-NF3 nitrogen trifluoride
-N2Cl4 dinitrogen tetrachloride
-
-Prifixes table    Prefix Number     mono- 1   di- 2   tri- 3   tetra- 4   penta- 5   hexa- 6   hepta- 7   octa- 8   nona- 9   deca- 10    
-氫酸 純物質狀態下  hydrogen + 另一化合物名 + ide
- HCl(g) hydrogen chloride
-HI(g) hydrogen iodide
-
-溶於水狀態下  hydro化合物名ic + acid
- HCl(aq) hydrochloric acid
-HI(aq) hydroiodic acid
-H2S(aq) hydrosulfuric acid
-
-含氧酸  依照不同酸種適用下列表格
-含氧酸移除所有氫後稱為 Oxoanion
-若有移除氫但不是完全移除，則須於前面用 prefix 註明氫的數量
-    酸 Oxoacid Oxoanion     過酸 per- -ic acid per- -ate   正酸 -ic acid -ate   亞酸 -ous acid -ite   次酸 hypo- -ous acid hypo- -ite    
-過氯酸 HClO4 perchloric acid
-氯酸 HClO3 chloric acid
-亞氯酸 HClO2 chlorous acid</description>
+      <guid>https://oxygentw.net/blog/computer/python-pipenv/</guid>
+      <description>pipenv 是目前 Python 官方推薦的套件管理系統，在一段時間以前，好啦其實就是現在(? 還有很多人使用 pip 和 virtualenv 來進行 python 開發，這樣當然沒問題，只是維護 requirements.txt 有些麻煩，</description>
     </item>
     
     <item>
-      <title>變態行為診斷 4D</title>
-      <link>https://oxygentw.net/blog/notes/abnormal-behavior-4d/</link>
-      <pubDate>Mon, 05 Nov 2018 00:00:00 +0000</pubDate>
+      <title>解決 Python 中 UnicodeDecodeError: &#39;cp950&#39; codec can&#39;t decode</title>
+      <link>https://oxygentw.net/blog/computer/python-file-utf8-encoding/</link>
+      <pubDate>Sat, 09 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://oxygentw.net/blog/notes/abnormal-behavior-4d/</guid>
-      <description>變態行為診斷 Abnormal behavior 4D  Deviance Distress Dysfunction/Disability Danger   Deviance 異常 異常是指一個人的行為不同於普遍社會規範，和大多數人們不同，以統計數據上表示即為偏離常態分佈的個體，不過此項標準在鑑定上顯得模稜量可，因社會規範會因文化族群而異，對一部分族群的規範不一定適用另一族群，即使年齡層不同也可能形成差異，若是這種情況，即使有個體與&amp;rdquo;我們群體&amp;rdquo;異常也不可被分類為變態行為。 如年輕人與老年人的思考方式不同，會造成雙方的不理解。
-
-Distress 痛苦 指變態行為本身對個體造成壓力、恐懼、憂鬱、焦慮等等心理上的傷害，此痛苦需由變態行為本身引起，而不是社會大眾對變態行為的不理解或是敵意所產生。例如躁鬱症病患內心的拉扯、自傷行為患者對於自己傷害自己這個行為產生恐懼就可以歸類於這邊所述的痛苦，而像同性戀者的性向與社會多數不同，但因其符合自身意願，同性戀者的痛苦多半來自於社會的異樣眼光，則此痛苦就不符合由行為本身造成。
-
-Dysfunction/Disability 功能失常/失能 指變態行為患者因心理巨大的痛苦或認知上的失常造成無法正常發揮自身功能，失去原本擁有的能力，例如記憶力下降、數理功能降低、無法專注等等甚至導致無法上班、上課，最嚴重的無法自理生活。也就是身為一個人本身應該發揮的能力(功能)被變態行為或其他心理障礙剝奪。
-
-Danger 危險 指變態行為者的自傷或傷人行為，自傷可能包含割腕、蓄意燙傷、自殺；傷人可能包含打人、砍人甚至殺人，這部分通常是已經涉及嚴重的心理疾病，亟需尋求協助的患者，然而社會上對精神疾病的歧視會使患者不願意尋求醫療協助，而導致憾事發生。會產生傷害行為的人通常伴隨著認知上的失常，健康的人即使他人挑釁也會克制自己不會去殺人，而認知異常的患者可能無法克制，抑或是因為認知異常，使他認為全世界都想要傷害他而先行傷人。
-參考資料 王郁茗 (2018-09-17)。變態行為與現代生活。課程簡報</description>
+      <guid>https://oxygentw.net/blog/computer/python-file-utf8-encoding/</guid>
+      <description>寫 Python 做資料處理時讀取中文檔案有時候會遇到 UnicodeDecodeError: &#39;cp950&#39; codec can&#39;t decode byte 0xe8 in position 7: illegal multibyte sequence 的錯誤，每次發生我都要重新找一次解決方法，一直記不住&amp;hellip; 乾脆直</description>
     </item>
     
     <item>
-      <title>淺談邊緣型人格疾患</title>
-      <link>https://oxygentw.net/blog/notes/about-bpd/</link>
-      <pubDate>Mon, 10 Sep 2018 00:00:00 +0000</pubDate>
+      <title>對！我跨校雙主修</title>
+      <link>https://oxygentw.net/blog/life-story/double-major-adventure/</link>
+      <pubDate>Thu, 19 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://oxygentw.net/blog/notes/about-bpd/</guid>
-      <description>常常會和別人說 &amp;ldquo;XXX是邊緣人&amp;rdquo;、&amp;rdquo;不想成為邊緣人&amp;rdquo; 之類的話，邊緣人已經成為家喻戶曉的名詞了，但你知道嗎? 在精神疾病診斷與統計手冊(DSM)中有實際收錄一個疾病叫 &amp;ldquo;邊緣型人格違常(Borderline Personality Disorder)&amp;ldquo;，不過這個疾病和我們熟知的邊緣人截然不同喔。
-邊緣型人格違常屬於人格疾患，顧名思義是人格形成上出了點差錯，邊緣型人格違常主要會有以下狀況:
- 無法忍受被人拋棄 極端思考，非黑即白 自我認同障礙，自信低下 自我傷害行為 以自殺、自殘行為脅迫他人 憂鬱情緒持續較長 害怕孤單、空虛感 難以控制憤怒 可能出現妄想或解離現象   邊緣型人格違常的成因目前理論認為是因為在童年時期與父母分離，產生分離焦慮而導致，一個人年幼時人格正在發展，但母親/主要照顧者不知道或是不能滿足幼兒的需求，甚至表現出不耐煩，冷漠的態度，在建築人格的過程中得不到母親給予的安全感而產生恐慌，甚至認為自己沒有資格得到照顧，失去依附對象，進而造成人格發展不全。
-依照依附理論(attachment theory)可以將兒童分成四種依附關係，不正常的依附關係不只在一個人受照顧時才有影響，與未來戀愛的過程、社交過程都有很大的關係，可說是構成一個人面對人際互動不可或缺的一環。
-邊緣型人格違常是嚴重的精神疾病，因其高不穩定性與傷害自我/他人的可能，許多精神科醫師甚至不願意治療邊緣型人格的病患，一部分是因為他們不確定能力是否足以治療此疾病，這是醫師對病人一種負責任的態度，但也因此這類病患相對較為無助，目前可以採用辯證行為療法、移情&amp;ndash;焦點療法及藥物輔助來治療，社會對此疾病的歧視與偏見也是造成患者痛苦的一大原因，他們缺乏愛與被愛的能力，渴望的是他們年幼時期得不到的照顧與親密，若社會普遍對他們冷嘲熱諷、故意疏離，只會使他們再次經歷過去的創傷，加重病情罷了。
-對正常人而言，可能有一位患者令你害怕、覺得他不正常，但對人格疾患者而言，全世界都不正常，他要承受的痛苦絕對大得多。
-參考資料: 高育仁(2014)。您也害怕孤獨嗎?解析邊緣性人格。新北市：心理出版社股份有限公司。 https://zh.wikipedia.org/wiki/%E4%BE%9D%E9%99%84%E7%90%86%E8%AB%96</description>
+      <guid>https://oxygentw.net/blog/life-story/double-major-adventure/</guid>
+      <description>大二上，許多大學生最活躍的時刻，我也不例外，參與了一大堆活動，社團、學校單位、校外等等，幾乎每天都要把自己榨乾，我甚至做了一個連我自己都害怕</description>
     </item>
     
     <item>
-      <title>C Standard Library QSort 函式</title>
-      <link>https://oxygentw.net/blog/computer/c-standard-library-qsort/</link>
-      <pubDate>Thu, 30 Aug 2018 00:00:00 +0000</pubDate>
+      <title>清肝養目茶配方</title>
+      <link>https://oxygentw.net/blog/notes/chrysanthemum-cassia-tea/</link>
+      <pubDate>Sun, 08 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://oxygentw.net/blog/computer/c-standard-library-qsort/</guid>
-      <description>前些天很意外地得知學校程式設計居然是教 C語言，非工程相關應該不需要學到這種中階語言才對吧…… 好歹來個 C++ 啊 !!!!
-抱怨歸抱怨，課還是得上，只好重新翻閱C的標準函式庫複習一下，結果在裡面挖到很多好用的東西呢XD 其中 stdlib.h 的 qsort 函式我覺得最驚喜，我一直以為只有 C++ 的 STL library才有 sort()，沒想到C語言也有！ 不過用法有點複雜，紀錄一下。
-
-Function Prototype
- void qsort(void* base, size_t n, size_t size, int (cmp)(const void, const void*))
-  base 是被排序陣列的指標 n 是被排序陣列的大小 = sizeof(array)/sizeof(array_type) size 是陣列中元素的大小 = sizeof(array_type) 最後是指向比較函數的指標  
-指向比較函數的指標比較特別，就像 STL sort 如果要改變排序方向的話必須傳入第三個參數，自行定義的比較函數。
-範例如下：
-int cmpfunc (const void * a, const void * b) { return ( *(int*)a - *(int*)b ) }  傳入 a,b 兩參數型別是 void ，需要強制轉型成被排序陣列的型別，如範例中 a,b 先被強制轉型成整數指標 (int)，再對他取值做處理。
-完整範例 #include &amp;lt;stdio.h&amp;gt;#include &amp;lt;stdlib.h&amp;gt; void printIntArr(int *arr,int arrSize) {for(int i=0; i&amp;lt;arrSize; i++) {printf(&amp;#34;%d &amp;#34;,arr[i]);} printf(&amp;#34;\n&amp;#34;);}int cmpfunc (const void * a, const void * b) {return *(int*)a - *(int*)b;}int main (){int arr[] = { 56, 45, 48, 12, 4, 3, 4568, 45, 48, 213, 54, 32, 4, 8, 9, 6, 4, 23, 0, -2, 56 };printIntArr(arr,(sizeof(arr)/sizeof(int)));qsort(arr,sizeof(arr)/sizeof(int),sizeof(int),cmpfunc); //Quick sort printIntArr(arr,(sizeof(arr)/sizeof(int)));return 0;} 
-
-輸出結果:</description>
+      <guid>https://oxygentw.net/blog/notes/chrysanthemum-cassia-tea/</guid>
+      <description>幾年前，那個我依然年輕的時候(? 在北醫藥學營方劑學學到清肝養目茶的配方與沖法，可是我一直不知道怎麼買中藥，剛剛去市場無意間看到就想說，恩，來</description>
     </item>
     
     <item>
-      <title>Python Requests 套件</title>
-      <link>https://oxygentw.net/blog/computer/python-requests/</link>
-      <pubDate>Thu, 30 Aug 2018 00:00:00 +0000</pubDate>
+      <title>新增生活故事系列！</title>
+      <link>https://oxygentw.net/blog/life-story/start/</link>
+      <pubDate>Fri, 06 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://oxygentw.net/blog/computer/python-requests/</guid>
-      <description>透過 Python 做數據分析或網路爬蟲時幾乎一定會上網下載網頁原始碼或其他 HTTP 請求，因此 Requests 這個套件非常重要，他簡單又實用，不過我從來沒有詳細研究過他，趁現在有時間把他的文件閱讀了一遍。
-套件資訊  License: Apache Software License (Apache 2.0) Author: Kenneth Reitz Requires: Python &amp;gt;=2.6, !=3.0., !=3.1., !=3.2., !=3.3.  
-安裝套件 pip install requests  
-使用方法 1.引入 import requests
-
-2.HTTP GET r = requests.get(&amp;#39;https://api.github.com/events&amp;#39;)
-
-3.HTTP POST r = requests.post(&amp;#39;http://httpbin.org/post&amp;#39;, data = {&amp;#39;key&amp;#39;:&amp;#39;value&amp;#39;})
-
-4.PUT, DELETE, HEAD, OPTIONS 請求 r = requests.put(&amp;#39;http://httpbin.org/put&amp;#39;, data = {&amp;#39;key&amp;#39;:&amp;#39;value&amp;#39;})r = requests.delete(&amp;#39;http://httpbin.org/delete&amp;#39;)r = requests.head(&amp;#39;http://httpbin.org/get&amp;#39;)r = requests.options(&amp;#39;http://httpbin.org/get&amp;#39;)
-
-5.傳遞 URLs 參數 當 URLs 參數的 dictionary 裡可以把 list 當成一個項目，但不可以加入 None的項目。 payload = {&amp;#39;key1&amp;#39;: &amp;#39;value1&amp;#39;, &amp;#39;key2&amp;#39;: &amp;#39;value2&amp;#39;}r = requests.get(&amp;#39;http://httpbin.org/get&amp;#39;, params=payload)print(r.url) #查看傳送的 URL
-
-6.回應資料分析 從回應中取出各種我們需要的資料
-print(r.text) #列出文字 print(r.encoding) #列出編碼 print(r.status_code) #列出 HTTP 狀態碼 print(r.headers) #列出 HTTP Response Headers print(r.headers[&amp;#39;Content-Type&amp;#39;]) #印出 Header 中的 Content-Type 
-7.解析 JSON 資料 如果取得的是 json 格式資料，requests 有內建解析函式。
-r = requests.get(&amp;#39;https://api.github.com/events&amp;#39;)r.json() 
-8.自訂 Header 許多時候網站會擋掉 UA 是 python-request 的請求，因此我們很常需要自訂 Header
-url = &amp;#39;https://api.github.com/some/endpoint&amp;#39;headers = {&amp;#39;user-agent&amp;#39;: &amp;#39;Mozilla/5.0&amp;#39;}r = requests.get(url, headers=headers) 
-9.設定 Timeout 避免程式在維修中或故障的網站停留太久，或是用來檢查是否可存取時很方便。
-requests.get(&amp;#39;http://github.com&amp;#39;, timeout=[SECOND]) 
-10.指定編碼 通常網站會使用 UTF-8 編碼，但若不是，可用這個方法修改讀取編碼。
-r.encoding = &amp;#39;ISO-8859-1&amp;#39; 
-11.取得 Cookie url = &amp;#39;http://example.com/some/cookie/setting/url&amp;#39;r = requests.get(url)r.cookies[&amp;#39;example_cookie_name&amp;#39;]
-
-12 .修改 Cookie url = &amp;#39;http://httpbin.org/cookies&amp;#39;cookies = dict(cookies_are=&amp;#39;working&amp;#39;)r = requests.get(url, cookies=cookies)r.text
-
-參考資料 https://pypi.org/project/requests/
-https://github.com/requests/requests
-http://docs.python-requests.org/en/master/user/quickstart/</description>
+      <guid>https://oxygentw.net/blog/life-story/start/</guid>
+      <description>我從小就嚮往走遍世界，看看這世界每一個角落發生的點點滴滴，認識各地的人，體驗當地風土名情。每一個人從出生到死亡每分每秒都在寫下他的人生故事，</description>
     </item>
     
     <item>
-      <title>Urlretrieve 的 Python3 寫法</title>
-      <link>https://oxygentw.net/blog/computer/urlretrieve-python3/</link>
-      <pubDate>Sat, 18 Aug 2018 00:00:00 +0000</pubDate>
+      <title>果蠅培養基製備法</title>
+      <link>https://oxygentw.net/blog/notes/fruit-fly-medium/</link>
+      <pubDate>Fri, 30 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://oxygentw.net/blog/computer/urlretrieve-python3/</guid>
-      <description>要透過 urllib.urlretrieve 從網頁裡下載圖片，卻發現腳本報錯 AttributeError: module &#39;urllib&#39; has no attribute &#39;urlretrieve&#39;，原來是因為 Python3 後的寫法已經改變了，改法如下。
-
-引入的部分
-import urllib 改成 import urllib.request  呼叫的部分
-urllib.urlretrieve(URL, &amp;quot;FILENAME&amp;quot;) 改成 urllib.request.urlretrieve(URL, &amp;quot;FILENAME&amp;quot;)  修改後即可正常運作！</description>
+      <guid>https://oxygentw.net/blog/notes/fruit-fly-medium/</guid>
+      <description>實驗室以果蠅為模式生物，因此我多了許多和果蠅接觸的機會，也和學姊學了一些基本果蠅養殖方法，看久了真的覺得果蠅挺可愛的，就從將要被拋棄的舊培養</description>
     </item>
     
     <item>
-      <title>網頁伺服器強制使用 HTTPS 安全連線</title>
-      <link>https://oxygentw.net/blog/computer/apache-server-force-https/</link>
-      <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
+      <title>Python 圖片轉灰階小工具</title>
+      <link>https://oxygentw.net/blog/computer/python-convert-imagetol/</link>
+      <pubDate>Tue, 13 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://oxygentw.net/blog/computer/apache-server-force-https/</guid>
-      <description>今天在處理轉移主機 SSL 的問題，重新申請憑證後我用 Why No Padlock? 來檢查憑證是否正確安裝，我發現有一項 Force HTTPS 檢查未通過，於是照著他的指示修改檔，讓使用者以後如果使用 HTTP 訪問我的 Apache 網頁伺服器會強制轉成由 HTTPS 訪問。
-
-在 .htaccess 裡加入以下三行 把yourSite.com的地方改成你的網址，注意第一行裡網址遇到”.”前面要加\
-RewriteCond %{HTTP_HOST} yourSite\.com [NC] RewriteCond %{SERVER_PORT} 80 RewriteRule ^(.*)$ https://yourSite.com/$1 [R,L]  OK 這樣就完成了。</description>
+      <guid>https://oxygentw.net/blog/computer/python-convert-imagetol/</guid>
+      <description>最近實驗室在做 Construst，要跑很多次 DNA 電泳，偏偏照膠系統故障，只能拍好後再用手機翻拍膠圖，我們的小型藍光照膠器拍出來不明顯而且還是橘</description>
     </item>
     
     <item>
-      <title>[日本] 如何從日本寄明信片！</title>
-      <link>https://oxygentw.net/blog/travel/mail-postcard-in-japan/</link>
-      <pubDate>Mon, 25 Jun 2018 00:00:00 +0000</pubDate>
+      <title>水肺潛水重裝組裝與拆卸流程</title>
+      <link>https://oxygentw.net/blog/travel/scuba-diving-equipment/</link>
+      <pubDate>Mon, 29 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://oxygentw.net/blog/travel/mail-postcard-in-japan/</guid>
-      <description>許多人在出國時會想從國外寄明信片回台灣吧！之前旅行青蛙的熱潮又助長了一波明信片風潮，日本在 2017 年是最多台灣人旅遊的國家，人數達出國總數的29.4%，那麼我就來介紹如何從日本寄明信片回台灣吧！
-購買明信片 首先到你參觀的景點或其他地方買張你喜歡的明信片，這很重要，因為寄明信片不能沒有明信片呀XD 我在京都和奈良看到的大約一張 110 日圓，東大寺內部一張 50 日圓。
-
-購買郵票 再到任何一間日本的郵局(郵便局)的郵便窗口買明信片的郵票，日本郵局和台灣一樣要抽號碼牌，只是那時候我去剛好都沒有人，就直接去櫃檯了~ 郵票在哪裡買的不重要，郵戳是根據寄出地而定而不是郵票購買地。
-和郵局人員說 &amp;ldquo;I want to buy stamp for postcard.&amp;rdquo; 他就會懂啦！然後會問你要幾張，看個人需求回答他囉。一張國際明信片郵票郵資是 70 日圓，特殊造型的明信片郵資好像是 220 日圓吧? 若要寄特殊造型明信片還是向郵局詢問一下比較好喔！
-
-明信片格式 大致上照著這樣寫不會錯，日本的郵遞區號和台灣不一樣，所以如果你買的明信片有幫你預留郵遞區號的格子可以不用理他，空著就好。寫好基本格式後剩下的地方就可以寫內文。
-橫式:   
-直式:   地址寫中文或英文都可以，最重要的是Taiwan要寫出來，不然郵差不知道要寄到哪國去，若想將地址換成英文可以參考 中華郵政中文地址英譯。
-AIR MAIL 可以向郵局拿貼紙貼上或自己寫上，不過我們用的郵票就已經是國際郵件用的了，所以沒有寫也無仿！
-
-投遞明信片 郵票貼好，內容寫完後就找到一個日本的郵筒，想要哪個縣市的郵戳就要在那個縣市的郵筒寄喔！
-把明信片投進左邊的口(手紙 • はがき)，就成功把明信片寄出啦，很簡單吧！
-  
-2018/06/25 更 收到明信片啦！郵寄花了12天，有點久不過還是順利寄到啦~
-  
-相關連結 日本郵便官網:http://www.post.japanpost.jp/index.html
-日本郵便(English):http://www.post.japanpost.jp/index_en.html</description>
+      <guid>https://oxygentw.net/blog/travel/scuba-diving-equipment/</guid>
+      <description>基本裝備清單 Buoyancy Compensator Device(BC) 氣瓶 管線組 配重 面鏡 呼吸管 防寒衣 蛙鞋 潛水鞋 氣瓶操作以 Yoke 氣瓶為主 重裝組裝 穿上防寒衣 穿上潛水鞋 面鏡除霧 移除氣瓶的氣瓶頭蓋 BC 氣瓶帶</description>
     </item>
     
     <item>
-      <title>旅行常備藥品與急救包</title>
-      <link>https://oxygentw.net/blog/travel/travel-medicine-first-aid-kits/</link>
-      <pubDate>Wed, 20 Jun 2018 00:00:00 +0000</pubDate>
+      <title>Excel 繪製回歸直線</title>
+      <link>https://oxygentw.net/blog/notes/excel-linear-regression/</link>
+      <pubDate>Fri, 24 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://oxygentw.net/blog/travel/travel-medicine-first-aid-kits/</guid>
-      <description>旅行途中難免會遇到受傷或生病，如何在陌生的環境應變這樣的意外插曲是旅行者必學的重要課題之一，若是像我喜歡去較偏遠的地方旅行，且時常單獨前往，自行準備藥物與急救包可以在第一時間做自救，也比較不會不知所措！
-我參加過紅十字會急救員訓練，也對藥物有些認識，因此我就來介紹一下我的旅行常備藥品。不過畢竟我不是藥學專業，若有錯誤也歡迎指正！
-內服藥 消炎/止痛/解熱藥 市面上能買到的多是 Acetaminophen(普拿疼) 500mg 或 Ibuprofen(布洛芬) 200mg，雖然說 Acetaminophen有不錯的止痛效用，但他消炎能力非常弱，弱到可以忽略，加上我個人覺得 Acetaminophen 在止痛方面比較沒有用，所以我是準備 Ibuprofen 200mg。
-需要注意的是，Acetaminophen 若攝取過量會產生肝毒性，因此每日不要服用超過4顆(2000mg)，絕對不可超過8顆(4000mg)。而 Ibuprofen 是非類固醇消炎止痛藥(NSAID)，在低劑量下是最安全的 NSAID，一天的劑量不可超過 1200 mg。Acetaminophen 和 Ibuprofen 不可同時服用，若同時服用亦會產生肝毒性。
-在退燒方面依據我的經驗兩者皆有卓越的表現(? 有一次我的體溫高達39.4度，呈現只剩半條命的狀態，連行走都覺得有困難，服用 Ibuprofen 後我變得能和別人出去逛街了，數小時後再次量體溫為35.3度&amp;hellip;&amp;hellip;也降得太誇張。 不過！這都是假象，這是用藥物強迫體溫中樞降溫讓自己感覺好一點，不代表病好了，一旦藥物作用結束又會回到原本不舒服的狀態，是標準治標不治本的方式，非必要不要亂用，應該找出病因把根本解決才是。
-  Acetaminophen     Ibuprofen   
-止瀉藥 我使用 loperamide (瀉立停)，屬抗腸道蠕動劑，強效止瀉劑。
-腹瀉的成因很多，輕微腹瀉可以讓他自行痊癒而不必服藥，止瀉藥通常用在不能上廁所的場合，例如肚子不舒服時要搭大眾運輸工具，就可以使用止瀉藥撐一下。止瀉藥的使用可能造成細菌性感染病情加重，須確定非細菌性感染才可使用，且對藥物造成的腹瀉無效。
-  
-綜合感冒藥 綜合感冒藥平時不建議使用，因為他&amp;rdquo;綜合&amp;rdquo;，所以包含了緩解各種症狀的藥物，吃的時候會一起吃到不需要的藥物，但這點在旅行上十分方便，一顆膠囊涵蓋一切，我用斯斯感冒膠囊來舉例，它的成份如下：
-Acetaminophen&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;.100mg &amp;ndash;&amp;gt; 止痛/解熱
-Ethenzamide&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;.83.33mg &amp;ndash;&amp;gt; 止痛/解熱/消炎
-Codeine Phosphate&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;..3mg &amp;ndash;&amp;gt; 止咳/止痛
-Chlorpheniramine Maleate&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;.1.25mg &amp;ndash;&amp;gt; 減輕過敏症狀
-dl-Methylephedrine Hydrochloride&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;..6.67mg &amp;ndash;&amp;gt; 止咳
-Caffeine Anhydrous&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;20mg &amp;ndash;&amp;gt; 提振精神
-是不是幾乎除了腸胃道症狀以外的感冒症狀都涵蓋了呢? 值得注意的是 Chlorpheniramine Maleate 為第一型抗組織胺會有嗜睡的副作用，即使有 Caffeine 來試著提振精神還是有可能會昏昏欲睡，這要視個人體質來決定。
-而止咳方面他使用可待因與甲基鹽酸麻黃鹼，不可過量服用，會有藥物成癮的可能喔！
-  
-暈車藥 meclizine 是市面上常見的暈車藥，在要搭乘較顛頗的交通工具前30分鐘服用，有抗乙醯膽鹼與抗組織胺的作用，會有蠻強烈嗜睡的副作用，且藥效持久，在25mg的劑量下藥效為4-6小時，30mg的劑量下為12-24小時，一日僅需服用一次即可。
-  
-瀉藥 這個嗎&amp;hellip;&amp;hellip;旅行途中可能會遇到便祕的情況，如果真的太久沒排便則需要瀉劑的輔助，我使用 Bisacodyl(樂下錠)，我有&amp;rdquo;實驗&amp;rdquo;過一次效果還不錯，不過從來沒有真正用到就是了&amp;hellip;&amp;hellip;有備無患嘛！
-如果真的需要用到，而你又沒有使用過瀉劑的經驗，務必從最小劑量 2mg 開始服用，無效再加大劑量，而且要確保你都會在廁所附近，不然你會後悔喔。
-服用後的腹瀉可能會造成脫水，也請大量補充失去的水分與注意電解質平衡。
-  電解質粉(寶礦力水得) 粉末狀方便攜帶，能在短時間內將水變成運動飲料，用來對熱衰竭進行緊急處置，也可用於腹瀉及發燒等會造成電解質不平衡的情況時。
-
-外用藥 外傷用藥比較沒什麼需要說明的，主要的困難點在外傷急救技術而不是器材，因此我簡易帶過。
-生理食鹽水注射液 進行清創用，可洗清傷口避免髒東西殘留在傷口上。
-  
-Povidone iodine 1%(優碘) 廣效外傷殺菌劑，殺菌時間約 10~15 秒，使用時機為生理食鹽水清除可見髒污後的傷口，殺菌時間結束後需再用一次生理食鹽水把優碘清除，避免繼續傷害組織。
-  
-綠油精 蚊蟲叮咬用，必要時也可塗在身上當成防蚊液使用，不過效果沒有真正的防蚊液好就是了&amp;hellip;&amp;hellip;
-  
-曼秀雷敦軟膏 小型傷口適用，例如小割傷、擦傷，不需要用到生理食鹽水與優點進行清創的傷口可塗抹一點曼秀雷敦軟膏解決。那種傷口通常不大，不使用藥物也是一個選擇。
-  
-雙氧水(H2O2 3%) 不建議使用雙氧水來處理傷口，會對組織造成傷害與破壞，但我仍有攜帶一小瓶在急救包中，在紗布背傷口的血黏住時雙氧水可以分解血塊讓紗布脫離，避免撕掉紗布時造成二次受傷。
-  
-人工淚液 飛機上眼睛乾澀或有異物跑入眼睛時可以使用。
-  
-紗布/OK繃/棉花棒 包紮與清創用。
-  
-透氣膠帶 固定紗布用。
-  
-剪刀/鑷子 避免用手接觸到無菌紗布，不過其實一開袋子就不是無菌了，所以這個非必須。
-  
-參考資料
-http://www.ktgh.com.tw/Medicament_tbDrug_Look.asp?CatID=65&amp;amp;ModuleType=&amp;amp;NewsID=1365&amp;amp;Ordid=23073
-https://www.nhi.gov.tw/Content_List.aspx?n=E7124A9821F49B47&amp;amp;topn=874605F03B8FDFBA</description>
+      <guid>https://oxygentw.net/blog/notes/excel-linear-regression/</guid>
+      <description>線性回歸是很多定量實驗必須做的前置步驟，要先將標準品測得的實驗數據透過線性回歸的方式繪製出標準曲線，再將未知待測物以內插的方式帶入求值才是一</description>
     </item>
     
     <item>
-      <title>PHP 5 ↔ 7 版本轉換</title>
-      <link>https://oxygentw.net/blog/computer/php7-downgrade-to-php5/</link>
-      <pubDate>Tue, 05 Jun 2018 00:00:00 +0000</pubDate>
+      <title>台灣高鐵車次意義</title>
+      <link>https://oxygentw.net/blog/travel/thsr-train-number/</link>
+      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://oxygentw.net/blog/computer/php7-downgrade-to-php5/</guid>
-      <description>在 LAMP 的環境下有時會遇到 PHP 版本和服務需求不符的情況，有點麻煩，上網找了一下論壇發現有方法可以解決，在此紀錄一下。
-環境: Ubuntu Server 16.04 LTS
-關閉 Apache2 模組
-sudo a2dismod proxy_fcgi proxy; sudo service apache2 restart
-
-下載 PHP 所需套件
-sudo add-apt-repository ppa:ondrej/php sudo apt-get update sudo apt-get install php7.0 php5.6 php5.6-mysql php-gettext php5.6-mbstring php-mbstring php7.0-mbstring php-xdebug libapache2-mod-php5.6 libapache2-mod-php7.0  
-一切準備好後，升級和降級分別為以下兩種方法
-將 PHP 從 5.6 升到 7.0
-sudo a2dismod php5.6 ; sudo a2enmod php7.0 ; sudo service apache2 restart
-將 PHP 從 7.0 升到 5.6
-sudo a2dismod php7.0 ; sudo a2enmod php5.6 ; sudo service apache2 restart
-
-參考資料 https://askubuntu.com/questions/761713/how-can-i-downgrade-from-php-7-to-php-5-6-on-ubuntu-16-04</description>
+      <guid>https://oxygentw.net/blog/travel/thsr-train-number/</guid>
+      <description>紀錄高鐵車次各數字的意義，這樣訂票一目了然很方便，對於常旅行或通勤的人來說是個很有用的常識！ 高鐵車次共有四碼 ABCC 第一碼 A 代表列車週期性，第二碼</description>
     </item>
     
     <item>
-      <title>Linux Server Network interface 基本設定</title>
-      <link>https://oxygentw.net/blog/computer/linux-server-network-interface-basic-setup/</link>
-      <pubDate>Tue, 24 Apr 2018 00:00:00 +0000</pubDate>
+      <title>蛋白質操作筆記</title>
+      <link>https://oxygentw.net/blog/notes/protein-operating/</link>
+      <pubDate>Sun, 24 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://oxygentw.net/blog/computer/linux-server-network-interface-basic-setup/</guid>
-      <description>伺服器安裝過程中設定固定IP是很重要的一個步驟，雖然簡單卻不可大意，interface 要是改錯伺服器會無法連網，若是透過SSH維護就得跑一趟機房了，因此我記錄一下伺服器的基本網路設定。
-以 Ubuntu Server 16.04 LTS 發行版為例
-
-備份原設定檔並編輯設定檔 sudo cp /etc/network/interface /etc/network/interface.backup sudo vim /etc/network/interface  設定固定 IP auto lo iface lo inet loopback #修改以下部分 auto eth0 iface eth0 inet static # static = 固定 IP。 address 203.72.xxx.xxx # IP 位址。 netmask 255.255.255.0 # 子網路遮罩。 gateway 203.72.xxx.xxx # 預設閘道位置。 dns-nameservers 168.95.1.1 8.8.8.8 # DNS Server(以空格分開)  重新啟動網路服務 sudo service networking restart  
-若修改後發現網路有問題，就把 interface 刪除， interface.backup 改名為 interface 並重新啟動網路服務應該會修好</description>
-    </item>
-    
-    <item>
-      <title>架設 VoIP Server</title>
-      <link>https://oxygentw.net/blog/computer/use-umurmur-build-voip-server/</link>
-      <pubDate>Sat, 07 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://oxygentw.net/blog/computer/use-umurmur-build-voip-server/</guid>
-      <description>來試試 VoIP Server，以前都沒想過可以自己架，最近心血來潮找了找，找到 umurmur 這套軟體，他是用C語言寫成的輕量級伺服器軟體，還可以安裝在 openWRT 路由器之類的設備上喔！
-
-環境: Ubuntu Server 16.04
-軟體: umurmur
-下載原始碼 目前最新版本0.2.17 sudo wget https://github.com/umurmur/umurmur/archive/0.2.17.zipsudo unzip 0.2.17.zip -d /optcd /opt/umurmur-0.2.17 
-安裝必要套件 sudo apt-get updatesudo apt-get install libconfig-dev libprotobuf-c-dev libssl-dev cmake build-essential 
-編譯程式並安裝 cd ..sudo mkdir umurmur-buildcd umurmur-buildsudo cmake ../umurmur-0.2.17/ -DSSL=opensslsudo makesudo make install 
-修改組態 sudo vim /usr/local/etc/umurmur.conf welcometext = &amp;ldquo;歡迎詞&amp;rdquo;;
-password = &amp;ldquo;VoIP Password&amp;rdquo;;
-max_users = 最大連線數;
-bindport = VoIP 服務 Port; bindaddr = &amp;ldquo;VoIP 服務 Address&amp;rdquo;;
-
-設定頻道資訊 name = &amp;ldquo;頻道名稱&amp;rdquo;;
-parent = &amp;ldquo;上層頻道名稱&amp;rdquo;;
-description =&amp;ldquo;頻道描述&amp;rdquo;;
-noenter=true/false; #是否禁止進入
-silent = true/false; #是否為安靜模式
-position = 0/1/2/3&amp;hellip;&amp;hellip; #同層頻道排列順序，依照字母排序
-password = &amp;ldquo;頻道密碼&amp;rdquo;;
-設定範例 channels = ( { name = &amp;#34;Root&amp;#34;; parent = &amp;#34;&amp;#34;; description = &amp;#34;Root channel. No entry.&amp;#34;; noenter = true; }, { name = &amp;#34;Lobby&amp;#34;; parent = &amp;#34;Root&amp;#34;; description = &amp;#34;Lobby channel&amp;#34;; }, { name = &amp;#34;Silent&amp;#34;; parent = &amp;#34;Root&amp;#34;; description = &amp;#34;Silent channel&amp;#34;; silent = true; # Optional. Default is false }, { name = &amp;#34;Team A&amp;#34;; parent = &amp;#34;Lobby&amp;#34;; description = &amp;#34;The Team A channel&amp;#34;;position = 0; # Optional. Default is 0 and the channels will be shown in alphabetic order.# password = &amp;#34;nopassword&amp;#34;;},{name = &amp;#34;Team B&amp;#34;;parent = &amp;#34;Lobby&amp;#34;;description = &amp;#34;The Team B channel&amp;#34;;position = 1; # Optional.</description>
-    </item>
-    
-    <item>
-      <title>ubuntu 升級作業系統版本</title>
-      <link>https://oxygentw.net/blog/computer/ubuntu-do-release-upgrade/</link>
-      <pubDate>Mon, 19 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://oxygentw.net/blog/computer/ubuntu-do-release-upgrade/</guid>
-      <description>我管理的伺服器有一台是 ubuntu 14.04，看了好討厭喔XD 就決定把它升級成 16.04。
-
-先更新套件管理工具
-sudo apt-get update
-
-升級套件
-sudo apt-get upgrade
-
-升級目前系統
-sudo apt-get dist-upgrade
-
-關鍵來了！升級作業系統版本的指令，執行後依序回答他跑出來的問題，等他跑完就更新好。
-sudo do-release-upgrade
-
-最後做個收尾
-sudo apt-get autoremove sudo reboot  完成，很簡單吧！但我更新後有遇到一些小問題，例如 14.04 使用 php5.6，而 16.04 是 php7.0，Apache就出了點問題，需要更換 php 版本才能正常運作，不過整體上都是不會有差別的。</description>
-    </item>
-    
-    <item>
-      <title>使用 gitea 自行架設 git 伺服器</title>
-      <link>https://oxygentw.net/blog/computer/use-gitea-build-own-git-server/</link>
-      <pubDate>Sun, 18 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://oxygentw.net/blog/computer/use-gitea-build-own-git-server/</guid>
-      <description>雖然說有 github 的免費服務可以用，但有時候若程式碼不想公開又需要用到 git 版本管理就會有些不方便，既然現在有空伺服器，就幫學校架一個吧！也分享安裝過程給其他想自己架設 git server 的人。
-我使用 gitea 這套用 go 語言開發的開源，第一步到 gitea 的 GitHub 依照自己的作業系統下載主程式。
-我以 ubuntu server 為例。
-  
-如果不知道自己電腦是什麼架構可以用arch指令查詢
-arch 
-下載完成後，因為主程式會自動生成一些檔案，先把它移到安裝目錄下並把程式名稱改短一點
-sudo mkdir /opt/giteasudo mv gitea-1.4.0-rc3-linux-amd64 /opt/gitea/giteacd /opt/giteasudo chmod +x gitea 
-安裝前我們還需要 Mysql 資料庫，若已安裝可略過這步。
-#Installsudo apt-get updatesudo apt-get install mysql-server#Configuremysql_secure_installation 
-接著在 Mysql 中創建一個給 gitea 使用的資料庫，這邊我就不贅述了，不會操作的話可以參考網路上的這篇文章。
-啟動主程式，gitea預設會使用 port 3000，防火牆記得允許！
-sudo ./gitea 
-用瀏覽器訪問你伺服器的 port 3000，依照安裝頁面設定。 設定完後按立即安裝，等他一會兒就自動安裝好了！
-    
-再次訪問 gitea 看到這畫面安裝就完成啦！不過還差一步，把 gitea 設成系統服務。
-  在/etc/init.d新增一個檔案
-sudo touch /etc/init.d/giteasudo chmod +x /etc/init.d/gitea 
-複製這個網頁裡的文字到剛剛新建的檔案，找到以下內容並修改。
-(這檔案適用 ubuntu/debian，其他作業系統可以到這頁面找找)
-DESC=&amp;#34;對這個軟體的描述&amp;#34;NAME=giteaSERVICEVERBOSE=yesPIDFILE=/var/run/$NAME.pidSCRIPTNAME=/etc/init.d/$NAMEWORKINGDIR=安裝目錄路徑DAEMON=$WORKINGDIR/$NAMEDAEMON_ARGS=&amp;#34;web&amp;#34;USER=用來啟動 gitea 的使用者 
-啟動服務
-sudo /etc/init.d/gitea start  檢查是否成功啟動
-sudo lsof -i :gitea 的監聽 port | grep LISTEN
-
-出現這樣就是成功
-gitea 15793 root 8u IPv6 15140468 0t0 TCP *:x11 (LISTEN) 完成！</description>
-    </item>
-    
-    <item>
-      <title>Ubuntu 安裝 node.js 和 redis 資料庫</title>
-      <link>https://oxygentw.net/blog/computer/ubuntu-install-nodejs-and-redis/</link>
-      <pubDate>Sat, 17 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://oxygentw.net/blog/computer/ubuntu-install-nodejs-and-redis/</guid>
-      <description>團隊職位更換後我負責管理伺服器，服務後端需要用到 node.js 和 Redis，順手記錄一下安裝過程。
-安裝 node.js
-curl -sL https://deb.nodesource.com/setup_9.x | sudo -E bash - sudo apt-get install -y nodejs 
-檢查 node.js 版本
-node -vv9.5.0 
-安裝 Redis sudo apt-get updatesudo apt-get install redis-server
-
-檢查redis伺服器狀態
-netstat -nlt|grep 6379 
-執行 redis-cli 測試
-127.0.0.1:6379&amp;gt; keys *(empty list or set) 
-為了保護資料庫，必須設置資料庫密碼，修改 /etc/redis/redis.conf。
-取消註解 requirepass 並設置密碼
-
-為了讓遠端主機可以存取 Redis，找到 bind 127.0.0.1 這行，將允許訪問資料庫的IP補上去
-Example:
-bind 127.0.0.1 192.168.1.156 #允許所有主機連入 bind 0.0.0.0
-重新啟動資料庫
-sudo service redis restart Redis 遠端連線指令 redis-cli -a [Redis Password] -h [Remote Host Address]
-
-參考資料 https://github.com/nodesource/distributions
-http://blog.fens.me/linux-redis-install/</description>
-    </item>
-    
-    <item>
-      <title>[食譜] 簡單茶凍</title>
-      <link>https://oxygentw.net/blog/notes/tea-pudding/</link>
-      <pubDate>Wed, 07 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://oxygentw.net/blog/notes/tea-pudding/</guid>
-      <description>茶凍，一個很簡單卻很好吃的甜點，只需要30分鐘左右即可完成，但是讓他凝固要2小時，材料也不會很難，可說是個經濟實惠的甜點呢!我做了很多次都沒有失敗過喔！
-材料  冷水200ml 熱水300ml 茶包一包 砂糖70g 吉利T(Jelly T) 8g  大家比較不熟悉的應該是吉利T了，它是果凍成形的關鍵，是一種食品添加物，有和藥物賦形劑類似的效果，如果沒有它，做出來的東西只是糖水加茶。
-在一般烘培材料行都買得到(超市可能也有)
-
-所有材料   
-作法 1.把吉利T倒進冷水裡，不能把冷水倒入吉利T喔!
-2.加入砂糖
-3.把茶包放進熱水泡茶，大約到下個步驟完成就泡好了。
-4.用中小火加熱，直到吉利T融化，稍微沸騰後離火，中途要不停攪拌!
-5.把泡好的茶加入融化的吉利T糖水裡
-6.攪拌均勻
-7.倒入容器裡，放涼，再放入冰箱約2小時左右
-
-製作過程照片 1.將吉利T倒入冷水
-   2.加入砂糖
-   3.用中小火煮到吉利T和糖混合均勻
-   4.融化後離火
-   5.加入泡好的茶
-   6.倒入容器裡，放涼，再放入冰箱約2小時左右(下圖為兩倍材料的量)
-   完成！
-    &amp;ndash;修改自我古老的 Xuite 站</description>
-    </item>
-    
-    <item>
-      <title>製作太陽能充電站</title>
-      <link>https://oxygentw.net/blog/notes/make-solar-charging-device/</link>
-      <pubDate>Wed, 07 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://oxygentw.net/blog/notes/make-solar-charging-device/</guid>
-      <description> 前些日子學校採買零件時有買兩片小太陽能板，最近送到了，隔了超久我都已經忘記有買這個了XD，不過對我們專題沒有太大幫助，就想說能不能做一個太陽能充電站，雖然電流不大可想而知會充很慢，但反正從太陽那邊拿能量就給他慢慢充沒關係呀！
-因為一片太陽能板電流很弱(270mA)，不足以給手機充電，所以採用太陽能板並聯的方式使電流相加，但當太陽能充電器在沒有太陽時沒辦法輸出電壓，可能會導致電子設備電池裡的電壓較高而使電流從電池逆流回太陽能板造成太陽能板的損壞，所以要在中間加一個二極體防逆保護的裝置。二極體防逆保護板是製作這個充電站的重點。
-所需材料  1N4001 二極體 *2 (datasheet) LiPo Rider Pro *1 太陽能板 *2 JST2.0 母座 *2 JST2.0 公座 *1 萬用板 *1 焊接工具 三用電錶  
-LiPo Rider 電源管理模組 LiPo Rider 是一個太陽能電源管理模組，他能把太陽能板輸入的電充進 3.7V 鋰電池，也能直接供應給 5V USB，包含電源開關、電池電量顯示、自動充放電管理等等的功能，功能很多，供給手機需要較大電流，所以我選用能支援到 1A 的 LiPo Rider Pro，因此一片要價台幣 400 元左右，可以到蝦皮購物上搜尋就買的到了，如果只需要小電流驅動微控制器就買一般的即可，比較便宜。
-
-LiPo Rider Pro 模組燈號    CH pin level (紅色 LED) OK pin level (綠色 LED) 狀態     開 關 充電中   關 開 充電完成   閃爍 開 無法識別電池   關 關 輸入電壓小於閥值或小於電池電壓    
-架構 太陽能版 -&amp;gt; 二極體防逆保護板 -&amp;gt; LiPo Rider Pro -&amp;gt; 鋰電池、電子設備等等
-
-二極體防逆板電路 就很簡單的連接二極體而已，若要並聯更多組可以自行增加。
-  
-製作過程 首先，把JST2.0公座和JST線接在一起，作為防逆保護板和 LiPo Rider Pro 的連接線。
-  
-把 JST2.0 母座和 1N4001 二極體照著電路圖排好。
-  
-焊上板子(技術爛焊的很醜，但它確確實實可以用 XD)，用電錶確認電路沒問題。
-   把太陽能板接上防逆板的太陽能板接口，並把防逆保護板接到 LiPo Rider Pro 上
-   把太陽能板拿到陽光下看看燈號是否正常(紅綠皆亮)，若是晚上或陰天可以拿到鹵素燈下測試。
-     大功告成！可以充電，但真的很慢，可能要再加一片太陽能板才行。
-  </description>
-    </item>
-    
-    <item>
-      <title>允許 Mysql 從外網存取</title>
-      <link>https://oxygentw.net/blog/computer/allow-mysql-access-from-internet/</link>
-      <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://oxygentw.net/blog/computer/allow-mysql-access-from-internet/</guid>
-      <description>開發 node.js 應用程式時需要遠端存取 Mysql 資料庫，即使遠端主機的防火牆都允許 Mysql 的埠號了卻還是一直連接失敗，Google 後才發現原來是 Mysql 設定檔中預設只允許本機連入的關係，只要修改一行設定即可開放外網存取的權限。
-編輯 /etc/mysql/mysql.conf.d/mysqld.cnf
-
-將 bind-address(紅框處)的127.0.0.1 改成 0.0.0.0， 允許所有主機連入。
-
-再 sudo service mysql restart 重新啟動資料庫即可。</description>
-    </item>
-    
-    <item>
-      <title>莫須有</title>
-      <link>https://oxygentw.net/blog/poetry/unwarranted-aspersion/</link>
-      <pubDate>Sat, 30 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://oxygentw.net/blog/poetry/unwarranted-aspersion/</guid>
-      <description>即使在校園中，仍然存在著不平等的權力與欺騙，是無知，或誣陷，不實的指控成為強而有力的刺刀，罪人的演技很好，他的淚水贏得了多少同情? 而我們呢? 真誠的面對世界，解釋一切非我們所為，以為一切就會歸於平靜，然而卻遭到更多的懷疑與迫害，或許，我們犯的錯就是，過度信任信任這回事。
-創作於 2017 / 11 /24 身為嫌疑犯的夜晚
-燦爛的笑容 鋒利的匕首
-光輝下的陰暗 由誰來識破？
-萬無一失的謊言 包覆著利益的複合體
-複合著你的利益與他的悲鳴
--
-莫須有 實在也是一個罪名
-不論你以「莫須有」或「莫，須有」解釋
-都能說得通
-更加為你的推論提供了佐證
-喔，抱歉 你不需要證據
--
-通貨膨脹
-當貨幣的內涵小於面額時發生
-信任的通貨膨脹
-人際間的互動以安然的外殼掩飾內在的空虛
-信任貶值
-人們開始利益的以物易物
--
-一舉一動受到無形的監視
-信任的後果是謀殺
-破碎的血肉
-是被蹂躪過橫的鮮紅顏料
-在陽光的反照下 頗美的 不是嗎?
--
-權力的殿堂中供奉著你們的狂喜
-權力之下將成為必需的供品
-無效的怒吼 無力的掙扎
-抗議著不公與真理被蒙蔽是百姓最後的嘆息</description>
-    </item>
-    
-    <item>
-      <title>閏年規則由來</title>
-      <link>https://oxygentw.net/blog/notes/leap-year-rule/</link>
-      <pubDate>Wed, 27 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://oxygentw.net/blog/notes/leap-year-rule/</guid>
-      <description> 我們現在使用的曆法屬於太陽曆，也就是以太陽運行為標準所訂下的，大多數人都知道有一個用來修正時間的規則 — 閏年，使的特定年份會有366天，但其中設計這套規則的意義就較不為人所知了。
-從閏年規則說起，以下是我們熟知的閏年規則
- 每四年閏一年 逢百年不閏 逢四百年閏一年  說起來還真的有些複雜，事實上，我們所說的修正，其實是在修正我們所認知的一年與回歸年(tropical year)之間的差距，那甚麼是回歸年呢?
-
-回歸年 回歸年是指太陽在黃道上回到同一位置的週期，是從地球上觀察的角度定義的，一回歸年等於365.2422個平均太陽日，又因為地球自轉軸進動(自轉軸每年會有小角度變化，這又是另一個學問，在此先不談)的影響，每年會和恆星年有 20分24秒的差距。
- 　一年 = 365平均太陽日
-1回歸年 = 365.2422平均太陽日
-1恆星年 = 365.2564平均太陽日
- 每年有 365.2422天，那少過的0.2422天呢? 我們沒辦法過 0.2422天，但也不能當作沒這回事啊，因此將他累積起來，積到差不多一天的時候再來修正，因此每四年會閏一年，但 0.2422 * 4 ≠ 1，所以接下來會繼續累積，修正，累積，修正……我用下面的算式說明。
- 過了四年，總共少0.9388天
--0.2422天 * 4 = -0.9388天
-# 每四年閏一次，多加一天進去，但這樣卻多了0.0312天 -0.9388天 +1天 = 0.0312天
-# 過了一百年後，居然多了 0.78天 0.0312天 * 25 = 0.78天
-# 於是逢百不閏，扣掉多的天數，但又少0.22天
-0.78天 - 1 = -0.22天
-# 四百年後，少的天數達0.88天
--0.22天 * 4 = -0.88天
-# 逢四百一閏，減掉多餘的一天
--0.88天 + 1 = +0.12天
- 
-各位可能會有個疑問，就算四百年閏一天，不也還有多0.12天嗎? 為甚麼不繼續寫下去? 沒錯！的確是要修正，照理會在0.12天 * 8 = 0.96天發生時修正，也就是每3200年一次，不過現在是2017年，還用不到，所以沒有才制定，大致上這就是為什麼要閏年，又為什麼是這樣的規則的原因。
-閏年的計算在以程式語言實作非常簡單，僅需簡單的運算與判斷即可達成，放上一段範例 code。
-def IsLeapYear(year): if year % 400 == 0: return True #是閏年 elif year % 100 == 0: return False #不是閏年 elif year % 4 == 0: return True #是閏年 return False #不是閏年  </description>
-    </item>
-    
-    <item>
-      <title>WSL — Windows 下的原生 Ubuntu 系統</title>
-      <link>https://oxygentw.net/blog/computer/windows-subsystem-for-linux/</link>
-      <pubDate>Sat, 21 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://oxygentw.net/blog/computer/windows-subsystem-for-linux/</guid>
-      <description>WSL(Windows Subsystem for Linux) 是由 Microsoft 和 Canonical 共同開發，讓使用者可以在 Windows 系統下原生執行 Linux 二進制執行檔，並提供了一個 Bash 以及其他 Linux 內和所支援的功能。若你是開發者，你將可以在 Windows 下編譯原生 ELF 格式檔案，也可以使用 make 等等開發工具。
-先加入測試人員組建，確定把 Windows 10 升級到 16215.0 以上，而且要是 64 位元系統(現在大多數都是了)。
-直接到 Microsoft 市集搜尋 linux 找到自己喜歡的發行版並安裝它，我以 Ubuntu 為例。Microsoft Store 連結
-
-安裝完成後啟動，應該會看到這個錯誤，這是因為系統還沒有啟動 WSL 的功能。
-Installation Failed! Error: 0x8007887e
-
-以系統管理員身分執行 PowerShell，輸入以下指令來啟動 WSL
-Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
-
-完成後 PowerShell 會叫你重新啟動電腦以完成設定，就重新啟動吧~
-重新啟動後再開啟 Ubuntu 這個「應用程式」，它會自動開始安裝。
-等它個幾分鐘，完成後會叫你設定帳號和密碼，設定完就可以使用 Ubuntu 了！
-
-
-接下來的用法就和正常的 Linux 一樣，既然一樣，你可能會想說裝個 GUI 來用，嗯&amp;hellip;&amp;hellip;建議不要，我試過安裝 KDE-Desktop 和 Xfce4，KDE 會有程式崩潰的問題，Xfce 雖然不會，但仍然很不穩定，動不動就會 X server 無法啟動或是 GUI 崩潰，所以建議目前先不要安裝 GUI，就當作是 SSH 遠端來使用吧！等到更新幾次之後再試看看。
-有了這個後寫程式真的變得異常方便啊！不需要開一整個虛擬機就有 Linux 可以用，有 make 是多麼美好的一件事~ 順帶一提，Windows 原本的 C槽路徑會是 /mnt/c，而D槽是 /mnt/d 以此類推。</description>
-    </item>
-    
-    <item>
-      <title>Linux 壓縮檔相關指令</title>
-      <link>https://oxygentw.net/blog/computer/linux-zip-file-command/</link>
-      <pubDate>Wed, 27 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://oxygentw.net/blog/computer/linux-zip-file-command/</guid>
-      <description>在使用 Linux Server 的時候常常需要使用命令列介面解壓縮，因為沒有 GUI 啊！那麼多種壓縮檔，每個指令又那麼像&amp;hellip;&amp;hellip;每次要用都得查一次，不如我就來整理一番！
-zip 相關套件 zip unzip
-壓縮 zip fileName.zip Directory
-解壓 unzip fileName.zip
-
-rar 相關套件 rar
-壓縮 rar a fileName.rar Directory
-解壓 rar e fileName.rar
-
-tar 相關套件 tar (應該內建都有)
-壓縮 tar cvf fileName.tar Directory
-解壓 tar xvf fileName.tar
-
-gz 相關套件 gzip
-壓縮 gzip fileName.gz Directory
-解壓 gzip -d fileName.gz
-
-tgz 相關套件 tar
-壓縮 tar zcvf fileName.tgz file
-解壓 tar zxvf fileName.tgz
-
-bz 相關套件 bzip2
-壓縮 ??
-解壓 bzip2 -d fileName.bz
-
-bz2 相關套件 bzip2
-壓縮 bzip2 -z fileName.bz2 Directory
-解壓 bzip2 -d fileName.bz2
-
-Z 相關套件 tar
-壓縮 compress fileName
-解壓 uncompress fileName.Z
-
-7z 相關套件 7zip-full 壓縮 7z a fileName.7z Directory [-pPASSWOWD]
-解壓 7z x fileName.xz
-
-xz 相關套件 xz-utils
-壓縮 xz -z fileName
-解壓 xz -d fileName.xz
-
-lha 相關套件 lha
-壓縮 lha -a fileName.lha Directory
-解壓 lha -e fileName.lha
-tar.gz 相關套件 tar
-壓縮 tar zcvf fileName.gz Directory
-解壓 tar zxvf fileName.gz
-
-tar.bz 相關套件 tar
-壓縮 ??
-解壓 tar jxvf fileName.tar.bz
-
-tar.bz2 相關套件 tar
-壓縮 tar jcvf fileName.tar.bz2 Directory
-解壓 tar jxvf fileName.tar.bz2
-
-tar.xz 相關套件 tar
-壓縮 tar Jcvf fileName.tar.xz Directory
-解壓 tar Jxvf fileName.tar.xz
-
-tar.z 相關套件 tar
-壓縮 tar Zcvf fileName.tar.z Directory
-解壓 tar Zxvf fileName.</description>
-    </item>
-    
-    <item>
-      <title>Linux 安裝 Go 語言環境</title>
-      <link>https://oxygentw.net/blog/computer/linux-install-go-environment/</link>
-      <pubDate>Sun, 24 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://oxygentw.net/blog/computer/linux-install-go-environment/</guid>
-      <description>Go 是 Google 開發的程式語言，語法和 C語言 相似，但變數宣告並不相同，而且有垃圾回收機制，我接觸一下 Go 語言後就愛上它了，它可以非常方便的建立 Web 服務，加上 goroutine 的非阻塞式執行函式等等的功能，它還可以開發 Android 和 ios 的應用程式，Go 所編譯出來的都是原生二進制執行檔，不會像 Python 一樣部署的時候一堆檔案亂七八糟的很麻煩，同時也可以保護程式碼的安全！
-現在就來安裝 Go 的開發環境吧~
-
-這又是簡單到不行的一個安裝，只須以下幾個步驟
-更新套件資料庫與升級 sudo apt-get update sudo apt-get upgrade  
-安裝 Go 語言套件 sudo apt-get install golang
-
-檢查是否成功安裝，成功則會顯示類似文字 : go version go1.6.2 linux/amd64
-go version
-
-查看 Go 環境參數 go env
-
-完成 !</description>
-    </item>
-    
-    <item>
-      <title>C&#43;&#43; 獨立重複白努力試驗模擬</title>
-      <link>https://oxygentw.net/blog/notes/cpp-bernoulli-trial-simulation/</link>
-      <pubDate>Tue, 19 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://oxygentw.net/blog/notes/cpp-bernoulli-trial-simulation/</guid>
-      <description>數學課上到這部分，依據大數法則，試驗的次數越多，結果會越相似於常態分佈，但丟硬幣100次都嫌累了，根本沒辦法看出甚麼所以然來，這時電腦就好用了，寫個小程式，數分鐘內幫你丟五億次硬幣! 還可以更多呢!
-/* * Bernoulli Trial simulation * By C++ * License MIT * 2017/09/19 oxygen */ #include &amp;lt;iostream&amp;gt; #include &amp;lt;fstream&amp;gt; #include &amp;lt;cstdlib&amp;gt; #include &amp;lt;ctime&amp;gt; using namespace std; //Global Variable unsigned long long sample = 0,run_time = 0; void init() { fstream fp; fp.open(&amp;quot;data.txt&amp;quot;,ios::out); fp&amp;lt;&amp;lt;&amp;quot;id,true,false,True-rate,False-rate\n&amp;quot;; fp.close(); srand( (unsigned)time(NULL)); cout&amp;lt;&amp;lt;&amp;quot;Program is running...\n&amp;quot;; } bool Random() { unsigned int ran = (int)((rand() / (RAND_MAX+1.0)) * (10 - 1 + 1.0) + 1); if(ran % 2 == 0) return true; return false; } void write_file(const int id,const unsigned long long True_number,const unsigned long long False_number) { fstream fp; fp.open(&amp;quot;data.txt&amp;quot;,ios::out|ios::app); fp&amp;lt;&amp;lt;id&amp;lt;&amp;lt;&amp;quot;,&amp;quot;&amp;lt;&amp;lt;True_number&amp;lt;&amp;lt;&amp;quot;,&amp;quot;&amp;lt;&amp;lt;False_number&amp;lt;&amp;lt;&amp;quot;,&amp;quot;&amp;lt;&amp;lt;(True_number/(double)run_time)*100&amp;lt;&amp;lt;&amp;quot;%,&amp;quot;&amp;lt;&amp;lt;(False_number/(double)run_time)*100&amp;lt;&amp;lt;&amp;quot;%\n&amp;quot;; fp.close(); } int main() { cout&amp;lt;&amp;lt;&amp;quot;How many times do yo want to run? &amp;gt;&amp;quot;; cin &amp;gt;&amp;gt; sample; cout&amp;lt;&amp;lt;&amp;quot;How many times do yo want to run in one sample(n)? &amp;gt;&amp;quot;; cin &amp;gt;&amp;gt; run_time; init(); for(int c=0; c&amp;lt;sample; c++) { unsigned long long True_number = 0,False_number = 0; for(unsigned long long i=0; i&amp;lt;run_time; i++) { if(Random()) True_number++; else False_number++; } write_file(c+1,True_number,False_number); } cout&amp;lt;&amp;lt;&amp;quot;Complete!\n&amp;quot;; }  解釋一下程式碼
-init() 是程式一開始執行的函式，會把輸出檔案的標題輸出好，並初始化亂數器。
-Random() 是最主要的部份，會隨機取出1~10的數字，如果是偶數則當作成功，回傳 true ，若是奇數則做為失敗，回傳 false。
-write_file() 很簡單，把每一筆計算過的結果寫入檔案，參數需傳入[樣本編號][成功次數][失敗次數]，他便會算出比率並寫入檔案。
-main() 會先詢問使用者要執行幾回，每回有幾次試驗，輸入完後就會執行 init() 做初始化，隨後開始自動計數，每當 Random() 回傳 true 成功加一，回傳 false 失敗加一，直到達到使用者設定的次數，變數因為希望可以儲存很大的數字，所以我宣告 unsigned long long，理論上可以儲存到 18446744073709551615 這麼大的數字，但我實際測試到十四億就不行了，還在找原因中&amp;hellip;&amp;hellip;
-
-我把程式寫完後就遠端送到 Linux 去處理，性能比較好些，於是我也寫了 Makefile。
-# Makefile of Bernoulli Trial simulation all:Bernoulli-Trial-simulation.cpp g++ Bernoulli-Trial-simulation.cpp -o Bernoulli-Trial-simulation clean: rm -f Bernoulli-Trial-simulation  超簡單的 Makefile XD就只是編譯和移除兩行指令而已，但能只打 make 就編譯還是比較方便 !</description>
-    </item>
-    
-    <item>
-      <title>翻譯 - DSM-5 305.90 咖啡因依賴症</title>
-      <link>https://oxygentw.net/blog/notes/dsm-5-305-90-translation/</link>
-      <pubDate>Sat, 26 Aug 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://oxygentw.net/blog/notes/dsm-5-305-90-translation/</guid>
-      <description>引言 咖啡因中毒是一種由高劑量咖啡因所引起的中樞神經過度刺激。咖啡因，世界上消耗量最大的精神藥物，具有高成癮性且能對生理、心理、精神造成損害。咖啡是攝取高劑量咖啡因最普遍的來源，其他來源包含茶、能量飲料、蘇打飲料、巧克力、止痛藥及感冒藥。攝取咖啡因可以提振精神、專注、警覺性與認知能力。根據DSM-5(APA, 2013) 的估計，美國有85%的人會固定攝取咖啡因。儘管咖啡因中毒正常不會持續超過一天，但極高劑量會有立即急救的必要，並可以致命。咖啡因中毒最常見的反應是睡眠受到干擾，青少年和學生飲用能量飲料導致咖啡因中毒的問題在年輕族群中增加。一個人每天攝取超過250毫克的咖啡因及符合過量的標準，根據DSM-5 一罐8-6盎司的能量飲料含有70-180毫克的咖啡因，一瓶energy shot 含有171毫克，24盎司的大容量裝可以高達500毫克，一杯咖啡則含有100-200毫克(Child &amp;amp; de Wit, 2011)。
-
-咖啡因中毒的症狀 咖啡因中毒的可能症狀包含焦慮、易怒、過度興奮、多尿、腸胃不適及過度緊戒。DSM-5 的咖啡因中毒診斷必須有大於250毫克的高劑量攝取咖啡因，並且含有多於五項下列症狀:
- 焦躁不安 過度焦慮 過度興奮 失眠 臉色潮紅 多尿 腸胃道紊亂 肌肉痙攣 思想渙散與多話 心動過速或心律不整 暫時性的充滿活力  這些症狀必須造成不適、影響社交或妨害到其他行為，而且和咖啡因以外的物質、心理疾病或藥物無關。小孩或老人可能會在較低劑量就發生咖啡因中毒。
-
-咖啡因中毒的危害與併發症 規律的咖啡因使用會建立對咖啡因的耐受度，不常攝取咖啡因的人有較大的機會咖啡因中毒。咖啡因攝取的量增加亦會導致中毒。每天一到兩杯咖啡就可能產生咖啡因依賴。
-許多疾病的症狀與咖啡因中毒及其戒斷症狀相似，例如其他會導致身心異常的物質：菸草、酒精或藥物成癮循環中在憂鬱後的輕微興奮，因此微小的差異在診斷上十分重要。睡眠方面的疾病很容易和咖啡因中毒搞混，因為咖啡因也會導致失眠和睡眠障礙，停止攝取咖啡因可能會出現類似躁鬱症的躁動和輕躁症的症狀。焦慮不安的情形也可能因咖啡因而加重，但單靠咖啡因不會導致嚴重的不安。咖啡因中毒可以是以上這些疾病的併發症和前兆。 咖啡因可能造成家庭、社交和工作上的障礙，其症狀會比其他成癮物質來的輕微和難以發現。然而對於從事簡單而反覆的工作的人來說，在疲勞時攝取咖啡因的能獲得精力和警覺性的幫助(Childs &amp;amp; de Wit, 2011)，但對象從事操作儀器這種高精確度的工作的人反而會降低其工作效率，因為咖啡因會使肌肉精準度受損。當一個人咖啡因中毒時，可能會和家庭成員疏離，並在說話時會顯得過度興奮。
-在年輕人中提人飲料的濫用情形最為嚴重，我們可以從癲癇、心血管疾病、代謝性酸中毒之類的酸鹼平衡疾病發生率增加來得知(Trabulo, 2011)，咖啡因攝取量的提高也常發生在致力於極限運動的身體鍛鍊者，他們為了改善並突破身體的極限而攝取咖啡因以得到體力，因為咖啡因不是世界反運動禁藥機構所禁止的物質(Poussel, 2013)。現在的研究多專注於含咖啡因產品的潛在中毒風險，很多能量飲料(e.g., taurine, niacin) 添加的咖啡因會提升中毒的風險，因為咖啡因而導致的體重下降也表現咖啡因中毒的影響。
-
-咖啡因中毒的治療 咖啡因會占用減緩腎上腺素與神經遞質多巴胺釋放的腺苷受器，在極端情況下，過度刺激的神經系統可能導致心臟病及死亡，反覆的溶血將會需要降低咖啡因濃度，使用利尿劑是幫助咖啡因盡快排出體外常用的方法。大多數的咖啡因影響會在一天內消除，反倒是咖啡因的上癮與戒斷症狀較常需要被治療，治療方法有心理治療、諮商和團體諮商。
-在 DSM-5 中有個重要的改變就是咖啡因成癮及戒斷被列入疾病的一種，可能需要心理上的幫助改善。但是因為咖啡因並沒有被歸類在管制藥品中，咖啡因成癮者可能不認真看待此問題為需要戒除或推託延遲戒除。大多數會尋求降低或停止使用咖啡因的人都是在已經引發健康問題之後，在美國有一個調查針對想要克服咖啡因依賴的人，結果顯示有43% 的人是因為專業醫療人員建議他們戒除而戒除，而高達 59% 的人則是因健康上的原因而選擇戒除(Juliano, Evatt, Richards, &amp;amp; Griffiths, 2012) 大部分咖啡因成癮的治療過程和藥物濫用及酒精成癮相似，戒治所會提供心理和行為上的治療流程。
-治療咖啡因戒斷症狀是一個成功的治療流程中的一部分，該症狀包含憂鬱、易怒、焦慮、頭痛、倦怠和難以專注，這症狀的復發率會隨著停用咖啡因時間的多寡而降低，在停用的12-24小時內，頭痛會是最主要的戒斷症狀，醫療人員可以在這段時間配予阿斯匹林或止痛藥。
-有些研究指出，咖啡因和降低自殺率有關係 (Lucas et al., 2013) ，此外，咖啡因也會拿來對抗潛在的心理疾病，像是憂鬱或焦慮，也有研究表示在咖啡因戒除的過程中需要輔以心理支持，以降低受治療者可能產生依賴其他上癮物質的自傷行為的風險。
-翻譯完成: 2017/08/26 15:31
-Original Text DSM-5 Category: Caffeine-Related Disorders 
-Introduction Caffeine intoxication is an over-stimulation of the central nervous system caused by a high dose of caffeine. Caffeine, the most consumed psychoactive drug in the world, is highly addictive and can cause physical, mental, and psychomotor impairments. Coffee is the most common source of a high intake of caffeine. Other sources of caffeine are tea, energy drinks, soda, chocolate, analgesics, and cold remedies. Caffeine is taken to improve mood, concentration, alertness, and cognitive function. About 85% of the US population ingests caffeine regularly, estimates the DSM-5 (APA, 2013). Although caffeine intoxication typically does not last for more than a day, very high doses can require immediate medical attention and be lethal. The most common complaint of caffeine intoxication is interference with sleep. Caffeine intoxication is a growing problem in younger age groups due to the popularity of energy drinks among adolescents and students.</description>
-    </item>
-    
-    <item>
-      <title>Linux 架設 Minecraft Server</title>
-      <link>https://oxygentw.net/blog/computer/linux-minecraft-server/</link>
-      <pubDate>Sat, 29 Jul 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://oxygentw.net/blog/computer/linux-minecraft-server/</guid>
-      <description>如果有人有玩 Minecraft 應該會覺得這遊戲就是要多人才好玩吧，但架伺服器拿自己家裡的電腦就不能長時間開機，不然很耗電! IP設定也大多需要 Hamachi，比較不方便，如果把 Minecraft Server和有其他服務的伺服器放在一起，就可以順便用一點點資源借來玩遊戲啦! 通常伺服器用 Linux系統，所以我就用 Linux教學囉~
-示範主機為 CentOS 7
-Minecraft 是用 Java寫的，所以先檢查有沒有安裝 Java，如果沒有就去裝一下吧。
-java -version
-
-接著，我們新增一個 Minecraft Server 的資料夾
-mkdir minecraft_server cd minecraft_server  
-再來下載伺服器軟體，有官方載點和水桶載點等等，如果有架過就選自己喜歡的，沒有的話就用官方的就行了，沒有差很多。 官方伺服器軟體:
-wget https://s3.amazonaws.com/Minecraft.Download/versions/1.12/minecraft_server.1.12.jar
-或是從 Bukkit 網站 下載後放入伺服器
-
-新增一個文件 run.sh，這是用來開啟伺服器的bash，-Xms 後加上伺服器最小記憶體用量， -Xmx則是最大用量。
-nohup java -Xms256M -Xmx512M -jar minecraft_server.1.12.jar &amp;amp;
-
-然後以 root 權限執行他，執行後不會成功啟動，但資料夾裡會多出一些檔案，我們等等要修改他。
- sh run.sh 
-
-修改 elua.txt elua=false 改成elua=true
-
-修改 server.properties 加入兩行字
-server-ip=你的IP位置
-online-mode=true/false #是否驗證正版，如果希望迷版也可以玩就設false，不希望反之。
-
-接著再用 root 執行一次
-sh run.sh 伺服器就會開啟，如要查看log檔可以去 nohup.out 或 log的資料夾裡看</description>
-    </item>
-    
-    <item>
-      <title>淺談自殺</title>
-      <link>https://oxygentw.net/blog/prose/about-suicide-depression/</link>
-      <pubDate>Mon, 17 Jul 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://oxygentw.net/blog/prose/about-suicide-depression/</guid>
-      <description>自殺。
-或許是一種逃避，或許是種不負責任的行為，也或許代表著解脫。
-我們很常聽到這些話:
-“如果你死了，真正痛苦的是你的家人”
-“你為什麼要把痛苦加諸於他人”
-“換個想法不就好了，有必要這樣嗎”
-等等
-可是各位有沒有認真想過，世界既然如此美好，人生只有一次不能重來，為什麼那些人依然要結束自己珍貴的生命呢?
- 既然活著不快樂的時間比快樂多，我為什麼還要活著?
- 這是一句曾打算自殺的人問的問題。
-這問題看似簡單，卻隱含了深層的悲哀，當一個人飽受憂鬱折磨，心中充滿了無望感，沒有所謂希望的明天，只有滿滿的無力感。
- 憤怒是一種珍貴的情緒，有了他，我反而開心
- 這句話也令人匪夷所思，有人喜歡憤怒? 憤怒可以開心那還叫憤怒嗎? 當憂鬱達到了一個程度，無望感支配了整個情緒，心中的喜怒哀樂，都只剩下了哀，儘管發生什麼不如意的事，心中只有一個念頭“反正世界就是如此，我也改變不了” 那麼，既然我改變不了這令我失望的世界，那我就自我了結。
-直到憂鬱的情形緩解，能夠再次體會到憤怒情緒，會感受到一種安心，因為憤怒代表我想反抗，我還有改變現在局面的希望，儘管我並不快樂，但卻多了一種存在的感受。想自殺的人，到臨死前最後一刻，內心都是不想死的，但，他們找不到活著的價值，認為世界不需要他們，又或是活著的痛苦已無法承受，用盡了方法掙扎，也無力抵抗，只剩最後一種方法沒試，那就是去死。
-所以，請不要再問那種蠢問題，當一個人決定要自殺，他必定承受極大的痛苦，會產生自傷行為多半因為壓力已經產生心理上的疾病，這時他哪裡有多餘的精力去管身邊的人在他死後會承受多少傷害，這樣責備式的問句，可能摧毀他最後的自我價值，而導致遺憾發生。面對身旁有自殺意念，傾向的人，多多注意他，但不要時時刻刻就去問他現在好不好，這會讓他備感壓力，如果他願意向你訴說，那麼你通常是他很重要的人，也是能拯救他的關鍵。接受他的傾訴，無須向他表達太多你的高見，點到為止，如果可以，給他一個擁抱，讓他覺得他還有存在的價值與依靠，在他最無助的時候能有一股溫情陪伴他走過，他並不孤單。</description>
-    </item>
-    
-    <item>
-      <title>Linux 使用終端機製作開機碟</title>
-      <link>https://oxygentw.net/blog/computer/linux-use-terminal-makebootdisk/</link>
-      <pubDate>Sat, 15 Jul 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://oxygentw.net/blog/computer/linux-use-terminal-makebootdisk/</guid>
-      <description>之前需要在 linux 的環境下製作 server 的開機碟，但我不會用給 linux 的燒錄工具（有內建工具，只是我懶所以就直接用終端機處理XD）於是就來分享一下做法~
-我使用的作業系統是 linux lite(Ubuntu)
-先查看 USB 在哪個位置（不能看錯噢！等等映像燒錯磁碟會非常可怕&amp;hellip;)
-lsblk
-
-卸載磁碟來進行後續步驟，USB 位置填剛剛 lsblk 查到的位置。
-umount /media/user/149C-FF09
-
-再來要格式化磁碟，記得先備份 USB 裡的東西。 以我的電腦而言是 /dev/sdb 你的或許不同，千萬不要照抄
-sudo mkfs.vfat /dev/sdb
-
-如果遇到這個錯誤就加個 -I 參數: mkfs.vfat: Device partition expected, not making filesystem on entire device &amp;lsquo;/dev/sdb&amp;rsquo; (use -I to override)
-sudo mkfs.vfat -I /dev/sdb
-
-接者寫入映像檔，if(input file) 填入映像檔路徑，of(output file) 填入要寫入的路徑
-sudo dd if=/home/user/download/ubuntu-16.04.2-server-amd64.iso of=/dev/sdb
-
-燒錄需要一點時間，等他跑完就完成了！</description>
-    </item>
-    
-    <item>
-      <title>酒精</title>
-      <link>https://oxygentw.net/blog/prose/wine/</link>
-      <pubDate>Sun, 09 Jul 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://oxygentw.net/blog/prose/wine/</guid>
-      <description>「鐘鼓饌玉不足貴，但願長醉不願醒」，酒精，兩碳五氫再加個羥基，好一個「何以解憂？唯有杜康。」
-啤酒下肚味覺苦如嘗膽，烈酒下肚食道灼如火燒，飲酒看似一種變態的自虐，卻又爲什麼時常出現在古代詩歌中，又爲什麼那麼多人嗜酒成性呢？
-喝酒，爲的不是果汁般的甘甜，那口感太過於諂媚，也不是要茉莉花茶的清香，茶香太清純，反而不符世道，唯獨酒類，入口即體會到人生苦悶的轉化，那是種在傍偟中的依靠，彷彿找到一個知己，一個情緒的出口。
-醉，是酒品最迷人的副作用，昏昏沉沉就像得了重感冒，迷濛的世界多了一分可愛，醉的人眼神中透露出一絲虛弱的無辜，在混沌的塵世間打拼，那顆經過無數考驗早已傷痕累累，事事充滿警覺的心，得以放下沉重的盔甲，這一刻，就屬於我自己的現在，沒有他人的中傷，沒有承擔的包袱，更沒有因錯過而註定此生不得了卻的情緣，徜徉在似有似無的虛幻中，在片刻創造出來的幸福中沉沉的睡去。
-或許有人認爲這樣是消極的逃避，但在這忙碌的社會中，是種有效的抒壓方式，既然如此，何嘗不試試看呢？
-2017/07/08-09</description>
-    </item>
-    
-    <item>
-      <title>嗯？趴在桌子上，回憶著回憶</title>
-      <link>https://oxygentw.net/blog/poetry/desk_memories/</link>
-      <pubDate>Sat, 24 Jun 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://oxygentw.net/blog/poetry/desk_memories/</guid>
-      <description>不知不覺的兩年半過去了
-我們關係早已不再密切，那不曾存在的關係
-但總是會在某個安靜的時刻想起當年
-我坐在妳右邊，傻傻的看着妳的日子
-往日的笑顏就像成爲我心靈的一部分
-此生大概已無法抹滅
- 創作於2017/06/22 一個平凡的晚自習時間
-當我將妳的意象注入我靈魂之中
-如烙刻在我心的是妳的神韻
-妳的笑與我的喜；妳的淚與我的悲
-以一種複雜而浪漫的深情纏繞</description>
-    </item>
-    
-    <item>
-      <title>windows &amp; Linux 雙系統 grub 被覆蓋的解決方法</title>
-      <link>https://oxygentw.net/blog/computer/windows-linux-grub/</link>
-      <pubDate>Sat, 15 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://oxygentw.net/blog/computer/windows-linux-grub/</guid>
-      <description>有時候在電腦上安裝 Linux和 Windows雙系統時，如果 Windows比 Linux晚裝，或是 Windows重灌，都有可能導致 grub不能正常作用，一開機直接進入 Windows，其實修正他不會很難，只有下面幾個步驟。
-首先，找到一個 Linux的開機 USB或 Live CD，用他開機，進入 Linux系統，開啟終端機。
-輸入 fdisk -l
-
-找到 Linux的開機磁區，通常是 /boot 或 / ，我的是 sdb5 /boot。
-接著輸入(如果 bootloader在/ 就把 boot改成 root，磁碟編號自行修改)
-mount /dev/sdb5 /mnt sudo grub-install --boot-directory=/mnt/ /dev/sdb5  
-這樣就能從 grub進入到原本的 Linux系統了。
-reboot
-
-把 USB移除，回到原本的 Linux開終端機輸入
-sudo update-grub
-
-這時 grub就會去找硬碟上的作業系統，下次就可以正常用 grub選單選擇系統了!</description>
-    </item>
-    
-    <item>
-      <title>祭情</title>
-      <link>https://oxygentw.net/blog/poetry/sacrifice-love/</link>
-      <pubDate>Fri, 14 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://oxygentw.net/blog/poetry/sacrifice-love/</guid>
-      <description>人們生來有情，對於感情的追逐與執著，是人類最獨特的反應
-初相識的靦腆，和那漸漸建立的信任與情愫
-心有靈犀的曖昧，到漠然的分隔
-分離兩地的情感維繫不了的期盼
-直到那份情如秋葉凋零
-誰也挽不回的寂寞與釋懷
- 創作於 2016/01/02，我等妳的第二個冬天
-昨日我是快樂的喜鵲，
-飛翔，飛翔，
-在青翠連綿的草地上飛翔，
-在粼粼的湖面輕掠，
-在七彩虹橋間穿梭，
-啾啾，
-讓世界沾染了喜悅。
-今日我是單飛的雁鳥，
-尋覓，尋覓，
-在迷濛廣大的世界中尋覓，
-在嚴寒的北方徘徊，
-在熾熱的南方盤旋，
-在東方的破曉期盼，
-在西方的餘燼等待。
-明日我是絕望的候鳥，
-天際線，天際線，
-永遠追逐著天際線，
-在荒蕪的凍土上惆悵，
-在幽寂的深淵中悔恨，
-重返南方的海洋沉淪，
-獻祭，
-回歸神靈的抱擁，
-化成我最後一抹微笑。</description>
-    </item>
-    
-    <item>
-      <title>Ubuntu 安裝 WordPress</title>
-      <link>https://oxygentw.net/blog/computer/ubuntu-install-wordpress/</link>
-      <pubDate>Sun, 09 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://oxygentw.net/blog/computer/ubuntu-install-wordpress/</guid>
-      <description>WordPress 是一個非常好用的網站架設工具，但我覺得他網頁版的免費方案擴充功能不夠完善，還會有廣告，只好花點時間自己在伺服器上安裝，這樣就沒有方案的問題了。
-
-不過一般人家裡不適合放一臺主機，組一臺主機很貴啊。。。而且還要確保供電不中斷，電費也是一筆開銷，所以如果要自己架，可以使用網路上 openshift 的主機，或是使用樹莓派來架設，樹莓派是一種微電腦，耗電小，體積小，功能也齊全，只要不要做太大型的運算，基本上都很穩定！
-
-廢話不多說，開啓終端機進入安裝步驟，伺服器必須預裝好 LAMP 喔！
-1.登入MySQL
-sudo mysql -u root -p;
-
-2.創建MySQL資料庫
-CREATE DATABASE DB_NAME;
-
-3.創建MySQL用戶
-GRANT ALL ON wordpress.* TO &#39;USERNAME&#39;@&#39;localhost&#39; IDENTIFIED BY &#39;PASSWORD&#39;;
-
-4.更新
-FLUSH PRIVILEGES;
-
-5.退出MySQL
-quit;
-
-6.啓用.htaccess
-sudo vim /etc/apache2/apache2.conf
-
-7.把Directory區塊中的AllowOverride的值設定爲All
-
-8.重新啓動模組
-sudo a2enmod rewrite
-
-9.檢查組態檔
-sudo apache2ctl configtest
-
-10.伺服器重啓
-sudo service apache2 restart
-
-11.下載WordPress 版本可自行修改成最新版本
-cd /tmp curl -O https://tw.wordpress.org/wordpress-4.7.3-zh_TW.tar.gz  
-12.解壓縮
-tar xzvf wordpress-4.7.3-zh_TW.tar.gz
-
-13.創建 .htaccess文件並修改權限
-touch /tmp/wordpress/.htaccess chmod 660 /tmp/wordpress/.htaccess  
-14.創建組態文件
-cp /tmp/wordpress/wp-config-sample.php /tmp/wordpress/wp-config.php
-
-15.將WordPress 複製到網站根目錄 (注意!會清除所有伺服器根目錄的檔案)
-sudo rm -rf /var/www/html/* sudo cp -a /tmp/wordpress/. /var/www/html  
-16.更改WordPress 目錄權限 (把LINUX-USER換成自己的linux帳戶)
-sudo chown –R LINUX-USER:www–data /var/www/html
-
-17.更改WordPress 根目錄權限
-sudo find /var/www/html -type d -exec chmod g+s {} \; sudo chmod g+w /var/www/html/wp-content sudo chmod -R g+w /var/www/html/wp-content/themes sudo chmod -R g+w /var/www/html/wp-content/plugins  
-17.編輯WordPress 配置文件
-sudo vim /var/www/html/wp-config.php 分別修改資料庫名稱、用戶名稱、用戶密碼  
-18.添加一行文字，防止插件安裝出現FTP認證界面
-define(&#39;FS_METHOD&#39;, &#39;direct&#39;);
-
-19.設置密鑰—取得密鑰
-curl -s https://api.wordpress.org/secret-key/1.1/salt/
-
-20.替換WordPress組態文件中的值
-
-21.安裝完成！ 參考資料:http://blog.topspeedsnail.com/archives/4646</description>
+      <guid>https://oxygentw.net/blog/notes/protein-operating/</guid>
+      <description>生物化學課蛋白質操作相關的筆記。 Protein purification 溶解度 大小 電荷 特殊結合位 Dialysis 透析 通常不會用來分離不同種類的蛋白質，只會用來去除鹽類(Desalt)或其他小</description>
     </item>
     
   </channel>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>MLS on Oxygen&#39;s 生活札記</title>
@@ -17,9 +17,7 @@
       <pubDate>Wed, 28 Nov 2018 00:00:00 +0000</pubDate>
       
       <guid>https://oxygentw.net/blog/notes/medical-laboratory-operate-process/</guid>
-      <description>大家應該都有在醫院做檢查的經驗，我們給醫院的檢體(尿液、血液、切片等等)大多不是醫師在檢驗，而是由檢驗科內專門的醫事檢驗師進行，醫師只會開立醫囑與檢驗單告訴醫檢師他希望做甚麼檢查來協助他診斷，就像醫師開立處方簽給藥師一樣，從醫師告訴你要去哪裡做檢查的那一刻起檢驗的流程就開始了，這個流程粗略可以分成下列幾步。
-
-檢驗前  醫師用 LIS(Laboratory Information System) 開立醫囑 採檢人員對病人採檢 將檢驗單與檢體送至醫學實驗室 檢驗科依照檢驗單醫囑收件  檢驗中  由醫事檢驗師進行各項檢驗工作 確保檢驗品質與正確性  檢驗後  醫事檢驗師檢查報告是否正確並簽署 由 LIS 傳輸 檢驗報告/臨危值通報 給醫師 保存檢體  一般實驗室標準是 ISO 17025，醫學實驗室則是 ISO 15189，在規範上更為嚴謹，是負責檢驗醫學的重要部門，一個看似簡單的健康檢查背後涉及到一整個流程與許多醫事人員的參與，一再的確認與品管，嚴格的自檢程序確保每一份報告送到醫師手上都是正確的，畢竟醫學實驗室送出去的數值若是錯誤可能會白白葬送一條無辜的生命。</description>
+      <description>大家應該都有在醫院做檢查的經驗，我們給醫院的檢體(尿液、血液、切片等等)大多不是醫師在檢驗，而是由檢驗科內專門的醫事檢驗師進行，醫師只會開立</description>
     </item>
     
   </channel>
