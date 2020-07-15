@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blogs on Oxygen&#39;s 生活札記</title>
+    <title>Blogs on 首頁 | 氧氣橘子</title>
     <link>https://oxygentw.net/blog/</link>
-    <description>Recent content in Blogs on Oxygen&#39;s 生活札記</description>
+    <description>Recent content in Blogs on 首頁 | 氧氣橘子</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sun, 24 May 2020 17:46:18 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 31 May 2020 16:29:24 +0800</lastBuildDate>
     
 	<atom:link href="https://oxygentw.net/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Python Logging 偵錯記錄模組</title>
+      <link>https://oxygentw.net/blog/computer/python-logging/</link>
+      <pubDate>Sun, 31 May 2020 16:29:24 +0800</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/python-logging/</guid>
+      <description>logging 是 Python 內建的 log 紀錄器，可以利用這個模組來進行各種不同程度的 log 輸出，這樣可以省去程式開發完後一個一個把偵錯用的 print() 刪除的時間，直接把Debug l</description>
+    </item>
     
     <item>
       <title>關於 | About</title>
@@ -180,15 +189,6 @@
       
       <guid>https://oxygentw.net/blog/travel/thsr-train-number/</guid>
       <description>紀錄高鐵車次各數字的意義，這樣訂票一目了然很方便，對於常旅行或通勤的人來說是個很有用的常識！ 高鐵車次共有四碼 ABCC 第一碼 A 代表列車週期性，第二碼</description>
-    </item>
-    
-    <item>
-      <title>蛋白質操作筆記</title>
-      <link>https://oxygentw.net/blog/notes/protein-operating/</link>
-      <pubDate>Sun, 24 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://oxygentw.net/blog/notes/protein-operating/</guid>
-      <description>生物化學課蛋白質操作相關的筆記。 Protein purification 溶解度 大小 電荷 特殊結合位 Dialysis 透析 通常不會用來分離不同種類的蛋白質，只會用來去除鹽類(Desalt)或其他小</description>
     </item>
     
   </channel>
