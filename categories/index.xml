@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Oxygen&#39;s 生活札記</title>
+    <title>Categories on 首頁 | 氧氣橘子</title>
     <link>https://oxygentw.net/categories/</link>
-    <description>Recent content in Categories on Oxygen&#39;s 生活札記</description>
+    <description>Recent content in Categories on 首頁 | 氧氣橘子</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sat, 09 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 31 May 2020 16:29:24 +0800</lastBuildDate>
     
 	<atom:link href="https://oxygentw.net/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>computer</title>
       <link>https://oxygentw.net/categories/computer/</link>
-      <pubDate>Sat, 09 May 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 31 May 2020 16:29:24 +0800</pubDate>
       
       <guid>https://oxygentw.net/categories/computer/</guid>
       <description></description>

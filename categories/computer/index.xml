@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>computer on Oxygen&#39;s 生活札記</title>
+    <title>computer on 首頁 | 氧氣橘子</title>
     <link>https://oxygentw.net/categories/computer/</link>
-    <description>Recent content in computer on Oxygen&#39;s 生活札記</description>
+    <description>Recent content in computer on 首頁 | 氧氣橘子</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sat, 09 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 31 May 2020 16:29:24 +0800</lastBuildDate>
     
 	<atom:link href="https://oxygentw.net/categories/computer/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Python Logging 偵錯記錄模組</title>
+      <link>https://oxygentw.net/blog/computer/python-logging/</link>
+      <pubDate>Sun, 31 May 2020 16:29:24 +0800</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/python-logging/</guid>
+      <description>logging 是 Python 內建的 log 紀錄器，可以利用這個模組來進行各種不同程度的 log 輸出，這樣可以省去程式開發完後一個一個把偵錯用的 print() 刪除的時間，直接把Debug l</description>
+    </item>
     
     <item>
       <title>Zuvio 自動點名程式</title>
@@ -180,15 +189,6 @@
       
       <guid>https://oxygentw.net/blog/computer/apache-server-force-https/</guid>
       <description>今天在處理轉移主機 SSL 的問題，重新申請憑證後我用 Why No Padlock? 來檢查憑證是否正確安裝，我發現有一項 Force HTTPS 檢查未通過，於是照著他的指示修改檔，讓使用者以後</description>
-    </item>
-    
-    <item>
-      <title>PHP 5 ↔ 7 版本轉換</title>
-      <link>https://oxygentw.net/blog/computer/php7-downgrade-to-php5/</link>
-      <pubDate>Tue, 05 Jun 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://oxygentw.net/blog/computer/php7-downgrade-to-php5/</guid>
-      <description>在 LAMP 的環境下有時會遇到 PHP 版本和服務需求不符的情況，有點麻煩，上網找了一下論壇發現有方法可以解決，在此紀錄一下。 環境: Ubuntu Server 16.04 LTS 關閉 Apache2 模組 sudo a2dismod proxy_fcgi</description>
     </item>
     
   </channel>
