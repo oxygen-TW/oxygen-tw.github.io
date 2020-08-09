@@ -78,7 +78,7 @@
 &lt;p&gt;隱形眼鏡可能有人已經有習慣戴了，但若是有近視的朋友想要浮潛或潛水的話記得要準備！！不要期待有度數的面鏡能讓你看得多清楚，還是戴隱形眼鏡比較適合。&lt;/p&gt;
 &lt;p&gt;防蚊液也很重要！！！不然會像我這次依樣被蚊子騷擾到發瘋XD&lt;/p&gt;
 &lt;p&gt;最後一個小刀比較特別，應該大部分人不會有吧(? 我朋友這次有帶一把類似下圖的隨身刀，看起來挺可怕的，但真的很實用，各種場合需要都可以派上用場。&lt;/p&gt;
-&lt;h2 id=&#34;hahahugoshortcode-s1-hbhb&#34;&gt;
+
 
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
@@ -89,7 +89,8 @@
     &lt;a href=&#34;https://oxygentw.net/img/post/work-exchange-baggage/knife.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
-&lt;/h2&gt;
+
+&lt;hr&gt;
 &lt;h3 id=&#34;3c產品&#34;&gt;3C產品&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;手機充電器/充電線&lt;/li&gt;
@@ -117,6 +118,7 @@
 &lt;li&gt;外傷處理用藥&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;可參考&lt;a href=&#34;https://oxygentw.net/blog/travel/travel-medicine-first-aid-kits/&#34;&gt;旅行常備藥品與急救包&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
 &lt;h3 id=&#34;其他&#34;&gt;其他&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;錢&lt;/li&gt;
@@ -128,7 +130,7 @@
 &lt;/ul&gt;
 &lt;p&gt;駕照跟潛水證都是有需要才帶喔~ 租車行租車前會看駕照，他們不像警察有辦法用身分證字號查XD 潛店也會要求潛水執照才可以 fun dive，不過如果是體驗潛水就不需要囉~&lt;/p&gt;
 &lt;p&gt;我習慣會記錄旅行手帳，所以會帶筆、紙膠帶、迴紋針，這樣挺好玩的！&lt;/p&gt;
-&lt;hr&gt;
+&lt;!-- raw HTML omitted --&gt;
 &lt;h1 id=&#34;總清單&#34;&gt;總清單&lt;/h1&gt;
 &lt;p&gt;最後幫大家整理出一個總清單，收拾行李的時候方便使用，也可以印下來喔！ &lt;a href=&#34;https://oxygentw.net/files/%E6%89%93%E5%B7%A5%E6%8F%9B%E5%AE%BF%E8%A1%8C%E6%9D%8E%E8%A1%A8.pdf&#34;&gt;列印載點&lt;/a&gt;&lt;/p&gt;
 &lt;table&gt;
@@ -435,10 +437,10 @@ Out[25]: &amp;#39;DEBUG&amp;#39;
 &lt;!-- raw HTML omitted --&gt;
 &lt;h2 id=&#34;專題與研究-project-and-research&#34;&gt;專題與研究 Project and research&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;[探討匿名聊天是否可分辨對方性別 (2018)] (&lt;a href=&#34;https://oxygentw.net/files/%E6%8E%A2%E8%A8%8E%E5%8C%BF%E5%90%8D%E8%81%8A%E5%A4%A9%E6%98%AF%E5%90%A6%E5%8F%AF%E5%88%86%E8%BE%A8%E5%B0%8D%E6%96%B9%E6%80%A7%E5%88%A5.pdf&#34;&gt;https://oxygentw.net/files/探討匿名聊天是否可分辨對方性別.pdf&lt;/a&gt;  &amp;ldquo;探討匿名聊天是否可分辨對方性別&amp;rdquo;)&lt;/li&gt;
-&lt;li&gt;[Encrypted Notepad (2017-)] (&lt;a href=&#34;https://github.com/oxygen-TW/Encrypted-Notepad&#34;&gt;https://github.com/oxygen-TW/Encrypted-Notepad&lt;/a&gt;  &amp;ldquo;Encrypted Notepad&amp;rdquo;)&lt;/li&gt;
-&lt;li&gt;[Campus Weather Service Project (2016-2018)] (&lt;a href=&#34;https://github.com/oxygen-TW/Campus-Weather-Service&#34;&gt;https://github.com/oxygen-TW/Campus-Weather-Service&lt;/a&gt;  &amp;ldquo;Campus-Weather-Service&amp;rdquo;)&lt;/li&gt;
-&lt;li&gt;[原來電腦可以這樣用!? 果蠅也懂的程式語言教學 (2019 ithome 鐵人賽)] (&lt;a href=&#34;https://ithelp.ithome.com.tw/users/20120282/ironman/2479&#34;&gt;https://ithelp.ithome.com.tw/users/20120282/ironman/2479&lt;/a&gt;  &amp;ldquo;2019 Ithome 鐵人賽&amp;rdquo;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://oxygentw.net/files/%E6%8E%A2%E8%A8%8E%E5%8C%BF%E5%90%8D%E8%81%8A%E5%A4%A9%E6%98%AF%E5%90%A6%E5%8F%AF%E5%88%86%E8%BE%A8%E5%B0%8D%E6%96%B9%E6%80%A7%E5%88%A5.pdf&#34; title=&#34;探討匿名聊天是否可分辨對方性別&#34;&gt;探討匿名聊天是否可分辨對方性別 (2018)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/oxygen-TW/Encrypted-Notepad&#34; title=&#34;Encrypted Notepad&#34;&gt;Encrypted Notepad (2017-)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/oxygen-TW/Campus-Weather-Service&#34; title=&#34;Campus-Weather-Service&#34;&gt;Campus Weather Service Project (2016-2018)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ithelp.ithome.com.tw/users/20120282/ironman/2479&#34; title=&#34;2019 Ithome 鐵人賽&#34;&gt;原來電腦可以這樣用!? 果蠅也懂的程式語言教學 (2019 ithome 鐵人賽)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;!-- raw HTML omitted --&gt;
 &lt;h2 id=&#34;期望研究領域-research-interest&#34;&gt;期望研究領域 research interest&lt;/h2&gt;
