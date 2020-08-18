@@ -6,10 +6,19 @@
     <description>Recent content in computer on 氧氣橘子</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sun, 31 May 2020 16:29:24 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 18 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://oxygentw.net/categories/computer/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>自訂 Windows Terminal 主題</title>
+      <link>https://oxygentw.net/blog/computer/set-windows-terminal-themes/</link>
+      <pubDate>Tue, 18 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/set-windows-terminal-themes/</guid>
+      <description>Windows Terminal 是 Windows 10 新型的終端機介面，整合傳統 cmd、PowerShell、Azure shell 和 WSL Bash，比原先的 cmd 要好用太多了，我今天來介紹如何更改他的</description>
+    </item>
     
     <item>
       <title>Python Logging 偵錯記錄模組</title>
@@ -180,15 +189,6 @@
       
       <guid>https://oxygentw.net/blog/computer/urlretrieve-python3/</guid>
       <description>要透過 urllib.urlretrieve 從網頁裡下載圖片，卻發現腳本報錯 AttributeError: module &#39;urllib&#39; has no attribute &#39;urlretrieve&#39;，原來是因為 Python3 後的寫法已經改變了，改法如下。 引入的部分 1 import urllib 改</description>
-    </item>
-    
-    <item>
-      <title>網頁伺服器強制使用 HTTPS 安全連線</title>
-      <link>https://oxygentw.net/blog/computer/apache-server-force-https/</link>
-      <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://oxygentw.net/blog/computer/apache-server-force-https/</guid>
-      <description>今天在處理轉移主機 SSL 的問題，重新申請憑證後我用 Why No Padlock? 來檢查憑證是否正確安裝，我發現有一項 Force HTTPS 檢查未通過，於是照著他的指示修改檔，讓使用者以後</description>
     </item>
     
   </channel>

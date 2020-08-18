@@ -6,10 +6,19 @@
     <description>Recent content in Blogs on 氧氣橘子</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sun, 19 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 18 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://oxygentw.net/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>自訂 Windows Terminal 主題</title>
+      <link>https://oxygentw.net/blog/computer/set-windows-terminal-themes/</link>
+      <pubDate>Tue, 18 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/set-windows-terminal-themes/</guid>
+      <description>Windows Terminal 是 Windows 10 新型的終端機介面，整合傳統 cmd、PowerShell、Azure shell 和 WSL Bash，比原先的 cmd 要好用太多了，我今天來介紹如何更改他的</description>
+    </item>
     
     <item>
       <title>打工換宿攜帶行李詳解！</title>
@@ -180,15 +189,6 @@
       
       <guid>https://oxygentw.net/blog/travel/scuba-diving-equipment/</guid>
       <description>基本裝備清單 Buoyancy Compensator Device(BC) 氣瓶 管線組 配重 面鏡 呼吸管 防寒衣 蛙鞋 潛水鞋 氣瓶操作以 Yoke 氣瓶為主 重裝組裝 穿上防寒衣 穿上潛水鞋 面鏡除霧 移除氣瓶的氣瓶頭蓋 BC 氣瓶帶</description>
-    </item>
-    
-    <item>
-      <title>Excel 繪製回歸直線</title>
-      <link>https://oxygentw.net/blog/notes/excel-linear-regression/</link>
-      <pubDate>Fri, 24 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://oxygentw.net/blog/notes/excel-linear-regression/</guid>
-      <description>線性回歸是很多定量實驗必須做的前置步驟，要先將標準品測得的實驗數據透過線性回歸的方式繪製出標準曲線，再將未知待測物以內插的方式帶入求值才是一</description>
     </item>
     
   </channel>
