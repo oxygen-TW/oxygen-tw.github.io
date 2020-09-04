@@ -6,10 +6,19 @@
     <description>Recent content in computer on 氧氣橘子</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Tue, 18 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 04 Sep 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://oxygentw.net/categories/computer/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>移除 Android 手機螢幕鎖定密碼</title>
+      <link>https://oxygentw.net/blog/computer/remove-android-password/</link>
+      <pubDate>Fri, 04 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/remove-android-password/</guid>
+      <description>最近在學 Flutter，想說拿以前的Android來做測試，沒想到&amp;hellip;.忘記密碼了!!!! 只好去想辦法把密碼解開，於是有了這篇筆</description>
+    </item>
     
     <item>
       <title>自訂 Windows Terminal 主題</title>
@@ -180,15 +189,6 @@
       
       <guid>https://oxygentw.net/blog/computer/python-requests/</guid>
       <description>透過 Python 做數據分析或網路爬蟲時幾乎一定會上網下載網頁原始碼或其他 HTTP 請求，因此 Requests 這個套件非常重要，他簡單又實用，不過我從來沒有詳細研究過他，趁現</description>
-    </item>
-    
-    <item>
-      <title>Urlretrieve 的 Python3 寫法</title>
-      <link>https://oxygentw.net/blog/computer/urlretrieve-python3/</link>
-      <pubDate>Sat, 18 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://oxygentw.net/blog/computer/urlretrieve-python3/</guid>
-      <description>要透過 urllib.urlretrieve 從網頁裡下載圖片，卻發現腳本報錯 AttributeError: module &#39;urllib&#39; has no attribute &#39;urlretrieve&#39;，原來是因為 Python3 後的寫法已經改變了，改法如下。 引入的部分 1 import urllib 改</description>
     </item>
     
   </channel>

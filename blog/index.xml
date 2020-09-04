@@ -6,10 +6,19 @@
     <description>Recent content in Blogs on 氧氣橘子</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Tue, 18 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 04 Sep 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://oxygentw.net/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>移除 Android 手機螢幕鎖定密碼</title>
+      <link>https://oxygentw.net/blog/computer/remove-android-password/</link>
+      <pubDate>Fri, 04 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/remove-android-password/</guid>
+      <description>最近在學 Flutter，想說拿以前的Android來做測試，沒想到&amp;hellip;.忘記密碼了!!!! 只好去想辦法把密碼解開，於是有了這篇筆</description>
+    </item>
     
     <item>
       <title>自訂 Windows Terminal 主題</title>
@@ -180,15 +189,6 @@
       
       <guid>https://oxygentw.net/blog/computer/python-convert-imagetol/</guid>
       <description>最近實驗室在做 Construst，要跑很多次 DNA 電泳，偏偏照膠系統故障，只能拍好後再用手機翻拍膠圖，我們的小型藍光照膠器拍出來不明顯而且還是橘</description>
-    </item>
-    
-    <item>
-      <title>水肺潛水重裝組裝與拆卸流程</title>
-      <link>https://oxygentw.net/blog/travel/scuba-diving-equipment/</link>
-      <pubDate>Mon, 29 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://oxygentw.net/blog/travel/scuba-diving-equipment/</guid>
-      <description>基本裝備清單 Buoyancy Compensator Device(BC) 氣瓶 管線組 配重 面鏡 呼吸管 防寒衣 蛙鞋 潛水鞋 氣瓶操作以 Yoke 氣瓶為主 重裝組裝 穿上防寒衣 穿上潛水鞋 面鏡除霧 移除氣瓶的氣瓶頭蓋 BC 氣瓶帶</description>
     </item>
     
   </channel>

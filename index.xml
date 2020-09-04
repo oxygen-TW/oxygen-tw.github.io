@@ -6,10 +6,120 @@
     <description>Recent content on 氧氣橘子</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Tue, 18 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 04 Sep 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://oxygentw.net/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>移除 Android 手機螢幕鎖定密碼</title>
+      <link>https://oxygentw.net/blog/computer/remove-android-password/</link>
+      <pubDate>Fri, 04 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/remove-android-password/</guid>
+      
+        <description>&lt;p&gt;最近在學 Flutter，想說拿以前的Android來做測試，沒想到&amp;hellip;.忘記密碼了!!!! 只好去想辦法把密碼解開，於是有了這篇筆記&amp;hellip;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;首先必須先在電腦裡安裝 adb(&lt;a href=&#34;https://developer.android.com/studio/command-line/adb?authuser=1&#34;&gt;Android debug bridge&lt;/a&gt;)，這是一個 Android 開發食用的偵錯工具，可以利用 choco 下載。 &lt;br&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;choco install adb&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;*&lt;a href=&#34;https://chocolatey.org/&#34;&gt;chocolatey&lt;/a&gt; 是 Windows 下的套件管理工具，用來模擬類 Unix 系統中的套件管理工具，例如 brew, apt, yum&amp;hellip;&amp;hellip;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;.&lt;/p&gt;
+&lt;p&gt;接著將要解除密碼的手機進入 Recovery mode，並用USB線和電腦連接，以啟用ADB偵錯模式。
+通常是在關機的狀態下同時按住&lt;strong&gt;電源鍵與音量下鍵&lt;/strong&gt;，如果這樣不行也不知如何開啟請看&lt;a href=&#34;https://www.google.com/search?q=%E9%96%8B%E5%95%9F+recovery+mode&#34;&gt;Android recoveru mode&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;接下來就進入重點了，打開終端機，檢查 ADB 有沒有找到 android 設備。 &lt;br&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# adb devices&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+.&lt;/p&gt;
+&lt;p&gt;看到類似以下畫面就是抓到了！
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://oxygentw.net/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/remove-android-password/1.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/remove-android-password/1.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;.&lt;/p&gt;
+&lt;p&gt;接著進入 Android 設備的終端機
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# adb shell&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;.&lt;/p&gt;
+&lt;p&gt;Android 是 Linux base，所以操作方式和 Linux 一樣，切換到&lt;code&gt;/data/system&lt;/code&gt; 目錄，查看裡面有哪些檔案&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/remove-android-password/2.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/remove-android-password/2.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+.&lt;/p&gt;
+&lt;p&gt;在裡面找找跟&lt;strong&gt;password&lt;/strong&gt; 或是 &lt;strong&gt;key&lt;/strong&gt; 有關的檔案，以這張圖為例是
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/remove-android-password/3.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/remove-android-password/3.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+.&lt;/p&gt;
+&lt;p&gt;我們刪掉這兩個檔案
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# rm gatekeeper.password.key gatekeeper.pattern.key&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+.&lt;/p&gt;
+&lt;p&gt;將手機重新開機
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# reboot&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;就會發現不用輸入密碼就可以進入手機了!&lt;/p&gt;
+</description>
+      
+    </item>
     
     <item>
       <title>自訂 Windows Terminal 主題</title>
@@ -2401,82 +2511,6 @@ UnicodeDecodeError: &lt;span class=&#34;s1&#34;&gt;&amp;#39;cp950&amp;#39;&lt;/s
 &lt;p&gt;她那時候和我說，你像是個故事的收集者，藉著他人的眼睛仔細的觀察著世界，這句話令我永生難忘，深深刻印在我的腦海中，沒錯！這正是我期盼的，收集大家的故事，真正深入的了解我們所在的這空間這土地上曾經發生過怎麼樣的事，然而，理科出身的我，文學不是我的專業，如何將收集到的故事真實的呈現給讀者是我要努力的課題，盡可能將故事中的經過、感情、真相用文字的方式記錄。&lt;/p&gt;
 &lt;p&gt;我會死，人類會死，生物會死，但故事可以突破生命的時間枷鎖，一直一直流傳下去。&lt;/p&gt;
 &lt;p&gt;我打算先從自己經歷過的故事寫起，練習如何敘事，希望也能藉此讓我內心的焦慮與不安減弱，願意敞開心胸向大家講述何謂，我、以及我所看見的世界。&lt;/p&gt;
-</description>
-      
-    </item>
-    
-    <item>
-      <title>果蠅培養基製備法</title>
-      <link>https://oxygentw.net/blog/notes/fruit-fly-medium/</link>
-      <pubDate>Fri, 30 Aug 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://oxygentw.net/blog/notes/fruit-fly-medium/</guid>
-      
-        <description>&lt;p&gt;實驗室以果蠅為模式生物，因此我多了許多和果蠅接觸的機會，也和學姊學了一些基本果蠅養殖方法，看久了真的覺得果蠅挺可愛的，就從將要被拋棄的舊培養管 transfer 一點成蟲帶回家養 XD 每天觀察牠們求偶、交配、幼蟲成長，有點像小時候養蠶寶寶的感覺，這個我覺得更可愛呢。&lt;/p&gt;
-&lt;p&gt;不過我要離開實驗室了，就沒有果蠅培養基可以用了，只能把培養管回收再利用，並且自製培養基，找了一段時間終於找到一篇大甲高中的小論文內有記載果蠅培養基的做法，該篇小論文的作者居然還是我朋友的同班同學，真巧啊！&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;培養基材料&#34;&gt;培養基材料&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;玉米粉 25g&lt;/li&gt;
-&lt;li&gt;紅糖 10g&lt;/li&gt;
-&lt;li&gt;乾燥酵母粉 7.5g&lt;/li&gt;
-&lt;li&gt;洋菜/agar 5g&lt;/li&gt;
-&lt;li&gt;ddH&lt;!-- raw HTML omitted --&gt;2&lt;!-- raw HTML omitted --&gt;O 300 ml&lt;/li&gt;
-&lt;li&gt;(10% Propanoic acid) 3 ml選用，防腐作用。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;h2 id=&#34;2019124-大甲二號配方&#34;&gt;2019/12/4 大甲二號配方&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;玉米粉 25g&lt;/li&gt;
-&lt;li&gt;紅糖 10g&lt;/li&gt;
-&lt;li&gt;乾燥酵母粉 7.5g&lt;/li&gt;
-&lt;li&gt;洋菜粉/agar 5g&lt;/li&gt;
-&lt;li&gt;ddH&lt;!-- raw HTML omitted --&gt;2&lt;!-- raw HTML omitted --&gt;O 300 ml&lt;/li&gt;
-&lt;li&gt;丙酸鈉 3g&lt;/li&gt;
-&lt;/ul&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;h2 id=&#34;作法&#34;&gt;作法&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;將所有固體材料加入 500 ml 燒杯&lt;/li&gt;
-&lt;li&gt;加入 ddH&lt;!-- raw HTML omitted --&gt;2&lt;!-- raw HTML omitted --&gt;O&lt;/li&gt;
-&lt;li&gt;加熱並持續攪拌，直到沸騰，agar溶解&lt;/li&gt;
-&lt;li&gt;加熱結束後加入 Propanoic acid&lt;/li&gt;
-&lt;li&gt;Autoclave 高溫高壓滅菌(家裡沒有啊QQ)&lt;/li&gt;
-&lt;li&gt;於無菌作業將培養基倒入培養管&lt;/li&gt;
-&lt;li&gt;冷卻凝固，低溫保存&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;link rel=&#34;stylesheet&#34; href=&#34;https://oxygentw.net/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
-  style=&#34;max-width:360px&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/fruit-fly-medium/photo1.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://oxygentw.net/img/post/fruit-fly-medium/photo1.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
-  style=&#34;max-width:360px&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/fruit-fly-medium/photo2.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://oxygentw.net/img/post/fruit-fly-medium/photo2.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-幼蟲長大囉~~~&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;h5 id=&#34;參考資料&#34;&gt;參考資料&lt;/h5&gt;
-&lt;p&gt;陳子云、陳沛晴、黃玟瑜(2017) 從孟德爾與摩根的遺傳理論推論親代果蠅殘翅的基因型態
-&lt;a href=&#34;https://www.shs.edu.tw/works/essay/2017/09/2017091507454682.pdf&#34;&gt;https://www.shs.edu.tw/works/essay/2017/09/2017091507454682.pdf&lt;/a&gt;&lt;/p&gt;
 </description>
       
     </item>
