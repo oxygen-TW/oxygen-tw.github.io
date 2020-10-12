@@ -6,10 +6,19 @@
     <description>Recent content in notes on 氧氣橘子</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Fri, 03 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://oxygentw.net/categories/notes/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>關於檢驗科抽血</title>
+      <link>https://oxygentw.net/blog/notes/mls-venipuncture/</link>
+      <pubDate>Mon, 12 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/notes/mls-venipuncture/</guid>
+      <description>靜脈穿刺採血，俗稱抽血，大家應該都有在醫院抽血的經驗，或是健康檢查需要抽血，人體的血液含有大量的資訊，醫學實驗室可以用各種檢驗方法取得各項指</description>
+    </item>
     
     <item>
       <title>心臟停止的急救技術</title>
@@ -180,15 +189,6 @@
       
       <guid>https://oxygentw.net/blog/notes/cpp-bernoulli-trial-simulation/</guid>
       <description>數學課上到這部分，依據大數法則，試驗的次數越多，結果會越相似於常態分佈，但丟硬幣100次都嫌累了，根本沒辦法看出甚麼所以然來，這時電腦就好用</description>
-    </item>
-    
-    <item>
-      <title>翻譯 - DSM-5 305.90 咖啡因依賴症</title>
-      <link>https://oxygentw.net/blog/notes/dsm-5-305-90-translation/</link>
-      <pubDate>Sat, 26 Aug 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://oxygentw.net/blog/notes/dsm-5-305-90-translation/</guid>
-      <description>引言 咖啡因中毒是一種由高劑量咖啡因所引起的中樞神經過度刺激。咖啡因，世界上消耗量最大的精神藥物，具有高成癮性且能對生理、心理、精神造成損害。</description>
     </item>
     
   </channel>

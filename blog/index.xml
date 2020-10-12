@@ -6,10 +6,19 @@
     <description>Recent content in Blogs on 氧氣橘子</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Fri, 04 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://oxygentw.net/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>關於檢驗科抽血</title>
+      <link>https://oxygentw.net/blog/notes/mls-venipuncture/</link>
+      <pubDate>Mon, 12 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/notes/mls-venipuncture/</guid>
+      <description>靜脈穿刺採血，俗稱抽血，大家應該都有在醫院抽血的經驗，或是健康檢查需要抽血，人體的血液含有大量的資訊，醫學實驗室可以用各種檢驗方法取得各項指</description>
+    </item>
     
     <item>
       <title>移除 Android 手機螢幕鎖定密碼</title>
@@ -180,15 +189,6 @@
       
       <guid>https://oxygentw.net/blog/notes/fruit-fly-medium/</guid>
       <description>實驗室以果蠅為模式生物，因此我多了許多和果蠅接觸的機會，也和學姊學了一些基本果蠅養殖方法，看久了真的覺得果蠅挺可愛的，就從將要被拋棄的舊培養</description>
-    </item>
-    
-    <item>
-      <title>Python 圖片轉灰階小工具</title>
-      <link>https://oxygentw.net/blog/computer/python-convert-imagetol/</link>
-      <pubDate>Tue, 13 Aug 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://oxygentw.net/blog/computer/python-convert-imagetol/</guid>
-      <description>最近實驗室在做 Construst，要跑很多次 DNA 電泳，偏偏照膠系統故障，只能拍好後再用手機翻拍膠圖，我們的小型藍光照膠器拍出來不明顯而且還是橘</description>
     </item>
     
   </channel>

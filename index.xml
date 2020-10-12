@@ -6,10 +6,71 @@
     <description>Recent content on 氧氣橘子</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Fri, 04 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://oxygentw.net/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>關於檢驗科抽血</title>
+      <link>https://oxygentw.net/blog/notes/mls-venipuncture/</link>
+      <pubDate>Mon, 12 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/notes/mls-venipuncture/</guid>
+      
+        <description>&lt;p&gt;靜脈穿刺採血，俗稱抽血，大家應該都有在醫院抽血的經驗，或是健康檢查需要抽血，人體的血液含有大量的資訊，醫學實驗室可以用各種檢驗方法取得各項指標，進行診斷、排除、追蹤、藥量控制等等後續醫療行為。&lt;/p&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://oxygentw.net/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/mls-venipuncture/venipuncture.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/mls-venipuncture/venipuncture.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;我稍微解釋些醫檢師在採集血液檢體時的抽血流程。&lt;/p&gt;
+&lt;h2 id=&#34;檢驗科門診抽血流程醫檢師&#34;&gt;檢驗科門診抽血流程(醫檢師)&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;收檢驗單，詢問病人身分並確認&lt;/li&gt;
+&lt;li&gt;依照檢驗單準備採血管&lt;/li&gt;
+&lt;li&gt;告知受檢者今天的採血計畫&lt;/li&gt;
+&lt;li&gt;組裝&lt;strong&gt;無菌安全針具&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;若是用空針採血，先行順針&lt;/li&gt;
+&lt;li&gt;於受檢者採檢部位上方約一個手掌的距離綁上止血帶&lt;/li&gt;
+&lt;li&gt;決定將穿刺的血管&lt;/li&gt;
+&lt;li&gt;酒精棉片&lt;strong&gt;用力來回&lt;/strong&gt;擦拭&lt;/li&gt;
+&lt;li&gt;告知受檢者即將下針，深呼吸，避免受檢者驚嚇收手或暈厥&lt;/li&gt;
+&lt;li&gt;採檢完一管檢體，鬆開止血帶&lt;/li&gt;
+&lt;li&gt;採檢剩餘檢體，用鑷子準備棉球至下針處&lt;/li&gt;
+&lt;li&gt;抽針，棉球壓緊傷口&lt;/li&gt;
+&lt;li&gt;啟動針具安全機制&lt;/li&gt;
+&lt;li&gt;透氣膠帶固定受檢者棉球，並進行抽血後衛教&lt;/li&gt;
+&lt;li&gt;整理檢體，依照採血管廠商指示翻轉採血管&lt;/li&gt;
+&lt;li&gt;完成靜脈採血&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;p&gt;我還沒去實習&amp;hellip;但我先列出一些上課教到常見的抽血後問題與衛教給大家參考。&lt;/p&gt;
+&lt;h2 id=&#34;抽血後qa&#34;&gt;抽血後QA&lt;/h2&gt;
+&lt;h3 id=&#34;1-抽完血要壓多久&#34;&gt;1. 抽完血要壓多久？&lt;/h3&gt;
+&lt;p&gt;建議時間五分鐘以上，不再流血即可，剛抽完時要確實壓緊，不然可能會造成瘀血。&lt;/p&gt;
+&lt;p&gt;*實驗課被抽完很快就要去抽別人，所以都只壓一下下就上場了&amp;hellip;.&lt;/p&gt;
+&lt;h3 id=&#34;2-抽血會痛嗎&#34;&gt;2. 抽血會痛嗎？&lt;/h3&gt;
+&lt;p&gt;會痛，畢竟針刺到肉裡，但絕對不會是痛到你難以忍受的痛，如果你覺得痛到難以忍受或有痠麻的感覺須立刻告知醫檢師，可能針碰到神經導致輕微神經傷害。&lt;/p&gt;
+&lt;h3 id=&#34;3-抽血為甚麼要抽這麼多管&#34;&gt;3. 抽血為甚麼要抽這麼多管？&lt;/h3&gt;
+&lt;p&gt;每一種顏色的採血管內含特定的化學成分，以便後續不同的檢驗分析使用，有些檢驗需要用特定成分的採血管來採集血液，所以需要分數管採集。&lt;/p&gt;
+&lt;h3 id=&#34;4-抽血完要揉嗎&#34;&gt;4. 抽血完要揉嗎？&lt;/h3&gt;
+&lt;p&gt;拜託不要，壓緊就好，揉他會很容易導致皮下出血。&lt;/p&gt;
+&lt;h3 id=&#34;5-若抽血後瘀青了怎麼辦&#34;&gt;5. 若抽血後瘀青了怎麼辦？&lt;/h3&gt;
+&lt;p&gt;24小時內冰敷，之後改為熱敷，通常不去理會身體會自行吸收瘀青的血液。&lt;/p&gt;
+&lt;h3 id=&#34;第一次沒抽到寫怎麼辦&#34;&gt;第一次沒抽到寫怎麼辦？&lt;/h3&gt;
+&lt;p&gt;醫檢師利用觸摸與眼睛判斷血管走向及深度，無法百分百精準，每個人的手部構造並不相同，下針後也可能發生血管滑開而沒有成功穿刺，第一次抽血失敗後會換手再次抽血，若連續兩次失敗則視為困難抽血，會請其他醫檢師進行操作或是更換部位抽血(手背、腳跟上方)。&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;拜託，不要大罵醫檢師QQ&lt;/del&gt;&lt;/p&gt;
+</description>
+      
+    </item>
     
     <item>
       <title>移除 Android 手機螢幕鎖定密碼</title>
@@ -2496,21 +2557,6 @@ UnicodeDecodeError: &lt;span class=&#34;s1&#34;&gt;&amp;#39;cp950&amp;#39;&lt;/s
 &lt;!-- raw HTML omitted --&gt;
 &lt;h6 id=&#34;參考資料&#34;&gt;參考資料&lt;/h6&gt;
 &lt;p&gt;台北醫學大學 &lt;a href=&#34;http://tmucamp.tmu.edu.tw/&#34;&gt;楓杏藥學營&lt;/a&gt;&lt;/p&gt;
-</description>
-      
-    </item>
-    
-    <item>
-      <title>新增生活故事系列！</title>
-      <link>https://oxygentw.net/blog/life-story/start/</link>
-      <pubDate>Fri, 06 Sep 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://oxygentw.net/blog/life-story/start/</guid>
-      
-        <description>&lt;p&gt;我從小就嚮往走遍世界，看看這世界每一個角落發生的點點滴滴，認識各地的人，體驗當地風土名情。每一個人從出生到死亡每分每秒都在寫下他的人生故事，不論開心、難過，而他的父母、兒女、朋友，也有著他們自己的故事，讓我們生活的地方成為一片用故事編織而成的無限網絡。&lt;/p&gt;
-&lt;p&gt;她那時候和我說，你像是個故事的收集者，藉著他人的眼睛仔細的觀察著世界，這句話令我永生難忘，深深刻印在我的腦海中，沒錯！這正是我期盼的，收集大家的故事，真正深入的了解我們所在的這空間這土地上曾經發生過怎麼樣的事，然而，理科出身的我，文學不是我的專業，如何將收集到的故事真實的呈現給讀者是我要努力的課題，盡可能將故事中的經過、感情、真相用文字的方式記錄。&lt;/p&gt;
-&lt;p&gt;我會死，人類會死，生物會死，但故事可以突破生命的時間枷鎖，一直一直流傳下去。&lt;/p&gt;
-&lt;p&gt;我打算先從自己經歷過的故事寫起，練習如何敘事，希望也能藉此讓我內心的焦慮與不安減弱，願意敞開心胸向大家講述何謂，我、以及我所看見的世界。&lt;/p&gt;
 </description>
       
     </item>
