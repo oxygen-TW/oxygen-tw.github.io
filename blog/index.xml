@@ -6,10 +6,15 @@
     <description>Recent content in Blogs on 氧氣橘子</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Mon, 12 Oct 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://oxygentw.net/blog/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Mon, 02 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://oxygentw.net/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Remove Macos Hidden File</title>
+      <link>https://oxygentw.net/blog/computer/remove-macos-hidden-file/</link>
+      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/remove-macos-hidden-file/</guid>
+      <description>MacOS 下會為每個資料夾跟檔案新增一個以._開頭的系統隱藏檔案，用來儲存使用者設定和一些系統需要的設定，但是移到其他作業系統時這些檔案完全沒有用!</description>
+    </item>
     
     <item>
       <title>關於檢驗科抽血</title>
@@ -180,15 +185,6 @@
       
       <guid>https://oxygentw.net/blog/life-story/start/</guid>
       <description>我從小就嚮往走遍世界，看看這世界每一個角落發生的點點滴滴，認識各地的人，體驗當地風土名情。每一個人從出生到死亡每分每秒都在寫下他的人生故事，</description>
-    </item>
-    
-    <item>
-      <title>果蠅培養基製備法</title>
-      <link>https://oxygentw.net/blog/notes/fruit-fly-medium/</link>
-      <pubDate>Fri, 30 Aug 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://oxygentw.net/blog/notes/fruit-fly-medium/</guid>
-      <description>實驗室以果蠅為模式生物，因此我多了許多和果蠅接觸的機會，也和學姊學了一些基本果蠅養殖方法，看久了真的覺得果蠅挺可愛的，就從將要被拋棄的舊培養</description>
     </item>
     
   </channel>

@@ -6,10 +6,15 @@
     <description>Recent content in computer on 氧氣橘子</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Fri, 04 Sep 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://oxygentw.net/categories/computer/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Mon, 02 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://oxygentw.net/categories/computer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Remove Macos Hidden File</title>
+      <link>https://oxygentw.net/blog/computer/remove-macos-hidden-file/</link>
+      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/remove-macos-hidden-file/</guid>
+      <description>MacOS 下會為每個資料夾跟檔案新增一個以._開頭的系統隱藏檔案，用來儲存使用者設定和一些系統需要的設定，但是移到其他作業系統時這些檔案完全沒有用!</description>
+    </item>
     
     <item>
       <title>移除 Android 手機螢幕鎖定密碼</title>
@@ -180,15 +185,6 @@
       
       <guid>https://oxygentw.net/blog/computer/c-standard-library-qsort/</guid>
       <description>前些天很意外地得知學校程式設計居然是教 C語言，非工程相關應該不需要學到這種中階語言才對吧…… 好歹來個 C++ 啊 !!!! 抱怨歸抱怨，課還是得上，只好重新翻</description>
-    </item>
-    
-    <item>
-      <title>Python Requests 套件</title>
-      <link>https://oxygentw.net/blog/computer/python-requests/</link>
-      <pubDate>Thu, 30 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://oxygentw.net/blog/computer/python-requests/</guid>
-      <description>透過 Python 做數據分析或網路爬蟲時幾乎一定會上網下載網頁原始碼或其他 HTTP 請求，因此 Requests 這個套件非常重要，他簡單又實用，不過我從來沒有詳細研究過他，趁現</description>
     </item>
     
   </channel>

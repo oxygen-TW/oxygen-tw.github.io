@@ -34,7 +34,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.74.2" />
+<meta name="generator" content="Hugo 0.76.5" />
 
 
 <link rel="canonical" href="https://oxygentw.net/blog/computer/use-umurmur-build-voip-server/" />
@@ -69,13 +69,14 @@
 <meta property="article:modified_time" content="2018-04-07T00:00:00+00:00" />
 <meta itemprop="name" content="架設 VoIP Server">
 <meta itemprop="description" content="來試試 VoIP Server，以前都沒想過可以自己架，最近心血來潮找了找，找到 umurmur 這套軟體，他是用C語言寫成的輕量級伺服器軟體，還可以安裝在 openWRT 路由器之">
-<meta itemprop="datePublished" content="2018-04-07T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2018-04-07T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="769">
+<meta itemprop="datePublished" content="2018-04-07T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2018-04-07T00:00:00+00:00" />
+<meta itemprop="wordCount" content="770">
 
 
 
-<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="架設 VoIP Server"/>
 <meta name="twitter:description" content="來試試 VoIP Server，以前都沒想過可以自己架，最近心血來潮找了找，找到 umurmur 這套軟體，他是用C語言寫成的輕量級伺服器軟體，還可以安裝在 openWRT 路由器之"/>
 
@@ -318,7 +319,7 @@ if (!doNotTrack) {
             <a href="https://oxygentw.net/categories/computer/"> computer </a>
             
           </div>
-        <span class="more-meta"> 約 769 字 </span>
+        <span class="more-meta"> 約 770 字 </span>
           <span class="more-meta"> 預計閱讀 2 分鐘 </span>
 
         
@@ -429,7 +430,7 @@ bindaddr = &ldquo;VoIP 服務 Address&rdquo;;</p>
 <h2 id="設定頻道資訊">設定頻道資訊</h2>
 <p>name = &ldquo;頻道名稱&rdquo;; <br>
 parent = &ldquo;上層頻道名稱&rdquo;; <br>
-description =&quot;頻道描述&rdquo;; <br>
+description =&ldquo;頻道描述&rdquo;; <br>
 noenter=true/false; #是否禁止進入 <br>
 silent = true/false; #是否為安靜模式 <br>
 position = 0/1/2/3&hellip;&hellip; #同層頻道排列順序，依照字母排序 <br>
@@ -488,7 +489,7 @@ password = &ldquo;頻道密碼&rdquo;;</p>
   <span class="nv">parent</span> <span class="o">=</span> <span class="s2">&#34;Root&#34;</span><span class="p">;</span>   
   <span class="nv">description</span> <span class="o">=</span> <span class="s2">&#34;Silent channel&#34;</span><span class="p">;</span>   
    
-  <span class="nv">silent</span> <span class="o">=</span> true<span class="p">;</span> <span class="c1"># Optional. Default is false</span>   
+  <span class="nv">silent</span> <span class="o">=</span> true<span class="p">;</span> <span class="c1"># Optional. Default is false   </span>
   <span class="o">}</span>,   
   <span class="o">{</span>   
   <span class="nv">name</span> <span class="o">=</span> <span class="s2">&#34;Team A&#34;</span><span class="p">;</span>   

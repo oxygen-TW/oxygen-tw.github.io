@@ -5,10 +5,6 @@
     <link>https://oxygentw.net/contact/</link>
     <description>Recent content in 聯絡我 | Contact on 氧氣橘子</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-tw</language>
-    
-	<atom:link href="https://oxygentw.net/contact/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>zh-tw</language><atom:link href="https://oxygentw.net/contact/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -5,10 +5,6 @@
     <link>https://oxygentw.net/archives/</link>
     <description>Recent content in 归档 on 氧氣橘子</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-tw</language>
-    
-	<atom:link href="https://oxygentw.net/archives/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>zh-tw</language><atom:link href="https://oxygentw.net/archives/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -6,10 +6,37 @@
     <description>Recent content on 氧氣橘子</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Mon, 12 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://oxygentw.net/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Remove Macos Hidden File</title>
+      <link>https://oxygentw.net/blog/computer/remove-macos-hidden-file/</link>
+      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/remove-macos-hidden-file/</guid>
+      
+        <description>&lt;p&gt;MacOS 下會為每個資料夾跟檔案新增一個以&lt;code&gt;._&lt;/code&gt;開頭的系統隱藏檔案，用來儲存使用者設定和一些系統需要的設定，但是移到其他作業系統時這些檔案完全沒有用!!! 數量一多還是會占空間，而且看了不太舒爽XD 所以記錄一下上網爬文找到的刪除方法。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;資料來源：&lt;a href=&#34;https://www.itread01.com/p/1385436.html&#34;&gt;https://www.itread01.com/p/1385436.html&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;p&gt;切換到要刪除隱藏檔的資料夾開啟 termial 輸入這行指令即可。 &lt;br&gt;
+這個指令會遞迴刪除所有目錄底下以&lt;code&gt;.-&lt;/code&gt;開頭的檔案，並且把刪除的檔案顯示出來。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;find  .  -name  &lt;span class=&#34;s1&#34;&gt;&amp;#39;._*&amp;#39;&lt;/span&gt;  -type  f  -print  -exec  rm  -rf  &lt;span class=&#34;o&#34;&gt;{}&lt;/span&gt; &lt;span class=&#34;se&#34;&gt;\;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;*若是在 Windows 下要用 PowerShell 或 Git Bash 執行喔~&lt;/p&gt;
+</description>
+      
+    </item>
     
     <item>
       <title>關於檢驗科抽血</title>
@@ -619,46 +646,46 @@ Out[25]: &amp;#39;DEBUG&amp;#39;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
-&lt;th align=&#34;left&#34;&gt;Format&lt;/th&gt;
-&lt;th align=&#34;left&#34;&gt;Description&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Format&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Description&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;&lt;em&gt;filename&lt;/em&gt;&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;指定 FileHandler，使用特定的檔案進行記錄而不是用 StreamHandler.&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;em&gt;filename&lt;/em&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;指定 FileHandler，使用特定的檔案進行記錄而不是用 StreamHandler.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;&lt;em&gt;filemode&lt;/em&gt;&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;如果有指定 &lt;em&gt;filename&lt;/em&gt;，則可用此參數指定開檔模式，預設是 &lt;code&gt;&#39;a&#39;&lt;/code&gt;.&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;em&gt;filemode&lt;/em&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;如果有指定 &lt;em&gt;filename&lt;/em&gt;，則可用此參數指定開檔模式，預設是 &lt;code&gt;&#39;a&#39;&lt;/code&gt;.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;&lt;em&gt;format&lt;/em&gt;&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;指定 handler 的格式字串&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;em&gt;format&lt;/em&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;指定 handler 的格式字串&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;&lt;em&gt;datefmt&lt;/em&gt;&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;指定日期/時間格式, 接受&lt;a href=&#34;https://docs.python.org/3/library/time.html#time.strftime&#34;&gt;&lt;code&gt;time.strftime()&lt;/code&gt;&lt;/a&gt;格式&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;em&gt;datefmt&lt;/em&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;指定日期/時間格式, 接受&lt;a href=&#34;https://docs.python.org/3/library/time.html#time.strftime&#34;&gt;&lt;code&gt;time.strftime()&lt;/code&gt;&lt;/a&gt;格式&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;&lt;em&gt;style&lt;/em&gt;&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;If &lt;em&gt;format&lt;/em&gt; is specified, use this style for the format string. One of &lt;code&gt;&#39;%&#39;&lt;/code&gt;, &lt;code&gt;&#39;{&#39;&lt;/code&gt; or &lt;code&gt;&#39;$&#39;&lt;/code&gt; for &lt;a href=&#34;https://docs.python.org/3/library/stdtypes.html#old-string-formatting&#34;&gt;printf-style&lt;/a&gt;, &lt;a href=&#34;https://docs.python.org/3/library/stdtypes.html#str.format&#34;&gt;&lt;code&gt;str.format()&lt;/code&gt;&lt;/a&gt; or &lt;a href=&#34;https://docs.python.org/3/library/string.html#string.Template&#34;&gt;&lt;code&gt;string.Template&lt;/code&gt;&lt;/a&gt; respectively. Defaults to &lt;code&gt;&#39;%&#39;&lt;/code&gt;.&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;em&gt;style&lt;/em&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;If &lt;em&gt;format&lt;/em&gt; is specified, use this style for the format string. One of &lt;code&gt;&#39;%&#39;&lt;/code&gt;, &lt;code&gt;&#39;{&#39;&lt;/code&gt; or &lt;code&gt;&#39;$&#39;&lt;/code&gt; for &lt;a href=&#34;https://docs.python.org/3/library/stdtypes.html#old-string-formatting&#34;&gt;printf-style&lt;/a&gt;, &lt;a href=&#34;https://docs.python.org/3/library/stdtypes.html#str.format&#34;&gt;&lt;code&gt;str.format()&lt;/code&gt;&lt;/a&gt; or &lt;a href=&#34;https://docs.python.org/3/library/string.html#string.Template&#34;&gt;&lt;code&gt;string.Template&lt;/code&gt;&lt;/a&gt; respectively. Defaults to &lt;code&gt;&#39;%&#39;&lt;/code&gt;.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;&lt;em&gt;level&lt;/em&gt;&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;Set the root logger level to the specified &lt;a href=&#34;https://docs.python.org/3/library/logging.html#levels&#34;&gt;level&lt;/a&gt;.&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;em&gt;level&lt;/em&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Set the root logger level to the specified &lt;a href=&#34;https://docs.python.org/3/library/logging.html#levels&#34;&gt;level&lt;/a&gt;.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;&lt;em&gt;stream&lt;/em&gt;&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;Use the specified stream to initialize the StreamHandler. Note that this argument is incompatible with &lt;em&gt;filename&lt;/em&gt; - if both are present, a &lt;code&gt;ValueError&lt;/code&gt; is raised.&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;em&gt;stream&lt;/em&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Use the specified stream to initialize the StreamHandler. Note that this argument is incompatible with &lt;em&gt;filename&lt;/em&gt; - if both are present, a &lt;code&gt;ValueError&lt;/code&gt; is raised.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;&lt;em&gt;handlers&lt;/em&gt;&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;If specified, this should be an iterable of already created handlers to add to the root logger. Any handlers which don’t already have a formatter set will be assigned the default formatter created in this function. Note that this argument is incompatible with &lt;em&gt;filename&lt;/em&gt; or &lt;em&gt;stream&lt;/em&gt; - if both are present, a &lt;code&gt;ValueError&lt;/code&gt; is raised.&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;em&gt;handlers&lt;/em&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;If specified, this should be an iterable of already created handlers to add to the root logger. Any handlers which don’t already have a formatter set will be assigned the default formatter created in this function. Note that this argument is incompatible with &lt;em&gt;filename&lt;/em&gt; or &lt;em&gt;stream&lt;/em&gt; - if both are present, a &lt;code&gt;ValueError&lt;/code&gt; is raised.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;&lt;em&gt;force&lt;/em&gt;&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;If this keyword argument is specified as true, any existing handlers attached to the root logger are removed and closed, before carrying out the configuration as specified by the other arguments.&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;em&gt;force&lt;/em&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;If this keyword argument is specified as true, any existing handlers attached to the root logger are removed and closed, before carrying out the configuration as specified by the other arguments.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -888,7 +915,7 @@ Out[25]: &amp;#39;DEBUG&amp;#39;
 &lt;/div&gt;
 &lt;!-- raw HTML omitted --&gt;
 &lt;h2 id=&#34;configpy&#34;&gt;config.py&lt;/h2&gt;
-&lt;p&gt;在裡面修改要自動點名的課程&amp;quot;點名網址&amp;rdquo;、帳號及密碼。&lt;/p&gt;
+&lt;p&gt;在裡面修改要自動點名的課程&amp;quot;點名網址&amp;quot;、帳號及密碼。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
@@ -1466,40 +1493,40 @@ Ser 與 Estar 的差別類似天氣與氣候定義上的差別。&lt;/p&gt;
 &lt;thead&gt;
 &lt;tr&gt;
 &lt;th&gt;人稱&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;ser&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;estar&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;ser&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;estar&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;yo&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;soy&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;estoy&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;soy&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;estoy&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;tu&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;eles&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;estáis&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;eles&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;estáis&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;el / elle / usted&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;es&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;está&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;es&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;está&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;nosotros/nosotras&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;somos&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;estamos&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;somos&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;estamos&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;vosotros/vosodras&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;sois&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;estáis&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;sois&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;estáis&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;ellos/ellas/ustedes&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;son&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;están&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;son&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;están&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -2498,65 +2525,7 @@ UnicodeDecodeError: &lt;span class=&#34;s1&#34;&gt;&amp;#39;cp950&amp;#39;&lt;/s
 &lt;/blockquote&gt;
 &lt;p&gt;這學期在本校我有非常多通識課要修，學分直逼上限，卻來不及申請超修，我和教務處申請人工加退選，退掉了一堂必修課，用空的時間與學分去修友校的課，這個行為令我很不安，如果明年必修衝堂不能補修怎麼辦? 大家都在讀免疫學我卻在讀遺傳學，萬一來不及修我是不是不能去臨床實習? 我該怎麼安排兩校間的通勤時間? 一大堆的問題同時轟炸著我，現在的我很忙，加上這些惱人的決策，讓我的生活過得很凌亂，睡眠時間亂七八糟，三餐可能只吃到一餐，而且還是隨便亂吃，修這個學程是要收學分費的，因此也面臨了大學以來最嚴重的經濟困難，即使沒有到沒錢吃飯，但卻是幾乎要動要到緊急儲備金的地步，助眠藥物的用量也比以往要頻繁許多，忘東忘西的，沒有能力妥當的安排事件與事件之間的行程，社團時常臨時缺席，很簡單的說就是事情已經多到超出我這個人所能負荷的程度了，努力學習如何在這樣的環境下管理好自己，大概是我現在最重要的課題。&lt;/p&gt;
 &lt;p&gt;我有很高的機率不會修完雙主修，只會拿到輔系學位而已，但其實我不在乎，我並不是為了文憑才去修的，純粹是想體驗那些在牧場工作的人們他們的工作內容，多多了解第一級產業在動物養殖的部分，老實說，有一部分也是想了解我那位很好的朋友她高中所學習的課程。平時我們在商店買牛奶，卻不曾思考過牛奶從乳牛到市場之間到底經過了那些過程，也不曾思考過香腸、培根等等加工肉品是如何被製作的，希望我可以透過這冒險的決定，讓我更加了解，學到更多。&lt;/p&gt;
-&lt;p&gt;&amp;ldquo;為什麼要把大學搞得這麼累呢? 別人大學都是拿來好好談一場戀愛。&amp;rdquo; 我爸和我說的一句話，我不知道，我ㄊ自己也不知道為什麼，這句話我一直記著，一直反覆思考，但總想不出個所以然來，現在認識我的人都知道我非常忙，但是沒有人知道我為什麼要把自己搞得這麼忙，包括我自己也不知道。似乎，我不把自己填滿，我就會被焦慮取代，害怕我沒用，不被世界需要，成為大家的負擔，唯有創造光鮮亮麗與多元的生活才能令人羨慕，成為一個看似&amp;quot;有用的人&amp;rdquo;，維持著我脆弱的價值，這是我的推測，沒有驗證，真正的答案可能會在某一天突然頓悟，也可能是個終生的謎團吧?&lt;/p&gt;
-</description>
-      
-    </item>
-    
-    <item>
-      <title>清肝養目茶配方</title>
-      <link>https://oxygentw.net/blog/notes/chrysanthemum-cassia-tea/</link>
-      <pubDate>Sun, 08 Sep 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://oxygentw.net/blog/notes/chrysanthemum-cassia-tea/</guid>
-      
-        <description>&lt;p&gt;幾年前，那個我依然年輕的時候(? 在北醫藥學營方劑學學到清肝養目茶的配方與沖法，可是我一直不知道怎麼買中藥，剛剛去市場無意間看到就想說，恩，來泡泡看吧！&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;中藥材&#34;&gt;中藥材&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;炒決明子 1錢&lt;/li&gt;
-&lt;li&gt;枸杞 1錢&lt;/li&gt;
-&lt;li&gt;菊花 數朵(選用)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;code&gt;在台灣一錢相當於 3.75g，可以自行依比例修改&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;這邊列的是北醫給的標準配方，但我在買中藥的時候只跟老闆講這三種藥材，他就幫我配好裝袋了，而且他加了一大堆菊花，其實只要數朵啊啊啊啊 XD
-不過多了一些菊花應該更棒吧~&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;h2 id=&#34;煮法&#34;&gt;煮法&lt;/h2&gt;
-&lt;p&gt;將所有藥材裝進過濾袋或是茶包，先用水沖洗兩次後即可用沸水浸泡，我泡在咖啡壺裡面，其實直接放進杯子當茶包泡也沒問題，只是過濾袋就要用小一點的。&lt;/p&gt;
-
-&lt;link rel=&#34;stylesheet&#34; href=&#34;https://oxygentw.net/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
-  style=&#34;max-width:504px&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/chrysanthemum-cassia-tea/image1_c.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://oxygentw.net/img/post/chrysanthemum-cassia-tea/image1_c.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;然後&amp;hellip;.泡著泡著就完成啦！超級簡單的吧，喝完之後還可以再沖個一兩泡沒問題~&lt;/p&gt;
-
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
-  style=&#34;max-width:504px&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/chrysanthemum-cassia-tea/image2_c.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://oxygentw.net/img/post/chrysanthemum-cassia-tea/image2_c.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;有興趣的朋友可以試試看喔~&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;h6 id=&#34;參考資料&#34;&gt;參考資料&lt;/h6&gt;
-&lt;p&gt;台北醫學大學 &lt;a href=&#34;http://tmucamp.tmu.edu.tw/&#34;&gt;楓杏藥學營&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;為什麼要把大學搞得這麼累呢? 別人大學都是拿來好好談一場戀愛。&amp;rdquo; 我爸和我說的一句話，我不知道，我ㄊ自己也不知道為什麼，這句話我一直記著，一直反覆思考，但總想不出個所以然來，現在認識我的人都知道我非常忙，但是沒有人知道我為什麼要把自己搞得這麼忙，包括我自己也不知道。似乎，我不把自己填滿，我就會被焦慮取代，害怕我沒用，不被世界需要，成為大家的負擔，唯有創造光鮮亮麗與多元的生活才能令人羨慕，成為一個看似&amp;quot;有用的人&amp;quot;，維持著我脆弱的價值，這是我的推測，沒有驗證，真正的答案可能會在某一天突然頓悟，也可能是個終生的謎團吧?&lt;/p&gt;
 </description>
       
     </item>

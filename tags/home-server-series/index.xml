@@ -6,11 +6,7 @@
     <description>Recent content in Home server series on 氧氣橘子</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Mon, 18 Feb 2019 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://oxygentw.net/tags/home-server-series/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 18 Feb 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://oxygentw.net/tags/home-server-series/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>架設家用伺服器 PART 3 — 設定系統</title>
       <link>https://oxygentw.net/blog/computer/homeserver/3-system-setting/</link>
