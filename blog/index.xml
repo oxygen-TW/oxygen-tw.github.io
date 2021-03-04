@@ -6,7 +6,25 @@
     <description>Recent content in Blogs on 氧氣橘子</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sun, 01 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://oxygentw.net/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 04 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://oxygentw.net/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>建立第一個 Flutter App</title>
+      <link>https://oxygentw.net/blog/computer/first-flutter-app/</link>
+      <pubDate>Thu, 04 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/first-flutter-app/</guid>
+      <description>接續上一篇的環境安裝，我們來測試是否可以成功建立Flutter App，首先先打開 Android studio。 選擇 Create new Flutter project。 選擇Flutter</description>
+    </item>
+    
+    <item>
+      <title>安裝 Flutter 環境</title>
+      <link>https://oxygentw.net/blog/computer/install-flutter-env/</link>
+      <pubDate>Wed, 03 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/install-flutter-env/</guid>
+      <description>開源社的同學~ 這是我們第一堂社課要達成的目標，安裝Flutter與Dart環境，未來社課會頻繁的用到，希望大家都能順利安裝~ 網路上的朋友~ 這</description>
+    </item>
+    
     <item>
       <title>Remove Macos Hidden File</title>
       <link>https://oxygentw.net/blog/computer/remove-macos-hidden-file/</link>
@@ -167,24 +185,6 @@
       
       <guid>https://oxygentw.net/blog/life-story/double-major-adventure/</guid>
       <description>大二上，許多大學生最活躍的時刻，我也不例外，參與了一大堆活動，社團、學校單位、校外等等，幾乎每天都要把自己榨乾，我甚至做了一個連我自己都害怕</description>
-    </item>
-    
-    <item>
-      <title>清肝養目茶配方</title>
-      <link>https://oxygentw.net/blog/notes/chrysanthemum-cassia-tea/</link>
-      <pubDate>Sun, 08 Sep 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://oxygentw.net/blog/notes/chrysanthemum-cassia-tea/</guid>
-      <description>幾年前，那個我依然年輕的時候(? 在北醫藥學營方劑學學到清肝養目茶的配方與沖法，可是我一直不知道怎麼買中藥，剛剛去市場無意間看到就想說，恩，來</description>
-    </item>
-    
-    <item>
-      <title>新增生活故事系列！</title>
-      <link>https://oxygentw.net/blog/life-story/start/</link>
-      <pubDate>Fri, 06 Sep 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://oxygentw.net/blog/life-story/start/</guid>
-      <description>我從小就嚮往走遍世界，看看這世界每一個角落發生的點點滴滴，認識各地的人，體驗當地風土名情。每一個人從出生到死亡每分每秒都在寫下他的人生故事，</description>
     </item>
     
   </channel>

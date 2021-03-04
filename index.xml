@@ -6,10 +6,425 @@
     <description>Recent content on 氧氣橘子</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sun, 01 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 Mar 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://oxygentw.net/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>建立第一個 Flutter App</title>
+      <link>https://oxygentw.net/blog/computer/first-flutter-app/</link>
+      <pubDate>Thu, 04 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/first-flutter-app/</guid>
+      
+        <description>&lt;p&gt;接續上一篇的環境安裝，我們來測試是否可以成功建立Flutter App，首先先打開 Android studio。 &lt;br&gt;
+選擇 &lt;strong&gt;Create new Flutter project。&lt;/strong&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://oxygentw.net/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/first-flutter-app/1.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/first-flutter-app/1.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;選擇&lt;strong&gt;Flutter Application&lt;/strong&gt;。
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/first-flutter-app/2.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/first-flutter-app/2.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;輸入專案名稱、&lt;strong&gt;選擇 Flutter SDK 路徑&lt;/strong&gt;、專案的存檔位置、填寫這個專案的描述，並按下一步。
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/first-flutter-app/3.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/first-flutter-app/3.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;再來要設定 package name，package name攸關到以後上架到Google play和App store是否順利，如果有規劃要上架的話這個必須設定為&lt;strong&gt;唯一&lt;/strong&gt;，也就是不能與已上架的app重複，所以可以加入一些個人名字或公司名稱，但如果沒有要上架純粹自己用就沒關係。
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/first-flutter-app/4.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/first-flutter-app/4.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;設定完點 Finish，進入 IDE 主畫面。
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/first-flutter-app/5.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/first-flutter-app/5.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;我們執行後的程式必須跑在手機上，可是沒有手機怎麼辦? 開發接手機並不方便，所以我們要啟動虛擬機，模擬出一台手機跑我們編譯好的程式。 &lt;br&gt;
+右上角有一個 AVD manager，點開他。
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/first-flutter-app/6.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/first-flutter-app/6.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;裡面有一個像播放的按鈕，那是執行AVD的開關，點下去。進去後他可能會提示你要安裝 intel HAXM，那是一個提升效能的虛擬化技術，就給他安裝下去!
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/first-flutter-app/7.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/first-flutter-app/7.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;開起來的虛擬機長這樣，等他一下，他就會像手機一樣開機。 &lt;br&gt;
+&lt;strong&gt;注意! 開啟虛擬機耗費效能也很耗電，建議筆電插上電源使用。&lt;/strong&gt;
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/first-flutter-app/8.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/first-flutter-app/8.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;開好了之後回到 IDE，我們會看到裝置的地方已經連接上sdk gphone了。
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/first-flutter-app/9.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/first-flutter-app/9.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;點選工具列上綠色的編譯按鈕(像播放鍵的那個)，IDE 就會開始編譯範例程式。請耐心等候&amp;hellip;
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/first-flutter-app/10.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/first-flutter-app/10.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;到虛擬機上看看，編譯成功!
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/first-flutter-app/11.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/first-flutter-app/11.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;就完成第一個 Flutter App 的編譯與執行了! 以後課程的 Flutter App 也是依照這個步驟開啟喔~&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>安裝 Flutter 環境</title>
+      <link>https://oxygentw.net/blog/computer/install-flutter-env/</link>
+      <pubDate>Wed, 03 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/install-flutter-env/</guid>
+      
+        <description>&lt;p&gt;開源社的同學~ 這是我們第一堂社課要達成的目標，安裝Flutter與Dart環境，未來社課會頻繁的用到，希望大家都能順利安裝~&lt;/p&gt;
+&lt;p&gt;網路上的朋友~ 這是社課的教學內容，因此以大宗的Windows系統為例，還是分享給大家，其他作業系統安裝過程不會差太多，Linux甚至可以直接用套件管理工具安裝！&lt;/p&gt;
+&lt;p&gt;Flutter 環境安裝相較於其他開發工具複雜許多，因為我們必須安裝&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Dart SDK&lt;/li&gt;
+&lt;li&gt;Flutter&lt;/li&gt;
+&lt;li&gt;Git&lt;/li&gt;
+&lt;li&gt;Android studio
+&lt;ol&gt;
+&lt;li&gt;IDE&lt;/li&gt;
+&lt;li&gt;Android SDK&lt;/li&gt;
+&lt;li&gt;Android toolchain&lt;/li&gt;
+&lt;li&gt;Android Virtual Device&lt;/li&gt;
+&lt;li&gt;ADB&lt;/li&gt;
+&lt;li&gt;Dart Plugin&lt;/li&gt;
+&lt;li&gt;Flutter Plugin&lt;/li&gt;
+&lt;li&gt;etc&amp;hellip;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;VScode
+&lt;ol&gt;
+&lt;li&gt;Flutter Extension&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;安裝git&#34;&gt;安裝Git&lt;/h2&gt;
+&lt;p&gt;第一步我們先安裝Dit，到 &lt;a href=&#34;https://git-scm.com/download/win&#34;&gt;https://git-scm.com/download/win&lt;/a&gt; 下載 Windows 版 Git。&lt;/p&gt;
+&lt;p&gt;按照安裝指示安裝。&lt;/p&gt;
+&lt;h2 id=&#34;安裝flutter環境&#34;&gt;安裝Flutter環境&lt;/h2&gt;
+&lt;p&gt;先前往 &lt;a href=&#34;https://flutter.dev/docs/get-started/install&#34;&gt;https://flutter.dev/docs/get-started/install&lt;/a&gt; ，下載 Flutter 安裝檔，點選 Windows 或你使用的作業系統。&lt;/p&gt;
+&lt;p&gt;點選後會看到 Flutter 需要的系統規格。
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://oxygentw.net/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/install-flutter-env/1.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/install-flutter-env/1.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;我們往下拉，找到&lt;code&gt;Get the Flutter SDK&lt;/code&gt;並點選下載。 &lt;br&gt;
+下載完解壓縮後會是一個資料夾，我們把它放到C槽根目錄(你可以放在任何你想放的路徑，只是等等環境變數設定時要更改)&lt;/p&gt;
+&lt;p&gt;把 Flutter 資料夾的路徑複製起來&lt;/p&gt;
+&lt;p&gt;路徑要加上bin，也就是&lt;code&gt;C:\\flutter\bin&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;接著設定環境變數，到**本機 -&amp;gt; (右鍵)內容 -&amp;gt; (左側功能列)進階系統設定 -&amp;gt; 環境變數 -&amp;gt; Path -&amp;gt; 編輯 -&amp;gt; 新增 -&amp;gt; 將Flutter路徑貼上 -&amp;gt; 一路點確定。
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/install-flutter-env/2.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/install-flutter-env/2.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;輸入&lt;code&gt;flutter doctor&lt;/code&gt;，會開始自動安裝需要的檔案，並且進行環境檢測。
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/install-flutter-env/3.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/install-flutter-env/3.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;環境檢測會告訴你那些設定未完成，我們先從VS code設定開始。
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/install-flutter-env/4.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/install-flutter-env/4.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;打開 VScode，從左側選單點選 Extensions，搜尋Flutter並安裝。
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/install-flutter-env/5.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/install-flutter-env/5.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;安裝android-studio&#34;&gt;安裝Android studio&lt;/h2&gt;
+&lt;p&gt;接下來我們要安裝 Android Studio IDE，安裝這個的同時會一起安裝 Android toolchain、Android SDK 等等工具，到 &lt;a href=&#34;https://developer.android.com/studio&#34;&gt;https://developer.android.com/studio&lt;/a&gt; 後點選下載。
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/install-flutter-env/6.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/install-flutter-env/6.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;安裝精靈中&lt;strong&gt;Android studio&lt;/strong&gt;和&lt;strong&gt;Virtual device&lt;/strong&gt;都要打勾，其餘設定可以不動。
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/install-flutter-env/7.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/install-flutter-env/7.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;安裝完成後執行 Android studio 進入設定畫面
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/install-flutter-env/8.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/install-flutter-env/8.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;選擇標準設定
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/install-flutter-env/9.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/install-flutter-env/9.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;依照個人喜好選擇佈景主題，最後按 Finish 開始初始化設定。
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/install-flutter-env/10.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/install-flutter-env/10.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;這邊會有點久&amp;hellip;.
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/install-flutter-env/11.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/install-flutter-env/11.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;安裝完成後，到右下角選擇plugins
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/install-flutter-env/12.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/install-flutter-env/12.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;搜尋Dart和Flutter的插件，安裝他! 然後重新啟動 IDE 載 入plugin。
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/install-flutter-env/13.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/install-flutter-env/13.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/install-flutter-env/14.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/install-flutter-env/14.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;接著執行 &lt;code&gt;flutter doctor&lt;/code&gt;，他會告訴你說你還沒有同意android的條款，我們執行&lt;code&gt;flutter doctor --android-licenses&lt;/code&gt;閱讀條款並同意。
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/install-flutter-env/15.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/install-flutter-env/15.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;同意條款的話就輸入&lt;code&gt;y&lt;/code&gt;，有蠻多頁的，都要輸入&lt;code&gt;y&lt;/code&gt;，官方建議看完，我建議&amp;hellip;..:)
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/install-flutter-env/15.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/install-flutter-env/15.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;到此我們就完成環境安裝囉~ &lt;br&gt;
+下一篇：&lt;a href=&#34;https://oxygentw.net/blog/computer/first-flutter-app&#34;&gt;建立第一個 Flutter App&lt;/a&gt;&lt;/p&gt;
+</description>
+      
+    </item>
     
     <item>
       <title>Remove Macos Hidden File</title>
@@ -2457,100 +2872,6 @@ Microsoft Windows [版本 10.0.1****.356]
 &lt;p&gt;&lt;a href=&#34;https://github.com/pypa/pipenv&#34;&gt;https://github.com/pypa/pipenv&lt;/a&gt; &lt;br&gt;
 &lt;a href=&#34;https://medium.com/@chihsuan/pipenv-%E6%9B%B4%E7%B0%A1%E5%96%AE-%E6%9B%B4%E5%BF%AB%E9%80%9F%E7%9A%84-python-%E5%A5%97%E4%BB%B6%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7-135a47e504f4&#34;&gt;https://medium.com/@chihsuan/pipenv-%E6%9B%B4%E7%B0%A1%E5%96%AE-%E6%9B%B4%E5%BF%AB%E9%80%9F%E7%9A%84-python-%E5%A5%97%E4%BB%B6%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7-135a47e504f4&lt;/a&gt; &lt;br&gt;
 同步刊載：https://ithelp.ithome.com.tw/articles/10220927&lt;/p&gt;
-</description>
-      
-    </item>
-    
-    <item>
-      <title>解決 Python 中 UnicodeDecodeError: &#39;cp950&#39; codec can&#39;t decode</title>
-      <link>https://oxygentw.net/blog/computer/python-file-utf8-encoding/</link>
-      <pubDate>Sat, 09 Nov 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://oxygentw.net/blog/computer/python-file-utf8-encoding/</guid>
-      
-        <description>&lt;p&gt;寫 Python 做資料處理時讀取中文檔案有時候會遇到 &lt;code&gt;UnicodeDecodeError: &#39;cp950&#39; codec can&#39;t decode byte 0xe8 in position 7: illegal multibyte sequence&lt;/code&gt; 的錯誤，每次發生我都要重新找一次解決方法，一直記不住&amp;hellip; 乾脆直接寫下來!&lt;/p&gt;
-&lt;p&gt;我都很確認資料檔是以 UTF-8 編碼啊，但怎麼還是報 cp950，原來問題不是出在資料檔，而是 Python 腳本的預設編碼，所以我們只要告訴 Python 我們要讀取的檔案是以 UTF-8 編碼即可解決。&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;h3 id=&#34;錯誤回報案例&#34;&gt;錯誤回報案例&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;Traceback &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;most recent call last&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;:
-  File &lt;span class=&#34;s2&#34;&gt;&amp;#34;.\main.py&amp;#34;&lt;/span&gt;, line 4, in &amp;lt;module&amp;gt;
-    &lt;span class=&#34;nv&#34;&gt;line&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; f.read&lt;span class=&#34;o&#34;&gt;()&lt;/span&gt;
-UnicodeDecodeError: &lt;span class=&#34;s1&#34;&gt;&amp;#39;cp950&amp;#39;&lt;/span&gt; codec can&lt;span class=&#34;err&#34;&gt;&amp;#39;&lt;/span&gt;t decode byte 0xe8 in position 7: illegal multibyte sequence&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;錯誤程式碼&#34;&gt;錯誤程式碼&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;re&lt;/span&gt;
-
-&lt;span class=&#34;n&#34;&gt;f&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;open&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;data1109.txt&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;r&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;#注意此行&lt;/span&gt;
-&lt;span class=&#34;n&#34;&gt;line&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;f&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;read&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
-
-&lt;span class=&#34;n&#34;&gt;arr&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;re&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;findall&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;sa&#34;&gt;r&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;[0-9]+:[0-9]+\s&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;line&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;span class=&#34;k&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;len&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;arr&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;h3 id=&#34;修改後程式碼&#34;&gt;修改後程式碼&lt;/h3&gt;
-&lt;p&gt;在 &lt;code&gt;open()&lt;/code&gt; 裡加上 &lt;code&gt;encoding=&amp;quot;utf-8&amp;quot;&lt;/code&gt; 即可解決。
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;re&lt;/span&gt;
-
-&lt;span class=&#34;n&#34;&gt;f&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;open&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;data1109.txt&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;r&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;encoding&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;utf-8&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;  &lt;span class=&#34;c1&#34;&gt;#注意此行&lt;/span&gt;
-&lt;span class=&#34;n&#34;&gt;line&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;f&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;read&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
-
-&lt;span class=&#34;n&#34;&gt;arr&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;re&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;findall&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;sa&#34;&gt;r&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;[0-9]+:[0-9]+\s&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;line&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;span class=&#34;k&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;len&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;arr&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;
-</description>
-      
-    </item>
-    
-    <item>
-      <title>對！我跨校雙主修</title>
-      <link>https://oxygentw.net/blog/life-story/double-major-adventure/</link>
-      <pubDate>Thu, 19 Sep 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://oxygentw.net/blog/life-story/double-major-adventure/</guid>
-      
-        <description>&lt;p&gt;大二上，許多大學生最活躍的時刻，我也不例外，參與了一大堆活動，社團、學校單位、校外等等，幾乎每天都要把自己榨乾，我甚至做了一個連我自己都害怕的決定，&lt;strong&gt;跨校雙主修&lt;/strong&gt;。&lt;/p&gt;
-&lt;p&gt;108 學年我們學校才剛通過熱騰騰的合作協定，讓我們與友校互修輔系與雙主修，我想說把握這個機會去看看不一樣的東西，也去體驗看看真正的大學校園是什麼感覺，然而這個東西連雙方的教務處都不是很清楚，因為依照教務處的說法，我是全校唯一去跨校雙主修的人，沒有，其他人了&amp;hellip;&amp;hellip;&lt;/p&gt;
-&lt;p&gt;因為友校的畜產系頗有名，加上先前認識一個很好的朋友高中是畜產保健科，她曾經帶我到她母校參觀牧場與學生現場擠牛奶的過程，也和我分享很多高中有趣的事情，從此我開始認識從來不曾打算讀的農學院，其實本來我是要去資工系的，但同學和我說畜產系的上課內容會是很特別的經驗，我想了一下也挺有道理的，資工系的東西網路上學就好，但是家畜養殖可不能線上體驗啊！而且平常哪有實習農牧場可以讓我實作呢? 但家人感覺似乎不是很希望我去畜產系，他們覺得資工比較有前途、未來薪水也高，這是事實，但這次我記取高科大航運技術系的經驗，我照著我的想法走，最後，成為畜產系的雙主修學生，也很感謝我的父母尊重我的選擇，沒有強制我做出他們期待的決定。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;但這樣的決定對我而言是個極大的挑戰。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;這學期在本校我有非常多通識課要修，學分直逼上限，卻來不及申請超修，我和教務處申請人工加退選，退掉了一堂必修課，用空的時間與學分去修友校的課，這個行為令我很不安，如果明年必修衝堂不能補修怎麼辦? 大家都在讀免疫學我卻在讀遺傳學，萬一來不及修我是不是不能去臨床實習? 我該怎麼安排兩校間的通勤時間? 一大堆的問題同時轟炸著我，現在的我很忙，加上這些惱人的決策，讓我的生活過得很凌亂，睡眠時間亂七八糟，三餐可能只吃到一餐，而且還是隨便亂吃，修這個學程是要收學分費的，因此也面臨了大學以來最嚴重的經濟困難，即使沒有到沒錢吃飯，但卻是幾乎要動要到緊急儲備金的地步，助眠藥物的用量也比以往要頻繁許多，忘東忘西的，沒有能力妥當的安排事件與事件之間的行程，社團時常臨時缺席，很簡單的說就是事情已經多到超出我這個人所能負荷的程度了，努力學習如何在這樣的環境下管理好自己，大概是我現在最重要的課題。&lt;/p&gt;
-&lt;p&gt;我有很高的機率不會修完雙主修，只會拿到輔系學位而已，但其實我不在乎，我並不是為了文憑才去修的，純粹是想體驗那些在牧場工作的人們他們的工作內容，多多了解第一級產業在動物養殖的部分，老實說，有一部分也是想了解我那位很好的朋友她高中所學習的課程。平時我們在商店買牛奶，卻不曾思考過牛奶從乳牛到市場之間到底經過了那些過程，也不曾思考過香腸、培根等等加工肉品是如何被製作的，希望我可以透過這冒險的決定，讓我更加了解，學到更多。&lt;/p&gt;
-&lt;p&gt;&amp;ldquo;為什麼要把大學搞得這麼累呢? 別人大學都是拿來好好談一場戀愛。&amp;rdquo; 我爸和我說的一句話，我不知道，我ㄊ自己也不知道為什麼，這句話我一直記著，一直反覆思考，但總想不出個所以然來，現在認識我的人都知道我非常忙，但是沒有人知道我為什麼要把自己搞得這麼忙，包括我自己也不知道。似乎，我不把自己填滿，我就會被焦慮取代，害怕我沒用，不被世界需要，成為大家的負擔，唯有創造光鮮亮麗與多元的生活才能令人羨慕，成為一個看似&amp;quot;有用的人&amp;quot;，維持著我脆弱的價值，這是我的推測，沒有驗證，真正的答案可能會在某一天突然頓悟，也可能是個終生的謎團吧?&lt;/p&gt;
 </description>
       
     </item>
