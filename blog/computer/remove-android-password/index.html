@@ -26,7 +26,7 @@
 <meta name="mobile-web-app-capable" content="yes">
 
 <meta name="author" content="oxygen" />
-  <meta name="description" content="最近在學 Flutter，想說拿以前的Android來做測試，沒想到&amp;hellip;.忘記密碼了!!!! 只好去想辦法把密碼解開，於是有了這篇筆" />
+  <meta name="description" content="最近在學 Flutter，想說拿以前的 Android 手機來做測試，沒想到&amp;hellip;.忘記密碼了!!!! 只好去想辦法把密碼解開，於是有了這篇筆記&amp;he" />
 <meta name="keywords" content="手機忘記密碼, Android adb password, adb, 破解手機密碼, Android 密碼" />
 
 
@@ -63,19 +63,19 @@
 
 
 <meta property="og:title" content="移除 Android 手機螢幕鎖定密碼" />
-<meta property="og:description" content="最近在學 Flutter，想說拿以前的Android來做測試，沒想到&hellip;.忘記密碼了!!!! 只好去想辦法把密碼解開，於是有了這篇筆" />
+<meta property="og:description" content="最近在學 Flutter，想說拿以前的 Android 手機來做測試，沒想到&hellip;.忘記密碼了!!!! 只好去想辦法把密碼解開，於是有了這篇筆記&he" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://oxygentw.net/blog/computer/remove-android-password/" /><meta property="article:section" content="blog" />
 <meta property="article:published_time" content="2020-09-04T00:00:00&#43;00:00" />
 <meta property="article:modified_time" content="2020-09-04T00:00:00&#43;00:00" />
 
 <meta itemprop="name" content="移除 Android 手機螢幕鎖定密碼">
-<meta itemprop="description" content="最近在學 Flutter，想說拿以前的Android來做測試，沒想到&hellip;.忘記密碼了!!!! 只好去想辦法把密碼解開，於是有了這篇筆"><meta itemprop="datePublished" content="2020-09-04T00:00:00&#43;00:00" />
+<meta itemprop="description" content="最近在學 Flutter，想說拿以前的 Android 手機來做測試，沒想到&hellip;.忘記密碼了!!!! 只好去想辦法把密碼解開，於是有了這篇筆記&he"><meta itemprop="datePublished" content="2020-09-04T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2020-09-04T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="437">
+<meta itemprop="wordCount" content="446">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="移除 Android 手機螢幕鎖定密碼"/>
-<meta name="twitter:description" content="最近在學 Flutter，想說拿以前的Android來做測試，沒想到&hellip;.忘記密碼了!!!! 只好去想辦法把密碼解開，於是有了這篇筆"/>
+<meta name="twitter:description" content="最近在學 Flutter，想說拿以前的 Android 手機來做測試，沒想到&hellip;.忘記密碼了!!!! 只好去想辦法把密碼解開，於是有了這篇筆記&he"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -316,7 +316,7 @@ if (!doNotTrack) {
             <a href="https://oxygentw.net/categories/computer/"> computer </a>
             
           </div>
-        <span class="more-meta"> 約 437 字 </span>
+        <span class="more-meta"> 約 446 字 </span>
           <span class="more-meta"> 預計閱讀 1 分鐘 </span>
 
         
@@ -332,9 +332,9 @@ if (!doNotTrack) {
 
     
     <div class="post-content">
-      <p>最近在學 Flutter，想說拿以前的Android來做測試，沒想到&hellip;.忘記密碼了!!!! 只好去想辦法把密碼解開，於是有了這篇筆記&hellip;</p>
+      <p>最近在學 Flutter，想說拿以前的 Android 手機來做測試，沒想到&hellip;.忘記密碼了!!!! 只好去想辦法把密碼解開，於是有了這篇筆記&hellip;</p>
 <hr>
-<p>首先必須先在電腦裡安裝 adb(<a href="https://developer.android.com/studio/command-line/adb?authuser=1">Android debug bridge</a>)，這是一個 Android 開發食用的偵錯工具，可以利用 choco 下載。 <br>
+<p>首先必須先在電腦裡安裝 adb(<a href="https://developer.android.com/studio/command-line/adb?authuser=1">Android debug bridge</a>)，這是一個 Android 開發時用的偵錯工具，可以利用 choco 下載。 <br>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -348,7 +348,7 @@ if (!doNotTrack) {
 </blockquote>
 <p>.</p>
 <p>接著將要解除密碼的手機進入 Recovery mode，並用USB線和電腦連接，以啟用ADB偵錯模式。
-通常是在關機的狀態下同時按住<strong>電源鍵與音量下鍵</strong>，如果這樣不行也不知如何開啟請看<a href="https://www.google.com/search?q=%E9%96%8B%E5%95%9F+recovery+mode">Android recoveru mode</a></p>
+通常是在關機的狀態下同時按住<strong>電源鍵與音量下鍵</strong>，如果這樣不行也不知如何開啟請看<a href="https://www.google.com/search?q=%E9%96%8B%E5%95%9F+recovery+mode">Android recoveru mode</a>，或去搜尋你的手機型號怎麼開啟 Recovery mode。</p>
 <p>接下來就進入重點了，打開終端機，檢查 ADB 有沒有找到 android 設備。 <br>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -383,7 +383,7 @@ if (!doNotTrack) {
 </div>
 </div></p>
 <p>.</p>
-<p>Android 是 Linux base，所以操作方式和 Linux 一樣，切換到<code>/data/system</code> 目錄，查看裡面有哪些檔案</p>
+<p>Android 是 Linux base，所以操作方式和 Linux 一樣，切換到 <code>/data/system</code> 目錄，查看裡面有哪些檔案</p>
 <p>
 
 <div class="box">
