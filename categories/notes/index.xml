@@ -6,7 +6,16 @@
     <description>Recent content in notes on 氧氣橘子</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Mon, 12 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://oxygentw.net/categories/notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://oxygentw.net/categories/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>簡易細菌鑑別流程圖</title>
+      <link>https://oxygentw.net/blog/notes/basicbacindentification/</link>
+      <pubDate>Tue, 23 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/notes/basicbacindentification/</guid>
+      <description>整理一下上課講義上的細菌判別總表，放在網路上給大家參考，邊學邊做，有錯拜託告知QQ PDF下載點 #the-canvas { border: 1px solid black; direction: ltr; width: 100%; height: auto; } #paginator{ text-align: center; margin-bottom: 10px; } Previous Next &amp;nbsp; &amp;nbsp;</description>
+    </item>
+    
     <item>
       <title>關於檢驗科抽血</title>
       <link>https://oxygentw.net/blog/notes/mls-venipuncture/</link>
@@ -176,15 +185,6 @@
       
       <guid>https://oxygentw.net/blog/notes/leap-year-rule/</guid>
       <description>我們現在使用的曆法屬於太陽曆，也就是以太陽運行為標準所訂下的，大多數人都知道有一個用來修正時間的規則 — 閏年，使的特定年份會有366天，但其中</description>
-    </item>
-    
-    <item>
-      <title>C&#43;&#43; 獨立重複白努力試驗模擬</title>
-      <link>https://oxygentw.net/blog/notes/cpp-bernoulli-trial-simulation/</link>
-      <pubDate>Tue, 19 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://oxygentw.net/blog/notes/cpp-bernoulli-trial-simulation/</guid>
-      <description>數學課上到這部分，依據大數法則，試驗的次數越多，結果會越相似於常態分佈，但丟硬幣100次都嫌累了，根本沒辦法看出甚麼所以然來，這時電腦就好用</description>
     </item>
     
   </channel>

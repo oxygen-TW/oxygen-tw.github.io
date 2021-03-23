@@ -6,7 +6,16 @@
     <description>Recent content in Blogs on 氧氣橘子</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Thu, 04 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://oxygentw.net/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://oxygentw.net/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>簡易細菌鑑別流程圖</title>
+      <link>https://oxygentw.net/blog/notes/basicbacindentification/</link>
+      <pubDate>Tue, 23 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/notes/basicbacindentification/</guid>
+      <description>整理一下上課講義上的細菌判別總表，放在網路上給大家參考，邊學邊做，有錯拜託告知QQ PDF下載點 #the-canvas { border: 1px solid black; direction: ltr; width: 100%; height: auto; } #paginator{ text-align: center; margin-bottom: 10px; } Previous Next &amp;nbsp; &amp;nbsp;</description>
+    </item>
+    
     <item>
       <title>建立第一個 Flutter App</title>
       <link>https://oxygentw.net/blog/computer/first-flutter-app/</link>
@@ -176,15 +185,6 @@
       
       <guid>https://oxygentw.net/blog/computer/python-file-utf8-encoding/</guid>
       <description>寫 Python 做資料處理時讀取中文檔案有時候會遇到 UnicodeDecodeError: &#39;cp950&#39; codec can&#39;t decode byte 0xe8 in position 7: illegal multibyte sequence 的錯誤，每次發生我都要重新找一次解決方法，一直記不住&amp;hellip; 乾脆直</description>
-    </item>
-    
-    <item>
-      <title>對！我跨校雙主修</title>
-      <link>https://oxygentw.net/blog/life-story/double-major-adventure/</link>
-      <pubDate>Thu, 19 Sep 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://oxygentw.net/blog/life-story/double-major-adventure/</guid>
-      <description>大二上，許多大學生最活躍的時刻，我也不例外，參與了一大堆活動，社團、學校單位、校外等等，幾乎每天都要把自己榨乾，我甚至做了一個連我自己都害怕</description>
     </item>
     
   </channel>
