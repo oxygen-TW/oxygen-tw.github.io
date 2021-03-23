@@ -6,7 +6,7 @@
     <description>Recent content on 氧氣橘子</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Mon, 22 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 23 Mar 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://oxygentw.net/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>簡易細菌鑑別流程圖</title>
       <link>https://oxygentw.net/blog/notes/basicbacindentification/</link>
-      <pubDate>Mon, 22 Mar 2021 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 23 Mar 2021 00:00:00 +0000</pubDate>
       
       <guid>https://oxygentw.net/blog/notes/basicbacindentification/</guid>
       
@@ -23,137 +23,8 @@
 &lt;li&gt;資料來源：林世傑教授講義&lt;/li&gt;
 &lt;li&gt;軟體：Xmind free version&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;a href=&#34;%22https://oxygentw.net/files/BasicBacteriaIdentification.pdf%22&#34;&gt;PDF下載點&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;script type=&#34;text/javascript&#34; src=&#34;https://oxygentw.net/js/pdf-js/build/pdf.js&#34;&gt;&lt;/script&gt;
-&lt;style&gt;
-#the-canvas {
-  border: 1px solid black;
-  direction: ltr;
-  width: 100%;
-  height: auto;
-}
-#paginator{
-    text-align: center;
-    margin-bottom: 10px;
-}
-&lt;/style&gt;
-
-&lt;div id=&#34;paginator&#34;&gt;
-    &lt;button id=&#34;prev&#34;&gt;Previous&lt;/button&gt;
-    &lt;button id=&#34;next&#34;&gt;Next&lt;/button&gt;
-    &amp;nbsp; &amp;nbsp;
-    &lt;span&gt;Page: &lt;span id=&#34;page_num&#34;&gt;&lt;/span&gt; / &lt;span id=&#34;page_count&#34;&gt;&lt;/span&gt;&lt;/span&gt;
-&lt;/div&gt;
-&lt;div id=&#34;embed-pdf-container&#34;&gt;
-    &lt;canvas id=&#34;the-canvas&#34;&gt;&lt;/canvas&gt;
-&lt;/div&gt;
-
-&lt;script type=&#34;text/javascript&#34;&gt;
-window.onload = function() {
-
-
-var url = &#34;https:\/\/oxygentw.net\/&#34; + &#39;https:\/\/oxygentw.net\/files\/BasicBacteriaIdentification.pdf&#39;;
-var hidePaginator = &#34;&#34;;
-
-
-var pdfjsLib = window[&#39;pdfjs-dist/build/pdf&#39;];
-
-
-pdfjsLib.GlobalWorkerOptions.workerSrc = &#34;https:\/\/oxygentw.net\/&#34; + &#39;/js/pdf-js/build/pdf.worker.js&#39;;
-
-
-var pdfDoc = null,
-    pageNum = 1,
-    pageRendering = false,
-    pageNumPending = null,
-    scale = 3,
-    canvas = document.getElementById(&#39;the-canvas&#39;),
-    ctx = canvas.getContext(&#39;2d&#39;);
-
-
-
-function renderPage(num) {
-  pageRendering = true;
-  
-  pdfDoc.getPage(num).then(function(page) {
-    var viewport = page.getViewport({scale: scale});
-    canvas.height = viewport.height;
-    canvas.width = viewport.width;
-
-    
-    var renderContext = {
-      canvasContext: ctx,
-      viewport: viewport
-    };
-    var renderTask = page.render(renderContext);
-
-    
-    renderTask.promise.then(function() {
-      pageRendering = false;
-      if (pageNumPending !== null) {
-        
-        renderPage(pageNumPending);
-        pageNumPending = null;
-      }
-    });
-  });
-
-  
-  document.getElementById(&#39;page_num&#39;).textContent = num;
-}
-
-
-
-function queueRenderPage(num) {
-  if (pageRendering) {
-    pageNumPending = num;
-  } else {
-    renderPage(num);
-  }
-}
-
-
-
-if (hidePaginator) {
-  document.getElementById(&#34;paginator&#34;).style.display = &#39;none&#39;;
-}
-
-
-
-function onPrevPage() {
-  if (pageNum &lt;= 1) {
-    return;
-  }
-  pageNum--;
-  queueRenderPage(pageNum);
-}
-document.getElementById(&#39;prev&#39;).addEventListener(&#39;click&#39;, onPrevPage);
-
-
-
-function onNextPage() {
-  if (pageNum &gt;= pdfDoc.numPages) {
-    return;
-  }
-  pageNum++;
-  queueRenderPage(pageNum);
-}
-document.getElementById(&#39;next&#39;).addEventListener(&#39;click&#39;, onNextPage);
-
-
-
-pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
-  pdfDoc = pdfDoc_;
-  document.getElementById(&#39;page_count&#39;).textContent = pdfDoc.numPages;
-
-  
-  renderPage(pageNum);
-});
-}
-
-&lt;/script&gt;
-
-圖片預覽
+&lt;p&gt;💥&lt;a href=&#34;%22https://oxygentw.net/files/BasicBacteriaIdentification.pdf%22&#34;&gt;PDF下載點&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;圖片預覽
 
 &lt;link rel=&#34;stylesheet&#34; href=&#34;https://oxygentw.net/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
