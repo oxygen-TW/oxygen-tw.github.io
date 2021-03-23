@@ -6,7 +6,7 @@
     <description>Recent content on 氧氣橘子</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Tue, 23 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 Mar 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://oxygentw.net/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,11 +14,15 @@
     <item>
       <title>簡易細菌鑑別流程圖</title>
       <link>https://oxygentw.net/blog/notes/basicbacindentification/</link>
-      <pubDate>Tue, 23 Mar 2021 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 22 Mar 2021 00:00:00 +0000</pubDate>
       
       <guid>https://oxygentw.net/blog/notes/basicbacindentification/</guid>
       
         <description>&lt;p&gt;整理一下上課講義上的細菌判別總表，放在網路上給大家參考，邊學邊做，有錯拜託告知QQ&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;資料來源：林世傑教授講義&lt;/li&gt;
+&lt;li&gt;軟體：Xmind free version&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;&lt;a href=&#34;%22https://oxygentw.net/files/BasicBacteriaIdentification.pdf%22&#34;&gt;PDF下載點&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;script type=&#34;text/javascript&#34; src=&#34;https://oxygentw.net/js/pdf-js/build/pdf.js&#34;&gt;&lt;/script&gt;
 &lt;style&gt;
