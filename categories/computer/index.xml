@@ -6,7 +6,16 @@
     <description>Recent content in computer on 氧氣橘子</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Thu, 04 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://oxygentw.net/categories/computer/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://oxygentw.net/categories/computer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>分享 - Levey-Jennings chart 品管圖 Excel 模板</title>
+      <link>https://oxygentw.net/blog/notes/lj-chart-excel-share/</link>
+      <pubDate>Wed, 24 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/notes/lj-chart-excel-share/</guid>
+      <description>之前想說畫品管圖好麻煩，乾脆寫個程式來畫，但又覺得為這個寫程式有點太大費周章，決定去找找看有沒有現成的模板可以直接用 Excel 畫，結果還真的有! 而且</description>
+    </item>
+    
     <item>
       <title>建立第一個 Flutter App</title>
       <link>https://oxygentw.net/blog/computer/first-flutter-app/</link>
@@ -176,15 +185,6 @@
       
       <guid>https://oxygentw.net/blog/computer/apache-hide-sensitive-info/</guid>
       <description>紀錄 Apache Server 的一些基礎安全設定，可以避免伺服器版本號或作業系統等機敏性資料輕易的被取得，雖然說真的有心人士要攻擊的話這些簡單的設定應該也防不了，</description>
-    </item>
-    
-    <item>
-      <title>架設家用伺服器 PART 0 — 準備硬體</title>
-      <link>https://oxygentw.net/blog/computer/homeserver/0-prepare-hardware/</link>
-      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://oxygentw.net/blog/computer/homeserver/0-prepare-hardware/</guid>
-      <description>樹苺派是一款微電腦，話雖如此，他也擁有一般 Linux 電腦的所有功能，只是性能較差一點，因此用他來架設流量不會太大的家用伺服器，畢竟只有家人會用到而已</description>
     </item>
     
   </channel>

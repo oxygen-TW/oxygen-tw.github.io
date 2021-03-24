@@ -6,7 +6,16 @@
     <description>Recent content in notes on 氧氣橘子</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Tue, 23 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://oxygentw.net/categories/notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://oxygentw.net/categories/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>分享 - Levey-Jennings chart 品管圖 Excel 模板</title>
+      <link>https://oxygentw.net/blog/notes/lj-chart-excel-share/</link>
+      <pubDate>Wed, 24 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/notes/lj-chart-excel-share/</guid>
+      <description>之前想說畫品管圖好麻煩，乾脆寫個程式來畫，但又覺得為這個寫程式有點太大費周章，決定去找找看有沒有現成的模板可以直接用 Excel 畫，結果還真的有! 而且</description>
+    </item>
+    
     <item>
       <title>簡易細菌鑑別流程圖</title>
       <link>https://oxygentw.net/blog/notes/basicbacindentification/</link>
@@ -176,15 +185,6 @@
       
       <guid>https://oxygentw.net/blog/notes/make-solar-charging-device/</guid>
       <description>前些日子學校採買零件時有買兩片小太陽能板，最近送到了，隔了超久我都已經忘記有買這個了XD，不過對我們專題沒有太大幫助，就想說能不能做一個太陽</description>
-    </item>
-    
-    <item>
-      <title>閏年規則由來</title>
-      <link>https://oxygentw.net/blog/notes/leap-year-rule/</link>
-      <pubDate>Wed, 27 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://oxygentw.net/blog/notes/leap-year-rule/</guid>
-      <description>我們現在使用的曆法屬於太陽曆，也就是以太陽運行為標準所訂下的，大多數人都知道有一個用來修正時間的規則 — 閏年，使的特定年份會有366天，但其中</description>
     </item>
     
   </channel>
