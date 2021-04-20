@@ -6,7 +6,16 @@
     <description>Recent content in Blogs on 氧氣橘子</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Wed, 24 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://oxygentw.net/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 20 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://oxygentw.net/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[筆記] 單株抗體製備與應用</title>
+      <link>https://oxygentw.net/blog/notes/basic-mab-note/</link>
+      <pubDate>Tue, 20 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/notes/basic-mab-note/</guid>
+      <description>單株(Monoclonal)抗體在血清免疫與癌症治療上有很重要的應用，正常人體中產生的抗體為多株(Polyclonal)抗體，以因應各式各樣</description>
+    </item>
+    
     <item>
       <title>分享 - Levey-Jennings chart 品管圖 Excel 模板</title>
       <link>https://oxygentw.net/blog/notes/lj-chart-excel-share/</link>
@@ -176,15 +185,6 @@
       
       <guid>https://oxygentw.net/blog/computer/line-counter/</guid>
       <description>前陣子看了這篇解析 Line 對話的文章 讓我對解析 Line 匯出的純文字聊天紀錄有點概念，後來一時興起想計算我和朋友總共聊了多少訊息，寫了一個很簡單的小程式。</description>
-    </item>
-    
-    <item>
-      <title>介紹 pipenv 套件管理工具</title>
-      <link>https://oxygentw.net/blog/computer/python-pipenv/</link>
-      <pubDate>Fri, 15 Nov 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://oxygentw.net/blog/computer/python-pipenv/</guid>
-      <description>pipenv 是目前 Python 官方推薦的套件管理系統，在一段時間以前，好啦其實就是現在(? 還有很多人使用 pip 和 virtualenv 來進行 python 開發，這樣當然沒問題，只是維護 requirements.txt 有些麻煩，</description>
     </item>
     
   </channel>

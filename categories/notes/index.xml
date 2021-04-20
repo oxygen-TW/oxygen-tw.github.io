@@ -6,7 +6,16 @@
     <description>Recent content in notes on 氧氣橘子</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Wed, 24 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://oxygentw.net/categories/notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 20 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://oxygentw.net/categories/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[筆記] 單株抗體製備與應用</title>
+      <link>https://oxygentw.net/blog/notes/basic-mab-note/</link>
+      <pubDate>Tue, 20 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/notes/basic-mab-note/</guid>
+      <description>單株(Monoclonal)抗體在血清免疫與癌症治療上有很重要的應用，正常人體中產生的抗體為多株(Polyclonal)抗體，以因應各式各樣</description>
+    </item>
+    
     <item>
       <title>分享 - Levey-Jennings chart 品管圖 Excel 模板</title>
       <link>https://oxygentw.net/blog/notes/lj-chart-excel-share/</link>
@@ -176,15 +185,6 @@
       
       <guid>https://oxygentw.net/blog/notes/tea-pudding/</guid>
       <description>茶凍，一個很簡單卻很好吃的甜點，只需要30分鐘左右即可完成，但是讓他凝固要2小時，材料也不會很難，可說是個經濟實惠的甜點呢!我做了很多次都沒</description>
-    </item>
-    
-    <item>
-      <title>製作太陽能充電站</title>
-      <link>https://oxygentw.net/blog/notes/make-solar-charging-device/</link>
-      <pubDate>Wed, 07 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://oxygentw.net/blog/notes/make-solar-charging-device/</guid>
-      <description>前些日子學校採買零件時有買兩片小太陽能板，最近送到了，隔了超久我都已經忘記有買這個了XD，不過對我們專題沒有太大幫助，就想說能不能做一個太陽</description>
     </item>
     
   </channel>

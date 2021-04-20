@@ -6,10 +6,108 @@
     <description>Recent content on 氧氣橘子</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Wed, 24 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Apr 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://oxygentw.net/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[筆記] 單株抗體製備與應用</title>
+      <link>https://oxygentw.net/blog/notes/basic-mab-note/</link>
+      <pubDate>Tue, 20 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/notes/basic-mab-note/</guid>
+      
+        <description>&lt;p&gt;單株(Monoclonal)抗體在血清免疫與癌症治療上有很重要的應用，正常人體中產生的抗體為多株(Polyclonal)抗體，以因應各式各樣的入侵病原，但在臨床使用上因為太雜亂，應用有限，現在血清免疫檢驗的發展有很大一部分歸功於單株抗體的分離，1975年 Kohler 和 Milstein 成功融合B細胞與腫瘤細胞，創造出融合瘤，成功大量製備單株抗體。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;血清免疫檢驗中，沒有抗體不能解決的，如果有，那就加二級抗體。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;單株抗體製備&#34;&gt;單株抗體製備&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;合成 hapten-mimic&lt;/li&gt;
+&lt;li&gt;注入老鼠/兔子等生物體內產生免疫抗體&lt;/li&gt;
+&lt;li&gt;以融合瘤技術產生單株抗體&lt;/li&gt;
+&lt;li&gt;測試單株抗體的敏感度與專一性&lt;/li&gt;
+&lt;li&gt;複製單株抗體產生重組抗體&lt;/li&gt;
+&lt;li&gt;測試重組抗體的敏感度與專一性&lt;/li&gt;
+&lt;li&gt;決定重組抗體序列&lt;/li&gt;
+&lt;li&gt;重組抗體基因改造&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;融合瘤-hat-選殖技術&#34;&gt;融合瘤 HAT 選殖技術&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;B細胞具有產生抗體的能力，但是早期的B細胞存活時間很短&lt;/li&gt;
+&lt;li&gt;腫瘤細胞具有&amp;quot;不死化&amp;quot;的特性&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;製造出融合瘤(Hybridomas)，亦即將B細胞與腫瘤細胞融合，即可創造出&lt;strong&gt;可產生抗體也長期存活&lt;/strong&gt;的細胞。&lt;/p&gt;
+&lt;p&gt;首先，在腫瘤細胞的部分，將 Myeloma cells 以 8-Azaguanine 處理，創造出 Myeloma cells 缺乏HGPRT(Hypoxanthine-guanine phosphoribosyltransferase)，B細胞的部分則是將半抗原注射進老鼠體內，使其免疫系統產生對應抗體的B細胞，再取出老鼠腹腔液或脾臟組織，以ELISA/Flow cytometery技術測定抗體效價。&lt;/p&gt;
+&lt;p&gt;有了兩種細胞，我們便可以利用 polyethylene glycol(PEG) 嘗試融合，我們不會知道融合是否有成功，因此要進行接下來的選殖。&lt;/p&gt;
+&lt;p&gt;Picture: &lt;em&gt;de nove pathway and salvage pathway&lt;/em&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://oxygentw.net/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/basic-mab-note/pathway.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/basic-mab-note/pathway.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;選殖使用的培養基為 HAT medium&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;H: Hypoxanthine&lt;/li&gt;
+&lt;li&gt;T: Thymidine&lt;/li&gt;
+&lt;li&gt;A: Aminopterin(葉酸抑制劑)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;葉酸抑制劑會阻斷細胞進行 de nove pathway，強迫其進行 salvage pathway，但是前述提到處理過的腫瘤細胞為HGPRT-，他不能進行salvage pathway，因此在HAT培養基上會死亡，即使是不死化的癌細胞，完全阻斷他的代謝路徑他還是會死的&amp;hellip;..&lt;/p&gt;
+&lt;p&gt;B細胞有進行salvage pathway的能力，當腫瘤細胞與B細胞融合後同時也會得到B細胞的代謝能力，可以在 HAT 培養基上存活。&lt;/p&gt;
+&lt;p&gt;那沒有融合的純B細胞呢? 他可以利用 HAT 培養基耶，他是不是也會活下來? &lt;strong&gt;不會&lt;/strong&gt;，純B細胞這東西呢，在體外你給他再多的東西，時間到了他就死了，而且那時間還很短。&lt;/p&gt;
+&lt;p&gt;綜合以上，會活下來的細胞就是有融合成功的細胞，這步驟就叫&lt;strong&gt;選殖&lt;/strong&gt;，只允許有我們想要的性狀的細胞存活，其他都會死亡，接下來要進行下一步。&lt;/p&gt;
+&lt;h2 id=&#34;確認抗體敏感度與專一性&#34;&gt;確認抗體敏感度與專一性&lt;/h2&gt;
+&lt;p&gt;到這邊我們可以得到能產生抗體又不死的融合瘤細胞，但是我們要進一步了解他到底產生的抗體是不是我們想要的，我們可以再將融合瘤細胞打進老鼠體內擴增，或是試管中細胞培養都可以，濃度擴增後再用 EIA 或Western blotting 篩選有我們想要的專一性抗體，最後再進行基因定序確定序列。&lt;/p&gt;
+&lt;h2 id=&#34;單株抗體技術演進與命名&#34;&gt;單株抗體技術演進與命名&lt;/h2&gt;
+&lt;p&gt;現在的單株抗體已經可以分為很多種，常見以下這幾種&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;100%老鼠抗體：Murine monoclonal Ab&lt;/li&gt;
+&lt;li&gt;30%老鼠+70%人類抗體：Chimeric(嵌合) monoclonal Ab&lt;/li&gt;
+&lt;li&gt;5-10%老鼠+90-95%人類抗體：Humanized(仿人類) monoclonal Ab&lt;/li&gt;
+&lt;li&gt;100%人類抗體：Human monoclonal Ab&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;各種單株抗體命名是有規則的，當初藥理學如果知道這套規則應該會好讀很多@@&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;結尾皆是&lt;code&gt;-mab&lt;/code&gt;，意即 monoclonal antibody&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-u-&lt;/code&gt;，表示為人類單株抗體&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-zu-&lt;/code&gt;，表示為仿人類單株抗體&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-xi-&lt;/code&gt;，表示嵌合單株抗體&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-o-&lt;/code&gt;，老鼠單株抗體&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-a-&lt;/code&gt;，大鼠單株抗體&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-e-&lt;/code&gt;，倉鼠單株抗體&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-i&lt;/code&gt;，靈長類單株抗體&lt;/li&gt;
+&lt;li&gt;etc&amp;hellip;..&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;其他包含作用位置&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;-tu(m)-&lt;/code&gt;：通用&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-ma(r)-&lt;/code&gt;: 乳房&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-pr(o)-&lt;/code&gt;: 前列腺&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-co(l)-&lt;/code&gt;: 大腸&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-ci(r)-&lt;/code&gt;: 循環系統&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;如 Beva&lt;strong&gt;ci&lt;/strong&gt;&lt;em&gt;zu&lt;/em&gt;mab，表示他是作用在循環系統的仿人類單株抗體。&lt;/p&gt;
+&lt;h2 id=&#34;單株抗體應用&#34;&gt;單株抗體應用&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;基礎研究&lt;/li&gt;
+&lt;li&gt;血清免疫檢驗&lt;/li&gt;
+&lt;li&gt;病理免疫染色&lt;/li&gt;
+&lt;li&gt;標靶抑制癌細胞&lt;/li&gt;
+&lt;li&gt;標靶誘導免疫系統摧毀癌細胞&lt;/li&gt;
+&lt;li&gt;活化T細胞&lt;/li&gt;
+&lt;li&gt;等等一大堆&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      
+    </item>
     
     <item>
       <title>分享 - Levey-Jennings chart 品管圖 Excel 模板</title>
@@ -2271,378 +2369,6 @@ Ser 與 Estar 的差別類似天氣與氣候定義上的差別。&lt;/p&gt;
 2019/12/04 &lt;br&gt;
 2019/12/28&lt;/p&gt;
 &lt;!-- raw HTML omitted --&gt;
-</description>
-      
-    </item>
-    
-    <item>
-      <title>在 VMware 中安裝 MacOS Mojave</title>
-      <link>https://oxygentw.net/blog/computer/install-macos-in-vmware/</link>
-      <pubDate>Sun, 22 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://oxygentw.net/blog/computer/install-macos-in-vmware/</guid>
-      
-        <description>&lt;p&gt;最近很常用到 apple 的工具，但是用 itune web 又不好用，本來就對 MacOS 有些好奇，於是就打算裝到虛擬機上來玩玩看，我用 VMware 15 來安裝，要開始之前大家可以先到下面官網下載 VMware。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.vmware.com/tw/products/workstation-player/workstation-player-evaluation.html&#34;&gt;下載 VMware Workstation 15.5 Player&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;取得映像檔&#34;&gt;取得映像檔&lt;/h2&gt;
-&lt;p&gt;首先先下載 Mac OS 的 ISO 檔，取得 MacOS ISO 檔有兩種方法，一種是從 Apple store 裡下載，另一種是從外面的連結下載，我這邊介紹從外面連結下載，因為我就是沒有 Mac 才要裝虛擬機啊!!!! 你還要我從 Mac 下載映像檔這強人所難啊&amp;hellip; 而且直接下載可以不用燒進隨身碟哩，比較方便。&lt;/p&gt;
-&lt;p&gt;我下載的網站：https://www.geekrar.com/download-macos-mojave-iso-for-vmware-virtualbox/&lt;/p&gt;
-
-&lt;link rel=&#34;stylesheet&#34; href=&#34;https://oxygentw.net/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/install-macos-in-vmware/iso1.JPG&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://oxygentw.net/img/post/install-macos-in-vmware/iso1.JPG&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;檔案大約 6GB，下載完解壓縮即可得到 iso file!&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;解鎖-vmware&#34;&gt;解鎖 VMware&lt;/h2&gt;
-&lt;p&gt;接著我們要讓 VMware 可以支援 MacOS，所以要做一個解鎖的動作，網路上有大大寫出 unlocker 這隻程式可以做到，但是裡面有一個 &lt;code&gt;gettools.py&lt;/code&gt; 不能用，我查了一些資料後 fork repo 並將 &lt;code&gt;gettools.py&lt;/code&gt; 修正再 push，可以從我這邊下載使用&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/oxygen-TW/unlocker&#34;&gt;https://github.com/oxygen-TW/unlocker&lt;/a&gt;&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;如何操作呢，首先先到工作管理員，把和 VMware 相關的處理程序都終止，接著&lt;strong&gt;以系統管理員身分&lt;/strong&gt;執行 unlocker 裡面的 &lt;code&gt;win-install.cmd&lt;/code&gt;。
-
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/install-macos-in-vmware/unlocker1.JPG&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://oxygentw.net/img/post/install-macos-in-vmware/unlocker1.JPG&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;!-- raw HTML omitted --&gt;
-
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/install-macos-in-vmware/unlocker2.JPG&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://oxygentw.net/img/post/install-macos-in-vmware/unlocker2.JPG&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-執行完後應該可以看到一個檔案叫 &lt;code&gt;darwin15.iso&lt;/code&gt;，這是之後我們要用到的 VMware tools 安裝檔，如果沒有的話手動執行下面指令，二選一即可。&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;gettools.exe
-python gettools.py
-&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;執行完就會下載下來了！&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;建立虛擬機器&#34;&gt;建立虛擬機器&lt;/h2&gt;
-&lt;p&gt;就和一般的操作依樣，但經過上一步的處理，我們可以在新建虛擬機的地方選擇作業系統為 Mac OS X，因為我們要安裝 Mojave，所以版本選擇 OSX 10.14。&lt;/p&gt;
-&lt;p&gt;接下來就是基本設定，我就不贅述，列出我一些設定：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;CPU core *4&lt;/li&gt;
-&lt;li&gt;RAM 4096 MB&lt;/li&gt;
-&lt;li&gt;ROM 40 GB&lt;/li&gt;
-&lt;li&gt;Graphic RAM 256 MB&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;然後檔案放在SSD上，這樣跑起來還算挺順的，而且是在筆電上，桌電可以給他更高規格使用者體驗更棒XD&lt;/p&gt;
-&lt;p&gt;
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/install-macos-in-vmware/os1.JPG&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://oxygentw.net/img/post/install-macos-in-vmware/os1.JPG&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-選擇稍後安裝映像檔
-&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
-&lt;p&gt;
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/install-macos-in-vmware/os2.JPG&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://oxygentw.net/img/post/install-macos-in-vmware/os2.JPG&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-Apple Mac OS X 10.14
-&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
-&lt;p&gt;
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/install-macos-in-vmware/os3.JPG&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://oxygentw.net/img/post/install-macos-in-vmware/os3.JPG&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-輸入虛擬機檔案名與儲存位置
-&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
-&lt;p&gt;
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/install-macos-in-vmware/os4.JPG&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://oxygentw.net/img/post/install-macos-in-vmware/os4.JPG&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-選擇虛擬磁碟大小
-&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
-&lt;h2 id=&#34;br&#34;&gt;
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/install-macos-in-vmware/os5.JPG&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://oxygentw.net/img/post/install-macos-in-vmware/os5.JPG&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-虛擬機硬體配置，Finish 後就會建立了。
-&lt;!-- raw HTML omitted --&gt;&lt;/h2&gt;
-&lt;h2 id=&#34;開始安裝系統&#34;&gt;開始安裝系統&lt;/h2&gt;
-&lt;p&gt;就是安裝系統啊！打開虛擬機他就會引導了，這邊我有空再加，真的很簡單。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;安裝-vmware-tools-的前置作業&#34;&gt;安裝 VMware tools 的前置作業&lt;/h2&gt;
-&lt;p&gt;安裝過程中 VMware 可能會多次詢問你要不要安裝 VMware tools，但選擇安裝都會出現錯誤，因為我們是自己把它弄成可以裝 MacOS 的，原本不行，所以我們要自行手動安裝，但在安裝之前要先做一個步驟關掉 apple 的&lt;strong&gt;系統完整保護(SIP)&lt;/strong&gt;，否則可能裝不進去。&lt;/p&gt;
-&lt;p&gt;安裝完成系統可以使用後，進入 MacOS 的終端機輸入
-&lt;code&gt;csrutil status&lt;/code&gt;，如果顯示 &lt;code&gt;&amp;quot;System Integrity Protection status: enabled&amp;quot;&lt;/code&gt;，那我們就要去關掉他，如果顯示 disabled 那就跳過這步驟。
-
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/install-macos-in-vmware/vmtools2.png&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://oxygentw.net/img/post/install-macos-in-vmware/vmtools2.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;重新開機虛擬機器，在出現灰色 VMware 字樣時按住 Alt 進入設定介面。
-
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/install-macos-in-vmware/vmtools.png&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://oxygentw.net/img/post/install-macos-in-vmware/vmtools.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-&lt;/p&gt;
-&lt;p&gt;接著依照下面步驟進入 Recovery Mode.
-
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/install-macos-in-vmware/setup%20%281%29.png&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://oxygentw.net/img/post/install-macos-in-vmware/setup%20%281%29.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;!-- raw HTML omitted --&gt;
-
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/install-macos-in-vmware/setup%20%282%29.png&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://oxygentw.net/img/post/install-macos-in-vmware/setup%20%282%29.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;!-- raw HTML omitted --&gt;
-
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/install-macos-in-vmware/setup%20%283%29.png&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://oxygentw.net/img/post/install-macos-in-vmware/setup%20%283%29.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;!-- raw HTML omitted --&gt;
-
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/install-macos-in-vmware/setup%20%284%29.png&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://oxygentw.net/img/post/install-macos-in-vmware/setup%20%284%29.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;!-- raw HTML omitted --&gt;
-
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/install-macos-in-vmware/setup%20%285%29.png&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://oxygentw.net/img/post/install-macos-in-vmware/setup%20%285%29.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
-&lt;p&gt;進入 Recovery mode 後從&lt;strong&gt;工具程式 -&amp;gt; 終端機&lt;/strong&gt;打開終端機，輸入 &lt;code&gt;csrutil disabled; reboot&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;重新啟動&lt;/strong&gt;正常開機後再進終端機輸入一次
-&lt;code&gt;csrutil status&lt;/code&gt;，這次應該會看到 &lt;code&gt;&amp;quot;System Integrity Protection status: disabled&amp;quot;&lt;/code&gt;，這樣就成功了。
-
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/install-macos-in-vmware/vmtools5.png&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://oxygentw.net/img/post/install-macos-in-vmware/vmtools5.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/install-macos-in-vmware/vmtools6.png&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://oxygentw.net/img/post/install-macos-in-vmware/vmtools6.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
-&lt;p&gt;接著將光碟機掛載剛剛下載下來的 &lt;code&gt;darwin15.iso&lt;/code&gt;，從 MacOS 裡面打開安裝精靈，依序進行即可安裝 VMware tools，他會顯示憑證有問題，但沒辦法，只能照樣給他裝下去了。
-
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/install-macos-in-vmware/vmtools3.png&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://oxygentw.net/img/post/install-macos-in-vmware/vmtools3.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-&lt;/p&gt;
-&lt;p&gt;
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/install-macos-in-vmware/vmtools4.png&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://oxygentw.net/img/post/install-macos-in-vmware/vmtools4.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
-&lt;p&gt;安裝完成後重新啟動基本上就大功告成啦~ 享受你的 Mac OS 吧！&lt;/p&gt;
-&lt;p&gt;
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/install-macos-in-vmware/osx.PNG&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://oxygentw.net/img/post/install-macos-in-vmware/osx.PNG&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;解析度無法調整&#34;&gt;解析度無法調整&lt;/h2&gt;
-&lt;p&gt;若發生解析度無法調整的問題，我們可以在終端機中輸入這一段指令即可修正&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;sudo defaults write /Library/Preferences/com.apple.windowserver DisplayResolutionEnabled -bool NO
-&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;輸入完後再進入設定修改解析度。
-
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/install-macos-in-vmware/resolution.PNG&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://oxygentw.net/img/post/install-macos-in-vmware/resolution.PNG&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-&lt;/p&gt;
-&lt;p&gt;這個我實在是花了一點時間才解決，試了各種方法，最後才找到這個成功調整解析度。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;安裝-homebrew&#34;&gt;安裝 homebrew&lt;/h2&gt;
-&lt;p&gt;這是一個在 MacOS 中非常好用的套件管理工具，安裝好後當然要順便裝一下，不過看個人啦~&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;/usr/bin/ruby -e &amp;#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&amp;#34;
-&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;hr&gt;
-&lt;h2 id=&#34;reference&#34;&gt;Reference&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://magiclen.org/macos-mojave-vmware/&#34;&gt;https://magiclen.org/macos-mojave-vmware/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://magiclen.org/macos-mojave-iso/&#34;&gt;https://magiclen.org/macos-mojave-iso/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://brew.sh/index_zh-tw&#34;&gt;https://brew.sh/index_zh-tw&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.fonepaw.hk/tutorials/disable-system-integrity-protection-mac.html&#34;&gt;https://www.fonepaw.hk/tutorials/disable-system-integrity-protection-mac.html&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.geekrar.com/download-macos-mojave-iso-for-vmware-virtualbox/&#34;&gt;https://www.geekrar.com/download-macos-mojave-iso-for-vmware-virtualbox/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/theJaxon/unlocker&#34;&gt;https://github.com/theJaxon/unlocker&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/83470329&#34;&gt;https://zhuanlan.zhihu.com/p/83470329&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.intoguide.com/how-to-fix-macos-mojave-screen-resolution-on-vmware/&#34;&gt;https://www.intoguide.com/how-to-fix-macos-mojave-screen-resolution-on-vmware/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://mrmad.com.tw/vmware-close-macos-sip&#34;&gt;https://mrmad.com.tw/vmware-close-macos-sip&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 </description>
       
     </item>
