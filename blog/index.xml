@@ -6,7 +6,16 @@
     <description>Recent content in Blogs on 氧氣橘子</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Tue, 20 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://oxygentw.net/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 19 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://oxygentw.net/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>醫用真菌學常見學名整理表</title>
+      <link>https://oxygentw.net/blog/notes/scientific-name-of-medical-myology/</link>
+      <pubDate>Sat, 19 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/notes/scientific-name-of-medical-myology/</guid>
+      <description>管狀菌絲 - 接合菌綱 Zygomycetes 學名 中文名 Rhizopus spp. 根黴菌 Mucor 毛黴菌 Absidia spp. 犁頭黴菌 Syncephalastrum 共頭黴菌 Circinella spp. 卷黴菌 Cunninghamella 小克銀漢黴菌 暗色有隔菌絲 Dematiaceous 學名 中文名 Alternaria 鏈格孢黴菌 Stemphylium 匍根黴菌</description>
+    </item>
+    
     <item>
       <title>[筆記] 單株抗體製備與應用</title>
       <link>https://oxygentw.net/blog/notes/basic-mab-note/</link>
@@ -176,15 +185,6 @@
       
       <guid>https://oxygentw.net/blog/computer/install-macos-in-vmware/</guid>
       <description>最近很常用到 apple 的工具，但是用 itune web 又不好用，本來就對 MacOS 有些好奇，於是就打算裝到虛擬機上來玩玩看，我用 VMware 15 來安裝，要開始之前大家可以先到下面官網</description>
-    </item>
-    
-    <item>
-      <title>計算 Line 訊息數的小工具</title>
-      <link>https://oxygentw.net/blog/computer/line-counter/</link>
-      <pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://oxygentw.net/blog/computer/line-counter/</guid>
-      <description>前陣子看了這篇解析 Line 對話的文章 讓我對解析 Line 匯出的純文字聊天紀錄有點概念，後來一時興起想計算我和朋友總共聊了多少訊息，寫了一個很簡單的小程式。</description>
     </item>
     
   </channel>
