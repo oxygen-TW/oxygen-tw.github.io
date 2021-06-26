@@ -34,7 +34,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.83.1" />
+<meta name="generator" content="Hugo 0.84.1" />
 
 
 <link rel="canonical" href="https://oxygentw.net/blog/computer/python-convert-imagetol/" />
@@ -340,9 +340,9 @@ if (!doNotTrack) {
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-python" data-lang="python"><span class="n">python</span> <span class="mf">3.7</span><span class="o">.</span><span class="mi">3</span> 
+<pre class="chroma"><code class="language-python" data-lang="python"><span class="n">python</span> <span class="mf">3.7.3</span> 
 <span class="n">pip</span> <span class="mf">19.2</span>       
-<span class="n">Pillow</span> <span class="mf">6.1</span><span class="o">.</span><span class="mi">0</span>    </code></pre></td></tr></table>
+<span class="n">Pillow</span> <span class="mf">6.1.0</span>    </code></pre></td></tr></table>
 </div>
 </div>
 <p>首先先來圖片處理轉灰階的核心部分，呼叫 PIL 函式即可很輕易達成目標 <br>
@@ -387,9 +387,9 @@ if (!doNotTrack) {
     <span class="n">L</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 <span class="n">L</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="n">SaveImagePath</span><span class="p">)</span>
 
-<span class="k">print</span><span class="p">(</span><span class="s2">&#34;Save in &#34;</span> <span class="o">+</span> <span class="n">SaveImagePath</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="s2">&#34;OK!&#34;</span><span class="p">)</span>
-<span class="nb">exit</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span></code></pre></td></tr></table>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Save in &#34;</span> <span class="o">+</span> <span class="n">SaveImagePath</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&#34;OK!&#34;</span><span class="p">)</span>
+<span class="n">exit</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span></code></pre></td></tr></table>
 </div>
 </div>
 <!-- raw HTML omitted -->
@@ -447,15 +447,15 @@ if (!doNotTrack) {
 <span class="kn">import</span> <span class="nn">sys</span><span class="o">,</span><span class="nn">os</span>
 
 <span class="k">def</span> <span class="nf">showHelp</span><span class="p">():</span>
-    <span class="k">print</span><span class="p">(</span><span class="s2">&#34;Usage:&#34;</span><span class="p">)</span>
-    <span class="k">print</span><span class="p">(</span><span class="s2">&#34;python ConvertGelImage.py [OpenImagePath] (SaveImagePath)&#34;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Usage:&#34;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;python ConvertGelImage.py [OpenImagePath] (SaveImagePath)&#34;</span><span class="p">)</span>
 
-<span class="n">previewOption</span> <span class="o">=</span> <span class="bp">False</span>
+<span class="n">previewOption</span> <span class="o">=</span> <span class="kc">False</span>
 
 <span class="k">if</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">sys</span><span class="o">.</span><span class="n">argv</span><span class="p">)</span> <span class="o">!=</span> <span class="mi">2</span> <span class="ow">and</span> <span class="nb">len</span><span class="p">(</span><span class="n">sys</span><span class="o">.</span><span class="n">argv</span><span class="p">)</span> <span class="o">!=</span> <span class="mi">3</span><span class="p">):</span>
-    <span class="k">print</span><span class="p">(</span><span class="s2">&#34;Arguments error!&#34;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Arguments error!&#34;</span><span class="p">)</span>
     <span class="n">showHelp</span><span class="p">()</span>
-    <span class="nb">exit</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
+    <span class="n">exit</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
 
 <span class="k">if</span><span class="p">(</span><span class="n">sys</span><span class="o">.</span><span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&#34;help&#34;</span> <span class="ow">or</span> <span class="n">sys</span><span class="o">.</span><span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&#34;Help&#34;</span><span class="p">):</span>
     <span class="n">showHelp</span><span class="p">()</span>
@@ -463,7 +463,7 @@ if (!doNotTrack) {
 <span class="n">OpenImagePath</span> <span class="o">=</span> <span class="s2">&#34;&#34;</span>
 <span class="n">OpenImagePath</span> <span class="o">=</span> <span class="n">sys</span><span class="o">.</span><span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
 
-<span class="k">print</span><span class="p">(</span><span class="n">OpenImagePath</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">OpenImagePath</span><span class="p">)</span>
 <span class="n">SaveImagePath</span> <span class="o">=</span> <span class="s2">&#34;&#34;</span>
 <span class="n">head</span><span class="p">,</span> <span class="n">tail</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="n">OpenImagePath</span><span class="p">)</span>
 
@@ -479,12 +479,12 @@ if (!doNotTrack) {
         <span class="n">L</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
     <span class="n">L</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="n">SaveImagePath</span><span class="p">)</span>
 <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
-    <span class="k">print</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">e</span><span class="p">))</span>
-    <span class="nb">exit</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">e</span><span class="p">))</span>
+    <span class="n">exit</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
 
-<span class="k">print</span><span class="p">(</span><span class="s2">&#34;Save in &#34;</span> <span class="o">+</span> <span class="n">SaveImagePath</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="s2">&#34;OK!&#34;</span><span class="p">)</span>
-<span class="nb">exit</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span></code></pre></td></tr></table>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Save in &#34;</span> <span class="o">+</span> <span class="n">SaveImagePath</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&#34;OK!&#34;</span><span class="p">)</span>
+<span class="n">exit</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span></code></pre></td></tr></table>
 </div>
 </div>
 <!-- raw HTML omitted -->
@@ -554,16 +554,16 @@ if (!doNotTrack) {
 <span class="kn">from</span> <span class="nn">tkinter</span> <span class="kn">import</span> <span class="o">*</span>
 
 <span class="k">def</span> <span class="nf">showHelp</span><span class="p">():</span>
-    <span class="k">print</span><span class="p">(</span><span class="s2">&#34;Usage:&#34;</span><span class="p">)</span>
-    <span class="k">print</span><span class="p">(</span><span class="s2">&#34;python ConvertGelImage.py [OpenImagePath] (SaveImagePath)&#34;</span><span class="p">)</span>
-    <span class="k">print</span><span class="p">(</span><span class="s2">&#34;[GUI Mode]: python ConvertGelImage.py gui&#34;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Usage:&#34;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;python ConvertGelImage.py [OpenImagePath] (SaveImagePath)&#34;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;[GUI Mode]: python ConvertGelImage.py gui&#34;</span><span class="p">)</span>
 
-<span class="n">previewOption</span> <span class="o">=</span> <span class="bp">False</span>
+<span class="n">previewOption</span> <span class="o">=</span> <span class="kc">False</span>
 
 <span class="k">if</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">sys</span><span class="o">.</span><span class="n">argv</span><span class="p">)</span> <span class="o">!=</span> <span class="mi">2</span> <span class="ow">and</span> <span class="nb">len</span><span class="p">(</span><span class="n">sys</span><span class="o">.</span><span class="n">argv</span><span class="p">)</span> <span class="o">!=</span> <span class="mi">3</span><span class="p">):</span>
-    <span class="k">print</span><span class="p">(</span><span class="s2">&#34;Arguments error!&#34;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Arguments error!&#34;</span><span class="p">)</span>
     <span class="n">showHelp</span><span class="p">()</span>
-    <span class="nb">exit</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
+    <span class="n">exit</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
 
 <span class="k">if</span><span class="p">(</span><span class="n">sys</span><span class="o">.</span><span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&#34;help&#34;</span> <span class="ow">or</span> <span class="n">sys</span><span class="o">.</span><span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&#34;Help&#34;</span><span class="p">):</span>
     <span class="n">showHelp</span><span class="p">()</span>
@@ -576,7 +576,7 @@ if (!doNotTrack) {
 <span class="k">else</span><span class="p">:</span>
     <span class="n">OpenImagePath</span> <span class="o">=</span> <span class="n">sys</span><span class="o">.</span><span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
 
-<span class="k">print</span><span class="p">(</span><span class="n">OpenImagePath</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">OpenImagePath</span><span class="p">)</span>
 <span class="n">SaveImagePath</span> <span class="o">=</span> <span class="s2">&#34;&#34;</span>
 <span class="n">head</span><span class="p">,</span> <span class="n">tail</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="n">OpenImagePath</span><span class="p">)</span>
 
@@ -593,12 +593,12 @@ if (!doNotTrack) {
     <span class="n">L</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="n">SaveImagePath</span><span class="p">)</span>
     <span class="c1">#L.filter(ImageFilter.SHARPEN).save(SaveImagePath)</span>
 <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
-    <span class="k">print</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">e</span><span class="p">))</span>
-    <span class="nb">exit</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">e</span><span class="p">))</span>
+    <span class="n">exit</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
 
-<span class="k">print</span><span class="p">(</span><span class="s2">&#34;Save in &#34;</span> <span class="o">+</span> <span class="n">SaveImagePath</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="s2">&#34;OK!&#34;</span><span class="p">)</span>
-<span class="nb">exit</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span></code></pre></td></tr></table>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Save in &#34;</span> <span class="o">+</span> <span class="n">SaveImagePath</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&#34;OK!&#34;</span><span class="p">)</span>
+<span class="n">exit</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span></code></pre></td></tr></table>
 </div>
 </div></p>
 <!-- raw HTML omitted -->

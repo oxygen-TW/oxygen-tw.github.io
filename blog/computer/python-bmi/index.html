@@ -34,7 +34,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.83.1" />
+<meta name="generator" content="Hugo 0.84.1" />
 
 
 <link rel="canonical" href="https://oxygentw.net/blog/computer/python-bmi/" />
@@ -405,17 +405,17 @@ if (!doNotTrack) {
 <span class="n">BMI</span> <span class="o">=</span> <span class="nb">round</span><span class="p">(</span><span class="n">weight</span> <span class="o">/</span> <span class="p">(</span><span class="n">height</span> <span class="o">**</span> <span class="mi">2</span><span class="p">),</span><span class="mi">2</span><span class="p">)</span>
 
 <span class="c1">#輸出結果，呼叫分類 function</span>
-<span class="k">print</span><span class="p">(</span><span class="s2">&#34;</span><span class="se">\n</span><span class="s2">BMI 計算結果 = &#34;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">BMI</span><span class="p">))</span>
-<span class="k">print</span><span class="p">(</span><span class="n">BMIStandard</span><span class="p">(</span><span class="n">BMI</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&#34;</span><span class="se">\n</span><span class="s2">BMI 計算結果 = &#34;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">BMI</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">BMIStandard</span><span class="p">(</span><span class="n">BMI</span><span class="p">))</span>
 
 <span class="c1">#計算標準體位的體重，四捨五入小數第二位</span>
 <span class="k">if</span><span class="p">(</span><span class="n">BMI</span> <span class="o">&lt;</span> <span class="mf">18.5</span><span class="p">):</span>
-    <span class="k">print</span><span class="p">(</span><span class="s2">&#34;標準體態下限體重須達到:&#34;</span><span class="p">,</span><span class="nb">round</span><span class="p">((</span><span class="mf">18.5</span><span class="o">*</span><span class="n">height</span><span class="o">**</span><span class="mi">2</span><span class="p">),</span><span class="mi">2</span><span class="p">),</span><span class="s2">&#34;kg&#34;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;標準體態下限體重須達到:&#34;</span><span class="p">,</span><span class="nb">round</span><span class="p">((</span><span class="mf">18.5</span><span class="o">*</span><span class="n">height</span><span class="o">**</span><span class="mi">2</span><span class="p">),</span><span class="mi">2</span><span class="p">),</span><span class="s2">&#34;kg&#34;</span><span class="p">)</span>
 <span class="k">if</span><span class="p">(</span><span class="n">BMI</span> <span class="o">&gt;</span> <span class="mi">24</span><span class="p">):</span>
-    <span class="k">print</span><span class="p">(</span><span class="s2">&#34;標準體態上限體重須達到:&#34;</span><span class="p">,</span><span class="nb">round</span><span class="p">((</span><span class="mi">24</span><span class="o">*</span><span class="n">height</span><span class="o">**</span><span class="mi">2</span><span class="p">),</span><span class="mi">2</span><span class="p">),</span><span class="s2">&#34;kg&#34;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;標準體態上限體重須達到:&#34;</span><span class="p">,</span><span class="nb">round</span><span class="p">((</span><span class="mi">24</span><span class="o">*</span><span class="n">height</span><span class="o">**</span><span class="mi">2</span><span class="p">),</span><span class="mi">2</span><span class="p">),</span><span class="s2">&#34;kg&#34;</span><span class="p">)</span>
 
-<span class="k">print</span><span class="p">(</span><span class="s2">&#34;</span><span class="se">\n</span><span class="s2">BMI 標準來自健康九九網站 https://health99.hpa.gov.tw/OnlinkHealth/Onlink_BMI.aspx&#34;</span><span class="p">)</span>
-<span class="nb">exit</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span></code></pre></td></tr></table>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&#34;</span><span class="se">\n</span><span class="s2">BMI 標準來自健康九九網站 https://health99.hpa.gov.tw/OnlinkHealth/Onlink_BMI.aspx&#34;</span><span class="p">)</span>
+<span class="n">exit</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span></code></pre></td></tr></table>
 </div>
 </div></p>
 <h2 id="執行結果">執行結果</h2>

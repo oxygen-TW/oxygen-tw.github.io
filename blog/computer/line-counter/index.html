@@ -34,7 +34,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.83.1" />
+<meta name="generator" content="Hugo 0.84.1" />
 
 
 <link rel="canonical" href="https://oxygentw.net/blog/computer/line-counter/" />
@@ -353,7 +353,7 @@ if (!doNotTrack) {
 <span class="n">f</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
 
 <span class="n">arr</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">findall</span><span class="p">(</span><span class="sa">r</span><span class="s2">&#34;[0-9]+:[0-9]+\s&#34;</span><span class="p">,</span> <span class="n">line</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">arr</span><span class="p">))</span></code></pre></td></tr></table>
+<span class="nb">print</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">arr</span><span class="p">))</span></code></pre></td></tr></table>
 </div>
 </div></p>
 <p>接著我把它改成可以利用命令列傳遞檔名參數，這樣我就不用每次都打開程式碼修改。</p>
@@ -386,7 +386,7 @@ if (!doNotTrack) {
 <span class="kn">import</span> <span class="nn">sys</span>
 
 <span class="k">if</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">sys</span><span class="o">.</span><span class="n">argv</span><span class="p">)</span> <span class="o">!=</span> <span class="mi">2</span><span class="p">):</span>
-    <span class="nb">exit</span><span class="p">(</span><span class="s2">&#34;Arguments error!&#34;</span><span class="p">)</span>
+    <span class="n">exit</span><span class="p">(</span><span class="s2">&#34;Arguments error!&#34;</span><span class="p">)</span>
 
 <span class="n">filename</span> <span class="o">=</span> <span class="n">sys</span><span class="o">.</span><span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
 
@@ -396,13 +396,13 @@ if (!doNotTrack) {
     <span class="n">f</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="n">filename</span><span class="p">,</span><span class="s2">&#34;r&#34;</span><span class="p">,</span><span class="n">encoding</span><span class="o">=</span><span class="s2">&#34;utf-8&#34;</span><span class="p">)</span>
     <span class="n">line</span> <span class="o">=</span> <span class="n">f</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
     <span class="n">f</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
-<span class="k">except</span> <span class="n">FileNotFoundError</span> <span class="k">as</span> <span class="n">identifier</span><span class="p">:</span>
-    <span class="k">print</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">identifier</span><span class="p">))</span>
+<span class="k">except</span> <span class="ne">FileNotFoundError</span> <span class="k">as</span> <span class="n">identifier</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">identifier</span><span class="p">))</span>
 <span class="k">finally</span><span class="p">:</span>
     <span class="k">pass</span>
 
 <span class="n">arr</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">findall</span><span class="p">(</span><span class="sa">r</span><span class="s2">&#34;[0-9]+:[0-9]+\s&#34;</span><span class="p">,</span> <span class="n">line</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">arr</span><span class="p">))</span></code></pre></td></tr></table>
+<span class="nb">print</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">arr</span><span class="p">))</span></code></pre></td></tr></table>
 </div>
 </div>
 <p>但是我真的很懶，想要直接使用，也想說可以給更多人用，所以利用 pyinstaller 封裝成 EXE 檔哈哈哈哈哈。</p>

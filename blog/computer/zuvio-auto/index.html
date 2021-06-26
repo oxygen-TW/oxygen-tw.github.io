@@ -33,7 +33,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.83.1" />
+<meta name="generator" content="Hugo 0.84.1" />
 
 
 <link rel="canonical" href="https://oxygentw.net/blog/computer/zuvio-auto/" />
@@ -367,7 +367,7 @@ if (!doNotTrack) {
 <span class="nx">url</span> <span class="p">=</span> <span class="s2">&#34;https://pypi.org/simple&#34;</span>
 <span class="nx">verify_ssl</span> <span class="p">=</span> <span class="kc">true</span>
 
-<span class="p">[</span><span class="nx">dev</span><span class="err">-</span><span class="nx">packages</span><span class="p">]</span>
+<span class="p">[</span><span class="nx">dev-packages</span><span class="p">]</span>
 <span class="nx">autopep8</span> <span class="p">=</span> <span class="s2">&#34;*&#34;</span>
 
 <span class="p">[</span><span class="nx">packages</span><span class="p">]</span>
@@ -407,7 +407,7 @@ if (!doNotTrack) {
     <span class="c1">##Do no edit below if you are not developer.</span>
     <span class="s2">&#34;music&#34;</span><span class="p">:</span> <span class="s2">&#34;alarm.mp3&#34;</span><span class="p">,</span>
     <span class="s2">&#34;driver&#34;</span><span class="p">:</span> <span class="sa">r</span><span class="s2">&#34;binary\chromedriver.exe&#34;</span><span class="p">,</span>
-    <span class="s2">&#34;gui&#34;</span><span class="p">:</span> <span class="bp">False</span>
+    <span class="s2">&#34;gui&#34;</span><span class="p">:</span> <span class="kc">False</span>
 <span class="p">}</span></code></pre></td></tr></table>
 </div>
 </div>
@@ -496,7 +496,7 @@ if (!doNotTrack) {
 
 <span class="c1"># 設定Logging</span>
 <span class="n">logging</span><span class="o">.</span><span class="n">basicConfig</span><span class="p">(</span><span class="n">level</span><span class="o">=</span><span class="n">logging</span><span class="o">.</span><span class="n">INFO</span><span class="p">,</span>
-                    <span class="n">format</span><span class="o">=</span><span class="s1">&#39;</span><span class="si">%(asctime)s</span><span class="s1"> </span><span class="si">%(levelname)s</span><span class="s1"> </span><span class="si">%(message)s</span><span class="s1">&#39;</span><span class="p">,</span>
+                    <span class="nb">format</span><span class="o">=</span><span class="s1">&#39;</span><span class="si">%(asctime)s</span><span class="s1"> </span><span class="si">%(levelname)s</span><span class="s1"> </span><span class="si">%(message)s</span><span class="s1">&#39;</span><span class="p">,</span>
                     <span class="n">datefmt</span><span class="o">=</span><span class="s1">&#39;%H:%M:%S&#39;</span><span class="p">)</span>
 <span class="k">def</span> <span class="nf">run</span><span class="p">():</span>
     <span class="n">chrome_options</span> <span class="o">=</span> <span class="n">Options</span><span class="p">()</span>
@@ -522,14 +522,14 @@ if (!doNotTrack) {
     <span class="c1">#time.sleep(1)</span>
 
     <span class="n">logging</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&#34;準備開始循環&#34;</span><span class="p">)</span>
-    <span class="k">while</span> <span class="bp">True</span><span class="p">:</span>
+    <span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
         <span class="n">PageSource</span> <span class="o">=</span> <span class="n">driver</span><span class="o">.</span><span class="n">page_source</span>
         <span class="n">soup</span> <span class="o">=</span> <span class="n">BeautifulSoup</span><span class="p">(</span><span class="n">PageSource</span><span class="p">,</span><span class="s1">&#39;html.parser&#39;</span><span class="p">)</span>
         <span class="n">result</span> <span class="o">=</span> <span class="n">soup</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s2">&#34;div&#34;</span><span class="p">,</span> <span class="n">class_</span><span class="o">=</span><span class="s2">&#34;irs-rollcall&#34;</span><span class="p">)</span>
         <span class="n">logging</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
 
         <span class="k">if</span><span class="p">(</span><span class="s2">&#34;準時&#34;</span> <span class="ow">in</span> <span class="nb">str</span><span class="p">(</span><span class="n">result</span><span class="p">)):</span>
-            <span class="k">return</span> <span class="bp">True</span>
+            <span class="k">return</span> <span class="kc">True</span>
 
         <span class="k">if</span><span class="p">(</span><span class="s2">&#34;簽到開放中&#34;</span> <span class="ow">in</span> <span class="nb">str</span><span class="p">(</span><span class="n">result</span><span class="p">)):</span>
             <span class="n">logging</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&#34;點名中&#34;</span><span class="p">)</span>
