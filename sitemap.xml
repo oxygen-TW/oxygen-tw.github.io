@@ -3,14 +3,35 @@
   
   <url>
     <loc>https://oxygentw.net/blog/</loc>
-    <lastmod>2021-06-19T00:00:00+00:00</lastmod>
+    <lastmod>2021-07-10T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://oxygentw.net/categories/</loc>
-    <lastmod>2021-06-19T00:00:00+00:00</lastmod>
+    <lastmod>2021-07-10T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://oxygentw.net/categories/computer/</loc>
+    <lastmod>2021-07-10T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://oxygentw.net/blog/computer/new-mysql-user/</loc>
+    <lastmod>2021-07-10T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://oxygentw.net/</loc>
+    <lastmod>2021-07-10T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -30,13 +51,6 @@
   </url>
   
   <url>
-    <loc>https://oxygentw.net/</loc>
-    <lastmod>2021-06-19T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://oxygentw.net/blog/notes/scientific-name-of-medical-myology/</loc>
     <lastmod>2021-06-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -46,13 +60,6 @@
   <url>
     <loc>https://oxygentw.net/blog/notes/basic-mab-note/</loc>
     <lastmod>2021-04-20T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://oxygentw.net/categories/computer/</loc>
-    <lastmod>2021-03-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

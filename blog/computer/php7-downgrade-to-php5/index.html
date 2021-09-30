@@ -34,7 +34,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.84.1" />
+<meta name="generator" content="Hugo 0.87.0" />
 
 
 <link rel="canonical" href="https://oxygentw.net/blog/computer/php7-downgrade-to-php5/" />
@@ -65,12 +65,12 @@
 <meta property="og:description" content="在 LAMP 的環境下有時會遇到 PHP 版本和服務需求不符的情況，有點麻煩，上網找了一下論壇發現有方法可以解決，在此紀錄一下。 環境: Ubuntu Server 16.04 LTS 關閉 Apache2 模組 sudo a2dismod proxy_fcgi" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://oxygentw.net/blog/computer/php7-downgrade-to-php5/" /><meta property="article:section" content="blog" />
-<meta property="article:published_time" content="2018-06-05T00:00:00&#43;00:00" />
-<meta property="article:modified_time" content="2018-06-05T00:00:00&#43;00:00" />
+<meta property="article:published_time" content="2018-06-05T00:00:00+00:00" />
+<meta property="article:modified_time" content="2018-06-05T00:00:00+00:00" />
 
 <meta itemprop="name" content="PHP 5 ↔ 7 版本轉換">
-<meta itemprop="description" content="在 LAMP 的環境下有時會遇到 PHP 版本和服務需求不符的情況，有點麻煩，上網找了一下論壇發現有方法可以解決，在此紀錄一下。 環境: Ubuntu Server 16.04 LTS 關閉 Apache2 模組 sudo a2dismod proxy_fcgi"><meta itemprop="datePublished" content="2018-06-05T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2018-06-05T00:00:00&#43;00:00" />
+<meta itemprop="description" content="在 LAMP 的環境下有時會遇到 PHP 版本和服務需求不符的情況，有點麻煩，上網找了一下論壇發現有方法可以解決，在此紀錄一下。 環境: Ubuntu Server 16.04 LTS 關閉 Apache2 模組 sudo a2dismod proxy_fcgi"><meta itemprop="datePublished" content="2018-06-05T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2018-06-05T00:00:00+00:00" />
 <meta itemprop="wordCount" content="168">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="PHP 5 ↔ 7 版本轉換"/>
@@ -340,12 +340,12 @@ if (!doNotTrack) {
 <p>下載 PHP 所需套件</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">sudo add-apt-repository ppa:ondrej/php
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">sudo add-apt-repository ppa:ondrej/php
 sudo apt-get update
 sudo apt-get install php7.0 php5.6 php5.6-mysql php-gettext php5.6-mbstring php-mbstring php7.0-mbstring php-xdebug libapache2-mod-php5.6 libapache2-mod-php7.0
 </code></pre></td></tr></table>
@@ -379,7 +379,7 @@ sudo apt-get install php7.0 php5.6 php5.6-mysql php-gettext php5.6-mbstring php-
   
   <p class="copyright-item">
     <span class="item-title">授權條款</span>
-    <span class="item-content">Copyright © 2017-2020 oxygen. All rights reserved.</span>
+    <span class="item-content">Copyright © 2017-2021 oxygen. All rights reserved.</span>
   </p>
 </div>
 

@@ -35,7 +35,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.84.1" />
+<meta name="generator" content="Hugo 0.87.0" />
 
 
 <link rel="canonical" href="https://oxygentw.net/blog/computer/remove-android-password/" />
@@ -66,12 +66,12 @@
 <meta property="og:description" content="最近在學 Flutter，想說拿以前的 Android 手機來做測試，沒想到&hellip;.忘記密碼了!!!! 只好去想辦法把密碼解開，於是有了這篇筆記&he" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://oxygentw.net/blog/computer/remove-android-password/" /><meta property="article:section" content="blog" />
-<meta property="article:published_time" content="2020-09-04T00:00:00&#43;00:00" />
-<meta property="article:modified_time" content="2020-09-04T00:00:00&#43;00:00" />
+<meta property="article:published_time" content="2020-09-04T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-09-04T00:00:00+00:00" />
 
 <meta itemprop="name" content="移除 Android 手機螢幕鎖定密碼">
-<meta itemprop="description" content="最近在學 Flutter，想說拿以前的 Android 手機來做測試，沒想到&hellip;.忘記密碼了!!!! 只好去想辦法把密碼解開，於是有了這篇筆記&he"><meta itemprop="datePublished" content="2020-09-04T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2020-09-04T00:00:00&#43;00:00" />
+<meta itemprop="description" content="最近在學 Flutter，想說拿以前的 Android 手機來做測試，沒想到&hellip;.忘記密碼了!!!! 只好去想辦法把密碼解開，於是有了這篇筆記&he"><meta itemprop="datePublished" content="2020-09-04T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2020-09-04T00:00:00+00:00" />
 <meta itemprop="wordCount" content="446">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="移除 Android 手機螢幕鎖定密碼"/>
@@ -337,10 +337,10 @@ if (!doNotTrack) {
 <p>首先必須先在電腦裡安裝 adb(<a href="https://developer.android.com/studio/command-line/adb?authuser=1">Android debug bridge</a>)，這是一個 Android 開發時用的偵錯工具，可以利用 choco 下載。 <br>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">choco install adb</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">choco install adb</code></pre></td></tr></table>
 </div>
 </div></p>
 <blockquote>
@@ -352,10 +352,10 @@ if (!doNotTrack) {
 <p>接下來就進入重點了，打開終端機，檢查 ADB 有沒有找到 android 設備。 <br>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="c1"># adb devices</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="c1"># adb devices</span></code></pre></td></tr></table>
 </div>
 </div>
 .</p>
@@ -376,10 +376,10 @@ if (!doNotTrack) {
 <p>接著進入 Android 設備的終端機
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="c1"># adb shell</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="c1"># adb shell</span></code></pre></td></tr></table>
 </div>
 </div></p>
 <p>.</p>
@@ -414,20 +414,20 @@ if (!doNotTrack) {
 <p>我們刪掉這兩個檔案
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="c1"># rm gatekeeper.password.key gatekeeper.pattern.key</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="c1"># rm gatekeeper.password.key gatekeeper.pattern.key</span></code></pre></td></tr></table>
 </div>
 </div>
 .</p>
 <p>將手機重新開機
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="c1"># reboot</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="c1"># reboot</span></code></pre></td></tr></table>
 </div>
 </div></p>
 <p>就會發現不用輸入密碼就可以進入手機了!</p>
@@ -451,7 +451,7 @@ if (!doNotTrack) {
   
   <p class="copyright-item">
     <span class="item-title">授權條款</span>
-    <span class="item-content">Copyright © 2017-2020 oxygen. All rights reserved.</span>
+    <span class="item-content">Copyright © 2017-2021 oxygen. All rights reserved.</span>
   </p>
 </div>
 

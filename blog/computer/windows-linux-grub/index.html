@@ -34,7 +34,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.84.1" />
+<meta name="generator" content="Hugo 0.87.0" />
 
 
 <link rel="canonical" href="https://oxygentw.net/blog/computer/windows-linux-grub/" />
@@ -65,12 +65,12 @@
 <meta property="og:description" content="有時候在電腦上安裝 Linux和 Windows雙系統時，如果 Windows比 Linux晚裝，或是 Windows重灌，都有可能導致 grub不能正" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://oxygentw.net/blog/computer/windows-linux-grub/" /><meta property="article:section" content="blog" />
-<meta property="article:published_time" content="2017-04-15T00:00:00&#43;00:00" />
-<meta property="article:modified_time" content="2017-04-15T00:00:00&#43;00:00" />
+<meta property="article:published_time" content="2017-04-15T00:00:00+00:00" />
+<meta property="article:modified_time" content="2017-04-15T00:00:00+00:00" />
 
 <meta itemprop="name" content="windows &amp; Linux 雙系統 grub 被覆蓋的解決方法">
-<meta itemprop="description" content="有時候在電腦上安裝 Linux和 Windows雙系統時，如果 Windows比 Linux晚裝，或是 Windows重灌，都有可能導致 grub不能正"><meta itemprop="datePublished" content="2017-04-15T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2017-04-15T00:00:00&#43;00:00" />
+<meta itemprop="description" content="有時候在電腦上安裝 Linux和 Windows雙系統時，如果 Windows比 Linux晚裝，或是 Windows重灌，都有可能導致 grub不能正"><meta itemprop="datePublished" content="2017-04-15T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2017-04-15T00:00:00+00:00" />
 <meta itemprop="wordCount" content="325">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="windows &amp; Linux 雙系統 grub 被覆蓋的解決方法"/>
@@ -340,11 +340,11 @@ if (!doNotTrack) {
 接著輸入(如果 bootloader在/ 就把 boot改成 root，磁碟編號自行修改)</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">mount /dev/sdb5 /mnt
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">mount /dev/sdb5 /mnt
 sudo grub-install --boot-directory=/mnt/ /dev/sdb5
 </code></pre></td></tr></table>
 </div>
@@ -376,7 +376,7 @@ sudo grub-install --boot-directory=/mnt/ /dev/sdb5
   
   <p class="copyright-item">
     <span class="item-title">授權條款</span>
-    <span class="item-content">Copyright © 2017-2020 oxygen. All rights reserved.</span>
+    <span class="item-content">Copyright © 2017-2021 oxygen. All rights reserved.</span>
   </p>
 </div>
 

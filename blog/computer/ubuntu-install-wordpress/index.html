@@ -34,7 +34,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.84.1" />
+<meta name="generator" content="Hugo 0.87.0" />
 
 
 <link rel="canonical" href="https://oxygentw.net/blog/computer/ubuntu-install-wordpress/" />
@@ -65,12 +65,12 @@
 <meta property="og:description" content="WordPress 是一個非常好用的網站架設工具，但我覺得他網頁版的免費方案擴充功能不夠完善，還會有廣告，只好花點時間自己在伺服器上安裝，這樣就沒有方案的問題" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://oxygentw.net/blog/computer/ubuntu-install-wordpress/" /><meta property="article:section" content="blog" />
-<meta property="article:published_time" content="2017-04-09T00:00:00&#43;00:00" />
-<meta property="article:modified_time" content="2017-04-09T00:00:00&#43;00:00" />
+<meta property="article:published_time" content="2017-04-09T00:00:00+00:00" />
+<meta property="article:modified_time" content="2017-04-09T00:00:00+00:00" />
 
 <meta itemprop="name" content="Ubuntu 安裝 WordPress">
-<meta itemprop="description" content="WordPress 是一個非常好用的網站架設工具，但我覺得他網頁版的免費方案擴充功能不夠完善，還會有廣告，只好花點時間自己在伺服器上安裝，這樣就沒有方案的問題"><meta itemprop="datePublished" content="2017-04-09T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2017-04-09T00:00:00&#43;00:00" />
+<meta itemprop="description" content="WordPress 是一個非常好用的網站架設工具，但我覺得他網頁版的免費方案擴充功能不夠完善，還會有廣告，只好花點時間自己在伺服器上安裝，這樣就沒有方案的問題"><meta itemprop="datePublished" content="2017-04-09T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2017-04-09T00:00:00+00:00" />
 <meta itemprop="wordCount" content="785">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Ubuntu 安裝 WordPress"/>
@@ -369,11 +369,11 @@ if (!doNotTrack) {
 <p>11.下載WordPress 版本可自行修改成最新版本</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="nb">cd</span> /tmp
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="nb">cd</span> /tmp
 curl -O https://tw.wordpress.org/wordpress-4.7.3-zh_TW.tar.gz
 </code></pre></td></tr></table>
 </div>
@@ -384,11 +384,11 @@ curl -O https://tw.wordpress.org/wordpress-4.7.3-zh_TW.tar.gz
 <p>13.創建 .htaccess文件並修改權限</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">touch /tmp/wordpress/.htaccess
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">touch /tmp/wordpress/.htaccess
 chmod <span class="m">660</span> /tmp/wordpress/.htaccess
 </code></pre></td></tr></table>
 </div>
@@ -399,11 +399,11 @@ chmod <span class="m">660</span> /tmp/wordpress/.htaccess
 <p>15.將WordPress 複製到網站根目錄 (注意!會清除所有伺服器根目錄的檔案)</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">sudo rm -rf /var/www/html/*
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">sudo rm -rf /var/www/html/*
 sudo cp -a /tmp/wordpress/. /var/www/html
 </code></pre></td></tr></table>
 </div>
@@ -414,13 +414,13 @@ sudo cp -a /tmp/wordpress/. /var/www/html
 <p>17.更改WordPress 根目錄權限</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">sudo find /var/www/html -type d -exec chmod g+s <span class="o">{}</span> <span class="se">\;</span>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">sudo find /var/www/html -type d -exec chmod g+s <span class="o">{}</span> <span class="se">\;</span>
 sudo chmod g+w /var/www/html/wp-content
 sudo chmod -R g+w /var/www/html/wp-content/themes
 sudo chmod -R g+w /var/www/html/wp-content/plugins
@@ -430,12 +430,12 @@ sudo chmod -R g+w /var/www/html/wp-content/plugins
 <p>17.編輯WordPress 配置文件</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">sudo vim /var/www/html/wp-config.php
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">sudo vim /var/www/html/wp-config.php
 
 分別修改資料庫名稱、用戶名稱、用戶密碼
 </code></pre></td></tr></table>
@@ -471,7 +471,7 @@ sudo chmod -R g+w /var/www/html/wp-content/plugins
   
   <p class="copyright-item">
     <span class="item-title">授權條款</span>
-    <span class="item-content">Copyright © 2017-2020 oxygen. All rights reserved.</span>
+    <span class="item-content">Copyright © 2017-2021 oxygen. All rights reserved.</span>
   </p>
 </div>
 

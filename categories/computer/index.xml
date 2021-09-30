@@ -6,7 +6,16 @@
     <description>Recent content in computer on 氧氣橘子</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Wed, 24 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://oxygentw.net/categories/computer/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 10 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://oxygentw.net/categories/computer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MySQL 新增使用者與資料庫指令</title>
+      <link>https://oxygentw.net/blog/computer/new-mysql-user/</link>
+      <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/new-mysql-user/</guid>
+      <description>建立新資料庫 1 CREATE DATABASE &amp;#39;databaseName&amp;#39;; 簡單粗暴，直接新增即可。 建立新使用者 1 CREATE USER &amp;#39;user_name&amp;#39;@&amp;#39;localhost&amp;#39; IDENTIFIED BY &amp;#39;password&amp;#39;; user_name 為新使用者名稱 僅限本機登入則輸入localhost，若外部可登入則輸</description>
+    </item>
+    
     <item>
       <title>分享 - Levey-Jennings chart 品管圖 Excel 模板</title>
       <link>https://oxygentw.net/blog/notes/lj-chart-excel-share/</link>
@@ -176,15 +185,6 @@
       
       <guid>https://oxygentw.net/blog/computer/homeserver/2-init-setting/</guid>
       <description>DietPi 有預裝 Dropbear SSH Server，機器安裝好系統開機後即可透過 SSH 連入伺服器。 預設 IP 是 192.168.0.100，也可以接上螢幕透過螢幕來設定，我們使</description>
-    </item>
-    
-    <item>
-      <title>Apache Server 隱藏敏感性資訊設定</title>
-      <link>https://oxygentw.net/blog/computer/apache-hide-sensitive-info/</link>
-      <pubDate>Sun, 03 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://oxygentw.net/blog/computer/apache-hide-sensitive-info/</guid>
-      <description>紀錄 Apache Server 的一些基礎安全設定，可以避免伺服器版本號或作業系統等機敏性資料輕易的被取得，雖然說真的有心人士要攻擊的話這些簡單的設定應該也防不了，</description>
     </item>
     
   </channel>

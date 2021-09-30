@@ -34,7 +34,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.84.1" />
+<meta name="generator" content="Hugo 0.87.0" />
 
 
 <link rel="canonical" href="https://oxygentw.net/blog/notes/cpp-bernoulli-trial-simulation/" />
@@ -65,12 +65,12 @@
 <meta property="og:description" content="數學課上到這部分，依據大數法則，試驗的次數越多，結果會越相似於常態分佈，但丟硬幣100次都嫌累了，根本沒辦法看出甚麼所以然來，這時電腦就好用" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://oxygentw.net/blog/notes/cpp-bernoulli-trial-simulation/" /><meta property="article:section" content="blog" />
-<meta property="article:published_time" content="2017-09-19T00:00:00&#43;00:00" />
-<meta property="article:modified_time" content="2017-09-19T00:00:00&#43;00:00" />
+<meta property="article:published_time" content="2017-09-19T00:00:00+00:00" />
+<meta property="article:modified_time" content="2017-09-19T00:00:00+00:00" />
 
 <meta itemprop="name" content="C&#43;&#43; 獨立重複白努力試驗模擬">
-<meta itemprop="description" content="數學課上到這部分，依據大數法則，試驗的次數越多，結果會越相似於常態分佈，但丟硬幣100次都嫌累了，根本沒辦法看出甚麼所以然來，這時電腦就好用"><meta itemprop="datePublished" content="2017-09-19T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2017-09-19T00:00:00&#43;00:00" />
+<meta itemprop="description" content="數學課上到這部分，依據大數法則，試驗的次數越多，結果會越相似於常態分佈，但丟硬幣100次都嫌累了，根本沒辦法看出甚麼所以然來，這時電腦就好用"><meta itemprop="datePublished" content="2017-09-19T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2017-09-19T00:00:00+00:00" />
 <meta itemprop="wordCount" content="727">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="C&#43;&#43; 獨立重複白努力試驗模擬"/>
@@ -335,7 +335,7 @@ if (!doNotTrack) {
       <p>數學課上到這部分，依據大數法則，試驗的次數越多，結果會越相似於常態分佈，但丟硬幣100次都嫌累了，根本沒辦法看出甚麼所以然來，這時電腦就好用了，寫個小程式，數分鐘內幫你丟五億次硬幣! 還可以更多呢!</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -405,7 +405,7 @@ if (!doNotTrack) {
 </span><span class="lnt">68
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-cpp" data-lang="cpp"><span class="cm">/*
+<pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="cm">/*
 </span><span class="cm"> * Bernoulli Trial simulation
 </span><span class="cm"> * By C++
 </span><span class="cm"> * License MIT
@@ -484,14 +484,14 @@ if (!doNotTrack) {
 <p>我把程式寫完後就遠端送到 Linux 去處理，性能比較好些，於是我也寫了 Makefile。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
 </span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="c1"># Makefile of Bernoulli Trial simulation</span>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="c1"># Makefile of Bernoulli Trial simulation</span>
 all:Bernoulli-Trial-simulation.cpp
 	g++ Bernoulli-Trial-simulation.cpp -o Bernoulli-Trial-simulation
 clean:
@@ -519,7 +519,7 @@ clean:
   
   <p class="copyright-item">
     <span class="item-title">授權條款</span>
-    <span class="item-content">Copyright © 2017-2020 oxygen. All rights reserved.</span>
+    <span class="item-content">Copyright © 2017-2021 oxygen. All rights reserved.</span>
   </p>
 </div>
 

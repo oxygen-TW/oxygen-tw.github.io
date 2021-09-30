@@ -35,7 +35,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.84.1" />
+<meta name="generator" content="Hugo 0.87.0" />
 
 
 <link rel="canonical" href="https://oxygentw.net/blog/computer/remove-macos-hidden-file/" />
@@ -66,12 +66,12 @@
 <meta property="og:description" content="MacOS 下會為每個資料夾跟檔案新增一個以._開頭的系統隱藏檔案，用來儲存使用者設定和一些系統需要的設定，但是移到其他作業系統時這些檔案完全沒有用!" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://oxygentw.net/blog/computer/remove-macos-hidden-file/" /><meta property="article:section" content="blog" />
-<meta property="article:published_time" content="2020-11-01T00:00:00&#43;00:00" />
-<meta property="article:modified_time" content="2020-11-01T00:00:00&#43;00:00" />
+<meta property="article:published_time" content="2020-11-01T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-11-01T00:00:00+00:00" />
 
 <meta itemprop="name" content="Remove Macos Hidden File">
-<meta itemprop="description" content="MacOS 下會為每個資料夾跟檔案新增一個以._開頭的系統隱藏檔案，用來儲存使用者設定和一些系統需要的設定，但是移到其他作業系統時這些檔案完全沒有用!"><meta itemprop="datePublished" content="2020-11-01T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2020-11-01T00:00:00&#43;00:00" />
+<meta itemprop="description" content="MacOS 下會為每個資料夾跟檔案新增一個以._開頭的系統隱藏檔案，用來儲存使用者設定和一些系統需要的設定，但是移到其他作業系統時這些檔案完全沒有用!"><meta itemprop="datePublished" content="2020-11-01T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2020-11-01T00:00:00+00:00" />
 <meta itemprop="wordCount" content="246">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Remove Macos Hidden File"/>
@@ -341,10 +341,10 @@ if (!doNotTrack) {
 這個指令會遞迴刪除所有目錄底下以<code>._</code>開頭的檔案，並且把刪除的檔案顯示出來。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">find  .  -name  <span class="s1">&#39;._*&#39;</span>  -type  f  -print  -exec  rm  -rf  <span class="o">{}</span> <span class="se">\;</span>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">find  .  -name  <span class="s1">&#39;._*&#39;</span>  -type  f  -print  -exec  rm  -rf  <span class="o">{}</span> <span class="se">\;</span>
 </code></pre></td></tr></table>
 </div>
 </div><p>*若是在 Windows 下要用 PowerShell 或 Git Bash 執行喔~</p>
@@ -368,7 +368,7 @@ if (!doNotTrack) {
   
   <p class="copyright-item">
     <span class="item-title">授權條款</span>
-    <span class="item-content">Copyright © 2017-2020 oxygen. All rights reserved.</span>
+    <span class="item-content">Copyright © 2017-2021 oxygen. All rights reserved.</span>
   </p>
 </div>
 

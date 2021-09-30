@@ -6,7 +6,16 @@
     <description>Recent content in Blogs on 氧氣橘子</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sat, 19 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://oxygentw.net/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 10 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://oxygentw.net/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MySQL 新增使用者與資料庫指令</title>
+      <link>https://oxygentw.net/blog/computer/new-mysql-user/</link>
+      <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/new-mysql-user/</guid>
+      <description>建立新資料庫 1 CREATE DATABASE &amp;#39;databaseName&amp;#39;; 簡單粗暴，直接新增即可。 建立新使用者 1 CREATE USER &amp;#39;user_name&amp;#39;@&amp;#39;localhost&amp;#39; IDENTIFIED BY &amp;#39;password&amp;#39;; user_name 為新使用者名稱 僅限本機登入則輸入localhost，若外部可登入則輸</description>
+    </item>
+    
     <item>
       <title>醫用真菌學常見學名整理表</title>
       <link>https://oxygentw.net/blog/notes/scientific-name-of-medical-myology/</link>
@@ -176,15 +185,6 @@
       
       <guid>https://oxygentw.net/blog/notes/spanish-note/</guid>
       <description>Tema 1 Ser 用來表示不常變動的狀態，例如國籍、職業、價值判斷等。 Estar 用來表示當下的心裡、生理狀態、空間、地點、位置等。 Ser 與 Estar 的差別類似天氣與氣候定義</description>
-    </item>
-    
-    <item>
-      <title>在 VMware 中安裝 MacOS Mojave</title>
-      <link>https://oxygentw.net/blog/computer/install-macos-in-vmware/</link>
-      <pubDate>Sun, 22 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://oxygentw.net/blog/computer/install-macos-in-vmware/</guid>
-      <description>最近很常用到 apple 的工具，但是用 itune web 又不好用，本來就對 MacOS 有些好奇，於是就打算裝到虛擬機上來玩玩看，我用 VMware 15 來安裝，要開始之前大家可以先到下面官網</description>
     </item>
     
   </channel>
