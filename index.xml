@@ -780,7 +780,7 @@
   &lt;/figure&gt;
 &lt;/div&gt;
 &lt;/p&gt;
-&lt;p&gt;我們往下拉，找到&lt;code&gt;Get the Flutter SDK&lt;/code&gt;並點選下載。 &lt;br&gt;
+&lt;p&gt;我們往下拉，找到&lt;code&gt; Get the Flutter SDK&lt;/code&gt;並點選下載。 &lt;br&gt;
 下載完解壓縮後會是一個資料夾，我們把它放到C槽根目錄(你可以放在任何你想放的路徑，只是等等環境變數設定時要更改)&lt;/p&gt;
 &lt;p&gt;把 Flutter 資料夾的路徑複製起來&lt;/p&gt;
 &lt;p&gt;路徑要加上bin，也就是&lt;code&gt;C:\\flutter\bin&lt;/code&gt;&lt;/p&gt;
@@ -1067,9 +1067,8 @@
 &lt;p&gt;拜託不要，壓緊就好，揉他會很容易導致皮下出血。&lt;/p&gt;
 &lt;h3 id=&#34;5-若抽血後瘀青了怎麼辦&#34;&gt;5. 若抽血後瘀青了怎麼辦？&lt;/h3&gt;
 &lt;p&gt;24小時內冰敷，之後改為熱敷，通常不去理會身體會自行吸收瘀青的血液。&lt;/p&gt;
-&lt;h3 id=&#34;第一次沒抽到寫怎麼辦&#34;&gt;第一次沒抽到寫怎麼辦？&lt;/h3&gt;
+&lt;h3 id=&#34;第一次沒抽到血怎麼辦&#34;&gt;第一次沒抽到血怎麼辦？&lt;/h3&gt;
 &lt;p&gt;醫檢師利用觸摸與眼睛判斷血管走向及深度，無法百分百精準，每個人的手部構造並不相同，下針後也可能發生血管滑開而沒有成功穿刺，第一次抽血失敗後會換手再次抽血，若連續兩次失敗則視為困難抽血，會請其他醫檢師進行操作或是更換部位抽血(手背、腳跟上方)。&lt;/p&gt;
-&lt;p&gt;&lt;del&gt;拜託，不要大罵醫檢師QQ&lt;/del&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;2020/11/27 update&lt;/p&gt;
 &lt;h2 id=&#34;技術考流程&#34;&gt;技術考流程&lt;/h2&gt;
@@ -1220,7 +1219,7 @@
       
         <description>&lt;p&gt;Windows Terminal 是 Windows 10 新型的終端機介面，整合傳統 cmd、PowerShell、Azure shell 和 WSL Bash，比原先的 cmd 要好用太多了，我今天來介紹如何更改他的主題，使用起來更順眼!&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;首先打開 Windows Terminal 點擊&lt;strong&gt;設定&lt;/strong&gt;，並用熟悉的文字編輯器打開 &lt;code&gt;settings.json&lt;/code&gt;
 
 &lt;link rel=&#34;stylesheet&#34; href=&#34;https://oxygentw.net/css/hugo-easy-gallery.css&#34; /&gt;
