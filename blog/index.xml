@@ -6,7 +6,16 @@
     <description>Recent content in Blogs on 氧氣橘子</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sat, 10 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://oxygentw.net/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://oxygentw.net/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Home Assistant 連接 Synology UPS Server</title>
+      <link>https://oxygentw.net/blog/computer/ha-connect-upsbynas/</link>
+      <pubDate>Tue, 15 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/ha-connect-upsbynas/</guid>
+      <description>便宜的家用 UPS 很多時候都只有一個 USB 通訊埠，我理所當然地把它拿去給最重要的 NAS 連接，但我還有一台運行 Home Assistant 的伺服器怎麼辦? 雖然我的經驗告訴我小樹莓派</description>
+    </item>
+    
     <item>
       <title>MySQL 新增使用者與資料庫指令</title>
       <link>https://oxygentw.net/blog/computer/new-mysql-user/</link>
@@ -176,15 +185,6 @@
       
       <guid>https://oxygentw.net/blog/notes/simple-cpr/</guid>
       <description>CPR 想必大家不陌生，很多連續劇裡也都會演(? 身為醫事人員我們必須學會基本的急救技術，所以在醫學院裡的學生都會學，但我覺得這項技能應該是全民都該</description>
-    </item>
-    
-    <item>
-      <title>西班牙文筆記</title>
-      <link>https://oxygentw.net/blog/notes/spanish-note/</link>
-      <pubDate>Sat, 28 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://oxygentw.net/blog/notes/spanish-note/</guid>
-      <description>Tema 1 Ser 用來表示不常變動的狀態，例如國籍、職業、價值判斷等。 Estar 用來表示當下的心裡、生理狀態、空間、地點、位置等。 Ser 與 Estar 的差別類似天氣與氣候定義</description>
     </item>
     
   </channel>

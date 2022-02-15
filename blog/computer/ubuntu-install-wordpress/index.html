@@ -332,40 +332,40 @@ if (!doNotTrack) {
     
     <div class="post-content">
       <p>WordPress 是一個非常好用的網站架設工具，但我覺得他網頁版的免費方案擴充功能不夠完善，還會有廣告，只好花點時間自己在伺服器上安裝，這樣就沒有方案的問題了。</p>
-<!-- raw HTML omitted -->
+<br/>
 <p>不過一般人家裡不適合放一臺主機，組一臺主機很貴啊。。。而且還要確保供電不中斷，電費也是一筆開銷，所以如果要自己架，可以使用網路上 openshift 的主機，或是使用樹莓派來架設，樹莓派是一種微電腦，耗電小，體積小，功能也齊全，只要不要做太大型的運算，基本上都很穩定！</p>
-<!-- raw HTML omitted -->
+<br/>
 <p>廢話不多說，開啓終端機進入安裝步驟，伺服器必須預裝好 LAMP 喔！</p>
 <hr>
 <p>1.登入MySQL<br>
 <code>sudo mysql -u root -p;</code></p>
-<!-- raw HTML omitted -->
+<br/>
 <p>2.創建MySQL資料庫 <br>
 <code>CREATE DATABASE DB_NAME;</code></p>
-<!-- raw HTML omitted -->
+<br/>
 <p>3.創建MySQL用戶 <br>
 <code>GRANT ALL ON wordpress.* TO 'USERNAME'@'localhost' IDENTIFIED BY 'PASSWORD';</code></p>
-<!-- raw HTML omitted -->
+<br/>
 <p>4.更新<br>
 <code> FLUSH PRIVILEGES;</code></p>
-<!-- raw HTML omitted -->
+<br/>
 <p>5.退出MySQL<br>
 <code> quit;</code></p>
-<!-- raw HTML omitted -->
+<br/>
 <p>6.啓用.htaccess<br>
 <code>sudo vim /etc/apache2/apache2.conf</code></p>
-<!-- raw HTML omitted -->
+<br/>
 <p>7.把Directory區塊中的AllowOverride的值設定爲All</p>
-<!-- raw HTML omitted -->
+<br/>
 <p>8.重新啓動模組<br>
 <code>sudo a2enmod rewrite</code></p>
-<!-- raw HTML omitted -->
+<br/>
 <p>9.檢查組態檔<br>
 <code>sudo apache2ctl configtest</code></p>
-<!-- raw HTML omitted -->
+<br/>
 <p>10.伺服器重啓<br>
 <code>sudo service apache2 restart </code></p>
-<!-- raw HTML omitted -->
+<br/>
 <p>11.下載WordPress 版本可自行修改成最新版本</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -377,10 +377,10 @@ if (!doNotTrack) {
 curl -O https://tw.wordpress.org/wordpress-4.7.3-zh_TW.tar.gz
 </code></pre></td></tr></table>
 </div>
-</div><!-- raw HTML omitted -->
+</div><br/>
 <p>12.解壓縮 <br>
 <code>tar xzvf wordpress-4.7.3-zh_TW.tar.gz</code></p>
-<!-- raw HTML omitted -->
+<br/>
 <p>13.創建 .htaccess文件並修改權限</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -392,10 +392,10 @@ curl -O https://tw.wordpress.org/wordpress-4.7.3-zh_TW.tar.gz
 chmod <span class="m">660</span> /tmp/wordpress/.htaccess
 </code></pre></td></tr></table>
 </div>
-</div><!-- raw HTML omitted -->
+</div><br/>
 <p>14.創建組態文件<br>
 <code>cp /tmp/wordpress/wp-config-sample.php /tmp/wordpress/wp-config.php</code></p>
-<!-- raw HTML omitted -->
+<br/>
 <p>15.將WordPress 複製到網站根目錄 (注意!會清除所有伺服器根目錄的檔案)</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -407,10 +407,10 @@ chmod <span class="m">660</span> /tmp/wordpress/.htaccess
 sudo cp -a /tmp/wordpress/. /var/www/html
 </code></pre></td></tr></table>
 </div>
-</div><!-- raw HTML omitted -->
+</div><br/>
 <p>16.更改WordPress 目錄權限 (把LINUX-USER換成自己的linux帳戶)<br>
 <code>sudo chown –R LINUX-USER:www–data /var/www/html</code></p>
-<!-- raw HTML omitted -->
+<br/>
 <p>17.更改WordPress 根目錄權限</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -426,7 +426,7 @@ sudo chmod -R g+w /var/www/html/wp-content/themes
 sudo chmod -R g+w /var/www/html/wp-content/plugins
 </code></pre></td></tr></table>
 </div>
-</div><!-- raw HTML omitted -->
+</div><br/>
 <p>17.編輯WordPress 配置文件</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -440,15 +440,15 @@ sudo chmod -R g+w /var/www/html/wp-content/plugins
 分別修改資料庫名稱、用戶名稱、用戶密碼
 </code></pre></td></tr></table>
 </div>
-</div><!-- raw HTML omitted -->
+</div><br/>
 <p>18.添加一行文字，防止插件安裝出現FTP認證界面<br>
 <code>define('FS_METHOD', 'direct');</code></p>
-<!-- raw HTML omitted -->
+<br/>
 <p>19.設置密鑰—取得密鑰 <br>
 <code>curl -s https://api.wordpress.org/secret-key/1.1/salt/</code></p>
-<!-- raw HTML omitted -->
+<br/>
 <p>20.替換WordPress組態文件中的值</p>
-<!-- raw HTML omitted -->
+<br/>
 <p>21.安裝完成！
 參考資料:http://blog.topspeedsnail.com/archives/4646</p>
 

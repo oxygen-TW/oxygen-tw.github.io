@@ -354,7 +354,7 @@ if (!doNotTrack) {
 v9.5.0</code></pre></td></tr></table>
 </div>
 </div>
-<!-- raw HTML omitted -->
+<br/>
 <p>安裝 Redis
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -366,7 +366,7 @@ v9.5.0</code></pre></td></tr></table>
 sudo apt-get install redis-server</code></pre></td></tr></table>
 </div>
 </div></p>
-<!-- raw HTML omitted -->
+<br/>
 <p>檢查redis伺服器狀態</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -376,7 +376,7 @@ sudo apt-get install redis-server</code></pre></td></tr></table>
 <pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">netstat -nlt<span class="p">|</span>grep <span class="m">6379</span></code></pre></td></tr></table>
 </div>
 </div>
-<!-- raw HTML omitted -->
+<br/>
 <p>執行 redis-cli 測試</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -388,11 +388,11 @@ sudo apt-get install redis-server</code></pre></td></tr></table>
 <span class="o">(</span>empty list or <span class="nb">set</span><span class="o">)</span></code></pre></td></tr></table>
 </div>
 </div>
-<!-- raw HTML omitted -->
+<br/>
 <p>為了保護資料庫，必須設置資料庫密碼，修改 /etc/redis/redis.conf。</p>
 <p>取消註解 requirepass 並設置密碼</p>
 <p><img src="/img/post/ubuntu-install-nodejs-and-redis/2018-02-17.png" alt="set password"></p>
-<!-- raw HTML omitted -->
+<br/>
 <p>為了讓遠端主機可以存取 Redis，找到 bind 127.0.0.1 這行，將允許訪問資料庫的IP補上去</p>
 <p>Example:</p>
 <div class="highlight"><div class="chroma">
@@ -423,7 +423,7 @@ sudo apt-get install redis-server</code></pre></td></tr></table>
 </div>
 <p>Redis 遠端連線指令
 redis-cli -a [Redis Password] -h [Remote Host Address]</p>
-<!-- raw HTML omitted -->
+<br/>
 <hr>
 <p>參考資料
 <a href="https://github.com/nodesource/distributions">https://github.com/nodesource/distributions</a></p>

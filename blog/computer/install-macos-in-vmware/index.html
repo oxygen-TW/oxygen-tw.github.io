@@ -355,7 +355,7 @@ if (!doNotTrack) {
 <h2 id="解鎖-vmware">解鎖 VMware</h2>
 <p>接著我們要讓 VMware 可以支援 MacOS，所以要做一個解鎖的動作，網路上有大大寫出 unlocker 這隻程式可以做到，但是裡面有一個 <code>gettools.py</code> 不能用，我查了一些資料後 fork repo 並將 <code>gettools.py</code> 修正再 push，可以從我這邊下載使用</p>
 <p><a href="https://github.com/oxygen-TW/unlocker">https://github.com/oxygen-TW/unlocker</a></p>
-<!-- raw HTML omitted -->
+<br/>
 <p>如何操作呢，首先先到工作管理員，把和 VMware 相關的處理程序都終止，接著<strong>以系統管理員身分</strong>執行 unlocker 裡面的 <code>win-install.cmd</code>。
 
 
@@ -369,7 +369,7 @@ if (!doNotTrack) {
   </figure>
 </div>
 
-<!-- raw HTML omitted -->
+<br/>
 
 
 <div class="box">
@@ -418,7 +418,7 @@ python gettools.py
 </div>
 
 選擇稍後安裝映像檔
-<!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<br/><br/></p>
 <p>
 
 <div class="box">
@@ -432,7 +432,7 @@ python gettools.py
 </div>
 
 Apple Mac OS X 10.14
-<!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<br/><br/></p>
 <p>
 
 <div class="box">
@@ -446,7 +446,7 @@ Apple Mac OS X 10.14
 </div>
 
 輸入虛擬機檔案名與儲存位置
-<!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<br/><br/></p>
 <p>
 
 <div class="box">
@@ -460,7 +460,7 @@ Apple Mac OS X 10.14
 </div>
 
 選擇虛擬磁碟大小
-<!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<br/><br/></p>
 <h2 id="br">
 
 <div class="box">
@@ -474,7 +474,7 @@ Apple Mac OS X 10.14
 </div>
 
 虛擬機硬體配置，Finish 後就會建立了。
-<!-- raw HTML omitted --></h2>
+<br/></h2>
 <h2 id="開始安裝系統">開始安裝系統</h2>
 <p>就是安裝系統啊！打開虛擬機他就會引導了，這邊我有空再加，真的很簡單。</p>
 <hr>
@@ -494,7 +494,7 @@ Apple Mac OS X 10.14
   </figure>
 </div>
 </p>
-<!-- raw HTML omitted -->
+<br/>
 <p>重新開機虛擬機器，在出現灰色 VMware 字樣時按住 Alt 進入設定介面。
 
 
@@ -521,7 +521,7 @@ Apple Mac OS X 10.14
   </figure>
 </div>
 
-<!-- raw HTML omitted -->
+<br/>
 
 
 <div class="box">
@@ -534,7 +534,7 @@ Apple Mac OS X 10.14
   </figure>
 </div>
 
-<!-- raw HTML omitted -->
+<br/>
 
 
 <div class="box">
@@ -547,7 +547,7 @@ Apple Mac OS X 10.14
   </figure>
 </div>
 
-<!-- raw HTML omitted -->
+<br/>
 
 
 <div class="box">
@@ -560,7 +560,7 @@ Apple Mac OS X 10.14
   </figure>
 </div>
 
-<!-- raw HTML omitted -->
+<br/>
 
 
 <div class="box">
@@ -573,7 +573,7 @@ Apple Mac OS X 10.14
   </figure>
 </div>
 
-<!-- raw HTML omitted --></p>
+<br/></p>
 <p>進入 Recovery mode 後從<strong>工具程式 -&gt; 終端機</strong>打開終端機，輸入 <code>csrutil disabled; reboot</code></p>
 <p><strong>重新啟動</strong>正常開機後再進終端機輸入一次
 <code>csrutil status</code>，這次應該會看到 <code>&quot;System Integrity Protection status: disabled&quot;</code>，這樣就成功了。
@@ -589,7 +589,7 @@ Apple Mac OS X 10.14
   </figure>
 </div>
 </p>
-<!-- raw HTML omitted -->
+<br/>
 <p>
 
 <div class="box">
@@ -602,7 +602,7 @@ Apple Mac OS X 10.14
   </figure>
 </div>
 
-<!-- raw HTML omitted --></p>
+<br/></p>
 <p>接著將光碟機掛載剛剛下載下來的 <code>darwin15.iso</code>，從 MacOS 裡面打開安裝精靈，依序進行即可安裝 VMware tools，他會顯示憑證有問題，但沒辦法，只能照樣給他裝下去了。
 
 
@@ -628,8 +628,8 @@ Apple Mac OS X 10.14
   </figure>
 </div>
 
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted --></p>
+<br/>
+<br/></p>
 <p>安裝完成後重新啟動基本上就大功告成啦~ 享受你的 Mac OS 吧！</p>
 <p>
 
@@ -643,7 +643,7 @@ Apple Mac OS X 10.14
   </figure>
 </div>
 
-<!-- raw HTML omitted --></p>
+<br/></p>
 <hr>
 <h2 id="解析度無法調整">解析度無法調整</h2>
 <p>若發生解析度無法調整的問題，我們可以在終端機中輸入這一段指令即可修正</p>

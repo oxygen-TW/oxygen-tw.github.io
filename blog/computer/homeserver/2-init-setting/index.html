@@ -72,7 +72,7 @@
 <meta itemprop="name" content="架設家用伺服器 PART 2 — 初始設定">
 <meta itemprop="description" content="DietPi 有預裝 Dropbear SSH Server，機器安裝好系統開機後即可透過 SSH 連入伺服器。 預設 IP 是 192.168.0.100，也可以接上螢幕透過螢幕來設定，我們使"><meta itemprop="datePublished" content="2019-02-16T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2019-02-16T00:00:00+00:00" />
-<meta itemprop="wordCount" content="976">
+<meta itemprop="wordCount" content="972">
 <meta itemprop="keywords" content="Home server series," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="架設家用伺服器 PART 2 — 初始設定"/>
 <meta name="twitter:description" content="DietPi 有預裝 Dropbear SSH Server，機器安裝好系統開機後即可透過 SSH 連入伺服器。 預設 IP 是 192.168.0.100，也可以接上螢幕透過螢幕來設定，我們使"/>
@@ -316,7 +316,7 @@ if (!doNotTrack) {
             <a href="https://oxygentw.net/categories/computer/"> computer </a>
             
           </div>
-        <span class="more-meta"> 約 976 字 </span>
+        <span class="more-meta"> 約 972 字 </span>
           <span class="more-meta"> 預計閱讀 2 分鐘 </span>
 
         
@@ -333,46 +333,46 @@ if (!doNotTrack) {
     
     <div class="post-content">
       <p>DietPi 有預裝 Dropbear SSH Server，機器安裝好系統開機後即可透過 SSH 連入伺服器。 <br>
-預設 IP 是 <code>192.168.0.100</code>，也可以接上螢幕透過螢幕來設定，我們使用 <!-- raw HTML omitted -->KITTY<!-- raw HTML omitted --> 來做 SSH 操作。</p>
+預設 IP 是 <code>192.168.0.100</code>，也可以接上螢幕透過螢幕來設定，我們使用 <a href="https://www.fosshub.com/KiTTY.html" target="_blank">KITTY</a> 來做 SSH 操作。</p>
 <hr>
 <h2 id="透過-ssh-連線">透過 SSH 連線</h2>
 <p>在 Host Name 的地方輸入主機位置，Port 輸入 SSH 連接埠號(預設22)，就可以建立連線，連進去後會被詢問帳號密碼。</p>
 <p>預設帳號：<code>root</code> <br>
 預設密碼：<code>dietpi</code></p>
 <p><img src="/img/post/homeserver/3-system-setting/2018-03-04-7.png" alt="透過 SSH 連線"></p>
-<!-- raw HTML omitted -->
+<br/>
 <p>第一次進入會顯示作業系統著作權宣告，按OK就好
 <img src="/img/post/homeserver/2-init-setting/2019-02-16.png" alt="著作權宣告"></p>
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted -->
+<br/>
+<p><span id="setpasswd"></span>
 開機後系統會自動引導你進行初始設定，跳出這個視窗詢問你是否要幫 dietpi-software 設定一組新密碼，這組密碼會被用在安裝軟體時的新使用者和 web 服務( database 之類的)的登入密碼。</p>
 <p>![設定dietpi密碼](/img/post/homeserver/2-init-setting/2019-02-16 (1).png)</p>
-<!-- raw HTML omitted -->
+<br/>
 <p>選擇 OK 後進入設定頁面，他會要求輸入兩次避免輸錯</p>
 <p>![輸入密碼](/img/post/homeserver/2-init-setting/2019-02-16 (2).png)</p>
-<!-- raw HTML omitted -->
+<br/>
 <p>再來系統詢問是否要更改 roo t和 dietpi 這兩個帳號的密碼，<strong>當然要啊!!!! root用預設密碼是找死啊。</strong></p>
 <p>![重設root密碼](/img/post/homeserver/2-init-setting/2019-02-16 (3).png)</p>
-<!-- raw HTML omitted -->
+<br/>
 <p>設定頁面，同樣要輸入兩次
 ![輸入密碼](/img/post/homeserver/2-init-setting/2019-02-16 (4).png)</p>
-<!-- raw HTML omitted -->
+<br/>
 <p>設定成功後如果有連上網路系統會自動執行套件更新，等他更新完會要求重新開機。<br>
 如果你在這步驟還沒有連上網的話，讓他連上!!!</p>
 <p>![重新啟動](/img/post/homeserver/2-init-setting/2019-02-16 (5).png)</p>
-<!-- raw HTML omitted -->
+<br/>
 <p>重新開機後系統會自動執行 dietpi-update 這是這個作業系統的更新工具，並問你是否願意傳送匿名資料給開發者參考。 <br>
 願意選 Opt IN，不願意選 Opt OUT。</p>
 <p>![傳送統計](/img/post/homeserver/2-init-setting/2019-02-16 (6).png)</p>
-<!-- raw HTML omitted -->
+<br/>
 <p>系統更新完後又是重新開機
 ![重新啟動](/img/post/homeserver/2-init-setting/2019-02-16 (7).png)</p>
-<!-- raw HTML omitted -->
+<br/>
 <p>重新開機後<strong>有可能</strong>會需要再做一次前面<a href="#setpasswd">設定密碼</a>的動作，因為系統被更新檔案被重設了，有點麻煩，但還是照做吧！</p>
 <p>終於，我們進入正式 dietpi-software 了，不過再安裝軟體前，我們得先做系統設定。
 ![dietpi-software](/img/post/homeserver/2-init-setting/2019-02-16 (8).png)</p>
-<p>選擇清單中 DietPi-Config 這個選項，進入下個步驟 -&gt; <!-- raw HTML omitted -->系統設定<!-- raw HTML omitted --></p>
-<!-- raw HTML omitted -->
+<p>選擇清單中 DietPi-Config 這個選項，進入下個步驟 -&gt; <a href="https://oxygentw.net/blog/computer/homeserver/3-system-setting/">系統設定</a></p>
+<br/>
 <hr>
 <p>Picture source: <a href="https://www.flickr.com/photos/yusamoilov/13334080323">https://www.flickr.com/photos/yusamoilov/13334080323</a></p>
 

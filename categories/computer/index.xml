@@ -6,7 +6,16 @@
     <description>Recent content in computer on 氧氣橘子</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sat, 10 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://oxygentw.net/categories/computer/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://oxygentw.net/categories/computer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Home Assistant 連接 Synology UPS Server</title>
+      <link>https://oxygentw.net/blog/computer/ha-connect-upsbynas/</link>
+      <pubDate>Tue, 15 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/ha-connect-upsbynas/</guid>
+      <description>便宜的家用 UPS 很多時候都只有一個 USB 通訊埠，我理所當然地把它拿去給最重要的 NAS 連接，但我還有一台運行 Home Assistant 的伺服器怎麼辦? 雖然我的經驗告訴我小樹莓派</description>
+    </item>
+    
     <item>
       <title>MySQL 新增使用者與資料庫指令</title>
       <link>https://oxygentw.net/blog/computer/new-mysql-user/</link>
@@ -176,15 +185,6 @@
       
       <guid>https://oxygentw.net/blog/computer/homeserver/3-system-setting/</guid>
       <description>進行 dietpi-config 設定 成功進入系統只是第一步，經過上一部自動引導你進行 dietpi-update 作業系統的升級後我們確定伺服器系統都已經最新，但升級後我們仍要進行 dietpi-config 把系統設定成</description>
-    </item>
-    
-    <item>
-      <title>架設家用伺服器 PART 2 — 初始設定</title>
-      <link>https://oxygentw.net/blog/computer/homeserver/2-init-setting/</link>
-      <pubDate>Sat, 16 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://oxygentw.net/blog/computer/homeserver/2-init-setting/</guid>
-      <description>DietPi 有預裝 Dropbear SSH Server，機器安裝好系統開機後即可透過 SSH 連入伺服器。 預設 IP 是 192.168.0.100，也可以接上螢幕透過螢幕來設定，我們使</description>
     </item>
     
   </channel>

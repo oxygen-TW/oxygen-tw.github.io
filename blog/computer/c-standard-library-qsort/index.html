@@ -334,7 +334,7 @@ if (!doNotTrack) {
     <div class="post-content">
       <p>前些天很意外地得知學校程式設計居然是教 C語言，非工程相關應該不需要學到這種中階語言才對吧…… 好歹來個 C++ 啊 !!!!</p>
 <p>抱怨歸抱怨，課還是得上，只好重新翻閱C的標準函式庫複習一下，結果在裡面挖到很多好用的東西呢XD 其中 stdlib.h 的 qsort 函式我覺得最驚喜，我一直以為只有 C++ 的 STL library才有 sort()，沒想到C語言也有！ 不過用法有點複雜，紀錄一下。</p>
-<!-- raw HTML omitted -->
+<br/>
 <p>Function Prototype</p>
 <blockquote>
 <p>void qsort(void* base, size_t n, size_t size, int (<em>cmp)(const void</em>, const void*))</p>
@@ -345,7 +345,7 @@ if (!doNotTrack) {
 <li>size 是陣列中元素的大小 = sizeof(array_type)</li>
 <li>最後是指向比較函數的指標</li>
 </ul>
-<!-- raw HTML omitted -->
+<br/>
 <p>指向比較函數的指標比較特別，就像 STL sort 如果要改變排序方向的話必須傳入第三個參數，自行定義的比較函數。</p>
 <p>範例如下：</p>
 <div class="highlight"><div class="chroma">
@@ -362,7 +362,7 @@ if (!doNotTrack) {
 <span class="p">}</span>
 </code></pre></td></tr></table>
 </div>
-</div><p>傳入 a,b 兩參數型別是 void <em>，需要強制轉型成被排序陣列的型別，如範例中 a,b <!-- raw HTML omitted -->先被強制轉型成整數指標 (int</em>)，再對他取值做處理。<!-- raw HTML omitted --></p>
+</div><p>傳入 a,b 兩參數型別是 void <em>，需要強制轉型成被排序陣列的型別，如範例中 a,b <font color=red>先被強制轉型成整數指標 (int</em>)，再對他取值做處理。</font></p>
 <hr>
 <p>完整範例
 <div class="highlight"><div class="chroma">
@@ -423,7 +423,7 @@ if (!doNotTrack) {
 <span class="p">}</span></code></pre></td></tr></table>
 </div>
 </div></p>
-<!-- raw HTML omitted -->
+<br/>
 <p>輸出結果: <br>
 <img src="/img/post/c-standard-library-qsort/output.jpg" alt="Output" title="Output"></p>
 

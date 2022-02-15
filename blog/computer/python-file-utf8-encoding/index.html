@@ -332,7 +332,7 @@ if (!doNotTrack) {
     <div class="post-content">
       <p>寫 Python 做資料處理時讀取中文檔案有時候會遇到 <code>UnicodeDecodeError: 'cp950' codec can't decode byte 0xe8 in position 7: illegal multibyte sequence</code> 的錯誤，每次發生我都要重新找一次解決方法，一直記不住&hellip; 乾脆直接寫下來!</p>
 <p>我都很確認資料檔是以 UTF-8 編碼啊，但怎麼還是報 cp950，原來問題不是出在資料檔，而是 Python 腳本的預設編碼，所以我們只要告訴 Python 我們要讀取的檔案是以 UTF-8 編碼即可解決。</p>
-<!-- raw HTML omitted -->
+<br/>
 <h3 id="錯誤回報案例">錯誤回報案例</h3>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -370,7 +370,7 @@ UnicodeDecodeError: <span class="s1">&#39;cp950&#39;</span> codec can<span class
 <span class="nb">print</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">arr</span><span class="p">))</span></code></pre></td></tr></table>
 </div>
 </div>
-<!-- raw HTML omitted -->
+<br/>
 <h3 id="修改後程式碼">修改後程式碼</h3>
 <p>在 <code>open()</code> 裡加上 <code>encoding=&quot;utf-8&quot;</code> 即可解決。
 <div class="highlight"><div class="chroma">

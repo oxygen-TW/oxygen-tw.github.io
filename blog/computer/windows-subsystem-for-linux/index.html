@@ -336,21 +336,21 @@ if (!doNotTrack) {
 <p><img src="/img/post/windows-subsystem-for-linux/subsystem.png" alt="WSL on Windows store"></p>
 <p>先加入測試人員組建，確定把 Windows 10 升級到 16215.0 以上，而且要是 64 位元系統(現在大多數都是了)。</p>
 <p>直接到 Microsoft 市集搜尋 linux 找到自己喜歡的發行版並安裝它，我以 Ubuntu 為例。<a href="https://www.microsoft.com/store/productId/9NBLGGH4MSV6">Microsoft Store 連結</a></p>
-<!-- raw HTML omitted -->
+<br/>
 <p>安裝完成後啟動，應該會看到這個錯誤，這是因為系統還沒有啟動 WSL 的功能。</p>
 <p>Installation Failed!
 Error: 0x8007887e</p>
-<!-- raw HTML omitted -->
-<p>以<!-- raw HTML omitted -->系統管理員身分<!-- raw HTML omitted -->執行 PowerShell，輸入以下指令來啟動 WSL</p>
+<br/>
+<p>以<span style="color: #ff0000;">系統管理員身分</span>執行 PowerShell，輸入以下指令來啟動 WSL</p>
 <p><code>Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux</code></p>
-<!-- raw HTML omitted -->
+<br/>
 <p>完成後 PowerShell 會叫你重新啟動電腦以完成設定，就重新啟動吧~</p>
 <p>重新啟動後再開啟 Ubuntu 這個「應用程式」，它會自動開始安裝。</p>
 <p><img src="/img/post/windows-subsystem-for-linux/2017-10-21-1.png" alt="Start WSL"></p>
 <p>等它個幾分鐘，完成後會叫你設定帳號和密碼，設定完就可以使用 Ubuntu 了！</p>
-<!-- raw HTML omitted -->
+<br/>
 <p><img src="/img/post/windows-subsystem-for-linux/2017-10-21-2.png" alt="Set sser"></p>
-<!-- raw HTML omitted -->
+<br/>
 <p>接下來的用法就和正常的 Linux 一樣，既然一樣，你可能會想說裝個 GUI 來用，嗯&hellip;&hellip;建議不要，我試過安裝 KDE-Desktop 和 Xfce4，KDE 會有程式崩潰的問題，Xfce 雖然不會，但仍然很不穩定，動不動就會 X server 無法啟動或是 GUI 崩潰，所以建議目前先不要安裝 GUI，就當作是 SSH 遠端來使用吧！等到更新幾次之後再試看看。</p>
 <p>有了這個後寫程式真的變得異常方便啊！不需要開一整個虛擬機就有 Linux 可以用，有 make 是多麼美好的一件事~ 順帶一提，Windows 原本的 C槽路徑會是 /mnt/c，而D槽是 /mnt/d 以此類推。</p>
 

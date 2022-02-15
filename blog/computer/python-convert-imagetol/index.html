@@ -347,7 +347,7 @@ if (!doNotTrack) {
 </div>
 <p>首先先來圖片處理轉灰階的核心部分，呼叫 PIL 函式即可很輕易達成目標 <br>
 先 import PIL 第三方函式庫，把開啟的圖片檔分割成路徑與檔名，以便後面存檔，用 <code>PIL.Image.open</code> 載入圖片 <br>
-<!-- raw HTML omitted -->
+<br/>
 把輸出檔名前面冠上一個 &ldquo;L_&rdquo; 做為區別，呼叫 <code>im.convert('L')</code> 轉成灰階，若要二元化則是 <code>im.convert('1')</code> <br>
 再來就存檔 <code>L.save(SaveImagePath)</code>，核心這樣就完成了，很簡單。</p>
 <div class="highlight"><div class="chroma">
@@ -392,7 +392,7 @@ if (!doNotTrack) {
 <span class="n">exit</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span></code></pre></td></tr></table>
 </div>
 </div>
-<!-- raw HTML omitted -->
+<br/>
 <p>接下來我把要轉換的圖片放在命令列參數，加上一些檢查機制，並且在轉換圖片的部分加上 try 敘述，捕捉例外，以免找不到檔案或是其他轉換失敗導致程式崩潰  <br>
 到這一步已經完成命令列版的轉換小工具了。</p>
 <div class="highlight"><div class="chroma">
@@ -487,7 +487,7 @@ if (!doNotTrack) {
 <span class="n">exit</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span></code></pre></td></tr></table>
 </div>
 </div>
-<!-- raw HTML omitted -->
+<br/>
 <p>本來只打算做到命令列，結果等 PCR 反應太無聊，就把他加上 tk 的檔案開啟對話窗，這樣就可以用 GUI 選擇圖片檔案 <br>
 我依然保留他 CLI 的功能，畢竟 CLI 有時還是比較好用，只是變成如果路徑參數輸入 &ldquo;gui&rdquo; 則會開啟檔案視窗。</p>
 <p>完整程式碼：
@@ -601,11 +601,25 @@ if (!doNotTrack) {
 <span class="n">exit</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span></code></pre></td></tr></table>
 </div>
 </div></p>
-<!-- raw HTML omitted -->
+<br/>
 <h3 id="執行畫面">執行畫面</h3>
 <p><img src="/img/post/python-convert-imagetoL/GelImageConvert_c.jpg" alt="GelImageConvert" title="GelImageConvert">
-<!-- raw HTML omitted --></p>
-<!-- raw HTML omitted -->
+<br/></p>
+<br/>
+
+<link rel="stylesheet" href="/css/hugo-easy-gallery.css" />
+<div class="box">
+<figure  itemprop="associatedMedia"
+  itemscope itemtype="http://schema.org/ImageObject" 
+  style="max-width:800px" >
+    <div class="img">
+      <img itemprop="thumbnail" src="/img/post/python-convert-imagetoL/gel_c.jpg" />
+    </div>
+    <a href="/img/post/python-convert-imagetoL/gel_c.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
+<br/>
 <h2 id="參考資料">參考資料</h2>
 <p><a href="http://www.tastones.com/zh-tw/tutorial/tkinter/tk-file-dialogs/">http://www.tastones.com/zh-tw/tutorial/tkinter/tk-file-dialogs/</a></p>
 

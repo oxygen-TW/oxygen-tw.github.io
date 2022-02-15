@@ -332,7 +332,7 @@ if (!doNotTrack) {
     
     <div class="post-content">
       <p>來試試 VoIP Server，以前都沒想過可以自己架，最近心血來潮找了找，找到 umurmur 這套軟體，他是用C語言寫成的輕量級伺服器軟體，還可以安裝在 openWRT 路由器之類的設備上喔！</p>
-<!-- raw HTML omitted -->
+<br/>
 <p>環境: Ubuntu Server 16.04</p>
 <p>軟體: [umurmur](<a href="https://github.com/umurmur/umurmur">https://github.com/umurmur/umurmur</a> &ldquo;umurmur)</p>
 <hr>
@@ -349,7 +349,7 @@ sudo unzip 0.2.17.zip -d /opt
 <span class="nb">cd</span> /opt/umurmur-0.2.17</code></pre></td></tr></table>
 </div>
 </div>
-<!-- raw HTML omitted -->
+<br/>
 <h2 id="安裝必要套件">安裝必要套件</h2>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -361,7 +361,7 @@ sudo unzip 0.2.17.zip -d /opt
 sudo apt-get install libconfig-dev libprotobuf-c-dev libssl-dev cmake build-essential</code></pre></td></tr></table>
 </div>
 </div>
-<!-- raw HTML omitted -->
+<br/>
 <h2 id="編譯程式並安裝">編譯程式並安裝</h2>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -381,7 +381,7 @@ sudo make
 sudo make install</code></pre></td></tr></table>
 </div>
 </div>
-<!-- raw HTML omitted -->
+<br/>
 <h2 id="修改組態">修改組態</h2>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -396,7 +396,7 @@ password = &ldquo;VoIP Password&rdquo;;<br>
 max_users = 最大連線數;<br>
 bindport = VoIP 服務 Port;
 bindaddr = &ldquo;VoIP 服務 Address&rdquo;;</p>
-<!-- raw HTML omitted -->
+<br/>
 <h2 id="設定頻道資訊">設定頻道資訊</h2>
 <p>name = &ldquo;頻道名稱&rdquo;; <br>
 parent = &ldquo;上層頻道名稱&rdquo;; <br>
@@ -478,7 +478,7 @@ password = &ldquo;頻道密碼&rdquo;;</p>
 <span class="o">)</span><span class="p">;</span></code></pre></td></tr></table>
 </div>
 </div>
-<!-- raw HTML omitted -->
+<br/>
 <h2 id="設定頻道連結">設定頻道連結</h2>
 <p>上面修改後下面也要改，否則會錯誤。</p>
 <p>source -&gt; 上層頻道 destination -&gt; 下層頻道，以此類推。</p>
@@ -511,11 +511,11 @@ password = &ldquo;頻道密碼&rdquo;;</p>
 </div>
 <h3 id="設定預設頻道">設定預設頻道</h3>
 <p>default_channel = &ldquo;預設頻道名稱&rdquo;;</p>
-<!-- raw HTML omitted -->
+<br/>
 <h2 id="啟動程式">啟動程式</h2>
 <p>若上述組態有設定好，直接執行 umurmurd 即可啟動，若要其他設定依照下方說明設定參數。</p>
 <p>uMurmur version 0.2.17 (&lsquo;Colin&rsquo;). Mumble protocol 1.2.4 <br>
-Usage: umurmurd [-d] [-r] [-h] [-p <!-- raw HTML omitted -->] [-t] [-c <!-- raw HTML omitted -->] [-a <!-- raw HTML omitted -->] [-b <!-- raw HTML omitted -->]</p>
+Usage: umurmurd [-d] [-r] [-h] [-p <pidfile>] [-t] [-c <conf file>] [-a <addr>] [-b <port>]</p>
 <p>-d - Do not daemonize - run in foreground. <br>
 -r - Run with realtime priority     <br>
 -p &lt;pidfile&gt; - Write PID to this file    <br>
@@ -526,7 +526,7 @@ Usage: umurmurd [-d] [-r] [-h] [-p <!-- raw HTML omitted -->] [-t] [-c <!-- raw 
 -b &lt;port&gt; - Bind to port     <br>
 -B &lt;port&gt; - Bind to port (IPv6)
 -h - Print this help</p>
-<!-- raw HTML omitted -->
+<br/>
 <h2 id="連線客戶端">連線客戶端</h2>
 <p>Android: https://play.google.com/store/apps/details?id=com.morlunk.mumbleclient.free</p>
 <p>ios: https://itunes.apple.com/tw/app/mumble/id443472808?mt=8</p>

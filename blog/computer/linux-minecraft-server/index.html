@@ -336,7 +336,7 @@ if (!doNotTrack) {
 <hr>
 <p>Minecraft 是用 Java寫的，所以先檢查有沒有安裝 Java，如果沒有就去裝一下吧。</p>
 <p><code>java -version</code></p>
-<!-- raw HTML omitted -->
+<br/>
 <p>接著，我們新增一個 Minecraft Server 的資料夾</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -348,28 +348,28 @@ if (!doNotTrack) {
 <span class="nb">cd</span> minecraft_server
 </code></pre></td></tr></table>
 </div>
-</div><!-- raw HTML omitted -->
+</div><br/>
 <p>再來下載伺服器軟體，有官方載點和水桶載點等等，如果有架過就選自己喜歡的，沒有的話就用官方的就行了，沒有差很多。
 官方伺服器軟體:</p>
 <p><code>wget https://s3.amazonaws.com/Minecraft.Download/versions/1.12/minecraft_server.1.12.jar</code></p>
 <p>或是從 <a href="https://getbukkit.org/" title="Bukkit website">Bukkit</a> 網站 下載後放入伺服器</p>
 <p>![Download Server Software](/img/post/linux-minecraft-server/pic (1).png &ldquo;Download Server Software&rdquo;)</p>
-<!-- raw HTML omitted -->
+<br/>
 <p>新增一個文件 run.sh，這是用來開啟伺服器的bash，-Xms 後加上伺服器最小記憶體用量， -Xmx則是最大用量。</p>
 <p><code>nohup java -Xms256M -Xmx512M -jar minecraft_server.1.12.jar &amp;</code></p>
-<!-- raw HTML omitted -->
+<br/>
 <p>然後以 root 權限執行他，執行後不會成功啟動，但資料夾裡會多出一些檔案，我們等等要修改他。</p>
 <p><code> sh run.sh </code></p>
 <p>![First run server](/img/post/linux-minecraft-server/pic (2).png &ldquo;First run server&rdquo;)</p>
-<!-- raw HTML omitted -->
+<br/>
 <p>修改 elua.txt  elua=false 改成elua=true</p>
 <p>![Edit elua.txt](/img/post/linux-minecraft-server/pic (3).png &ldquo;Edit elua.txt&rdquo;)</p>
-<!-- raw HTML omitted -->
+<br/>
 <p>修改 server.properties 加入兩行字 <br>
 server-ip=你的IP位置 <br>
 online-mode=true/false #是否驗證正版，如果希望迷版也可以玩就設false，不希望反之。</p>
 <p>![Edit server.properties](/img/post/linux-minecraft-server/pic (4).png &ldquo;Edit server.properties&rdquo;)</p>
-<!-- raw HTML omitted -->
+<br/>
 <p>接著再用 root 執行一次</p>
 <p><code>sh run.sh</code>
 伺服器就會開啟，如要查看log檔可以去 nohup.out 或 log的資料夾裡看</p>

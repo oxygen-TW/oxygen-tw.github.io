@@ -71,7 +71,7 @@
 <meta itemprop="name" content="使用 gitea 自行架設 git 伺服器">
 <meta itemprop="description" content="雖然說有 github 的免費服務可以用，但有時候若程式碼不想公開又需要用到 git 版本管理就會有些不方便，既然現在有空伺服器，就幫學校架一個吧！也分享安裝過程"><meta itemprop="datePublished" content="2018-03-18T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2018-03-18T00:00:00+00:00" />
-<meta itemprop="wordCount" content="613">
+<meta itemprop="wordCount" content="622">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="使用 gitea 自行架設 git 伺服器"/>
 <meta name="twitter:description" content="雖然說有 github 的免費服務可以用，但有時候若程式碼不想公開又需要用到 git 版本管理就會有些不方便，既然現在有空伺服器，就幫學校架一個吧！也分享安裝過程"/>
@@ -315,7 +315,7 @@ if (!doNotTrack) {
             <a href="https://oxygentw.net/categories/computer/"> computer </a>
             
           </div>
-        <span class="more-meta"> 約 613 字 </span>
+        <span class="more-meta"> 約 622 字 </span>
           <span class="more-meta"> 預計閱讀 2 分鐘 </span>
 
         
@@ -347,7 +347,7 @@ if (!doNotTrack) {
   </figure>
 </div>
 
-<!-- raw HTML omitted --></p>
+<br/></p>
 <p>如果不知道自己電腦是什麼架構可以用arch指令查詢</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -357,7 +357,7 @@ if (!doNotTrack) {
 <pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">arch</code></pre></td></tr></table>
 </div>
 </div>
-<!-- raw HTML omitted -->
+<br/>
 <p>下載完成後，因為主程式會自動生成一些檔案，先把它移到安裝目錄下並把程式名稱改短一點</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -373,7 +373,7 @@ sudo mv gitea-1.4.0-rc3-linux-amd64 /opt/gitea/gitea
 sudo chmod +x gitea</code></pre></td></tr></table>
 </div>
 </div>
-<!-- raw HTML omitted -->
+<br/>
 <p>安裝前我們還需要 Mysql 資料庫，若已安裝可略過這步。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -393,9 +393,9 @@ sudo apt-get install mysql-server
 mysql_secure_installation</code></pre></td></tr></table>
 </div>
 </div>
-<!-- raw HTML omitted -->
+<br/>
 <p>接著在 Mysql 中創建一個給 gitea 使用的資料庫，這邊我就不贅述了，不會操作的話可以參考網路上的<a href="https://github.com/go-gitea/gitea/releases" title="這篇文章">這篇文章</a>。</p>
-<p>啟動主程式，<!-- raw HTML omitted -->gitea預設會使用 port 3000，防火牆記得允許！<!-- raw HTML omitted --></p>
+<p>啟動主程式，<font color=red>gitea預設會使用 port 3000，防火牆記得允許！</font></p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -404,7 +404,7 @@ mysql_secure_installation</code></pre></td></tr></table>
 <pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">sudo ./gitea</code></pre></td></tr></table>
 </div>
 </div>
-<!-- raw HTML omitted -->
+<br/>
 <p>用瀏覽器訪問你伺服器的 port 3000，依照安裝頁面設定。
 設定完後按立即安裝，等他一會兒就自動安裝好了！</p>
 
@@ -431,7 +431,7 @@ mysql_secure_installation</code></pre></td></tr></table>
   </figure>
 </div>
 
-<!-- raw HTML omitted -->
+<br/>
 <p>再次訪問 gitea 看到這畫面安裝就完成啦！不過還差一步，把 gitea 設成系統服務。</p>
 
 
@@ -456,7 +456,7 @@ mysql_secure_installation</code></pre></td></tr></table>
 sudo chmod +x /etc/init.d/gitea</code></pre></td></tr></table>
 </div>
 </div>
-<!-- raw HTML omitted -->
+<br/>
 <p>複製<a href="https://github.com/go-gitea/gitea/blob/master/contrib/init/debian/gitea">這個網頁</a>裡的文字到剛剛新建的檔案，找到以下內容並修改。</p>
 <p>(這檔案適用 ubuntu/debian，其他作業系統可以到<a href="https://github.com/go-gitea/gitea/tree/master/contrib/init">這頁面</a>找找)</p>
 <div class="highlight"><div class="chroma">
@@ -483,7 +483,7 @@ sudo chmod +x /etc/init.d/gitea</code></pre></td></tr></table>
 <span class="nv">USER</span><span class="o">=</span>用來啟動 gitea 的使用者</code></pre></td></tr></table>
 </div>
 </div>
-<!-- raw HTML omitted -->
+<br/>
 <p>啟動服務</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -493,9 +493,10 @@ sudo chmod +x /etc/init.d/gitea</code></pre></td></tr></table>
 <pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">sudo /etc/init.d/gitea start</code></pre></td></tr></table>
 </div>
 </div>
-<!-- raw HTML omitted -->
-<p>sudo lsof -i :<!-- raw HTML omitted -->gitea 的監聽 port<!-- raw HTML omitted --> | grep LISTEN</p>
-<!-- raw HTML omitted -->
+<br/>
+檢查是否成功啟動
+<p>sudo lsof -i :<font color=orange>gitea 的監聽 port</font> | grep LISTEN</p>
+<br/>
 <p>出現這樣就是成功</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">

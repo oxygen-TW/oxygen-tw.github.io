@@ -71,7 +71,7 @@
 <meta itemprop="name" content="Linux 使用終端機製作開機碟">
 <meta itemprop="description" content="之前需要在 linux 的環境下製作 server 的開機碟，但我不會用給 linux 的燒錄工具（有內建工具，只是我懶所以就直接用終端機處理XD）於是就來分享一下做法~ 我使用的"><meta itemprop="datePublished" content="2017-07-15T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2017-07-15T00:00:00+00:00" />
-<meta itemprop="wordCount" content="292">
+<meta itemprop="wordCount" content="289">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Linux 使用終端機製作開機碟"/>
 <meta name="twitter:description" content="之前需要在 linux 的環境下製作 server 的開機碟，但我不會用給 linux 的燒錄工具（有內建工具，只是我懶所以就直接用終端機處理XD）於是就來分享一下做法~ 我使用的"/>
@@ -315,7 +315,7 @@ if (!doNotTrack) {
             <a href="https://oxygentw.net/categories/computer/"> computer </a>
             
           </div>
-        <span class="more-meta"> 約 292 字 </span>
+        <span class="more-meta"> 約 289 字 </span>
           <span class="more-meta"> 預計閱讀 1 分鐘 </span>
 
         
@@ -334,23 +334,23 @@ if (!doNotTrack) {
       <p>之前需要在 linux 的環境下製作 server 的開機碟，但我不會用給 linux 的燒錄工具（有內建工具，只是我懶所以就直接用終端機處理XD）於是就來分享一下做法~</p>
 <p>我使用的作業系統是 linux lite(Ubuntu)</p>
 <hr>
-<p>先查看 USB 在哪個位置（<!-- raw HTML omitted -->不能看錯噢！等等映像燒錯磁碟會非常可怕&hellip;<!-- raw HTML omitted -->)</p>
+<p>先查看 USB 在哪個位置（<font color=red>不能看錯噢！等等映像燒錯磁碟會非常可怕&hellip;</font>)</p>
 <p><code>lsblk</code></p>
-<!-- raw HTML omitted -->
+<br/>
 <p>卸載磁碟來進行後續步驟，USB 位置填剛剛 lsblk 查到的位置。</p>
 <p><code>umount /media/user/149C-FF09</code></p>
-<!-- raw HTML omitted -->
+<br/>
 <p>再來要格式化磁碟，記得先備份 USB 裡的東西。
-以我的電腦而言是 /dev/sdb <!-- raw HTML omitted -->你的或許不同，千萬不要照抄<!-- raw HTML omitted --></p>
+以我的電腦而言是 /dev/sdb <font color=red>你的或許不同，千萬不要照抄</font></p>
 <p><code>sudo mkfs.vfat /dev/sdb</code></p>
-<!-- raw HTML omitted -->
+<br/>
 <p>如果遇到這個錯誤就加個 -I 參數:
 mkfs.vfat: Device partition expected, not making filesystem on entire device &lsquo;/dev/sdb&rsquo; (use -I to override)</p>
 <p><code>sudo mkfs.vfat -I /dev/sdb</code></p>
-<!-- raw HTML omitted -->
+<br/>
 <p>接者寫入映像檔，if(input file) 填入映像檔路徑，of(output file) 填入要寫入的路徑</p>
 <p><code>sudo dd if=/home/user/download/ubuntu-16.04.2-server-amd64.iso of=/dev/sdb</code></p>
-<!-- raw HTML omitted -->
+<br/>
 <p>燒錄需要一點時間，等他跑完就完成了！</p>
 
     </div>

@@ -480,7 +480,7 @@ if (!doNotTrack) {
 <p>Random() 是最主要的部份，會隨機取出1~10的數字，如果是偶數則當作成功，回傳 true ，若是奇數則做為失敗，回傳 false。</p>
 <p><code>write_file()</code> 很簡單，把每一筆計算過的結果寫入檔案，參數需傳入[樣本編號][成功次數][失敗次數]，他便會算出比率並寫入檔案。</p>
 <p><code>main()</code> 會先詢問使用者要執行幾回，每回有幾次試驗，輸入完後就會執行 <code>init()</code> 做初始化，隨後開始自動計數，每當 <code>Random()</code> 回傳 true 成功加一，回傳 false 失敗加一，直到達到使用者設定的次數，變數因為希望可以儲存很大的數字，所以我宣告 unsigned long long，理論上可以儲存到 18446744073709551615 這麼大的數字，但我實際測試到十四億就不行了，還在找原因中&hellip;&hellip;</p>
-<!-- raw HTML omitted -->
+<br/>
 <p>我把程式寫完後就遠端送到 Linux 去處理，性能比較好些，於是我也寫了 Makefile。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">

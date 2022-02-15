@@ -26,7 +26,7 @@
 <meta name="mobile-web-app-capable" content="yes">
 
 <meta name="author" content="oxygen" />
-  <meta name="description" content="有了所有需要的硬體材料後，就像組電腦一樣，第一步要進行的就是安裝作業系統，沒有系統就不能開機了啊！ 我們開始吧！ STEP 1 : 下載必要軟體 SD Card form" />
+  <meta name="description" content="有了所有需要的硬體材料後，就像組電腦一樣，第一步要進行的就是安裝作業系統，沒有系統就不能開機了啊！ 我們開始吧！ STEP 1 : 下載必要軟體 SD Card formatter 用來格" />
 <meta name="keywords" content="家用伺服器, 家用伺服器架設, Home server, 樹莓派, 伺服器, DietPi, Raspbian, 樹莓派安裝系統, 樹莓派, 系統安裝教學, 樹莓派教學, 如何安裝樹莓派系統, 樹莓派怎麼用, 樹莓派沒畫面, 樹莓派 HDMI,Raspberry Pi, Raspberry Pi OS, Dietpi 教學" />
 
 
@@ -63,19 +63,19 @@
 
 
 <meta property="og:title" content="架設家用伺服器 Part 1 — 安裝系統" />
-<meta property="og:description" content="有了所有需要的硬體材料後，就像組電腦一樣，第一步要進行的就是安裝作業系統，沒有系統就不能開機了啊！ 我們開始吧！ STEP 1 : 下載必要軟體 SD Card form" />
+<meta property="og:description" content="有了所有需要的硬體材料後，就像組電腦一樣，第一步要進行的就是安裝作業系統，沒有系統就不能開機了啊！ 我們開始吧！ STEP 1 : 下載必要軟體 SD Card formatter 用來格" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://oxygentw.net/blog/computer/homeserver/1-home-server-install-os/" /><meta property="article:section" content="blog" />
 <meta property="article:published_time" content="2019-02-01T00:00:00+00:00" />
 <meta property="article:modified_time" content="2019-02-01T00:00:00+00:00" />
 
 <meta itemprop="name" content="架設家用伺服器 Part 1 — 安裝系統">
-<meta itemprop="description" content="有了所有需要的硬體材料後，就像組電腦一樣，第一步要進行的就是安裝作業系統，沒有系統就不能開機了啊！ 我們開始吧！ STEP 1 : 下載必要軟體 SD Card form"><meta itemprop="datePublished" content="2019-02-01T00:00:00+00:00" />
+<meta itemprop="description" content="有了所有需要的硬體材料後，就像組電腦一樣，第一步要進行的就是安裝作業系統，沒有系統就不能開機了啊！ 我們開始吧！ STEP 1 : 下載必要軟體 SD Card formatter 用來格"><meta itemprop="datePublished" content="2019-02-01T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2019-02-01T00:00:00+00:00" />
-<meta itemprop="wordCount" content="610">
+<meta itemprop="wordCount" content="592">
 <meta itemprop="keywords" content="Home server series," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="架設家用伺服器 Part 1 — 安裝系統"/>
-<meta name="twitter:description" content="有了所有需要的硬體材料後，就像組電腦一樣，第一步要進行的就是安裝作業系統，沒有系統就不能開機了啊！ 我們開始吧！ STEP 1 : 下載必要軟體 SD Card form"/>
+<meta name="twitter:description" content="有了所有需要的硬體材料後，就像組電腦一樣，第一步要進行的就是安裝作業系統，沒有系統就不能開機了啊！ 我們開始吧！ STEP 1 : 下載必要軟體 SD Card formatter 用來格"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -316,7 +316,7 @@ if (!doNotTrack) {
             <a href="https://oxygentw.net/categories/computer/"> computer </a>
             
           </div>
-        <span class="more-meta"> 約 610 字 </span>
+        <span class="more-meta"> 約 592 字 </span>
           <span class="more-meta"> 預計閱讀 2 分鐘 </span>
 
         
@@ -337,21 +337,21 @@ if (!doNotTrack) {
 <hr>
 <h2 id="step-1--下載必要軟體">STEP 1 : 下載必要軟體</h2>
 <ol>
-<li><!-- raw HTML omitted -->SD Card formatter<!-- raw HTML omitted --> 用來格式化記憶卡的工具</li>
-<li><!-- raw HTML omitted -->USB Image Tool <!-- raw HTML omitted --> 燒錄映像檔到記憶卡的工具</li>
+<li><a href="https://www.sdcard.org/cht/downloads/formatter_4/" target="_blank">SD Card formatter</a> 用來格式化記憶卡的工具</li>
+<li><a title="Download USB Image Tool" href="http://www.alexpage.de/usb-image-tool/download/" target="_blank">USB Image Tool </a> 燒錄映像檔到記憶卡的工具</li>
 </ol>
-<!-- raw HTML omitted -->
+<br/>
 <h2 id="step-2--下載映像檔">STEP 2 : 下載映像檔</h2>
-<p>我採用 <!-- raw HTML omitted -->DietPi<!-- raw HTML omitted --> 輕量化系統，預設沒有 GUI ，它是基於 <!-- raw HTML omitted -->Raspbian<!-- raw HTML omitted --> 優化和輕量化，並加入許多好用工具程式的作業系統，如果不喜歡也可以換成自己想要的，可以參考這個網頁 <!-- raw HTML omitted -->Raspberry Pi 的基礎 - 40 套作業系統任你選<!-- raw HTML omitted --> 。</p>
-<!-- raw HTML omitted -->
+<p>我採用 <a href="https://dietpi.com/" target="_blank">DietPi</a> 輕量化系統，預設沒有 GUI ，它是基於 <a href="https://www.raspberrypi.org/downloads/" target="_blank">Raspbian</a> 優化和輕量化，並加入許多好用工具程式的作業系統，如果不喜歡也可以換成自己想要的，可以參考這個網頁 <a href="http://blog.itist.tw/2016/12/34-best-operating-systems-for-raspberry-pi.html" target="_blank">Raspberry Pi 的基礎 - 40 套作業系統任你選</a> 。</p>
+<br/>
 <h2 id="step-3--格式化記憶卡">STEP 3 : 格式化記憶卡</h2>
-<p>打開 SD Formatter ，並確定記憶卡的磁碟編號，<!-- raw HTML omitted -->萬萬要仔細確認 !!!!!! 如果不小心格式化到其他裝置資料會全部消失<!-- raw HTML omitted -->，選項設定最好是選擇<!-- raw HTML omitted -->覆寫格式化<!-- raw HTML omitted -->，那樣清的最乾淨，不過經過我多次測試<!-- raw HTML omitted -->快速格式化<!-- raw HTML omitted -->也沒問題，速度會快很多，<!-- raw HTML omitted -->邏輯大小調整<!-- raw HTML omitted -->選擇 (ON)</p>
+<p>打開 SD Formatter ，並確定記憶卡的磁碟編號，<span style="color: #ff0000;">萬萬要仔細確認 !!!!!! 如果不小心格式化到其他裝置資料會全部消失<span style="color: #000000;">，選項設定最好是選擇<span style="color: #808000;">覆寫格式化</span>，那樣清的最乾淨，不過經過我多次測試<span style="color: #808000;">快速格式化</span>也沒問題，速度會快很多，<span style="color: #808000;">邏輯大小調整</span>選擇 (ON)</p>
 <p><img src="/img/post/homeserver/1-home-server-install-os/2017-09-11-4.png" alt="格式化記憶卡"></p>
-<!-- raw HTML omitted -->
+<br/>
 <h2 id="step-4--燒錄映像檔">STEP 4 : 燒錄映像檔</h2>
-<p><!-- raw HTML omitted -->這也要仔細檢查磁區編號，燒錯地方也是檔案全部毀損&hellip;.<!-- raw HTML omitted --> 選擇要燒錄的記憶卡，按 restore 並選擇剛剛下載的映像檔，他就會自己開始把系統燒錄至記憶卡了。</p>
+<p><span style="color: #ff0000;">這也要仔細檢查磁區編號，燒錯地方也是檔案全部毀損&hellip;.<span style="color: #000000;"> 選擇要燒錄的記憶卡，按 restore 並選擇剛剛下載的映像檔，他就會自己開始把系統燒錄至記憶卡了。</p>
 <p><img src="/img/post/homeserver/1-home-server-install-os/2017-09-11-5.png" alt="燒錄映像檔"></p>
-<!-- raw HTML omitted -->
+<br/>
 <h2 id="step-5--設定-configtxt">STEP 5 : 設定 config.txt</h2>
 <p>其實燒錄完成後就可以啟動系統了，但如果你是用 HDMI 轉 VGA 的方式連接螢幕可能會有開機沒畫面的現象，解決方法很簡單，只需要把SD卡插進電腦，找到一個叫 config.txt 的檔案，用記事本打開後搜尋以下參數，並修改成下列的設定！</p>
 <p>hdmi_group=2 <br>
@@ -359,15 +359,15 @@ hdmi_mode=16 <br>
 hdmi_drive=2</p>
 <p>hdmi_force_hotplug=1 <br>
 config_hdmi_boost=4</p>
-<!-- raw HTML omitted -->
+<br/>
 <p>如果要設定連接 Wi-Fi，那再開啟 dietpi.txt，修改以下組態</p>
 <p>AUTO_SETUP_NET_WIFI_ENABLED=1</p>
-<p>AUTO_SETUP_NET_WIFI_SSID=<!-- raw HTML omitted -->YOUR_SSID<!-- raw HTML omitted -->  <br>
-AUTO_SETUP_NET_WIFI_KEY=<!-- raw HTML omitted -->YOUR_PASSWORD<!-- raw HTML omitted --></p>
-<!-- raw HTML omitted -->
+<p>AUTO_SETUP_NET_WIFI_SSID=<span style="color: #0000ff;">YOUR_SSID</span>  <br>
+AUTO_SETUP_NET_WIFI_KEY=<span style="color: #0000ff;">YOUR_PASSWORD</span></p>
+<br/>
 <h2 id="step-6--啟動系統">STEP 6 : 啟動系統</h2>
 <p>把記憶卡插進樹莓派的記憶卡插槽，接上螢幕、電源，就完成系統安裝囉！</p>
-<p>接著我們來進行系統設定 -&gt; <!-- raw HTML omitted -->初始設定<!-- raw HTML omitted --></p>
+<p>接著我們來進行系統設定 -&gt; <a href="https://oxygentw.net/blog/computer/homeserver/2-init-setting/">初始設定</a></p>
 <hr>
 <p>參考資料 : 
 <a href="http://www.arthurtoday.com/2014/05/raspberry-pi-hdmi-to-vga-how-to.html">http://www.arthurtoday.com/2014/05/raspberry-pi-hdmi-to-vga-how-to.html</a>

@@ -339,7 +339,7 @@ if (!doNotTrack) {
 <li>Author: Kenneth Reitz</li>
 <li>Requires: Python &gt;=2.6, !=3.0.<em>, !=3.1.</em>, !=3.2.<em>, !=3.3.</em></li>
 </ul>
-<!-- raw HTML omitted -->
+<br/>
 <h2 id="安裝套件">安裝套件</h2>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -349,7 +349,7 @@ if (!doNotTrack) {
 <pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"> <span class="n">pip</span> <span class="n">install</span> <span class="n">requests</span> </code></pre></td></tr></table>
 </div>
 </div>
-<!-- raw HTML omitted -->
+<br/>
 <h2 id="使用方法">使用方法</h2>
 <p>1.引入
 <div class="highlight"><div class="chroma">
@@ -360,7 +360,7 @@ if (!doNotTrack) {
 <pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">requests</span></code></pre></td></tr></table>
 </div>
 </div></p>
-<!-- raw HTML omitted -->
+<br/>
 <p>2.HTTP GET
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -370,7 +370,7 @@ if (!doNotTrack) {
 <pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="n">r</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;https://api.github.com/events&#39;</span><span class="p">)</span></code></pre></td></tr></table>
 </div>
 </div></p>
-<!-- raw HTML omitted -->
+<br/>
 <p>3.HTTP POST
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -380,7 +380,7 @@ if (!doNotTrack) {
 <pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="n">r</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">post</span><span class="p">(</span><span class="s1">&#39;http://httpbin.org/post&#39;</span><span class="p">,</span> <span class="n">data</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;key&#39;</span><span class="p">:</span><span class="s1">&#39;value&#39;</span><span class="p">})</span></code></pre></td></tr></table>
 </div>
 </div></p>
-<!-- raw HTML omitted -->
+<br/>
 <p>4.PUT, DELETE, HEAD, OPTIONS 請求
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -396,7 +396,7 @@ if (!doNotTrack) {
 <span class="n">r</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">options</span><span class="p">(</span><span class="s1">&#39;http://httpbin.org/get&#39;</span><span class="p">)</span></code></pre></td></tr></table>
 </div>
 </div></p>
-<!-- raw HTML omitted -->
+<br/>
 <p>5.傳遞 URLs 參數
 當 URLs 參數的 dictionary 裡可以把 list 當成一個項目，但不可以加入 None的項目。
 <div class="highlight"><div class="chroma">
@@ -413,7 +413,7 @@ if (!doNotTrack) {
 <span class="nb">print</span><span class="p">(</span><span class="n">r</span><span class="o">.</span><span class="n">url</span><span class="p">)</span> <span class="c1">#查看傳送的 URL</span></code></pre></td></tr></table>
 </div>
 </div></p>
-<!-- raw HTML omitted -->
+<br/>
 <p>6.回應資料分析
 從回應中取出各種我們需要的資料</p>
 <div class="highlight"><div class="chroma">
@@ -440,7 +440,7 @@ if (!doNotTrack) {
 <span class="nb">print</span><span class="p">(</span><span class="n">r</span><span class="o">.</span><span class="n">headers</span><span class="p">[</span><span class="s1">&#39;Content-Type&#39;</span><span class="p">])</span> <span class="c1">#印出 Header 中的 Content-Type</span></code></pre></td></tr></table>
 </div>
 </div>
-<!-- raw HTML omitted -->
+<br/>
 <p>7.解析 JSON 資料
 如果取得的是 json 格式資料，requests 有內建解析函式。</p>
 <div class="highlight"><div class="chroma">
@@ -453,7 +453,7 @@ if (!doNotTrack) {
 <span class="n">r</span><span class="o">.</span><span class="n">json</span><span class="p">()</span></code></pre></td></tr></table>
 </div>
 </div>
-<!-- raw HTML omitted -->
+<br/>
 <p>8.自訂 Header
 許多時候網站會擋掉 UA 是 python-request 的請求，因此我們很常需要自訂 Header</p>
 <div class="highlight"><div class="chroma">
@@ -470,7 +470,7 @@ if (!doNotTrack) {
 <span class="n">r</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">headers</span><span class="o">=</span><span class="n">headers</span><span class="p">)</span></code></pre></td></tr></table>
 </div>
 </div>
-<!-- raw HTML omitted -->
+<br/>
 <p>9.設定 Timeout
 避免程式在維修中或故障的網站停留太久，或是用來檢查是否可存取時很方便。</p>
 <div class="highlight"><div class="chroma">
@@ -481,7 +481,7 @@ if (!doNotTrack) {
 <pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;http://github.com&#39;</span><span class="p">,</span> <span class="n">timeout</span><span class="o">=</span><span class="p">[</span><span class="n">SECOND</span><span class="p">])</span></code></pre></td></tr></table>
 </div>
 </div>
-<!-- raw HTML omitted -->
+<br/>
 <p>10.指定編碼
 通常網站會使用 UTF-8 編碼，但若不是，可用這個方法修改讀取編碼。</p>
 <div class="highlight"><div class="chroma">
@@ -492,7 +492,7 @@ if (!doNotTrack) {
 <pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="n">r</span><span class="o">.</span><span class="n">encoding</span> <span class="o">=</span> <span class="s1">&#39;ISO-8859-1&#39;</span></code></pre></td></tr></table>
 </div>
 </div>
-<!-- raw HTML omitted -->
+<br/>
 <p>11.取得 Cookie
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -508,7 +508,7 @@ if (!doNotTrack) {
 <span class="n">r</span><span class="o">.</span><span class="n">cookies</span><span class="p">[</span><span class="s1">&#39;example_cookie_name&#39;</span><span class="p">]</span></code></pre></td></tr></table>
 </div>
 </div></p>
-<!-- raw HTML omitted -->
+<br/>
 <p>12 .修改 Cookie
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -526,7 +526,7 @@ if (!doNotTrack) {
 <span class="n">r</span><span class="o">.</span><span class="n">text</span></code></pre></td></tr></table>
 </div>
 </div></p>
-<!-- raw HTML omitted -->
+<br/>
 <h5 id="參考資料">參考資料</h5>
 <p><a href="https://pypi.org/project/requests/">https://pypi.org/project/requests/</a></p>
 <p><a href="https://github.com/requests/requests">https://github.com/requests/requests</a></p>

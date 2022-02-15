@@ -335,7 +335,7 @@ if (!doNotTrack) {
 <hr>
 <p>首先，找到一個 Linux的開機 USB或 Live CD，用他開機，進入 Linux系統，開啟終端機。 <br>
 輸入 <code>fdisk -l</code></p>
-<!-- raw HTML omitted -->
+<br/>
 <p>找到 Linux的開機磁區，通常是 /boot 或 / ，我的是 sdb5 /boot。 <br>
 接著輸入(如果 bootloader在/ 就把 boot改成 root，磁碟編號自行修改)</p>
 <div class="highlight"><div class="chroma">
@@ -348,13 +348,13 @@ if (!doNotTrack) {
 sudo grub-install --boot-directory=/mnt/ /dev/sdb5
 </code></pre></td></tr></table>
 </div>
-</div><!-- raw HTML omitted -->
+</div><br/>
 <p>這樣就能從 grub進入到原本的 Linux系統了。 <br>
 <code>reboot</code></p>
-<!-- raw HTML omitted -->
+<br/>
 <p>把 USB移除，回到原本的 Linux開終端機輸入 <br>
 <code>sudo update-grub</code></p>
-<!-- raw HTML omitted -->
+<br/>
 <p>這時 grub就會去找硬碟上的作業系統，下次就可以正常用 grub選單選擇系統了!</p>
 
     </div>
