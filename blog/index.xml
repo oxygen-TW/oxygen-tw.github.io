@@ -26,15 +26,6 @@
     </item>
     
     <item>
-      <title>NAS 儲存空間如何設定?</title>
-      <link>https://oxygentw.net/blog/computer/nas-storage-strategy_orange-laptop_%E4%BA%8C%E6%9C%88-16-204524-2022_conflict/</link>
-      <pubDate>Sun, 13 Feb 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://oxygentw.net/blog/computer/nas-storage-strategy_orange-laptop_%E4%BA%8C%E6%9C%88-16-204524-2022_conflict/</guid>
-      <description>半個月前，筆電硬碟發生壞軌，損壞狀態不像是我自己能修好的程度，掙扎了很久還是送去資料救援，這個意外的開銷讓我痛定思痛，必須要找出一個保護資料</description>
-    </item>
-    
-    <item>
       <title>MySQL 新增使用者與資料庫指令</title>
       <link>https://oxygentw.net/blog/computer/new-mysql-user/</link>
       <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
@@ -185,6 +176,15 @@
       
       <guid>https://oxygentw.net/blog/computer/turn-off-linux-server-moniter/</guid>
       <description>Raspberry Pi 的運行溫度越來越高不太穩定，所以最近把一台舊筆電改造成伺服器，裝好系統後發現我不需要用螢幕啊啊啊啊，我用 SSH 就好不要開著螢幕耗電，於是上網</description>
+    </item>
+    
+    <item>
+      <title>Python BMI 計算程式</title>
+      <link>https://oxygentw.net/blog/computer/python-bmi/</link>
+      <pubDate>Thu, 23 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/python-bmi/</guid>
+      <description>BMI 很重要吧！衡量體重的一個重要指標，然而有時要計算一堆個案需要達到多少體重才符合標準也挺麻煩的，所以用 Python 寫一個小程式，可以計算BMI並分類，</description>
     </item>
     
   </channel>

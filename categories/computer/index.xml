@@ -26,15 +26,6 @@
     </item>
     
     <item>
-      <title>NAS 儲存空間如何設定?</title>
-      <link>https://oxygentw.net/blog/computer/nas-storage-strategy_orange-laptop_%E4%BA%8C%E6%9C%88-16-204524-2022_conflict/</link>
-      <pubDate>Sun, 13 Feb 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://oxygentw.net/blog/computer/nas-storage-strategy_orange-laptop_%E4%BA%8C%E6%9C%88-16-204524-2022_conflict/</guid>
-      <description>半個月前，筆電硬碟發生壞軌，損壞狀態不像是我自己能修好的程度，掙扎了很久還是送去資料救援，這個意外的開銷讓我痛定思痛，必須要找出一個保護資料</description>
-    </item>
-    
-    <item>
       <title>MySQL 新增使用者與資料庫指令</title>
       <link>https://oxygentw.net/blog/computer/new-mysql-user/</link>
       <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
@@ -185,6 +176,15 @@
       
       <guid>https://oxygentw.net/blog/notes/excel-linear-regression/</guid>
       <description>線性回歸是很多定量實驗必須做的前置步驟，要先將標準品測得的實驗數據透過線性回歸的方式繪製出標準曲線，再將未知待測物以內插的方式帶入求值才是一</description>
+    </item>
+    
+    <item>
+      <title>PyMOL 蛋白質3D結構軟體安裝</title>
+      <link>https://oxygentw.net/blog/computer/pymol-install/</link>
+      <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/pymol-install/</guid>
+      <description>讀生物化學查資料時發現了這個軟體，由 Python 和 C/C++ 開發而成，可以用來繪製蛋白質與氨基酸等生物體內大分子的立體結構，雖然我現在還用不到這個，但爲了以後</description>
     </item>
     
   </channel>
