@@ -6,7 +6,16 @@
     <description>Recent content in computer on 氧氣橘子</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Tue, 15 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://oxygentw.net/categories/computer/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 16 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://oxygentw.net/categories/computer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>中山醫授權軟體認證程式</title>
+      <link>https://oxygentw.net/blog/computer/csmu-kms-gui/</link>
+      <pubDate>Wed, 16 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/csmu-kms-gui/</guid>
+      <description>希望讓大家在認證 Windows 和 Office 上可以少受點苦的小程式。 1. 下載 CSMU-KMS 軟體 載點1：GitHub 載點2：oxygentw.net 2. 解壓縮後執行 CSMU-KMS.exe 3. 選擇你要認證</description>
+    </item>
+    
     <item>
       <title>Home Assistant 連接 Synology UPS Server</title>
       <link>https://oxygentw.net/blog/computer/ha-connect-upsbynas/</link>
@@ -14,6 +23,15 @@
       
       <guid>https://oxygentw.net/blog/computer/ha-connect-upsbynas/</guid>
       <description>便宜的家用 UPS 很多時候都只有一個 USB 通訊埠，我理所當然地把它拿去給最重要的 NAS 連接，但我還有一台運行 Home Assistant 的伺服器怎麼辦? 雖然我的經驗告訴我小樹莓派</description>
+    </item>
+    
+    <item>
+      <title>NAS 儲存空間如何設定?</title>
+      <link>https://oxygentw.net/blog/computer/nas-storage-strategy_orange-laptop_%E4%BA%8C%E6%9C%88-16-204524-2022_conflict/</link>
+      <pubDate>Sun, 13 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/nas-storage-strategy_orange-laptop_%E4%BA%8C%E6%9C%88-16-204524-2022_conflict/</guid>
+      <description>半個月前，筆電硬碟發生壞軌，損壞狀態不像是我自己能修好的程度，掙扎了很久還是送去資料救援，這個意外的開銷讓我痛定思痛，必須要找出一個保護資料</description>
     </item>
     
     <item>
@@ -167,24 +185,6 @@
       
       <guid>https://oxygentw.net/blog/notes/excel-linear-regression/</guid>
       <description>線性回歸是很多定量實驗必須做的前置步驟，要先將標準品測得的實驗數據透過線性回歸的方式繪製出標準曲線，再將未知待測物以內插的方式帶入求值才是一</description>
-    </item>
-    
-    <item>
-      <title>PyMOL 蛋白質3D結構軟體安裝</title>
-      <link>https://oxygentw.net/blog/computer/pymol-install/</link>
-      <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://oxygentw.net/blog/computer/pymol-install/</guid>
-      <description>讀生物化學查資料時發現了這個軟體，由 Python 和 C/C++ 開發而成，可以用來繪製蛋白質與氨基酸等生物體內大分子的立體結構，雖然我現在還用不到這個，但爲了以後</description>
-    </item>
-    
-    <item>
-      <title>架設家用伺服器 PART 3 — 設定系統</title>
-      <link>https://oxygentw.net/blog/computer/homeserver/3-system-setting/</link>
-      <pubDate>Mon, 18 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://oxygentw.net/blog/computer/homeserver/3-system-setting/</guid>
-      <description>進行 dietpi-config 設定 成功進入系統只是第一步，經過上一部自動引導你進行 dietpi-update 作業系統的升級後我們確定伺服器系統都已經最新，但升級後我們仍要進行 dietpi-config 把系統設定成</description>
     </item>
     
   </channel>

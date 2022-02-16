@@ -6,7 +6,16 @@
     <description>Recent content in Blogs on 氧氣橘子</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Tue, 15 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://oxygentw.net/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 16 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://oxygentw.net/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>中山醫授權軟體認證程式</title>
+      <link>https://oxygentw.net/blog/computer/csmu-kms-gui/</link>
+      <pubDate>Wed, 16 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/csmu-kms-gui/</guid>
+      <description>希望讓大家在認證 Windows 和 Office 上可以少受點苦的小程式。 1. 下載 CSMU-KMS 軟體 載點1：GitHub 載點2：oxygentw.net 2. 解壓縮後執行 CSMU-KMS.exe 3. 選擇你要認證</description>
+    </item>
+    
     <item>
       <title>Home Assistant 連接 Synology UPS Server</title>
       <link>https://oxygentw.net/blog/computer/ha-connect-upsbynas/</link>
@@ -14,6 +23,15 @@
       
       <guid>https://oxygentw.net/blog/computer/ha-connect-upsbynas/</guid>
       <description>便宜的家用 UPS 很多時候都只有一個 USB 通訊埠，我理所當然地把它拿去給最重要的 NAS 連接，但我還有一台運行 Home Assistant 的伺服器怎麼辦? 雖然我的經驗告訴我小樹莓派</description>
+    </item>
+    
+    <item>
+      <title>NAS 儲存空間如何設定?</title>
+      <link>https://oxygentw.net/blog/computer/nas-storage-strategy_orange-laptop_%E4%BA%8C%E6%9C%88-16-204524-2022_conflict/</link>
+      <pubDate>Sun, 13 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/nas-storage-strategy_orange-laptop_%E4%BA%8C%E6%9C%88-16-204524-2022_conflict/</guid>
+      <description>半個月前，筆電硬碟發生壞軌，損壞狀態不像是我自己能修好的程度，掙扎了很久還是送去資料救援，這個意外的開銷讓我痛定思痛，必須要找出一個保護資料</description>
     </item>
     
     <item>
@@ -167,24 +185,6 @@
       
       <guid>https://oxygentw.net/blog/computer/turn-off-linux-server-moniter/</guid>
       <description>Raspberry Pi 的運行溫度越來越高不太穩定，所以最近把一台舊筆電改造成伺服器，裝好系統後發現我不需要用螢幕啊啊啊啊，我用 SSH 就好不要開著螢幕耗電，於是上網</description>
-    </item>
-    
-    <item>
-      <title>Python BMI 計算程式</title>
-      <link>https://oxygentw.net/blog/computer/python-bmi/</link>
-      <pubDate>Thu, 23 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://oxygentw.net/blog/computer/python-bmi/</guid>
-      <description>BMI 很重要吧！衡量體重的一個重要指標，然而有時要計算一堆個案需要達到多少體重才符合標準也挺麻煩的，所以用 Python 寫一個小程式，可以計算BMI並分類，</description>
-    </item>
-    
-    <item>
-      <title>心臟停止的急救技術</title>
-      <link>https://oxygentw.net/blog/notes/simple-cpr/</link>
-      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://oxygentw.net/blog/notes/simple-cpr/</guid>
-      <description>CPR 想必大家不陌生，很多連續劇裡也都會演(? 身為醫事人員我們必須學會基本的急救技術，所以在醫學院裡的學生都會學，但我覺得這項技能應該是全民都該</description>
     </item>
     
   </channel>

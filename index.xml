@@ -6,10 +6,111 @@
     <description>Recent content on 氧氣橘子</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Tue, 15 Feb 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 16 Feb 2022 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://oxygentw.net/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>中山醫授權軟體認證程式</title>
+      <link>https://oxygentw.net/blog/computer/csmu-kms-gui/</link>
+      <pubDate>Wed, 16 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/csmu-kms-gui/</guid>
+      
+        <description>&lt;p&gt;希望讓大家在認證 Windows 和 Office 上可以少受點苦的小程式。&lt;/p&gt;
+&lt;h2 id=&#34;1-下載-csmu-kms-軟體&#34;&gt;1. 下載 CSMU-KMS 軟體&lt;/h2&gt;
+&lt;p&gt;載點1：&lt;a href=&#34;https://github.com/oxygen-TW/CSMU-KMS/releases/download/v1.3/v1.3.zip&#34;&gt;GitHub&lt;/a&gt;
+載點2：&lt;a href=&#34;https://oxygentw.net/files/CSMU-KMS/v1.3.zip&#34;&gt;oxygentw.net&lt;/a&gt;
+&lt;br/&gt;&lt;/p&gt;
+&lt;h2 id=&#34;2-解壓縮後執行-csmu-kmsexe&#34;&gt;2. 解壓縮後執行 CSMU-KMS.exe&lt;/h2&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://oxygentw.net/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/csmu-kms-gui/1.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/csmu-kms-gui/1.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;3-選擇你要認證的項目&#34;&gt;3. 選擇你要認證的項目&lt;/h2&gt;
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/csmu-kms-gui/2.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/csmu-kms-gui/2.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;4-導向到學校kms驗證網頁輸入帳號密碼&#34;&gt;4. 導向到學校KMS驗證網頁，輸入帳號密碼&lt;/h2&gt;
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/csmu-kms-gui/3.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/csmu-kms-gui/3.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;5-看到驗證成功後點選左上角的繼續啟動程序&#34;&gt;5. 看到驗證成功後點選左上角的繼續啟動程序&lt;/h2&gt;
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/csmu-kms-gui/4.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/csmu-kms-gui/4.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;6-稍等程式執行完成後下面會顯示啟動狀態&#34;&gt;6. 稍等程式執行，完成後下面會顯示啟動狀態&lt;/h2&gt;
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/csmu-kms-gui/5.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/csmu-kms-gui/5.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&#34;常見問答&#34;&gt;常見問答&lt;/h1&gt;
+&lt;h3 id=&#34;防毒軟體說這個檔案有病毒會不會危險&#34;&gt;防毒軟體說這個檔案有病毒，會不會危險?&lt;/h3&gt;
+&lt;p&gt;因為我是執行學校給的cmd腳本，這種做法和病毒很像，只是病毒執行惡意腳本，我執行學校的驗證腳本，我可以告訴你我沒有放惡意程式碼，至於要不要信任我就看個人囉~&lt;/p&gt;
+&lt;p&gt;真的覺得我會搞事的話，這邊是程式原始碼可供檢查/自行編譯：&lt;a href=&#34;https://github.com/oxygen-TW/CSMU-KMS/tree/main/CSMU-KMS&#34;&gt;https://github.com/oxygen-TW/CSMU-KMS/tree/main/CSMU-KMS&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;我剛裝好office為啟動執行失敗&#34;&gt;我剛裝好Office，為啟動執行失敗?&lt;/h3&gt;
+&lt;p&gt;裝好 Office 後要隨便開啟一個Office的軟體(Word, Excel&amp;hellip;隨便)，然後關掉後再驗證，不然會找不到金鑰。&lt;/p&gt;
+&lt;h3 id=&#34;為何要求我要用系統管理員執行&#34;&gt;為何要求我要用系統管理員執行?&lt;/h3&gt;
+&lt;p&gt;Office 認證動作必須用提升的全縣進行，使用學校腳本亦同。
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/csmu-kms-gui/6.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/csmu-kms-gui/6.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+</description>
+      
+    </item>
     
     <item>
       <title>Home Assistant 連接 Synology UPS Server</title>
@@ -114,6 +215,52 @@
   &lt;/figure&gt;
 &lt;/div&gt;
 &lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>NAS 儲存空間如何設定?</title>
+      <link>https://oxygentw.net/blog/computer/nas-storage-strategy_orange-laptop_%E4%BA%8C%E6%9C%88-16-204524-2022_conflict/</link>
+      <pubDate>Sun, 13 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/nas-storage-strategy_orange-laptop_%E4%BA%8C%E6%9C%88-16-204524-2022_conflict/</guid>
+      
+        <description>&lt;p&gt;半個月前，筆電硬碟發生壞軌，損壞狀態不像是我自己能修好的程度，掙扎了很久還是送去資料救援，這個意外的開銷讓我痛定思痛，必須要找出一個保護資料的好方法，畢竟我以前對資料的態度是有想到就複製一份備份，沒想到就算了出事再說，結果真出事，只能荷包失血，不過至少這是錢能換回來的，如果嚴重到連資料救援都無法搞定，那樣更慘。&lt;/p&gt;
+&lt;p&gt;然而，NAS這種東西雖然廠商已經把系統做得很容易，卻仍然保留許多進階設定給較有經驗的人使用，也就是說你想要把NAS插上電就使用，沒問題，但如果你想要把NAS設定成更安全、更適合你的使用狀況，那就得花上一番心思了。&lt;/p&gt;
+&lt;p&gt;這幾天查了許多資料，試了很多方法，我決定把我找到的資料與最後決定的方法記錄下來，免得以後忘記又要再折騰一次，也把我的經驗放到網站上供NAS新手參考，也歡迎大家有不同看法留言或Email跟我討論、分享~&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;備份321&#34;&gt;備份321&lt;/h2&gt;
+&lt;p&gt;首先是在備份上的重要觀念 &amp;ndash; &lt;strong&gt;備份3-2-1&lt;/strong&gt;，這是備份的核心概念，各種工具設計出來都是為了實踐這樣的原則，這三個數字分別代表：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;同一份資料至少保存&lt;strong&gt;三份&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;資料至少使用&lt;strong&gt;兩種&lt;/strong&gt;不同媒介儲存&lt;/li&gt;
+&lt;li&gt;資料至少有&lt;strong&gt;一份&lt;/strong&gt;存在異地&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;在蒐集資料的過程中，我大量參考了群輝公司發佈的&lt;a href=&#34;https://download.synology.com/download/www-res/brochure/backup_solution_guide_en-global.pdf&#34;&gt;Introducing backup solutions in different user scenarios&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;備份種類&#34;&gt;備份種類&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;全備份(鏡像備份)&lt;/li&gt;
+&lt;li&gt;增量備份&lt;/li&gt;
+&lt;li&gt;差異備份&lt;/li&gt;
+&lt;li&gt;合成備份&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;同步與備份&#34;&gt;同步與備份&lt;/h2&gt;
+&lt;p&gt;裡面一開始就有提到同步與備份有何差異，以NAS與個人電腦的關係來說，同步是雙向的，你的電腦與 NAS 裡的檔案會是相同的；備份是單向的，永遠都是你的電腦將資料上傳到 NAS，NAS 不會將資料傳回你的電腦(除非要還原)&lt;/p&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://oxygentw.net/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/nas-storage-strategy/backup-sync-diff.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/nas-storage-strategy/backup-sync-diff.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;備份必要進行的作業，不應以同步取代備份，設想，若你的電腦中了勒索病毒，病毒把檔案都加密了，你的電腦又將被加密過的檔案&lt;strong&gt;同步&lt;/strong&gt;儲存到 NAS，那這下完蛋，兩邊都毀了。&lt;/p&gt;
+&lt;p&gt;同步有何優點呢? 當你需要在不同台設備上用相同檔案時同步便相當好用，例如在在辦公室電腦編輯檔案，你想要回家用家裡電腦能繼續編輯，那就適合使用同步。&lt;/p&gt;
 </description>
       
     </item>
@@ -2207,109 +2354,6 @@ Out[25]: &amp;#39;DEBUG&amp;#39;
 &lt;/div&gt;
 
 &lt;br/&gt;
-</description>
-      
-    </item>
-    
-    <item>
-      <title>入住中山醫宿舍感想...真心不建議</title>
-      <link>https://oxygentw.net/blog/life-story/about-csmu-dorm/</link>
-      <pubDate>Sun, 22 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://oxygentw.net/blog/life-story/about-csmu-dorm/</guid>
-      
-        <description>&lt;p&gt;又到了很多高中生選學校的時候，或許有人會來中山醫，所以我介紹一下中山醫的宿舍，給各位當參考&amp;hellip;或是說勸世(?  &lt;br&gt;
-關於中山醫的宿舍呢&amp;hellip;我們學校因為超小，所以宿舍被分散在三個地方，一個是學校對面口腔醫學大樓樓上的&lt;strong&gt;口腔女宿&lt;/strong&gt;，在牙醫門診的樓上，另外是&lt;strong&gt;大慶男宿&lt;/strong&gt;及&lt;strong&gt;大慶女宿&lt;/strong&gt;，在距離學校約 1.7 公里外的台中高工對面，以前學校買下好幾棟大慶國宅作為宿舍。&lt;/p&gt;
-&lt;p&gt;先來說說中山醫宿舍的優點吧，少的先講比較不累(? 我們宿舍有一個很多人會羨慕的地方，大慶男女宿是一人一間雅房，口腔女宿是給大一住的，2-3人一間，不過我沒住過，所以詳細介紹會是大慶宿舍。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h1 id=&#34;宿舍優點&#34;&gt;宿舍優點&lt;/h1&gt;
-&lt;h2 id=&#34;獨立雅房&#34;&gt;獨立雅房&lt;/h2&gt;
-&lt;p&gt;因為一人一間雅房的關係，你可以很晚睡很晚起，裸體亂跑，都不用顧慮到室友，這一點倒是真的不錯，你也可以保有自己的隱私，讀書不被打擾。&lt;/p&gt;
-&lt;br/&gt;
-&lt;h2 id=&#34;生活機能佳&#34;&gt;生活機能佳&lt;/h2&gt;
-&lt;p&gt;再來是宿舍原本是國宅，所以整體而言就像個社區，住起來還算舒適，附近也有很多好吃的東西，像高工路、美村南路、大慶街等等，但如果沒有騎車，每天早上要跟很多高中生一起擠公車，如果技術不好可能2-3班才搭得上去XD&lt;/p&gt;
-&lt;br/&gt;
-&lt;h1 id=&#34;宿舍缺點&#34;&gt;宿舍缺點&lt;/h1&gt;
-&lt;p&gt;缺點嗎&amp;hellip; 讓我娓娓道來。&lt;/p&gt;
-&lt;h2 id=&#34;宿舍費用很高&#34;&gt;宿舍費用很高&lt;/h2&gt;
-&lt;p&gt;前面說的優點，自己一人一間雅房，那是建立在超級貴的宿舍費上，學校雅房有各種大小，一學期價格如下：&lt;/p&gt;
-
-&lt;link rel=&#34;stylesheet&#34; href=&#34;https://oxygentw.net/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/about-csmu-dorm/img1.png&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://oxygentw.net/img/post/about-csmu-dorm/img1.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;學校還大言不慚的作一個整理表，說中山醫在私立大學中不算貴，或許是吧，但你想想，而且宿舍停車場要再花1500租，網路再1500，加起來這個價錢到外面去租雅房也差不多啊，還可以免除接下來我要說的缺點。&lt;/p&gt;
-&lt;br/&gt;
-&lt;h2 id=&#34;門禁系統不安全&#34;&gt;門禁系統不安全&lt;/h2&gt;
-&lt;p&gt;宿舍門禁是用學生證當作門禁，但是他並沒有作任何加密，他只用學生證裡面的卡片編號當作辨識的 key，這代表隨便一個人都可以到鎖店複製學生證當成門禁，甚至只要撿到學生證把卡片編號抄起來就可以複製，任意進出。&lt;/p&gt;
-&lt;br/&gt;
-&lt;h2 id=&#34;部分區域訊號不好宿舍網路不便宜&#34;&gt;部分區域訊號不好，宿舍網路不便宜&lt;/h2&gt;
-&lt;p&gt;宿舍沒有免費網路使用，部分宿舍內行動網路的訊號不是太好，晚上就會報復社會XD，所以想要網速快最好購買宿舍的網路，但是一學期 1500，不算便宜，自行斟酌囉。&lt;/p&gt;
-&lt;br/&gt;
-&lt;h2 id=&#34;不能帶同學來玩&#34;&gt;不能帶同學來玩&lt;/h2&gt;
-&lt;p&gt;這很正常啦，很多宿舍都這樣不准外人進入，這點宿舍作的很合理，但是對我們來說也算是的缺點，住外面就沒這困擾啦~&lt;/p&gt;
-&lt;br/&gt;
-&lt;h2 id=&#34;學校漠視學生住宿權益&#34;&gt;學校漠視學生住宿權益&lt;/h2&gt;
-&lt;p&gt;這是最嚴重也最令人難以接受的，住在宿舍裡你不會覺得這是你花錢和學校租的宿舍，像是學校施捨給你的，學校說不讓你住就不讓你住，還大言不慚。&lt;/p&gt;
-&lt;p&gt;不知道各位有沒有看過這則新聞，沒有的話讓大家看一下&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://tw.appledaily.com/life/20200211/WHWN57DQXPGR4XOIEJ6TTSJWA4/&#34;&gt;https://tw.appledaily.com/life/20200211/WHWN57DQXPGR4XOIEJ6TTSJWA4/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=uzOv9w8dNrc&#34;&gt;https://www.youtube.com/watch?v=uzOv9w8dNrc&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;以及 2010 無預警消磁的行為 &lt;br&gt;
-&lt;a href=&#34;https://www.ptt.cc/bbs/CSMU-Talk/M.1268926814.A.B89.html&#34;&gt;https://www.ptt.cc/bbs/CSMU-Talk/M.1268926814.A.B89.html&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;中山醫宿舍無預警封鎖宿舍做為港澳學生隔離所，不准本國學生回宿，許多學生寒假是要在實驗室或實習的，這樣封鎖讓他們連東西都沒辦法回去拿，就無家可歸，學生會給出一些很貴的特約旅館說是配套措施，最後草草的說退費10%作為補償就結束。&lt;/p&gt;
-&lt;p&gt;這件事情過去，開學後居然又強迫自主管理而不是居家檢疫或隔離的學生不准進入宿舍，仍然沒有改進，一通知馬上就鎖學生證，不給學生進入拿東西，讓學生無家可歸，那時已經開學，學生也不知道怎麼辦，舍監態度也很差，讓學生甚至得去睡公園和麥當勞，宿舍很喜歡用&amp;quot;鎖學生證&amp;quot;來禁止學生回房間，覺得你可疑鎖門禁，有事情要找你也鎖門禁，因為你進不去房間就會去舍輔室，他們就可以找到你，隨時要冒著回不了房間的風險&amp;hellip;&amp;hellip;&lt;/p&gt;
-&lt;br/&gt;
-&lt;h2 id=&#34;宿舍很難抽&#34;&gt;宿舍很難抽&lt;/h2&gt;
-&lt;p&gt;校地小，所以宿舍也小，抽不抽的到宿舍會依照你的戶籍地離學校的距離而定，不過我朋友住高雄，居然沒有抽到宿舍!!!! 想住還沒辦法，只有一小部分能順利住到宿舍，其他人還是得出去找房子呦~&lt;/p&gt;
-&lt;br/&gt;
-&lt;p&gt;大概就是這樣吧，這是我住了幾年後的想法跟體會，我已經開始在找房子租了@@  &lt;br&gt;
-其他資訊可以上中山醫宿舍網站看，不過要住的真的建議不要抱太大期望就是了。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://osa.csmu.edu.tw/files/13-1022-33317-1.php?Lang=zh-tw#dorm-comp&#34;&gt;中山醫宿舍網站&lt;/a&gt;&lt;/p&gt;
-</description>
-      
-    </item>
-    
-    <item>
-      <title>如何關閉 linux server 螢幕</title>
-      <link>https://oxygentw.net/blog/computer/turn-off-linux-server-moniter/</link>
-      <pubDate>Sat, 25 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://oxygentw.net/blog/computer/turn-off-linux-server-moniter/</guid>
-      
-        <description>&lt;p&gt;Raspberry Pi 的運行溫度越來越高不太穩定，所以最近把一台舊筆電改造成伺服器，裝好系統後發現我不需要用螢幕啊啊啊啊，我用 SSH 就好不要開著螢幕耗電，於是上網查該如何關閉沒有安裝 GUI 的 Linux 系統螢幕。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;系統環境：Debian 10&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;br/&gt;
-&lt;p&gt;我查到可以使用 &lt;a href=&#34;https://linux.die.net/man/1/vbetool&#34;&gt;vbetool&lt;/a&gt; 來關閉，但是系統沒有內建這個工具，於是要用 apt 自行安裝。&lt;/p&gt;
-&lt;h2 id=&#34;安裝-vbetool&#34;&gt;安裝 vbetool&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;apt-get update
-apt-get install vbetool
-&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;hr&gt;
-&lt;h2 id=&#34;關閉螢幕&#34;&gt;關閉螢幕&lt;/h2&gt;
-&lt;p&gt;&lt;code&gt;vbetool dpms off&lt;/code&gt;&lt;/p&gt;
-&lt;br/&gt;
-&lt;h2 id=&#34;開啟螢幕&#34;&gt;開啟螢幕&lt;/h2&gt;
-&lt;p&gt;&lt;code&gt;vbetool dpms on&lt;/code&gt;&lt;/p&gt;
-&lt;br/&gt;
-&lt;p&gt;大概就是這樣啦~ 一個簡單的小筆記啦，給和我一樣要改造筆電的朋友參考 &amp;gt;&amp;lt;&lt;/p&gt;
 </description>
       
     </item>

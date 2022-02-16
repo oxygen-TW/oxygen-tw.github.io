@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Home Assistant 連接 Synology UPS Server - 氧氣橘子</title>
+  <title>中山醫授權軟體認證程式 - 氧氣橘子</title>
   
 
 
@@ -26,7 +26,7 @@
 <meta name="mobile-web-app-capable" content="yes">
 
 <meta name="author" content="oxygen" />
-  <meta name="description" content="便宜的家用 UPS 很多時候都只有一個 USB 通訊埠，我理所當然地把它拿去給最重要的 NAS 連接，但我還有一台運行 Home Assistant 的伺服器怎麼辦? 雖然我的經驗告訴我小樹莓派" />
+  <meta name="description" content="希望讓大家在認證 Windows 和 Office 上可以少受點苦的小程式。 1. 下載 CSMU-KMS 軟體 載點1：GitHub 載點2：oxygentw.net 2. 解壓縮後執行 CSMU-KMS.exe 3. 選擇你要認證" />
 <meta name="keywords" content="NAS, Synology, Synology NAS UPS, NAS UPS Server, Home Assitant, Home Assitant UPS, NUT tool" />
 
 
@@ -38,7 +38,7 @@
 <meta name="generator" content="Hugo 0.92.0" />
 
 
-<link rel="canonical" href="https://oxygentw.net/blog/computer/ha-connect-upsbynas/" />
+<link rel="canonical" href="https://oxygentw.net/blog/computer/csmu-kms-gui/" />
 
 
 
@@ -62,20 +62,20 @@
 
 
 
-<meta property="og:title" content="Home Assistant 連接 Synology UPS Server" />
-<meta property="og:description" content="便宜的家用 UPS 很多時候都只有一個 USB 通訊埠，我理所當然地把它拿去給最重要的 NAS 連接，但我還有一台運行 Home Assistant 的伺服器怎麼辦? 雖然我的經驗告訴我小樹莓派" />
+<meta property="og:title" content="中山醫授權軟體認證程式" />
+<meta property="og:description" content="希望讓大家在認證 Windows 和 Office 上可以少受點苦的小程式。 1. 下載 CSMU-KMS 軟體 載點1：GitHub 載點2：oxygentw.net 2. 解壓縮後執行 CSMU-KMS.exe 3. 選擇你要認證" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://oxygentw.net/blog/computer/ha-connect-upsbynas/" /><meta property="article:section" content="blog" />
-<meta property="article:published_time" content="2022-02-15T00:00:00+00:00" />
-<meta property="article:modified_time" content="2022-02-15T00:00:00+00:00" />
+<meta property="og:url" content="https://oxygentw.net/blog/computer/csmu-kms-gui/" /><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2022-02-16T00:00:00+00:00" />
+<meta property="article:modified_time" content="2022-02-16T00:00:00+00:00" />
 
-<meta itemprop="name" content="Home Assistant 連接 Synology UPS Server">
-<meta itemprop="description" content="便宜的家用 UPS 很多時候都只有一個 USB 通訊埠，我理所當然地把它拿去給最重要的 NAS 連接，但我還有一台運行 Home Assistant 的伺服器怎麼辦? 雖然我的經驗告訴我小樹莓派"><meta itemprop="datePublished" content="2022-02-15T00:00:00+00:00" />
-<meta itemprop="dateModified" content="2022-02-15T00:00:00+00:00" />
-<meta itemprop="wordCount" content="423">
+<meta itemprop="name" content="中山醫授權軟體認證程式">
+<meta itemprop="description" content="希望讓大家在認證 Windows 和 Office 上可以少受點苦的小程式。 1. 下載 CSMU-KMS 軟體 載點1：GitHub 載點2：oxygentw.net 2. 解壓縮後執行 CSMU-KMS.exe 3. 選擇你要認證"><meta itemprop="datePublished" content="2022-02-16T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2022-02-16T00:00:00+00:00" />
+<meta itemprop="wordCount" content="439">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Home Assistant 連接 Synology UPS Server"/>
-<meta name="twitter:description" content="便宜的家用 UPS 很多時候都只有一個 USB 通訊埠，我理所當然地把它拿去給最重要的 NAS 連接，但我還有一台運行 Home Assistant 的伺服器怎麼辦? 雖然我的經驗告訴我小樹莓派"/>
+<meta name="twitter:title" content="中山醫授權軟體認證程式"/>
+<meta name="twitter:description" content="希望讓大家在認證 Windows 和 Office 上可以少受點苦的小程式。 1. 下載 CSMU-KMS 軟體 載點1：GitHub 載點2：oxygentw.net 2. 解壓縮後執行 CSMU-KMS.exe 3. 選擇你要認證"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -306,17 +306,17 @@ if (!doNotTrack) {
           <article class="post bg-white">
     
     <header class="post-header">
-      <h1 class="post-title">Home Assistant 連接 Synology UPS Server</h1>
+      <h1 class="post-title">中山醫授權軟體認證程式</h1>
       
       <div class="post-meta">
-        <time datetime="2022-02-15" class="post-time">
-          2022-02-15
+        <time datetime="2022-02-16" class="post-time">
+          2022-02-16
         </time>
         <div class="post-category">
             <a href="https://oxygentw.net/categories/computer/"> computer </a>
             
           </div>
-        <span class="more-meta"> 約 423 字 </span>
+        <span class="more-meta"> 約 439 字 </span>
           <span class="more-meta"> 預計閱讀 1 分鐘 </span>
 
         
@@ -332,99 +332,93 @@ if (!doNotTrack) {
 
     
     <div class="post-content">
-      <p>便宜的家用 UPS 很多時候都只有一個 USB 通訊埠，我理所當然地把它拿去給最重要的 NAS 連接，但我還有一台運行 Home Assistant 的伺服器怎麼辦? 雖然我的經驗告訴我小樹莓派挺耐操的，斷電也還好，只是都接UPS了為甚麼不把效能發揮到極致呢!</p>
-<p>Synology 的 NAS 有內建的 UPS Server 功能，他上面是寫說可以給其他 Synology NAS 連接，其實他只是運行 <a href="https://networkupstools.org/">NUT Server</a>這個工具罷了，所以表示大家都可以連線，我用 Home Assistant 介紹，但其實所有電腦都可以用相同 <a href="#setting-config">Config</a> 連線喔!</p>
-<br/>
-<hr>
-<p>首先先把NAS連上不斷電系統，到<code>控制台-&gt;電源&amp;硬體-&gt;啟動不斷電系統系統支援、啟動網路不斷電系統系統伺服器</code>
+      <p>希望讓大家在認證 Windows 和 Office 上可以少受點苦的小程式。</p>
+<h2 id="1-下載-csmu-kms-軟體">1. 下載 CSMU-KMS 軟體</h2>
+<p>載點1：<a href="https://github.com/oxygen-TW/CSMU-KMS/releases/download/v1.3/v1.3.zip">GitHub</a>
+載點2：<a href="https://oxygentw.net/files/CSMU-KMS/v1.3.zip">oxygentw.net</a>
+<br/></p>
+<h2 id="2-解壓縮後執行-csmu-kmsexe">2. 解壓縮後執行 CSMU-KMS.exe</h2>
 
 <link rel="stylesheet" href="/css/hugo-easy-gallery.css" />
 <div class="box">
 <figure  itemprop="associatedMedia"
   itemscope itemtype="http://schema.org/ImageObject" >
     <div class="img">
-      <img itemprop="thumbnail" src="/img/post/ha-connect-upsbynas/1.png" />
+      <img itemprop="thumbnail" src="/img/post/csmu-kms-gui/1.png" />
     </div>
-    <a href="/img/post/ha-connect-upsbynas/1.png" itemprop="contentUrl"></a>
+    <a href="/img/post/csmu-kms-gui/1.png" itemprop="contentUrl"></a>
   </figure>
 </div>
-</p>
-<br/> 
-<p>接著在允許的 Synology NAS 設定允許連線的 IP <br>
-<strong>有開啟防火牆的話記得允許 TCP 3493</strong>
+
+<h2 id="3-選擇你要認證的項目">3. 選擇你要認證的項目</h2>
 
 
 <div class="box">
 <figure  itemprop="associatedMedia"
   itemscope itemtype="http://schema.org/ImageObject" >
     <div class="img">
-      <img itemprop="thumbnail" src="/img/post/ha-connect-upsbynas/2.png" />
+      <img itemprop="thumbnail" src="/img/post/csmu-kms-gui/2.png" />
     </div>
-    <a href="/img/post/ha-connect-upsbynas/2.png" itemprop="contentUrl"></a>
+    <a href="/img/post/csmu-kms-gui/2.png" itemprop="contentUrl"></a>
   </figure>
 </div>
-</p>
-<br/>
-<p>到 Home Assitant 裡搜尋 Network UPS Tool 並新增
+
+<h2 id="4-導向到學校kms驗證網頁輸入帳號密碼">4. 導向到學校KMS驗證網頁，輸入帳號密碼</h2>
 
 
 <div class="box">
 <figure  itemprop="associatedMedia"
   itemscope itemtype="http://schema.org/ImageObject" >
     <div class="img">
-      <img itemprop="thumbnail" src="/img/post/ha-connect-upsbynas/3.png" />
+      <img itemprop="thumbnail" src="/img/post/csmu-kms-gui/3.png" />
     </div>
-    <a href="/img/post/ha-connect-upsbynas/3.png" itemprop="contentUrl"></a>
+    <a href="/img/post/csmu-kms-gui/3.png" itemprop="contentUrl"></a>
   </figure>
 </div>
-</p>
-<br/>
-<p>輸入以下資訊，帳號密碼是 Synology 預設的
+
+<h2 id="5-看到驗證成功後點選左上角的繼續啟動程序">5. 看到驗證成功後點選左上角的繼續啟動程序</h2>
 
 
 <div class="box">
 <figure  itemprop="associatedMedia"
   itemscope itemtype="http://schema.org/ImageObject" >
     <div class="img">
-      <img itemprop="thumbnail" src="/img/post/ha-connect-upsbynas/4.png" />
+      <img itemprop="thumbnail" src="/img/post/csmu-kms-gui/4.png" />
     </div>
-    <a href="/img/post/ha-connect-upsbynas/4.png" itemprop="contentUrl"></a>
+    <a href="/img/post/csmu-kms-gui/4.png" itemprop="contentUrl"></a>
   </figure>
 </div>
-</p>
-<h2 id="setting-config">Setting Config</h2>
-<ul>
-<li>Host: HomeAssitant IP</li>
-<li>Port 3493</li>
-<li>Username: monuser</li>
-<li>Password: secret</li>
-</ul>
-<br/>
-<p>這樣就可以從Home Assitant 取得 UPS 資訊啦！
-進一步可以搭配 Automation 或 RedNode 設定斷電通知或是電力不足自動關機。
+
+<h2 id="6-稍等程式執行完成後下面會顯示啟動狀態">6. 稍等程式執行，完成後下面會顯示啟動狀態</h2>
 
 
 <div class="box">
 <figure  itemprop="associatedMedia"
   itemscope itemtype="http://schema.org/ImageObject" >
     <div class="img">
-      <img itemprop="thumbnail" src="/img/post/ha-connect-upsbynas/5.png" />
+      <img itemprop="thumbnail" src="/img/post/csmu-kms-gui/5.png" />
     </div>
-    <a href="/img/post/ha-connect-upsbynas/5.png" itemprop="contentUrl"></a>
+    <a href="/img/post/csmu-kms-gui/5.png" itemprop="contentUrl"></a>
   </figure>
 </div>
-</p>
-<br/>
-<p>我自己是用 RedNode 設定斷電/斷線/低電量Line Notify通知，並在電力不足時將Home Assistant主機關機！
+
+<h1 id="常見問答">常見問答</h1>
+<h3 id="防毒軟體說這個檔案有病毒會不會危險">防毒軟體說這個檔案有病毒，會不會危險?</h3>
+<p>因為我是執行學校給的cmd腳本，這種做法和病毒很像，只是病毒執行惡意腳本，我執行學校的驗證腳本，我可以告訴你我沒有放惡意程式碼，至於要不要信任我就看個人囉~</p>
+<p>真的覺得我會搞事的話，這邊是程式原始碼可供檢查/自行編譯：<a href="https://github.com/oxygen-TW/CSMU-KMS/tree/main/CSMU-KMS">https://github.com/oxygen-TW/CSMU-KMS/tree/main/CSMU-KMS</a></p>
+<h3 id="我剛裝好office為啟動執行失敗">我剛裝好Office，為啟動執行失敗?</h3>
+<p>裝好 Office 後要隨便開啟一個Office的軟體(Word, Excel&hellip;隨便)，然後關掉後再驗證，不然會找不到金鑰。</p>
+<h3 id="為何要求我要用系統管理員執行">為何要求我要用系統管理員執行?</h3>
+<p>Office 認證動作必須用提升的全縣進行，使用學校腳本亦同。
 
 
 <div class="box">
 <figure  itemprop="associatedMedia"
   itemscope itemtype="http://schema.org/ImageObject" >
     <div class="img">
-      <img itemprop="thumbnail" src="/img/post/ha-connect-upsbynas/6.png" />
+      <img itemprop="thumbnail" src="/img/post/csmu-kms-gui/6.png" />
     </div>
-    <a href="/img/post/ha-connect-upsbynas/6.png" itemprop="contentUrl"></a>
+    <a href="/img/post/csmu-kms-gui/6.png" itemprop="contentUrl"></a>
   </figure>
 </div>
 </p>
@@ -441,7 +435,7 @@ if (!doNotTrack) {
   <p class="copyright-item">
     <span class="item-title">上次更新</span>
     <span class="item-content">
-      2022-02-15
+      2022-02-16
       
     </span>
   </p>
@@ -462,22 +456,9 @@ if (!doNotTrack) {
       
       <nav class="post-nav">
         
-          <a class="prev" href="/blog/computer/csmu-kms-gui/">
-            
-            <i class="iconfont">
-              <svg  class="icon" viewBox="0 0 1024 1024" version="1.1"
-  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-  width="18" height="18">
-  <path d="M691.908486 949.511495l75.369571-89.491197c10.963703-12.998035 10.285251-32.864502-1.499144-44.378743L479.499795 515.267417 757.434875 204.940602c11.338233-12.190647 11.035334-32.285311-0.638543-44.850487l-80.46666-86.564541c-11.680017-12.583596-30.356378-12.893658-41.662889-0.716314L257.233596 494.235404c-11.332093 12.183484-11.041474 32.266891 0.657986 44.844348l80.46666 86.564541c1.772366 1.910513 3.706415 3.533476 5.750981 4.877077l306.620399 321.703933C662.505829 963.726242 680.945807 962.528973 691.908486 949.511495z"></path>
-</svg>
-
-            </i>
-            <span class="prev-text nav-default">中山醫授權軟體認證程式</span>
-            <span class="prev-text nav-mobile">上一篇</span>
-          </a>
         
-          <a class="next" href="/blog/computer/nas-storage-strategy_orange-laptop_%E4%BA%8C%E6%9C%88-16-204524-2022_conflict/">
-            <span class="next-text nav-default">NAS 儲存空間如何設定?</span>
+          <a class="next" href="/blog/computer/ha-connect-upsbynas/">
+            <span class="next-text nav-default">Home Assistant 連接 Synology UPS Server</span>
             <span class="prev-text nav-mobile">下一篇</span>
             
             <i class="iconfont">
@@ -517,7 +498,7 @@ if (!doNotTrack) {
   <div id="disqus_thread"></div>
   <script type="text/javascript">
     var disqus_config = function () {
-      this.page.url = "https://oxygentw.net/blog/computer/ha-connect-upsbynas/";
+      this.page.url = "https://oxygentw.net/blog/computer/csmu-kms-gui/";
     };
     function load_disqus() {
       
