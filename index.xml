@@ -89,12 +89,12 @@
 &lt;/div&gt;
 
 &lt;h1 id=&#34;常見問答&#34;&gt;常見問答&lt;/h1&gt;
-&lt;h3 id=&#34;防毒軟體說這個檔案有病毒會不會危險&#34;&gt;防毒軟體說這個檔案有病毒，會不會危險?&lt;/h3&gt;
+&lt;h3 id=&#34;1-防毒軟體說這個檔案有病毒會不會危險&#34;&gt;1. 防毒軟體說這個檔案有病毒，會不會危險?&lt;/h3&gt;
 &lt;p&gt;因為我是執行學校給的cmd腳本，這種做法和病毒很像，只是病毒執行惡意腳本，我執行學校的驗證腳本，我可以告訴你我沒有放惡意程式碼，至於要不要信任我就看個人囉~&lt;/p&gt;
 &lt;p&gt;真的覺得我會搞事的話，這邊是程式原始碼可供檢查/自行編譯：&lt;a href=&#34;https://github.com/oxygen-TW/CSMU-KMS/tree/main/CSMU-KMS&#34;&gt;https://github.com/oxygen-TW/CSMU-KMS/tree/main/CSMU-KMS&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;我剛裝好office為啟動執行失敗&#34;&gt;我剛裝好Office，為啟動執行失敗?&lt;/h3&gt;
+&lt;h3 id=&#34;2-我剛裝好office為啟動執行失敗&#34;&gt;2. 我剛裝好Office，為啟動執行失敗?&lt;/h3&gt;
 &lt;p&gt;裝好 Office 後要隨便開啟一個Office的軟體(Word, Excel&amp;hellip;隨便)，然後關掉後再驗證，不然會找不到金鑰。&lt;/p&gt;
-&lt;h3 id=&#34;為何要求我要用系統管理員執行&#34;&gt;為何要求我要用系統管理員執行?&lt;/h3&gt;
+&lt;h3 id=&#34;3-為何要求我要用系統管理員執行&#34;&gt;3. 為何要求我要用系統管理員執行?&lt;/h3&gt;
 &lt;p&gt;Office 認證動作必須用提升的全縣進行，使用學校腳本亦同。
 
 
@@ -108,6 +108,16 @@
   &lt;/figure&gt;
 &lt;/div&gt;
 &lt;/p&gt;
+&lt;br/&gt;
+&lt;h3 id=&#34;4-如果我要同時啟動-windows-和-office-我需要打兩次密碼嗎&#34;&gt;4. 如果我要同時啟動 Windows 和 Office 我需要打兩次密碼嗎?&lt;/h3&gt;
+&lt;p&gt;如果時間間隔不長，只需要打第一次密碼，第二次啟動跳到輸入密碼的視窗直接點左上角返回即可，&lt;strong&gt;但如果你不確定&lt;/strong&gt;，都打密碼就不會錯。&lt;/p&gt;
+&lt;h3 id=&#34;5-狀態顯示啟動失敗為什麼&#34;&gt;5. 狀態顯示啟動失敗，為什麼?&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;可能你沒有成功輸入帳號密碼&lt;/li&gt;
+&lt;li&gt;你剛裝好Office沒有先啟動一個應用程式，參考 &lt;a href=&#34;#%E6%88%91%E5%89%9B%E8%A3%9D%E5%A5%BDOffice%EF%BC%8C%E7%82%BA%E5%95%9F%E5%8B%95%E5%9F%B7%E8%A1%8C%E5%A4%B1%E6%95%97?&#34;&gt;QA#2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;你選錯啟動版本(2010, 2013, 2016&amp;hellip;不同)&lt;/li&gt;
+&lt;li&gt;以上都確定做到仍然失敗，可以聯絡我: &lt;a href=&#34;mailto:oxygen5307@gmail.com&#34;&gt;Mail&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
 </description>
       
     </item>
