@@ -34,7 +34,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.92.0" />
+<meta name="generator" content="Hugo 0.97.2" />
 
 
 <link rel="canonical" href="https://oxygentw.net/blog/notes/leap-year-rule/" />
@@ -399,18 +399,18 @@ if (!doNotTrack) {
 </span><span class="lnt">11
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="k">def</span> <span class="nf">IsLeapYear</span><span class="p">(</span><span class="n">year</span><span class="p">):</span>
-    <span class="k">if</span> <span class="n">year</span> <span class="o">%</span> <span class="mi">400</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
-        <span class="k">return</span> <span class="kc">True</span>   <span class="c1">#是閏年</span>
- 
-    <span class="k">elif</span> <span class="n">year</span> <span class="o">%</span> <span class="mi">100</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
-        <span class="k">return</span> <span class="kc">False</span>  <span class="c1">#不是閏年</span>
- 
-    <span class="k">elif</span> <span class="n">year</span> <span class="o">%</span> <span class="mi">4</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
-        <span class="k">return</span> <span class="kc">True</span>   <span class="c1">#是閏年</span>
- 
-    <span class="k">return</span> <span class="kc">False</span>      <span class="c1">#不是閏年</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">IsLeapYear</span><span class="p">(</span><span class="n">year</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="n">year</span> <span class="o">%</span> <span class="mi">400</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="kc">True</span>   <span class="c1">#是閏年</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl">    <span class="k">elif</span> <span class="n">year</span> <span class="o">%</span> <span class="mi">100</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="kc">False</span>  <span class="c1">#不是閏年</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl">    <span class="k">elif</span> <span class="n">year</span> <span class="o">%</span> <span class="mi">4</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="kc">True</span>   <span class="c1">#是閏年</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="kc">False</span>      <span class="c1">#不是閏年</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div>
     </div>

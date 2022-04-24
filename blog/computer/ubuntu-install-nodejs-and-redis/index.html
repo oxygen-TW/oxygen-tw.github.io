@@ -35,7 +35,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.92.0" />
+<meta name="generator" content="Hugo 0.97.2" />
 
 
 <link rel="canonical" href="https://oxygentw.net/blog/computer/ubuntu-install-nodejs-and-redis/" />
@@ -340,7 +340,7 @@ if (!doNotTrack) {
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"> curl -sL https://deb.nodesource.com/setup_9.x <span class="p">|</span> sudo -E bash - sudo apt-get install -y nodejs </code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"> curl -sL https://deb.nodesource.com/setup_9.x <span class="p">|</span> sudo -E bash - sudo apt-get install -y nodejs </span></span></code></pre></td></tr></table>
 </div>
 </div><br>
 檢查 node.js 版本</p>
@@ -350,8 +350,8 @@ if (!doNotTrack) {
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">node -v
-v9.5.0</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">node -v
+</span></span><span class="line"><span class="cl">v9.5.0</span></span></code></pre></td></tr></table>
 </div>
 </div>
 <br/>
@@ -362,8 +362,8 @@ v9.5.0</code></pre></td></tr></table>
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">sudo apt-get update
-sudo apt-get install redis-server</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sudo apt-get update
+</span></span><span class="line"><span class="cl">sudo apt-get install redis-server</span></span></code></pre></td></tr></table>
 </div>
 </div></p>
 <br/>
@@ -373,7 +373,7 @@ sudo apt-get install redis-server</code></pre></td></tr></table>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">netstat -nlt<span class="p">|</span>grep <span class="m">6379</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">netstat -nlt<span class="p">|</span>grep <span class="m">6379</span></span></span></code></pre></td></tr></table>
 </div>
 </div>
 <br/>
@@ -384,8 +384,8 @@ sudo apt-get install redis-server</code></pre></td></tr></table>
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">127.0.0.1:6379&gt; keys *
-<span class="o">(</span>empty list or <span class="nb">set</span><span class="o">)</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">127.0.0.1:6379&gt; keys *
+</span></span><span class="line"><span class="cl"><span class="o">(</span>empty list or <span class="nb">set</span><span class="o">)</span></span></span></code></pre></td></tr></table>
 </div>
 </div>
 <br/>
@@ -400,7 +400,7 @@ sudo apt-get install redis-server</code></pre></td></tr></table>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="nb">bind</span> 127.0.0.1 192.168.1.156</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="nb">bind</span> 127.0.0.1 192.168.1.156</span></span></code></pre></td></tr></table>
 </div>
 </div>
 <p>#允許所有主機連入
@@ -409,7 +409,7 @@ sudo apt-get install redis-server</code></pre></td></tr></table>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="nb">bind</span> 0.0.0.0</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="nb">bind</span> 0.0.0.0</span></span></code></pre></td></tr></table>
 </div>
 </div></p>
 <p>重新啟動資料庫</p>
@@ -418,7 +418,7 @@ sudo apt-get install redis-server</code></pre></td></tr></table>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">sudo service redis restart</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sudo service redis restart</span></span></code></pre></td></tr></table>
 </div>
 </div>
 <p>Redis 遠端連線指令

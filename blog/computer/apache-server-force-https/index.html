@@ -34,7 +34,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.92.0" />
+<meta name="generator" content="Hugo 0.97.2" />
 
 
 <link rel="canonical" href="https://oxygentw.net/blog/computer/apache-server-force-https/" />
@@ -342,10 +342,10 @@ if (!doNotTrack) {
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">RewriteCond %{HTTP_HOST} yourSite\.com [NC]
-RewriteCond %{SERVER_PORT} 80
-RewriteRule ^(.*)$ https://yourSite.com/$1 [R,L]
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">RewriteCond %{HTTP_HOST} yourSite\.com [NC]
+</span></span><span class="line"><span class="cl">RewriteCond %{SERVER_PORT} 80
+</span></span><span class="line"><span class="cl">RewriteRule ^(.*)$ https://yourSite.com/$1 [R,L]
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>OK 這樣就完成了。</p>
 

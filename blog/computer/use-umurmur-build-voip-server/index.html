@@ -34,7 +34,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.92.0" />
+<meta name="generator" content="Hugo 0.97.2" />
 
 
 <link rel="canonical" href="https://oxygentw.net/blog/computer/use-umurmur-build-voip-server/" />
@@ -344,9 +344,9 @@ if (!doNotTrack) {
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">sudo wget https://github.com/umurmur/umurmur/archive/0.2.17.zip
-sudo unzip 0.2.17.zip -d /opt
-<span class="nb">cd</span> /opt/umurmur-0.2.17</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sudo wget https://github.com/umurmur/umurmur/archive/0.2.17.zip
+</span></span><span class="line"><span class="cl">sudo unzip 0.2.17.zip -d /opt
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> /opt/umurmur-0.2.17</span></span></code></pre></td></tr></table>
 </div>
 </div>
 <br/>
@@ -357,8 +357,8 @@ sudo unzip 0.2.17.zip -d /opt
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">sudo apt-get update
-sudo apt-get install libconfig-dev libprotobuf-c-dev libssl-dev cmake build-essential</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sudo apt-get update
+</span></span><span class="line"><span class="cl">sudo apt-get install libconfig-dev libprotobuf-c-dev libssl-dev cmake build-essential</span></span></code></pre></td></tr></table>
 </div>
 </div>
 <br/>
@@ -373,12 +373,12 @@ sudo apt-get install libconfig-dev libprotobuf-c-dev libssl-dev cmake build-esse
 </span><span class="lnt">6
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="nb">cd</span> ..
-sudo mkdir umurmur-build
-<span class="nb">cd</span> umurmur-build
-sudo cmake ../umurmur-0.2.17/ -DSSL<span class="o">=</span>openssl
-sudo make
-sudo make install</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="nb">cd</span> ..
+</span></span><span class="line"><span class="cl">sudo mkdir umurmur-build
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> umurmur-build
+</span></span><span class="line"><span class="cl">sudo cmake ../umurmur-0.2.17/ -DSSL<span class="o">=</span>openssl
+</span></span><span class="line"><span class="cl">sudo make
+</span></span><span class="line"><span class="cl">sudo make install</span></span></code></pre></td></tr></table>
 </div>
 </div>
 <br/>
@@ -388,7 +388,7 @@ sudo make install</code></pre></td></tr></table>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">sudo vim /usr/local/etc/umurmur.conf</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sudo vim /usr/local/etc/umurmur.conf</span></span></code></pre></td></tr></table>
 </div>
 </div>
 <p>welcometext = &ldquo;歡迎詞&rdquo;;<br>
@@ -443,39 +443,39 @@ password = &ldquo;頻道密碼&rdquo;;</p>
 </span><span class="lnt">33
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="nv">channels</span> <span class="o">=</span> <span class="o">(</span> <span class="o">{</span>   
-  <span class="nv">name</span> <span class="o">=</span> <span class="s2">&#34;Root&#34;</span><span class="p">;</span>   
-  <span class="nv">parent</span> <span class="o">=</span> <span class="s2">&#34;&#34;</span><span class="p">;</span>   
-  <span class="nv">description</span> <span class="o">=</span> <span class="s2">&#34;Root channel. No entry.&#34;</span><span class="p">;</span>   
-  <span class="nv">noenter</span> <span class="o">=</span> true<span class="p">;</span>   
-  <span class="o">}</span>,   
-  <span class="o">{</span>   
-  <span class="nv">name</span> <span class="o">=</span> <span class="s2">&#34;Lobby&#34;</span><span class="p">;</span>   
-  <span class="nv">parent</span> <span class="o">=</span> <span class="s2">&#34;Root&#34;</span><span class="p">;</span>   
-  <span class="nv">description</span> <span class="o">=</span> <span class="s2">&#34;Lobby channel&#34;</span><span class="p">;</span>   
-  <span class="o">}</span>,   
-  <span class="o">{</span>   
-  <span class="nv">name</span> <span class="o">=</span> <span class="s2">&#34;Silent&#34;</span><span class="p">;</span>   
-  <span class="nv">parent</span> <span class="o">=</span> <span class="s2">&#34;Root&#34;</span><span class="p">;</span>   
-  <span class="nv">description</span> <span class="o">=</span> <span class="s2">&#34;Silent channel&#34;</span><span class="p">;</span>   
-   
-  <span class="nv">silent</span> <span class="o">=</span> true<span class="p">;</span> <span class="c1"># Optional. Default is false   </span>
-  <span class="o">}</span>,   
-  <span class="o">{</span>   
-  <span class="nv">name</span> <span class="o">=</span> <span class="s2">&#34;Team A&#34;</span><span class="p">;</span>   
-  <span class="nv">parent</span> <span class="o">=</span> <span class="s2">&#34;Lobby&#34;</span><span class="p">;</span>   
-  <span class="nv">description</span> <span class="o">=</span> <span class="s2">&#34;The Team A channel&#34;</span><span class="p">;</span>
-  <span class="nv">position</span> <span class="o">=</span> 0<span class="p">;</span> <span class="c1"># Optional. Default is 0 and the channels will be shown in alphabetic order.</span>
-  <span class="c1"># password = &#34;nopassword&#34;;</span>
-  <span class="o">}</span>,
-  <span class="o">{</span>
-  <span class="nv">name</span> <span class="o">=</span> <span class="s2">&#34;Team B&#34;</span><span class="p">;</span>
-  <span class="nv">parent</span> <span class="o">=</span> <span class="s2">&#34;Lobby&#34;</span><span class="p">;</span>
-  <span class="nv">description</span> <span class="o">=</span> <span class="s2">&#34;The Team B channel&#34;</span><span class="p">;</span>
-  <span class="nv">position</span> <span class="o">=</span> 1<span class="p">;</span> <span class="c1"># Optional. Default is 0 and the channels will be shown in alphabetic order.</span>
-  <span class="nv">password</span> <span class="o">=</span> <span class="s2">&#34;bluepassword&#34;</span><span class="p">;</span>
-  <span class="o">}</span>
-<span class="o">)</span><span class="p">;</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="nv">channels</span> <span class="o">=</span> <span class="o">(</span> <span class="o">{</span>   
+</span></span><span class="line"><span class="cl">  <span class="nv">name</span> <span class="o">=</span> <span class="s2">&#34;Root&#34;</span><span class="p">;</span>   
+</span></span><span class="line"><span class="cl">  <span class="nv">parent</span> <span class="o">=</span> <span class="s2">&#34;&#34;</span><span class="p">;</span>   
+</span></span><span class="line"><span class="cl">  <span class="nv">description</span> <span class="o">=</span> <span class="s2">&#34;Root channel. No entry.&#34;</span><span class="p">;</span>   
+</span></span><span class="line"><span class="cl">  <span class="nv">noenter</span> <span class="o">=</span> true<span class="p">;</span>   
+</span></span><span class="line"><span class="cl">  <span class="o">}</span>,   
+</span></span><span class="line"><span class="cl">  <span class="o">{</span>   
+</span></span><span class="line"><span class="cl">  <span class="nv">name</span> <span class="o">=</span> <span class="s2">&#34;Lobby&#34;</span><span class="p">;</span>   
+</span></span><span class="line"><span class="cl">  <span class="nv">parent</span> <span class="o">=</span> <span class="s2">&#34;Root&#34;</span><span class="p">;</span>   
+</span></span><span class="line"><span class="cl">  <span class="nv">description</span> <span class="o">=</span> <span class="s2">&#34;Lobby channel&#34;</span><span class="p">;</span>   
+</span></span><span class="line"><span class="cl">  <span class="o">}</span>,   
+</span></span><span class="line"><span class="cl">  <span class="o">{</span>   
+</span></span><span class="line"><span class="cl">  <span class="nv">name</span> <span class="o">=</span> <span class="s2">&#34;Silent&#34;</span><span class="p">;</span>   
+</span></span><span class="line"><span class="cl">  <span class="nv">parent</span> <span class="o">=</span> <span class="s2">&#34;Root&#34;</span><span class="p">;</span>   
+</span></span><span class="line"><span class="cl">  <span class="nv">description</span> <span class="o">=</span> <span class="s2">&#34;Silent channel&#34;</span><span class="p">;</span>   
+</span></span><span class="line"><span class="cl">   
+</span></span><span class="line"><span class="cl">  <span class="nv">silent</span> <span class="o">=</span> true<span class="p">;</span> <span class="c1"># Optional. Default is false   </span>
+</span></span><span class="line"><span class="cl">  <span class="o">}</span>,   
+</span></span><span class="line"><span class="cl">  <span class="o">{</span>   
+</span></span><span class="line"><span class="cl">  <span class="nv">name</span> <span class="o">=</span> <span class="s2">&#34;Team A&#34;</span><span class="p">;</span>   
+</span></span><span class="line"><span class="cl">  <span class="nv">parent</span> <span class="o">=</span> <span class="s2">&#34;Lobby&#34;</span><span class="p">;</span>   
+</span></span><span class="line"><span class="cl">  <span class="nv">description</span> <span class="o">=</span> <span class="s2">&#34;The Team A channel&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">position</span> <span class="o">=</span> 0<span class="p">;</span> <span class="c1"># Optional. Default is 0 and the channels will be shown in alphabetic order.</span>
+</span></span><span class="line"><span class="cl">  <span class="c1"># password = &#34;nopassword&#34;;</span>
+</span></span><span class="line"><span class="cl">  <span class="o">}</span>,
+</span></span><span class="line"><span class="cl">  <span class="o">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">name</span> <span class="o">=</span> <span class="s2">&#34;Team B&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">parent</span> <span class="o">=</span> <span class="s2">&#34;Lobby&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">description</span> <span class="o">=</span> <span class="s2">&#34;The Team B channel&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">position</span> <span class="o">=</span> 1<span class="p">;</span> <span class="c1"># Optional. Default is 0 and the channels will be shown in alphabetic order.</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">password</span> <span class="o">=</span> <span class="s2">&#34;bluepassword&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="o">}</span>
+</span></span><span class="line"><span class="cl"><span class="o">)</span><span class="p">;</span></span></span></code></pre></td></tr></table>
 </div>
 </div>
 <br/>
@@ -497,16 +497,16 @@ password = &ldquo;頻道密碼&rdquo;;</p>
 </span><span class="lnt">10
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="nv">channel_links</span> <span class="o">=</span> <span class="o">(</span> <span class="o">{</span>
-
-  <span class="nb">source</span> <span class="o">=</span> <span class="s2">&#34;Lobby&#34;</span><span class="p">;</span>
-  <span class="nv">destination</span> <span class="o">=</span> <span class="s2">&#34;Team A&#34;</span><span class="p">;</span>
-  <span class="o">}</span>,
-  <span class="o">{</span>
-  <span class="nb">source</span> <span class="o">=</span> <span class="s2">&#34;Lobby&#34;</span><span class="p">;</span>
-  <span class="nv">destination</span> <span class="o">=</span> <span class="s2">&#34;Team B&#34;</span><span class="p">;</span>
-  <span class="o">}</span>
-<span class="o">)</span><span class="p">;</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="nv">channel_links</span> <span class="o">=</span> <span class="o">(</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="nb">source</span> <span class="o">=</span> <span class="s2">&#34;Lobby&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">destination</span> <span class="o">=</span> <span class="s2">&#34;Team A&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="o">}</span>,
+</span></span><span class="line"><span class="cl">  <span class="o">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nb">source</span> <span class="o">=</span> <span class="s2">&#34;Lobby&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">destination</span> <span class="o">=</span> <span class="s2">&#34;Team B&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="o">}</span>
+</span></span><span class="line"><span class="cl"><span class="o">)</span><span class="p">;</span></span></span></code></pre></td></tr></table>
 </div>
 </div>
 <h3 id="設定預設頻道">設定預設頻道</h3>

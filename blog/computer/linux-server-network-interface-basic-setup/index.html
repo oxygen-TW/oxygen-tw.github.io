@@ -34,7 +34,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.92.0" />
+<meta name="generator" content="Hugo 0.97.2" />
 
 
 <link rel="canonical" href="https://oxygentw.net/blog/computer/linux-server-network-interface-basic-setup/" />
@@ -341,9 +341,9 @@ if (!doNotTrack) {
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">sudo cp /etc/network/interface /etc/network/interface.backup
-sudo vim /etc/network/interface
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sudo cp /etc/network/interface /etc/network/interface.backup
+</span></span><span class="line"><span class="cl">sudo vim /etc/network/interface
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="設定固定-ip">設定固定 IP</h3>
 <div class="highlight"><div class="chroma">
@@ -361,18 +361,18 @@ sudo vim /etc/network/interface
 </span><span class="lnt">11
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">auto lo
-iface lo inet loopback
-
-<span class="c1">#修改以下部分</span>
-auto eth0
-iface eth0 inet static  <span class="c1"># static = 固定 IP。</span>
-address 203.72.xxx.xxx  <span class="c1"># IP 位址。</span>
-netmask 255.255.255.0   <span class="c1"># 子網路遮罩。</span>
-gateway 203.72.xxx.xxx  <span class="c1"># 預設閘道位置。</span>
-
-dns-nameservers 168.95.1.1 8.8.8.8 <span class="c1"># DNS Server(以空格分開)</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">auto lo
+</span></span><span class="line"><span class="cl">iface lo inet loopback
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#修改以下部分</span>
+</span></span><span class="line"><span class="cl">auto eth0
+</span></span><span class="line"><span class="cl">iface eth0 inet static  <span class="c1"># static = 固定 IP。</span>
+</span></span><span class="line"><span class="cl">address 203.72.xxx.xxx  <span class="c1"># IP 位址。</span>
+</span></span><span class="line"><span class="cl">netmask 255.255.255.0   <span class="c1"># 子網路遮罩。</span>
+</span></span><span class="line"><span class="cl">gateway 203.72.xxx.xxx  <span class="c1"># 預設閘道位置。</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">dns-nameservers 168.95.1.1 8.8.8.8 <span class="c1"># DNS Server(以空格分開)</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="重新啟動網路服務">重新啟動網路服務</h3>
 <div class="highlight"><div class="chroma">
@@ -380,8 +380,8 @@ dns-nameservers 168.95.1.1 8.8.8.8 <span class="c1"># DNS Server(以空格分開
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">sudo service networking restart
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sudo service networking restart
+</span></span></code></pre></td></tr></table>
 </div>
 </div><br/>
 <p>若修改後發現網路有問題，就把 interface 刪除， interface.backup 改名為 interface 並重新啟動網路服務應該會修好</p>

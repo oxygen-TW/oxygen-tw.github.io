@@ -35,7 +35,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.92.0" />
+<meta name="generator" content="Hugo 0.97.2" />
 
 
 <link rel="canonical" href="https://oxygentw.net/blog/computer/new-mysql-user/" />
@@ -338,7 +338,7 @@ if (!doNotTrack) {
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">CREATE DATABASE <span class="s1">&#39;databaseName&#39;</span><span class="p">;</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">CREATE DATABASE <span class="s1">&#39;databaseName&#39;</span><span class="p">;</span></span></span></code></pre></td></tr></table>
 </div>
 </div>
 <p>簡單粗暴，直接新增即可。</p>
@@ -348,7 +348,7 @@ if (!doNotTrack) {
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">CREATE USER <span class="s1">&#39;user_name&#39;</span>@<span class="s1">&#39;localhost&#39;</span> IDENTIFIED BY <span class="s1">&#39;password&#39;</span><span class="p">;</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">CREATE USER <span class="s1">&#39;user_name&#39;</span>@<span class="s1">&#39;localhost&#39;</span> IDENTIFIED BY <span class="s1">&#39;password&#39;</span><span class="p">;</span></span></span></code></pre></td></tr></table>
 </div>
 </div>
 <ul>
@@ -362,7 +362,7 @@ if (!doNotTrack) {
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">GRANT ALL PRIVILEGES ON <span class="sb">`</span>database<span class="sb">`</span> . * TO <span class="s1">&#39;user&#39;</span>@<span class="s1">&#39;localhost&#39;</span><span class="p">;</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">GRANT ALL PRIVILEGES ON <span class="sb">`</span>database<span class="sb">`</span> . * TO <span class="s1">&#39;user&#39;</span>@<span class="s1">&#39;localhost&#39;</span><span class="p">;</span></span></span></code></pre></td></tr></table>
 </div>
 </div>
 <p>這句意思是提升(所有權限) 在 (資料庫) 的 (所有資料表) 有效於 (使用者) @ (本機登入)
@@ -373,7 +373,7 @@ if (!doNotTrack) {
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">GRANT SELECT ON database.* TO <span class="s1">&#39;user&#39;</span>@<span class="s1">&#39;localhost&#39;</span><span class="p">;</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">GRANT SELECT ON database.* TO <span class="s1">&#39;user&#39;</span>@<span class="s1">&#39;localhost&#39;</span><span class="p">;</span></span></span></code></pre></td></tr></table>
 </div>
 </div></p>
 <br/>

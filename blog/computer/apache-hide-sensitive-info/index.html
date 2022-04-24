@@ -34,7 +34,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.92.0" />
+<meta name="generator" content="Hugo 0.97.2" />
 
 
 <link rel="canonical" href="https://oxygentw.net/blog/computer/apache-hide-sensitive-info/" />
@@ -399,14 +399,14 @@ if (!doNotTrack) {
 </span><span class="lnt">7
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">&lt;Directory /var/www/&gt;
-
-    Options Indexes FollowSymLinks
-
-    ...
-
-&lt;/Directory&gt;
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">&lt;Directory /var/www/&gt;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    Options Indexes FollowSymLinks
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    ...
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">&lt;/Directory&gt;
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>拿掉 Indexes 改成</p>
 <div class="highlight"><div class="chroma">
@@ -420,14 +420,14 @@ if (!doNotTrack) {
 </span><span class="lnt">7
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">&lt;Directory /var/www/&gt;
-
-    Options FollowSymLinks
-
-    ...
-
-&lt;/Directory&gt;
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">&lt;Directory /var/www/&gt;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    Options FollowSymLinks
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    ...
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">&lt;/Directory&gt;
+</span></span></code></pre></td></tr></table>
 </div>
 </div><hr>
 <br/>

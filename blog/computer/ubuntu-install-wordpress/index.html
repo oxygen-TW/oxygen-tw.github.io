@@ -34,7 +34,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.92.0" />
+<meta name="generator" content="Hugo 0.97.2" />
 
 
 <link rel="canonical" href="https://oxygentw.net/blog/computer/ubuntu-install-wordpress/" />
@@ -373,9 +373,9 @@ if (!doNotTrack) {
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="nb">cd</span> /tmp
-curl -O https://tw.wordpress.org/wordpress-4.7.3-zh_TW.tar.gz
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="nb">cd</span> /tmp
+</span></span><span class="line"><span class="cl">curl -O https://tw.wordpress.org/wordpress-4.7.3-zh_TW.tar.gz
+</span></span></code></pre></td></tr></table>
 </div>
 </div><br/>
 <p>12.解壓縮 <br>
@@ -388,9 +388,9 @@ curl -O https://tw.wordpress.org/wordpress-4.7.3-zh_TW.tar.gz
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">touch /tmp/wordpress/.htaccess
-chmod <span class="m">660</span> /tmp/wordpress/.htaccess
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">touch /tmp/wordpress/.htaccess
+</span></span><span class="line"><span class="cl">chmod <span class="m">660</span> /tmp/wordpress/.htaccess
+</span></span></code></pre></td></tr></table>
 </div>
 </div><br/>
 <p>14.創建組態文件<br>
@@ -403,9 +403,9 @@ chmod <span class="m">660</span> /tmp/wordpress/.htaccess
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">sudo rm -rf /var/www/html/*
-sudo cp -a /tmp/wordpress/. /var/www/html
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sudo rm -rf /var/www/html/*
+</span></span><span class="line"><span class="cl">sudo cp -a /tmp/wordpress/. /var/www/html
+</span></span></code></pre></td></tr></table>
 </div>
 </div><br/>
 <p>16.更改WordPress 目錄權限 (把LINUX-USER換成自己的linux帳戶)<br>
@@ -420,11 +420,11 @@ sudo cp -a /tmp/wordpress/. /var/www/html
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">sudo find /var/www/html -type d -exec chmod g+s <span class="o">{}</span> <span class="se">\;</span>
-sudo chmod g+w /var/www/html/wp-content
-sudo chmod -R g+w /var/www/html/wp-content/themes
-sudo chmod -R g+w /var/www/html/wp-content/plugins
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sudo find /var/www/html -type d -exec chmod g+s <span class="o">{}</span> <span class="se">\;</span>
+</span></span><span class="line"><span class="cl">sudo chmod g+w /var/www/html/wp-content
+</span></span><span class="line"><span class="cl">sudo chmod -R g+w /var/www/html/wp-content/themes
+</span></span><span class="line"><span class="cl">sudo chmod -R g+w /var/www/html/wp-content/plugins
+</span></span></code></pre></td></tr></table>
 </div>
 </div><br/>
 <p>17.編輯WordPress 配置文件</p>
@@ -435,10 +435,10 @@ sudo chmod -R g+w /var/www/html/wp-content/plugins
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">sudo vim /var/www/html/wp-config.php
-
-分別修改資料庫名稱、用戶名稱、用戶密碼
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sudo vim /var/www/html/wp-config.php
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">分別修改資料庫名稱、用戶名稱、用戶密碼
+</span></span></code></pre></td></tr></table>
 </div>
 </div><br/>
 <p>18.添加一行文字，防止插件安裝出現FTP認證界面<br>

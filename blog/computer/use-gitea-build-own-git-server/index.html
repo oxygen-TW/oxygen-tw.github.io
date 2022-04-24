@@ -34,7 +34,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.92.0" />
+<meta name="generator" content="Hugo 0.97.2" />
 
 
 <link rel="canonical" href="https://oxygentw.net/blog/computer/use-gitea-build-own-git-server/" />
@@ -354,7 +354,7 @@ if (!doNotTrack) {
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">arch</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">arch</span></span></code></pre></td></tr></table>
 </div>
 </div>
 <br/>
@@ -367,10 +367,10 @@ if (!doNotTrack) {
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">sudo mkdir /opt/gitea
-sudo mv gitea-1.4.0-rc3-linux-amd64 /opt/gitea/gitea
-<span class="nb">cd</span> /opt/gitea
-sudo chmod +x gitea</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sudo mkdir /opt/gitea
+</span></span><span class="line"><span class="cl">sudo mv gitea-1.4.0-rc3-linux-amd64 /opt/gitea/gitea
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> /opt/gitea
+</span></span><span class="line"><span class="cl">sudo chmod +x gitea</span></span></code></pre></td></tr></table>
 </div>
 </div>
 <br/>
@@ -385,12 +385,12 @@ sudo chmod +x gitea</code></pre></td></tr></table>
 </span><span class="lnt">6
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="c1">#Install</span>
-sudo apt-get update
-sudo apt-get install mysql-server
-
-<span class="c1">#Configure</span>
-mysql_secure_installation</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="c1">#Install</span>
+</span></span><span class="line"><span class="cl">sudo apt-get update
+</span></span><span class="line"><span class="cl">sudo apt-get install mysql-server
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#Configure</span>
+</span></span><span class="line"><span class="cl">mysql_secure_installation</span></span></code></pre></td></tr></table>
 </div>
 </div>
 <br/>
@@ -401,7 +401,7 @@ mysql_secure_installation</code></pre></td></tr></table>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">sudo ./gitea</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sudo ./gitea</span></span></code></pre></td></tr></table>
 </div>
 </div>
 <br/>
@@ -452,8 +452,8 @@ mysql_secure_installation</code></pre></td></tr></table>
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">sudo touch /etc/init.d/gitea
-sudo chmod +x /etc/init.d/gitea</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sudo touch /etc/init.d/gitea
+</span></span><span class="line"><span class="cl">sudo chmod +x /etc/init.d/gitea</span></span></code></pre></td></tr></table>
 </div>
 </div>
 <br/>
@@ -472,15 +472,15 @@ sudo chmod +x /etc/init.d/gitea</code></pre></td></tr></table>
 </span><span class="lnt">9
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="nv">DESC</span><span class="o">=</span><span class="s2">&#34;對這個軟體的描述&#34;</span>
-<span class="nv">NAME</span><span class="o">=</span>gitea
-<span class="nv">SERVICEVERBOSE</span><span class="o">=</span>yes
-<span class="nv">PIDFILE</span><span class="o">=</span>/var/run/<span class="nv">$NAME</span>.pid
-<span class="nv">SCRIPTNAME</span><span class="o">=</span>/etc/init.d/<span class="nv">$NAME</span>
-<span class="nv">WORKINGDIR</span><span class="o">=</span>安裝目錄路徑
-<span class="nv">DAEMON</span><span class="o">=</span><span class="nv">$WORKINGDIR</span>/<span class="nv">$NAME</span>
-<span class="nv">DAEMON_ARGS</span><span class="o">=</span><span class="s2">&#34;web&#34;</span>
-<span class="nv">USER</span><span class="o">=</span>用來啟動 gitea 的使用者</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="nv">DESC</span><span class="o">=</span><span class="s2">&#34;對這個軟體的描述&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">NAME</span><span class="o">=</span>gitea
+</span></span><span class="line"><span class="cl"><span class="nv">SERVICEVERBOSE</span><span class="o">=</span>yes
+</span></span><span class="line"><span class="cl"><span class="nv">PIDFILE</span><span class="o">=</span>/var/run/<span class="nv">$NAME</span>.pid
+</span></span><span class="line"><span class="cl"><span class="nv">SCRIPTNAME</span><span class="o">=</span>/etc/init.d/<span class="nv">$NAME</span>
+</span></span><span class="line"><span class="cl"><span class="nv">WORKINGDIR</span><span class="o">=</span>安裝目錄路徑
+</span></span><span class="line"><span class="cl"><span class="nv">DAEMON</span><span class="o">=</span><span class="nv">$WORKINGDIR</span>/<span class="nv">$NAME</span>
+</span></span><span class="line"><span class="cl"><span class="nv">DAEMON_ARGS</span><span class="o">=</span><span class="s2">&#34;web&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">USER</span><span class="o">=</span>用來啟動 gitea 的使用者</span></span></code></pre></td></tr></table>
 </div>
 </div>
 <br/>
@@ -490,7 +490,7 @@ sudo chmod +x /etc/init.d/gitea</code></pre></td></tr></table>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">sudo /etc/init.d/gitea start</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sudo /etc/init.d/gitea start</span></span></code></pre></td></tr></table>
 </div>
 </div>
 <br/>
@@ -503,7 +503,7 @@ sudo chmod +x /etc/init.d/gitea</code></pre></td></tr></table>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">gitea <span class="m">15793</span> root 8u IPv6 <span class="m">15140468</span> 0t0 TCP *:x11 <span class="o">(</span>LISTEN<span class="o">)</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">gitea <span class="m">15793</span> root 8u IPv6 <span class="m">15140468</span> 0t0 TCP *:x11 <span class="o">(</span>LISTEN<span class="o">)</span></span></span></code></pre></td></tr></table>
 </div>
 </div>
 <p>完成！</p>

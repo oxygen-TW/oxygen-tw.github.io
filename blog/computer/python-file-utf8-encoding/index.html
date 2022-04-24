@@ -33,7 +33,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.92.0" />
+<meta name="generator" content="Hugo 0.97.2" />
 
 
 <link rel="canonical" href="https://oxygentw.net/blog/computer/python-file-utf8-encoding/" />
@@ -342,10 +342,10 @@ if (!doNotTrack) {
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">Traceback <span class="o">(</span>most recent call last<span class="o">)</span>:
-  File <span class="s2">&#34;.\main.py&#34;</span>, line 4, in &lt;module&gt;
-    <span class="nv">line</span> <span class="o">=</span> f.read<span class="o">()</span>
-UnicodeDecodeError: <span class="s1">&#39;cp950&#39;</span> codec can<span class="err">&#39;</span>t decode byte 0xe8 in position 7: illegal multibyte sequence</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">Traceback <span class="o">(</span>most recent call last<span class="o">)</span>:
+</span></span><span class="line"><span class="cl">  File <span class="s2">&#34;.\main.py&#34;</span>, line 4, in &lt;module&gt;
+</span></span><span class="line"><span class="cl">    <span class="nv">line</span> <span class="o">=</span> f.read<span class="o">()</span>
+</span></span><span class="line"><span class="cl">UnicodeDecodeError: <span class="s1">&#39;cp950&#39;</span> codec can<span class="err">&#39;</span>t decode byte 0xe8 in position 7: illegal multibyte sequence</span></span></code></pre></td></tr></table>
 </div>
 </div>
 <hr>
@@ -361,13 +361,13 @@ UnicodeDecodeError: <span class="s1">&#39;cp950&#39;</span> codec can<span class
 </span><span class="lnt">7
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">re</span>
-
-<span class="n">f</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&#34;data1109.txt&#34;</span><span class="p">,</span><span class="s2">&#34;r&#34;</span><span class="p">)</span> <span class="c1">#注意此行</span>
-<span class="n">line</span> <span class="o">=</span> <span class="n">f</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
-
-<span class="n">arr</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">findall</span><span class="p">(</span><span class="sa">r</span><span class="s2">&#34;[0-9]+:[0-9]+\s&#34;</span><span class="p">,</span> <span class="n">line</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">arr</span><span class="p">))</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">re</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">f</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&#34;data1109.txt&#34;</span><span class="p">,</span><span class="s2">&#34;r&#34;</span><span class="p">)</span> <span class="c1">#注意此行</span>
+</span></span><span class="line"><span class="cl"><span class="n">line</span> <span class="o">=</span> <span class="n">f</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">arr</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">findall</span><span class="p">(</span><span class="sa">r</span><span class="s2">&#34;[0-9]+:[0-9]+\s&#34;</span><span class="p">,</span> <span class="n">line</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">arr</span><span class="p">))</span></span></span></code></pre></td></tr></table>
 </div>
 </div>
 <br/>
@@ -384,13 +384,13 @@ UnicodeDecodeError: <span class="s1">&#39;cp950&#39;</span> codec can<span class
 </span><span class="lnt">7
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">re</span>
-
-<span class="n">f</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&#34;data1109.txt&#34;</span><span class="p">,</span><span class="s2">&#34;r&#34;</span><span class="p">,</span><span class="n">encoding</span><span class="o">=</span><span class="s2">&#34;utf-8&#34;</span><span class="p">)</span>  <span class="c1">#注意此行</span>
-<span class="n">line</span> <span class="o">=</span> <span class="n">f</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
-
-<span class="n">arr</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">findall</span><span class="p">(</span><span class="sa">r</span><span class="s2">&#34;[0-9]+:[0-9]+\s&#34;</span><span class="p">,</span> <span class="n">line</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">arr</span><span class="p">))</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">re</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">f</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&#34;data1109.txt&#34;</span><span class="p">,</span><span class="s2">&#34;r&#34;</span><span class="p">,</span><span class="n">encoding</span><span class="o">=</span><span class="s2">&#34;utf-8&#34;</span><span class="p">)</span>  <span class="c1">#注意此行</span>
+</span></span><span class="line"><span class="cl"><span class="n">line</span> <span class="o">=</span> <span class="n">f</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">arr</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">findall</span><span class="p">(</span><span class="sa">r</span><span class="s2">&#34;[0-9]+:[0-9]+\s&#34;</span><span class="p">,</span> <span class="n">line</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">arr</span><span class="p">))</span></span></span></code></pre></td></tr></table>
 </div>
 </div></p>
 

@@ -34,7 +34,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.92.0" />
+<meta name="generator" content="Hugo 0.97.2" />
 
 
 <link rel="canonical" href="https://oxygentw.net/blog/computer/python-requests/" />
@@ -346,7 +346,7 @@ if (!doNotTrack) {
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"> <span class="n">pip</span> <span class="n">install</span> <span class="n">requests</span> </code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"> <span class="n">pip</span> <span class="n">install</span> <span class="n">requests</span> </span></span></code></pre></td></tr></table>
 </div>
 </div>
 <br/>
@@ -357,7 +357,7 @@ if (!doNotTrack) {
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">requests</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">requests</span></span></span></code></pre></td></tr></table>
 </div>
 </div></p>
 <br/>
@@ -367,7 +367,7 @@ if (!doNotTrack) {
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="n">r</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;https://api.github.com/events&#39;</span><span class="p">)</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">r</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;https://api.github.com/events&#39;</span><span class="p">)</span></span></span></code></pre></td></tr></table>
 </div>
 </div></p>
 <br/>
@@ -377,7 +377,7 @@ if (!doNotTrack) {
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="n">r</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">post</span><span class="p">(</span><span class="s1">&#39;http://httpbin.org/post&#39;</span><span class="p">,</span> <span class="n">data</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;key&#39;</span><span class="p">:</span><span class="s1">&#39;value&#39;</span><span class="p">})</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">r</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">post</span><span class="p">(</span><span class="s1">&#39;http://httpbin.org/post&#39;</span><span class="p">,</span> <span class="n">data</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;key&#39;</span><span class="p">:</span><span class="s1">&#39;value&#39;</span><span class="p">})</span></span></span></code></pre></td></tr></table>
 </div>
 </div></p>
 <br/>
@@ -390,10 +390,10 @@ if (!doNotTrack) {
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="n">r</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">put</span><span class="p">(</span><span class="s1">&#39;http://httpbin.org/put&#39;</span><span class="p">,</span> <span class="n">data</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;key&#39;</span><span class="p">:</span><span class="s1">&#39;value&#39;</span><span class="p">})</span>
-<span class="n">r</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">delete</span><span class="p">(</span><span class="s1">&#39;http://httpbin.org/delete&#39;</span><span class="p">)</span>
-<span class="n">r</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="s1">&#39;http://httpbin.org/get&#39;</span><span class="p">)</span>
-<span class="n">r</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">options</span><span class="p">(</span><span class="s1">&#39;http://httpbin.org/get&#39;</span><span class="p">)</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">r</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">put</span><span class="p">(</span><span class="s1">&#39;http://httpbin.org/put&#39;</span><span class="p">,</span> <span class="n">data</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;key&#39;</span><span class="p">:</span><span class="s1">&#39;value&#39;</span><span class="p">})</span>
+</span></span><span class="line"><span class="cl"><span class="n">r</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">delete</span><span class="p">(</span><span class="s1">&#39;http://httpbin.org/delete&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">r</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="s1">&#39;http://httpbin.org/get&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">r</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">options</span><span class="p">(</span><span class="s1">&#39;http://httpbin.org/get&#39;</span><span class="p">)</span></span></span></code></pre></td></tr></table>
 </div>
 </div></p>
 <br/>
@@ -407,10 +407,10 @@ if (!doNotTrack) {
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="n">payload</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;key1&#39;</span><span class="p">:</span> <span class="s1">&#39;value1&#39;</span><span class="p">,</span> <span class="s1">&#39;key2&#39;</span><span class="p">:</span> <span class="s1">&#39;value2&#39;</span><span class="p">}</span>
-<span class="n">r</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;http://httpbin.org/get&#39;</span><span class="p">,</span> <span class="n">params</span><span class="o">=</span><span class="n">payload</span><span class="p">)</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="n">r</span><span class="o">.</span><span class="n">url</span><span class="p">)</span> <span class="c1">#查看傳送的 URL</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">payload</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;key1&#39;</span><span class="p">:</span> <span class="s1">&#39;value1&#39;</span><span class="p">,</span> <span class="s1">&#39;key2&#39;</span><span class="p">:</span> <span class="s1">&#39;value2&#39;</span><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="n">r</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;http://httpbin.org/get&#39;</span><span class="p">,</span> <span class="n">params</span><span class="o">=</span><span class="n">payload</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">r</span><span class="o">.</span><span class="n">url</span><span class="p">)</span> <span class="c1">#查看傳送的 URL</span></span></span></code></pre></td></tr></table>
 </div>
 </div></p>
 <br/>
@@ -429,15 +429,15 @@ if (!doNotTrack) {
 </span><span class="lnt">9
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="nb">print</span><span class="p">(</span><span class="n">r</span><span class="o">.</span><span class="n">text</span><span class="p">)</span> <span class="c1">#列出文字</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="n">r</span><span class="o">.</span><span class="n">encoding</span><span class="p">)</span> <span class="c1">#列出編碼</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="n">r</span><span class="o">.</span><span class="n">status_code</span><span class="p">)</span> <span class="c1">#列出 HTTP 狀態碼</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="n">r</span><span class="o">.</span><span class="n">headers</span><span class="p">)</span> <span class="c1">#列出 HTTP Response Headers</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="n">r</span><span class="o">.</span><span class="n">headers</span><span class="p">[</span><span class="s1">&#39;Content-Type&#39;</span><span class="p">])</span> <span class="c1">#印出 Header 中的 Content-Type</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">r</span><span class="o">.</span><span class="n">text</span><span class="p">)</span> <span class="c1">#列出文字</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">r</span><span class="o">.</span><span class="n">encoding</span><span class="p">)</span> <span class="c1">#列出編碼</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">r</span><span class="o">.</span><span class="n">status_code</span><span class="p">)</span> <span class="c1">#列出 HTTP 狀態碼</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">r</span><span class="o">.</span><span class="n">headers</span><span class="p">)</span> <span class="c1">#列出 HTTP Response Headers</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">r</span><span class="o">.</span><span class="n">headers</span><span class="p">[</span><span class="s1">&#39;Content-Type&#39;</span><span class="p">])</span> <span class="c1">#印出 Header 中的 Content-Type</span></span></span></code></pre></td></tr></table>
 </div>
 </div>
 <br/>
@@ -449,8 +449,8 @@ if (!doNotTrack) {
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="n">r</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;https://api.github.com/events&#39;</span><span class="p">)</span>
-<span class="n">r</span><span class="o">.</span><span class="n">json</span><span class="p">()</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">r</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;https://api.github.com/events&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">r</span><span class="o">.</span><span class="n">json</span><span class="p">()</span></span></span></code></pre></td></tr></table>
 </div>
 </div>
 <br/>
@@ -464,10 +464,10 @@ if (!doNotTrack) {
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="n">url</span> <span class="o">=</span> <span class="s1">&#39;https://api.github.com/some/endpoint&#39;</span>
-<span class="n">headers</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;user-agent&#39;</span><span class="p">:</span> <span class="s1">&#39;Mozilla/5.0&#39;</span><span class="p">}</span>
-
-<span class="n">r</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">headers</span><span class="o">=</span><span class="n">headers</span><span class="p">)</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">url</span> <span class="o">=</span> <span class="s1">&#39;https://api.github.com/some/endpoint&#39;</span>
+</span></span><span class="line"><span class="cl"><span class="n">headers</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;user-agent&#39;</span><span class="p">:</span> <span class="s1">&#39;Mozilla/5.0&#39;</span><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">r</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">headers</span><span class="o">=</span><span class="n">headers</span><span class="p">)</span></span></span></code></pre></td></tr></table>
 </div>
 </div>
 <br/>
@@ -478,7 +478,7 @@ if (!doNotTrack) {
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;http://github.com&#39;</span><span class="p">,</span> <span class="n">timeout</span><span class="o">=</span><span class="p">[</span><span class="n">SECOND</span><span class="p">])</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;http://github.com&#39;</span><span class="p">,</span> <span class="n">timeout</span><span class="o">=</span><span class="p">[</span><span class="n">SECOND</span><span class="p">])</span></span></span></code></pre></td></tr></table>
 </div>
 </div>
 <br/>
@@ -489,7 +489,7 @@ if (!doNotTrack) {
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="n">r</span><span class="o">.</span><span class="n">encoding</span> <span class="o">=</span> <span class="s1">&#39;ISO-8859-1&#39;</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">r</span><span class="o">.</span><span class="n">encoding</span> <span class="o">=</span> <span class="s1">&#39;ISO-8859-1&#39;</span></span></span></code></pre></td></tr></table>
 </div>
 </div>
 <br/>
@@ -502,10 +502,10 @@ if (!doNotTrack) {
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="n">url</span> <span class="o">=</span> <span class="s1">&#39;http://example.com/some/cookie/setting/url&#39;</span>
-<span class="n">r</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">url</span><span class="p">)</span>
-
-<span class="n">r</span><span class="o">.</span><span class="n">cookies</span><span class="p">[</span><span class="s1">&#39;example_cookie_name&#39;</span><span class="p">]</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">url</span> <span class="o">=</span> <span class="s1">&#39;http://example.com/some/cookie/setting/url&#39;</span>
+</span></span><span class="line"><span class="cl"><span class="n">r</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">url</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">r</span><span class="o">.</span><span class="n">cookies</span><span class="p">[</span><span class="s1">&#39;example_cookie_name&#39;</span><span class="p">]</span></span></span></code></pre></td></tr></table>
 </div>
 </div></p>
 <br/>
@@ -519,11 +519,11 @@ if (!doNotTrack) {
 </span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="n">url</span> <span class="o">=</span> <span class="s1">&#39;http://httpbin.org/cookies&#39;</span>
-<span class="n">cookies</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span><span class="n">cookies_are</span><span class="o">=</span><span class="s1">&#39;working&#39;</span><span class="p">)</span>
-
-<span class="n">r</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">cookies</span><span class="o">=</span><span class="n">cookies</span><span class="p">)</span>
-<span class="n">r</span><span class="o">.</span><span class="n">text</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">url</span> <span class="o">=</span> <span class="s1">&#39;http://httpbin.org/cookies&#39;</span>
+</span></span><span class="line"><span class="cl"><span class="n">cookies</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span><span class="n">cookies_are</span><span class="o">=</span><span class="s1">&#39;working&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">r</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">cookies</span><span class="o">=</span><span class="n">cookies</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">r</span><span class="o">.</span><span class="n">text</span></span></span></code></pre></td></tr></table>
 </div>
 </div></p>
 <br/>

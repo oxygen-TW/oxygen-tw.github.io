@@ -34,7 +34,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.92.0" />
+<meta name="generator" content="Hugo 0.97.2" />
 
 
 <link rel="canonical" href="https://oxygentw.net/blog/computer/python-bmi/" />
@@ -379,43 +379,43 @@ if (!doNotTrack) {
 </span><span class="lnt">37
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="k">def</span> <span class="nf">BMIStandard</span><span class="p">(</span><span class="n">BMI</span><span class="p">):</span>
-    <span class="k">if</span> <span class="n">BMI</span> <span class="o">&lt;</span> <span class="mf">18.5</span><span class="p">:</span>
-        <span class="k">return</span> <span class="s2">&#34;BMI 過低，體重過輕&#34;</span>
-    <span class="k">elif</span> <span class="n">BMI</span><span class="o">&lt;</span><span class="mi">24</span><span class="p">:</span>
-        <span class="k">return</span> <span class="s2">&#34;BMI 正常，標準體位&#34;</span>
-    <span class="k">else</span><span class="p">:</span>
-        <span class="k">if</span> <span class="n">BMI</span> <span class="o">&lt;</span> <span class="mi">27</span><span class="p">:</span>
-            <span class="k">return</span> <span class="s2">&#34;BMI 過高，體重過重&#34;</span>
-        <span class="k">elif</span> <span class="n">BMI</span> <span class="o">&lt;</span> <span class="mi">30</span><span class="p">:</span>
-            <span class="k">return</span> <span class="s2">&#34;BMI 過高，輕度肥胖&#34;</span>
-        <span class="k">elif</span> <span class="n">BMI</span> <span class="o">&lt;</span> <span class="mi">35</span><span class="p">:</span>
-            <span class="k">return</span> <span class="s2">&#34;BMI 過高，中度肥胖&#34;</span>
-        <span class="k">else</span><span class="p">:</span>
-            <span class="k">return</span> <span class="s2">&#34;BMI 過高，重度肥胖&#34;</span>
-
-<span class="c1">#使用者輸入資訊</span>
-<span class="n">weight</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&#34;體重(kg): &#34;</span><span class="p">))</span>
-<span class="n">height</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&#34;身高(cm): &#34;</span><span class="p">))</span>
-
-<span class="c1">#身高公分轉公尺</span>
-<span class="n">height</span> <span class="o">=</span> <span class="n">height</span> <span class="o">/</span> <span class="mi">100</span>
-
-<span class="c1">#BMI 計算，四捨五入小數第二位</span>
-<span class="n">BMI</span> <span class="o">=</span> <span class="nb">round</span><span class="p">(</span><span class="n">weight</span> <span class="o">/</span> <span class="p">(</span><span class="n">height</span> <span class="o">**</span> <span class="mi">2</span><span class="p">),</span><span class="mi">2</span><span class="p">)</span>
-
-<span class="c1">#輸出結果，呼叫分類 function</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">&#34;</span><span class="se">\n</span><span class="s2">BMI 計算結果 = &#34;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">BMI</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">BMIStandard</span><span class="p">(</span><span class="n">BMI</span><span class="p">))</span>
-
-<span class="c1">#計算標準體位的體重，四捨五入小數第二位</span>
-<span class="k">if</span><span class="p">(</span><span class="n">BMI</span> <span class="o">&lt;</span> <span class="mf">18.5</span><span class="p">):</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;標準體態下限體重須達到:&#34;</span><span class="p">,</span><span class="nb">round</span><span class="p">((</span><span class="mf">18.5</span><span class="o">*</span><span class="n">height</span><span class="o">**</span><span class="mi">2</span><span class="p">),</span><span class="mi">2</span><span class="p">),</span><span class="s2">&#34;kg&#34;</span><span class="p">)</span>
-<span class="k">if</span><span class="p">(</span><span class="n">BMI</span> <span class="o">&gt;</span> <span class="mi">24</span><span class="p">):</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;標準體態上限體重須達到:&#34;</span><span class="p">,</span><span class="nb">round</span><span class="p">((</span><span class="mi">24</span><span class="o">*</span><span class="n">height</span><span class="o">**</span><span class="mi">2</span><span class="p">),</span><span class="mi">2</span><span class="p">),</span><span class="s2">&#34;kg&#34;</span><span class="p">)</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="s2">&#34;</span><span class="se">\n</span><span class="s2">BMI 標準來自健康九九網站 https://health99.hpa.gov.tw/OnlinkHealth/Onlink_BMI.aspx&#34;</span><span class="p">)</span>
-<span class="n">exit</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">BMIStandard</span><span class="p">(</span><span class="n">BMI</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="n">BMI</span> <span class="o">&lt;</span> <span class="mf">18.5</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="s2">&#34;BMI 過低，體重過輕&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">elif</span> <span class="n">BMI</span><span class="o">&lt;</span><span class="mi">24</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="s2">&#34;BMI 正常，標準體位&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">else</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="n">BMI</span> <span class="o">&lt;</span> <span class="mi">27</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">            <span class="k">return</span> <span class="s2">&#34;BMI 過高，體重過重&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">elif</span> <span class="n">BMI</span> <span class="o">&lt;</span> <span class="mi">30</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">            <span class="k">return</span> <span class="s2">&#34;BMI 過高，輕度肥胖&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">elif</span> <span class="n">BMI</span> <span class="o">&lt;</span> <span class="mi">35</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">            <span class="k">return</span> <span class="s2">&#34;BMI 過高，中度肥胖&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">else</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">            <span class="k">return</span> <span class="s2">&#34;BMI 過高，重度肥胖&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#使用者輸入資訊</span>
+</span></span><span class="line"><span class="cl"><span class="n">weight</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&#34;體重(kg): &#34;</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl"><span class="n">height</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&#34;身高(cm): &#34;</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#身高公分轉公尺</span>
+</span></span><span class="line"><span class="cl"><span class="n">height</span> <span class="o">=</span> <span class="n">height</span> <span class="o">/</span> <span class="mi">100</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#BMI 計算，四捨五入小數第二位</span>
+</span></span><span class="line"><span class="cl"><span class="n">BMI</span> <span class="o">=</span> <span class="nb">round</span><span class="p">(</span><span class="n">weight</span> <span class="o">/</span> <span class="p">(</span><span class="n">height</span> <span class="o">**</span> <span class="mi">2</span><span class="p">),</span><span class="mi">2</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#輸出結果，呼叫分類 function</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="s2">&#34;</span><span class="se">\n</span><span class="s2">BMI 計算結果 = &#34;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">BMI</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">BMIStandard</span><span class="p">(</span><span class="n">BMI</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#計算標準體位的體重，四捨五入小數第二位</span>
+</span></span><span class="line"><span class="cl"><span class="k">if</span><span class="p">(</span><span class="n">BMI</span> <span class="o">&lt;</span> <span class="mf">18.5</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;標準體態下限體重須達到:&#34;</span><span class="p">,</span><span class="nb">round</span><span class="p">((</span><span class="mf">18.5</span><span class="o">*</span><span class="n">height</span><span class="o">**</span><span class="mi">2</span><span class="p">),</span><span class="mi">2</span><span class="p">),</span><span class="s2">&#34;kg&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="k">if</span><span class="p">(</span><span class="n">BMI</span> <span class="o">&gt;</span> <span class="mi">24</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;標準體態上限體重須達到:&#34;</span><span class="p">,</span><span class="nb">round</span><span class="p">((</span><span class="mi">24</span><span class="o">*</span><span class="n">height</span><span class="o">**</span><span class="mi">2</span><span class="p">),</span><span class="mi">2</span><span class="p">),</span><span class="s2">&#34;kg&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="s2">&#34;</span><span class="se">\n</span><span class="s2">BMI 標準來自健康九九網站 https://health99.hpa.gov.tw/OnlinkHealth/Onlink_BMI.aspx&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">exit</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span></span></span></code></pre></td></tr></table>
 </div>
 </div></p>
 <h2 id="執行結果">執行結果</h2>

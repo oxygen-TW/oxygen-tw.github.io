@@ -35,7 +35,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.92.0" />
+<meta name="generator" content="Hugo 0.97.2" />
 
 
 <link rel="canonical" href="https://oxygentw.net/blog/computer/c-standard-library-qsort/" />
@@ -356,11 +356,11 @@ if (!doNotTrack) {
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="kt">int</span> <span class="nf">cmpfunc</span> <span class="p">(</span><span class="k">const</span> <span class="kt">void</span> <span class="o">*</span> <span class="n">a</span><span class="p">,</span> <span class="k">const</span> <span class="kt">void</span> <span class="o">*</span> <span class="n">b</span><span class="p">)</span>
-<span class="p">{</span>
-   <span class="k">return</span> <span class="p">(</span> <span class="o">*</span><span class="p">(</span><span class="kt">int</span><span class="o">*</span><span class="p">)</span><span class="n">a</span> <span class="o">-</span> <span class="o">*</span><span class="p">(</span><span class="kt">int</span><span class="o">*</span><span class="p">)</span><span class="n">b</span> <span class="p">)</span>
-<span class="p">}</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="kt">int</span> <span class="nf">cmpfunc</span> <span class="p">(</span><span class="k">const</span> <span class="kt">void</span> <span class="o">*</span> <span class="n">a</span><span class="p">,</span> <span class="k">const</span> <span class="kt">void</span> <span class="o">*</span> <span class="n">b</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">   <span class="k">return</span> <span class="p">(</span> <span class="o">*</span><span class="p">(</span><span class="kt">int</span><span class="o">*</span><span class="p">)</span><span class="n">a</span> <span class="o">-</span> <span class="o">*</span><span class="p">(</span><span class="kt">int</span><span class="o">*</span><span class="p">)</span><span class="n">b</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>傳入 a,b 兩參數型別是 void <em>，需要強制轉型成被排序陣列的型別，如範例中 a,b <font color=red>先被強制轉型成整數指標 (int</em>)，再對他取值做處理。</font></p>
 <hr>
@@ -395,32 +395,32 @@ if (!doNotTrack) {
 </span><span class="lnt">26
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="cp">#include</span> <span class="cpf">&lt;stdio.h&gt;</span><span class="cp">
-</span><span class="cp">#include</span> <span class="cpf">&lt;stdlib.h&gt;</span><span class="cp">
-</span><span class="cp"></span> 
-<span class="kt">void</span> <span class="nf">printIntArr</span><span class="p">(</span><span class="kt">int</span> <span class="o">*</span><span class="n">arr</span><span class="p">,</span><span class="kt">int</span> <span class="n">arrSize</span><span class="p">)</span> <span class="p">{</span>
-<span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">i</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span> <span class="n">i</span><span class="o">&lt;</span><span class="n">arrSize</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
-       <span class="n">printf</span><span class="p">(</span><span class="s">&#34;%d &#34;</span><span class="p">,</span><span class="n">arr</span><span class="p">[</span><span class="n">i</span><span class="p">]);</span>
-   <span class="p">}</span> 
-   <span class="n">printf</span><span class="p">(</span><span class="s">&#34;</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span>
-<span class="p">}</span>
- 
-<span class="kt">int</span> <span class="nf">cmpfunc</span> <span class="p">(</span><span class="k">const</span> <span class="kt">void</span> <span class="o">*</span> <span class="n">a</span><span class="p">,</span> <span class="k">const</span> <span class="kt">void</span> <span class="o">*</span> <span class="n">b</span><span class="p">)</span> <span class="p">{</span>
-    <span class="k">return</span> <span class="o">*</span><span class="p">(</span><span class="kt">int</span><span class="o">*</span><span class="p">)</span><span class="n">a</span> <span class="o">-</span> <span class="o">*</span><span class="p">(</span><span class="kt">int</span><span class="o">*</span><span class="p">)</span><span class="n">b</span><span class="p">;</span>
-<span class="p">}</span>
- 
-<span class="kt">int</span> <span class="nf">main</span> <span class="p">()</span>
-<span class="p">{</span>
-<span class="kt">int</span> <span class="n">arr</span><span class="p">[]</span> <span class="o">=</span> <span class="p">{</span> <span class="mi">56</span><span class="p">,</span> <span class="mi">45</span><span class="p">,</span> <span class="mi">48</span><span class="p">,</span> <span class="mi">12</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4568</span><span class="p">,</span> <span class="mi">45</span><span class="p">,</span> <span class="mi">48</span><span class="p">,</span> <span class="mi">213</span><span class="p">,</span> <span class="mi">54</span><span class="p">,</span> <span class="mi">32</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">23</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="o">-</span><span class="mi">2</span><span class="p">,</span> <span class="mi">56</span> <span class="p">};</span>
- 
-<span class="n">printIntArr</span><span class="p">(</span><span class="n">arr</span><span class="p">,(</span><span class="k">sizeof</span><span class="p">(</span><span class="n">arr</span><span class="p">)</span><span class="o">/</span><span class="k">sizeof</span><span class="p">(</span><span class="kt">int</span><span class="p">)));</span>
- 
-<span class="n">qsort</span><span class="p">(</span><span class="n">arr</span><span class="p">,</span><span class="k">sizeof</span><span class="p">(</span><span class="n">arr</span><span class="p">)</span><span class="o">/</span><span class="k">sizeof</span><span class="p">(</span><span class="kt">int</span><span class="p">),</span><span class="k">sizeof</span><span class="p">(</span><span class="kt">int</span><span class="p">),</span><span class="n">cmpfunc</span><span class="p">);</span> <span class="c1">//Quick sort
-</span><span class="c1"></span> 
-<span class="n">printIntArr</span><span class="p">(</span><span class="n">arr</span><span class="p">,(</span><span class="k">sizeof</span><span class="p">(</span><span class="n">arr</span><span class="p">)</span><span class="o">/</span><span class="k">sizeof</span><span class="p">(</span><span class="kt">int</span><span class="p">)));</span>
- 
-<span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
-<span class="p">}</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;stdio.h&gt;</span><span class="cp">
+</span></span></span><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;stdlib.h&gt;</span><span class="cp">
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span> 
+</span></span><span class="line"><span class="cl"><span class="kt">void</span> <span class="nf">printIntArr</span><span class="p">(</span><span class="kt">int</span> <span class="o">*</span><span class="n">arr</span><span class="p">,</span><span class="kt">int</span> <span class="n">arrSize</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl"><span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">i</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span> <span class="n">i</span><span class="o">&lt;</span><span class="n">arrSize</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">       <span class="n">printf</span><span class="p">(</span><span class="s">&#34;%d &#34;</span><span class="p">,</span><span class="n">arr</span><span class="p">[</span><span class="n">i</span><span class="p">]);</span>
+</span></span><span class="line"><span class="cl">   <span class="p">}</span> 
+</span></span><span class="line"><span class="cl">   <span class="n">printf</span><span class="p">(</span><span class="s">&#34;</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="nf">cmpfunc</span> <span class="p">(</span><span class="k">const</span> <span class="kt">void</span> <span class="o">*</span> <span class="n">a</span><span class="p">,</span> <span class="k">const</span> <span class="kt">void</span> <span class="o">*</span> <span class="n">b</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="o">*</span><span class="p">(</span><span class="kt">int</span><span class="o">*</span><span class="p">)</span><span class="n">a</span> <span class="o">-</span> <span class="o">*</span><span class="p">(</span><span class="kt">int</span><span class="o">*</span><span class="p">)</span><span class="n">b</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="nf">main</span> <span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="n">arr</span><span class="p">[]</span> <span class="o">=</span> <span class="p">{</span> <span class="mi">56</span><span class="p">,</span> <span class="mi">45</span><span class="p">,</span> <span class="mi">48</span><span class="p">,</span> <span class="mi">12</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4568</span><span class="p">,</span> <span class="mi">45</span><span class="p">,</span> <span class="mi">48</span><span class="p">,</span> <span class="mi">213</span><span class="p">,</span> <span class="mi">54</span><span class="p">,</span> <span class="mi">32</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">23</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="o">-</span><span class="mi">2</span><span class="p">,</span> <span class="mi">56</span> <span class="p">};</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl"><span class="n">printIntArr</span><span class="p">(</span><span class="n">arr</span><span class="p">,(</span><span class="k">sizeof</span><span class="p">(</span><span class="n">arr</span><span class="p">)</span><span class="o">/</span><span class="k">sizeof</span><span class="p">(</span><span class="kt">int</span><span class="p">)));</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl"><span class="n">qsort</span><span class="p">(</span><span class="n">arr</span><span class="p">,</span><span class="k">sizeof</span><span class="p">(</span><span class="n">arr</span><span class="p">)</span><span class="o">/</span><span class="k">sizeof</span><span class="p">(</span><span class="kt">int</span><span class="p">),</span><span class="k">sizeof</span><span class="p">(</span><span class="kt">int</span><span class="p">),</span><span class="n">cmpfunc</span><span class="p">);</span> <span class="c1">//Quick sort
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span> 
+</span></span><span class="line"><span class="cl"><span class="n">printIntArr</span><span class="p">(</span><span class="n">arr</span><span class="p">,(</span><span class="k">sizeof</span><span class="p">(</span><span class="n">arr</span><span class="p">)</span><span class="o">/</span><span class="k">sizeof</span><span class="p">(</span><span class="kt">int</span><span class="p">)));</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl"><span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span></span></span></code></pre></td></tr></table>
 </div>
 </div></p>
 <br/>

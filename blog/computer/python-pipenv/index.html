@@ -34,7 +34,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.92.0" />
+<meta name="generator" content="Hugo 0.97.2" />
 
 
 <link rel="canonical" href="https://oxygentw.net/blog/computer/python-pipenv/" />
@@ -338,8 +338,8 @@ if (!doNotTrack) {
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">pip install pipenv
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">pip install pipenv
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>如何創建一個 Project：</p>
 <div class="highlight"><div class="chroma">
@@ -348,9 +348,9 @@ if (!doNotTrack) {
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">pipenv --python [PYTHON VERSION]
-pipenv --python 3.7
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">pipenv --python [PYTHON VERSION]
+</span></span><span class="line"><span class="cl">pipenv --python 3.7
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>安裝完成的提示：
 <img src="https://ithelp.ithome.com.tw/upload/images/20190926/20120282tE3r7FvNM9.jpg" alt="https://ithelp.ithome.com.tw/upload/images/20190926/20120282tE3r7FvNM9.jpg"></p>
@@ -360,8 +360,8 @@ pipenv --python 3.7
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">pipenv install requests numpy 
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">pipenv install requests numpy 
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>第一次執行 pipenv 後會在目錄下產生 Pipfile 裡面會記載安裝過的套件，就像我們以前用的 requirements.txt 一樣，同時也會在安裝好後新增 Pipfile.lock 作為 Hash 的安全檢查用。</p>
 <p><img src="https://ithelp.ithome.com.tw/upload/images/20190926/20120282vgs6F4t42V.jpg" alt="https://ithelp.ithome.com.tw/upload/images/20190926/20120282vgs6F4t42V.jpg"></p>
@@ -373,9 +373,9 @@ pipenv --python 3.7
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">pipenv install pytest --dev 
-pipenv install selenium --dev 
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">pipenv install pytest --dev 
+</span></span><span class="line"><span class="cl">pipenv install selenium --dev 
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>解除安裝也很簡單</p>
 <div class="highlight"><div class="chroma">
@@ -383,8 +383,8 @@ pipenv install selenium --dev
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">pipenv uninstall pytest
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">pipenv uninstall pytest
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>進入虛擬環境的方法，不用像以前還要打一串 <code>Script/activate</code> 等等的東西，直接下 <code>shell</code> 就行啦~</p>
 <div class="highlight"><div class="chroma">
@@ -392,8 +392,8 @@ pipenv install selenium --dev
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">pipenv shell
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">pipenv shell
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>cmd 會出現</p>
 <div class="highlight"><div class="chroma">
@@ -404,11 +404,11 @@ pipenv install selenium --dev
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">Launching subshell in virtual environment…
-Microsoft Windows [版本 10.0.1****.356]
-(c) 2019 Microsoft Corporation. 著作權所有，並保留一切權利。
-參考資料
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">Launching subshell in virtual environment…
+</span></span><span class="line"><span class="cl">Microsoft Windows [版本 10.0.1****.356]
+</span></span><span class="line"><span class="cl">(c) 2019 Microsoft Corporation. 著作權所有，並保留一切權利。
+</span></span><span class="line"><span class="cl">參考資料
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>表示成功進入虛擬環境了。</p>
 <p>產生舊版 requirements.txt 指令</p>
@@ -417,8 +417,8 @@ Microsoft Windows [版本 10.0.1****.356]
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">pipenv lock --requirements &gt; requirements.txt
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">pipenv lock --requirements &gt; requirements.txt
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>列出套件相依圖</p>
 <div class="highlight"><div class="chroma">
@@ -426,8 +426,8 @@ Microsoft Windows [版本 10.0.1****.356]
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">pipenv graph
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">pipenv graph
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>大概就是這些常用指令啦，大家未來在開發 Python 時一定會用到很多第三方函式庫，有了 pipenv 就可以事半功倍啦~</p>
 <br/>

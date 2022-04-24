@@ -34,7 +34,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.92.0" />
+<meta name="generator" content="Hugo 0.97.2" />
 
 
 <link rel="canonical" href="https://oxygentw.net/blog/notes/cpp-bernoulli-trial-simulation/" />
@@ -405,75 +405,75 @@ if (!doNotTrack) {
 </span><span class="lnt">68
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="cm">/*
-</span><span class="cm"> * Bernoulli Trial simulation
-</span><span class="cm"> * By C++
-</span><span class="cm"> * License MIT
-</span><span class="cm"> * 2017/09/19 oxygen
-</span><span class="cm"> */</span>
-
-<span class="cp">#include</span> <span class="cpf">&lt;iostream&gt;</span><span class="cp">
-</span><span class="cp">#include</span> <span class="cpf">&lt;fstream&gt;</span><span class="cp">
-</span><span class="cp">#include</span> <span class="cpf">&lt;cstdlib&gt;</span><span class="cp">
-</span><span class="cp">#include</span> <span class="cpf">&lt;ctime&gt;</span><span class="cp">
-</span><span class="cp"></span>
-<span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
-
-<span class="c1">//Global Variable
-</span><span class="c1"></span><span class="kt">unsigned</span> <span class="kt">long</span> <span class="kt">long</span> <span class="n">sample</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span><span class="n">run_time</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
-
-<span class="kt">void</span> <span class="nf">init</span><span class="p">()</span>
-<span class="p">{</span>
-    <span class="n">fstream</span> <span class="n">fp</span><span class="p">;</span>
-    <span class="n">fp</span><span class="p">.</span><span class="n">open</span><span class="p">(</span><span class="s">&#34;data.txt&#34;</span><span class="p">,</span><span class="n">ios</span><span class="o">::</span><span class="n">out</span><span class="p">);</span>
-    <span class="n">fp</span><span class="o">&lt;&lt;</span><span class="s">&#34;id,true,false,True-rate,False-rate</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">;</span>
-    <span class="n">fp</span><span class="p">.</span><span class="n">close</span><span class="p">();</span>
-
-    <span class="n">srand</span><span class="p">(</span> <span class="p">(</span><span class="kt">unsigned</span><span class="p">)</span><span class="n">time</span><span class="p">(</span><span class="nb">NULL</span><span class="p">));</span>
-    <span class="n">cout</span><span class="o">&lt;&lt;</span><span class="s">&#34;Program is running...</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">;</span>
-<span class="p">}</span>
-
-<span class="kt">bool</span> <span class="nf">Random</span><span class="p">()</span>
-<span class="p">{</span>
-    <span class="kt">unsigned</span> <span class="kt">int</span> <span class="n">ran</span> <span class="o">=</span> <span class="p">(</span><span class="kt">int</span><span class="p">)((</span><span class="n">rand</span><span class="p">()</span> <span class="o">/</span> <span class="p">(</span><span class="n">RAND_MAX</span><span class="o">+</span><span class="mf">1.0</span><span class="p">))</span> <span class="o">*</span> <span class="p">(</span><span class="mi">10</span> <span class="o">-</span> <span class="mi">1</span> <span class="o">+</span> <span class="mf">1.0</span><span class="p">)</span> <span class="o">+</span> <span class="mi">1</span><span class="p">);</span>
-    <span class="k">if</span><span class="p">(</span><span class="n">ran</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span>
-        <span class="k">return</span> <span class="nb">true</span><span class="p">;</span>
-    <span class="k">return</span> <span class="nb">false</span><span class="p">;</span>
-<span class="p">}</span>
-
-<span class="kt">void</span> <span class="nf">write_file</span><span class="p">(</span><span class="k">const</span> <span class="kt">int</span> <span class="n">id</span><span class="p">,</span><span class="k">const</span> <span class="kt">unsigned</span> <span class="kt">long</span> <span class="kt">long</span> <span class="n">True_number</span><span class="p">,</span><span class="k">const</span> <span class="kt">unsigned</span> <span class="kt">long</span> <span class="kt">long</span> <span class="n">False_number</span><span class="p">)</span>
-<span class="p">{</span>
-    <span class="n">fstream</span> <span class="n">fp</span><span class="p">;</span>
-    <span class="n">fp</span><span class="p">.</span><span class="n">open</span><span class="p">(</span><span class="s">&#34;data.txt&#34;</span><span class="p">,</span><span class="n">ios</span><span class="o">::</span><span class="n">out</span><span class="o">|</span><span class="n">ios</span><span class="o">::</span><span class="n">app</span><span class="p">);</span>
-    <span class="n">fp</span><span class="o">&lt;&lt;</span><span class="n">id</span><span class="o">&lt;&lt;</span><span class="s">&#34;,&#34;</span><span class="o">&lt;&lt;</span><span class="n">True_number</span><span class="o">&lt;&lt;</span><span class="s">&#34;,&#34;</span><span class="o">&lt;&lt;</span><span class="n">False_number</span><span class="o">&lt;&lt;</span><span class="s">&#34;,&#34;</span><span class="o">&lt;&lt;</span><span class="p">(</span><span class="n">True_number</span><span class="o">/</span><span class="p">(</span><span class="kt">double</span><span class="p">)</span><span class="n">run_time</span><span class="p">)</span><span class="o">*</span><span class="mi">100</span><span class="o">&lt;&lt;</span><span class="s">&#34;%,&#34;</span><span class="o">&lt;&lt;</span><span class="p">(</span><span class="n">False_number</span><span class="o">/</span><span class="p">(</span><span class="kt">double</span><span class="p">)</span><span class="n">run_time</span><span class="p">)</span><span class="o">*</span><span class="mi">100</span><span class="o">&lt;&lt;</span><span class="s">&#34;%</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">;</span>
-    <span class="n">fp</span><span class="p">.</span><span class="n">close</span><span class="p">();</span>
-<span class="p">}</span>
-
-<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
-<span class="p">{</span>
-    <span class="n">cout</span><span class="o">&lt;&lt;</span><span class="s">&#34;How many times do yo want to run? &gt;&#34;</span><span class="p">;</span>
-    <span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">sample</span><span class="p">;</span>
-    <span class="n">cout</span><span class="o">&lt;&lt;</span><span class="s">&#34;How many times do yo want to run in one sample(n)? &gt;&#34;</span><span class="p">;</span>
-    <span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">run_time</span><span class="p">;</span>
-
-    <span class="n">init</span><span class="p">();</span>
-
-    <span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">c</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span> <span class="n">c</span><span class="o">&lt;</span><span class="n">sample</span><span class="p">;</span> <span class="n">c</span><span class="o">++</span><span class="p">)</span>
-    <span class="p">{</span>
-        <span class="kt">unsigned</span> <span class="kt">long</span> <span class="kt">long</span> <span class="n">True_number</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span><span class="n">False_number</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
-        <span class="k">for</span><span class="p">(</span><span class="kt">unsigned</span> <span class="kt">long</span> <span class="kt">long</span> <span class="n">i</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span> <span class="n">i</span><span class="o">&lt;</span><span class="n">run_time</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span>
-        <span class="p">{</span>
-            <span class="k">if</span><span class="p">(</span><span class="n">Random</span><span class="p">())</span>
-                <span class="n">True_number</span><span class="o">++</span><span class="p">;</span>
-            <span class="k">else</span>
-                <span class="n">False_number</span><span class="o">++</span><span class="p">;</span>
-        <span class="p">}</span>
-        <span class="n">write_file</span><span class="p">(</span><span class="n">c</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span><span class="n">True_number</span><span class="p">,</span><span class="n">False_number</span><span class="p">);</span>
-    <span class="p">}</span>
-
-    <span class="n">cout</span><span class="o">&lt;&lt;</span><span class="s">&#34;Complete!</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="cm">/*
+</span></span></span><span class="line"><span class="cl"><span class="cm"> * Bernoulli Trial simulation
+</span></span></span><span class="line"><span class="cl"><span class="cm"> * By C++
+</span></span></span><span class="line"><span class="cl"><span class="cm"> * License MIT
+</span></span></span><span class="line"><span class="cl"><span class="cm"> * 2017/09/19 oxygen
+</span></span></span><span class="line"><span class="cl"><span class="cm"> */</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;iostream&gt;</span><span class="cp">
+</span></span></span><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;fstream&gt;</span><span class="cp">
+</span></span></span><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;cstdlib&gt;</span><span class="cp">
+</span></span></span><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;ctime&gt;</span><span class="cp">
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">//Global Variable
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kt">unsigned</span> <span class="kt">long</span> <span class="kt">long</span> <span class="n">sample</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span><span class="n">run_time</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kt">void</span> <span class="nf">init</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">fstream</span> <span class="n">fp</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">fp</span><span class="p">.</span><span class="n">open</span><span class="p">(</span><span class="s">&#34;data.txt&#34;</span><span class="p">,</span><span class="n">ios</span><span class="o">::</span><span class="n">out</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="n">fp</span><span class="o">&lt;&lt;</span><span class="s">&#34;id,true,false,True-rate,False-rate</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">fp</span><span class="p">.</span><span class="n">close</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">srand</span><span class="p">(</span> <span class="p">(</span><span class="kt">unsigned</span><span class="p">)</span><span class="n">time</span><span class="p">(</span><span class="nb">NULL</span><span class="p">));</span>
+</span></span><span class="line"><span class="cl">    <span class="n">cout</span><span class="o">&lt;&lt;</span><span class="s">&#34;Program is running...</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kt">bool</span> <span class="nf">Random</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">unsigned</span> <span class="kt">int</span> <span class="n">ran</span> <span class="o">=</span> <span class="p">(</span><span class="kt">int</span><span class="p">)((</span><span class="n">rand</span><span class="p">()</span> <span class="o">/</span> <span class="p">(</span><span class="n">RAND_MAX</span><span class="o">+</span><span class="mf">1.0</span><span class="p">))</span> <span class="o">*</span> <span class="p">(</span><span class="mi">10</span> <span class="o">-</span> <span class="mi">1</span> <span class="o">+</span> <span class="mf">1.0</span><span class="p">)</span> <span class="o">+</span> <span class="mi">1</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span><span class="p">(</span><span class="n">ran</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="nb">true</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="nb">false</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kt">void</span> <span class="nf">write_file</span><span class="p">(</span><span class="k">const</span> <span class="kt">int</span> <span class="n">id</span><span class="p">,</span><span class="k">const</span> <span class="kt">unsigned</span> <span class="kt">long</span> <span class="kt">long</span> <span class="n">True_number</span><span class="p">,</span><span class="k">const</span> <span class="kt">unsigned</span> <span class="kt">long</span> <span class="kt">long</span> <span class="n">False_number</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">fstream</span> <span class="n">fp</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">fp</span><span class="p">.</span><span class="n">open</span><span class="p">(</span><span class="s">&#34;data.txt&#34;</span><span class="p">,</span><span class="n">ios</span><span class="o">::</span><span class="n">out</span><span class="o">|</span><span class="n">ios</span><span class="o">::</span><span class="n">app</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="n">fp</span><span class="o">&lt;&lt;</span><span class="n">id</span><span class="o">&lt;&lt;</span><span class="s">&#34;,&#34;</span><span class="o">&lt;&lt;</span><span class="n">True_number</span><span class="o">&lt;&lt;</span><span class="s">&#34;,&#34;</span><span class="o">&lt;&lt;</span><span class="n">False_number</span><span class="o">&lt;&lt;</span><span class="s">&#34;,&#34;</span><span class="o">&lt;&lt;</span><span class="p">(</span><span class="n">True_number</span><span class="o">/</span><span class="p">(</span><span class="kt">double</span><span class="p">)</span><span class="n">run_time</span><span class="p">)</span><span class="o">*</span><span class="mi">100</span><span class="o">&lt;&lt;</span><span class="s">&#34;%,&#34;</span><span class="o">&lt;&lt;</span><span class="p">(</span><span class="n">False_number</span><span class="o">/</span><span class="p">(</span><span class="kt">double</span><span class="p">)</span><span class="n">run_time</span><span class="p">)</span><span class="o">*</span><span class="mi">100</span><span class="o">&lt;&lt;</span><span class="s">&#34;%</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">fp</span><span class="p">.</span><span class="n">close</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">cout</span><span class="o">&lt;&lt;</span><span class="s">&#34;How many times do yo want to run? &gt;&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">sample</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">cout</span><span class="o">&lt;&lt;</span><span class="s">&#34;How many times do yo want to run in one sample(n)? &gt;&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">run_time</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">init</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">c</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span> <span class="n">c</span><span class="o">&lt;</span><span class="n">sample</span><span class="p">;</span> <span class="n">c</span><span class="o">++</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kt">unsigned</span> <span class="kt">long</span> <span class="kt">long</span> <span class="n">True_number</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span><span class="n">False_number</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">for</span><span class="p">(</span><span class="kt">unsigned</span> <span class="kt">long</span> <span class="kt">long</span> <span class="n">i</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span> <span class="n">i</span><span class="o">&lt;</span><span class="n">run_time</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="k">if</span><span class="p">(</span><span class="n">Random</span><span class="p">())</span>
+</span></span><span class="line"><span class="cl">                <span class="n">True_number</span><span class="o">++</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">            <span class="k">else</span>
+</span></span><span class="line"><span class="cl">                <span class="n">False_number</span><span class="o">++</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="n">write_file</span><span class="p">(</span><span class="n">c</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span><span class="n">True_number</span><span class="p">,</span><span class="n">False_number</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">cout</span><span class="o">&lt;&lt;</span><span class="s">&#34;Complete!</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>解釋一下程式碼</p>
 <p><code>init()</code> 是程式一開始執行的函式，會把輸出檔案的標題輸出好，並初始化亂數器。</p>
@@ -491,12 +491,12 @@ if (!doNotTrack) {
 </span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="c1"># Makefile of Bernoulli Trial simulation</span>
-all:Bernoulli-Trial-simulation.cpp
-	g++ Bernoulli-Trial-simulation.cpp -o Bernoulli-Trial-simulation
-clean:
-	rm -f Bernoulli-Trial-simulation
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="c1"># Makefile of Bernoulli Trial simulation</span>
+</span></span><span class="line"><span class="cl">all:Bernoulli-Trial-simulation.cpp
+</span></span><span class="line"><span class="cl">	g++ Bernoulli-Trial-simulation.cpp -o Bernoulli-Trial-simulation
+</span></span><span class="line"><span class="cl">clean:
+</span></span><span class="line"><span class="cl">	rm -f Bernoulli-Trial-simulation
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>超簡單的 Makefile XD就只是編譯和移除兩行指令而已，但能只打 make 就編譯還是比較方便 !</p>
 
