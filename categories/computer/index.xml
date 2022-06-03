@@ -6,7 +6,16 @@
     <description>Recent content in computer on 氧氣橘子</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Wed, 16 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://oxygentw.net/categories/computer/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 03 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://oxygentw.net/categories/computer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>vscode-markdown-pdf 匯出含有 latex 的文件</title>
+      <link>https://oxygentw.net/blog/computer/vscode-markdown-pdf-latex/</link>
+      <pubDate>Fri, 03 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/vscode-markdown-pdf-latex/</guid>
+      <description>vscode-markdown-pdf 是一個方便的VS Code Extension，可以將code中的PDF轉換為圖片、PDF、HTML等格式，但最近匯出的時候發現裡面含有 Latex 數學公式的</description>
+    </item>
+    
     <item>
       <title>中山醫授權軟體認證程式</title>
       <link>https://oxygentw.net/blog/computer/csmu-kms-gui/</link>
@@ -176,15 +185,6 @@
       
       <guid>https://oxygentw.net/blog/notes/excel-linear-regression/</guid>
       <description>線性回歸是很多定量實驗必須做的前置步驟，要先將標準品測得的實驗數據透過線性回歸的方式繪製出標準曲線，再將未知待測物以內插的方式帶入求值才是一</description>
-    </item>
-    
-    <item>
-      <title>PyMOL 蛋白質3D結構軟體安裝</title>
-      <link>https://oxygentw.net/blog/computer/pymol-install/</link>
-      <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://oxygentw.net/blog/computer/pymol-install/</guid>
-      <description>讀生物化學查資料時發現了這個軟體，由 Python 和 C/C++ 開發而成，可以用來繪製蛋白質與氨基酸等生物體內大分子的立體結構，雖然我現在還用不到這個，但爲了以後</description>
     </item>
     
   </channel>

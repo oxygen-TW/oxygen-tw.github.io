@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>介紹 pipenv 套件管理工具 - 氧氣橘子</title>
+  <title>vscode-markdown-pdf 匯出含有 latex 的文件 - 氧氣橘子</title>
   
 
 
@@ -26,7 +26,8 @@
 <meta name="mobile-web-app-capable" content="yes">
 
 <meta name="author" content="oxygen" />
-  <meta name="description" content="pipenv 是目前 Python 官方推薦的套件管理系統，在一段時間以前，好啦其實就是現在(? 還有很多人使用 pip 和 virtualenv 來進行 python 開發，這樣當然沒問題，只是維護 requirements.txt 有些麻煩，" />
+  <meta name="description" content="vscode-markdown-pdf 是一個方便的VS Code Extension，可以將code中的PDF轉換為圖片、PDF、HTML等格式，但最近匯出的時候發現裡面含有 Latex 數學公式的" />
+<meta name="keywords" content="vscode-markdown-pdf, vscode-markdown-pdf latex, vscode markdown" />
 
 
 
@@ -37,7 +38,7 @@
 <meta name="generator" content="Hugo 0.100.1" />
 
 
-<link rel="canonical" href="https://oxygentw.net/blog/computer/python-pipenv/" />
+<link rel="canonical" href="https://oxygentw.net/blog/computer/vscode-markdown-pdf-latex/" />
 
 
 
@@ -61,20 +62,20 @@
 
 
 
-<meta property="og:title" content="介紹 pipenv 套件管理工具" />
-<meta property="og:description" content="pipenv 是目前 Python 官方推薦的套件管理系統，在一段時間以前，好啦其實就是現在(? 還有很多人使用 pip 和 virtualenv 來進行 python 開發，這樣當然沒問題，只是維護 requirements.txt 有些麻煩，" />
+<meta property="og:title" content="vscode-markdown-pdf 匯出含有 latex 的文件" />
+<meta property="og:description" content="vscode-markdown-pdf 是一個方便的VS Code Extension，可以將code中的PDF轉換為圖片、PDF、HTML等格式，但最近匯出的時候發現裡面含有 Latex 數學公式的" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://oxygentw.net/blog/computer/python-pipenv/" /><meta property="article:section" content="blog" />
-<meta property="article:published_time" content="2019-11-15T00:00:00+00:00" />
-<meta property="article:modified_time" content="2019-11-15T00:00:00+00:00" />
+<meta property="og:url" content="https://oxygentw.net/blog/computer/vscode-markdown-pdf-latex/" /><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2022-06-03T00:00:00+00:00" />
+<meta property="article:modified_time" content="2022-06-03T00:00:00+00:00" />
 
-<meta itemprop="name" content="介紹 pipenv 套件管理工具">
-<meta itemprop="description" content="pipenv 是目前 Python 官方推薦的套件管理系統，在一段時間以前，好啦其實就是現在(? 還有很多人使用 pip 和 virtualenv 來進行 python 開發，這樣當然沒問題，只是維護 requirements.txt 有些麻煩，"><meta itemprop="datePublished" content="2019-11-15T00:00:00+00:00" />
-<meta itemprop="dateModified" content="2019-11-15T00:00:00+00:00" />
-<meta itemprop="wordCount" content="520">
+<meta itemprop="name" content="vscode-markdown-pdf 匯出含有 latex 的文件">
+<meta itemprop="description" content="vscode-markdown-pdf 是一個方便的VS Code Extension，可以將code中的PDF轉換為圖片、PDF、HTML等格式，但最近匯出的時候發現裡面含有 Latex 數學公式的"><meta itemprop="datePublished" content="2022-06-03T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2022-06-03T00:00:00+00:00" />
+<meta itemprop="wordCount" content="233">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="介紹 pipenv 套件管理工具"/>
-<meta name="twitter:description" content="pipenv 是目前 Python 官方推薦的套件管理系統，在一段時間以前，好啦其實就是現在(? 還有很多人使用 pip 和 virtualenv 來進行 python 開發，這樣當然沒問題，只是維護 requirements.txt 有些麻煩，"/>
+<meta name="twitter:title" content="vscode-markdown-pdf 匯出含有 latex 的文件"/>
+<meta name="twitter:description" content="vscode-markdown-pdf 是一個方便的VS Code Extension，可以將code中的PDF轉換為圖片、PDF、HTML等格式，但最近匯出的時候發現裡面含有 Latex 數學公式的"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -305,18 +306,18 @@ if (!doNotTrack) {
           <article class="post bg-white">
     
     <header class="post-header">
-      <h1 class="post-title">介紹 pipenv 套件管理工具</h1>
+      <h1 class="post-title">vscode-markdown-pdf 匯出含有 latex 的文件</h1>
       
       <div class="post-meta">
-        <time datetime="2019-11-15" class="post-time">
-          2019-11-15
+        <time datetime="2022-06-03" class="post-time">
+          2022-06-03
         </time>
         <div class="post-category">
             <a href="https://oxygentw.net/categories/computer/"> computer </a>
             
           </div>
-        <span class="more-meta"> 約 520 字 </span>
-          <span class="more-meta"> 預計閱讀 2 分鐘 </span>
+        <span class="more-meta"> 約 233 字 </span>
+          <span class="more-meta"> 預計閱讀 1 分鐘 </span>
 
         
         
@@ -331,111 +332,51 @@ if (!doNotTrack) {
 
     
     <div class="post-content">
-      <p><a href="https://github.com/pypa/pipenv">pipenv</a> 是目前 Python 官方推薦的套件管理系統，在一段時間以前，好啦其實就是現在(? 還有很多人使用 pip 和  virtualenv 來進行 python 開發，這樣當然沒問題，只是維護 requirements.txt 有些麻煩，pipenv 則是整合兩者的一個工具，挺好用的介紹給大家。</p>
-<p>在 Windows 上安裝 pipenv 十分簡單，只需用 pip 安裝即可：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">pip install pipenv
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>如何創建一個 Project：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">pipenv --python [PYTHON VERSION]
-</span></span><span class="line"><span class="cl">pipenv --python 3.7
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>安裝完成的提示：
-<img src="https://ithelp.ithome.com.tw/upload/images/20190926/20120282tE3r7FvNM9.jpg" alt="https://ithelp.ithome.com.tw/upload/images/20190926/20120282tE3r7FvNM9.jpg"></p>
-<p>套件安裝，示範安裝 request 和 numpy：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">pipenv install requests numpy 
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>第一次執行 pipenv 後會在目錄下產生 Pipfile 裡面會記載安裝過的套件，就像我們以前用的 requirements.txt 一樣，同時也會在安裝好後新增 Pipfile.lock 作為 Hash 的安全檢查用。</p>
-<p><img src="https://ithelp.ithome.com.tw/upload/images/20190926/20120282vgs6F4t42V.jpg" alt="https://ithelp.ithome.com.tw/upload/images/20190926/20120282vgs6F4t42V.jpg"></p>
-<p><img src="https://ithelp.ithome.com.tw/upload/images/20190926/2012028233dWyunUsV.jpg" alt="https://ithelp.ithome.com.tw/upload/images/20190926/2012028233dWyunUsV.jpg"> <br>
-若在安裝後加上 <code>--dev</code> 參數則會安裝開發階段的套件，不會影響到穩定版，例如</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">pipenv install pytest --dev 
-</span></span><span class="line"><span class="cl">pipenv install selenium --dev 
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>解除安裝也很簡單</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">pipenv uninstall pytest
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>進入虛擬環境的方法，不用像以前還要打一串 <code>Script/activate</code> 等等的東西，直接下 <code>shell</code> 就行啦~</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">pipenv shell
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>cmd 會出現</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">Launching subshell in virtual environment…
-</span></span><span class="line"><span class="cl">Microsoft Windows [版本 10.0.1****.356]
-</span></span><span class="line"><span class="cl">(c) 2019 Microsoft Corporation. 著作權所有，並保留一切權利。
-</span></span><span class="line"><span class="cl">參考資料
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>表示成功進入虛擬環境了。</p>
-<p>產生舊版 requirements.txt 指令</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">pipenv lock --requirements &gt; requirements.txt
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>列出套件相依圖</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">pipenv graph
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>大概就是這些常用指令啦，大家未來在開發 Python 時一定會用到很多第三方函式庫，有了 pipenv 就可以事半功倍啦~</p>
+      <p><a href="https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf">vscode-markdown-pdf</a> 是一個方便的VS Code Extension，可以將code中的PDF轉換為圖片、PDF、HTML等格式，但最近匯出的時候發現裡面含有 Latex 數學公式的筆記沒辦法順利轉換，於是上網找了一下解決方法(<a href="https://github.com/yzane/vscode-markdown-pdf/issues/21">Source</a>)，紀錄一下。</p>
+<p>如果還沒有安裝也可以到連結裡面安裝喔~</p>
+<h2 id="開啟模板檔案">開啟模板檔案</h2>
+<p>開啟檔案 <code>/Users/&lt;username&gt;/.vscode/extensions/yzane.markdown-pdf-1.x.x/template/template.html</code></p>
 <br/>
-<hr>
-<h5 id="參考資料">參考資料</h5>
-<p><a href="https://github.com/pypa/pipenv">https://github.com/pypa/pipenv</a> <br>
-<a href="https://medium.com/@chihsuan/pipenv-%E6%9B%B4%E7%B0%A1%E5%96%AE-%E6%9B%B4%E5%BF%AB%E9%80%9F%E7%9A%84-python-%E5%A5%97%E4%BB%B6%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7-135a47e504f4">https://medium.com/@chihsuan/pipenv-%E6%9B%B4%E7%B0%A1%E5%96%AE-%E6%9B%B4%E5%BF%AB%E9%80%9F%E7%9A%84-python-%E5%A5%97%E4%BB%B6%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7-135a47e504f4</a> <br>
-同步刊載：https://ithelp.ithome.com.tw/articles/10220927</p>
+<h2 id="加入轉換-javascript-檔案">加入轉換 JavaScript 檔案</h2>
+<p>將這兩行HTML貼在template.html檔案的最後面，讓渲染過程中載入這兩個 JavaScript 檔案
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">script</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;text/javascript&#34;</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">script</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;text/x-mathjax-config&#34;</span><span class="p">&gt;</span> <span class="nx">MathJax</span><span class="p">.</span><span class="nx">Hub</span><span class="p">.</span><span class="nx">Config</span><span class="p">({</span> <span class="nx">tex2jax</span><span class="o">:</span> <span class="p">{</span><span class="nx">inlineMath</span><span class="o">:</span> <span class="p">[[</span><span class="s1">&#39;$&#39;</span><span class="p">,</span> <span class="s1">&#39;$&#39;</span><span class="p">]]},</span> <span class="nx">messageStyle</span><span class="o">:</span> <span class="s2">&#34;none&#34;</span> <span class="p">});&lt;/</span><span class="nt">script</span><span class="p">&gt;</span></span></span></code></pre></td></tr></table>
+</div>
+</div></p>
+<p>如下圖
+
+<link rel="stylesheet" href="/css/hugo-easy-gallery.css" />
+<div class="box">
+<figure  itemprop="associatedMedia"
+  itemscope itemtype="http://schema.org/ImageObject" >
+    <div class="img">
+      <img itemprop="thumbnail" src="/img/post/vscode-markdown-pdf-latex/1.png" />
+    </div>
+    <a href="/img/post/vscode-markdown-pdf-latex/1.png" itemprop="contentUrl"></a>
+  </figure>
+</div>
+</p>
+<p>再重新右鍵匯出一次 Markdown 就會有渲染過的結果囉！</p>
+<h2 id="完成">完成!</h2>
+<p>匯出結果
+
+
+<div class="box">
+<figure  itemprop="associatedMedia"
+  itemscope itemtype="http://schema.org/ImageObject" >
+    <div class="img">
+      <img itemprop="thumbnail" src="/img/post/vscode-markdown-pdf-latex/2.png" />
+    </div>
+    <a href="/img/post/vscode-markdown-pdf-latex/2.png" itemprop="contentUrl"></a>
+  </figure>
+</div>
+</p>
 
     </div>
 
@@ -449,7 +390,7 @@ if (!doNotTrack) {
   <p class="copyright-item">
     <span class="item-title">上次更新</span>
     <span class="item-content">
-      2019-11-15
+      2022-06-03
       
     </span>
   </p>
@@ -470,22 +411,9 @@ if (!doNotTrack) {
       
       <nav class="post-nav">
         
-          <a class="prev" href="/blog/computer/line-counter/">
-            
-            <i class="iconfont">
-              <svg  class="icon" viewBox="0 0 1024 1024" version="1.1"
-  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-  width="18" height="18">
-  <path d="M691.908486 949.511495l75.369571-89.491197c10.963703-12.998035 10.285251-32.864502-1.499144-44.378743L479.499795 515.267417 757.434875 204.940602c11.338233-12.190647 11.035334-32.285311-0.638543-44.850487l-80.46666-86.564541c-11.680017-12.583596-30.356378-12.893658-41.662889-0.716314L257.233596 494.235404c-11.332093 12.183484-11.041474 32.266891 0.657986 44.844348l80.46666 86.564541c1.772366 1.910513 3.706415 3.533476 5.750981 4.877077l306.620399 321.703933C662.505829 963.726242 680.945807 962.528973 691.908486 949.511495z"></path>
-</svg>
-
-            </i>
-            <span class="prev-text nav-default">計算 Line 訊息數的小工具</span>
-            <span class="prev-text nav-mobile">上一篇</span>
-          </a>
         
-          <a class="next" href="/blog/computer/python-file-utf8-encoding/">
-            <span class="next-text nav-default">解決 Python 中 UnicodeDecodeError: &#39;cp950&#39; codec can&#39;t decode</span>
+          <a class="next" href="/blog/computer/csmu-kms-gui/">
+            <span class="next-text nav-default">中山醫授權軟體認證程式</span>
             <span class="prev-text nav-mobile">下一篇</span>
             
             <i class="iconfont">
@@ -525,7 +453,7 @@ if (!doNotTrack) {
   <div id="disqus_thread"></div>
   <script type="text/javascript">
     var disqus_config = function () {
-      this.page.url = "https://oxygentw.net/blog/computer/python-pipenv/";
+      this.page.url = "https://oxygentw.net/blog/computer/vscode-markdown-pdf-latex/";
     };
     function load_disqus() {
       

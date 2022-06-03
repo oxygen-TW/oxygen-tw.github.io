@@ -6,10 +6,66 @@
     <description>Recent content on 氧氣橘子</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Wed, 16 Feb 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jun 2022 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://oxygentw.net/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>vscode-markdown-pdf 匯出含有 latex 的文件</title>
+      <link>https://oxygentw.net/blog/computer/vscode-markdown-pdf-latex/</link>
+      <pubDate>Fri, 03 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/vscode-markdown-pdf-latex/</guid>
+      
+        <description>&lt;p&gt;&lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf&#34;&gt;vscode-markdown-pdf&lt;/a&gt; 是一個方便的VS Code Extension，可以將code中的PDF轉換為圖片、PDF、HTML等格式，但最近匯出的時候發現裡面含有 Latex 數學公式的筆記沒辦法順利轉換，於是上網找了一下解決方法(&lt;a href=&#34;https://github.com/yzane/vscode-markdown-pdf/issues/21&#34;&gt;Source&lt;/a&gt;)，紀錄一下。&lt;/p&gt;
+&lt;p&gt;如果還沒有安裝也可以到連結裡面安裝喔~&lt;/p&gt;
+&lt;h2 id=&#34;開啟模板檔案&#34;&gt;開啟模板檔案&lt;/h2&gt;
+&lt;p&gt;開啟檔案 &lt;code&gt;/Users/&amp;lt;username&amp;gt;/.vscode/extensions/yzane.markdown-pdf-1.x.x/template/template.html&lt;/code&gt;&lt;/p&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;加入轉換-javascript-檔案&#34;&gt;加入轉換 JavaScript 檔案&lt;/h2&gt;
+&lt;p&gt;將這兩行HTML貼在template.html檔案的最後面，讓渲染過程中載入這兩個 JavaScript 檔案
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;script&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;text/javascript&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;src&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;script&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;script&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;text/x-mathjax-config&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;MathJax&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Hub&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Config&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;({&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;tex2jax&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;inlineMath&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[[&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;$&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;$&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]]},&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;messageStyle&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;none&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;});&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;script&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;如下圖
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://oxygentw.net/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/vscode-markdown-pdf-latex/1.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/vscode-markdown-pdf-latex/1.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;再重新右鍵匯出一次 Markdown 就會有渲染過的結果囉！&lt;/p&gt;
+&lt;h2 id=&#34;完成&#34;&gt;完成!&lt;/h2&gt;
+&lt;p&gt;匯出結果
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/vscode-markdown-pdf-latex/2.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/vscode-markdown-pdf-latex/2.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+</description>
+      
+    </item>
     
     <item>
       <title>中山醫授權軟體認證程式</title>
@@ -2318,73 +2374,6 @@
 &lt;/div&gt;
 
 &lt;br/&gt;
-</description>
-      
-    </item>
-    
-    <item>
-      <title>入住中山醫宿舍感想...真心不建議</title>
-      <link>https://oxygentw.net/blog/life-story/about-csmu-dorm/</link>
-      <pubDate>Sun, 22 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://oxygentw.net/blog/life-story/about-csmu-dorm/</guid>
-      
-        <description>&lt;p&gt;又到了很多高中生選學校的時候，或許有人會來中山醫，所以我介紹一下中山醫的宿舍，給各位當參考&amp;hellip;或是說勸世(?  &lt;br&gt;
-關於中山醫的宿舍呢&amp;hellip;我們學校因為超小，所以宿舍被分散在三個地方，一個是學校對面口腔醫學大樓樓上的&lt;strong&gt;口腔女宿&lt;/strong&gt;，在牙醫門診的樓上，另外是&lt;strong&gt;大慶男宿&lt;/strong&gt;及&lt;strong&gt;大慶女宿&lt;/strong&gt;，在距離學校約 1.7 公里外的台中高工對面，以前學校買下好幾棟大慶國宅作為宿舍。&lt;/p&gt;
-&lt;p&gt;先來說說中山醫宿舍的優點吧，少的先講比較不累(? 我們宿舍有一個很多人會羨慕的地方，大慶男女宿是一人一間雅房，口腔女宿是給大一住的，2-3人一間，不過我沒住過，所以詳細介紹會是大慶宿舍。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h1 id=&#34;宿舍優點&#34;&gt;宿舍優點&lt;/h1&gt;
-&lt;h2 id=&#34;獨立雅房&#34;&gt;獨立雅房&lt;/h2&gt;
-&lt;p&gt;因為一人一間雅房的關係，你可以很晚睡很晚起，裸體亂跑，都不用顧慮到室友，這一點倒是真的不錯，你也可以保有自己的隱私，讀書不被打擾。&lt;/p&gt;
-&lt;br/&gt;
-&lt;h2 id=&#34;生活機能佳&#34;&gt;生活機能佳&lt;/h2&gt;
-&lt;p&gt;再來是宿舍原本是國宅，所以整體而言就像個社區，住起來還算舒適，附近也有很多好吃的東西，像高工路、美村南路、大慶街等等，但如果沒有騎車，每天早上要跟很多高中生一起擠公車，如果技術不好可能2-3班才搭得上去XD&lt;/p&gt;
-&lt;br/&gt;
-&lt;h1 id=&#34;宿舍缺點&#34;&gt;宿舍缺點&lt;/h1&gt;
-&lt;p&gt;缺點嗎&amp;hellip; 讓我娓娓道來。&lt;/p&gt;
-&lt;h2 id=&#34;宿舍費用很高&#34;&gt;宿舍費用很高&lt;/h2&gt;
-&lt;p&gt;前面說的優點，自己一人一間雅房，那是建立在超級貴的宿舍費上，學校雅房有各種大小，一學期價格如下：&lt;/p&gt;
-
-&lt;link rel=&#34;stylesheet&#34; href=&#34;https://oxygentw.net/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/about-csmu-dorm/img1.png&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://oxygentw.net/img/post/about-csmu-dorm/img1.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;學校還大言不慚的作一個整理表，說中山醫在私立大學中不算貴，或許是吧，但你想想，而且宿舍停車場要再花1500租，網路再1500，加起來這個價錢到外面去租雅房也差不多啊，還可以免除接下來我要說的缺點。&lt;/p&gt;
-&lt;br/&gt;
-&lt;h2 id=&#34;門禁系統不安全&#34;&gt;門禁系統不安全&lt;/h2&gt;
-&lt;p&gt;宿舍門禁是用學生證當作門禁，但是他並沒有作任何加密，他只用學生證裡面的卡片編號當作辨識的 key，這代表隨便一個人都可以到鎖店複製學生證當成門禁，甚至只要撿到學生證把卡片編號抄起來就可以複製，任意進出。&lt;/p&gt;
-&lt;br/&gt;
-&lt;h2 id=&#34;部分區域訊號不好宿舍網路不便宜&#34;&gt;部分區域訊號不好，宿舍網路不便宜&lt;/h2&gt;
-&lt;p&gt;宿舍沒有免費網路使用，部分宿舍內行動網路的訊號不是太好，晚上就會報復社會XD，所以想要網速快最好購買宿舍的網路，但是一學期 1500，不算便宜，自行斟酌囉。&lt;/p&gt;
-&lt;br/&gt;
-&lt;h2 id=&#34;不能帶同學來玩&#34;&gt;不能帶同學來玩&lt;/h2&gt;
-&lt;p&gt;這很正常啦，很多宿舍都這樣不准外人進入，這點宿舍作的很合理，但是對我們來說也算是的缺點，住外面就沒這困擾啦~&lt;/p&gt;
-&lt;br/&gt;
-&lt;h2 id=&#34;學校漠視學生住宿權益&#34;&gt;學校漠視學生住宿權益&lt;/h2&gt;
-&lt;p&gt;這是最嚴重也最令人難以接受的，住在宿舍裡你不會覺得這是你花錢和學校租的宿舍，像是學校施捨給你的，學校說不讓你住就不讓你住，還大言不慚。&lt;/p&gt;
-&lt;p&gt;不知道各位有沒有看過這則新聞，沒有的話讓大家看一下&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://tw.appledaily.com/life/20200211/WHWN57DQXPGR4XOIEJ6TTSJWA4/&#34;&gt;https://tw.appledaily.com/life/20200211/WHWN57DQXPGR4XOIEJ6TTSJWA4/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=uzOv9w8dNrc&#34;&gt;https://www.youtube.com/watch?v=uzOv9w8dNrc&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;以及 2010 無預警消磁的行為 &lt;br&gt;
-&lt;a href=&#34;https://www.ptt.cc/bbs/CSMU-Talk/M.1268926814.A.B89.html&#34;&gt;https://www.ptt.cc/bbs/CSMU-Talk/M.1268926814.A.B89.html&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;中山醫宿舍無預警封鎖宿舍做為港澳學生隔離所，不准本國學生回宿，許多學生寒假是要在實驗室或實習的，這樣封鎖讓他們連東西都沒辦法回去拿，就無家可歸，學生會給出一些很貴的特約旅館說是配套措施，最後草草的說退費10%作為補償就結束。&lt;/p&gt;
-&lt;p&gt;這件事情過去，開學後居然又強迫自主管理而不是居家檢疫或隔離的學生不准進入宿舍，仍然沒有改進，一通知馬上就鎖學生證，不給學生進入拿東西，讓學生無家可歸，那時已經開學，學生也不知道怎麼辦，舍監態度也很差，讓學生甚至得去睡公園和麥當勞，宿舍很喜歡用&amp;quot;鎖學生證&amp;quot;來禁止學生回房間，覺得你可疑鎖門禁，有事情要找你也鎖門禁，因為你進不去房間就會去舍輔室，他們就可以找到你，隨時要冒著回不了房間的風險&amp;hellip;&amp;hellip;&lt;/p&gt;
-&lt;br/&gt;
-&lt;h2 id=&#34;宿舍很難抽&#34;&gt;宿舍很難抽&lt;/h2&gt;
-&lt;p&gt;校地小，所以宿舍也小，抽不抽的到宿舍會依照你的戶籍地離學校的距離而定，不過我朋友住高雄，居然沒有抽到宿舍!!!! 想住還沒辦法，只有一小部分能順利住到宿舍，其他人還是得出去找房子呦~&lt;/p&gt;
-&lt;br/&gt;
-&lt;p&gt;大概就是這樣吧，這是我住了幾年後的想法跟體會，我已經開始在找房子租了@@  &lt;br&gt;
-其他資訊可以上中山醫宿舍網站看，不過要住的真的建議不要抱太大期望就是了。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://osa.csmu.edu.tw/files/13-1022-33317-1.php?Lang=zh-tw#dorm-comp&#34;&gt;中山醫宿舍網站&lt;/a&gt;&lt;/p&gt;
 </description>
       
     </item>
