@@ -6,7 +6,16 @@
     <description>Recent content in computer on 氧氣橘子</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Fri, 03 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://oxygentw.net/categories/computer/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://oxygentw.net/categories/computer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>學習利器介紹 - Anki</title>
+      <link>https://oxygentw.net/blog/computer/anki-app/</link>
+      <pubDate>Tue, 02 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/anki-app/</guid>
+      <description>知道 Anki 這款軟體已經有一段時間，但他操作起來仍然需要一點時間摸索，因為國考的關係被迫學習如何使用他XD 也順利地利用 Anki 的輔助考過國考了！ 便來介紹</description>
+    </item>
+    
     <item>
       <title>vscode-markdown-pdf 匯出含有 latex 的文件</title>
       <link>https://oxygentw.net/blog/computer/vscode-markdown-pdf-latex/</link>
@@ -176,15 +185,6 @@
       
       <guid>https://oxygentw.net/blog/computer/python-convert-imagetol/</guid>
       <description>最近實驗室在做 Construst，要跑很多次 DNA 電泳，偏偏照膠系統故障，只能拍好後再用手機翻拍膠圖，我們的小型藍光照膠器拍出來不明顯而且還是橘</description>
-    </item>
-    
-    <item>
-      <title>Excel 繪製回歸直線</title>
-      <link>https://oxygentw.net/blog/notes/excel-linear-regression/</link>
-      <pubDate>Fri, 24 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://oxygentw.net/blog/notes/excel-linear-regression/</guid>
-      <description>線性回歸是很多定量實驗必須做的前置步驟，要先將標準品測得的實驗數據透過線性回歸的方式繪製出標準曲線，再將未知待測物以內插的方式帶入求值才是一</description>
     </item>
     
   </channel>

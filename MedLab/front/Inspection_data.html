@@ -1,0 +1,220 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script src="https://cdn.staticfile.org/jquery/3.4.0/jquery.min.js"></script>
+<script src="https://cdn.staticfile.org/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<!-- Tocas UI：CSS 與元件 -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocas-ui/2.3.3/tocas.css">
+<!-- Tocas JS：模塊與 JavaScript 函式 -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tocas-ui/2.3.3/tocas.js"></script>--
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocas/4.0.3/tocas.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tocas/4.0.3/tocas.min.js"></script>
+<!--ink rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocas/4.0.3/tocas.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tocas/4.0.3/tocas.min.js"></script-->
+<style>
+body{
+background-image:url( 'https://i2.wp.com/flowerillust.com/img/flower/flower-back0602.png' );
+background-repeat:no-repeat;
+background-attachment:local;
+background-position: center ;
+background-size: cover;
+}
+div.center {
+    position: absolute;
+top: 50%;
+left: 50%;
+    }
+</style>
+<script>
+function ChangeList(id){
+    if(document.getElementById(id).selectedIndex == 1){
+        document.getElementById("F_e").setAttribute("style","display:block");
+        document.getElementById("F_s").setAttribute("style","display:block");
+    }
+    else if(document.getElementById(id).selectedIndex == 2){
+        document.getElementById("F_s").setAttribute("style","display:none");
+        document.getElementById("F_e").setAttribute("style","display:block");
+    }
+    else{
+        document.getElementById("F_e").setAttribute("style","display:none");
+        document.getElementById("F_s").setAttribute("style","display:none");
+    }
+}
+function validateForm(){
+    alert("1");
+    var name = document.forms["Form"]["name"].value;
+    var address = document.forms["Form"]["address"].value;
+    var test = document.forms["Form"]["test"].value;
+    var stock = document.forms["Form"]["stock"].value;
+    var phone = document.forms["Form"]["phone"].value;
+    var visible= document.forms["Form"]["visible"].value;
+    alert("N="+name+"A="+address+"T="+test+"s="+stock+"p="+phone+"v="+visible);
+    /*if(name=="" || name.value==null){
+            document.getElementById("name").setAttribute("class","ts warning input");
+            return false;
+        }
+    else if(address==""|| address.value==null){
+            document.getElementById("address").setAttribute("class","ts warning input");
+            return false;
+        }
+    else if(phone=="" || phone==null){
+            document.getElementById("phone").setAttribute("class","ts warning input");
+            return false;
+        }
+    else{*/
+        alert("here");
+        var tt=formjson(name, address, test, stock, phone, visible);
+        makeRequest(tt);
+    
+    return false;
+}
+</script>
+</head>
+<body>
+<div class="ts grid">
+    <div class="row">
+        <div class="four wide column"></div>
+        <div class="eight wide column">
+                <div class="ts heading slate">
+                        <form class="ts form"  id="Form" onsubmit="return validateForm()" method = "post">
+                            <div class="ts dividing header">詳細資訊</div>
+                            <div class="field">
+                                <label>檢驗所名稱</label>
+                                <div id="name">
+                                <input type="text" name="name">
+                                </div>
+                            </div>
+                            <div class="field">
+                                <label>地址</label>
+                                <div id="address">
+                                <input type="text" name="address">
+                                </div>
+                            </div>
+                            <div class="field">
+                                <label>電話</label>
+                                <div id="phone">
+                                <input type="text" name="phone">
+                                </div>
+                            </div>
+                            <div class="field">
+                                <label>是否有提供快篩服務</label>
+                                    <select id="S1" onchange="ChangeList(this.id)" name="test">
+                                        <option value="N">否</option>
+                                        <option value="Y">是</option>
+                                    </select>
+                            </div>
+                            <div class="field" id="F_s" style="display:none">
+                                <label>日期(起)</label>
+                                <div class="three fields">
+                                    <div class="field">
+                                        <div id="month">
+                                        <input type="text" placeholder="月" name="start_month">
+                                        </div>
+                                    </div>
+                                    <div class="field">
+                                        <div id="day">
+                                        <input type="text" placeholder="日" name="start_day">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="field" id="F_e" style="display:none">
+                                <label>日期(訖)</label>
+                                <div class="three fields">
+                                    <div class="field">
+                                        <div id="month">
+                                        <input type="text" placeholder="月" name="end_month">
+                                        </div>
+                                    </div>
+                                    <div class="field">
+                                        <div id="day">
+                                        <input type="text" placeholder="日" name="end_day">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="field">
+                                <label>快篩試劑庫存</label>
+                                <div id="stock">
+                                <input type="text" name="stock">
+                                </div>
+                            </div>
+                            
+                            <label class="ts-switch">
+                                <input type="checkbox" name="visible" checked />
+                            我同意發佈</label>
+                            
+                        </br>
+                            <input name="id" style="display:none">
+                            <button class="ts button">發布</button>
+                        </form>
+                        <div ><button class="ts button" onclick="test_x()">咚</button></div>
+                </div>
+        </div>
+        <div class="four wide column"></div>
+    </div>
+</div>
+<iframe id="id_iframe" name="id_iframe" ></iframe>
+
+<script>
+    //var N_name;
+    //N_name= prompt("请输入你的名字:","");
+    var test_js={};
+    var x={"name":"Your mother","address":"died"};
+    //var count=0;
+   // var x = document.getElementById("Sumbit");
+    //x.addEventListener("click", makeRequest);
+    function test_x(){
+        makeRequest(x);
+    }
+      function makeRequest(js) {
+          alert("3");
+        t_Request = new XMLHttpRequest();
+    
+        if (!t_Request) {
+          alert('Giving up :( Cannot create an XMLHTTP instance');
+          return false;
+        }
+        t_Request.onreadystatechange =function(){
+            if (t_Request.readyState == XMLHttpRequest.DONE) {
+            if (t_Request.status == 200) {
+            var response =this.responseText;
+                console.log(response);
+                
+            } 
+            else {
+                alert('There was a problem with the request.');
+            }
+          }   
+        }
+      t_Request.open("POST","http://140.114.188.165:5000/modify"/*"http://localhost/api/add.php"*/,false);
+      t_Request.setRequestHeader("Content-type","application/json; utf-8");
+        var myJSON =  JSON.stringify(js);
+        //var O_token=getCookie("_token");
+        alert(myJSON);
+        //.setRequestProperty("Content-Type", "application/json; utf-8");
+        t_Request.send(myJSON);
+        //setTimeout(() => {console.log("this is the first message")}, 5000);
+        //alert(t_Request.response);
+        //alert(t_Request.readyState);
+    }
+        
+    
+    
+    function formjson(name, address, test, stock, phone, visible){
+        alert("2");
+        test_js["name"]=name;
+        test_js["address"]=address;
+        test_js["test"]=test;
+        test_js["stock"]=stock;
+        test_js["phone"]=phone;
+        var d=new Date();
+        test_js["lastUpdate"]=d;//.getTime();
+        test_js["visible"]=visible;
+        //var myJSON =  JSON.stringify(test_js)
+        return(test_js);
+        //makeRequest(test_js);
+    }
+</script>    
+</body>
+</html>
