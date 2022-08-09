@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on 氧氣橘子</title>
+    <link>https://oxygentw.net/categories/</link>
+    <description>Recent content in Categories on 氧氣橘子</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Tue, 02 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://oxygentw.net/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>computer</title>
+      <link>https://oxygentw.net/categories/computer/</link>
+      <pubDate>Tue, 02 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/categories/computer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>notes</title>
+      <link>https://oxygentw.net/categories/notes/</link>
+      <pubDate>Tue, 02 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/categories/notes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>medical-knowledge</title>
+      <link>https://oxygentw.net/categories/medical-knowledge/</link>
+      <pubDate>Sat, 19 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/categories/medical-knowledge/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>travel</title>
+      <link>https://oxygentw.net/categories/travel/</link>
+      <pubDate>Sun, 19 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/categories/travel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>life-story</title>
+      <link>https://oxygentw.net/categories/life-story/</link>
+      <pubDate>Sun, 22 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/categories/life-story/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>poetry</title>
+      <link>https://oxygentw.net/categories/poetry/</link>
+      <pubDate>Sat, 30 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/categories/poetry/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>prose</title>
+      <link>https://oxygentw.net/categories/prose/</link>
+      <pubDate>Mon, 17 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/categories/prose/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

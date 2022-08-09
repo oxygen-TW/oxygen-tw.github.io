@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on 氧氣橘子</title>
+    <link>https://oxygentw.net/blog/</link>
+    <description>Recent content in Blogs on 氧氣橘子</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Sun, 31 May 2020 16:29:24 +0800</lastBuildDate>
+    
+	<atom:link href="https://oxygentw.net/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Python Logging 偵錯記錄模組</title>
+      <link>https://oxygentw.net/blog/computer/python-logging/</link>
+      <pubDate>Sun, 31 May 2020 16:29:24 +0800</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/python-logging/</guid>
+      <description>logging 是 Python 內建的 log 紀錄器，可以利用這個模組來進行各種不同程度的 log 輸出，這樣可以省去程式開發完後一個一個把偵錯用的 print() 刪除的時間，直接把Debug l</description>
+    </item>
+    
+    <item>
+      <title>關於 | About</title>
+      <link>https://oxygentw.net/blog/about/</link>
+      <pubDate>Sun, 24 May 2020 17:46:18 +0800</pubDate>
+      
+      <guid>https://oxygentw.net/blog/about/</guid>
+      <description>嚮往旅行的人，期待著能走遍世界，深入每一個城市、村落體驗各地生活與民情。 以救人為己任，學習醫學與生物科技，期望能成為協助病人脫離病痛的醫事人</description>
+    </item>
+    
+    <item>
+      <title>Zuvio 自動點名程式</title>
+      <link>https://oxygentw.net/blog/computer/zuvio-auto/</link>
+      <pubDate>Sat, 09 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/zuvio-auto/</guid>
+      <description>許多大學會用 Zuvio IRS 來線上點名，而線上點名有一個好處，只要不是開 GPS 點名，我可以在任何有網路的地方做點名的動作，但仍有一個缺點，我們不知道老師神呢</description>
+    </item>
+    
+    <item>
+      <title>入住中山醫宿舍感想...真心不建議</title>
+      <link>https://oxygentw.net/blog/life-story/about-csmu-dorm/</link>
+      <pubDate>Sun, 22 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/life-story/about-csmu-dorm/</guid>
+      <description>又到了很多高中生選學校的時候，或許有人會來中山醫，所以我介紹一下中山醫的宿舍，給各位當參考&amp;hellip;或是說勸世(? 關於中山醫的宿舍呢&amp;</description>
+    </item>
+    
+    <item>
+      <title>如何關閉 linux server 螢幕</title>
+      <link>https://oxygentw.net/blog/computer/turn-off-linux-server-moniter/</link>
+      <pubDate>Sat, 25 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/turn-off-linux-server-moniter/</guid>
+      <description>Raspberry Pi 的運行溫度越來越高不太穩定，所以最近把一台舊筆電改造成伺服器，裝好系統後發現我不需要用螢幕啊啊啊啊，我用 SSH 就好不要開著螢幕耗電，於是上網</description>
+    </item>
+    
+    <item>
+      <title>Python BMI 計算程式</title>
+      <link>https://oxygentw.net/blog/computer/python-bmi/</link>
+      <pubDate>Thu, 23 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/python-bmi/</guid>
+      <description>BMI 很重要吧！衡量體重的一個重要指標，然而有時要計算一堆個案需要達到多少體重才符合標準也挺麻煩的，所以用 Python 寫一個小程式，可以計算BMI並分類，</description>
+    </item>
+    
+    <item>
+      <title>心臟停止的急救技術</title>
+      <link>https://oxygentw.net/blog/notes/simple-cpr/</link>
+      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/notes/simple-cpr/</guid>
+      <description>CPR 想必大家不陌生，很多連續劇裡也都會演(? 身為醫事人員我們必須學會基本的急救技術，所以在醫學院裡的學生都會學，但我覺得這項技能應該是全民都該</description>
+    </item>
+    
+    <item>
+      <title>西班牙文筆記</title>
+      <link>https://oxygentw.net/blog/notes/spanish-note/</link>
+      <pubDate>Sat, 28 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/notes/spanish-note/</guid>
+      <description>Tema 1 Ser 用來表示不常變動的狀態，例如國籍、職業、價值判斷等。 Estar 用來表示當下的心裡、生理狀態、空間、地點、位置等。 Ser 與 Estar 的差別類似天氣與氣候定義</description>
+    </item>
+    
+    <item>
+      <title>在 VMware 中安裝 MacOS Mojave</title>
+      <link>https://oxygentw.net/blog/computer/install-macos-in-vmware/</link>
+      <pubDate>Sun, 22 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/install-macos-in-vmware/</guid>
+      <description>最近很常用到 apple 的工具，但是用 itune web 又不好用，本來就對 MacOS 有些好奇，於是就打算裝到虛擬機上來玩玩看，我用 VMware 15 來安裝，要開始之前大家可以先到下面官網</description>
+    </item>
+    
+    <item>
+      <title>計算 Line 訊息數的小工具</title>
+      <link>https://oxygentw.net/blog/computer/line-counter/</link>
+      <pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/line-counter/</guid>
+      <description>前陣子看了這篇解析 Line 對話的文章 讓我對解析 Line 匯出的純文字聊天紀錄有點概念，後來一時興起想計算我和朋友總共聊了多少訊息，寫了一個很簡單的小程式。</description>
+    </item>
+    
+    <item>
+      <title>介紹 pipenv 套件管理工具</title>
+      <link>https://oxygentw.net/blog/computer/python-pipenv/</link>
+      <pubDate>Fri, 15 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/python-pipenv/</guid>
+      <description>pipenv 是目前 Python 官方推薦的套件管理系統，在一段時間以前，好啦其實就是現在(? 還有很多人使用 pip 和 virtualenv 來進行 python 開發，這樣當然沒問題，只是維護 requirements.txt 有些麻煩，</description>
+    </item>
+    
+    <item>
+      <title>解決 Python 中 UnicodeDecodeError: &#39;cp950&#39; codec can&#39;t decode</title>
+      <link>https://oxygentw.net/blog/computer/python-file-utf8-encoding/</link>
+      <pubDate>Sat, 09 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/python-file-utf8-encoding/</guid>
+      <description>寫 Python 做資料處理時讀取中文檔案有時候會遇到 UnicodeDecodeError: &#39;cp950&#39; codec can&#39;t decode byte 0xe8 in position 7: illegal multibyte sequence 的錯誤，每次發生我都要重新找一次解決方法，一直記不住&amp;hellip; 乾脆直</description>
+    </item>
+    
+    <item>
+      <title>對！我跨校雙主修</title>
+      <link>https://oxygentw.net/blog/life-story/double-major-adventure/</link>
+      <pubDate>Thu, 19 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/life-story/double-major-adventure/</guid>
+      <description>大二上，許多大學生最活躍的時刻，我也不例外，參與了一大堆活動，社團、學校單位、校外等等，幾乎每天都要把自己榨乾，我甚至做了一個連我自己都害怕</description>
+    </item>
+    
+    <item>
+      <title>清肝養目茶配方</title>
+      <link>https://oxygentw.net/blog/notes/chrysanthemum-cassia-tea/</link>
+      <pubDate>Sun, 08 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/notes/chrysanthemum-cassia-tea/</guid>
+      <description>幾年前，那個我依然年輕的時候(? 在北醫藥學營方劑學學到清肝養目茶的配方與沖法，可是我一直不知道怎麼買中藥，剛剛去市場無意間看到就想說，恩，來</description>
+    </item>
+    
+    <item>
+      <title>新增生活故事系列！</title>
+      <link>https://oxygentw.net/blog/life-story/start/</link>
+      <pubDate>Fri, 06 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/life-story/start/</guid>
+      <description>我從小就嚮往走遍世界，看看這世界每一個角落發生的點點滴滴，認識各地的人，體驗當地風土名情。每一個人從出生到死亡每分每秒都在寫下他的人生故事，</description>
+    </item>
+    
+    <item>
+      <title>果蠅培養基製備法</title>
+      <link>https://oxygentw.net/blog/notes/fruit-fly-medium/</link>
+      <pubDate>Fri, 30 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/notes/fruit-fly-medium/</guid>
+      <description>實驗室以果蠅為模式生物，因此我多了許多和果蠅接觸的機會，也和學姊學了一些基本果蠅養殖方法，看久了真的覺得果蠅挺可愛的，就從將要被拋棄的舊培養</description>
+    </item>
+    
+    <item>
+      <title>Python 圖片轉灰階小工具</title>
+      <link>https://oxygentw.net/blog/computer/python-convert-imagetol/</link>
+      <pubDate>Tue, 13 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/python-convert-imagetol/</guid>
+      <description>最近實驗室在做 Construst，要跑很多次 DNA 電泳，偏偏照膠系統故障，只能拍好後再用手機翻拍膠圖，我們的小型藍光照膠器拍出來不明顯而且還是橘</description>
+    </item>
+    
+    <item>
+      <title>水肺潛水重裝組裝與拆卸流程</title>
+      <link>https://oxygentw.net/blog/travel/scuba-diving-equipment/</link>
+      <pubDate>Mon, 29 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/travel/scuba-diving-equipment/</guid>
+      <description>基本裝備清單 Buoyancy Compensator Device(BC) 氣瓶 管線組 配重 面鏡 呼吸管 防寒衣 蛙鞋 潛水鞋 氣瓶操作以 Yoke 氣瓶為主 重裝組裝 穿上防寒衣 穿上潛水鞋 面鏡除霧 移除氣瓶的氣瓶頭蓋 BC 氣瓶帶</description>
+    </item>
+    
+    <item>
+      <title>Excel 繪製回歸直線</title>
+      <link>https://oxygentw.net/blog/notes/excel-linear-regression/</link>
+      <pubDate>Fri, 24 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/notes/excel-linear-regression/</guid>
+      <description>線性回歸是很多定量實驗必須做的前置步驟，要先將標準品測得的實驗數據透過線性回歸的方式繪製出標準曲線，再將未知待測物以內插的方式帶入求值才是一</description>
+    </item>
+    
+    <item>
+      <title>台灣高鐵車次意義</title>
+      <link>https://oxygentw.net/blog/travel/thsr-train-number/</link>
+      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/travel/thsr-train-number/</guid>
+      <description>紀錄高鐵車次各數字的意義，這樣訂票一目了然很方便，對於常旅行或通勤的人來說是個很有用的常識！ 高鐵車次共有四碼 ABCC 第一碼 A 代表列車週期性，第二碼</description>
+    </item>
+    
+  </channel>
+</rss>

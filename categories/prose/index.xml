@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>prose on 氧氣橘子</title>
+    <link>https://oxygentw.net/categories/prose/</link>
+    <description>Recent content in prose on 氧氣橘子</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Mon, 17 Jul 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://oxygentw.net/categories/prose/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>淺談自殺</title>
+      <link>https://oxygentw.net/blog/prose/about-suicide-depression/</link>
+      <pubDate>Mon, 17 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/prose/about-suicide-depression/</guid>
+      <description>自殺。 或許是一種逃避，或許是種不負責任的行為，也或許代表著解脫。 我們很常聽到這些話: “如果你死了，真正痛苦的是你的家人” “你為什麼要把痛苦加</description>
+    </item>
+    
+    <item>
+      <title>酒精</title>
+      <link>https://oxygentw.net/blog/prose/wine/</link>
+      <pubDate>Sun, 09 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/prose/wine/</guid>
+      <description>「鐘鼓饌玉不足貴，但願長醉不願醒」，酒精，兩碳五氫再加個羥基，好一個「何以解憂？唯有杜康。」 啤酒下肚味覺苦如嘗膽，烈酒下肚食道灼如火燒，飲酒</description>
+    </item>
+    
+  </channel>
+</rss>
