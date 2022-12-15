@@ -486,7 +486,7 @@
 &lt;/p&gt;
 &lt;h2 id=&#34;setting-config&#34;&gt;Setting Config&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Host: HomeAssitant IP&lt;/li&gt;
+&lt;li&gt;Host: Synology NAS IP&lt;/li&gt;
 &lt;li&gt;Port 3493&lt;/li&gt;
 &lt;li&gt;Username: monuser&lt;/li&gt;
 &lt;li&gt;Password: secret&lt;/li&gt;
@@ -2234,15 +2234,14 @@
 &lt;ul&gt;
 &lt;li&gt;主修：醫學檢驗暨生物技術學&lt;/li&gt;
 &lt;li&gt;Major: Clinical Laboratory Science and Medical Biotechnology&lt;/li&gt;
-&lt;li&gt;雙主修：畜產與生物科技學&lt;/li&gt;
-&lt;li&gt;Double-major: Animal Science and Biotechnology&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;技能-skill&#34;&gt;技能 Skill&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;專門職業及技術人員高等考試-醫事檢驗師 及格&lt;/li&gt;
 &lt;li&gt;程式設計 Programming&lt;/li&gt;
-&lt;li&gt;Arduino/MCU&lt;/li&gt;
-&lt;li&gt;伺服器建置 Server maintaince&lt;/li&gt;
+&lt;li&gt;Arduino&lt;/li&gt;
+&lt;li&gt;伺服器建置 Linux server maintaince&lt;/li&gt;
 &lt;li&gt;紅十字會初級急救員證書 First Aider&lt;/li&gt;
 &lt;li&gt;三等業餘無線電執照 Amateur Radio Operator class 3&lt;/li&gt;
 &lt;li&gt;PADI 開放水域潛水員執照 OWD Certification&lt;/li&gt;
