@@ -6,7 +6,25 @@
     <description>Recent content in Blogs on 氧氣橘子</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Wed, 16 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://oxygentw.net/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://oxygentw.net/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>學習利器介紹 - Anki</title>
+      <link>https://oxygentw.net/blog/computer/anki-app/</link>
+      <pubDate>Tue, 02 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/anki-app/</guid>
+      <description>知道 Anki 這款軟體已經有一段時間，但他操作起來仍然需要一點時間摸索，因為國考的關係被迫學習如何使用他XD 也順利地利用 Anki 的輔助考過國考了！ 便來介紹</description>
+    </item>
+    
+    <item>
+      <title>vscode-markdown-pdf 匯出含有 latex 的文件</title>
+      <link>https://oxygentw.net/blog/computer/vscode-markdown-pdf-latex/</link>
+      <pubDate>Fri, 03 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/vscode-markdown-pdf-latex/</guid>
+      <description>vscode-markdown-pdf 是一個方便的VS Code Extension，可以將code中的PDF轉換為圖片、PDF、HTML等格式，但最近匯出的時候發現裡面含有 Latex 數學公式的</description>
+    </item>
+    
     <item>
       <title>中山醫授權軟體認證程式</title>
       <link>https://oxygentw.net/blog/computer/csmu-kms-gui/</link>
@@ -167,24 +185,6 @@
       
       <guid>https://oxygentw.net/blog/life-story/about-csmu-dorm/</guid>
       <description>又到了很多高中生選學校的時候，或許有人會來中山醫，所以我介紹一下中山醫的宿舍，給各位當參考&amp;hellip;或是說勸世(? 關於中山醫的宿舍呢&amp;</description>
-    </item>
-    
-    <item>
-      <title>如何關閉 linux server 螢幕</title>
-      <link>https://oxygentw.net/blog/computer/turn-off-linux-server-moniter/</link>
-      <pubDate>Sat, 25 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://oxygentw.net/blog/computer/turn-off-linux-server-moniter/</guid>
-      <description>Raspberry Pi 的運行溫度越來越高不太穩定，所以最近把一台舊筆電改造成伺服器，裝好系統後發現我不需要用螢幕啊啊啊啊，我用 SSH 就好不要開著螢幕耗電，於是上網</description>
-    </item>
-    
-    <item>
-      <title>Python BMI 計算程式</title>
-      <link>https://oxygentw.net/blog/computer/python-bmi/</link>
-      <pubDate>Thu, 23 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://oxygentw.net/blog/computer/python-bmi/</guid>
-      <description>BMI 很重要吧！衡量體重的一個重要指標，然而有時要計算一堆個案需要達到多少體重才符合標準也挺麻煩的，所以用 Python 寫一個小程式，可以計算BMI並分類，</description>
     </item>
     
   </channel>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>computer on 氧氣橘子</title>
+    <link>https://oxygentw.net/categories/computer/</link>
+    <description>Recent content in computer on 氧氣橘子</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Fri, 03 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://oxygentw.net/categories/computer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>vscode-markdown-pdf 匯出含有 latex 的文件</title>
+      <link>https://oxygentw.net/blog/computer/vscode-markdown-pdf-latex/</link>
+      <pubDate>Fri, 03 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/vscode-markdown-pdf-latex/</guid>
+      <description>vscode-markdown-pdf 是一個方便的VS Code Extension，可以將code中的PDF轉換為圖片、PDF、HTML等格式，但最近匯出的時候發現裡面含有 Latex 數學公式的</description>
+    </item>
+    
+    <item>
+      <title>中山醫授權軟體認證程式</title>
+      <link>https://oxygentw.net/blog/computer/csmu-kms-gui/</link>
+      <pubDate>Wed, 16 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/csmu-kms-gui/</guid>
+      <description>希望讓大家在認證 Windows 和 Office 上可以少受點苦的小程式。 1. 下載 CSMU-KMS 軟體 載點1：GitHub 載點2：oxygentw.net 2. 解壓縮後執行 CSMU-KMS.exe 3. 選擇你要認證</description>
+    </item>
+    
+    <item>
+      <title>Home Assistant 連接 Synology UPS Server</title>
+      <link>https://oxygentw.net/blog/computer/ha-connect-upsbynas/</link>
+      <pubDate>Tue, 15 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/ha-connect-upsbynas/</guid>
+      <description>便宜的家用 UPS 很多時候都只有一個 USB 通訊埠，我理所當然地把它拿去給最重要的 NAS 連接，但我還有一台運行 Home Assistant 的伺服器怎麼辦? 雖然我的經驗告訴我小樹莓派</description>
+    </item>
+    
+    <item>
+      <title>MySQL 新增使用者與資料庫指令</title>
+      <link>https://oxygentw.net/blog/computer/new-mysql-user/</link>
+      <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/new-mysql-user/</guid>
+      <description>建立新資料庫 1 CREATE DATABASE &amp;#39;databaseName&amp;#39;; 簡單粗暴，直接新增即可。 建立新使用者 1 CREATE USER &amp;#39;user_name&amp;#39;@&amp;#39;localhost&amp;#39; IDENTIFIED BY &amp;#39;password&amp;#39;; user_name 為新使用者名稱 僅限本機登入則輸入localhost，若外部可登入則輸</description>
+    </item>
+    
+    <item>
+      <title>分享 - Levey-Jennings chart 品管圖 Excel 模板</title>
+      <link>https://oxygentw.net/blog/notes/lj-chart-excel-share/</link>
+      <pubDate>Wed, 24 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/notes/lj-chart-excel-share/</guid>
+      <description>之前想說畫品管圖好麻煩，乾脆寫個程式來畫，但又覺得為這個寫程式有點太大費周章，決定去找找看有沒有現成的模板可以直接用 Excel 畫，結果還真的有! 而且</description>
+    </item>
+    
+    <item>
+      <title>建立第一個 Flutter App</title>
+      <link>https://oxygentw.net/blog/computer/first-flutter-app/</link>
+      <pubDate>Thu, 04 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/first-flutter-app/</guid>
+      <description>接續上一篇的環境安裝，我們來測試是否可以成功建立Flutter App，首先先打開 Android studio。 選擇 Create new Flutter project。 選擇Flutter</description>
+    </item>
+    
+    <item>
+      <title>安裝 Flutter 環境</title>
+      <link>https://oxygentw.net/blog/computer/install-flutter-env/</link>
+      <pubDate>Wed, 03 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/install-flutter-env/</guid>
+      <description>開源社的同學~ 這是我們第一堂社課要達成的目標，安裝Flutter與Dart環境，未來社課會頻繁的用到，希望大家都能順利安裝~ 網路上的朋友~ 這</description>
+    </item>
+    
+    <item>
+      <title>Remove Macos Hidden File</title>
+      <link>https://oxygentw.net/blog/computer/remove-macos-hidden-file/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/remove-macos-hidden-file/</guid>
+      <description>MacOS 下會為每個資料夾跟檔案新增一個以._開頭的系統隱藏檔案，用來儲存使用者設定和一些系統需要的設定，但是移到其他作業系統時這些檔案完全沒有用!</description>
+    </item>
+    
+    <item>
+      <title>移除 Android 手機螢幕鎖定密碼</title>
+      <link>https://oxygentw.net/blog/computer/remove-android-password/</link>
+      <pubDate>Fri, 04 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/remove-android-password/</guid>
+      <description>最近在學 Flutter，想說拿以前的 Android 手機來做測試，沒想到&amp;hellip;.忘記密碼了!!!! 只好去想辦法把密碼解開，於是有了這篇筆記&amp;he</description>
+    </item>
+    
+    <item>
+      <title>自訂 Windows Terminal 主題</title>
+      <link>https://oxygentw.net/blog/computer/set-windows-terminal-themes/</link>
+      <pubDate>Tue, 18 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/set-windows-terminal-themes/</guid>
+      <description>Windows Terminal 是 Windows 10 新型的終端機介面，整合傳統 cmd、PowerShell、Azure shell 和 WSL Bash，比原先的 cmd 要好用太多了，我今天來介紹如何更改他的</description>
+    </item>
+    
+    <item>
+      <title>Python Logging 偵錯記錄模組</title>
+      <link>https://oxygentw.net/blog/computer/python-logging/</link>
+      <pubDate>Sun, 31 May 2020 16:29:24 +0800</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/python-logging/</guid>
+      <description>logging 是 Python 內建的 log 紀錄器，可以利用這個模組來進行各種不同程度的 log 輸出，這樣可以省去程式開發完後一個一個把偵錯用的 print() 刪除的時間，直接把Debug l</description>
+    </item>
+    
+    <item>
+      <title>Zuvio 自動點名程式</title>
+      <link>https://oxygentw.net/blog/computer/zuvio-auto/</link>
+      <pubDate>Sat, 09 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/zuvio-auto/</guid>
+      <description>許多大學會用 Zuvio IRS 來線上點名，而線上點名有一個好處，只要不是開 GPS 點名，我可以在任何有網路的地方做點名的動作，但仍有一個缺點，我們不知道老師什麼</description>
+    </item>
+    
+    <item>
+      <title>如何關閉 linux server 螢幕</title>
+      <link>https://oxygentw.net/blog/computer/turn-off-linux-server-moniter/</link>
+      <pubDate>Sat, 25 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/turn-off-linux-server-moniter/</guid>
+      <description>Raspberry Pi 的運行溫度越來越高不太穩定，所以最近把一台舊筆電改造成伺服器，裝好系統後發現我不需要用螢幕啊啊啊啊，我用 SSH 就好不要開著螢幕耗電，於是上網</description>
+    </item>
+    
+    <item>
+      <title>Python BMI 計算程式</title>
+      <link>https://oxygentw.net/blog/computer/python-bmi/</link>
+      <pubDate>Thu, 23 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/python-bmi/</guid>
+      <description>BMI 很重要吧！衡量體重的一個重要指標，然而有時要計算一堆個案需要達到多少體重才符合標準也挺麻煩的，所以用 Python 寫一個小程式，可以計算BMI並分類，</description>
+    </item>
+    
+    <item>
+      <title>在 VMware 中安裝 MacOS Mojave</title>
+      <link>https://oxygentw.net/blog/computer/install-macos-in-vmware/</link>
+      <pubDate>Sun, 22 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/install-macos-in-vmware/</guid>
+      <description>最近很常用到 apple 的工具，但是用 itune web 又不好用，本來就對 MacOS 有些好奇，於是就打算裝到虛擬機上來玩玩看，我用 VMware 15 來安裝，要開始之前大家可以先到下面官網</description>
+    </item>
+    
+    <item>
+      <title>計算 Line 訊息數的小工具</title>
+      <link>https://oxygentw.net/blog/computer/line-counter/</link>
+      <pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/line-counter/</guid>
+      <description>前陣子看了這篇解析 Line 對話的文章 讓我對解析 Line 匯出的純文字聊天紀錄有點概念，後來一時興起想計算我和朋友總共聊了多少訊息，寫了一個很簡單的小程式。</description>
+    </item>
+    
+    <item>
+      <title>介紹 pipenv 套件管理工具</title>
+      <link>https://oxygentw.net/blog/computer/python-pipenv/</link>
+      <pubDate>Fri, 15 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/python-pipenv/</guid>
+      <description>pipenv 是目前 Python 官方推薦的套件管理系統，在一段時間以前，好啦其實就是現在(? 還有很多人使用 pip 和 virtualenv 來進行 python 開發，這樣當然沒問題，只是維護 requirements.txt 有些麻煩，</description>
+    </item>
+    
+    <item>
+      <title>解決 Python 中 UnicodeDecodeError: &#39;cp950&#39; codec can&#39;t decode</title>
+      <link>https://oxygentw.net/blog/computer/python-file-utf8-encoding/</link>
+      <pubDate>Sat, 09 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/python-file-utf8-encoding/</guid>
+      <description>寫 Python 做資料處理時讀取中文檔案有時候會遇到 UnicodeDecodeError: &#39;cp950&#39; codec can&#39;t decode byte 0xe8 in position 7: illegal multibyte sequence 的錯誤，每次發生我都要重新找一次解決方法，一直記不住&amp;hellip; 乾脆直</description>
+    </item>
+    
+    <item>
+      <title>Python 圖片轉灰階小工具</title>
+      <link>https://oxygentw.net/blog/computer/python-convert-imagetol/</link>
+      <pubDate>Tue, 13 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/python-convert-imagetol/</guid>
+      <description>最近實驗室在做 Construst，要跑很多次 DNA 電泳，偏偏照膠系統故障，只能拍好後再用手機翻拍膠圖，我們的小型藍光照膠器拍出來不明顯而且還是橘</description>
+    </item>
+    
+    <item>
+      <title>Excel 繪製回歸直線</title>
+      <link>https://oxygentw.net/blog/notes/excel-linear-regression/</link>
+      <pubDate>Fri, 24 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/notes/excel-linear-regression/</guid>
+      <description>線性回歸是很多定量實驗必須做的前置步驟，要先將標準品測得的實驗數據透過線性回歸的方式繪製出標準曲線，再將未知待測物以內插的方式帶入求值才是一</description>
+    </item>
+    
+  </channel>
+</rss>
