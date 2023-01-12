@@ -611,28 +611,7 @@
   </url>
   
   <url>
-    <loc>https://oxygentw.net/tags/maker/</loc>
-    <lastmod>2018-02-07T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://oxygentw.net/tags/science/</loc>
-    <lastmod>2018-02-07T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://oxygentw.net/tags/%E9%A3%9F%E8%AD%9C/</loc>
-    <lastmod>2018-02-07T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://oxygentw.net/blog/notes/make-solar-charging-device/</loc>
     <lastmod>2018-02-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -795,18 +774,6 @@
   <url>
     <loc>https://oxygentw.net/blog/computer/ubuntu-install-wordpress/</loc>
     <lastmod>2017-04-09T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://oxygentw.net/blog/computer/rfid-cloner-diy/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://oxygentw.net/blog/notes/remote-light-switch-diy/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
