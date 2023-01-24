@@ -6,10 +6,108 @@
     <description>Recent content on 氧氣橘子</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Tue, 02 Aug 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Jan 2023 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://oxygentw.net/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Home Assistant 連接小米智慧燈泡</title>
+      <link>https://oxygentw.net/blog/computer/hass-connect-xiaomi-smartbulb/</link>
+      <pubDate>Tue, 24 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/hass-connect-xiaomi-smartbulb/</guid>
+      
+        <description>&lt;p&gt;最近想把小米智慧燈泡接入 Home Assistant，這款燈泡是走 yeelight 系統的，所以理所當然我打算用 Home Assistant 官方的 &lt;a href=&#34;https://www.home-assistant.io/integrations/yeelight/&#34;&gt;Yeelight intergation&lt;/a&gt; 去連接，卻發現我不論怎麼用都只會得到 &lt;em&gt;No devices found on the network&lt;/em&gt; 或是 &lt;em&gt;Failed to connect&lt;/em&gt; 的錯誤，我就不明白了，搜尋許多解法後找到一個&lt;a href=&#34;https://community.home-assistant.io/t/integrate-mi-smart-led-bulb-easy-steps/312174&#34;&gt;社群論壇大大給的方法&lt;/a&gt;，成功接入！紀錄一下順便寫個中文版教學給其他遇到相同問題的人參考~&lt;/p&gt;
+&lt;br/&gt;
+&lt;blockquote&gt;
+&lt;p&gt;注意此方法需要安裝 Python！&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;燈泡連接米家app&#34;&gt;燈泡連接米家App&lt;/h2&gt;
+&lt;p&gt;首先先依照說明書將燈泡初始化，連接到&lt;strong&gt;米家app&lt;/strong&gt;，連上去後你就可以用米家 App 控制燈泡，但會發現 yeelight intergration 怎樣都找不到燈泡。&lt;/p&gt;
+&lt;p&gt;主因是燈泡沒有開啟開發者模式，我們無法從外面控制，用以下的方法可以把開發者模式打開。&lt;/p&gt;
+&lt;h2 id=&#34;取得燈泡-token&#34;&gt;取得燈泡 Token&lt;/h2&gt;
+&lt;p&gt;我們要先取得控制燈泡的 token，下載 &lt;a href=&#34;https://github.com/PiotrMachowski/Xiaomi-cloud-tokens-extractor/releases/latest/download/token_extractor.zip&#34;&gt;https://github.com/PiotrMachowski/Xiaomi-cloud-tokens-extractor/releases/latest/download/token_extractor.zip&lt;/a&gt; 解壓縮並進到目錄中(&lt;a href=&#34;https://github.com/PiotrMachowski/Xiaomi-cloud-tokens-extractor&#34;&gt;GitHub&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;安裝需要的 python 相依性套件
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;pip install -r requirements.txt&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;br/&gt;
+&lt;p&gt;接著執行腳本提取燈泡的token，需要輸入&lt;strong&gt;米家app&lt;/strong&gt;的帳號密碼
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;python3 token_extractor.py&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;br/&gt;
+&lt;p&gt;輸入完帳號密碼後他會顯示&lt;code&gt;Server (one of: cn, de, us, ru, tw, sg, in, i2) Leave empty to check all available:&lt;/code&gt;問你伺服器，如果不知道就直接按Enter即可。&lt;/p&gt;
+&lt;p&gt;如果有成功提取 token 會出現類似下面的文字，把 token 和 ip 記下來！(圖中我遮掉了)
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://oxygentw.net/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/hass-connect-xiaomi-smartbulb/getToken.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/hass-connect-xiaomi-smartbulb/getToken.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;打開開發者模式&#34;&gt;打開開發者模式&lt;/h2&gt;
+&lt;p&gt;接下來要下命令給燈泡開啟開發者模式，首先先安裝套件
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;pip install pycrypto
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;pip install python-miio&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;有趣是我安裝&lt;code&gt;pycrypto&lt;/code&gt;其實是失敗的，但我還是可以用(? XD&lt;/p&gt;
+&lt;br/&gt;
+&lt;p&gt;安裝好後在終端機中輸入，將 &lt;code&gt;IP_OF_DEVICE&lt;/code&gt; 改成燈泡 IP，&lt;code&gt;TOKEN_OF_DEVICE&lt;/code&gt;改成剛剛記下來的燈泡 token。
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;miiocli yeelight --ip IP_OF_DEVICE --token TOKEN_OF_DEVICE set_developer_mode &lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;br/&gt;
+&lt;p&gt;若他回應類似下面的文字就是成功了!&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Setting developer mode to True
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ok
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;接下來再回到 Home Assistant 他應該就會自己找到燈泡，如果沒有的話再去 intergrations 那邊新增 yeelight 讓他搜尋就會找到了！&lt;/p&gt;
+&lt;br/&gt;
+&lt;p&gt;參考資料&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/PiotrMachowski/Xiaomi-cloud-tokens-extractor&#34;&gt;https://github.com/PiotrMachowski/Xiaomi-cloud-tokens-extractor&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://community.home-assistant.io/t/integrate-mi-smart-led-bulb-easy-steps/312174&#34;&gt;https://community.home-assistant.io/t/integrate-mi-smart-led-bulb-easy-steps/312174&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.home-assistant.io/integrations/yeelight/&#34;&gt;https://www.home-assistant.io/integrations/yeelight/&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+      
+    </item>
     
     <item>
       <title>關於 | About</title>
@@ -2301,59 +2399,6 @@
 &lt;li&gt;&lt;a href=&#34;https://github.com/oxygen-TW/Encrypted-Notepad&#34; title=&#34;Encrypted Notepad&#34;&gt;Encrypted Notepad (2017-)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/oxygen-TW/Campus-Weather-Service&#34; title=&#34;Campus-Weather-Service&#34;&gt;Campus Weather Service Project (2016-2018)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://ithelp.ithome.com.tw/users/20120282/ironman/2479&#34; title=&#34;2019 Ithome 鐵人賽&#34;&gt;原來電腦可以這樣用!? 果蠅也懂的程式語言教學 (2019 ithome 鐵人賽)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;br/&gt;
-&lt;h2 id=&#34;期望研究領域-research-interest&#34;&gt;期望研究領域 research interest&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;精神醫學 Psychiatry&lt;/li&gt;
-&lt;li&gt;神經藥物 Neuromedicine&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-      
-    </item>
-    
-    <item>
-      <title>關於 | About</title>
-      <link>https://oxygentw.net/blog/about/about/</link>
-      <pubDate>Sun, 24 May 2020 17:46:18 +0800</pubDate>
-      
-      <guid>https://oxygentw.net/blog/about/about/</guid>
-      
-        <description>&lt;blockquote&gt;
-&lt;p&gt;嚮往旅行的人，期待著能走遍世界，深入每一個城市、村落體驗各地生活與民情。&lt;br&gt;
-以救人為己任，學習醫學與生物科技，期望能成為協助病人脫離病痛的醫事人員。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;br/&gt;
-&lt;h2 id=&#34;學歷&#34;&gt;學歷&lt;/h2&gt;
-&lt;h3 id=&#34;高中-senior-high-school&#34;&gt;高中 Senior High School&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;資訊科學班 Computer Science&lt;/li&gt;
-&lt;/ul&gt;
-&lt;br/&gt;
-&lt;h3 id=&#34;大學-university&#34;&gt;大學 University&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;主修：醫學檢驗暨生物技術學&lt;/li&gt;
-&lt;li&gt;Major: Clinical Laboratory Science and Medical Biotechnology&lt;/li&gt;
-&lt;li&gt;雙主修：畜產與生物科技學&lt;/li&gt;
-&lt;li&gt;Double-major: Animal Science and Biotechnology&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;技能-skill&#34;&gt;技能 Skill&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;程式設計 Programming&lt;/li&gt;
-&lt;li&gt;Arduino/MCU&lt;/li&gt;
-&lt;li&gt;伺服器建置 Server maintaince&lt;/li&gt;
-&lt;li&gt;紅十字會初級急救員證書 First Aider&lt;/li&gt;
-&lt;li&gt;三等業餘無線電執照 Amateur Radio Operator class 3&lt;/li&gt;
-&lt;li&gt;PADI 開放水域潛水員執照 OWD Certification&lt;/li&gt;
-&lt;/ul&gt;
-&lt;br/&gt;
-&lt;h2 id=&#34;專題與研究-project-and-research&#34;&gt;專題與研究 Project and research&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;[探討匿名聊天是否可分辨對方性別 (2018)] (&lt;a href=&#34;https://oxygentw.net/files/%E6%8E%A2%E8%A8%8E%E5%8C%BF%E5%90%8D%E8%81%8A%E5%A4%A9%E6%98%AF%E5%90%A6%E5%8F%AF%E5%88%86%E8%BE%A8%E5%B0%8D%E6%96%B9%E6%80%A7%E5%88%A5.pdf&#34;&gt;https://oxygentw.net/files/探討匿名聊天是否可分辨對方性別.pdf&lt;/a&gt;  &amp;ldquo;探討匿名聊天是否可分辨對方性別&amp;rdquo;)&lt;/li&gt;
-&lt;li&gt;[Encrypted Notepad (2017-)] (&lt;a href=&#34;https://github.com/oxygen-TW/Encrypted-Notepad&#34;&gt;https://github.com/oxygen-TW/Encrypted-Notepad&lt;/a&gt;  &amp;ldquo;Encrypted Notepad&amp;rdquo;)&lt;/li&gt;
-&lt;li&gt;[Campus Weather Service Project (2016-2018)] (&lt;a href=&#34;https://github.com/oxygen-TW/Campus-Weather-Service&#34;&gt;https://github.com/oxygen-TW/Campus-Weather-Service&lt;/a&gt;  &amp;ldquo;Campus-Weather-Service&amp;rdquo;)&lt;/li&gt;
-&lt;li&gt;[原來電腦可以這樣用!? 果蠅也懂的程式語言教學 (2019 ithome 鐵人賽)] (&lt;a href=&#34;https://ithelp.ithome.com.tw/users/20120282/ironman/2479&#34;&gt;https://ithelp.ithome.com.tw/users/20120282/ironman/2479&lt;/a&gt;  &amp;ldquo;2019 Ithome 鐵人賽&amp;rdquo;)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;br/&gt;
 &lt;h2 id=&#34;期望研究領域-research-interest&#34;&gt;期望研究領域 research interest&lt;/h2&gt;

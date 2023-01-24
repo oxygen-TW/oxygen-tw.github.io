@@ -6,7 +6,16 @@
     <description>Recent content in Home server series on 氧氣橘子</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Mon, 18 Feb 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://oxygentw.net/tags/home-server-series/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 24 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://oxygentw.net/tags/home-server-series/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Home Assistant 連接小米智慧燈泡</title>
+      <link>https://oxygentw.net/blog/computer/hass-connect-xiaomi-smartbulb/</link>
+      <pubDate>Tue, 24 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/hass-connect-xiaomi-smartbulb/</guid>
+      <description>最近想把小米智慧燈泡接入 Home Assistant，這款燈泡是走 yeelight 系統的，所以理所當然我打算用 Home Assistant 官方的 Yeelight intergation 去連接，卻發現我不論怎麼用都只會得到 No</description>
+    </item>
+    
     <item>
       <title>架設家用伺服器 PART 3 — 設定系統</title>
       <link>https://oxygentw.net/blog/computer/homeserver/3-system-setting/</link>

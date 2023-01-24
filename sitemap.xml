@@ -2,6 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://oxygentw.net/blog/</loc>
+    <lastmod>2023-01-24T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://oxygentw.net/categories/</loc>
+    <lastmod>2023-01-24T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://oxygentw.net/categories/computer/</loc>
+    <lastmod>2023-01-24T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://oxygentw.net/blog/computer/hass-connect-xiaomi-smartbulb/</loc>
+    <lastmod>2023-01-24T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://oxygentw.net/tags/home-server-series/</loc>
+    <lastmod>2023-01-24T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://oxygentw.net/tags/</loc>
+    <lastmod>2023-01-24T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://oxygentw.net/</loc>
+    <lastmod>2023-01-24T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://oxygentw.net/about/</loc>
     <lastmod>2022-12-15T17:46:18+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -9,35 +58,7 @@
   </url>
   
   <url>
-    <loc>https://oxygentw.net/blog/</loc>
-    <lastmod>2022-08-02T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://oxygentw.net/categories/</loc>
-    <lastmod>2022-08-02T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://oxygentw.net/categories/computer/</loc>
-    <lastmod>2022-08-02T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://oxygentw.net/categories/notes/</loc>
-    <lastmod>2022-08-02T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://oxygentw.net/</loc>
     <lastmod>2022-08-02T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -151,13 +172,6 @@
   <url>
     <loc>https://oxygentw.net/blog/computer/set-windows-terminal-themes/</loc>
     <lastmod>2020-08-18T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://oxygentw.net/tags/</loc>
-    <lastmod>2020-07-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -389,13 +403,6 @@
   <url>
     <loc>https://oxygentw.net/blog/travel/taichung-south-dist-to-yuanlin-bywalk/</loc>
     <lastmod>2019-03-03T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://oxygentw.net/tags/home-server-series/</loc>
-    <lastmod>2019-02-18T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

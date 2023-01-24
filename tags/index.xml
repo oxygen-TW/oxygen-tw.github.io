@@ -6,7 +6,16 @@
     <description>Recent content in Tags on 氧氣橘子</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sun, 19 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://oxygentw.net/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 24 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://oxygentw.net/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Home server series</title>
+      <link>https://oxygentw.net/tags/home-server-series/</link>
+      <pubDate>Tue, 24 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/tags/home-server-series/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>work exchange</title>
       <link>https://oxygentw.net/tags/work-exchange/</link>
@@ -49,15 +58,6 @@
       <pubDate>Sun, 31 May 2020 16:29:24 +0800</pubDate>
       
       <guid>https://oxygentw.net/tags/tag-2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Home server series</title>
-      <link>https://oxygentw.net/tags/home-server-series/</link>
-      <pubDate>Mon, 18 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://oxygentw.net/tags/home-server-series/</guid>
       <description></description>
     </item>
     

@@ -6,7 +6,16 @@
     <description>Recent content in computer on 氧氣橘子</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Tue, 02 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://oxygentw.net/categories/computer/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 24 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://oxygentw.net/categories/computer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Home Assistant 連接小米智慧燈泡</title>
+      <link>https://oxygentw.net/blog/computer/hass-connect-xiaomi-smartbulb/</link>
+      <pubDate>Tue, 24 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/hass-connect-xiaomi-smartbulb/</guid>
+      <description>最近想把小米智慧燈泡接入 Home Assistant，這款燈泡是走 yeelight 系統的，所以理所當然我打算用 Home Assistant 官方的 Yeelight intergation 去連接，卻發現我不論怎麼用都只會得到 No</description>
+    </item>
+    
     <item>
       <title>學習利器介紹 - Anki</title>
       <link>https://oxygentw.net/blog/computer/anki-app/</link>
@@ -176,15 +185,6 @@
       
       <guid>https://oxygentw.net/blog/computer/python-file-utf8-encoding/</guid>
       <description>寫 Python 做資料處理時讀取中文檔案有時候會遇到 UnicodeDecodeError: &#39;cp950&#39; codec can&#39;t decode byte 0xe8 in position 7: illegal multibyte sequence 的錯誤，每次發生我都要重新找一次解決方法，一直記不住&amp;hellip; 乾脆直</description>
-    </item>
-    
-    <item>
-      <title>Python 圖片轉灰階小工具</title>
-      <link>https://oxygentw.net/blog/computer/python-convert-imagetol/</link>
-      <pubDate>Tue, 13 Aug 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://oxygentw.net/blog/computer/python-convert-imagetol/</guid>
-      <description>最近實驗室在做 Construst，要跑很多次 DNA 電泳，偏偏照膠系統故障，只能拍好後再用手機翻拍膠圖，我們的小型藍光照膠器拍出來不明顯而且還是橘</description>
     </item>
     
   </channel>

@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>[日本] 如何從日本寄明信片！ - 氧氣橘子</title>
+  <title>Home Assistant 連接小米智慧燈泡 - 氧氣橘子</title>
   
 
 
@@ -25,7 +25,9 @@
 
 <meta name="mobile-web-app-capable" content="yes">
 
-<meta name="author" content="oxygen" /><meta name="description" content="寄出2000公里外的祝福" />
+<meta name="author" content="oxygen" />
+  <meta name="description" content="最近想把小米智慧燈泡接入 Home Assistant，這款燈泡是走 yeelight 系統的，所以理所當然我打算用 Home Assistant 官方的 Yeelight intergation 去連接，卻發現我不論怎麼用都只會得到 No" />
+<meta name="keywords" content="Home Assitant, Home Assitant 小米智能燈泡, Home Assitant yeelight, yeelight integration, yeelight No devices found on the network, yeelight Failed to connect, 小米智能燈泡, Yeelight" />
 
 
 
@@ -36,7 +38,7 @@
 <meta name="generator" content="Hugo 0.110.0" />
 
 
-<link rel="canonical" href="https://oxygentw.net/blog/prose/mail-postcard-in-japan/" />
+<link rel="canonical" href="https://oxygentw.net/blog/computer/hass-connect-xiaomi-smartbulb/" />
 
 
 
@@ -60,19 +62,19 @@
 
 
 
-<meta property="og:title" content="[日本] 如何從日本寄明信片！" />
-<meta property="og:description" content="寄出2000公里外的祝福" />
+<meta property="og:title" content="Home Assistant 連接小米智慧燈泡" />
+<meta property="og:description" content="最近想把小米智慧燈泡接入 Home Assistant，這款燈泡是走 yeelight 系統的，所以理所當然我打算用 Home Assistant 官方的 Yeelight intergation 去連接，卻發現我不論怎麼用都只會得到 No" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://oxygentw.net/blog/prose/mail-postcard-in-japan/" /><meta property="article:section" content="blog" />
-<meta property="article:published_time" content="2018-06-25T00:00:00+00:00" />
-<meta property="article:modified_time" content="2018-06-25T00:00:00+00:00" />
-<meta itemprop="name" content="[日本] 如何從日本寄明信片！">
-<meta itemprop="description" content="寄出2000公里外的祝福"><meta itemprop="datePublished" content="2018-06-25T00:00:00+00:00" />
-<meta itemprop="dateModified" content="2018-06-25T00:00:00+00:00" />
-<meta itemprop="wordCount" content="791">
-<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="[日本] 如何從日本寄明信片！"/>
-<meta name="twitter:description" content="寄出2000公里外的祝福"/>
+<meta property="og:url" content="https://oxygentw.net/blog/computer/hass-connect-xiaomi-smartbulb/" /><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2023-01-24T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-01-24T00:00:00+00:00" />
+<meta itemprop="name" content="Home Assistant 連接小米智慧燈泡">
+<meta itemprop="description" content="最近想把小米智慧燈泡接入 Home Assistant，這款燈泡是走 yeelight 系統的，所以理所當然我打算用 Home Assistant 官方的 Yeelight intergation 去連接，卻發現我不論怎麼用都只會得到 No"><meta itemprop="datePublished" content="2023-01-24T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2023-01-24T00:00:00+00:00" />
+<meta itemprop="wordCount" content="669">
+<meta itemprop="keywords" content="Home server series," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Home Assistant 連接小米智慧燈泡"/>
+<meta name="twitter:description" content="最近想把小米智慧燈泡接入 Home Assistant，這款燈泡是走 yeelight 系統的，所以理所當然我打算用 Home Assistant 官方的 Yeelight intergation 去連接，卻發現我不論怎麼用都只會得到 No"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -303,17 +305,17 @@ if (!doNotTrack) {
           <article class="post bg-white">
     
     <header class="post-header">
-      <h1 class="post-title">[日本] 如何從日本寄明信片！</h1>
+      <h1 class="post-title">Home Assistant 連接小米智慧燈泡</h1>
       
       <div class="post-meta">
-        <time datetime="2018-06-25" class="post-time">
-          2018-06-25
+        <time datetime="2023-01-24" class="post-time">
+          2023-01-24
         </time>
         <div class="post-category">
-            <a href="https://oxygentw.net/categories/travel/"> travel </a>
+            <a href="https://oxygentw.net/categories/computer/"> computer </a>
             
           </div>
-        <span class="more-meta"> 約 791 字 </span>
+        <span class="more-meta"> 約 669 字 </span>
           <span class="more-meta"> 預計閱讀 2 分鐘 </span>
 
         
@@ -329,84 +331,93 @@ if (!doNotTrack) {
 
     
     <div class="post-content">
-      <p>許多人在出國時會想從國外寄明信片回台灣吧！之前旅行青蛙的熱潮又助長了一波明信片風潮，日本在 2017 年是最多台灣人旅遊的國家，人數達出國總數的29.4%，那麼我就來介紹如何從日本寄明信片回台灣吧！</p>
-<hr>
-<h2 id="購買明信片">購買明信片</h2>
-<p>首先到你參觀的景點或其他地方買張你喜歡的明信片，這很重要，因為寄明信片不能沒有明信片呀XD 我在京都和奈良看到的大約一張 110 日圓，東大寺內部一張 50 日圓。</p>
+      <p>最近想把小米智慧燈泡接入 Home Assistant，這款燈泡是走 yeelight 系統的，所以理所當然我打算用 Home Assistant 官方的 <a href="https://www.home-assistant.io/integrations/yeelight/">Yeelight intergation</a> 去連接，卻發現我不論怎麼用都只會得到 <em>No devices found on the network</em> 或是 <em>Failed to connect</em> 的錯誤，我就不明白了，搜尋許多解法後找到一個<a href="https://community.home-assistant.io/t/integrate-mi-smart-led-bulb-easy-steps/312174">社群論壇大大給的方法</a>，成功接入！紀錄一下順便寫個中文版教學給其他遇到相同問題的人參考~</p>
 <br/>
-<h2 id="購買郵票">購買郵票</h2>
-<p>再到任何一間日本的郵局(郵便局)的郵便窗口買明信片的郵票，日本郵局和台灣一樣要抽號碼牌，只是那時候我去剛好都沒有人，就直接去櫃檯了~ 郵票在哪裡買的不重要，郵戳是根據寄出地而定而不是郵票購買地。</p>
-<p>和郵局人員說 <font color="royal blue">&ldquo;I want to buy stamp for postcard.&quot;</font> 他就會懂啦！然後會問你要幾張，看個人需求回答他囉。一張國際明信片郵票郵資是 70 日圓，特殊造型的明信片郵資好像是 220 日圓吧? 若要寄特殊造型明信片還是向郵局詢問一下比較好喔！</p>
+<blockquote>
+<p>注意此方法需要安裝 Python！</p>
+</blockquote>
+<h2 id="燈泡連接米家app">燈泡連接米家App</h2>
+<p>首先先依照說明書將燈泡初始化，連接到<strong>米家app</strong>，連上去後你就可以用米家 App 控制燈泡，但會發現 yeelight intergration 怎樣都找不到燈泡。</p>
+<p>主因是燈泡沒有開啟開發者模式，我們無法從外面控制，用以下的方法可以把開發者模式打開。</p>
+<h2 id="取得燈泡-token">取得燈泡 Token</h2>
+<p>我們要先取得控制燈泡的 token，下載 <a href="https://github.com/PiotrMachowski/Xiaomi-cloud-tokens-extractor/releases/latest/download/token_extractor.zip">https://github.com/PiotrMachowski/Xiaomi-cloud-tokens-extractor/releases/latest/download/token_extractor.zip</a> 解壓縮並進到目錄中(<a href="https://github.com/PiotrMachowski/Xiaomi-cloud-tokens-extractor">GitHub</a>)</p>
+<p>安裝需要的 python 相依性套件
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">pip install -r requirements.txt</span></span></code></pre></td></tr></table>
+</div>
+</div></p>
 <br/>
-<h2 id="明信片格式">明信片格式</h2>
-<p>大致上照著這樣寫不會錯，日本的郵遞區號和台灣不一樣，所以如果你買的明信片有幫你預留郵遞區號的格子可以不用理他，空著就好。寫好基本格式後剩下的地方就可以寫內文。</p>
-<h2 id="橫式">橫式:</h2>
+<p>接著執行腳本提取燈泡的token，需要輸入<strong>米家app</strong>的帳號密碼
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">python3 token_extractor.py</span></span></code></pre></td></tr></table>
+</div>
+</div></p>
+<br/>
+<p>輸入完帳號密碼後他會顯示<code>Server (one of: cn, de, us, ru, tw, sg, in, i2) Leave empty to check all available:</code>問你伺服器，如果不知道就直接按Enter即可。</p>
+<p>如果有成功提取 token 會出現類似下面的文字，把 token 和 ip 記下來！(圖中我遮掉了)
 
 <link rel="stylesheet" href="/css/hugo-easy-gallery.css" />
 <div class="box">
 <figure  itemprop="associatedMedia"
-  itemscope itemtype="http://schema.org/ImageObject" 
-  style="max-width:500px" >
-    <div class="img">
-      <img itemprop="thumbnail" src="/img/post/mail-postcard-in-japan/postcard1.png" alt="橫式明信片"/>
-    </div>
-    <a href="/img/post/mail-postcard-in-japan/postcard1.png" itemprop="contentUrl"></a>
-  </figure>
-</div>
-
-<br/>
-<h2 id="直式">直式:</h2>
-
-
-<div class="box">
-<figure  itemprop="associatedMedia"
   itemscope itemtype="http://schema.org/ImageObject" >
     <div class="img">
-      <img itemprop="thumbnail" src="/img/post/mail-postcard-in-japan/postcard2.png" alt="直式明信片"/>
+      <img itemprop="thumbnail" src="/img/post/hass-connect-xiaomi-smartbulb/getToken.png" />
     </div>
-    <a href="/img/post/mail-postcard-in-japan/postcard2.png" itemprop="contentUrl"></a>
+    <a href="/img/post/hass-connect-xiaomi-smartbulb/getToken.png" itemprop="contentUrl"></a>
   </figure>
 </div>
-
-<p>地址寫中文或英文都可以，<font color="red">最重要的是Taiwan要寫出來</font>，不然郵差不知道要寄到哪國去，若想將地址換成英文可以參考 <a href="https://www.post.gov.tw/post/internet/SearchZone/index.jsp?ID=130112" title="中華郵政中文地址英譯">中華郵政中文地址英譯</a>。</p>
-<p>AIR MAIL 可以向郵局拿貼紙貼上或自己寫上，不過我們用的郵票就已經是國際郵件用的了，所以沒有寫也無仿！</p>
-<br/>
-<h2 id="投遞明信片">投遞明信片</h2>
-<p>郵票貼好，內容寫完後就找到一個日本的郵筒，想要哪個縣市的郵戳就要在那個縣市的郵筒寄喔！</p>
-<p>把明信片投進<font color="magenta">左邊的口</font>(<font color="red">手紙 • はがき</font>)，就成功把明信片寄出啦，很簡單吧！</p>
-
-
-<div class="box">
-<figure  itemprop="associatedMedia"
-  itemscope itemtype="http://schema.org/ImageObject" 
-  style="max-width:500px" >
-    <div class="img">
-      <img itemprop="thumbnail" src="/img/post/mail-postcard-in-japan/post_c.jpg" alt="直式明信片"/>
-    </div>
-    <a href="/img/post/mail-postcard-in-japan/post_c.jpg" itemprop="contentUrl"></a>
-  </figure>
+</p>
+<h2 id="打開開發者模式">打開開發者模式</h2>
+<p>接下來要下命令給燈泡開啟開發者模式，首先先安裝套件
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">pip install pycrypto
+</span></span><span class="line"><span class="cl">pip install python-miio</span></span></code></pre></td></tr></table>
 </div>
-
+</div></p>
+<p>有趣是我安裝<code>pycrypto</code>其實是失敗的，但我還是可以用(? XD</p>
 <br/>
-<h2 id="20180625-更">2018/06/25 更</h2>
-<p>收到明信片啦！郵寄花了12天，有點久不過還是順利寄到啦~</p>
-
-
-<div class="box">
-<figure  itemprop="associatedMedia"
-  itemscope itemtype="http://schema.org/ImageObject" 
-  style="max-width:500px" >
-    <div class="img">
-      <img itemprop="thumbnail" src="/img/post/mail-postcard-in-japan/IMAG1632_c.jpg" alt="直式明信片"/>
-    </div>
-    <a href="/img/post/mail-postcard-in-japan/IMAG1632_c.jpg" itemprop="contentUrl"></a>
-  </figure>
+<p>安裝好後在終端機中輸入，將 <code>IP_OF_DEVICE</code> 改成燈泡 IP，<code>TOKEN_OF_DEVICE</code>改成剛剛記下來的燈泡 token。
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">miiocli yeelight --ip IP_OF_DEVICE --token TOKEN_OF_DEVICE set_developer_mode <span class="m">1</span></span></span></code></pre></td></tr></table>
 </div>
-
+</div></p>
 <br/>
-<h5 id="相關連結">相關連結</h5>
-<p>日本郵便官網:http://www.post.japanpost.jp/index.html</p>
-<p>日本郵便(English):http://www.post.japanpost.jp/index_en.html</p>
+<p>若他回應類似下面的文字就是成功了!</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">Setting developer mode to True
+</span></span><span class="line"><span class="cl">ok
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>接下來再回到 Home Assistant 他應該就會自己找到燈泡，如果沒有的話再去 intergrations 那邊新增 yeelight 讓他搜尋就會找到了！</p>
+<br/>
+<p>參考資料</p>
+<ol>
+<li><a href="https://github.com/PiotrMachowski/Xiaomi-cloud-tokens-extractor">https://github.com/PiotrMachowski/Xiaomi-cloud-tokens-extractor</a></li>
+<li><a href="https://community.home-assistant.io/t/integrate-mi-smart-led-bulb-easy-steps/312174">https://community.home-assistant.io/t/integrate-mi-smart-led-bulb-easy-steps/312174</a></li>
+<li><a href="https://www.home-assistant.io/integrations/yeelight/">https://www.home-assistant.io/integrations/yeelight/</a></li>
+</ol>
 
     </div>
 
@@ -420,7 +431,7 @@ if (!doNotTrack) {
   <p class="copyright-item">
     <span class="item-title">上次更新</span>
     <span class="item-content">
-      2018-06-25
+      2023-01-24
       
     </span>
   </p>
@@ -436,27 +447,17 @@ if (!doNotTrack) {
     
 
     <footer class="post-footer">
-      
+      <div class="post-tags">
+          <a href="https://oxygentw.net/tags/home-server-series/">Home server series</a>
+          
+        </div>
 
       
       <nav class="post-nav">
         
-          <a class="prev" href="/blog/computer/apache-server-force-https/">
-            
-            <i class="iconfont">
-              <svg  class="icon" viewBox="0 0 1024 1024" version="1.1"
-  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-  width="18" height="18">
-  <path d="M691.908486 949.511495l75.369571-89.491197c10.963703-12.998035 10.285251-32.864502-1.499144-44.378743L479.499795 515.267417 757.434875 204.940602c11.338233-12.190647 11.035334-32.285311-0.638543-44.850487l-80.46666-86.564541c-11.680017-12.583596-30.356378-12.893658-41.662889-0.716314L257.233596 494.235404c-11.332093 12.183484-11.041474 32.266891 0.657986 44.844348l80.46666 86.564541c1.772366 1.910513 3.706415 3.533476 5.750981 4.877077l306.620399 321.703933C662.505829 963.726242 680.945807 962.528973 691.908486 949.511495z"></path>
-</svg>
-
-            </i>
-            <span class="prev-text nav-default">網頁伺服器強制使用 HTTPS 安全連線</span>
-            <span class="prev-text nav-mobile">上一篇</span>
-          </a>
         
-          <a class="next" href="/blog/travel/mail-postcard-in-japan/">
-            <span class="next-text nav-default">[日本] 如何從日本寄明信片！</span>
+          <a class="next" href="/blog/computer/anki-app/">
+            <span class="next-text nav-default">學習利器介紹 - Anki</span>
             <span class="prev-text nav-mobile">下一篇</span>
             
             <i class="iconfont">
@@ -496,7 +497,7 @@ if (!doNotTrack) {
   <div id="disqus_thread"></div>
   <script type="text/javascript">
     var disqus_config = function () {
-      this.page.url = "https://oxygentw.net/blog/prose/mail-postcard-in-japan/";
+      this.page.url = "https://oxygentw.net/blog/computer/hass-connect-xiaomi-smartbulb/";
     };
     function load_disqus() {
       

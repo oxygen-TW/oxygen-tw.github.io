@@ -6,7 +6,16 @@
     <description>Recent content in Blogs on 氧氣橘子</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Tue, 02 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://oxygentw.net/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 24 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://oxygentw.net/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Home Assistant 連接小米智慧燈泡</title>
+      <link>https://oxygentw.net/blog/computer/hass-connect-xiaomi-smartbulb/</link>
+      <pubDate>Tue, 24 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/hass-connect-xiaomi-smartbulb/</guid>
+      <description>最近想把小米智慧燈泡接入 Home Assistant，這款燈泡是走 yeelight 系統的，所以理所當然我打算用 Home Assistant 官方的 Yeelight intergation 去連接，卻發現我不論怎麼用都只會得到 No</description>
+    </item>
+    
     <item>
       <title>學習利器介紹 - Anki</title>
       <link>https://oxygentw.net/blog/computer/anki-app/</link>
@@ -176,15 +185,6 @@
       
       <guid>https://oxygentw.net/blog/computer/zuvio-auto/</guid>
       <description>許多大學會用 Zuvio IRS 來線上點名，而線上點名有一個好處，只要不是開 GPS 點名，我可以在任何有網路的地方做點名的動作，但仍有一個缺點，我們不知道老師什麼</description>
-    </item>
-    
-    <item>
-      <title>入住中山醫宿舍感想...真心不建議</title>
-      <link>https://oxygentw.net/blog/life-story/about-csmu-dorm/</link>
-      <pubDate>Sun, 22 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://oxygentw.net/blog/life-story/about-csmu-dorm/</guid>
-      <description>又到了很多高中生選學校的時候，或許有人會來中山醫，所以我介紹一下中山醫的宿舍，給各位當參考&amp;hellip;或是說勸世(? 關於中山醫的宿舍呢&amp;</description>
     </item>
     
   </channel>
