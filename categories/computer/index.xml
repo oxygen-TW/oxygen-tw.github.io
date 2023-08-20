@@ -6,7 +6,16 @@
     <description>Recent content in computer on 氧氣橘子</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Tue, 24 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://oxygentw.net/categories/computer/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://oxygentw.net/categories/computer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>利用 MacOS 捷徑 app 控制 OpenWRT OpenVPN</title>
+      <link>https://oxygentw.net/blog/computer/mac-shortcut-control-openwrt-vpn/</link>
+      <pubDate>Sun, 20 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/mac-shortcut-control-openwrt-vpn/</guid>
+      <description>這篇給我自己紀錄用的，我的 OpenWRT 上裝有 OpenVPN Client，這樣直接利用路由器連回工作場域所有連這台路由器 WiFi 的設備都可以同時進入內網，雖然 OpenWRT 有提供網頁</description>
+    </item>
+    
     <item>
       <title>Home Assistant 連接小米智慧燈泡</title>
       <link>https://oxygentw.net/blog/computer/hass-connect-xiaomi-smartbulb/</link>
@@ -176,15 +185,6 @@
       
       <guid>https://oxygentw.net/blog/computer/python-pipenv/</guid>
       <description>pipenv 是目前 Python 官方推薦的套件管理系統，在一段時間以前，好啦其實就是現在(? 還有很多人使用 pip 和 virtualenv 來進行 python 開發，這樣當然沒問題，只是維護 requirements.txt 有些麻煩，</description>
-    </item>
-    
-    <item>
-      <title>解決 Python 中 UnicodeDecodeError: &#39;cp950&#39; codec can&#39;t decode</title>
-      <link>https://oxygentw.net/blog/computer/python-file-utf8-encoding/</link>
-      <pubDate>Sat, 09 Nov 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://oxygentw.net/blog/computer/python-file-utf8-encoding/</guid>
-      <description>寫 Python 做資料處理時讀取中文檔案有時候會遇到 UnicodeDecodeError: &#39;cp950&#39; codec can&#39;t decode byte 0xe8 in position 7: illegal multibyte sequence 的錯誤，每次發生我都要重新找一次解決方法，一直記不住&amp;hellip; 乾脆直</description>
     </item>
     
   </channel>

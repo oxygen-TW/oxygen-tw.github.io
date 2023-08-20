@@ -6,7 +6,16 @@
     <description>Recent content in Blogs on 氧氣橘子</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Tue, 24 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://oxygentw.net/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://oxygentw.net/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>利用 MacOS 捷徑 app 控制 OpenWRT OpenVPN</title>
+      <link>https://oxygentw.net/blog/computer/mac-shortcut-control-openwrt-vpn/</link>
+      <pubDate>Sun, 20 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/mac-shortcut-control-openwrt-vpn/</guid>
+      <description>這篇給我自己紀錄用的，我的 OpenWRT 上裝有 OpenVPN Client，這樣直接利用路由器連回工作場域所有連這台路由器 WiFi 的設備都可以同時進入內網，雖然 OpenWRT 有提供網頁</description>
+    </item>
+    
     <item>
       <title>Home Assistant 連接小米智慧燈泡</title>
       <link>https://oxygentw.net/blog/computer/hass-connect-xiaomi-smartbulb/</link>
@@ -176,15 +185,6 @@
       
       <guid>https://oxygentw.net/blog/about/</guid>
       <description>嚮往旅行的人，期待著能走遍世界，深入每一個城市、村落體驗各地生活與民情。 以救人為己任，學習醫學與生物科技，期望能成為協助病人脫離病痛的醫事人</description>
-    </item>
-    
-    <item>
-      <title>Zuvio 自動點名程式</title>
-      <link>https://oxygentw.net/blog/computer/zuvio-auto/</link>
-      <pubDate>Sat, 09 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://oxygentw.net/blog/computer/zuvio-auto/</guid>
-      <description>許多大學會用 Zuvio IRS 來線上點名，而線上點名有一個好處，只要不是開 GPS 點名，我可以在任何有網路的地方做點名的動作，但仍有一個缺點，我們不知道老師什麼</description>
     </item>
     
   </channel>
