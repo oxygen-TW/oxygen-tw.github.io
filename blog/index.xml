@@ -6,7 +6,16 @@
     <description>Recent content in Blogs on 氧氣橘子</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sun, 20 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://oxygentw.net/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://oxygentw.net/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>國網中心台灣杉三號使用筆記</title>
+      <link>https://oxygentw.net/blog/computer/nchc-taiwania-iii-note/</link>
+      <pubDate>Sun, 19 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/nchc-taiwania-iii-note/</guid>
+      <description>最近在使用國網中心台灣杉三號上花了點時間研究跟嘗試才成功送出訓練任務，雖然國網的說明已經有寫到大部份資訊了，但相對比較分散而且有些小細節沒有</description>
+    </item>
+    
     <item>
       <title>利用 MacOS 捷徑 app 控制 OpenWRT OpenVPN</title>
       <link>https://oxygentw.net/blog/computer/mac-shortcut-control-openwrt-vpn/</link>
@@ -176,15 +185,6 @@
       
       <guid>https://oxygentw.net/blog/computer/python-logging/</guid>
       <description>logging 是 Python 內建的 log 紀錄器，可以利用這個模組來進行各種不同程度的 log 輸出，這樣可以省去程式開發完後一個一個把偵錯用的 print() 刪除的時間，直接把Debug l</description>
-    </item>
-    
-    <item>
-      <title>關於 | About</title>
-      <link>https://oxygentw.net/blog/about/</link>
-      <pubDate>Sun, 24 May 2020 17:46:18 +0800</pubDate>
-      
-      <guid>https://oxygentw.net/blog/about/</guid>
-      <description>嚮往旅行的人，期待著能走遍世界，深入每一個城市、村落體驗各地生活與民情。 以救人為己任，學習醫學與生物科技，期望能成為協助病人脫離病痛的醫事人</description>
     </item>
     
   </channel>

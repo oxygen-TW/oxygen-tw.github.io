@@ -6,10 +6,333 @@
     <description>Recent content on 氧氣橘子</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sun, 20 Aug 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 Nov 2023 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://oxygentw.net/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>國網中心台灣杉三號使用筆記</title>
+      <link>https://oxygentw.net/blog/computer/nchc-taiwania-iii-note/</link>
+      <pubDate>Sun, 19 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/nchc-taiwania-iii-note/</guid>
+      
+        <description>&lt;p&gt;最近在使用國網中心台灣杉三號上花了點時間研究跟嘗試才成功送出訓練任務，雖然國網的說明已經有寫到大部份資訊了，但相對比較分散而且有些小細節沒有提到，我便整理一下寫成筆記免得自己以後忘記，也順便分享給大家，希望大家少遇到一些問題XD&lt;/p&gt;
+&lt;p&gt;此筆記情境為使用台灣杉三號生醫專用節點進行影像分類的訓練任務，以 Python 為程式語言，Pytorch 為深度學習套件，過程中需要調用 GPU 資源。&lt;/p&gt;
+&lt;h2 id=&#34;1-登入&#34;&gt;1. 登入&lt;/h2&gt;
+&lt;p&gt;如同一般的登入方式，使用ssh連線至台灣杉三號生醫專用節點，並輸入帳號密碼。 &lt;br&gt;
+生醫專用節點主機位置：&lt;a href=&#34;t3-c4.nchc.org.tw&#34;&gt;t3-c4.nchc.org.tw&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;比較特別的是台灣杉三號多了一層 MOTP 驗證，MOTP可以在&lt;a href=&#34;https://iservice.nchc.org.tw/nchc_service/index.php?lang_type=&#34;&gt;計算資源服務網&lt;/a&gt;中：會員中心&amp;gt;會員資訊&amp;gt;主機帳號資訊&amp;gt;OTP 認證碼中找到。&lt;/p&gt;
+&lt;h2 id=&#34;2-載入-conda-環境&#34;&gt;2. 載入 Conda 環境&lt;/h2&gt;
+&lt;p&gt;台灣杉三號中有預載許多常用的環境，可以使用 &lt;code&gt;module avail&lt;/code&gt; 查看。&lt;/p&gt;
+&lt;p&gt;其中也包含 miniconda3，我們可以使用 &lt;code&gt;module load miniconda3&lt;/code&gt; 或 &lt;code&gt;ml miniconda3&lt;/code&gt; 指令載入 miniconda3 環境，載入後使用方式就與一般conda相同。&lt;/p&gt;
+&lt;h2 id=&#34;3-gpu-環境--pytorch-安裝&#34;&gt;3. GPU 環境 / Pytorch 安裝&lt;/h2&gt;
+&lt;p&gt;在 Conda 環境中安裝套件就和平常的操作方式一樣，比較不同的是 Pytorch，因為台灣杉三號的 CUDA 版本較舊，如果直接安裝最新版會導致 Pytorch 找不到 GPU，因此我們要先使用 &lt;code&gt;nvidia-smi&lt;/code&gt; 指令查看 CUDA 版本。&lt;/p&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://oxygentw.net/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:800px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/nchc-taiwania-iii-note/nvidia.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/nchc-taiwania-iii-note/nvidia.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;截至今日(2023/11/19)，CUDA版本為 11.0，因此我們要到 &lt;a href=&#34;https://pytorch.org/get-started/previous-versions/&#34;&gt;Pytorch 網站&lt;/a&gt; 找適用 CUDA 小於 11.0 的版本安裝，到目前適合的安裝指令為:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# CUDA 10.2&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;conda install &lt;span class=&#34;nv&#34;&gt;pytorch&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;==&lt;/span&gt;1.12.1 &lt;span class=&#34;nv&#34;&gt;torchvision&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;==&lt;/span&gt;0.13.1 &lt;span class=&#34;nv&#34;&gt;torchaudio&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;==&lt;/span&gt;0.12.1 &lt;span class=&#34;nv&#34;&gt;cudatoolkit&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;10.2 -c pytorch&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;另外，透過這樣的環境安裝方式不需要去考慮 cuDNN 的問題，他會自動處理好。&lt;/p&gt;
+&lt;p&gt;安裝好後可以用下列指令測試是否成功安裝並且 Pytorch 可以順利使用 GPU。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#應回應 True&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;python -c &lt;span class=&#34;s2&#34;&gt;&amp;#34;import torch; print(torch.cuda.is_available())&amp;#34;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;4-其餘套件安裝&#34;&gt;4. 其餘套件安裝&lt;/h2&gt;
+&lt;p&gt;到此我們應該已經順利安裝好 Pytorch 並設定好 GPU 了，我列出一些在影像處理與深度學習常用的套件安裝指令。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;conda install -c conda-forge seaborn &lt;span class=&#34;c1&#34;&gt;#DO NOT USE 0.12.*. IT HAS A BUG IN HEATMAP&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;conda install -c anaconda scikit-learn pillow pandas
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;conda install -c conda-forge matplotlib
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;conda install scikit-learn-intelex
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;conda install -c conda-forge tqdm
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;conda install -c conda-forge opencv&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;安裝完後環境設定就完成了!&lt;/p&gt;
+&lt;h2 id=&#34;5-儲存空間&#34;&gt;5. 儲存空間&lt;/h2&gt;
+&lt;p&gt;根據國網中心的說明文件，我們有這些地方可以儲存我們的資料，一般建議執行檔相關或環境檔案才儲存於 &lt;code&gt;/home/$USER&lt;/code&gt;，其餘 Data 儲存在有10TB額度的 &lt;code&gt;/staging/biology/$USER&lt;/code&gt;。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;空間&lt;/th&gt;
+&lt;th&gt;容量&lt;/th&gt;
+&lt;th&gt;刪除期限&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;/home/$USER&lt;/td&gt;
+&lt;td&gt;100G&lt;/td&gt;
+&lt;td&gt;無&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;/staging/biology/$USER&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;10T&lt;/td&gt;
+&lt;td&gt;無&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;/work/$USER&lt;/td&gt;
+&lt;td&gt;1500GB&lt;/td&gt;
+&lt;td&gt;一個月不動檔案刪除&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;/staging/reserve/PI_folder&lt;/td&gt;
+&lt;td&gt;付費空間需另外申請&lt;/td&gt;
+&lt;td&gt;無&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;巨量資料儲存服務&lt;/td&gt;
+&lt;td&gt;付費空間需另外申請&lt;/td&gt;
+&lt;td&gt;無&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;6-提交任務&#34;&gt;6. 提交任務&lt;/h2&gt;
+&lt;p&gt;台灣杉三號屬於高速運算資源，也就是俗稱的超級電腦，使用 &lt;a href=&#34;https://zh.wikipedia.org/zh-tw/Slurm%E5%B7%A5%E4%BD%9C%E8%B0%83%E5%BA%A6%E5%B7%A5%E5%85%B7&#34;&gt;slurm&lt;/a&gt; 作為資源管理工具管理資源的分配，簡單來說就是當你要執行運算時，你得先向 slurm 提交你的運算要求，等 slurm 將資源分配給你進行運算。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;千萬不要在登入節點直接進行運算作業&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;slurm 常用的指令有:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;sbatch job.sh&lt;/code&gt;：將 job.sh 提交給 slurm 申請資源，他會回應一串 job id。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;scancel $job_id&lt;/code&gt;：中止特定任務。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;scontrol show jib $job_id&lt;/code&gt;：顯示特定任務狀態。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;比較要注意的是我們必須在 &lt;code&gt;job.sh&lt;/code&gt; 中定義一些 slurm 的設定(你也可以在命令列用參數輸入，但偏麻煩我就不介紹了) 我直接參考國網中心的說明文件範例。&lt;/p&gt;
+&lt;h4 id=&#34;jobsh-cpu-任務&#34;&gt;job.sh CPU 任務&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#!/usr/bin/sh
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;#SBATCH -A MST109178        # project number&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#SBATCH -J Job_name         # Job name&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#SBATCH -p ngs53G           # Partition Name 等同PBS裡面的 -q Queue name&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#SBATCH -c 8                # 使用的core數 請參考Queue資源設定 &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#SBATCH --mem=53g           # 使用的記憶體量 請參考Queue資源設定&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#SBATCH -o out.log          # Path to the standard output file &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#SBATCH -e err.log          # Path to the standard error ouput file&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#SBATCH --mail-user=XXXX@narlabs.org.tw    # email&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#SBATCH --mail-type=BEGIN,END              # 指定送出email時機 可為NONE, BEGIN, END, FAIL, REQUEUE, ALL&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;Hello world!&amp;#39;&lt;/span&gt;  &lt;span class=&#34;c1&#34;&gt;##這邊寫入你要執行的指令&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;裡面的 Partition Name 請參考說明中 &lt;a href=&#34;https://man.twcc.ai/@Ldk_QYrOR2yo3m8Cb1549A/rkegDKslF#PartitionQueue-%E8%B3%87%E6%BA%90%E8%A8%AD%E5%AE%9A&#34;&gt;Partition(Queue) 資源設定&lt;/a&gt; 表格，依自己所需要的運算資源選擇，其中 Partition Name, memory size, core number，需要和表格中的一樣，如果設定錯誤的話會無法執行任務。&lt;/p&gt;
+&lt;p&gt;例如表格中&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Partition&lt;/th&gt;
+&lt;th&gt;記憶體配置(&amp;ndash;mem)&lt;/th&gt;
+&lt;th&gt;核心數搭配(-c)&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;ngs7G&lt;/td&gt;
+&lt;td&gt;7G&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;我們在設定檔中就應該要設定為：
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#SBATCH -p ngs7G   &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#SBATCH -c 1            &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#SBATCH --mem=7g     &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;GPU 任務的設定方式類似，只是多了一行GPU核心數的設定，一樣用國網中心說明文件的範例說明：&lt;/p&gt;
+&lt;h4 id=&#34;jobsh-gpu-任務&#34;&gt;job.sh GPU 任務&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#!/usr/bin/sh
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;#SBATCH -A MST109178        # Account name/project number&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#SBATCH -J Job_name         # Job name&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#SBATCH -p ngs1gpu           # Partition Name 等同PBS裡面的 -q Queue name&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#SBATCH -c 6               # 使用的core數  請參考Queue資源設定 &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#SBATCH --mem=90g           # 使用的記憶體量 請參考Queue資源設定&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#SBATCH --gres=gpu:1        # 使用的GPU數 請參考Queue資源設定&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#SBATCH -o out.log          # Path to the standard output file &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#SBATCH -e err.log          # Path to the standard error ouput file&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#SBATCH --mail-user=XXXX@narlabs.org.tw    # email&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#SBATCH --mail-type=BEGIN,END              # 指定送出email時機 可為NONE, BEGIN, END, FAIL, REQUEUE, ALL&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;nvidia-smi  &lt;span class=&#34;c1&#34;&gt;##這邊寫入你要執行的指令&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;主要就是多了 &lt;code&gt;#SBATCH --gres=gpu:1&lt;/code&gt; 這行而已。 &lt;br&gt;
+其他相關設定如 log file path、email 通知等等就看後面註解的說明。&lt;/p&gt;
+&lt;h2 id=&#34;7-實際執行&#34;&gt;7. 實際執行&lt;/h2&gt;
+&lt;p&gt;到這一步我們應該可以順利撰寫 script file 並提交給 slrum 執行了，完整的 job.sh 範例如下：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#!/usr/bin/sh
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;#SBATCH -A MST109178        # Account name/project number&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#SBATCH -J Job_name         # Job name&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#SBATCH -p ngs1gpu           # Partition Name 等同PBS裡面的 -q Queue name&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#SBATCH -c 6               # 使用的core數  請參考Queue資源設定 &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#SBATCH --mem=90g           # 使用的記憶體量 請參考Queue資源設定&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#SBATCH --gres=gpu:1        # 使用的GPU數 請參考Queue資源設定&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#SBATCH -o out.log          # Path to the standard output file &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#SBATCH -e err.log          # Path to the standard error ouput file&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#SBATCH --mail-user=XXXX@narlabs.org.tw    # email&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#SBATCH --mail-type=BEGIN,END              # 指定送出email時機 可為NONE, BEGIN, END, FAIL, REQUEUE, ALL&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;module purge
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ml miniconda3
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;conda activate myenv &lt;span class=&#34;c1&#34;&gt;#進入 conda 環境&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;python -u /path/to/script.py&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;以上有一個重點!! python 後面要加上 &lt;code&gt;-u&lt;/code&gt;，這個參數的意思是強迫 STDOUT、STDERR 不要使用 buffer(force the stdout and stderr streams to be unbuffered)，如果不這樣做的話會發現在執行過程中 log file 都不會有輸出，要等到執行結束或緩衝滿了才會被輸出到 log file，這樣對於監控程式的執行很不方便。&lt;/p&gt;
+&lt;h2 id=&#34;8-預載模型&#34;&gt;8. 預載模型&lt;/h2&gt;
+&lt;p&gt;這是一個坑，感謝學長幫我解決這問題。說明文件中沒有提到但很重要的一點是&lt;strong&gt;運算節點沒有網路連線&lt;/strong&gt;，因此需要網路的python指令無法執行，例如深度學習常用的下載 Pre-trained 模型
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;resnet34&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;models&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;resnet34&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;pretrained&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;True&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;這段程式就會執行失敗，因為在節點裡無法下載。解決方法是我們先在登入節點的終端機手動用 python下載想要的模型，等到送入運算節點時就會自動包含我們曾經下載過的 pre-trained 模型了。&lt;/p&gt;
+&lt;p&gt;手動執行以下程式碼：
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;torchvision&lt;/span&gt; &lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;models&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;resnet34&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;models&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;resnet34&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;pretrained&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;True&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;#換成你要用的模型 ResNet, VGG, etc...&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;h2 id=&#34;9-其他指令&#34;&gt;9. 其他指令&lt;/h2&gt;
+&lt;p&gt;其他有一些實用的指令&lt;/p&gt;
+&lt;h4 id=&#34;1-查詢剩餘空間額度&#34;&gt;1. 查詢剩餘空間額度&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;/usr/lpp/mmfs/bin/mmlsquota -u &lt;span class=&#34;nv&#34;&gt;$USER_ID&lt;/span&gt; --block-size auto fs01 fs02&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;fs01: /work&lt;/li&gt;
+&lt;li&gt;fs02: /home&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;2-查詢工作記憶體使用狀況&#34;&gt;2. 查詢工作記憶體使用狀況&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sacct -j &lt;span class=&#34;nv&#34;&gt;$jobid&lt;/span&gt; -o JobID,JobName,Partition,User,NCPUS,AllocNodes,maxrss,Start,End,Elapsed,State&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://man.twcc.ai/@Ldk_QYrOR2yo3m8Cb1549A/&#34;&gt;https://man.twcc.ai/@Ldk_QYrOR2yo3m8Cb1549A/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zh.wikipedia.org/zh-tw/Slurm%E5%B7%A5%E4%BD%9C%E8%B0%83%E5%BA%A6%E5%B7%A5%E5%85%B7&#34;&gt;https://zh.wikipedia.org/zh-tw/Slurm%E5%B7%A5%E4%BD%9C%E8%B0%83%E5%BA%A6%E5%B7%A5%E5%85%B7&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pytorch.org/get-started/previous-versions/&#34;&gt;https://pytorch.org/get-started/previous-versions/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      
+    </item>
     
     <item>
       <title>利用 MacOS 捷徑 app 控制 OpenWRT OpenVPN</title>
@@ -2394,149 +2717,6 @@
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;最後祝大家找到喜歡又適合的地方換宿！&lt;/p&gt;
-</description>
-      
-    </item>
-    
-    <item>
-      <title>Python Logging 偵錯記錄模組</title>
-      <link>https://oxygentw.net/blog/computer/python-logging/</link>
-      <pubDate>Sun, 31 May 2020 16:29:24 +0800</pubDate>
-      
-      <guid>https://oxygentw.net/blog/computer/python-logging/</guid>
-      
-        <description>&lt;p&gt;&lt;code&gt;logging&lt;/code&gt; 是 Python 內建的 log 紀錄器，可以利用這個模組來進行各種不同程度的 log 輸出，這樣可以省去程式開發完後一個一個把偵錯用的 &lt;code&gt;print()&lt;/code&gt; 刪除的時間，直接把Debug level改成 INFO 以上就可以了，若要維護程式也可以再改回 DEBUG，但我每次都會忘記語法，於是來記錄一下順便和大家分享~&lt;/p&gt;
-&lt;p&gt; 
-&lt;strong&gt;Using Python 3.8.3&lt;/strong&gt;
- &lt;/p&gt;
-&lt;h2 id=&#34;引用套件&#34;&gt;引用套件&lt;/h2&gt;
-&lt;p&gt;引入套件直接 import 即可 不用另外下載 &lt;br&gt;
-&lt;code&gt;import logging&lt;/code&gt;&lt;/p&gt;
-&lt;h2 id=&#34;logging-debug-等級&#34;&gt;Logging debug 等級&lt;/h2&gt;
-&lt;p&gt;logging 把 debug level 分成六個等級，如下表所列，對應數值越小越敏感，logging只會紀錄數值大於設定值的紀錄。&lt;/p&gt;
-&lt;p&gt;用 &lt;code&gt;type(logging.DEBUG)&lt;/code&gt; 查看會發現等級其實是 int 型別，也就是它只是別名，實際上&lt;code&gt;print(logging.DEBUG)&lt;/code&gt; 也會是顯示10。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;logging LEVEL&lt;/th&gt;
-&lt;th&gt;意義&lt;/th&gt;
-&lt;th&gt;對應數值&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;NOTSET&lt;/td&gt;
-&lt;td&gt;未設定&lt;/td&gt;
-&lt;td&gt;0&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;DEBUG&lt;/td&gt;
-&lt;td&gt;偵錯&lt;/td&gt;
-&lt;td&gt;10&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;INFO&lt;/td&gt;
-&lt;td&gt;通知&lt;/td&gt;
-&lt;td&gt;20&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;WARNING&lt;/td&gt;
-&lt;td&gt;警告&lt;/td&gt;
-&lt;td&gt;30&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;ERROR&lt;/td&gt;
-&lt;td&gt;錯誤&lt;/td&gt;
-&lt;td&gt;40&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;CRITICAL&lt;/td&gt;
-&lt;td&gt;嚴重錯誤&lt;/td&gt;
-&lt;td&gt;50&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt; 
- &lt;/p&gt;
-&lt;p&gt;logging.DEBUG 的數值與型別&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;8
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;In [23]: print(logging.DEBUG)
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;10
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;In [24]: type(logging.DEBUG)
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Out[24]: int
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;In [25]: logging.getLevelName(10)
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Out[25]: &amp;#39;DEBUG&amp;#39;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;h2 id=&#34;修改等級方法&#34;&gt;修改等級方法&lt;/h2&gt;
-&lt;p&gt;在程式中指定偵錯等級的語法 &lt;br&gt;
-&lt;code&gt;logging.getLogger().setLevel(logging.LEVEL)&lt;/code&gt;&lt;/p&gt;
-&lt;h2 id=&#34;初始設定&#34;&gt;初始設定&lt;/h2&gt;
-&lt;p&gt;&lt;code&gt;logging.basicConfig(level=logging.INFO)&lt;/code&gt;&lt;/p&gt;
-&lt;h3 id=&#34;官方文件參數說明&#34;&gt;官方文件參數說明&lt;/h3&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style=&#34;text-align:left&#34;&gt;Format&lt;/th&gt;
-&lt;th style=&#34;text-align:left&#34;&gt;Description&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;&lt;em&gt;filename&lt;/em&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;指定 FileHandler，使用特定的檔案進行記錄而不是用 StreamHandler.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;&lt;em&gt;filemode&lt;/em&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;如果有指定 &lt;em&gt;filename&lt;/em&gt;，則可用此參數指定開檔模式，預設是 &lt;code&gt;&#39;a&#39;&lt;/code&gt;.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;&lt;em&gt;format&lt;/em&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;指定 handler 的格式字串&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;&lt;em&gt;datefmt&lt;/em&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;指定日期/時間格式, 接受&lt;a href=&#34;https://docs.python.org/3/library/time.html#time.strftime&#34;&gt;&lt;code&gt;time.strftime()&lt;/code&gt;&lt;/a&gt;格式&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;&lt;em&gt;style&lt;/em&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;If &lt;em&gt;format&lt;/em&gt; is specified, use this style for the format string. One of &lt;code&gt;&#39;%&#39;&lt;/code&gt;, &lt;code&gt;&#39;{&#39;&lt;/code&gt; or &lt;code&gt;&#39;$&#39;&lt;/code&gt; for &lt;a href=&#34;https://docs.python.org/3/library/stdtypes.html#old-string-formatting&#34;&gt;printf-style&lt;/a&gt;, &lt;a href=&#34;https://docs.python.org/3/library/stdtypes.html#str.format&#34;&gt;&lt;code&gt;str.format()&lt;/code&gt;&lt;/a&gt; or &lt;a href=&#34;https://docs.python.org/3/library/string.html#string.Template&#34;&gt;&lt;code&gt;string.Template&lt;/code&gt;&lt;/a&gt; respectively. Defaults to &lt;code&gt;&#39;%&#39;&lt;/code&gt;.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;&lt;em&gt;level&lt;/em&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;Set the root logger level to the specified &lt;a href=&#34;https://docs.python.org/3/library/logging.html#levels&#34;&gt;level&lt;/a&gt;.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;&lt;em&gt;stream&lt;/em&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;Use the specified stream to initialize the StreamHandler. Note that this argument is incompatible with &lt;em&gt;filename&lt;/em&gt; - if both are present, a &lt;code&gt;ValueError&lt;/code&gt; is raised.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;&lt;em&gt;handlers&lt;/em&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;If specified, this should be an iterable of already created handlers to add to the root logger. Any handlers which don’t already have a formatter set will be assigned the default formatter created in this function. Note that this argument is incompatible with &lt;em&gt;filename&lt;/em&gt; or &lt;em&gt;stream&lt;/em&gt; - if both are present, a &lt;code&gt;ValueError&lt;/code&gt; is raised.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;&lt;em&gt;force&lt;/em&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;If this keyword argument is specified as true, any existing handlers attached to the root logger are removed and closed, before carrying out the configuration as specified by the other arguments.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;hr&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.python.org/3/library/logging.html&#34;&gt;https://docs.python.org/3/library/logging.html&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 </description>
       
     </item>

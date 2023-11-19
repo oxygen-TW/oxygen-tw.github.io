@@ -6,7 +6,16 @@
     <description>Recent content in computer on 氧氣橘子</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sun, 20 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://oxygentw.net/categories/computer/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://oxygentw.net/categories/computer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>國網中心台灣杉三號使用筆記</title>
+      <link>https://oxygentw.net/blog/computer/nchc-taiwania-iii-note/</link>
+      <pubDate>Sun, 19 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/computer/nchc-taiwania-iii-note/</guid>
+      <description>最近在使用國網中心台灣杉三號上花了點時間研究跟嘗試才成功送出訓練任務，雖然國網的說明已經有寫到大部份資訊了，但相對比較分散而且有些小細節沒有</description>
+    </item>
+    
     <item>
       <title>利用 MacOS 捷徑 app 控制 OpenWRT OpenVPN</title>
       <link>https://oxygentw.net/blog/computer/mac-shortcut-control-openwrt-vpn/</link>
@@ -176,15 +185,6 @@
       
       <guid>https://oxygentw.net/blog/computer/line-counter/</guid>
       <description>前陣子看了這篇解析 Line 對話的文章 讓我對解析 Line 匯出的純文字聊天紀錄有點概念，後來一時興起想計算我和朋友總共聊了多少訊息，寫了一個很簡單的小程式。</description>
-    </item>
-    
-    <item>
-      <title>介紹 pipenv 套件管理工具</title>
-      <link>https://oxygentw.net/blog/computer/python-pipenv/</link>
-      <pubDate>Fri, 15 Nov 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://oxygentw.net/blog/computer/python-pipenv/</guid>
-      <description>pipenv 是目前 Python 官方推薦的套件管理系統，在一段時間以前，好啦其實就是現在(? 還有很多人使用 pip 和 virtualenv 來進行 python 開發，這樣當然沒問題，只是維護 requirements.txt 有些麻煩，</description>
     </item>
     
   </channel>
