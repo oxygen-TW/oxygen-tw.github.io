@@ -35,7 +35,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.119.0" />
+<meta name="generator" content="Hugo 0.129.0" />
 
 
 <link rel="canonical" href="https://oxygentw.net/blog/computer/homeserver/3-system-setting/" />
@@ -62,19 +62,26 @@
 
 
 
-<meta property="og:title" content="架設家用伺服器 PART 3 — 設定系統" />
-<meta property="og:description" content="進行 dietpi-config 設定 成功進入系統只是第一步，經過上一部自動引導你進行 dietpi-update 作業系統的升級後我們確定伺服器系統都已經最新，但升級後我們仍要進行 dietpi-config 把系統設定成" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://oxygentw.net/blog/computer/homeserver/3-system-setting/" /><meta property="article:section" content="blog" />
-<meta property="article:published_time" content="2019-02-18T00:00:00+00:00" />
-<meta property="article:modified_time" content="2019-02-18T00:00:00+00:00" />
-<meta itemprop="name" content="架設家用伺服器 PART 3 — 設定系統">
-<meta itemprop="description" content="進行 dietpi-config 設定 成功進入系統只是第一步，經過上一部自動引導你進行 dietpi-update 作業系統的升級後我們確定伺服器系統都已經最新，但升級後我們仍要進行 dietpi-config 把系統設定成"><meta itemprop="datePublished" content="2019-02-18T00:00:00+00:00" />
-<meta itemprop="dateModified" content="2019-02-18T00:00:00+00:00" />
-<meta itemprop="wordCount" content="398">
-<meta itemprop="keywords" content="Home server series," /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="架設家用伺服器 PART 3 — 設定系統"/>
-<meta name="twitter:description" content="進行 dietpi-config 設定 成功進入系統只是第一步，經過上一部自動引導你進行 dietpi-update 作業系統的升級後我們確定伺服器系統都已經最新，但升級後我們仍要進行 dietpi-config 把系統設定成"/>
+<meta property="og:url" content="https://oxygentw.net/blog/computer/homeserver/3-system-setting/">
+  <meta property="og:site_name" content="氧氣橘子">
+  <meta property="og:title" content="架設家用伺服器 PART 3 — 設定系統">
+  <meta property="og:description" content="進行 dietpi-config 設定 成功進入系統只是第一步，經過上一部自動引導你進行 dietpi-update 作業系統的升級後我們確定伺服器系統都已經最新，但升級後我們仍要進行 dietpi-config 把系統設定成">
+  <meta property="og:locale" content="zh_tw">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2019-02-18T00:00:00+00:00">
+    <meta property="article:modified_time" content="2019-02-18T00:00:00+00:00">
+    <meta property="article:tag" content="Home Server Series">
+
+  <meta itemprop="name" content="架設家用伺服器 PART 3 — 設定系統">
+  <meta itemprop="description" content="進行 dietpi-config 設定 成功進入系統只是第一步，經過上一部自動引導你進行 dietpi-update 作業系統的升級後我們確定伺服器系統都已經最新，但升級後我們仍要進行 dietpi-config 把系統設定成">
+  <meta itemprop="datePublished" content="2019-02-18T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2019-02-18T00:00:00+00:00">
+  <meta itemprop="wordCount" content="398">
+  <meta itemprop="keywords" content="家用伺服器,家用伺服器架設,Home server,dietpi config,dietpi教學,dietpi 設定,樹莓派,伺服器,DietPi,Raspbian,樹莓派安裝系統,系統安裝教學,樹莓派教學,如何安裝樹莓派系統,樹莓派怎麼用,Raspberry Pi,Raspberry Pi OS">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="架設家用伺服器 PART 3 — 設定系統">
+  <meta name="twitter:description" content="進行 dietpi-config 設定 成功進入系統只是第一步，經過上一部自動引導你進行 dietpi-update 作業系統的升級後我們確定伺服器系統都已經最新，但升級後我們仍要進行 dietpi-config 把系統設定成">
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -86,16 +93,25 @@
 <![endif]-->
 
 
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-112746631-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
+  
+    
+      <script async src="https://www.googletagmanager.com/gtag/js?id=4942793011"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', '4942793011');
+        }
+      </script>
+    
+  
+
 
 
 
@@ -335,38 +351,38 @@ if (!doNotTrack) {
 <h2 id="進行-dietpi-config-設定">進行 dietpi-config 設定</h2>
 <p>成功進入系統只是第一步，經過上一部自動引導你進行 dietpi-update 作業系統的升級後我們確定伺服器系統都已經最新，但升級後我們仍要進行 dietpi-config 把系統設定成符合自己需求。</p>
 <p>選擇 DietPi-Config 進入設定頁面</p>
-<p><img src="/img/post/homeserver/3-system-setting/2018-03-04-1.png" alt="進行 dietpi-config 設定"></p>
+<p><img alt="進行 dietpi-config 設定" src="/img/post/homeserver/3-system-setting/2018-03-04-1.png"></p>
 <br/>
 <p>進入這個畫面，我們分別對以下進行設定，我以我個人的需求示範，若你有其他需求務必自行修改，不要盲目照抄我的設定，改壞了頂多重灌，不會把機器弄壞的。</p>
-<p><img src="/img/post/homeserver/3-system-setting/2018-03-04-8.png" alt="進行 dietpi-config 設定"></p>
+<p><img alt="進行 dietpi-config 設定" src="/img/post/homeserver/3-system-setting/2018-03-04-8.png"></p>
 <br/>
 <p>記憶體分配
 Display Options -&gt; GPU/RAM Memory Split -&gt;  Server 16 MB GPU | 1008 MB RAM</p>
-<p><img src="/img/post/homeserver/3-system-setting/2018-03-02.png" alt="記憶體分配"></p>
+<p><img alt="記憶體分配" src="/img/post/homeserver/3-system-setting/2018-03-02.png"></p>
 <br/>
 <p>超頻設定
 Performance Options -&gt; Overclocking -&gt; none 1200 MHz ARM</p>
-<p><img src="/img/post/homeserver/3-system-setting/2018-03-04-5.png" alt="超頻設定"></p>
+<p><img alt="超頻設定" src="/img/post/homeserver/3-system-setting/2018-03-04-5.png"></p>
 <br/>
 <p>CPU 分配
 Performance Options -&gt; CPU Throttle Up -&gt; 85</p>
-<p><img src="/img/post/homeserver/3-system-setting/2018-03-04-6.png" alt="CPU 分配"></p>
+<p><img alt="CPU 分配" src="/img/post/homeserver/3-system-setting/2018-03-04-6.png"></p>
 <br/>
 <p>系統語系
 Language/Regional Options -&gt; Locale -&gt;  en_US.UTF-8</p>
-<p><img src="/img/post/homeserver/3-system-setting/2018-03-04-10.png" alt="系統語系"></p>
+<p><img alt="系統語系" src="/img/post/homeserver/3-system-setting/2018-03-04-10.png"></p>
 <br/>
 <p>系統時區
 Language/Regional Options -&gt; Timezone -&gt; Asia -&gt; Taipei</p>
-<p><img src="/img/post/homeserver/3-system-setting/2018-03-04-11.png" alt="系統時區"></p>
+<p><img alt="系統時區" src="/img/post/homeserver/3-system-setting/2018-03-04-11.png"></p>
 <br/>
 <p>Root 密碼
 Security Options -&gt;  Change Root Password -&gt; 新的Root密碼</p>
-<p><img src="/img/post/homeserver/3-system-setting/2018-03-04-12.png" alt="Root 密碼"></p>
+<p><img alt="Root 密碼" src="/img/post/homeserver/3-system-setting/2018-03-04-12.png"></p>
 <br/>
 <p>主機名稱
 Security Options -&gt;  Change Hostname -&gt; 新主機名稱</p>
-<p><img src="/img/post/homeserver/3-system-setting/2018-03-04-13.png" alt="主機名稱"></p>
+<p><img alt="主機名稱" src="/img/post/homeserver/3-system-setting/2018-03-04-13.png"></p>
 <br/>
 <p>網路設定
 Network Options: Adapters -&gt; 參考進階網路設定</p>
@@ -375,11 +391,11 @@ Network Options: Adapters -&gt; 參考進階網路設定</p>
 Network Options: Misc -&gt;   NTP Mirror -&gt; asia.pool.ntp.org
 或設定成中華電信研究所時間與頻率國家標準實驗室的 NTP 伺服器
 Network Options: Misc -&gt;   NTP Mirror -&gt; Custom -&gt; time.stdtime.gov.tw</p>
-<p><img src="/img/post/homeserver/3-system-setting/ntp.png" alt="NTP 伺服器設定"></p>
+<p><img alt="NTP 伺服器設定" src="/img/post/homeserver/3-system-setting/ntp.png"></p>
 <br/>
 <p>ATP 鏡像站設定到國網中心。
 Network Options: Misc -&gt;   ATP Mirror -&gt; Custom -&gt; <a href="http://free.nchc.org.tw/raspbian/raspbian/">http://free.nchc.org.tw/raspbian/raspbian/</a></p>
-<p><img src="/img/post/homeserver/3-system-setting/2018-03-04-14.png" alt="ATP 鏡像站設定"></p>
+<p><img alt="ATP 鏡像站設定" src="/img/post/homeserver/3-system-setting/2018-03-04-14.png"></p>
 <p>接著離開 <code>DietPi-Config</code>，系統會要求重新開機，重新開機後系統設定就完成了。</p>
 <p>下一步 -&gt; <a href="https://oxygentw.net/blog/computer/homeserver/4-dietpi-software/">DietPi-Software 軟體安裝</a></p>
 
@@ -402,7 +418,7 @@ Network Options: Misc -&gt;   ATP Mirror -&gt; Custom -&gt; <a href="http://f
   
   <p class="copyright-item">
     <span class="item-title">授權條款</span>
-    <span class="item-content">Copyright © 2017-2023 oxygen. All rights reserved.</span>
+    <span class="item-content">Copyright © 2017-2024 oxygen. All rights reserved.</span>
   </p>
 </div>
 
@@ -565,7 +581,7 @@ Network Options: Misc -&gt;   ATP Mirror -&gt; Custom -&gt; <a href="http://f
     &copy;
     
       2017 -
-    2023
+    2024
     <span class="heart">
       
       <i class="iconfont">

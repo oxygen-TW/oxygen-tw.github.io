@@ -35,7 +35,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.119.0" />
+<meta name="generator" content="Hugo 0.129.0" />
 
 
 <link rel="canonical" href="https://oxygentw.net/blog/computer/new-mysql-user/" />
@@ -62,19 +62,25 @@
 
 
 
-<meta property="og:title" content="MySQL 新增使用者與資料庫指令" />
-<meta property="og:description" content="建立新資料庫 1 CREATE DATABASE &#39;databaseName&#39;; 簡單粗暴，直接新增即可。 建立新使用者 1 CREATE USER &#39;user_name&#39;@&#39;localhost&#39; IDENTIFIED BY &#39;password&#39;; user_name 為新使用者名稱 僅限本機登入則輸入localhost，若外部可登入則輸" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://oxygentw.net/blog/computer/new-mysql-user/" /><meta property="article:section" content="blog" />
-<meta property="article:published_time" content="2021-07-10T00:00:00+00:00" />
-<meta property="article:modified_time" content="2021-07-10T00:00:00+00:00" />
-<meta itemprop="name" content="MySQL 新增使用者與資料庫指令">
-<meta itemprop="description" content="建立新資料庫 1 CREATE DATABASE &#39;databaseName&#39;; 簡單粗暴，直接新增即可。 建立新使用者 1 CREATE USER &#39;user_name&#39;@&#39;localhost&#39; IDENTIFIED BY &#39;password&#39;; user_name 為新使用者名稱 僅限本機登入則輸入localhost，若外部可登入則輸"><meta itemprop="datePublished" content="2021-07-10T00:00:00+00:00" />
-<meta itemprop="dateModified" content="2021-07-10T00:00:00+00:00" />
-<meta itemprop="wordCount" content="320">
-<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="MySQL 新增使用者與資料庫指令"/>
-<meta name="twitter:description" content="建立新資料庫 1 CREATE DATABASE &#39;databaseName&#39;; 簡單粗暴，直接新增即可。 建立新使用者 1 CREATE USER &#39;user_name&#39;@&#39;localhost&#39; IDENTIFIED BY &#39;password&#39;; user_name 為新使用者名稱 僅限本機登入則輸入localhost，若外部可登入則輸"/>
+<meta property="og:url" content="https://oxygentw.net/blog/computer/new-mysql-user/">
+  <meta property="og:site_name" content="氧氣橘子">
+  <meta property="og:title" content="MySQL 新增使用者與資料庫指令">
+  <meta property="og:description" content="建立新資料庫 1 CREATE DATABASE &#39;databaseName&#39;; 簡單粗暴，直接新增即可。 建立新使用者 1 CREATE USER &#39;user_name&#39;@&#39;localhost&#39; IDENTIFIED BY &#39;password&#39;; user_name 為新使用者名稱 僅限本機登入則輸入localhost，若外部可登入則輸">
+  <meta property="og:locale" content="zh_tw">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2021-07-10T00:00:00+00:00">
+    <meta property="article:modified_time" content="2021-07-10T00:00:00+00:00">
+
+  <meta itemprop="name" content="MySQL 新增使用者與資料庫指令">
+  <meta itemprop="description" content="建立新資料庫 1 CREATE DATABASE &#39;databaseName&#39;; 簡單粗暴，直接新增即可。 建立新使用者 1 CREATE USER &#39;user_name&#39;@&#39;localhost&#39; IDENTIFIED BY &#39;password&#39;; user_name 為新使用者名稱 僅限本機登入則輸入localhost，若外部可登入則輸">
+  <meta itemprop="datePublished" content="2021-07-10T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2021-07-10T00:00:00+00:00">
+  <meta itemprop="wordCount" content="320">
+  <meta itemprop="keywords" content="Mysql 外網,Mysql bind-address,Mysql,mysql 連不上,Error: connect ECONNREFUSED">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="MySQL 新增使用者與資料庫指令">
+  <meta name="twitter:description" content="建立新資料庫 1 CREATE DATABASE &#39;databaseName&#39;; 簡單粗暴，直接新增即可。 建立新使用者 1 CREATE USER &#39;user_name&#39;@&#39;localhost&#39; IDENTIFIED BY &#39;password&#39;; user_name 為新使用者名稱 僅限本機登入則輸入localhost，若外部可登入則輸">
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -86,16 +92,25 @@
 <![endif]-->
 
 
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-112746631-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
+  
+    
+      <script async src="https://www.googletagmanager.com/gtag/js?id=4942793011"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', '4942793011');
+        }
+      </script>
+    
+  
+
 
 
 
@@ -413,7 +428,7 @@ if (!doNotTrack) {
   
   <p class="copyright-item">
     <span class="item-title">授權條款</span>
-    <span class="item-content">Copyright © 2017-2023 oxygen. All rights reserved.</span>
+    <span class="item-content">Copyright © 2017-2024 oxygen. All rights reserved.</span>
   </p>
 </div>
 
@@ -573,7 +588,7 @@ if (!doNotTrack) {
     &copy;
     
       2017 -
-    2023
+    2024
     <span class="heart">
       
       <i class="iconfont">

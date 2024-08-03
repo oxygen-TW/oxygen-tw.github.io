@@ -1,83 +1,75 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>travel on 氧氣橘子</title>
+    <title>Travel on 氧氣橘子</title>
     <link>https://oxygentw.net/categories/travel/</link>
-    <description>Recent content in travel on 氧氣橘子</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Travel on 氧氣橘子</description>
+    <generator>Hugo</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sun, 19 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://oxygentw.net/categories/travel/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 03 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://oxygentw.net/categories/travel/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>在美國生病怎麼辦 | 美國 Urgent Care 經驗分享</title>
+      <link>https://oxygentw.net/blog/travel/visit-urgent-care-in-us/</link>
+      <pubDate>Sat, 03 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://oxygentw.net/blog/travel/visit-urgent-care-in-us/</guid>
+      <description>上個月中去美國參加研討會，因此順便也在佛羅里達待了一個禮拜，但在過程中發生了點小插曲，從抵達的第三天開始發燒，我把我帶去的藥吃完無法改善，到</description>
+    </item>
     <item>
       <title>打工換宿攜帶行李詳解！</title>
       <link>https://oxygentw.net/blog/travel/work-exchange-baggage/</link>
       <pubDate>Sun, 19 Jul 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://oxygentw.net/blog/travel/work-exchange-baggage/</guid>
       <description>前言 目前我正在澎湖打工換宿！這次也是我第一次打工換宿，出發前一直在想行李要帶什麼好，衣服應該帶多還是帶少? 會不會帶太多東西之類的，想必想要嘗</description>
     </item>
-    
     <item>
       <title>水肺潛水重裝組裝與拆卸流程</title>
       <link>https://oxygentw.net/blog/travel/scuba-diving-equipment/</link>
       <pubDate>Mon, 29 Jul 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://oxygentw.net/blog/travel/scuba-diving-equipment/</guid>
       <description>基本裝備清單 Buoyancy Compensator Device(BC) 氣瓶 管線組 配重 面鏡 呼吸管 防寒衣 蛙鞋 潛水鞋 氣瓶操作以 Yoke 氣瓶為主 重裝組裝 穿上防寒衣 穿上潛水鞋 面鏡除霧 移除氣瓶的氣瓶頭蓋 BC 氣瓶帶</description>
     </item>
-    
     <item>
       <title>台灣高鐵車次意義</title>
       <link>https://oxygentw.net/blog/travel/thsr-train-number/</link>
       <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://oxygentw.net/blog/travel/thsr-train-number/</guid>
       <description>紀錄高鐵車次各數字的意義，這樣訂票一目了然很方便，對於常旅行或通勤的人來說是個很有用的常識！ 高鐵車次共有四碼 ABCC 第一碼 A 代表列車週期性，第二碼</description>
     </item>
-    
     <item>
       <title>[徒步] 台中南區 - 員林</title>
       <link>https://oxygentw.net/blog/travel/taichung-south-dist-to-yuanlin-bywalk/</link>
       <pubDate>Sun, 03 Mar 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://oxygentw.net/blog/travel/taichung-south-dist-to-yuanlin-bywalk/</guid>
       <description>這個旅程規劃了也有一段日子了，但一直沒有時間去實踐，剛好 228 連假有空檔就決定出發了！先前陸陸續續有做五公里的練習，這是第一次挑戰 30 公里，也就是</description>
     </item>
-    
     <item>
       <title>臺一線</title>
       <link>https://oxygentw.net/blog/travel/the-1st-provincial-road/</link>
       <pubDate>Fri, 07 Dec 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://oxygentw.net/blog/travel/the-1st-provincial-road/</guid>
       <description>臺一線，又名縱貫公路、西部幹線，從清朝開始就是縱貫南北的交通要道。北起臺北市忠孝西路、中山南路，南至屏東縣枋山鄉楓港，全長 461.081 公里。經過臺灣西</description>
     </item>
-    
     <item>
       <title>[日本] 如何從日本寄明信片！</title>
       <link>https://oxygentw.net/blog/prose/mail-postcard-in-japan/</link>
       <pubDate>Mon, 25 Jun 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://oxygentw.net/blog/prose/mail-postcard-in-japan/</guid>
       <description>許多人在出國時會想從國外寄明信片回台灣吧！之前旅行青蛙的熱潮又助長了一波明信片風潮，日本在 2017 年是最多台灣人旅遊的國家，人數達出國總數的29.</description>
     </item>
-    
     <item>
       <title>[日本] 如何從日本寄明信片！</title>
       <link>https://oxygentw.net/blog/travel/mail-postcard-in-japan/</link>
       <pubDate>Mon, 25 Jun 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://oxygentw.net/blog/travel/mail-postcard-in-japan/</guid>
       <description>許多人在出國時會想從國外寄明信片回台灣吧！之前旅行青蛙的熱潮又助長了一波明信片風潮，日本在 2017 年是最多台灣人旅遊的國家，人數達出國總數的29.</description>
     </item>
-    
     <item>
       <title>旅行常備藥品與急救包</title>
       <link>https://oxygentw.net/blog/travel/travel-medicine-first-aid-kits/</link>
       <pubDate>Wed, 20 Jun 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://oxygentw.net/blog/travel/travel-medicine-first-aid-kits/</guid>
       <description>旅行途中難免會遇到受傷或生病，如何在陌生的環境應變這樣的意外插曲是旅行者必學的重要課題之一，若是像我喜歡去較偏遠的地方旅行，且時常單獨前往，</description>
     </item>
-    
   </channel>
 </rss>

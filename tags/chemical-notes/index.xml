@@ -1,29 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Chemical notes on 氧氣橘子</title>
+    <title>CHEMICAL NOTES on 氧氣橘子</title>
     <link>https://oxygentw.net/tags/chemical-notes/</link>
-    <description>Recent content in Chemical notes on 氧氣橘子</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in CHEMICAL NOTES on 氧氣橘子</description>
+    <generator>Hugo</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Tue, 08 Jan 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://oxygentw.net/tags/chemical-notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 08 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://oxygentw.net/tags/chemical-notes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Quantum Numbers</title>
       <link>https://oxygentw.net/blog/notes/quantum-numbers/</link>
       <pubDate>Tue, 08 Jan 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://oxygentw.net/blog/notes/quantum-numbers/</guid>
       <description>一些關於量子數與原子軌域的筆記 (n , l , ml , ms) = (主量子數,角量子數,磁量子數,自旋量子數) 主量子數 Principal QN n = 1,2,3&amp;hellip;.. 決定原子的大小和能量 n2 = 能形成的</description>
     </item>
-    
     <item>
       <title>Physical properties of functional group</title>
       <link>https://oxygentw.net/blog/notes/physical-properties-of-functional-group/</link>
       <pubDate>Mon, 07 Jan 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://oxygentw.net/blog/notes/physical-properties-of-functional-group/</guid>
       <description>簡單整理官能基的物理性質 官能基比較表 官能基 極性 分子間作用力 水溶能力 沸點 info 醇 alcohol True H-bond 高/隨碳鍊增長遞減 較高 氫鍵給予者 醚 ether True weak 偶極-偶極 / 立體障礙</description>
     </item>
-    
   </channel>
 </rss>

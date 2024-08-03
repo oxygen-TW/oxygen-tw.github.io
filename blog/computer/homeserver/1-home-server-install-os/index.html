@@ -35,7 +35,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.119.0" />
+<meta name="generator" content="Hugo 0.129.0" />
 
 
 <link rel="canonical" href="https://oxygentw.net/blog/computer/homeserver/1-home-server-install-os/" />
@@ -62,19 +62,26 @@
 
 
 
-<meta property="og:title" content="架設家用伺服器 Part 1 — 安裝系統" />
-<meta property="og:description" content="有了所有需要的硬體材料後，就像組電腦一樣，第一步要進行的就是安裝作業系統，沒有系統就不能開機了啊！ 我們開始吧！ STEP 1 : 下載必要軟體 SD Card formatter 用來格" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://oxygentw.net/blog/computer/homeserver/1-home-server-install-os/" /><meta property="article:section" content="blog" />
-<meta property="article:published_time" content="2019-02-01T00:00:00+00:00" />
-<meta property="article:modified_time" content="2019-02-01T00:00:00+00:00" />
-<meta itemprop="name" content="架設家用伺服器 Part 1 — 安裝系統">
-<meta itemprop="description" content="有了所有需要的硬體材料後，就像組電腦一樣，第一步要進行的就是安裝作業系統，沒有系統就不能開機了啊！ 我們開始吧！ STEP 1 : 下載必要軟體 SD Card formatter 用來格"><meta itemprop="datePublished" content="2019-02-01T00:00:00+00:00" />
-<meta itemprop="dateModified" content="2019-02-01T00:00:00+00:00" />
-<meta itemprop="wordCount" content="592">
-<meta itemprop="keywords" content="Home server series," /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="架設家用伺服器 Part 1 — 安裝系統"/>
-<meta name="twitter:description" content="有了所有需要的硬體材料後，就像組電腦一樣，第一步要進行的就是安裝作業系統，沒有系統就不能開機了啊！ 我們開始吧！ STEP 1 : 下載必要軟體 SD Card formatter 用來格"/>
+<meta property="og:url" content="https://oxygentw.net/blog/computer/homeserver/1-home-server-install-os/">
+  <meta property="og:site_name" content="氧氣橘子">
+  <meta property="og:title" content="架設家用伺服器 Part 1 — 安裝系統">
+  <meta property="og:description" content="有了所有需要的硬體材料後，就像組電腦一樣，第一步要進行的就是安裝作業系統，沒有系統就不能開機了啊！ 我們開始吧！ STEP 1 : 下載必要軟體 SD Card formatter 用來格">
+  <meta property="og:locale" content="zh_tw">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2019-02-01T00:00:00+00:00">
+    <meta property="article:modified_time" content="2019-02-01T00:00:00+00:00">
+    <meta property="article:tag" content="Home Server Series">
+
+  <meta itemprop="name" content="架設家用伺服器 Part 1 — 安裝系統">
+  <meta itemprop="description" content="有了所有需要的硬體材料後，就像組電腦一樣，第一步要進行的就是安裝作業系統，沒有系統就不能開機了啊！ 我們開始吧！ STEP 1 : 下載必要軟體 SD Card formatter 用來格">
+  <meta itemprop="datePublished" content="2019-02-01T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2019-02-01T00:00:00+00:00">
+  <meta itemprop="wordCount" content="592">
+  <meta itemprop="keywords" content="家用伺服器,家用伺服器架設,Home server,樹莓派,伺服器,DietPi,Raspbian,樹莓派安裝系統,樹莓派,系統安裝教學,樹莓派教學,如何安裝樹莓派系統,樹莓派怎麼用,樹莓派沒畫面,樹莓派 HDMI,Raspberry Pi,Raspberry Pi OS,Dietpi 教學">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="架設家用伺服器 Part 1 — 安裝系統">
+  <meta name="twitter:description" content="有了所有需要的硬體材料後，就像組電腦一樣，第一步要進行的就是安裝作業系統，沒有系統就不能開機了啊！ 我們開始吧！ STEP 1 : 下載必要軟體 SD Card formatter 用來格">
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -86,16 +93,25 @@
 <![endif]-->
 
 
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-112746631-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
+  
+    
+      <script async src="https://www.googletagmanager.com/gtag/js?id=4942793011"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', '4942793011');
+        }
+      </script>
+    
+  
+
 
 
 
@@ -345,11 +361,11 @@ if (!doNotTrack) {
 <br/>
 <h2 id="step-3--格式化記憶卡">STEP 3 : 格式化記憶卡</h2>
 <p>打開 SD Formatter ，並確定記憶卡的磁碟編號，<span style="color: #ff0000;">萬萬要仔細確認 !!!!!! 如果不小心格式化到其他裝置資料會全部消失<span style="color: #000000;">，選項設定最好是選擇<span style="color: #808000;">覆寫格式化</span>，那樣清的最乾淨，不過經過我多次測試<span style="color: #808000;">快速格式化</span>也沒問題，速度會快很多，<span style="color: #808000;">邏輯大小調整</span>選擇 (ON)</p>
-<p><img src="/img/post/homeserver/1-home-server-install-os/2017-09-11-4.png" alt="格式化記憶卡"></p>
+<p><img alt="格式化記憶卡" src="/img/post/homeserver/1-home-server-install-os/2017-09-11-4.png"></p>
 <br/>
 <h2 id="step-4--燒錄映像檔">STEP 4 : 燒錄映像檔</h2>
 <p><span style="color: #ff0000;">這也要仔細檢查磁區編號，燒錯地方也是檔案全部毀損&hellip;.<span style="color: #000000;"> 選擇要燒錄的記憶卡，按 restore 並選擇剛剛下載的映像檔，他就會自己開始把系統燒錄至記憶卡了。</p>
-<p><img src="/img/post/homeserver/1-home-server-install-os/2017-09-11-5.png" alt="燒錄映像檔"></p>
+<p><img alt="燒錄映像檔" src="/img/post/homeserver/1-home-server-install-os/2017-09-11-5.png"></p>
 <br/>
 <h2 id="step-5--設定-configtxt">STEP 5 : 設定 config.txt</h2>
 <p>其實燒錄完成後就可以啟動系統了，但如果你是用 HDMI 轉 VGA 的方式連接螢幕可能會有開機沒畫面的現象，解決方法很簡單，只需要把SD卡插進電腦，找到一個叫 config.txt 的檔案，用記事本打開後搜尋以下參數，並修改成下列的設定！</p>
@@ -391,7 +407,7 @@ AUTO_SETUP_NET_WIFI_KEY=<span style="color: #0000ff;">YOUR_PASSWORD</span></p>
   
   <p class="copyright-item">
     <span class="item-title">授權條款</span>
-    <span class="item-content">Copyright © 2017-2023 oxygen. All rights reserved.</span>
+    <span class="item-content">Copyright © 2017-2024 oxygen. All rights reserved.</span>
   </p>
 </div>
 
@@ -554,7 +570,7 @@ AUTO_SETUP_NET_WIFI_KEY=<span style="color: #0000ff;">YOUR_PASSWORD</span></p>
     &copy;
     
       2017 -
-    2023
+    2024
     <span class="heart">
       
       <i class="iconfont">

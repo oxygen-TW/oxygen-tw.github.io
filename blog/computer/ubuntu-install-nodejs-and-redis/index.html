@@ -35,7 +35,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.119.0" />
+<meta name="generator" content="Hugo 0.129.0" />
 
 
 <link rel="canonical" href="https://oxygentw.net/blog/computer/ubuntu-install-nodejs-and-redis/" />
@@ -62,19 +62,25 @@
 
 
 
-<meta property="og:title" content="Ubuntu 安裝 node.js 和 redis 資料庫" />
-<meta property="og:description" content="團隊職位更換後我負責管理伺服器，服務後端需要用到 node.js 和 Redis，順手記錄一下安裝過程。 安裝 node.js 1 curl -sL https://deb.nodesource.com/setup_9.x | sudo -E bash - sudo apt-get install -y nodejs 檢查 node.js 版本 1 2 node -v v9.5.0" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://oxygentw.net/blog/computer/ubuntu-install-nodejs-and-redis/" /><meta property="article:section" content="blog" />
-<meta property="article:published_time" content="2018-02-17T00:00:00+00:00" />
-<meta property="article:modified_time" content="2018-02-17T00:00:00+00:00" />
-<meta itemprop="name" content="Ubuntu 安裝 node.js 和 redis 資料庫">
-<meta itemprop="description" content="團隊職位更換後我負責管理伺服器，服務後端需要用到 node.js 和 Redis，順手記錄一下安裝過程。 安裝 node.js 1 curl -sL https://deb.nodesource.com/setup_9.x | sudo -E bash - sudo apt-get install -y nodejs 檢查 node.js 版本 1 2 node -v v9.5.0"><meta itemprop="datePublished" content="2018-02-17T00:00:00+00:00" />
-<meta itemprop="dateModified" content="2018-02-17T00:00:00+00:00" />
-<meta itemprop="wordCount" content="252">
-<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Ubuntu 安裝 node.js 和 redis 資料庫"/>
-<meta name="twitter:description" content="團隊職位更換後我負責管理伺服器，服務後端需要用到 node.js 和 Redis，順手記錄一下安裝過程。 安裝 node.js 1 curl -sL https://deb.nodesource.com/setup_9.x | sudo -E bash - sudo apt-get install -y nodejs 檢查 node.js 版本 1 2 node -v v9.5.0"/>
+<meta property="og:url" content="https://oxygentw.net/blog/computer/ubuntu-install-nodejs-and-redis/">
+  <meta property="og:site_name" content="氧氣橘子">
+  <meta property="og:title" content="Ubuntu 安裝 node.js 和 redis 資料庫">
+  <meta property="og:description" content="團隊職位更換後我負責管理伺服器，服務後端需要用到 node.js 和 Redis，順手記錄一下安裝過程。 安裝 node.js 1 curl -sL https://deb.nodesource.com/setup_9.x | sudo -E bash - sudo apt-get install -y nodejs 檢查 node.js 版本 1 2 node -v v9.5.0">
+  <meta property="og:locale" content="zh_tw">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2018-02-17T00:00:00+00:00">
+    <meta property="article:modified_time" content="2018-02-17T00:00:00+00:00">
+
+  <meta itemprop="name" content="Ubuntu 安裝 node.js 和 redis 資料庫">
+  <meta itemprop="description" content="團隊職位更換後我負責管理伺服器，服務後端需要用到 node.js 和 Redis，順手記錄一下安裝過程。 安裝 node.js 1 curl -sL https://deb.nodesource.com/setup_9.x | sudo -E bash - sudo apt-get install -y nodejs 檢查 node.js 版本 1 2 node -v v9.5.0">
+  <meta itemprop="datePublished" content="2018-02-17T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2018-02-17T00:00:00+00:00">
+  <meta itemprop="wordCount" content="252">
+  <meta itemprop="keywords" content="node js 安裝,redis 安裝,ubuntu node js,ubuntu redis,linux node js,linux redis,redis 教學">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Ubuntu 安裝 node.js 和 redis 資料庫">
+  <meta name="twitter:description" content="團隊職位更換後我負責管理伺服器，服務後端需要用到 node.js 和 Redis，順手記錄一下安裝過程。 安裝 node.js 1 curl -sL https://deb.nodesource.com/setup_9.x | sudo -E bash - sudo apt-get install -y nodejs 檢查 node.js 版本 1 2 node -v v9.5.0">
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -86,16 +92,25 @@
 <![endif]-->
 
 
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-112746631-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
+  
+    
+      <script async src="https://www.googletagmanager.com/gtag/js?id=4942793011"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', '4942793011');
+        }
+      </script>
+    
+  
+
 
 
 
@@ -390,7 +405,7 @@ if (!doNotTrack) {
 <br/>
 <p>為了保護資料庫，必須設置資料庫密碼，修改 /etc/redis/redis.conf。</p>
 <p>取消註解 requirepass 並設置密碼</p>
-<p><img src="/img/post/ubuntu-install-nodejs-and-redis/2018-02-17.png" alt="set password"></p>
+<p><img alt="set password" src="/img/post/ubuntu-install-nodejs-and-redis/2018-02-17.png"></p>
 <br/>
 <p>為了讓遠端主機可以存取 Redis，找到 bind 127.0.0.1 這行，將允許訪問資料庫的IP補上去</p>
 <p>Example:</p>
@@ -447,7 +462,7 @@ redis-cli -a [Redis Password] -h [Remote Host Address]</p>
   
   <p class="copyright-item">
     <span class="item-title">授權條款</span>
-    <span class="item-content">Copyright © 2017-2023 oxygen. All rights reserved.</span>
+    <span class="item-content">Copyright © 2017-2024 oxygen. All rights reserved.</span>
   </p>
 </div>
 
@@ -607,7 +622,7 @@ redis-cli -a [Redis Password] -h [Remote Host Address]</p>
     &copy;
     
       2017 -
-    2023
+    2024
     <span class="heart">
       
       <i class="iconfont">

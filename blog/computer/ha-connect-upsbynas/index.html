@@ -35,7 +35,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.119.0" />
+<meta name="generator" content="Hugo 0.129.0" />
 
 
 <link rel="canonical" href="https://oxygentw.net/blog/computer/ha-connect-upsbynas/" />
@@ -62,19 +62,25 @@
 
 
 
-<meta property="og:title" content="Home Assistant 連接 Synology UPS Server" />
-<meta property="og:description" content="便宜的家用 UPS 很多時候都只有一個 USB 通訊埠，我理所當然地把它拿去給最重要的 NAS 連接，但我還有一台運行 Home Assistant 的伺服器怎麼辦? 雖然我的經驗告訴我小樹莓派" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://oxygentw.net/blog/computer/ha-connect-upsbynas/" /><meta property="article:section" content="blog" />
-<meta property="article:published_time" content="2022-02-15T00:00:00+00:00" />
-<meta property="article:modified_time" content="2022-02-15T00:00:00+00:00" />
-<meta itemprop="name" content="Home Assistant 連接 Synology UPS Server">
-<meta itemprop="description" content="便宜的家用 UPS 很多時候都只有一個 USB 通訊埠，我理所當然地把它拿去給最重要的 NAS 連接，但我還有一台運行 Home Assistant 的伺服器怎麼辦? 雖然我的經驗告訴我小樹莓派"><meta itemprop="datePublished" content="2022-02-15T00:00:00+00:00" />
-<meta itemprop="dateModified" content="2022-02-15T00:00:00+00:00" />
-<meta itemprop="wordCount" content="423">
-<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Home Assistant 連接 Synology UPS Server"/>
-<meta name="twitter:description" content="便宜的家用 UPS 很多時候都只有一個 USB 通訊埠，我理所當然地把它拿去給最重要的 NAS 連接，但我還有一台運行 Home Assistant 的伺服器怎麼辦? 雖然我的經驗告訴我小樹莓派"/>
+<meta property="og:url" content="https://oxygentw.net/blog/computer/ha-connect-upsbynas/">
+  <meta property="og:site_name" content="氧氣橘子">
+  <meta property="og:title" content="Home Assistant 連接 Synology UPS Server">
+  <meta property="og:description" content="便宜的家用 UPS 很多時候都只有一個 USB 通訊埠，我理所當然地把它拿去給最重要的 NAS 連接，但我還有一台運行 Home Assistant 的伺服器怎麼辦? 雖然我的經驗告訴我小樹莓派">
+  <meta property="og:locale" content="zh_tw">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2022-02-15T00:00:00+00:00">
+    <meta property="article:modified_time" content="2022-02-15T00:00:00+00:00">
+
+  <meta itemprop="name" content="Home Assistant 連接 Synology UPS Server">
+  <meta itemprop="description" content="便宜的家用 UPS 很多時候都只有一個 USB 通訊埠，我理所當然地把它拿去給最重要的 NAS 連接，但我還有一台運行 Home Assistant 的伺服器怎麼辦? 雖然我的經驗告訴我小樹莓派">
+  <meta itemprop="datePublished" content="2022-02-15T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2022-02-15T00:00:00+00:00">
+  <meta itemprop="wordCount" content="423">
+  <meta itemprop="keywords" content="NAS,Synology,Synology NAS UPS,NAS UPS Server,Home Assitant,Home Assitant UPS,NUT tool">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Home Assistant 連接 Synology UPS Server">
+  <meta name="twitter:description" content="便宜的家用 UPS 很多時候都只有一個 USB 通訊埠，我理所當然地把它拿去給最重要的 NAS 連接，但我還有一台運行 Home Assistant 的伺服器怎麼辦? 雖然我的經驗告訴我小樹莓派">
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -86,16 +92,25 @@
 <![endif]-->
 
 
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-112746631-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
+  
+    
+      <script async src="https://www.googletagmanager.com/gtag/js?id=4942793011"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', '4942793011');
+        }
+      </script>
+    
+  
+
 
 
 
@@ -332,7 +347,7 @@ if (!doNotTrack) {
     
     <div class="post-content">
       <p>便宜的家用 UPS 很多時候都只有一個 USB 通訊埠，我理所當然地把它拿去給最重要的 NAS 連接，但我還有一台運行 Home Assistant 的伺服器怎麼辦? 雖然我的經驗告訴我小樹莓派挺耐操的，斷電也還好，只是都接UPS了為甚麼不把效能發揮到極致呢!</p>
-<p>Synology 的 NAS 有內建的 UPS Server 功能，他上面是寫說可以給其他 Synology NAS 連接，其實他只是運行 <a href="https://networkupstools.org/">NUT Server</a>這個工具罷了，所以表示大家都可以連線，我用 Home Assistant 介紹，但其實所有電腦都可以用相同 <a href="#setting-config">Config</a> 連線喔!</p>
+<p>Synology 的 NAS 有內建的 UPS Server 功能，他上面是寫說可以給其他 Synology NAS 連接，其實他只是運行 <a href="https://networkupstools.org/">NUT Server</a>這個工具罷了，所以表示大家都可以連線，我用 Home Assistant 介紹，但其實所有電腦都可以用相同 <a href="/blog/computer/ha-connect-upsbynas/#setting-config">Config</a> 連線喔!</p>
 <br/>
 <hr>
 <p>首先先把NAS連上不斷電系統，到<code>控制台-&gt;電源&amp;硬體-&gt;啟動不斷電系統系統支援、啟動網路不斷電系統系統伺服器</code>
@@ -447,7 +462,7 @@ if (!doNotTrack) {
   
   <p class="copyright-item">
     <span class="item-title">授權條款</span>
-    <span class="item-content">Copyright © 2017-2023 oxygen. All rights reserved.</span>
+    <span class="item-content">Copyright © 2017-2024 oxygen. All rights reserved.</span>
   </p>
 </div>
 
@@ -607,7 +622,7 @@ if (!doNotTrack) {
     &copy;
     
       2017 -
-    2023
+    2024
     <span class="heart">
       
       <i class="iconfont">

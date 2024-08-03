@@ -4,188 +4,149 @@
     <title>Blogs on 氧氣橘子</title>
     <link>https://oxygentw.net/blog/</link>
     <description>Recent content in Blogs on 氧氣橘子</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sun, 19 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://oxygentw.net/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 03 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://oxygentw.net/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>在美國生病怎麼辦 | 美國 Urgent Care 經驗分享</title>
+      <link>https://oxygentw.net/blog/travel/visit-urgent-care-in-us/</link>
+      <pubDate>Sat, 03 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://oxygentw.net/blog/travel/visit-urgent-care-in-us/</guid>
+      <description>上個月中去美國參加研討會，因此順便也在佛羅里達待了一個禮拜，但在過程中發生了點小插曲，從抵達的第三天開始發燒，我把我帶去的藥吃完無法改善，到</description>
+    </item>
     <item>
       <title>國網中心台灣杉三號使用筆記</title>
       <link>https://oxygentw.net/blog/computer/nchc-taiwania-iii-note/</link>
       <pubDate>Sun, 19 Nov 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://oxygentw.net/blog/computer/nchc-taiwania-iii-note/</guid>
       <description>最近在使用國網中心台灣杉三號上花了點時間研究跟嘗試才成功送出訓練任務，雖然國網的說明已經有寫到大部份資訊了，但相對比較分散而且有些小細節沒有</description>
     </item>
-    
     <item>
       <title>利用 MacOS 捷徑 app 控制 OpenWRT OpenVPN</title>
       <link>https://oxygentw.net/blog/computer/mac-shortcut-control-openwrt-vpn/</link>
       <pubDate>Sun, 20 Aug 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://oxygentw.net/blog/computer/mac-shortcut-control-openwrt-vpn/</guid>
       <description>這篇給我自己紀錄用的，我的 OpenWRT 上裝有 OpenVPN Client，這樣直接利用路由器連回工作場域所有連這台路由器 WiFi 的設備都可以同時進入內網，雖然 OpenWRT 有提供網頁</description>
     </item>
-    
     <item>
       <title>Home Assistant 連接小米智慧燈泡</title>
       <link>https://oxygentw.net/blog/computer/hass-connect-xiaomi-smartbulb/</link>
       <pubDate>Tue, 24 Jan 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://oxygentw.net/blog/computer/hass-connect-xiaomi-smartbulb/</guid>
       <description>最近想把小米智慧燈泡接入 Home Assistant，這款燈泡是走 yeelight 系統的，所以理所當然我打算用 Home Assistant 官方的 Yeelight intergation 去連接，卻發現我不論怎麼用都只會得到 No</description>
     </item>
-    
     <item>
       <title>學習利器介紹 - Anki</title>
       <link>https://oxygentw.net/blog/computer/anki-app/</link>
       <pubDate>Tue, 02 Aug 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://oxygentw.net/blog/computer/anki-app/</guid>
       <description>知道 Anki 這款軟體已經有一段時間，但他操作起來仍然需要一點時間摸索，因為國考的關係被迫學習如何使用他XD 也順利地利用 Anki 的輔助考過國考了！ 便來介紹</description>
     </item>
-    
     <item>
       <title>vscode-markdown-pdf 匯出含有 latex 的文件</title>
       <link>https://oxygentw.net/blog/computer/vscode-markdown-pdf-latex/</link>
       <pubDate>Fri, 03 Jun 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://oxygentw.net/blog/computer/vscode-markdown-pdf-latex/</guid>
       <description>vscode-markdown-pdf 是一個方便的VS Code Extension，可以將code中的PDF轉換為圖片、PDF、HTML等格式，但最近匯出的時候發現裡面含有 Latex 數學公式的</description>
     </item>
-    
     <item>
       <title>中山醫授權軟體認證程式</title>
       <link>https://oxygentw.net/blog/computer/csmu-kms-gui/</link>
       <pubDate>Wed, 16 Feb 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://oxygentw.net/blog/computer/csmu-kms-gui/</guid>
       <description>希望讓大家在認證 Windows 和 Office 上可以少受點苦的小程式。 1. 下載 CSMU-KMS 軟體 載點1：GitHub 載點2：oxygentw.net 2. 解壓縮後執行 CSMU-KMS.exe 3. 選擇你要認證</description>
     </item>
-    
     <item>
       <title>Home Assistant 連接 Synology UPS Server</title>
       <link>https://oxygentw.net/blog/computer/ha-connect-upsbynas/</link>
       <pubDate>Tue, 15 Feb 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://oxygentw.net/blog/computer/ha-connect-upsbynas/</guid>
       <description>便宜的家用 UPS 很多時候都只有一個 USB 通訊埠，我理所當然地把它拿去給最重要的 NAS 連接，但我還有一台運行 Home Assistant 的伺服器怎麼辦? 雖然我的經驗告訴我小樹莓派</description>
     </item>
-    
     <item>
       <title>MySQL 新增使用者與資料庫指令</title>
       <link>https://oxygentw.net/blog/computer/new-mysql-user/</link>
       <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://oxygentw.net/blog/computer/new-mysql-user/</guid>
       <description>建立新資料庫 1 CREATE DATABASE &amp;#39;databaseName&amp;#39;; 簡單粗暴，直接新增即可。 建立新使用者 1 CREATE USER &amp;#39;user_name&amp;#39;@&amp;#39;localhost&amp;#39; IDENTIFIED BY &amp;#39;password&amp;#39;; user_name 為新使用者名稱 僅限本機登入則輸入localhost，若外部可登入則輸</description>
     </item>
-    
     <item>
       <title>醫用真菌學常見學名整理表</title>
       <link>https://oxygentw.net/blog/notes/scientific-name-of-medical-myology/</link>
       <pubDate>Sat, 19 Jun 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://oxygentw.net/blog/notes/scientific-name-of-medical-myology/</guid>
       <description>管狀菌絲 - 接合菌綱 Zygomycetes 學名 中文名 Rhizopus spp. 根黴菌 Mucor 毛黴菌 Absidia spp. 犁頭黴菌 Syncephalastrum 共頭黴菌 Circinella spp. 卷黴菌 Cunninghamella 小克銀漢黴菌 暗色有隔菌絲 Dematiaceous 學名 中文名 Alternaria 鏈格孢黴菌 Stemphylium 匍根黴菌</description>
     </item>
-    
     <item>
       <title>[筆記] 單株抗體製備與應用</title>
       <link>https://oxygentw.net/blog/notes/basic-mab-note/</link>
       <pubDate>Tue, 20 Apr 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://oxygentw.net/blog/notes/basic-mab-note/</guid>
       <description>單株(Monoclonal)抗體在血清免疫與癌症治療上有很重要的應用，正常人體中產生的抗體為多株(Polyclonal)抗體，以因應各式各樣</description>
     </item>
-    
     <item>
       <title>分享 - Levey-Jennings chart 品管圖 Excel 模板</title>
       <link>https://oxygentw.net/blog/notes/lj-chart-excel-share/</link>
       <pubDate>Wed, 24 Mar 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://oxygentw.net/blog/notes/lj-chart-excel-share/</guid>
       <description>之前想說畫品管圖好麻煩，乾脆寫個程式來畫，但又覺得為這個寫程式有點太大費周章，決定去找找看有沒有現成的模板可以直接用 Excel 畫，結果還真的有! 而且</description>
     </item>
-    
     <item>
       <title>簡易細菌鑑別流程圖</title>
       <link>https://oxygentw.net/blog/notes/basicbacindentification/</link>
       <pubDate>Tue, 23 Mar 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://oxygentw.net/blog/notes/basicbacindentification/</guid>
       <description>整理一下上課講義上的細菌判別總表，放在網路上給大家參考，邊學邊做，有錯拜託告知QQ 資料來源：林世傑教授講義 軟體：Xmind free version 💥PDF下載點</description>
     </item>
-    
     <item>
       <title>建立第一個 Flutter App</title>
       <link>https://oxygentw.net/blog/computer/first-flutter-app/</link>
       <pubDate>Thu, 04 Mar 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://oxygentw.net/blog/computer/first-flutter-app/</guid>
       <description>接續上一篇的環境安裝，我們來測試是否可以成功建立Flutter App，首先先打開 Android studio。 選擇 Create new Flutter project。 選擇Flutter</description>
     </item>
-    
     <item>
       <title>安裝 Flutter 環境</title>
       <link>https://oxygentw.net/blog/computer/install-flutter-env/</link>
       <pubDate>Wed, 03 Mar 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://oxygentw.net/blog/computer/install-flutter-env/</guid>
       <description>開源社的同學~ 這是我們第一堂社課要達成的目標，安裝Flutter與Dart環境，未來社課會頻繁的用到，希望大家都能順利安裝~ 網路上的朋友~ 這</description>
     </item>
-    
     <item>
       <title>Remove Macos Hidden File</title>
       <link>https://oxygentw.net/blog/computer/remove-macos-hidden-file/</link>
       <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://oxygentw.net/blog/computer/remove-macos-hidden-file/</guid>
       <description>MacOS 下會為每個資料夾跟檔案新增一個以._開頭的系統隱藏檔案，用來儲存使用者設定和一些系統需要的設定，但是移到其他作業系統時這些檔案完全沒有用!</description>
     </item>
-    
     <item>
       <title>關於檢驗科抽血</title>
       <link>https://oxygentw.net/blog/notes/mls-venipuncture/</link>
       <pubDate>Mon, 12 Oct 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://oxygentw.net/blog/notes/mls-venipuncture/</guid>
       <description>靜脈穿刺採血，俗稱抽血，大家應該都有在醫院抽血的經驗，或是健康檢查需要抽血，人體的血液含有大量的資訊，醫學實驗室可以用各種檢驗方法取得各項指</description>
     </item>
-    
     <item>
       <title>移除 Android 手機螢幕鎖定密碼</title>
       <link>https://oxygentw.net/blog/computer/remove-android-password/</link>
       <pubDate>Fri, 04 Sep 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://oxygentw.net/blog/computer/remove-android-password/</guid>
       <description>最近在學 Flutter，想說拿以前的 Android 手機來做測試，沒想到&amp;hellip;.忘記密碼了!!!! 只好去想辦法把密碼解開，於是有了這篇筆記&amp;he</description>
     </item>
-    
     <item>
       <title>自訂 Windows Terminal 主題</title>
       <link>https://oxygentw.net/blog/computer/set-windows-terminal-themes/</link>
       <pubDate>Tue, 18 Aug 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://oxygentw.net/blog/computer/set-windows-terminal-themes/</guid>
       <description>Windows Terminal 是 Windows 10 新型的終端機介面，整合傳統 cmd、PowerShell、Azure shell 和 WSL Bash，比原先的 cmd 要好用太多了，我今天來介紹如何更改他的</description>
     </item>
-    
     <item>
       <title>打工換宿攜帶行李詳解！</title>
       <link>https://oxygentw.net/blog/travel/work-exchange-baggage/</link>
       <pubDate>Sun, 19 Jul 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://oxygentw.net/blog/travel/work-exchange-baggage/</guid>
       <description>前言 目前我正在澎湖打工換宿！這次也是我第一次打工換宿，出發前一直在想行李要帶什麼好，衣服應該帶多還是帶少? 會不會帶太多東西之類的，想必想要嘗</description>
     </item>
-    
-    <item>
-      <title>Python Logging 偵錯記錄模組</title>
-      <link>https://oxygentw.net/blog/computer/python-logging/</link>
-      <pubDate>Sun, 31 May 2020 16:29:24 +0800</pubDate>
-      
-      <guid>https://oxygentw.net/blog/computer/python-logging/</guid>
-      <description>logging 是 Python 內建的 log 紀錄器，可以利用這個模組來進行各種不同程度的 log 輸出，這樣可以省去程式開發完後一個一個把偵錯用的 print() 刪除的時間，直接把Debug l</description>
-    </item>
-    
   </channel>
 </rss>
