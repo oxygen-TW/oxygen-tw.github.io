@@ -2,18 +2,157 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tag-2 on 氧氣橘子</title>
-    <link>https://oxygentw.net/tags/tag-2/</link>
+    <link>http://localhost:1313/tags/tag-2/</link>
     <description>Recent content in Tag-2 on 氧氣橘子</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <lastBuildDate>Sun, 31 May 2020 16:29:24 +0800</lastBuildDate>
-    <atom:link href="https://oxygentw.net/tags/tag-2/index.xml" rel="self" type="application/rss+xml" />
+    
+        <atom:link href="http://localhost:1313/tags/tag-2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Python Logging 偵錯記錄模組</title>
-      <link>https://oxygentw.net/blog/computer/python-logging/</link>
+      <link>http://localhost:1313/blog/computer/python-logging/</link>
       <pubDate>Sun, 31 May 2020 16:29:24 +0800</pubDate>
-      <guid>https://oxygentw.net/blog/computer/python-logging/</guid>
-      <description>logging 是 Python 內建的 log 紀錄器，可以利用這個模組來進行各種不同程度的 log 輸出，這樣可以省去程式開發完後一個一個把偵錯用的 print() 刪除的時間，直接把Debug l</description>
+      
+      <guid>http://localhost:1313/blog/computer/python-logging/</guid>
+      
+        <description>&lt;p&gt;&lt;code&gt;logging&lt;/code&gt; 是 Python 內建的 log 紀錄器，可以利用這個模組來進行各種不同程度的 log 輸出，這樣可以省去程式開發完後一個一個把偵錯用的 &lt;code&gt;print()&lt;/code&gt; 刪除的時間，直接把Debug level改成 INFO 以上就可以了，若要維護程式也可以再改回 DEBUG，但我每次都會忘記語法，於是來記錄一下順便和大家分享~&lt;/p&gt;
+&lt;p&gt; 
+&lt;strong&gt;Using Python 3.8.3&lt;/strong&gt;
+ &lt;/p&gt;
+&lt;h2 id=&#34;引用套件&#34;&gt;引用套件&lt;/h2&gt;
+&lt;p&gt;引入套件直接 import 即可 不用另外下載 &lt;br&gt;
+&lt;code&gt;import logging&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;logging-debug-等級&#34;&gt;Logging debug 等級&lt;/h2&gt;
+&lt;p&gt;logging 把 debug level 分成六個等級，如下表所列，對應數值越小越敏感，logging只會紀錄數值大於設定值的紀錄。&lt;/p&gt;
+&lt;p&gt;用 &lt;code&gt;type(logging.DEBUG)&lt;/code&gt; 查看會發現等級其實是 int 型別，也就是它只是別名，實際上&lt;code&gt;print(logging.DEBUG)&lt;/code&gt; 也會是顯示10。&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;logging LEVEL&lt;/th&gt;
+          &lt;th&gt;意義&lt;/th&gt;
+          &lt;th&gt;對應數值&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;NOTSET&lt;/td&gt;
+          &lt;td&gt;未設定&lt;/td&gt;
+          &lt;td&gt;0&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;DEBUG&lt;/td&gt;
+          &lt;td&gt;偵錯&lt;/td&gt;
+          &lt;td&gt;10&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;INFO&lt;/td&gt;
+          &lt;td&gt;通知&lt;/td&gt;
+          &lt;td&gt;20&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;WARNING&lt;/td&gt;
+          &lt;td&gt;警告&lt;/td&gt;
+          &lt;td&gt;30&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;ERROR&lt;/td&gt;
+          &lt;td&gt;錯誤&lt;/td&gt;
+          &lt;td&gt;40&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;CRITICAL&lt;/td&gt;
+          &lt;td&gt;嚴重錯誤&lt;/td&gt;
+          &lt;td&gt;50&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt; 
+ &lt;/p&gt;
+&lt;p&gt;logging.DEBUG 的數值與型別&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;8
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;In [23]: print(logging.DEBUG)
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;10
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;In [24]: type(logging.DEBUG)
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Out[24]: int
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;In [25]: logging.getLevelName(10)
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Out[25]: &amp;#39;DEBUG&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;修改等級方法&#34;&gt;修改等級方法&lt;/h2&gt;
+&lt;p&gt;在程式中指定偵錯等級的語法 &lt;br&gt;
+&lt;code&gt;logging.getLogger().setLevel(logging.LEVEL)&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;初始設定&#34;&gt;初始設定&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;logging.basicConfig(level=logging.INFO)&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;官方文件參數說明&#34;&gt;官方文件參數說明&lt;/h3&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Format&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Description&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;em&gt;filename&lt;/em&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;指定 FileHandler，使用特定的檔案進行記錄而不是用 StreamHandler.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;em&gt;filemode&lt;/em&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;如果有指定 &lt;em&gt;filename&lt;/em&gt;，則可用此參數指定開檔模式，預設是 &lt;code&gt;&#39;a&#39;&lt;/code&gt;.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;em&gt;format&lt;/em&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;指定 handler 的格式字串&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;em&gt;datefmt&lt;/em&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;指定日期/時間格式, 接受&lt;a href=&#34;https://docs.python.org/3/library/time.html#time.strftime&#34;&gt;&lt;code&gt;time.strftime()&lt;/code&gt;&lt;/a&gt;格式&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;em&gt;style&lt;/em&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;If &lt;em&gt;format&lt;/em&gt; is specified, use this style for the format string. One of &lt;code&gt;&#39;%&#39;&lt;/code&gt;, &lt;code&gt;&#39;{&#39;&lt;/code&gt; or &lt;code&gt;&#39;$&#39;&lt;/code&gt; for &lt;a href=&#34;https://docs.python.org/3/library/stdtypes.html#old-string-formatting&#34;&gt;printf-style&lt;/a&gt;, &lt;a href=&#34;https://docs.python.org/3/library/stdtypes.html#str.format&#34;&gt;&lt;code&gt;str.format()&lt;/code&gt;&lt;/a&gt; or &lt;a href=&#34;https://docs.python.org/3/library/string.html#string.Template&#34;&gt;&lt;code&gt;string.Template&lt;/code&gt;&lt;/a&gt; respectively. Defaults to &lt;code&gt;&#39;%&#39;&lt;/code&gt;.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;em&gt;level&lt;/em&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Set the root logger level to the specified &lt;a href=&#34;https://docs.python.org/3/library/logging.html#levels&#34;&gt;level&lt;/a&gt;.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;em&gt;stream&lt;/em&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Use the specified stream to initialize the StreamHandler. Note that this argument is incompatible with &lt;em&gt;filename&lt;/em&gt; - if both are present, a &lt;code&gt;ValueError&lt;/code&gt; is raised.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;em&gt;handlers&lt;/em&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;If specified, this should be an iterable of already created handlers to add to the root logger. Any handlers which don’t already have a formatter set will be assigned the default formatter created in this function. Note that this argument is incompatible with &lt;em&gt;filename&lt;/em&gt; or &lt;em&gt;stream&lt;/em&gt; - if both are present, a &lt;code&gt;ValueError&lt;/code&gt; is raised.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;em&gt;force&lt;/em&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;If this keyword argument is specified as true, any existing handlers attached to the root logger are removed and closed, before carrying out the configuration as specified by the other arguments.&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.python.org/3/library/logging.html&#34;&gt;https://docs.python.org/3/library/logging.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      
     </item>
+    
   </channel>
 </rss>

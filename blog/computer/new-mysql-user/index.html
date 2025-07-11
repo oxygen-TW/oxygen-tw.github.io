@@ -26,7 +26,9 @@
 <meta name="mobile-web-app-capable" content="yes">
 
 <meta name="author" content="oxygen" />
-  <meta name="description" content="建立新資料庫 1 CREATE DATABASE &amp;#39;databaseName&amp;#39;; 簡單粗暴，直接新增即可。 建立新使用者 1 CREATE USER &amp;#39;user_name&amp;#39;@&amp;#39;localhost&amp;#39; IDENTIFIED BY &amp;#39;password&amp;#39;; user_name 為新使用者名稱 僅限本機登入則輸入localhost，若外部可登入則輸" />
+  <meta name="description" content="建立新資料庫 1 CREATE DATABASE &#39;databaseName&#39;; 簡單粗暴，直接新增即可。
+建立新使用者 1 CREATE USER &#39;user_name&#39;@&#39;localhost&#39; IDENTIFIED BY &#39;password&#39;; user_name 為新使用者名稱 僅限本機登入則輸入localhost，若外部可登入則輸入% password 為新使用者密碼 設定使用者權限 1 GRANT ALL PRIVILEGES ON `database` . * TO &#39;user&#39;@&#39;localhost&#39;; 這句意思是提升(所有權限) 在 (資料庫) 的 (所有資料表) 有效於 (使用者) @ (本機登入) 有括弧的地方都可以視情況更改。
+" />
 <meta name="keywords" content="Mysql 外網, Mysql bind-address, Mysql, mysql 連不上, Error: connect ECONNREFUSED" />
 
 
@@ -35,7 +37,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.131.0" />
+<meta name="generator" content="Hugo 0.148.0" />
 
 
 <link rel="canonical" href="https://oxygentw.net/blog/computer/new-mysql-user/" />
@@ -56,7 +58,7 @@
 
 
 
-<link rel="stylesheet" href="/sass/jane.min.b495b9d81714f85c2c181722869d38324395662be76faebf5a6e36f1b996d1d0.css" integrity="" media="screen" crossorigin="anonymous">
+<link rel="stylesheet" href="/sass/jane.min.2d2189efee6cec3ea8e6d6a81b2cfbca060635e152dca5d5ce35bfb8b4226ead.css" integrity="" media="screen" crossorigin="anonymous">
 
 
 
@@ -65,7 +67,8 @@
 <meta property="og:url" content="https://oxygentw.net/blog/computer/new-mysql-user/">
   <meta property="og:site_name" content="氧氣橘子">
   <meta property="og:title" content="MySQL 新增使用者與資料庫指令">
-  <meta property="og:description" content="建立新資料庫 1 CREATE DATABASE &#39;databaseName&#39;; 簡單粗暴，直接新增即可。 建立新使用者 1 CREATE USER &#39;user_name&#39;@&#39;localhost&#39; IDENTIFIED BY &#39;password&#39;; user_name 為新使用者名稱 僅限本機登入則輸入localhost，若外部可登入則輸">
+  <meta property="og:description" content="建立新資料庫 1 CREATE DATABASE &#39;databaseName&#39;; 簡單粗暴，直接新增即可。
+建立新使用者 1 CREATE USER &#39;user_name&#39;@&#39;localhost&#39; IDENTIFIED BY &#39;password&#39;; user_name 為新使用者名稱 僅限本機登入則輸入localhost，若外部可登入則輸入% password 為新使用者密碼 設定使用者權限 1 GRANT ALL PRIVILEGES ON `database` . * TO &#39;user&#39;@&#39;localhost&#39;; 這句意思是提升(所有權限) 在 (資料庫) 的 (所有資料表) 有效於 (使用者) @ (本機登入) 有括弧的地方都可以視情況更改。">
   <meta property="og:locale" content="zh_tw">
   <meta property="og:type" content="article">
     <meta property="article:section" content="blog">
@@ -73,14 +76,16 @@
     <meta property="article:modified_time" content="2021-07-10T00:00:00+00:00">
 
   <meta itemprop="name" content="MySQL 新增使用者與資料庫指令">
-  <meta itemprop="description" content="建立新資料庫 1 CREATE DATABASE &#39;databaseName&#39;; 簡單粗暴，直接新增即可。 建立新使用者 1 CREATE USER &#39;user_name&#39;@&#39;localhost&#39; IDENTIFIED BY &#39;password&#39;; user_name 為新使用者名稱 僅限本機登入則輸入localhost，若外部可登入則輸">
+  <meta itemprop="description" content="建立新資料庫 1 CREATE DATABASE &#39;databaseName&#39;; 簡單粗暴，直接新增即可。
+建立新使用者 1 CREATE USER &#39;user_name&#39;@&#39;localhost&#39; IDENTIFIED BY &#39;password&#39;; user_name 為新使用者名稱 僅限本機登入則輸入localhost，若外部可登入則輸入% password 為新使用者密碼 設定使用者權限 1 GRANT ALL PRIVILEGES ON `database` . * TO &#39;user&#39;@&#39;localhost&#39;; 這句意思是提升(所有權限) 在 (資料庫) 的 (所有資料表) 有效於 (使用者) @ (本機登入) 有括弧的地方都可以視情況更改。">
   <meta itemprop="datePublished" content="2021-07-10T00:00:00+00:00">
   <meta itemprop="dateModified" content="2021-07-10T00:00:00+00:00">
   <meta itemprop="wordCount" content="320">
   <meta itemprop="keywords" content="Mysql 外網,Mysql bind-address,Mysql,mysql 連不上,Error: connect ECONNREFUSED">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="MySQL 新增使用者與資料庫指令">
-  <meta name="twitter:description" content="建立新資料庫 1 CREATE DATABASE &#39;databaseName&#39;; 簡單粗暴，直接新增即可。 建立新使用者 1 CREATE USER &#39;user_name&#39;@&#39;localhost&#39; IDENTIFIED BY &#39;password&#39;; user_name 為新使用者名稱 僅限本機登入則輸入localhost，若外部可登入則輸">
+  <meta name="twitter:description" content="建立新資料庫 1 CREATE DATABASE &#39;databaseName&#39;; 簡單粗暴，直接新增即可。
+建立新使用者 1 CREATE USER &#39;user_name&#39;@&#39;localhost&#39; IDENTIFIED BY &#39;password&#39;; user_name 為新使用者名稱 僅限本機登入則輸入localhost，若外部可登入則輸入% password 為新使用者密碼 設定使用者權限 1 GRANT ALL PRIVILEGES ON `database` . * TO &#39;user&#39;@&#39;localhost&#39;; 這句意思是提升(所有權限) 在 (資料庫) 的 (所有資料表) 有效於 (使用者) @ (本機登入) 有括弧的地方都可以視情況更改。">
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -92,8 +97,6 @@
 <![endif]-->
 
 
-  
-    
       <script async src="https://www.googletagmanager.com/gtag/js?id=4942793011"></script>
       <script>
         var doNotTrack = false;
@@ -108,10 +111,6 @@
           gtag('config', '4942793011');
         }
       </script>
-    
-  
-
-
 
 
 </head>
@@ -327,7 +326,6 @@
           2021-07-10
         </time>
         <div class="post-category">
-            <a href="https://oxygentw.net/categories/computer/"> computer </a>
             
           </div>
         <span class="more-meta"> 約 320 字 </span>
@@ -416,7 +414,7 @@
 <div class="post-copyright">
   <p class="copyright-item">
     <span class="item-title">文章作者</span>
-    <span class="item-content">oxygen</span>
+    <span class="item-content"><a href="https://oxygentw.net/author/oxygen/">oxygen</a></span>
   </p>
   <p class="copyright-item">
     <span class="item-title">上次更新</span>
@@ -428,7 +426,7 @@
   
   <p class="copyright-item">
     <span class="item-title">授權條款</span>
-    <span class="item-content">Copyright © 2017-2024 oxygen. All rights reserved.</span>
+    <span class="item-content">Copyright © 2017-2025 oxygen. All rights reserved.</span>
   </p>
 </div>
 
@@ -588,7 +586,7 @@
     &copy;
     
       2017 -
-    2024
+    2025
     <span class="heart">
       
       <i class="iconfont">

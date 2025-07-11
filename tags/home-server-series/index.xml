@@ -2,46 +2,324 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home Server Series on 氧氣橘子</title>
-    <link>https://oxygentw.net/tags/home-server-series/</link>
+    <link>http://localhost:1313/tags/home-server-series/</link>
     <description>Recent content in Home Server Series on 氧氣橘子</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <lastBuildDate>Tue, 24 Jan 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://oxygentw.net/tags/home-server-series/index.xml" rel="self" type="application/rss+xml" />
+    
+        <atom:link href="http://localhost:1313/tags/home-server-series/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Home Assistant 連接小米智慧燈泡</title>
-      <link>https://oxygentw.net/blog/computer/hass-connect-xiaomi-smartbulb/</link>
+      <link>http://localhost:1313/blog/computer/hass-connect-xiaomi-smartbulb/</link>
       <pubDate>Tue, 24 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://oxygentw.net/blog/computer/hass-connect-xiaomi-smartbulb/</guid>
-      <description>最近想把小米智慧燈泡接入 Home Assistant，這款燈泡是走 yeelight 系統的，所以理所當然我打算用 Home Assistant 官方的 Yeelight intergation 去連接，卻發現我不論怎麼用都只會得到 No</description>
+      
+      <guid>http://localhost:1313/blog/computer/hass-connect-xiaomi-smartbulb/</guid>
+      
+        <description>&lt;p&gt;最近想把小米智慧燈泡接入 Home Assistant，這款燈泡是走 yeelight 系統的，所以理所當然我打算用 Home Assistant 官方的 &lt;a href=&#34;https://www.home-assistant.io/integrations/yeelight/&#34;&gt;Yeelight intergation&lt;/a&gt; 去連接，卻發現我不論怎麼用都只會得到 &lt;em&gt;No devices found on the network&lt;/em&gt; 或是 &lt;em&gt;Failed to connect&lt;/em&gt; 的錯誤，我就不明白了，搜尋許多解法後找到一個&lt;a href=&#34;https://community.home-assistant.io/t/integrate-mi-smart-led-bulb-easy-steps/312174&#34;&gt;社群論壇大大給的方法&lt;/a&gt;，成功接入！紀錄一下順便寫個中文版教學給其他遇到相同問題的人參考~&lt;/p&gt;
+&lt;br/&gt;
+&lt;blockquote&gt;
+&lt;p&gt;注意此方法需要安裝 Python！&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h2 id=&#34;燈泡連接米家app&#34;&gt;燈泡連接米家App&lt;/h2&gt;
+&lt;p&gt;首先先依照說明書將燈泡初始化，連接到&lt;strong&gt;米家app&lt;/strong&gt;，連上去後你就可以用米家 App 控制燈泡，但會發現 yeelight intergration 怎樣都找不到燈泡。&lt;/p&gt;
+&lt;p&gt;主因是燈泡沒有開啟開發者模式，我們無法從外面控制，用以下的方法可以把開發者模式打開。&lt;/p&gt;
+&lt;h2 id=&#34;取得燈泡-token&#34;&gt;取得燈泡 Token&lt;/h2&gt;
+&lt;p&gt;我們要先取得控制燈泡的 token，下載 &lt;a href=&#34;https://github.com/PiotrMachowski/Xiaomi-cloud-tokens-extractor/releases/latest/download/token_extractor.zip&#34;&gt;https://github.com/PiotrMachowski/Xiaomi-cloud-tokens-extractor/releases/latest/download/token_extractor.zip&lt;/a&gt; 解壓縮並進到目錄中(&lt;a href=&#34;https://github.com/PiotrMachowski/Xiaomi-cloud-tokens-extractor&#34;&gt;GitHub&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;安裝需要的 python 相依性套件
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;pip install -r requirements.txt&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;br/&gt;
+&lt;p&gt;接著執行腳本提取燈泡的token，需要輸入&lt;strong&gt;米家app&lt;/strong&gt;的帳號密碼
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;python3 token_extractor.py&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;br/&gt;
+&lt;p&gt;輸入完帳號密碼後他會顯示&lt;code&gt;Server (one of: cn, de, us, ru, tw, sg, in, i2) Leave empty to check all available:&lt;/code&gt;問你伺服器，如果不知道就直接按Enter即可。&lt;/p&gt;
+&lt;p&gt;如果有成功提取 token 會出現類似下面的文字，把 token 和 ip 記下來！(圖中我遮掉了)
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/hass-connect-xiaomi-smartbulb/getToken.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/hass-connect-xiaomi-smartbulb/getToken.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;打開開發者模式&#34;&gt;打開開發者模式&lt;/h2&gt;
+&lt;p&gt;接下來要下命令給燈泡開啟開發者模式，首先先安裝套件
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;pip install pycrypto
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;pip install python-miio&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;有趣是我安裝&lt;code&gt;pycrypto&lt;/code&gt;其實是失敗的，但我還是可以用(? XD&lt;/p&gt;
+&lt;br/&gt;
+&lt;p&gt;安裝好後在終端機中輸入，將 &lt;code&gt;IP_OF_DEVICE&lt;/code&gt; 改成燈泡 IP，&lt;code&gt;TOKEN_OF_DEVICE&lt;/code&gt;改成剛剛記下來的燈泡 token。
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;miiocli yeelight --ip IP_OF_DEVICE --token TOKEN_OF_DEVICE set_developer_mode &lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;br/&gt;
+&lt;p&gt;若他回應類似下面的文字就是成功了!&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Setting developer mode to True
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ok
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;接下來再回到 Home Assistant 他應該就會自己找到燈泡，如果沒有的話再去 intergrations 那邊新增 yeelight 讓他搜尋就會找到了！&lt;/p&gt;
+&lt;br/&gt;
+&lt;p&gt;參考資料&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/PiotrMachowski/Xiaomi-cloud-tokens-extractor&#34;&gt;https://github.com/PiotrMachowski/Xiaomi-cloud-tokens-extractor&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://community.home-assistant.io/t/integrate-mi-smart-led-bulb-easy-steps/312174&#34;&gt;https://community.home-assistant.io/t/integrate-mi-smart-led-bulb-easy-steps/312174&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.home-assistant.io/integrations/yeelight/&#34;&gt;https://www.home-assistant.io/integrations/yeelight/&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+      
     </item>
+    
     <item>
       <title>架設家用伺服器 PART 3 — 設定系統</title>
-      <link>https://oxygentw.net/blog/computer/homeserver/3-system-setting/</link>
+      <link>http://localhost:1313/blog/computer/homeserver/3-system-setting/</link>
       <pubDate>Mon, 18 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://oxygentw.net/blog/computer/homeserver/3-system-setting/</guid>
-      <description>進行 dietpi-config 設定 成功進入系統只是第一步，經過上一部自動引導你進行 dietpi-update 作業系統的升級後我們確定伺服器系統都已經最新，但升級後我們仍要進行 dietpi-config 把系統設定成</description>
+      
+      <guid>http://localhost:1313/blog/computer/homeserver/3-system-setting/</guid>
+      
+        <description>&lt;br/&gt;
+&lt;h2 id=&#34;進行-dietpi-config-設定&#34;&gt;進行 dietpi-config 設定&lt;/h2&gt;
+&lt;p&gt;成功進入系統只是第一步，經過上一部自動引導你進行 dietpi-update 作業系統的升級後我們確定伺服器系統都已經最新，但升級後我們仍要進行 dietpi-config 把系統設定成符合自己需求。&lt;/p&gt;
+&lt;p&gt;選擇 DietPi-Config 進入設定頁面&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/post/homeserver/3-system-setting/2018-03-04-1.png&#34; alt=&#34;進行 dietpi-config 設定&#34;&gt;&lt;/p&gt;
+&lt;br/&gt;
+&lt;p&gt;進入這個畫面，我們分別對以下進行設定，我以我個人的需求示範，若你有其他需求務必自行修改，不要盲目照抄我的設定，改壞了頂多重灌，不會把機器弄壞的。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/post/homeserver/3-system-setting/2018-03-04-8.png&#34; alt=&#34;進行 dietpi-config 設定&#34;&gt;&lt;/p&gt;
+&lt;br/&gt;
+&lt;p&gt;記憶體分配
+Display Options -&amp;gt; GPU/RAM Memory Split -&amp;gt;  Server 16 MB GPU | 1008 MB RAM&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/post/homeserver/3-system-setting/2018-03-02.png&#34; alt=&#34;記憶體分配&#34;&gt;&lt;/p&gt;
+&lt;br/&gt;
+&lt;p&gt;超頻設定
+Performance Options -&amp;gt; Overclocking -&amp;gt; none 1200 MHz ARM&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/post/homeserver/3-system-setting/2018-03-04-5.png&#34; alt=&#34;超頻設定&#34;&gt;&lt;/p&gt;
+&lt;br/&gt;
+&lt;p&gt;CPU 分配
+Performance Options -&amp;gt; CPU Throttle Up -&amp;gt; 85&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/post/homeserver/3-system-setting/2018-03-04-6.png&#34; alt=&#34;CPU 分配&#34;&gt;&lt;/p&gt;
+&lt;br/&gt;
+&lt;p&gt;系統語系
+Language/Regional Options -&amp;gt; Locale -&amp;gt;  en_US.UTF-8&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/post/homeserver/3-system-setting/2018-03-04-10.png&#34; alt=&#34;系統語系&#34;&gt;&lt;/p&gt;
+&lt;br/&gt;
+&lt;p&gt;系統時區
+Language/Regional Options -&amp;gt; Timezone -&amp;gt; Asia -&amp;gt; Taipei&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/post/homeserver/3-system-setting/2018-03-04-11.png&#34; alt=&#34;系統時區&#34;&gt;&lt;/p&gt;
+&lt;br/&gt;
+&lt;p&gt;Root 密碼
+Security Options -&amp;gt;  Change Root Password -&amp;gt; 新的Root密碼&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/post/homeserver/3-system-setting/2018-03-04-12.png&#34; alt=&#34;Root 密碼&#34;&gt;&lt;/p&gt;
+&lt;br/&gt;
+&lt;p&gt;主機名稱
+Security Options -&amp;gt;  Change Hostname -&amp;gt; 新主機名稱&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/post/homeserver/3-system-setting/2018-03-04-13.png&#34; alt=&#34;主機名稱&#34;&gt;&lt;/p&gt;
+&lt;br/&gt;
+&lt;p&gt;網路設定
+Network Options: Adapters -&amp;gt; 參考進階網路設定&lt;/p&gt;
+&lt;br/&gt;
+&lt;p&gt;NTP 伺服器設定
+Network Options: Misc -&amp;gt;   NTP Mirror -&amp;gt; asia.pool.ntp.org
+或設定成中華電信研究所時間與頻率國家標準實驗室的 NTP 伺服器
+Network Options: Misc -&amp;gt;   NTP Mirror -&amp;gt; Custom -&amp;gt; time.stdtime.gov.tw&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/post/homeserver/3-system-setting/ntp.png&#34; alt=&#34;NTP 伺服器設定&#34;&gt;&lt;/p&gt;
+&lt;br/&gt;
+&lt;p&gt;ATP 鏡像站設定到國網中心。
+Network Options: Misc -&amp;gt;   ATP Mirror -&amp;gt; Custom -&amp;gt; &lt;a href=&#34;http://free.nchc.org.tw/raspbian/raspbian/&#34;&gt;http://free.nchc.org.tw/raspbian/raspbian/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/post/homeserver/3-system-setting/2018-03-04-14.png&#34; alt=&#34;ATP 鏡像站設定&#34;&gt;&lt;/p&gt;
+&lt;p&gt;接著離開 &lt;code&gt;DietPi-Config&lt;/code&gt;，系統會要求重新開機，重新開機後系統設定就完成了。&lt;/p&gt;
+&lt;p&gt;下一步 -&amp;gt; &lt;a href=&#34;https://oxygentw.net/blog/computer/homeserver/4-dietpi-software/&#34;&gt;DietPi-Software 軟體安裝&lt;/a&gt;&lt;/p&gt;
+</description>
+      
     </item>
+    
     <item>
       <title>架設家用伺服器 PART 2 — 初始設定</title>
-      <link>https://oxygentw.net/blog/computer/homeserver/2-init-setting/</link>
+      <link>http://localhost:1313/blog/computer/homeserver/2-init-setting/</link>
       <pubDate>Sat, 16 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://oxygentw.net/blog/computer/homeserver/2-init-setting/</guid>
-      <description>DietPi 有預裝 Dropbear SSH Server，機器安裝好系統開機後即可透過 SSH 連入伺服器。 預設 IP 是 192.168.0.100，也可以接上螢幕透過螢幕來設定，我們使</description>
+      
+      <guid>http://localhost:1313/blog/computer/homeserver/2-init-setting/</guid>
+      
+        <description>&lt;p&gt;DietPi 有預裝 Dropbear SSH Server，機器安裝好系統開機後即可透過 SSH 連入伺服器。 &lt;br&gt;
+預設 IP 是 &lt;code&gt;192.168.0.100&lt;/code&gt;，也可以接上螢幕透過螢幕來設定，我們使用 &lt;a href=&#34;https://www.fosshub.com/KiTTY.html&#34; target=&#34;_blank&#34;&gt;KITTY&lt;/a&gt; 來做 SSH 操作。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;透過-ssh-連線&#34;&gt;透過 SSH 連線&lt;/h2&gt;
+&lt;p&gt;在 Host Name 的地方輸入主機位置，Port 輸入 SSH 連接埠號(預設22)，就可以建立連線，連進去後會被詢問帳號密碼。&lt;/p&gt;
+&lt;p&gt;預設帳號：&lt;code&gt;root&lt;/code&gt; &lt;br&gt;
+預設密碼：&lt;code&gt;dietpi&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/post/homeserver/3-system-setting/2018-03-04-7.png&#34; alt=&#34;透過 SSH 連線&#34;&gt;&lt;/p&gt;
+&lt;br/&gt;
+&lt;p&gt;第一次進入會顯示作業系統著作權宣告，按OK就好
+&lt;img src=&#34;http://localhost:1313/img/post/homeserver/2-init-setting/2019-02-16.png&#34; alt=&#34;著作權宣告&#34;&gt;&lt;/p&gt;
+&lt;br/&gt;
+&lt;p&gt;&lt;span id=&#34;setpasswd&#34;&gt;&lt;/span&gt;
+開機後系統會自動引導你進行初始設定，跳出這個視窗詢問你是否要幫 dietpi-software 設定一組新密碼，這組密碼會被用在安裝軟體時的新使用者和 web 服務( database 之類的)的登入密碼。&lt;/p&gt;
+&lt;p&gt;![設定dietpi密碼](/img/post/homeserver/2-init-setting/2019-02-16 (1).png)&lt;/p&gt;
+&lt;br/&gt;
+&lt;p&gt;選擇 OK 後進入設定頁面，他會要求輸入兩次避免輸錯&lt;/p&gt;
+&lt;p&gt;![輸入密碼](/img/post/homeserver/2-init-setting/2019-02-16 (2).png)&lt;/p&gt;
+&lt;br/&gt;
+&lt;p&gt;再來系統詢問是否要更改 roo t和 dietpi 這兩個帳號的密碼，&lt;strong&gt;當然要啊!!!! root用預設密碼是找死啊。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;![重設root密碼](/img/post/homeserver/2-init-setting/2019-02-16 (3).png)&lt;/p&gt;
+&lt;br/&gt;
+&lt;p&gt;設定頁面，同樣要輸入兩次
+![輸入密碼](/img/post/homeserver/2-init-setting/2019-02-16 (4).png)&lt;/p&gt;
+&lt;br/&gt;
+&lt;p&gt;設定成功後如果有連上網路系統會自動執行套件更新，等他更新完會要求重新開機。&lt;br&gt;
+如果你在這步驟還沒有連上網的話，讓他連上!!!&lt;/p&gt;
+&lt;p&gt;![重新啟動](/img/post/homeserver/2-init-setting/2019-02-16 (5).png)&lt;/p&gt;
+&lt;br/&gt;
+&lt;p&gt;重新開機後系統會自動執行 dietpi-update 這是這個作業系統的更新工具，並問你是否願意傳送匿名資料給開發者參考。 &lt;br&gt;
+願意選 Opt IN，不願意選 Opt OUT。&lt;/p&gt;
+&lt;p&gt;![傳送統計](/img/post/homeserver/2-init-setting/2019-02-16 (6).png)&lt;/p&gt;
+&lt;br/&gt;
+&lt;p&gt;系統更新完後又是重新開機
+![重新啟動](/img/post/homeserver/2-init-setting/2019-02-16 (7).png)&lt;/p&gt;
+&lt;br/&gt;
+&lt;p&gt;重新開機後&lt;strong&gt;有可能&lt;/strong&gt;會需要再做一次前面&lt;a href=&#34;http://localhost:1313/blog/computer/homeserver/2-init-setting/#setpasswd&#34;&gt;設定密碼&lt;/a&gt;的動作，因為系統被更新檔案被重設了，有點麻煩，但還是照做吧！&lt;/p&gt;
+&lt;p&gt;終於，我們進入正式 dietpi-software 了，不過再安裝軟體前，我們得先做系統設定。
+![dietpi-software](/img/post/homeserver/2-init-setting/2019-02-16 (8).png)&lt;/p&gt;
+&lt;p&gt;選擇清單中 DietPi-Config 這個選項，進入下個步驟 -&amp;gt; &lt;a href=&#34;https://oxygentw.net/blog/computer/homeserver/3-system-setting/&#34;&gt;系統設定&lt;/a&gt;&lt;/p&gt;
+&lt;br/&gt;
+&lt;hr&gt;
+&lt;p&gt;Picture source: &lt;a href=&#34;https://www.flickr.com/photos/yusamoilov/13334080323&#34;&gt;https://www.flickr.com/photos/yusamoilov/13334080323&lt;/a&gt;&lt;/p&gt;
+</description>
+      
     </item>
+    
     <item>
       <title>架設家用伺服器 PART 0 — 準備硬體</title>
-      <link>https://oxygentw.net/blog/computer/homeserver/0-prepare-hardware/</link>
+      <link>http://localhost:1313/blog/computer/homeserver/0-prepare-hardware/</link>
       <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://oxygentw.net/blog/computer/homeserver/0-prepare-hardware/</guid>
-      <description>樹苺派是一款微電腦，話雖如此，他也擁有一般 Linux 電腦的所有功能，只是性能較差一點，因此用他來架設流量不會太大的家用伺服器，畢竟只有家人會用到而已</description>
+      
+      <guid>http://localhost:1313/blog/computer/homeserver/0-prepare-hardware/</guid>
+      
+        <description>&lt;p&gt;樹苺派是一款微電腦，話雖如此，他也擁有一般 Linux 電腦的所有功能，只是性能較差一點，因此用他來架設流量不會太大的家用伺服器，畢竟只有家人會用到而已嘛，用樹苺派有以下優點&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;沒有風扇，靜音&lt;/li&gt;
+&lt;li&gt;低耗電量&lt;/li&gt;
+&lt;li&gt;機體小巧&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;說缺點當然也是有&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;運算能力較差&lt;/li&gt;
+&lt;li&gt;不能承受大流量&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;那廢話不多說，我們從買材料開始吧！&lt;/p&gt;
+&lt;h2 id=&#34;必須準備的物品&#34;&gt;必須準備的物品&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Raspberry Pi 2 / 3 約1495元&lt;/li&gt;
+&lt;li&gt;micro SD 容量 8GB以上，速度 Class 10 / UHS 1 以上 約300元&lt;/li&gt;
+&lt;li&gt;2A/5V 電源供應器 約100元&lt;/li&gt;
+&lt;li&gt;micro USB cable 約100元&lt;/li&gt;
+&lt;li&gt;網路線 約30元&lt;/li&gt;
+&lt;li&gt;HDMI 連接線 約200元&lt;/li&gt;
+&lt;li&gt;一台螢幕&lt;/li&gt;
+&lt;/ol&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;可選擇的物品&#34;&gt;可選擇的物品&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;VGA 轉 HDMI線 約250元&lt;/li&gt;
+&lt;li&gt;Wi-Fi 網卡(RPi 則免) 約250元&lt;/li&gt;
+&lt;li&gt;Raspberry Pi 保護殼 約100元&lt;/li&gt;
+&lt;li&gt;Raspberry Pi 專用散熱片 約15元(通常買樹苺派會送)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;一切都準備好後就可以進入下一步囉 -&amp;gt; &lt;a href=&#34;https://oxygentw.net/blog/computer/homeserver/1-home-server-install-os/&#34;&gt;安裝系統&lt;/a&gt;&lt;/p&gt;
+&lt;br/&gt;
+&lt;hr&gt;
+&lt;p&gt;Picture source: &lt;a href=&#34;https://www.maxpixel.net/Technology-Tech-Raspberry-Pi-Device-Electronic-3676379&#34;&gt;https://www.maxpixel.net/Technology-Tech-Raspberry-Pi-Device-Electronic-3676379&lt;/a&gt;&lt;/p&gt;
+</description>
+      
     </item>
+    
     <item>
       <title>架設家用伺服器 Part 1 — 安裝系統</title>
-      <link>https://oxygentw.net/blog/computer/homeserver/1-home-server-install-os/</link>
+      <link>http://localhost:1313/blog/computer/homeserver/1-home-server-install-os/</link>
       <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://oxygentw.net/blog/computer/homeserver/1-home-server-install-os/</guid>
-      <description>有了所有需要的硬體材料後，就像組電腦一樣，第一步要進行的就是安裝作業系統，沒有系統就不能開機了啊！ 我們開始吧！ STEP 1 : 下載必要軟體 SD Card formatter 用來格</description>
+      
+      <guid>http://localhost:1313/blog/computer/homeserver/1-home-server-install-os/</guid>
+      
+        <description>&lt;p&gt;有了所有需要的硬體材料後，就像組電腦一樣，第一步要進行的就是安裝作業系統，沒有系統就不能開機了啊！&lt;/p&gt;
+&lt;p&gt;我們開始吧！&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;step-1--下載必要軟體&#34;&gt;STEP 1 : 下載必要軟體&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.sdcard.org/cht/downloads/formatter_4/&#34; target=&#34;_blank&#34;&gt;SD Card formatter&lt;/a&gt; 用來格式化記憶卡的工具&lt;/li&gt;
+&lt;li&gt;&lt;a title=&#34;Download USB Image Tool&#34; href=&#34;http://www.alexpage.de/usb-image-tool/download/&#34; target=&#34;_blank&#34;&gt;USB Image Tool &lt;/a&gt; 燒錄映像檔到記憶卡的工具&lt;/li&gt;
+&lt;/ol&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;step-2--下載映像檔&#34;&gt;STEP 2 : 下載映像檔&lt;/h2&gt;
+&lt;p&gt;我採用 &lt;a href=&#34;https://dietpi.com/&#34; target=&#34;_blank&#34;&gt;DietPi&lt;/a&gt; 輕量化系統，預設沒有 GUI ，它是基於 &lt;a href=&#34;https://www.raspberrypi.org/downloads/&#34; target=&#34;_blank&#34;&gt;Raspbian&lt;/a&gt; 優化和輕量化，並加入許多好用工具程式的作業系統，如果不喜歡也可以換成自己想要的，可以參考這個網頁 &lt;a href=&#34;http://blog.itist.tw/2016/12/34-best-operating-systems-for-raspberry-pi.html&#34; target=&#34;_blank&#34;&gt;Raspberry Pi 的基礎 - 40 套作業系統任你選&lt;/a&gt; 。&lt;/p&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;step-3--格式化記憶卡&#34;&gt;STEP 3 : 格式化記憶卡&lt;/h2&gt;
+&lt;p&gt;打開 SD Formatter ，並確定記憶卡的磁碟編號，&lt;span style=&#34;color: #ff0000;&#34;&gt;萬萬要仔細確認 !!!!!! 如果不小心格式化到其他裝置資料會全部消失&lt;span style=&#34;color: #000000;&#34;&gt;，選項設定最好是選擇&lt;span style=&#34;color: #808000;&#34;&gt;覆寫格式化&lt;/span&gt;，那樣清的最乾淨，不過經過我多次測試&lt;span style=&#34;color: #808000;&#34;&gt;快速格式化&lt;/span&gt;也沒問題，速度會快很多，&lt;span style=&#34;color: #808000;&#34;&gt;邏輯大小調整&lt;/span&gt;選擇 (ON)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/post/homeserver/1-home-server-install-os/2017-09-11-4.png&#34; alt=&#34;格式化記憶卡&#34;&gt;&lt;/p&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;step-4--燒錄映像檔&#34;&gt;STEP 4 : 燒錄映像檔&lt;/h2&gt;
+&lt;p&gt;&lt;span style=&#34;color: #ff0000;&#34;&gt;這也要仔細檢查磁區編號，燒錯地方也是檔案全部毀損&amp;hellip;.&lt;span style=&#34;color: #000000;&#34;&gt; 選擇要燒錄的記憶卡，按 restore 並選擇剛剛下載的映像檔，他就會自己開始把系統燒錄至記憶卡了。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/post/homeserver/1-home-server-install-os/2017-09-11-5.png&#34; alt=&#34;燒錄映像檔&#34;&gt;&lt;/p&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;step-5--設定-configtxt&#34;&gt;STEP 5 : 設定 config.txt&lt;/h2&gt;
+&lt;p&gt;其實燒錄完成後就可以啟動系統了，但如果你是用 HDMI 轉 VGA 的方式連接螢幕可能會有開機沒畫面的現象，解決方法很簡單，只需要把SD卡插進電腦，找到一個叫 config.txt 的檔案，用記事本打開後搜尋以下參數，並修改成下列的設定！&lt;/p&gt;
+&lt;p&gt;hdmi_group=2 &lt;br&gt;
+hdmi_mode=16 &lt;br&gt;
+hdmi_drive=2&lt;/p&gt;
+&lt;p&gt;hdmi_force_hotplug=1 &lt;br&gt;
+config_hdmi_boost=4&lt;/p&gt;
+&lt;br/&gt;
+&lt;p&gt;如果要設定連接 Wi-Fi，那再開啟 dietpi.txt，修改以下組態&lt;/p&gt;
+&lt;p&gt;AUTO_SETUP_NET_WIFI_ENABLED=1&lt;/p&gt;
+&lt;p&gt;AUTO_SETUP_NET_WIFI_SSID=&lt;span style=&#34;color: #0000ff;&#34;&gt;YOUR_SSID&lt;/span&gt;  &lt;br&gt;
+AUTO_SETUP_NET_WIFI_KEY=&lt;span style=&#34;color: #0000ff;&#34;&gt;YOUR_PASSWORD&lt;/span&gt;&lt;/p&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;step-6--啟動系統&#34;&gt;STEP 6 : 啟動系統&lt;/h2&gt;
+&lt;p&gt;把記憶卡插進樹莓派的記憶卡插槽，接上螢幕、電源，就完成系統安裝囉！&lt;/p&gt;
+&lt;p&gt;接著我們來進行系統設定 -&amp;gt; &lt;a href=&#34;https://oxygentw.net/blog/computer/homeserver/2-init-setting/&#34;&gt;初始設定&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;參考資料 : 
+&lt;a href=&#34;http://www.arthurtoday.com/2014/05/raspberry-pi-hdmi-to-vga-how-to.html&#34;&gt;http://www.arthurtoday.com/2014/05/raspberry-pi-hdmi-to-vga-how-to.html&lt;/a&gt;
+&lt;a href=&#34;https://www.flickr.com/photos/christiaancolen/21133467186&#34;&gt;https://www.flickr.com/photos/christiaancolen/21133467186&lt;/a&gt;&lt;/p&gt;
+</description>
+      
     </item>
+    
   </channel>
 </rss>

@@ -26,7 +26,8 @@
 <meta name="mobile-web-app-capable" content="yes">
 
 <meta name="author" content="oxygen" />
-  <meta name="description" content="今天在處理轉移主機 SSL 的問題，重新申請憑證後我用 Why No Padlock? 來檢查憑證是否正確安裝，我發現有一項 Force HTTPS 檢查未通過，於是照著他的指示修改檔，讓使用者以後" />
+  <meta name="description" content="今天在處理轉移主機 SSL 的問題，重新申請憑證後我用 Why No Padlock? 來檢查憑證是否正確安裝，我發現有一項 Force HTTPS 檢查未通過，於是照著他的指示修改檔，讓使用者以後如果使用 HTTP 訪問我的 Apache 網頁伺服器會強制轉成由 HTTPS 訪問。
+" />
 
 
 
@@ -34,7 +35,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.131.0" />
+<meta name="generator" content="Hugo 0.148.0" />
 
 
 <link rel="canonical" href="https://oxygentw.net/blog/computer/apache-server-force-https/" />
@@ -55,7 +56,7 @@
 
 
 
-<link rel="stylesheet" href="/sass/jane.min.b495b9d81714f85c2c181722869d38324395662be76faebf5a6e36f1b996d1d0.css" integrity="" media="screen" crossorigin="anonymous">
+<link rel="stylesheet" href="/sass/jane.min.2d2189efee6cec3ea8e6d6a81b2cfbca060635e152dca5d5ce35bfb8b4226ead.css" integrity="" media="screen" crossorigin="anonymous">
 
 
 
@@ -64,7 +65,7 @@
 <meta property="og:url" content="https://oxygentw.net/blog/computer/apache-server-force-https/">
   <meta property="og:site_name" content="氧氣橘子">
   <meta property="og:title" content="網頁伺服器強制使用 HTTPS 安全連線">
-  <meta property="og:description" content="今天在處理轉移主機 SSL 的問題，重新申請憑證後我用 Why No Padlock? 來檢查憑證是否正確安裝，我發現有一項 Force HTTPS 檢查未通過，於是照著他的指示修改檔，讓使用者以後">
+  <meta property="og:description" content="今天在處理轉移主機 SSL 的問題，重新申請憑證後我用 Why No Padlock? 來檢查憑證是否正確安裝，我發現有一項 Force HTTPS 檢查未通過，於是照著他的指示修改檔，讓使用者以後如果使用 HTTP 訪問我的 Apache 網頁伺服器會強制轉成由 HTTPS 訪問。">
   <meta property="og:locale" content="zh_tw">
   <meta property="og:type" content="article">
     <meta property="article:section" content="blog">
@@ -72,14 +73,14 @@
     <meta property="article:modified_time" content="2018-08-01T00:00:00+00:00">
 
   <meta itemprop="name" content="網頁伺服器強制使用 HTTPS 安全連線">
-  <meta itemprop="description" content="今天在處理轉移主機 SSL 的問題，重新申請憑證後我用 Why No Padlock? 來檢查憑證是否正確安裝，我發現有一項 Force HTTPS 檢查未通過，於是照著他的指示修改檔，讓使用者以後">
+  <meta itemprop="description" content="今天在處理轉移主機 SSL 的問題，重新申請憑證後我用 Why No Padlock? 來檢查憑證是否正確安裝，我發現有一項 Force HTTPS 檢查未通過，於是照著他的指示修改檔，讓使用者以後如果使用 HTTP 訪問我的 Apache 網頁伺服器會強制轉成由 HTTPS 訪問。">
   <meta itemprop="datePublished" content="2018-08-01T00:00:00+00:00">
   <meta itemprop="dateModified" content="2018-08-01T00:00:00+00:00">
   <meta itemprop="wordCount" content="167">
-  <meta itemprop="keywords" content="Computer">
+  <meta itemprop="keywords" content="Oxygen">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="網頁伺服器強制使用 HTTPS 安全連線">
-  <meta name="twitter:description" content="今天在處理轉移主機 SSL 的問題，重新申請憑證後我用 Why No Padlock? 來檢查憑證是否正確安裝，我發現有一項 Force HTTPS 檢查未通過，於是照著他的指示修改檔，讓使用者以後">
+  <meta name="twitter:description" content="今天在處理轉移主機 SSL 的問題，重新申請憑證後我用 Why No Padlock? 來檢查憑證是否正確安裝，我發現有一項 Force HTTPS 檢查未通過，於是照著他的指示修改檔，讓使用者以後如果使用 HTTP 訪問我的 Apache 網頁伺服器會強制轉成由 HTTPS 訪問。">
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -91,8 +92,6 @@
 <![endif]-->
 
 
-  
-    
       <script async src="https://www.googletagmanager.com/gtag/js?id=4942793011"></script>
       <script>
         var doNotTrack = false;
@@ -107,10 +106,6 @@
           gtag('config', '4942793011');
         }
       </script>
-    
-  
-
-
 
 
 </head>
@@ -326,7 +321,6 @@
           2018-08-01
         </time>
         <div class="post-category">
-            <a href="https://oxygentw.net/categories/computer/"> computer </a>
             
           </div>
         <span class="more-meta"> 約 167 字 </span>
@@ -370,7 +364,7 @@
 <div class="post-copyright">
   <p class="copyright-item">
     <span class="item-title">文章作者</span>
-    <span class="item-content">oxygen</span>
+    <span class="item-content"><a href="https://oxygentw.net/author/oxygen/">oxygen</a></span>
   </p>
   <p class="copyright-item">
     <span class="item-title">上次更新</span>
@@ -382,7 +376,7 @@
   
   <p class="copyright-item">
     <span class="item-title">授權條款</span>
-    <span class="item-content">Copyright © 2017-2024 oxygen. All rights reserved.</span>
+    <span class="item-content">Copyright © 2017-2025 oxygen. All rights reserved.</span>
   </p>
 </div>
 
@@ -542,7 +536,7 @@
     &copy;
     
       2017 -
-    2024
+    2025
     <span class="heart">
       
       <i class="iconfont">

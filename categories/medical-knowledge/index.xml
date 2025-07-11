@@ -2,60 +2,691 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Medical-Knowledge on 氧氣橘子</title>
-    <link>https://oxygentw.net/categories/medical-knowledge/</link>
+    <link>http://localhost:1313/categories/medical-knowledge/</link>
     <description>Recent content in Medical-Knowledge on 氧氣橘子</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <lastBuildDate>Sat, 19 Jun 2021 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://oxygentw.net/categories/medical-knowledge/index.xml" rel="self" type="application/rss+xml" />
+    
+        <atom:link href="http://localhost:1313/categories/medical-knowledge/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>醫用真菌學常見學名整理表</title>
-      <link>https://oxygentw.net/blog/notes/scientific-name-of-medical-myology/</link>
+      <link>http://localhost:1313/blog/notes/scientific-name-of-medical-myology/</link>
       <pubDate>Sat, 19 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>https://oxygentw.net/blog/notes/scientific-name-of-medical-myology/</guid>
-      <description>管狀菌絲 - 接合菌綱 Zygomycetes 學名 中文名 Rhizopus spp. 根黴菌 Mucor 毛黴菌 Absidia spp. 犁頭黴菌 Syncephalastrum 共頭黴菌 Circinella spp. 卷黴菌 Cunninghamella 小克銀漢黴菌 暗色有隔菌絲 Dematiaceous 學名 中文名 Alternaria 鏈格孢黴菌 Stemphylium 匍根黴菌</description>
+      
+      <guid>http://localhost:1313/blog/notes/scientific-name-of-medical-myology/</guid>
+      
+        <description>&lt;h2 id=&#34;管狀菌絲---接合菌綱-zygomycetes&#34;&gt;管狀菌絲 - 接合菌綱 Zygomycetes&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;學名&lt;/th&gt;
+          &lt;th&gt;中文名&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Rhizopus spp.&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;根黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Mucor&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;毛黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Absidia spp.&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;犁頭黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Syncephalastrum&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;共頭黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Circinella spp.&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;卷黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Cunninghamella&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;小克銀漢黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;暗色有隔菌絲-dematiaceous&#34;&gt;暗色有隔菌絲 Dematiaceous&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;學名&lt;/th&gt;
+          &lt;th&gt;中文名&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Alternaria&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;鏈格孢黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Stemphylium&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;匍根黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Epicoccum&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;附球黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Curvularia&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;彎孢黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Helminthosporium&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;長蠕孢黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Cladosporium&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;芽枝黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Nigrospora&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;黑孢黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Aureobasidium pullulans&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;出芽短梗黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Cladosporium carrionii&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;卡氏芽枝黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Phialophora verrucosa&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;疣狀瓶黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Phialophora jeanselmei&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;甄氏瓶黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Fonsecaea pedrosoi&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;裴氏著色黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Fonsecaea compacta&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;緊密著色黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;透明有隔菌絲&#34;&gt;透明有隔菌絲&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;學名&lt;/th&gt;
+          &lt;th&gt;中文名&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Aspergillus spp.&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;麹菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;A.fumigatus&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;煙麹菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;A.flavus&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;黃麹菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;A.niger&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;黑麹菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Penicillium&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;青黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Paecilomyces&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;擬青黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Scopulariopsis&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;帚黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Cephalosporium&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;頭孢黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Trichoderma&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;木黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Gliocladium&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;黏帚黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Fusarium&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;鐮刀菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Chrysosporium&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;金孢子黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Sepedonium&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;瘤孢黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Petriellidium(Allescheria)&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;阿利葉足腫黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Microsporum&lt;/em&gt; spp.&lt;/td&gt;
+          &lt;td&gt;小芽孢癬菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;M. audouinii&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;奧杜盎氏小芽孢癬菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;M. canis&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;犬小芽孢癬菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;M. gypseum&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;石膏樣小芽孢癬菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Trichophyton spp.&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;毛癬菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;T. mentagrophytes&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;鬆毛癬菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;T. rubrum&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;紅色毛癬菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;T. tonsurans&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;斷髮毛癬菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;T. verrucosum&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;疣狀毛癬菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;T. schoenleinii&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;許蘭氏毛癬菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;T. violaceum&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;紫色毛癬菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Epidermophyton spp.&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;表皮癬菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;E. floccosum&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;絮狀表皮癬菌&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;雙形黴菌-dimorphic-molds&#34;&gt;雙形黴菌 Dimorphic Molds&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;學名&lt;/th&gt;
+          &lt;th&gt;中文名&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Blastomyces dermatitidis&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;皮炎芽生菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Histoplasma capsulatum&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;莢膜組織胞菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Coccidioides inmitis&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;粗球孢子菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Sporothrix schenckii&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;申克氏孢子絲菌&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;酵母菌與類酵母菌-yeast--yeast-like&#34;&gt;酵母菌與類酵母菌 Yeast / Yeast-like&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;學名&lt;/th&gt;
+          &lt;th&gt;中文名&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Candida spp.&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;念珠菌屬&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;C. albicans&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;白色念珠菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;C. tropicalis&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;熱帶念珠菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;C.parapsilosis&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;近平滑念珠菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;C.pseudotropicalis&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;偽熱帶念珠菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;C. krusei&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;克柔氏念珠菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;C. glabrata&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;光滑念珠菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;C. dubliniensis&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;都柏林念珠菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Geotrichum&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;地黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Trichosporon&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;絲孢酵母菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Cryptococcus&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;隱球菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Rhodotorula&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;紅酵母菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Torulopsis&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;球擬酵母菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Saccharomyces&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;麵包酵母菌&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;p&gt;真的&amp;hellip;.好多&amp;hellip;.&lt;/p&gt;
+</description>
+      
     </item>
+    
     <item>
       <title>[筆記] 單株抗體製備與應用</title>
-      <link>https://oxygentw.net/blog/notes/basic-mab-note/</link>
+      <link>http://localhost:1313/blog/notes/basic-mab-note/</link>
       <pubDate>Tue, 20 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>https://oxygentw.net/blog/notes/basic-mab-note/</guid>
-      <description>單株(Monoclonal)抗體在血清免疫與癌症治療上有很重要的應用，正常人體中產生的抗體為多株(Polyclonal)抗體，以因應各式各樣</description>
+      
+      <guid>http://localhost:1313/blog/notes/basic-mab-note/</guid>
+      
+        <description>&lt;p&gt;單株(Monoclonal)抗體在血清免疫與癌症治療上有很重要的應用，正常人體中產生的抗體為多株(Polyclonal)抗體，以因應各式各樣的入侵病原，但在臨床使用上因為太雜亂，應用有限，現在血清免疫檢驗的發展有很大一部分歸功於單株抗體的分離，1975年 Kohler 和 Milstein 成功融合B細胞與腫瘤細胞，創造出融合瘤，成功大量製備單株抗體。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;血清免疫檢驗中，沒有抗體不能解決的，如果有，那就加二級抗體。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h2 id=&#34;單株抗體製備&#34;&gt;單株抗體製備&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;合成 hapten-mimic&lt;/li&gt;
+&lt;li&gt;注入老鼠/兔子等生物體內產生免疫抗體&lt;/li&gt;
+&lt;li&gt;以融合瘤技術產生單株抗體&lt;/li&gt;
+&lt;li&gt;測試單株抗體的敏感度與專一性&lt;/li&gt;
+&lt;li&gt;複製單株抗體產生重組抗體&lt;/li&gt;
+&lt;li&gt;測試重組抗體的敏感度與專一性&lt;/li&gt;
+&lt;li&gt;決定重組抗體序列&lt;/li&gt;
+&lt;li&gt;重組抗體基因改造&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;融合瘤-hat-選殖技術&#34;&gt;融合瘤 HAT 選殖技術&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;B細胞具有產生抗體的能力，但是早期的B細胞存活時間很短&lt;/li&gt;
+&lt;li&gt;腫瘤細胞具有&amp;quot;不死化&amp;quot;的特性&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;製造出融合瘤(Hybridomas)，亦即將B細胞與腫瘤細胞融合，即可創造出&lt;strong&gt;可產生抗體也長期存活&lt;/strong&gt;的細胞。&lt;/p&gt;
+&lt;p&gt;首先，在腫瘤細胞的部分，將 Myeloma cells 以 8-Azaguanine 處理，創造出 Myeloma cells 缺乏HGPRT(Hypoxanthine-guanine phosphoribosyltransferase)，B細胞的部分則是將半抗原注射進老鼠體內，使其免疫系統產生對應抗體的B細胞，再取出老鼠腹腔液或脾臟組織，以ELISA/Flow cytometery技術測定抗體效價。&lt;/p&gt;
+&lt;p&gt;有了兩種細胞，我們便可以利用 polyethylene glycol(PEG) 嘗試融合，我們不會知道融合是否有成功，因此要進行接下來的選殖。&lt;/p&gt;
+&lt;p&gt;Picture: &lt;em&gt;de nove pathway and salvage pathway&lt;/em&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/basic-mab-note/pathway.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/basic-mab-note/pathway.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;選殖使用的培養基為 HAT medium&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;H: Hypoxanthine&lt;/li&gt;
+&lt;li&gt;T: Thymidine&lt;/li&gt;
+&lt;li&gt;A: Aminopterin(葉酸抑制劑)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;葉酸抑制劑會阻斷細胞進行 de nove pathway，強迫其進行 salvage pathway，但是前述提到處理過的腫瘤細胞為HGPRT-，他不能進行salvage pathway，因此在HAT培養基上會死亡，即使是不死化的癌細胞，完全阻斷他的代謝路徑他還是會死的&amp;hellip;..&lt;/p&gt;
+&lt;p&gt;B細胞有進行salvage pathway的能力，當腫瘤細胞與B細胞融合後同時也會得到B細胞的代謝能力，可以在 HAT 培養基上存活。&lt;/p&gt;
+&lt;p&gt;那沒有融合的純B細胞呢? 他可以利用 HAT 培養基耶，他是不是也會活下來? &lt;strong&gt;不會&lt;/strong&gt;，純B細胞這東西呢，在體外你給他再多的東西，時間到了他就死了，而且那時間還很短。&lt;/p&gt;
+&lt;p&gt;綜合以上，會活下來的細胞就是有融合成功的細胞，這步驟就叫&lt;strong&gt;選殖&lt;/strong&gt;，只允許有我們想要的性狀的細胞存活，其他都會死亡，接下來要進行下一步。&lt;/p&gt;
+&lt;h2 id=&#34;確認抗體敏感度與專一性&#34;&gt;確認抗體敏感度與專一性&lt;/h2&gt;
+&lt;p&gt;到這邊我們可以得到能產生抗體又不死的融合瘤細胞，但是我們要進一步了解他到底產生的抗體是不是我們想要的，我們可以再將融合瘤細胞打進老鼠體內擴增，或是試管中細胞培養都可以，濃度擴增後再用 EIA 或Western blotting 篩選有我們想要的專一性抗體，最後再進行基因定序確定序列。&lt;/p&gt;
+&lt;h2 id=&#34;單株抗體技術演進與命名&#34;&gt;單株抗體技術演進與命名&lt;/h2&gt;
+&lt;p&gt;現在的單株抗體已經可以分為很多種，常見以下這幾種&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;100%老鼠抗體：Murine monoclonal Ab&lt;/li&gt;
+&lt;li&gt;30%老鼠+70%人類抗體：Chimeric(嵌合) monoclonal Ab&lt;/li&gt;
+&lt;li&gt;5-10%老鼠+90-95%人類抗體：Humanized(仿人類) monoclonal Ab&lt;/li&gt;
+&lt;li&gt;100%人類抗體：Human monoclonal Ab&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;各種單株抗體命名是有規則的，當初藥理學如果知道這套規則應該會好讀很多@@&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;結尾皆是&lt;code&gt;-mab&lt;/code&gt;，意即 monoclonal antibody&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-u-&lt;/code&gt;，表示為人類單株抗體&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-zu-&lt;/code&gt;，表示為仿人類單株抗體&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-xi-&lt;/code&gt;，表示嵌合單株抗體&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-o-&lt;/code&gt;，老鼠單株抗體&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-a-&lt;/code&gt;，大鼠單株抗體&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-e-&lt;/code&gt;，倉鼠單株抗體&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-i&lt;/code&gt;，靈長類單株抗體&lt;/li&gt;
+&lt;li&gt;etc&amp;hellip;..&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;其他包含作用位置&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;-tu(m)-&lt;/code&gt;：通用&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-ma(r)-&lt;/code&gt;: 乳房&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-pr(o)-&lt;/code&gt;: 前列腺&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-co(l)-&lt;/code&gt;: 大腸&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-ci(r)-&lt;/code&gt;: 循環系統&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;如 Beva&lt;strong&gt;ci&lt;/strong&gt;&lt;em&gt;zu&lt;/em&gt;mab，表示他是作用在循環系統的仿人類單株抗體。&lt;/p&gt;
+&lt;h2 id=&#34;單株抗體應用&#34;&gt;單株抗體應用&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;基礎研究&lt;/li&gt;
+&lt;li&gt;血清免疫檢驗&lt;/li&gt;
+&lt;li&gt;病理免疫染色&lt;/li&gt;
+&lt;li&gt;標靶抑制癌細胞&lt;/li&gt;
+&lt;li&gt;標靶誘導免疫系統摧毀癌細胞&lt;/li&gt;
+&lt;li&gt;活化T細胞&lt;/li&gt;
+&lt;li&gt;等等一大堆&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      
     </item>
+    
     <item>
       <title>簡易細菌鑑別流程圖</title>
-      <link>https://oxygentw.net/blog/notes/basicbacindentification/</link>
+      <link>http://localhost:1313/blog/notes/basicbacindentification/</link>
       <pubDate>Tue, 23 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>https://oxygentw.net/blog/notes/basicbacindentification/</guid>
-      <description>整理一下上課講義上的細菌判別總表，放在網路上給大家參考，邊學邊做，有錯拜託告知QQ 資料來源：林世傑教授講義 軟體：Xmind free version 💥PDF下載點</description>
+      
+      <guid>http://localhost:1313/blog/notes/basicbacindentification/</guid>
+      
+        <description>&lt;p&gt;整理一下上課講義上的細菌判別總表，放在網路上給大家參考，邊學邊做，有錯拜託告知QQ&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;資料來源：林世傑教授講義&lt;/li&gt;
+&lt;li&gt;軟體：Xmind free version&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;💥&lt;a href=&#34;https://oxygentw.net/files/BasicBacteriaIdentification.pdf&#34;&gt;PDF下載點&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;圖片預覽
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/basicbacindentification/1.PNG&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/basicbacindentification/1.PNG&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+</description>
+      
     </item>
+    
     <item>
       <title>關於檢驗科抽血</title>
-      <link>https://oxygentw.net/blog/notes/mls-venipuncture/</link>
+      <link>http://localhost:1313/blog/notes/mls-venipuncture/</link>
       <pubDate>Mon, 12 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>https://oxygentw.net/blog/notes/mls-venipuncture/</guid>
-      <description>靜脈穿刺採血，俗稱抽血，大家應該都有在醫院抽血的經驗，或是健康檢查需要抽血，人體的血液含有大量的資訊，醫學實驗室可以用各種檢驗方法取得各項指</description>
+      
+      <guid>http://localhost:1313/blog/notes/mls-venipuncture/</guid>
+      
+        <description>&lt;p&gt;靜脈穿刺採血，俗稱抽血，大家應該都有在醫院抽血的經驗，或是健康檢查需要抽血，人體的血液含有大量的資訊，醫學實驗室可以用各種檢驗方法取得各項指標，進行診斷、排除、追蹤、藥量控制等等後續醫療行為。&lt;/p&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/mls-venipuncture/venipuncture.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/mls-venipuncture/venipuncture.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;我稍微解釋些醫檢師在採集血液檢體時的抽血流程。&lt;/p&gt;
+&lt;h2 id=&#34;檢驗科門診抽血流程醫檢師&#34;&gt;檢驗科門診抽血流程(醫檢師)&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;收檢驗單，詢問病人身分並確認&lt;/li&gt;
+&lt;li&gt;依照檢驗單準備採血管&lt;/li&gt;
+&lt;li&gt;告知受檢者今天的採血計畫&lt;/li&gt;
+&lt;li&gt;組裝&lt;strong&gt;無菌安全針具&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;若是用空針採血，先行順針&lt;/li&gt;
+&lt;li&gt;於受檢者採檢部位上方約一個手掌的距離綁上止血帶&lt;/li&gt;
+&lt;li&gt;決定將穿刺的血管&lt;/li&gt;
+&lt;li&gt;酒精棉片&lt;strong&gt;用力來回&lt;/strong&gt;擦拭*&lt;/li&gt;
+&lt;li&gt;告知受檢者即將下針，深呼吸，避免受檢者驚嚇收手或暈厥&lt;/li&gt;
+&lt;li&gt;採檢完一管檢體，鬆開止血帶&lt;/li&gt;
+&lt;li&gt;採檢剩餘檢體，用鑷子準備棉球至下針處&lt;/li&gt;
+&lt;li&gt;抽針，棉球壓緊傷口&lt;/li&gt;
+&lt;li&gt;啟動針具安全機制&lt;/li&gt;
+&lt;li&gt;透氣膠帶固定受檢者棉球，並進行抽血後衛教&lt;/li&gt;
+&lt;li&gt;整理檢體，依照採血管廠商指示翻轉採血管&lt;/li&gt;
+&lt;li&gt;完成靜脈採血&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;*以前抽血消毒是用由內而外同心圓擦拭，&lt;a href=&#34;https://clsi.org/media/1372/gp41ed7_sample.pdf&#34;&gt;&lt;em&gt;CLSI GP41 2017&lt;/em&gt;&lt;/a&gt; 版本修改為用力來回擦拭&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;我還沒去實習&amp;hellip;但我先列出一些上課教到常見的抽血後問題與衛教給大家參考。&lt;/p&gt;
+&lt;h2 id=&#34;抽血後qa&#34;&gt;抽血後QA&lt;/h2&gt;
+&lt;h3 id=&#34;1-抽完血要壓多久&#34;&gt;1. 抽完血要壓多久？&lt;/h3&gt;
+&lt;p&gt;建議時間五分鐘以上，不再流血即可，剛抽完時要確實壓緊，不然可能會造成瘀血。&lt;/p&gt;
+&lt;p&gt;*實驗課被抽完很快就要去抽別人，所以都只壓一下下就上場了&amp;hellip;.&lt;/p&gt;
+&lt;h3 id=&#34;2-抽血會痛嗎&#34;&gt;2. 抽血會痛嗎？&lt;/h3&gt;
+&lt;p&gt;會痛，畢竟針刺到肉裡，但絕對不會是痛到你難以忍受的痛，如果你覺得痛到難以忍受或有痠麻的感覺須立刻告知醫檢師，可能針碰到神經導致輕微神經傷害。&lt;/p&gt;
+&lt;h3 id=&#34;3-抽血為甚麼要抽這麼多管&#34;&gt;3. 抽血為甚麼要抽這麼多管？&lt;/h3&gt;
+&lt;p&gt;每一種顏色的採血管內含特定的化學成分，以便後續不同的檢驗分析使用，有些檢驗需要用特定成分的採血管來採集血液，所以需要分數管採集。&lt;/p&gt;
+&lt;h3 id=&#34;4-抽血完要揉嗎&#34;&gt;4. 抽血完要揉嗎？&lt;/h3&gt;
+&lt;p&gt;拜託不要，壓緊就好，揉他會很容易導致皮下出血。&lt;/p&gt;
+&lt;h3 id=&#34;5-若抽血後瘀青了怎麼辦&#34;&gt;5. 若抽血後瘀青了怎麼辦？&lt;/h3&gt;
+&lt;p&gt;24小時內冰敷，之後改為熱敷，通常不去理會身體會自行吸收瘀青的血液。&lt;/p&gt;
+&lt;h3 id=&#34;第一次沒抽到血怎麼辦&#34;&gt;第一次沒抽到血怎麼辦？&lt;/h3&gt;
+&lt;p&gt;醫檢師利用觸摸與眼睛判斷血管走向及深度，無法百分百精準，每個人的手部構造並不相同，下針後也可能發生血管滑開而沒有成功穿刺，第一次抽血失敗後會換手再次抽血，若連續兩次失敗則視為困難抽血，會請其他醫檢師進行操作或是更換部位抽血(手背、腳跟上方)。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;2020/11/27 update&lt;/p&gt;
+&lt;h2 id=&#34;技術考流程&#34;&gt;技術考流程&lt;/h2&gt;
+&lt;p&gt;抽血技術考流程&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;洗手&lt;/li&gt;
+&lt;li&gt;戴手套&lt;/li&gt;
+&lt;li&gt;將棉球移到適當位置&lt;/li&gt;
+&lt;li&gt;準備適當長度3M Tape&lt;/li&gt;
+&lt;li&gt;綁Tourniquet&lt;/li&gt;
+&lt;li&gt;決定採血血管&lt;/li&gt;
+&lt;li&gt;鬆Tourniquet&lt;/li&gt;
+&lt;li&gt;組裝針具&lt;/li&gt;
+&lt;li&gt;綁Tourniquet&lt;/li&gt;
+&lt;li&gt;再次確認血管&lt;/li&gt;
+&lt;li&gt;酒精棉片消毒&lt;/li&gt;
+&lt;li&gt;告知病人、下針&lt;/li&gt;
+&lt;li&gt;採血&lt;/li&gt;
+&lt;li&gt;鬆Tourniquet&lt;/li&gt;
+&lt;li&gt;取出真空採血管&lt;/li&gt;
+&lt;li&gt;翻轉採血管&lt;/li&gt;
+&lt;li&gt;夾取棉球&lt;/li&gt;
+&lt;li&gt;抽針&lt;/li&gt;
+&lt;li&gt;啟動安全針具&lt;/li&gt;
+&lt;li&gt;壓緊並貼上3M Tape&lt;/li&gt;
+&lt;li&gt;拋棄針具、清理廢棄物&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+      
     </item>
+    
     <item>
       <title>聚合酶連鎖反應</title>
-      <link>https://oxygentw.net/blog/notes/pcr-introduction/</link>
+      <link>http://localhost:1313/blog/notes/pcr-introduction/</link>
       <pubDate>Sat, 08 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>https://oxygentw.net/blog/notes/pcr-introduction/</guid>
-      <description>什麼是 PCR? The Polymerase Chain Reaction(PCR) 中譯聚合酶連鎖反應，為生物科技中一個極度重要的革命性技術，操作難度不高，但應用面卻極為廣泛，在 1986 年由 Kary Banks Mullis 博士發明，1993</description>
+      
+      <guid>http://localhost:1313/blog/notes/pcr-introduction/</guid>
+      
+        <description>&lt;h2 id=&#34;什麼是-pcr&#34;&gt;什麼是 PCR?&lt;/h2&gt;
+&lt;p&gt;The Polymerase Chain Reaction(PCR) 中譯&lt;strong&gt;聚合酶連鎖反應&lt;/strong&gt;，為生物科技中一個極度重要的革命性技術，操作難度不高，但應用面卻極為廣泛，在 1986 年由 Kary Banks Mullis 博士發明，1993年他因這項技術獲得諾貝爾化學獎。 &lt;br&gt;
+PCR 主要的功能在放大基因序，把微小的 DNA 樣本(可小到 nanogram)複製非常多份，以便後續的分析與操作，例如從刑案現場採集到的微小 DNA，量不足以進行分析，就可以使用PCR放大成足夠的量來進行各項實驗。&lt;/p&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;pcr-所需材料&#34;&gt;PCR 所需材料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;DNA 模板(DNA template)&lt;/li&gt;
+&lt;li&gt;引子(Primers)&lt;/li&gt;
+&lt;li&gt;DNA 聚合酶(DNA polymerase)&lt;/li&gt;
+&lt;li&gt;去氧核糖核苷三磷酸(dNTP)&lt;/li&gt;
+&lt;li&gt;緩衝液(Buffer)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;pcr-原理&#34;&gt;PCR 原理&lt;/h2&gt;
+&lt;p&gt;在細胞中 DNA 複製流程大致如下，詳細可參考&lt;a href=&#34;http://biotech.nstm.gov.tw/LifeScienceConcept/SpiralC/Spiral04.htm&#34;&gt;DNA複製&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;DNA 解旋酶解開雙股螺旋&lt;/li&gt;
+&lt;li&gt;RNA 引子附著在 DNA 上&lt;/li&gt;
+&lt;li&gt;DNA 聚合酶接上 DNA 進行新股合成&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;現在我們將這個步驟移到試管中&lt;/p&gt;
+&lt;h3 id=&#34;1--denaturation-變性---9495--30-60-sec-&#34;&gt;1.  Denaturation 變性  [ 94~95℃ , 30-60 sec ]&lt;/h3&gt;
+&lt;p&gt;在細胞中是由DNA 解旋酶解開 DNA 的結構，在細胞外我們使用熱來破壞DNA的氫鍵，迫使他回到單股DNA的形態。&lt;/p&gt;
+&lt;br/&gt;
+&lt;h3 id=&#34;2-annealing-降溫接合--5060---30-60-sec-&#34;&gt;2. Annealing 降溫接合 [ 50~60℃  , 30-60 sec ]&lt;/h3&gt;
+&lt;p&gt;解開後我們加入 RNA 引子，把溫度降到50~60C讓引子能順利地與單股DNA形成氫鍵結，實際上的溫度依照引子的不同種核苷酸數目而定，由以下公式粗略計算。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;T&lt;sub&gt;m&lt;/sub&gt; = ( 4 x [ G+C ] + 2 x [ A+T ]) ℃&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;這個步驟非常重要，若溫度過低會導致引子與模板不正確的鍵結，溫度過高則引子無法和模板鍵結，通常會以較高的溫度慢慢往下降，因為若一開始溫度過低而錯誤鍵結就失敗了。&lt;/p&gt;
+&lt;br/&gt;
+&lt;h3 id=&#34;3-extension-延伸---72---30-60-sec-&#34;&gt;3. Extension 延伸  [ 72℃  , 30-60 sec ]&lt;/h3&gt;
+&lt;p&gt;加入 &lt;em&gt;taq&lt;/em&gt; polymerase，這是一種由 &lt;em&gt;Thermus aquaticus&lt;/em&gt; 耐熱菌株中提取出的 DNA 聚合酶，到94℃仍然不會永久失活，最高效率溫度在72℃，這時DNA聚合酶會從引子的地方進入，並由 3&amp;rsquo; 往 5&amp;rsquo; 開始 DNA 複製新股。&lt;/p&gt;
+&lt;br/&gt;
+&lt;h3 id=&#34;4-denaturation-ii--9495--30-60-sec-&#34;&gt;4. Denaturation II [ 94~95℃ , 30-60 sec ]&lt;/h3&gt;
+&lt;p&gt;第二循環的變性步驟溫度會再回到 94~95℃，這時上個循環合成的DNA新股會脫離變成獨立的新股，同時也成為下一循環的模板，完整PCR 流程約會循環 35 次，大約 2 小時。&lt;/p&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;pcr-的結束&#34;&gt;PCR 的結束&lt;/h2&gt;
+&lt;p&gt;PCR 是連鎖反應，但不代表他會永無止盡的進行下去，當下面兩項條件達成一項時 DNA 數目會停止增加趨於穩定&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;反應物消耗殆盡&lt;/li&gt;
+&lt;li&gt;DNA 聚合酶被破壞&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;最後的產物要拿去進行瓊脂電泳，確認複製出來的 DNA 片段是否為正確的片段。&lt;/p&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;設計引子&#34;&gt;設計引子&lt;/h2&gt;
+&lt;p&gt;引子的設計十分重要，兩端引子3&amp;rsquo;的包含區域暨是被大量複製的DNA序列區域，如果設計錯誤則會導致DNA複製跟著錯誤，也因此引子的特殊性很重要，我們要確保設計出來的引子只會和我們想要的序列區互補，而不會有其他可互補的地方，要做到這一點我們就得增加引子的核苷酸數量，越多特殊性就越高，不過這時問題來了，核苷酸越多越難合成，也會拖慢整個 PCR 過程的效率，那到底該用多少個核苷酸才適合呢?&lt;/p&gt;
+&lt;p&gt;人類的基因是所有生物中最多的，有 3x10&lt;sup&gt;9&lt;/sup&gt; bp，以簡單的機率估算，會有 1.2x10&lt;sup&gt;10&lt;/sup&gt; 種可能，假設今天我們用八個核甘酸來設計引子，會有 65536 種可能，這樣&lt;strong&gt;算出在人類所有基因可以和我們設計的引子序列互補的區塊&lt;/strong&gt;有 3x10&lt;sup&gt;9 / 65536 = 46000 個，如果引子和46000個地方互補了，這樣 PCR 還做得下去嗎?!&lt;/p&gt;
+&lt;p&gt;所以我們會使用17個以上的核苷酸來設計引子，通常取18~20個，因為 3x10&lt;sup&gt;9&lt;/sup&gt;  / 4&lt;sup&gt;17&lt;/sup&gt; &amp;laquo; 1，在這樣的情況下就能設計出&lt;strong&gt;能達到特殊性要求的最短引子。&lt;/strong&gt;&lt;/p&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;pcr-應用實例&#34;&gt;PCR 應用實例&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;診斷遺傳疾病&lt;/li&gt;
+&lt;li&gt;感染病原檢驗&lt;/li&gt;
+&lt;li&gt;基因複製&lt;/li&gt;
+&lt;li&gt;基因工程&lt;/li&gt;
+&lt;li&gt;親子鑑定&lt;/li&gt;
+&lt;li&gt;法醫鑑識&lt;/li&gt;
+&lt;li&gt;癌症篩檢&lt;/li&gt;
+&lt;li&gt;等等極廣的應用&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+##### 參考資料
+---
+賴雯玲教授 分子生物概論 2018/12/6</description>
+      
     </item>
+    
     <item>
       <title>醫事檢驗流程</title>
-      <link>https://oxygentw.net/blog/notes/medical-laboratory-operate-process/</link>
+      <link>http://localhost:1313/blog/notes/medical-laboratory-operate-process/</link>
       <pubDate>Wed, 28 Nov 2018 00:00:00 +0000</pubDate>
-      <guid>https://oxygentw.net/blog/notes/medical-laboratory-operate-process/</guid>
-      <description>大家應該都有在醫院做檢查的經驗，我們給醫院的檢體(尿液、血液、切片等等)大多不是醫師在檢驗，而是由檢驗科內專門的醫事檢驗師進行，醫師只會開立</description>
+      
+      <guid>http://localhost:1313/blog/notes/medical-laboratory-operate-process/</guid>
+      
+        <description>&lt;p&gt;大家應該都有在醫院做檢查的經驗，我們給醫院的檢體(尿液、血液、切片等等)大多不是醫師在檢驗，而是由檢驗科內專門的醫事檢驗師進行，醫師只會開立醫囑與檢驗單告訴醫檢師他希望做甚麼檢查來協助他診斷，就像醫師開立處方簽給藥師一樣，從醫師告訴你要去哪裡做檢查的那一刻起檢驗的流程就開始了，這個流程粗略可以分成下列幾步。&lt;/p&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;檢驗前&#34;&gt;檢驗前&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;醫師用 LIS(Laboratory Information System) 開立醫囑&lt;/li&gt;
+&lt;li&gt;採檢人員對病人採檢&lt;/li&gt;
+&lt;li&gt;將檢驗單與檢體送至醫學實驗室&lt;/li&gt;
+&lt;li&gt;檢驗科依照檢驗單醫囑收件&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;檢驗中&#34;&gt;檢驗中&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;由醫事檢驗師進行各項檢驗工作&lt;/li&gt;
+&lt;li&gt;確保檢驗品質與正確性&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;檢驗後&#34;&gt;檢驗後&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;醫事檢驗師檢查報告是否正確並簽署&lt;/li&gt;
+&lt;li&gt;由 LIS 傳輸 檢驗報告/臨危值通報 給醫師&lt;/li&gt;
+&lt;li&gt;保存檢體&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;一般實驗室標準是 &lt;code&gt;ISO 17025&lt;/code&gt;，醫學實驗室則是 &lt;code&gt;ISO 15189&lt;/code&gt;，在規範上更為嚴謹，是負責檢驗醫學的重要部門，一個看似簡單的健康檢查背後涉及到一整個流程與許多醫事人員的參與，一再的確認與品管，嚴格的自檢程序確保每一份報告送到醫師手上都是正確的，畢竟醫學實驗室送出去的數值若是錯誤可能會白白葬送一條無辜的生命。&lt;/p&gt;
+</description>
+      
     </item>
+    
     <item>
       <title>淺談邊緣型人格疾患</title>
-      <link>https://oxygentw.net/blog/notes/about-bpd/</link>
+      <link>http://localhost:1313/blog/notes/about-bpd/</link>
       <pubDate>Mon, 10 Sep 2018 00:00:00 +0000</pubDate>
-      <guid>https://oxygentw.net/blog/notes/about-bpd/</guid>
-      <description>常常會和別人說 &amp;ldquo;XXX是邊緣人&amp;rdquo;、&amp;ldquo;不想成為邊緣人&amp;rdquo; 之類的話，邊緣人已經成為家喻戶曉的名詞了</description>
+      
+      <guid>http://localhost:1313/blog/notes/about-bpd/</guid>
+      
+        <description>&lt;p&gt;常常會和別人說 &amp;ldquo;XXX是邊緣人&amp;rdquo;、&amp;ldquo;不想成為邊緣人&amp;rdquo; 之類的話，邊緣人已經成為家喻戶曉的名詞了，但你知道嗎? 在精神疾病診斷與統計手冊(DSM)中有實際收錄一個疾病叫 &amp;ldquo;邊緣型人格違常(Borderline Personality Disorder)&amp;quot;，不過這個疾病和我們熟知的邊緣人截然不同喔。&lt;/p&gt;
+&lt;p&gt;邊緣型人格違常屬於人格疾患，顧名思義是人格形成上出了點差錯，邊緣型人格違常主要會有以下狀況:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;無法忍受被人拋棄&lt;/li&gt;
+&lt;li&gt;極端思考，非黑即白&lt;/li&gt;
+&lt;li&gt;自我認同障礙，自信低下&lt;/li&gt;
+&lt;li&gt;自我傷害行為&lt;/li&gt;
+&lt;li&gt;以自殺、自殘行為脅迫他人&lt;/li&gt;
+&lt;li&gt;憂鬱情緒持續較長&lt;/li&gt;
+&lt;li&gt;害怕孤單、空虛感&lt;/li&gt;
+&lt;li&gt;難以控制憤怒&lt;/li&gt;
+&lt;li&gt;可能出現妄想或解離現象&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;邊緣型人格違常的成因目前理論認為是因為在童年時期與父母分離，產生分離焦慮而導致，一個人年幼時人格正在發展，但母親/主要照顧者不知道或是不能滿足幼兒的需求，甚至表現出不耐煩，冷漠的態度，在建築人格的過程中得不到母親給予的安全感而產生恐慌，甚至認為自己沒有資格得到照顧，失去依附對象，進而造成人格發展不全。&lt;/p&gt;
+&lt;p&gt;依照依附理論(attachment theory)可以將兒童分成四種依附關係，不正常的依附關係不只在一個人受照顧時才有影響，與未來戀愛的過程、社交過程都有很大的關係，可說是構成一個人面對人際互動不可或缺的一環。&lt;/p&gt;
+&lt;p&gt;邊緣型人格違常是嚴重的精神疾病，因其高不穩定性與傷害自我/他人的可能，許多精神科醫師甚至不願意治療邊緣型人格的病患，一部分是因為他們不確定能力是否足以治療此疾病，這是醫師對病人一種負責任的態度，但也因此這類病患相對較為無助，目前可以採用辯證行為療法、移情&amp;ndash;焦點療法及藥物輔助來治療，社會對此疾病的歧視與偏見也是造成患者痛苦的一大原因，他們缺乏愛與被愛的能力，渴望的是他們年幼時期得不到的照顧與親密，若社會普遍對他們冷嘲熱諷、故意疏離，只會使他們再次經歷過去的創傷，加重病情罷了。&lt;/p&gt;
+&lt;p&gt;對正常人而言，可能有一位患者令你害怕、覺得他不正常，但對人格疾患者而言，全世界都不正常，他要承受的痛苦絕對大得多。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;參考資料:
+高育仁(2014)。您也害怕孤獨嗎?解析邊緣性人格。新北市：心理出版社股份有限公司。
+&lt;a href=&#34;https://zh.wikipedia.org/wiki/%E4%BE%9D%E9%99%84%E7%90%86%E8%AB%96&#34;&gt;https://zh.wikipedia.org/wiki/%E4%BE%9D%E9%99%84%E7%90%86%E8%AB%96&lt;/a&gt;&lt;/p&gt;
+</description>
+      
     </item>
+    
   </channel>
 </rss>

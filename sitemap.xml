@@ -2,29 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://oxygentw.net/author/</loc>
+    <lastmod>2025-07-11T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://oxygentw.net/blog/</loc>
-    <lastmod>2024-08-03T00:00:00+00:00</lastmod>
+    <lastmod>2025-07-11T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://oxygentw.net/categories/</loc>
-    <lastmod>2024-08-03T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://oxygentw.net/categories/notes/</loc>
-    <lastmod>2024-08-03T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://oxygentw.net/categories/travel/</loc>
-    <lastmod>2024-08-03T00:00:00+00:00</lastmod>
+    <loc>https://oxygentw.net/author/oxygen/</loc>
+    <lastmod>2025-07-11T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -38,7 +31,7 @@
   
   <url>
     <loc>https://oxygentw.net/</loc>
-    <lastmod>2024-08-03T00:00:00+00:00</lastmod>
+    <lastmod>2025-07-11T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -51,15 +44,8 @@
   </url>
   
   <url>
-    <loc>https://oxygentw.net/categories/computer/</loc>
-    <lastmod>2023-11-19T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://oxygentw.net/blog/computer/nchc-taiwania-iii-note/</loc>
-    <lastmod>2023-11-19T00:00:00+00:00</lastmod>
+    <lastmod>2025-07-11T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -73,20 +59,6 @@
   
   <url>
     <loc>https://oxygentw.net/blog/computer/hass-connect-xiaomi-smartbulb/</loc>
-    <lastmod>2023-01-24T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://oxygentw.net/tags/home-server-series/</loc>
-    <lastmod>2023-01-24T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://oxygentw.net/tags/</loc>
     <lastmod>2023-01-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -123,13 +95,6 @@
   <url>
     <loc>https://oxygentw.net/blog/computer/new-mysql-user/</loc>
     <lastmod>2021-07-10T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://oxygentw.net/categories/medical-knowledge/</loc>
-    <lastmod>2021-06-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -205,20 +170,6 @@
   </url>
   
   <url>
-    <loc>https://oxygentw.net/tags/work-exchange/</loc>
-    <lastmod>2020-07-19T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://oxygentw.net/tags/%E6%89%93%E5%B7%A5%E6%8F%9B%E5%AE%BF/</loc>
-    <lastmod>2020-07-19T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://oxygentw.net/blog/travel/work-exchange-baggage/</loc>
     <lastmod>2020-07-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -226,28 +177,7 @@
   </url>
   
   <url>
-    <loc>https://oxygentw.net/tags/english/</loc>
-    <lastmod>2020-05-31T16:29:24+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://oxygentw.net/tags/preview/</loc>
-    <lastmod>2020-05-31T16:29:24+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://oxygentw.net/blog/computer/python-logging/</loc>
-    <lastmod>2020-05-31T16:29:24+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://oxygentw.net/tags/tag-2/</loc>
     <lastmod>2020-05-31T16:29:24+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -263,13 +193,6 @@
   <url>
     <loc>https://oxygentw.net/blog/computer/zuvio-auto/</loc>
     <lastmod>2020-05-09T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://oxygentw.net/categories/life-story/</loc>
-    <lastmod>2020-03-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -457,13 +380,6 @@
   </url>
   
   <url>
-    <loc>https://oxygentw.net/tags/chemical-notes/</loc>
-    <lastmod>2019-01-08T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://oxygentw.net/blog/notes/quantum-numbers/</loc>
     <lastmod>2019-01-08T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -485,22 +401,8 @@
   </url>
   
   <url>
-    <loc>https://oxygentw.net/tags/%E6%97%85%E8%A1%8C%E5%BF%83%E6%83%85%E6%9C%AD%E8%A8%98/</loc>
-    <lastmod>2018-12-07T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://oxygentw.net/blog/travel/the-1st-provincial-road/</loc>
     <lastmod>2018-12-07T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://oxygentw.net/tags/mls/</loc>
-    <lastmod>2018-11-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -632,22 +534,8 @@
   </url>
   
   <url>
-    <loc>https://oxygentw.net/tags/%E9%A3%9F%E8%AD%9C/</loc>
-    <lastmod>2018-02-07T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://oxygentw.net/blog/computer/allow-mysql-access-from-internet/</loc>
     <lastmod>2018-02-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://oxygentw.net/categories/poetry/</loc>
-    <lastmod>2017-12-30T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -709,13 +597,6 @@
   </url>
   
   <url>
-    <loc>https://oxygentw.net/categories/prose/</loc>
-    <lastmod>2017-07-17T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://oxygentw.net/blog/prose/about-suicide-depression/</loc>
     <lastmod>2017-07-17T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -772,6 +653,13 @@
   </url>
   
   <url>
+    <loc>https://oxygentw.net/author/george-jetson/</loc>
+    <lastmod>2017-06-22T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://oxygentw.net/series/</loc>
     <lastmod>2017-06-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -795,6 +683,12 @@
   <url>
     <loc>https://oxygentw.net/blog/computer/ubuntu-install-wordpress/</loc>
     <lastmod>2017-04-09T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://oxygentw.net/zh-tw/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

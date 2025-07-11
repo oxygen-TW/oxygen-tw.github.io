@@ -26,7 +26,8 @@
 <meta name="mobile-web-app-capable" content="yes">
 
 <meta name="author" content="oxygen" />
-  <meta name="description" content="MacOS 下會為每個資料夾跟檔案新增一個以._開頭的系統隱藏檔案，用來儲存使用者設定和一些系統需要的設定，但是移到其他作業系統時這些檔案完全沒有用!" />
+  <meta name="description" content="MacOS 下會為每個資料夾跟檔案新增一個以._開頭的系統隱藏檔案，用來儲存使用者設定和一些系統需要的設定，但是移到其他作業系統時這些檔案完全沒有用!!! 數量一多還是會占空間，而且看了不太舒爽XD 所以記錄一下上網爬文找到的刪除方法。
+" />
 <meta name="keywords" content="._ file, ._ mac, ._檔案刪除, Mac 隱藏檔案, rm 遞迴刪除" />
 
 
@@ -35,7 +36,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.131.0" />
+<meta name="generator" content="Hugo 0.148.0" />
 
 
 <link rel="canonical" href="https://oxygentw.net/blog/computer/remove-macos-hidden-file/" />
@@ -56,7 +57,7 @@
 
 
 
-<link rel="stylesheet" href="/sass/jane.min.b495b9d81714f85c2c181722869d38324395662be76faebf5a6e36f1b996d1d0.css" integrity="" media="screen" crossorigin="anonymous">
+<link rel="stylesheet" href="/sass/jane.min.2d2189efee6cec3ea8e6d6a81b2cfbca060635e152dca5d5ce35bfb8b4226ead.css" integrity="" media="screen" crossorigin="anonymous">
 
 
 
@@ -65,7 +66,7 @@
 <meta property="og:url" content="https://oxygentw.net/blog/computer/remove-macos-hidden-file/">
   <meta property="og:site_name" content="氧氣橘子">
   <meta property="og:title" content="Remove Macos Hidden File">
-  <meta property="og:description" content="MacOS 下會為每個資料夾跟檔案新增一個以._開頭的系統隱藏檔案，用來儲存使用者設定和一些系統需要的設定，但是移到其他作業系統時這些檔案完全沒有用!">
+  <meta property="og:description" content="MacOS 下會為每個資料夾跟檔案新增一個以._開頭的系統隱藏檔案，用來儲存使用者設定和一些系統需要的設定，但是移到其他作業系統時這些檔案完全沒有用!!! 數量一多還是會占空間，而且看了不太舒爽XD 所以記錄一下上網爬文找到的刪除方法。">
   <meta property="og:locale" content="zh_tw">
   <meta property="og:type" content="article">
     <meta property="article:section" content="blog">
@@ -73,14 +74,14 @@
     <meta property="article:modified_time" content="2020-11-01T00:00:00+00:00">
 
   <meta itemprop="name" content="Remove Macos Hidden File">
-  <meta itemprop="description" content="MacOS 下會為每個資料夾跟檔案新增一個以._開頭的系統隱藏檔案，用來儲存使用者設定和一些系統需要的設定，但是移到其他作業系統時這些檔案完全沒有用!">
+  <meta itemprop="description" content="MacOS 下會為每個資料夾跟檔案新增一個以._開頭的系統隱藏檔案，用來儲存使用者設定和一些系統需要的設定，但是移到其他作業系統時這些檔案完全沒有用!!! 數量一多還是會占空間，而且看了不太舒爽XD 所以記錄一下上網爬文找到的刪除方法。">
   <meta itemprop="datePublished" content="2020-11-01T00:00:00+00:00">
   <meta itemprop="dateModified" content="2020-11-01T00:00:00+00:00">
   <meta itemprop="wordCount" content="246">
   <meta itemprop="keywords" content="._ file,._ mac,._檔案刪除,Mac 隱藏檔案,rm 遞迴刪除">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Remove Macos Hidden File">
-  <meta name="twitter:description" content="MacOS 下會為每個資料夾跟檔案新增一個以._開頭的系統隱藏檔案，用來儲存使用者設定和一些系統需要的設定，但是移到其他作業系統時這些檔案完全沒有用!">
+  <meta name="twitter:description" content="MacOS 下會為每個資料夾跟檔案新增一個以._開頭的系統隱藏檔案，用來儲存使用者設定和一些系統需要的設定，但是移到其他作業系統時這些檔案完全沒有用!!! 數量一多還是會占空間，而且看了不太舒爽XD 所以記錄一下上網爬文找到的刪除方法。">
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -92,8 +93,6 @@
 <![endif]-->
 
 
-  
-    
       <script async src="https://www.googletagmanager.com/gtag/js?id=4942793011"></script>
       <script>
         var doNotTrack = false;
@@ -108,10 +107,6 @@
           gtag('config', '4942793011');
         }
       </script>
-    
-  
-
-
 
 
 </head>
@@ -327,7 +322,6 @@
           2020-11-01
         </time>
         <div class="post-category">
-            <a href="https://oxygentw.net/categories/computer/"> computer </a>
             
           </div>
         <span class="more-meta"> 約 246 字 </span>
@@ -348,8 +342,7 @@
     <div class="post-content">
       <p>MacOS 下會為每個資料夾跟檔案新增一個以<code>._</code>開頭的系統隱藏檔案，用來儲存使用者設定和一些系統需要的設定，但是移到其他作業系統時這些檔案完全沒有用!!! 數量一多還是會占空間，而且看了不太舒爽XD 所以記錄一下上網爬文找到的刪除方法。</p>
 <blockquote>
-<p>資料來源：<a href="https://www.itread01.com/p/1385436.html">https://www.itread01.com/p/1385436.html</a></p>
-</blockquote>
+<p>資料來源：<a href="https://www.itread01.com/p/1385436.html">https://www.itread01.com/p/1385436.html</a></p></blockquote>
 <hr>
 <p>切換到要刪除隱藏檔的資料夾開啟 termial 輸入這行指令即可。 <br>
 這個指令會遞迴刪除所有目錄底下以<code>._</code>開頭的檔案，並且把刪除的檔案顯示出來。</p>
@@ -370,7 +363,7 @@
 <div class="post-copyright">
   <p class="copyright-item">
     <span class="item-title">文章作者</span>
-    <span class="item-content">oxygen</span>
+    <span class="item-content"><a href="https://oxygentw.net/author/oxygen/">oxygen</a></span>
   </p>
   <p class="copyright-item">
     <span class="item-title">上次更新</span>
@@ -382,7 +375,7 @@
   
   <p class="copyright-item">
     <span class="item-title">授權條款</span>
-    <span class="item-content">Copyright © 2017-2024 oxygen. All rights reserved.</span>
+    <span class="item-content">Copyright © 2017-2025 oxygen. All rights reserved.</span>
   </p>
 </div>
 
@@ -542,7 +535,7 @@
     &copy;
     
       2017 -
-    2024
+    2025
     <span class="heart">
       
       <i class="iconfont">

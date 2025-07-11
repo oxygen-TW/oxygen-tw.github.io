@@ -26,7 +26,8 @@
 <meta name="mobile-web-app-capable" content="yes">
 
 <meta name="author" content="oxygen" />
-  <meta name="description" content="logging 是 Python 內建的 log 紀錄器，可以利用這個模組來進行各種不同程度的 log 輸出，這樣可以省去程式開發完後一個一個把偵錯用的 print() 刪除的時間，直接把Debug l" />
+  <meta name="description" content="logging 是 Python 內建的 log 紀錄器，可以利用這個模組來進行各種不同程度的 log 輸出，這樣可以省去程式開發完後一個一個把偵錯用的 print() 刪除的時間，直接把Debug level改成 INFO 以上就可以了，若要維護程式也可以再改回 DEBUG，但我每次都會忘記語法，於是來記錄一下順便和大家分享~
+" />
 
 
 
@@ -34,7 +35,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.131.0" />
+<meta name="generator" content="Hugo 0.148.0" />
 
 
 <link rel="canonical" href="https://oxygentw.net/blog/computer/python-logging/" />
@@ -55,7 +56,7 @@
 
 
 
-<link rel="stylesheet" href="/sass/jane.min.b495b9d81714f85c2c181722869d38324395662be76faebf5a6e36f1b996d1d0.css" integrity="" media="screen" crossorigin="anonymous">
+<link rel="stylesheet" href="/sass/jane.min.2d2189efee6cec3ea8e6d6a81b2cfbca060635e152dca5d5ce35bfb8b4226ead.css" integrity="" media="screen" crossorigin="anonymous">
 
 
 
@@ -64,25 +65,22 @@
 <meta property="og:url" content="https://oxygentw.net/blog/computer/python-logging/">
   <meta property="og:site_name" content="氧氣橘子">
   <meta property="og:title" content="Python Logging 偵錯記錄模組">
-  <meta property="og:description" content="logging 是 Python 內建的 log 紀錄器，可以利用這個模組來進行各種不同程度的 log 輸出，這樣可以省去程式開發完後一個一個把偵錯用的 print() 刪除的時間，直接把Debug l">
+  <meta property="og:description" content="logging 是 Python 內建的 log 紀錄器，可以利用這個模組來進行各種不同程度的 log 輸出，這樣可以省去程式開發完後一個一個把偵錯用的 print() 刪除的時間，直接把Debug level改成 INFO 以上就可以了，若要維護程式也可以再改回 DEBUG，但我每次都會忘記語法，於是來記錄一下順便和大家分享~">
   <meta property="og:locale" content="zh_tw">
   <meta property="og:type" content="article">
     <meta property="article:section" content="blog">
     <meta property="article:published_time" content="2020-05-31T16:29:24+08:00">
     <meta property="article:modified_time" content="2020-05-31T16:29:24+08:00">
-    <meta property="article:tag" content="Preview">
-    <meta property="article:tag" content="English">
-    <meta property="article:tag" content="Tag-2">
 
   <meta itemprop="name" content="Python Logging 偵錯記錄模組">
-  <meta itemprop="description" content="logging 是 Python 內建的 log 紀錄器，可以利用這個模組來進行各種不同程度的 log 輸出，這樣可以省去程式開發完後一個一個把偵錯用的 print() 刪除的時間，直接把Debug l">
+  <meta itemprop="description" content="logging 是 Python 內建的 log 紀錄器，可以利用這個模組來進行各種不同程度的 log 輸出，這樣可以省去程式開發完後一個一個把偵錯用的 print() 刪除的時間，直接把Debug level改成 INFO 以上就可以了，若要維護程式也可以再改回 DEBUG，但我每次都會忘記語法，於是來記錄一下順便和大家分享~">
   <meta itemprop="datePublished" content="2020-05-31T16:29:24+08:00">
   <meta itemprop="dateModified" content="2020-05-31T16:29:24+08:00">
   <meta itemprop="wordCount" content="618">
-  <meta itemprop="keywords" content="Preview,English,Tag-2">
+  <meta itemprop="keywords" content="Oxygen">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Python Logging 偵錯記錄模組">
-  <meta name="twitter:description" content="logging 是 Python 內建的 log 紀錄器，可以利用這個模組來進行各種不同程度的 log 輸出，這樣可以省去程式開發完後一個一個把偵錯用的 print() 刪除的時間，直接把Debug l">
+  <meta name="twitter:description" content="logging 是 Python 內建的 log 紀錄器，可以利用這個模組來進行各種不同程度的 log 輸出，這樣可以省去程式開發完後一個一個把偵錯用的 print() 刪除的時間，直接把Debug level改成 INFO 以上就可以了，若要維護程式也可以再改回 DEBUG，但我每次都會忘記語法，於是來記錄一下順便和大家分享~">
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -94,8 +92,6 @@
 <![endif]-->
 
 
-  
-    
       <script async src="https://www.googletagmanager.com/gtag/js?id=4942793011"></script>
       <script>
         var doNotTrack = false;
@@ -110,10 +106,6 @@
           gtag('config', '4942793011');
         }
       </script>
-    
-  
-
-
 
 
 </head>
@@ -347,45 +339,45 @@
 <p>logging 把 debug level 分成六個等級，如下表所列，對應數值越小越敏感，logging只會紀錄數值大於設定值的紀錄。</p>
 <p>用 <code>type(logging.DEBUG)</code> 查看會發現等級其實是 int 型別，也就是它只是別名，實際上<code>print(logging.DEBUG)</code> 也會是顯示10。</p>
 <table>
-<thead>
-<tr>
-<th>logging LEVEL</th>
-<th>意義</th>
-<th>對應數值</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>NOTSET</td>
-<td>未設定</td>
-<td>0</td>
-</tr>
-<tr>
-<td>DEBUG</td>
-<td>偵錯</td>
-<td>10</td>
-</tr>
-<tr>
-<td>INFO</td>
-<td>通知</td>
-<td>20</td>
-</tr>
-<tr>
-<td>WARNING</td>
-<td>警告</td>
-<td>30</td>
-</tr>
-<tr>
-<td>ERROR</td>
-<td>錯誤</td>
-<td>40</td>
-</tr>
-<tr>
-<td>CRITICAL</td>
-<td>嚴重錯誤</td>
-<td>50</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th>logging LEVEL</th>
+          <th>意義</th>
+          <th>對應數值</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>NOTSET</td>
+          <td>未設定</td>
+          <td>0</td>
+      </tr>
+      <tr>
+          <td>DEBUG</td>
+          <td>偵錯</td>
+          <td>10</td>
+      </tr>
+      <tr>
+          <td>INFO</td>
+          <td>通知</td>
+          <td>20</td>
+      </tr>
+      <tr>
+          <td>WARNING</td>
+          <td>警告</td>
+          <td>30</td>
+      </tr>
+      <tr>
+          <td>ERROR</td>
+          <td>錯誤</td>
+          <td>40</td>
+      </tr>
+      <tr>
+          <td>CRITICAL</td>
+          <td>嚴重錯誤</td>
+          <td>50</td>
+      </tr>
+  </tbody>
 </table>
 <p> 
  </p>
@@ -419,50 +411,50 @@
 <p><code>logging.basicConfig(level=logging.INFO)</code></p>
 <h3 id="官方文件參數說明">官方文件參數說明</h3>
 <table>
-<thead>
-<tr>
-<th style="text-align:left">Format</th>
-<th style="text-align:left">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left"><em>filename</em></td>
-<td style="text-align:left">指定 FileHandler，使用特定的檔案進行記錄而不是用 StreamHandler.</td>
-</tr>
-<tr>
-<td style="text-align:left"><em>filemode</em></td>
-<td style="text-align:left">如果有指定 <em>filename</em>，則可用此參數指定開檔模式，預設是 <code>'a'</code>.</td>
-</tr>
-<tr>
-<td style="text-align:left"><em>format</em></td>
-<td style="text-align:left">指定 handler 的格式字串</td>
-</tr>
-<tr>
-<td style="text-align:left"><em>datefmt</em></td>
-<td style="text-align:left">指定日期/時間格式, 接受<a href="https://docs.python.org/3/library/time.html#time.strftime"><code>time.strftime()</code></a>格式</td>
-</tr>
-<tr>
-<td style="text-align:left"><em>style</em></td>
-<td style="text-align:left">If <em>format</em> is specified, use this style for the format string. One of <code>'%'</code>, <code>'{'</code> or <code>'$'</code> for <a href="https://docs.python.org/3/library/stdtypes.html#old-string-formatting">printf-style</a>, <a href="https://docs.python.org/3/library/stdtypes.html#str.format"><code>str.format()</code></a> or <a href="https://docs.python.org/3/library/string.html#string.Template"><code>string.Template</code></a> respectively. Defaults to <code>'%'</code>.</td>
-</tr>
-<tr>
-<td style="text-align:left"><em>level</em></td>
-<td style="text-align:left">Set the root logger level to the specified <a href="https://docs.python.org/3/library/logging.html#levels">level</a>.</td>
-</tr>
-<tr>
-<td style="text-align:left"><em>stream</em></td>
-<td style="text-align:left">Use the specified stream to initialize the StreamHandler. Note that this argument is incompatible with <em>filename</em> - if both are present, a <code>ValueError</code> is raised.</td>
-</tr>
-<tr>
-<td style="text-align:left"><em>handlers</em></td>
-<td style="text-align:left">If specified, this should be an iterable of already created handlers to add to the root logger. Any handlers which don’t already have a formatter set will be assigned the default formatter created in this function. Note that this argument is incompatible with <em>filename</em> or <em>stream</em> - if both are present, a <code>ValueError</code> is raised.</td>
-</tr>
-<tr>
-<td style="text-align:left"><em>force</em></td>
-<td style="text-align:left">If this keyword argument is specified as true, any existing handlers attached to the root logger are removed and closed, before carrying out the configuration as specified by the other arguments.</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: left">Format</th>
+          <th style="text-align: left">Description</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><em>filename</em></td>
+          <td style="text-align: left">指定 FileHandler，使用特定的檔案進行記錄而不是用 StreamHandler.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><em>filemode</em></td>
+          <td style="text-align: left">如果有指定 <em>filename</em>，則可用此參數指定開檔模式，預設是 <code>'a'</code>.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><em>format</em></td>
+          <td style="text-align: left">指定 handler 的格式字串</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><em>datefmt</em></td>
+          <td style="text-align: left">指定日期/時間格式, 接受<a href="https://docs.python.org/3/library/time.html#time.strftime"><code>time.strftime()</code></a>格式</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><em>style</em></td>
+          <td style="text-align: left">If <em>format</em> is specified, use this style for the format string. One of <code>'%'</code>, <code>'{'</code> or <code>'$'</code> for <a href="https://docs.python.org/3/library/stdtypes.html#old-string-formatting">printf-style</a>, <a href="https://docs.python.org/3/library/stdtypes.html#str.format"><code>str.format()</code></a> or <a href="https://docs.python.org/3/library/string.html#string.Template"><code>string.Template</code></a> respectively. Defaults to <code>'%'</code>.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><em>level</em></td>
+          <td style="text-align: left">Set the root logger level to the specified <a href="https://docs.python.org/3/library/logging.html#levels">level</a>.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><em>stream</em></td>
+          <td style="text-align: left">Use the specified stream to initialize the StreamHandler. Note that this argument is incompatible with <em>filename</em> - if both are present, a <code>ValueError</code> is raised.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><em>handlers</em></td>
+          <td style="text-align: left">If specified, this should be an iterable of already created handlers to add to the root logger. Any handlers which don’t already have a formatter set will be assigned the default formatter created in this function. Note that this argument is incompatible with <em>filename</em> or <em>stream</em> - if both are present, a <code>ValueError</code> is raised.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><em>force</em></td>
+          <td style="text-align: left">If this keyword argument is specified as true, any existing handlers attached to the root logger are removed and closed, before carrying out the configuration as specified by the other arguments.</td>
+      </tr>
+  </tbody>
 </table>
 <hr>
 <ul>
@@ -476,7 +468,7 @@
 <div class="post-copyright">
   <p class="copyright-item">
     <span class="item-title">文章作者</span>
-    <span class="item-content">oxygen</span>
+    <span class="item-content"><a href="https://oxygentw.net/author/oxygen/">oxygen</a></span>
   </p>
   <p class="copyright-item">
     <span class="item-title">上次更新</span>
@@ -488,7 +480,7 @@
   
   <p class="copyright-item">
     <span class="item-title">授權條款</span>
-    <span class="item-content">Copyright © 2017-2024 oxygen. All rights reserved.</span>
+    <span class="item-content">Copyright © 2017-2025 oxygen. All rights reserved.</span>
   </p>
 </div>
 
@@ -607,7 +599,7 @@
     &copy;
     
       2017 -
-    2024
+    2025
     <span class="heart">
       
       <i class="iconfont">

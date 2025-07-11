@@ -2,25 +2,234 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CHEMICAL NOTES on 氧氣橘子</title>
-    <link>https://oxygentw.net/tags/chemical-notes/</link>
+    <link>http://localhost:1313/tags/chemical-notes/</link>
     <description>Recent content in CHEMICAL NOTES on 氧氣橘子</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <lastBuildDate>Tue, 08 Jan 2019 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://oxygentw.net/tags/chemical-notes/index.xml" rel="self" type="application/rss+xml" />
+    
+        <atom:link href="http://localhost:1313/tags/chemical-notes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Quantum Numbers</title>
-      <link>https://oxygentw.net/blog/notes/quantum-numbers/</link>
+      <link>http://localhost:1313/blog/notes/quantum-numbers/</link>
       <pubDate>Tue, 08 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://oxygentw.net/blog/notes/quantum-numbers/</guid>
-      <description>一些關於量子數與原子軌域的筆記 (n , l , ml , ms) = (主量子數,角量子數,磁量子數,自旋量子數) 主量子數 Principal QN n = 1,2,3&amp;hellip;.. 決定原子的大小和能量 n2 = 能形成的</description>
+      
+      <guid>http://localhost:1313/blog/notes/quantum-numbers/</guid>
+      
+        <description>&lt;p&gt;一些關於量子數與原子軌域的筆記&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;(n , l , m&lt;sub&gt;l&lt;/sub&gt; , m&lt;sub&gt;s&lt;/sub&gt;) = (主量子數,角量子數,磁量子數,自旋量子數)&lt;/p&gt;&lt;/blockquote&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;主量子數-principal--qn&#34;&gt;主量子數 Principal  QN&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;n = 1,2,3&amp;hellip;..&lt;/p&gt;&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;決定原子的&lt;strong&gt;大小&lt;/strong&gt;和&lt;strong&gt;能量&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;n&lt;sup&gt;2&lt;/sup&gt; = 能形成的軌域數總和&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;​&lt;br/&gt;&lt;/p&gt;
+&lt;h2 id=&#34;角量子數-angular--qn&#34;&gt;角量子數 Angular  QN&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;l = 0 ~ n-1&lt;/p&gt;&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;決定軌域的形狀,數目&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;軌域數目 = 2l+1&lt;/p&gt;
+&lt;p&gt;因為 -l ~ l = 2l+1&lt;/p&gt;&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;角量子數字母代碼&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;0 = s&lt;/li&gt;
+&lt;li&gt;1 = p&lt;/li&gt;
+&lt;li&gt;2 = d&lt;/li&gt;
+&lt;li&gt;3 = f&lt;/li&gt;
+&lt;li&gt;4 = g&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;f 以後照字母排&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;字母代表意義&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;s = Sharp&lt;/li&gt;
+&lt;li&gt;p = Principal&lt;/li&gt;
+&lt;li&gt;d = Diffuse&lt;/li&gt;
+&lt;li&gt;f = Fundamental&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;磁量子數-magnetic--qn&#34;&gt;磁量子數 Magnetic  QN&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;m&lt;sub&gt;l&lt;/sub&gt; = -l ~ l&lt;/p&gt;&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;決定軌域的方向&lt;/li&gt;
+&lt;li&gt;依據角量子數的不同會有不同的組合&lt;/li&gt;
+&lt;li&gt;總軌域和就是所有磁量子數組合的總和&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;電子自旋量子數--electron-spin-qn&#34;&gt;電子自旋量子數  Electron Spin QN&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;m&lt;sub&gt;s&lt;/sub&gt; = +1/2 or -1/2&lt;/p&gt;&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;決定電子的自旋狀態&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;example&#34;&gt;Example&lt;/h1&gt;
+&lt;h2 id=&#34;3d-orbital&#34;&gt;3d orbital&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;n = 3&lt;/li&gt;
+&lt;li&gt;l = 0,1,2(s,p,d)&lt;/li&gt;
+&lt;li&gt;m&lt;sub&gt;l&lt;/sub&gt; = -2,-1,0,1,2&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;5f-orbital&#34;&gt;5f orbital&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;n = 5&lt;/li&gt;
+&lt;li&gt;l = 0,1,2,3,(s,p,d,f)&lt;/li&gt;
+&lt;li&gt;m&lt;sub&gt;l&lt;/sub&gt; = -3 ~ 3&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;n--4&#34;&gt;n = 4&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;l = 0,1,2,3&lt;/li&gt;
+&lt;li&gt;l = 4s,4p,4d,4f&lt;/li&gt;
+&lt;li&gt;m&lt;sub&gt;l&lt;/sub&gt; = -3 ~ 3&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;write-all--qn-of-3p-orbital&#34;&gt;write all  QN of 3p orbital&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;(3,1,-1,-1/2)&lt;/li&gt;
+&lt;li&gt;(3,1,-1,+1/2)&lt;/li&gt;
+&lt;li&gt;(3,1,0,-1/2)&lt;/li&gt;
+&lt;li&gt;(3,1,0,+1/2)&lt;/li&gt;
+&lt;li&gt;(3,1,1,-1/2)&lt;/li&gt;
+&lt;li&gt;(3,1,01+1/2)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;相關定理&#34;&gt;相關定理&lt;/h1&gt;
+&lt;h2 id=&#34;包利不相容原理-pauli-exclusion-principle&#34;&gt;包利不相容原理 Pauli Exclusion Principle&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;在每一個原子中，沒有任何兩個電子可以擁有同組的四個量子數&lt;/p&gt;
+&lt;p&gt;每個軌域只能填入兩個自旋相反的電子&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h2 id=&#34;遞鍵原理-the-aufbau-principle&#34;&gt;遞鍵原理 The Aufbau Principle&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;電子填入 Hydrogen-like 軌域時以低能量的先填&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h2 id=&#34;洪德定則-hunds-rule&#34;&gt;洪德定則 Hund&amp;rsquo;s Rule&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;電子填入簡併軌域時，會先以自旋相同的方式填入不同軌域&lt;/p&gt;
+&lt;p&gt;因這樣能量最低&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h2 id=&#34;電子組態-electron-configuration&#34;&gt;電子組態 Electron configuration&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;依照遮蔽效應與穿透效應影響，真實順序為&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;(1s),(2s,2p),(3s,3p),(4s,3d,4p),(5s,4d,5p)&amp;hellip;.&lt;/p&gt;&lt;/blockquote&gt;
+</description>
+      
     </item>
+    
     <item>
       <title>Physical properties of functional group</title>
-      <link>https://oxygentw.net/blog/notes/physical-properties-of-functional-group/</link>
+      <link>http://localhost:1313/blog/notes/physical-properties-of-functional-group/</link>
       <pubDate>Mon, 07 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://oxygentw.net/blog/notes/physical-properties-of-functional-group/</guid>
-      <description>簡單整理官能基的物理性質 官能基比較表 官能基 極性 分子間作用力 水溶能力 沸點 info 醇 alcohol True H-bond 高/隨碳鍊增長遞減 較高 氫鍵給予者 醚 ether True weak 偶極-偶極 / 立體障礙</description>
+      
+      <guid>http://localhost:1313/blog/notes/physical-properties-of-functional-group/</guid>
+      
+        <description>&lt;p&gt;簡單整理官能基的物理性質&lt;/p&gt;
+&lt;h2 id=&#34;官能基比較表&#34;&gt;官能基比較表&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;官能基&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;極性&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;分子間作用力&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;水溶能力&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;沸點&lt;/th&gt;
+          &lt;th&gt;info&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;醇 alcohol&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;True&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;H-bond&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;高/隨碳鍊增長遞減&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;較高&lt;/td&gt;
+          &lt;td&gt;氫鍵給予者&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;醚 ether&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;True&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;weak 偶極-偶極 / 立體障礙&lt;br/&gt;H-bond / 和水形成&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;烴 &amp;lt; 醚 &amp;lt; 醇&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;低 / 接近烴類&lt;/td&gt;
+          &lt;td&gt;氫鍵接受者&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;硫醇 thiol&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;False&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;偶極-偶極&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;低&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;烴&amp;lt; 醚 &amp;lt; 硫醇 &amp;lt; 醇&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;胺 amine&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;True&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;1°/2° weak H-bond&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;高/隨碳鍊增長遞減&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;胺 &amp;lt; 醇&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;醛 aldehyde&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;True&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;偶極-偶極&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;高/隨碳鍊增長遞減&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;烴&amp;lt;醛&amp;lt;酮&lt;/td&gt;
+          &lt;td&gt;C親電子/O親核&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;酮 ketone&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;True&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;偶極-偶極&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;高/隨碳鍊增長遞減&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;烴&amp;lt;醛&amp;lt;酮&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;羧 carbonyl&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;True&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;strong H-bond / 形成雙體&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;醇/酮 &amp;lt; 羧酸&lt;br/&gt;隨碳鍊增長遞減&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;醇/酮 &amp;lt; 羧酸&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;​&lt;/p&gt;
+&lt;h2 id=&#34;沸點比較&#34;&gt;沸點比較&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;醯胺 &amp;gt; 羧酸 &amp;gt; 醇 &amp;gt; 胺 &amp;gt; 酮 &amp;gt; &amp;gt; 醛 &amp;gt; 醚 &amp;gt; 烴&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;​&lt;/p&gt;
+&lt;h2 id=&#34;常用氫鍵強度&#34;&gt;常用氫鍵強度&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;F—H ᠁ :F （155 kJ/mol 或 40 kcal/mol）&lt;/li&gt;
+&lt;li&gt;O—H ᠁ :N （29 kJ/mol 或 6.9 kcal/mol）&lt;/li&gt;
+&lt;li&gt;O—H ᠁ :O （21 kJ/mol 或 5.0 kcal/mol）&lt;/li&gt;
+&lt;li&gt;N—H ᠁ :N （13 kJ/mol 或 3.1 kcal/mol）&lt;/li&gt;
+&lt;li&gt;N—H ᠁ :O （8 kJ/mol 或 1.9 kcal/mol）&lt;/li&gt;
+&lt;li&gt;HO—H ᠁ :OH3+ （18 kJ/mol 或 4.3 kcal/mol）&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      
     </item>
+    
   </channel>
 </rss>

@@ -2,18 +2,162 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>食譜 on 氧氣橘子</title>
-    <link>https://oxygentw.net/tags/%E9%A3%9F%E8%AD%9C/</link>
+    <link>http://localhost:1313/tags/%E9%A3%9F%E8%AD%9C/</link>
     <description>Recent content in 食譜 on 氧氣橘子</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <lastBuildDate>Wed, 07 Feb 2018 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://oxygentw.net/tags/%E9%A3%9F%E8%AD%9C/index.xml" rel="self" type="application/rss+xml" />
+    
+        <atom:link href="http://localhost:1313/tags/%E9%A3%9F%E8%AD%9C/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>[食譜] 簡單茶凍</title>
-      <link>https://oxygentw.net/blog/notes/tea-pudding/</link>
+      <link>http://localhost:1313/blog/notes/tea-pudding/</link>
       <pubDate>Wed, 07 Feb 2018 00:00:00 +0000</pubDate>
-      <guid>https://oxygentw.net/blog/notes/tea-pudding/</guid>
-      <description>茶凍，一個很簡單卻很好吃的甜點，只需要30分鐘左右即可完成，但是讓他凝固要2小時，材料也不會很難，可說是個經濟實惠的甜點呢!我做了很多次都沒</description>
+      
+      <guid>http://localhost:1313/blog/notes/tea-pudding/</guid>
+      
+        <description>&lt;p&gt;茶凍，一個很簡單卻很好吃的甜點，只需要30分鐘左右即可完成，但是讓他凝固要2小時，材料也不會很難，可說是個經濟實惠的甜點呢!我做了很多次都沒有失敗過喔！&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;材料&#34;&gt;材料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;冷水200ml&lt;/li&gt;
+&lt;li&gt;熱水300ml&lt;/li&gt;
+&lt;li&gt;茶包一包&lt;/li&gt;
+&lt;li&gt;砂糖70g&lt;/li&gt;
+&lt;li&gt;吉利T(Jelly T) 8g&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;大家比較不熟悉的應該是吉利T了，它是果凍成形的關鍵，是一種食品添加物，有和藥物賦形劑類似的效果，如果沒有它，做出來的東西只是糖水加茶。&lt;/p&gt;
+&lt;p&gt;在一般烘培材料行都買得到(超市可能也有)&lt;/p&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;所有材料&#34;&gt;所有材料&lt;/h2&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/tea-pudding/1070673640_l_c.jpg&#34; alt=&#34;所有材料&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/tea-pudding/1070673640_l_c.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;
+&lt;h2 id=&#34;作法&#34;&gt;作法&lt;/h2&gt;
+&lt;p&gt;1.&lt;font color=red&gt;把吉利T倒進冷水裡，不能把冷水倒入吉利T喔!&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;2.加入砂糖&lt;/p&gt;
+&lt;p&gt;3.把茶包放進熱水泡茶，大約到下個步驟完成就泡好了。&lt;/p&gt;
+&lt;p&gt;4.用&lt;strong&gt;中小火&lt;/strong&gt;加熱，直到吉利T融化，稍微沸騰後離火，&lt;strong&gt;中途要不停攪拌&lt;/strong&gt;!&lt;/p&gt;
+&lt;p&gt;5.把泡好的茶加入融化的吉利T糖水裡&lt;/p&gt;
+&lt;p&gt;6.攪拌均勻&lt;/p&gt;
+&lt;p&gt;7.倒入容器裡，放涼，再放入冰箱約2小時左右&lt;/p&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;製作過程照片&#34;&gt;製作過程照片&lt;/h2&gt;
+&lt;p&gt;1.將吉利T倒入冷水&lt;/p&gt;
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/tea-pudding/1070672386_l_c.jpg&#34; alt=&#34;將吉利T倒入冷水&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/tea-pudding/1070672386_l_c.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;
+2.加入砂糖
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/tea-pudding/1070673432_l_c.jpg&#34; alt=&#34;加入砂糖&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/tea-pudding/1070673432_l_c.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;
+3.用中小火煮到吉利T和糖混合均勻
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/tea-pudding/1070674713_l_c.jpg&#34; alt=&#34;吉利T和糖混合均勻&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/tea-pudding/1070674713_l_c.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;
+4.融化後離火
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/tea-pudding/1070674422_l_c.jpg&#34; alt=&#34;融化後離火&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/tea-pudding/1070674422_l_c.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;
+5.加入泡好的茶
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/tea-pudding/1070673239_l_c.jpg&#34; alt=&#34;加入泡好的茶&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/tea-pudding/1070673239_l_c.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;
+6.倒入容器裡，放涼，再放入冰箱約2小時左右(下圖為兩倍材料的量)
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/tea-pudding/1070672574_l_c.jpg&#34; alt=&#34;倒入容器&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/tea-pudding/1070672574_l_c.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;
+完成！
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/tea-pudding/1070673538_l_c.jpg&#34; alt=&#34;完成&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/tea-pudding/1070673538_l_c.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;
+&lt;br/&gt;
+--修改自我古老的 Xuite 站
+</description>
+      
     </item>
+    
   </channel>
 </rss>

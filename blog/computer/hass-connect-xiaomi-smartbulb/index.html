@@ -26,7 +26,8 @@
 <meta name="mobile-web-app-capable" content="yes">
 
 <meta name="author" content="oxygen" />
-  <meta name="description" content="最近想把小米智慧燈泡接入 Home Assistant，這款燈泡是走 yeelight 系統的，所以理所當然我打算用 Home Assistant 官方的 Yeelight intergation 去連接，卻發現我不論怎麼用都只會得到 No" />
+  <meta name="description" content="最近想把小米智慧燈泡接入 Home Assistant，這款燈泡是走 yeelight 系統的，所以理所當然我打算用 Home Assistant 官方的 Yeelight intergation 去連接，卻發現我不論怎麼用都只會得到 No devices found on the network 或是 Failed to connect 的錯誤，我就不明白了，搜尋許多解法後找到一個社群論壇大大給的方法，成功接入！紀錄一下順便寫個中文版教學給其他遇到相同問題的人參考~
+" />
 <meta name="keywords" content="Home Assitant, Home Assitant 小米智能燈泡, Home Assitant yeelight, yeelight integration, yeelight No devices found on the network, yeelight Failed to connect, 小米智能燈泡, Yeelight" />
 
 
@@ -35,7 +36,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.131.0" />
+<meta name="generator" content="Hugo 0.148.0" />
 
 
 <link rel="canonical" href="https://oxygentw.net/blog/computer/hass-connect-xiaomi-smartbulb/" />
@@ -56,7 +57,7 @@
 
 
 
-<link rel="stylesheet" href="/sass/jane.min.b495b9d81714f85c2c181722869d38324395662be76faebf5a6e36f1b996d1d0.css" integrity="" media="screen" crossorigin="anonymous">
+<link rel="stylesheet" href="/sass/jane.min.2d2189efee6cec3ea8e6d6a81b2cfbca060635e152dca5d5ce35bfb8b4226ead.css" integrity="" media="screen" crossorigin="anonymous">
 
 
 
@@ -65,23 +66,22 @@
 <meta property="og:url" content="https://oxygentw.net/blog/computer/hass-connect-xiaomi-smartbulb/">
   <meta property="og:site_name" content="氧氣橘子">
   <meta property="og:title" content="Home Assistant 連接小米智慧燈泡">
-  <meta property="og:description" content="最近想把小米智慧燈泡接入 Home Assistant，這款燈泡是走 yeelight 系統的，所以理所當然我打算用 Home Assistant 官方的 Yeelight intergation 去連接，卻發現我不論怎麼用都只會得到 No">
+  <meta property="og:description" content="最近想把小米智慧燈泡接入 Home Assistant，這款燈泡是走 yeelight 系統的，所以理所當然我打算用 Home Assistant 官方的 Yeelight intergation 去連接，卻發現我不論怎麼用都只會得到 No devices found on the network 或是 Failed to connect 的錯誤，我就不明白了，搜尋許多解法後找到一個社群論壇大大給的方法，成功接入！紀錄一下順便寫個中文版教學給其他遇到相同問題的人參考~">
   <meta property="og:locale" content="zh_tw">
   <meta property="og:type" content="article">
     <meta property="article:section" content="blog">
     <meta property="article:published_time" content="2023-01-24T00:00:00+00:00">
     <meta property="article:modified_time" content="2023-01-24T00:00:00+00:00">
-    <meta property="article:tag" content="Home Server Series">
 
   <meta itemprop="name" content="Home Assistant 連接小米智慧燈泡">
-  <meta itemprop="description" content="最近想把小米智慧燈泡接入 Home Assistant，這款燈泡是走 yeelight 系統的，所以理所當然我打算用 Home Assistant 官方的 Yeelight intergation 去連接，卻發現我不論怎麼用都只會得到 No">
+  <meta itemprop="description" content="最近想把小米智慧燈泡接入 Home Assistant，這款燈泡是走 yeelight 系統的，所以理所當然我打算用 Home Assistant 官方的 Yeelight intergation 去連接，卻發現我不論怎麼用都只會得到 No devices found on the network 或是 Failed to connect 的錯誤，我就不明白了，搜尋許多解法後找到一個社群論壇大大給的方法，成功接入！紀錄一下順便寫個中文版教學給其他遇到相同問題的人參考~">
   <meta itemprop="datePublished" content="2023-01-24T00:00:00+00:00">
   <meta itemprop="dateModified" content="2023-01-24T00:00:00+00:00">
   <meta itemprop="wordCount" content="669">
   <meta itemprop="keywords" content="Home Assitant,Home Assitant 小米智能燈泡,Home Assitant yeelight,yeelight integration,yeelight No devices found on the network,yeelight Failed to connect,小米智能燈泡,Yeelight">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Home Assistant 連接小米智慧燈泡">
-  <meta name="twitter:description" content="最近想把小米智慧燈泡接入 Home Assistant，這款燈泡是走 yeelight 系統的，所以理所當然我打算用 Home Assistant 官方的 Yeelight intergation 去連接，卻發現我不論怎麼用都只會得到 No">
+  <meta name="twitter:description" content="最近想把小米智慧燈泡接入 Home Assistant，這款燈泡是走 yeelight 系統的，所以理所當然我打算用 Home Assistant 官方的 Yeelight intergation 去連接，卻發現我不論怎麼用都只會得到 No devices found on the network 或是 Failed to connect 的錯誤，我就不明白了，搜尋許多解法後找到一個社群論壇大大給的方法，成功接入！紀錄一下順便寫個中文版教學給其他遇到相同問題的人參考~">
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -93,8 +93,6 @@
 <![endif]-->
 
 
-  
-    
       <script async src="https://www.googletagmanager.com/gtag/js?id=4942793011"></script>
       <script>
         var doNotTrack = false;
@@ -109,10 +107,6 @@
           gtag('config', '4942793011');
         }
       </script>
-    
-  
-
-
 
 
 </head>
@@ -328,7 +322,6 @@
           2023-01-24
         </time>
         <div class="post-category">
-            <a href="https://oxygentw.net/categories/computer/"> computer </a>
             
           </div>
         <span class="more-meta"> 約 669 字 </span>
@@ -350,8 +343,7 @@
       <p>最近想把小米智慧燈泡接入 Home Assistant，這款燈泡是走 yeelight 系統的，所以理所當然我打算用 Home Assistant 官方的 <a href="https://www.home-assistant.io/integrations/yeelight/">Yeelight intergation</a> 去連接，卻發現我不論怎麼用都只會得到 <em>No devices found on the network</em> 或是 <em>Failed to connect</em> 的錯誤，我就不明白了，搜尋許多解法後找到一個<a href="https://community.home-assistant.io/t/integrate-mi-smart-led-bulb-easy-steps/312174">社群論壇大大給的方法</a>，成功接入！紀錄一下順便寫個中文版教學給其他遇到相同問題的人參考~</p>
 <br/>
 <blockquote>
-<p>注意此方法需要安裝 Python！</p>
-</blockquote>
+<p>注意此方法需要安裝 Python！</p></blockquote>
 <h2 id="燈泡連接米家app">燈泡連接米家App</h2>
 <p>首先先依照說明書將燈泡初始化，連接到<strong>米家app</strong>，連上去後你就可以用米家 App 控制燈泡，但會發現 yeelight intergration 怎樣都找不到燈泡。</p>
 <p>主因是燈泡沒有開啟開發者模式，我們無法從外面控制，用以下的方法可以把開發者模式打開。</p>
@@ -442,7 +434,7 @@
 <div class="post-copyright">
   <p class="copyright-item">
     <span class="item-title">文章作者</span>
-    <span class="item-content">oxygen</span>
+    <span class="item-content"><a href="https://oxygentw.net/author/oxygen/">oxygen</a></span>
   </p>
   <p class="copyright-item">
     <span class="item-title">上次更新</span>
@@ -454,7 +446,7 @@
   
   <p class="copyright-item">
     <span class="item-title">授權條款</span>
-    <span class="item-content">Copyright © 2017-2024 oxygen. All rights reserved.</span>
+    <span class="item-content">Copyright © 2017-2025 oxygen. All rights reserved.</span>
   </p>
 </div>
 
@@ -464,7 +456,6 @@
 
     <footer class="post-footer">
       <div class="post-tags">
-          <a href="https://oxygentw.net/tags/home-server-series/">Home server series</a>
           
         </div>
 
@@ -617,7 +608,7 @@
     &copy;
     
       2017 -
-    2024
+    2025
     <span class="heart">
       
       <i class="iconfont">

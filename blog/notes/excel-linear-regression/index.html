@@ -26,7 +26,8 @@
 <meta name="mobile-web-app-capable" content="yes">
 
 <meta name="author" content="oxygen" />
-  <meta name="description" content="線性回歸是很多定量實驗必須做的前置步驟，要先將標準品測得的實驗數據透過線性回歸的方式繪製出標準曲線，再將未知待測物以內插的方式帶入求值才是一" />
+  <meta name="description" content="線性回歸是很多定量實驗必須做的前置步驟，要先將標準品測得的實驗數據透過線性回歸的方式繪製出標準曲線，再將未知待測物以內插的方式帶入求值才是一個可靠的定量分析方式，因此紀錄如何使用 Excel 進行簡單的標準曲線繪製。
+" />
 <meta name="keywords" content="excel, Excel 回歸直線, Excel 線性回歸, Excel 回歸分析, Excel 標準曲線" />
 
 
@@ -35,7 +36,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.131.0" />
+<meta name="generator" content="Hugo 0.148.0" />
 
 
 <link rel="canonical" href="https://oxygentw.net/blog/notes/excel-linear-regression/" />
@@ -56,7 +57,7 @@
 
 
 
-<link rel="stylesheet" href="/sass/jane.min.b495b9d81714f85c2c181722869d38324395662be76faebf5a6e36f1b996d1d0.css" integrity="" media="screen" crossorigin="anonymous">
+<link rel="stylesheet" href="/sass/jane.min.2d2189efee6cec3ea8e6d6a81b2cfbca060635e152dca5d5ce35bfb8b4226ead.css" integrity="" media="screen" crossorigin="anonymous">
 
 
 
@@ -65,7 +66,7 @@
 <meta property="og:url" content="https://oxygentw.net/blog/notes/excel-linear-regression/">
   <meta property="og:site_name" content="氧氣橘子">
   <meta property="og:title" content="Excel 繪製回歸直線">
-  <meta property="og:description" content="線性回歸是很多定量實驗必須做的前置步驟，要先將標準品測得的實驗數據透過線性回歸的方式繪製出標準曲線，再將未知待測物以內插的方式帶入求值才是一">
+  <meta property="og:description" content="線性回歸是很多定量實驗必須做的前置步驟，要先將標準品測得的實驗數據透過線性回歸的方式繪製出標準曲線，再將未知待測物以內插的方式帶入求值才是一個可靠的定量分析方式，因此紀錄如何使用 Excel 進行簡單的標準曲線繪製。">
   <meta property="og:locale" content="zh_tw">
   <meta property="og:type" content="article">
     <meta property="article:section" content="blog">
@@ -73,14 +74,14 @@
     <meta property="article:modified_time" content="2019-05-24T00:00:00+00:00">
 
   <meta itemprop="name" content="Excel 繪製回歸直線">
-  <meta itemprop="description" content="線性回歸是很多定量實驗必須做的前置步驟，要先將標準品測得的實驗數據透過線性回歸的方式繪製出標準曲線，再將未知待測物以內插的方式帶入求值才是一">
+  <meta itemprop="description" content="線性回歸是很多定量實驗必須做的前置步驟，要先將標準品測得的實驗數據透過線性回歸的方式繪製出標準曲線，再將未知待測物以內插的方式帶入求值才是一個可靠的定量分析方式，因此紀錄如何使用 Excel 進行簡單的標準曲線繪製。">
   <meta itemprop="datePublished" content="2019-05-24T00:00:00+00:00">
   <meta itemprop="dateModified" content="2019-05-24T00:00:00+00:00">
   <meta itemprop="wordCount" content="251">
   <meta itemprop="keywords" content="excel,Excel 回歸直線,Excel 線性回歸,Excel 回歸分析,Excel 標準曲線">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Excel 繪製回歸直線">
-  <meta name="twitter:description" content="線性回歸是很多定量實驗必須做的前置步驟，要先將標準品測得的實驗數據透過線性回歸的方式繪製出標準曲線，再將未知待測物以內插的方式帶入求值才是一">
+  <meta name="twitter:description" content="線性回歸是很多定量實驗必須做的前置步驟，要先將標準品測得的實驗數據透過線性回歸的方式繪製出標準曲線，再將未知待測物以內插的方式帶入求值才是一個可靠的定量分析方式，因此紀錄如何使用 Excel 進行簡單的標準曲線繪製。">
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -92,8 +93,6 @@
 <![endif]-->
 
 
-  
-    
       <script async src="https://www.googletagmanager.com/gtag/js?id=4942793011"></script>
       <script>
         var doNotTrack = false;
@@ -108,10 +107,6 @@
           gtag('config', '4942793011');
         }
       </script>
-    
-  
-
-
 
 
 </head>
@@ -327,8 +322,6 @@
           2019-05-24
         </time>
         <div class="post-category">
-            <a href="https://oxygentw.net/categories/notes/"> notes </a>
-            <a href="https://oxygentw.net/categories/computer/"> computer </a>
             
           </div>
         <span class="more-meta"> 約 251 字 </span>
@@ -427,7 +420,7 @@
 <div class="post-copyright">
   <p class="copyright-item">
     <span class="item-title">文章作者</span>
-    <span class="item-content">oxygen</span>
+    <span class="item-content"><a href="https://oxygentw.net/author/oxygen/">oxygen</a></span>
   </p>
   <p class="copyright-item">
     <span class="item-title">上次更新</span>
@@ -439,7 +432,7 @@
   
   <p class="copyright-item">
     <span class="item-title">授權條款</span>
-    <span class="item-content">Copyright © 2017-2024 oxygen. All rights reserved.</span>
+    <span class="item-content">Copyright © 2017-2025 oxygen. All rights reserved.</span>
   </p>
 </div>
 
@@ -599,7 +592,7 @@
     &copy;
     
       2017 -
-    2024
+    2025
     <span class="heart">
       
       <i class="iconfont">

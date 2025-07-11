@@ -26,7 +26,8 @@
 <meta name="mobile-web-app-capable" content="yes">
 
 <meta name="author" content="oxygen" />
-  <meta name="description" content="最近在學 Flutter，想說拿以前的 Android 手機來做測試，沒想到&amp;hellip;.忘記密碼了!!!! 只好去想辦法把密碼解開，於是有了這篇筆記&amp;he" />
+  <meta name="description" content="最近在學 Flutter，想說拿以前的 Android 手機來做測試，沒想到&hellip;.忘記密碼了!!!! 只好去想辦法把密碼解開，於是有了這篇筆記&hellip;
+" />
 <meta name="keywords" content="手機忘記密碼, Android adb password, adb, 破解手機密碼, Android 密碼" />
 
 
@@ -35,7 +36,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.131.0" />
+<meta name="generator" content="Hugo 0.148.0" />
 
 
 <link rel="canonical" href="https://oxygentw.net/blog/computer/remove-android-password/" />
@@ -56,7 +57,7 @@
 
 
 
-<link rel="stylesheet" href="/sass/jane.min.b495b9d81714f85c2c181722869d38324395662be76faebf5a6e36f1b996d1d0.css" integrity="" media="screen" crossorigin="anonymous">
+<link rel="stylesheet" href="/sass/jane.min.2d2189efee6cec3ea8e6d6a81b2cfbca060635e152dca5d5ce35bfb8b4226ead.css" integrity="" media="screen" crossorigin="anonymous">
 
 
 
@@ -65,7 +66,7 @@
 <meta property="og:url" content="https://oxygentw.net/blog/computer/remove-android-password/">
   <meta property="og:site_name" content="氧氣橘子">
   <meta property="og:title" content="移除 Android 手機螢幕鎖定密碼">
-  <meta property="og:description" content="最近在學 Flutter，想說拿以前的 Android 手機來做測試，沒想到….忘記密碼了!!!! 只好去想辦法把密碼解開，於是有了這篇筆記&amp;he">
+  <meta property="og:description" content="最近在學 Flutter，想說拿以前的 Android 手機來做測試，沒想到….忘記密碼了!!!! 只好去想辦法把密碼解開，於是有了這篇筆記…">
   <meta property="og:locale" content="zh_tw">
   <meta property="og:type" content="article">
     <meta property="article:section" content="blog">
@@ -73,14 +74,14 @@
     <meta property="article:modified_time" content="2020-09-04T00:00:00+00:00">
 
   <meta itemprop="name" content="移除 Android 手機螢幕鎖定密碼">
-  <meta itemprop="description" content="最近在學 Flutter，想說拿以前的 Android 手機來做測試，沒想到….忘記密碼了!!!! 只好去想辦法把密碼解開，於是有了這篇筆記&amp;he">
+  <meta itemprop="description" content="最近在學 Flutter，想說拿以前的 Android 手機來做測試，沒想到….忘記密碼了!!!! 只好去想辦法把密碼解開，於是有了這篇筆記…">
   <meta itemprop="datePublished" content="2020-09-04T00:00:00+00:00">
   <meta itemprop="dateModified" content="2020-09-04T00:00:00+00:00">
   <meta itemprop="wordCount" content="446">
   <meta itemprop="keywords" content="手機忘記密碼,Android adb password,adb,破解手機密碼,Android 密碼">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="移除 Android 手機螢幕鎖定密碼">
-  <meta name="twitter:description" content="最近在學 Flutter，想說拿以前的 Android 手機來做測試，沒想到….忘記密碼了!!!! 只好去想辦法把密碼解開，於是有了這篇筆記&amp;he">
+  <meta name="twitter:description" content="最近在學 Flutter，想說拿以前的 Android 手機來做測試，沒想到….忘記密碼了!!!! 只好去想辦法把密碼解開，於是有了這篇筆記…">
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -92,8 +93,6 @@
 <![endif]-->
 
 
-  
-    
       <script async src="https://www.googletagmanager.com/gtag/js?id=4942793011"></script>
       <script>
         var doNotTrack = false;
@@ -108,10 +107,6 @@
           gtag('config', '4942793011');
         }
       </script>
-    
-  
-
-
 
 
 </head>
@@ -327,7 +322,6 @@
           2020-09-04
         </time>
         <div class="post-category">
-            <a href="https://oxygentw.net/categories/computer/"> computer </a>
             
           </div>
         <span class="more-meta"> 約 446 字 </span>
@@ -358,11 +352,10 @@
 </div>
 </div></p>
 <blockquote>
-<p>*<a href="https://chocolatey.org/">chocolatey</a> 是 Windows 下的套件管理工具，用來模擬類 Unix 系統中的套件管理工具，例如 brew, apt, yum&hellip;&hellip;</p>
-</blockquote>
+<p>*<a href="https://chocolatey.org/">chocolatey</a> 是 Windows 下的套件管理工具，用來模擬類 Unix 系統中的套件管理工具，例如 brew, apt, yum&hellip;&hellip;</p></blockquote>
 <p>.</p>
 <p>接著將要解除密碼的手機進入 Recovery mode，並用USB線和電腦連接，以啟用ADB偵錯模式。
-通常是在關機的狀態下同時按住<strong>電源鍵與音量下鍵</strong>，如果這樣不行也不知如何開啟請看<a href="https://www.google.com/search?q=%E9%96%8B%E5%95%9F+recovery+mode">Android recoveru mode</a>，或去搜尋你的手機型號怎麼開啟 Recovery mode。</p>
+通常是在關機的狀態下同時按住<strong>電源鍵與音量下鍵</strong>，如果這樣不行也不知如何開啟請看<a href="https://www.google.com/search?q=%E9%96%8B%E5%95%9F&#43;recovery&#43;mode">Android recoveru mode</a>，或去搜尋你的手機型號怎麼開啟 Recovery mode。</p>
 <p>接下來就進入重點了，打開終端機，檢查 ADB 有沒有找到 android 設備。 <br>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -453,7 +446,7 @@
 <div class="post-copyright">
   <p class="copyright-item">
     <span class="item-title">文章作者</span>
-    <span class="item-content">oxygen</span>
+    <span class="item-content"><a href="https://oxygentw.net/author/oxygen/">oxygen</a></span>
   </p>
   <p class="copyright-item">
     <span class="item-title">上次更新</span>
@@ -465,7 +458,7 @@
   
   <p class="copyright-item">
     <span class="item-title">授權條款</span>
-    <span class="item-content">Copyright © 2017-2024 oxygen. All rights reserved.</span>
+    <span class="item-content">Copyright © 2017-2025 oxygen. All rights reserved.</span>
   </p>
 </div>
 
@@ -625,7 +618,7 @@
     &copy;
     
       2017 -
-    2024
+    2025
     <span class="heart">
       
       <i class="iconfont">

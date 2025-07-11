@@ -26,7 +26,8 @@
 <meta name="mobile-web-app-capable" content="yes">
 
 <meta name="author" content="oxygen" />
-  <meta name="description" content="紀錄 Apache Server 的一些基礎安全設定，可以避免伺服器版本號或作業系統等機敏性資料輕易的被取得，雖然說真的有心人士要攻擊的話這些簡單的設定應該也防不了，" />
+  <meta name="description" content="紀錄 Apache Server 的一些基礎安全設定，可以避免伺服器版本號或作業系統等機敏性資料輕易的被取得，雖然說真的有心人士要攻擊的話這些簡單的設定應該也防不了，不過總是多一分保障啦，至少可以擋一些技術不成熟的攻擊者啊XD
+" />
 
 
 
@@ -34,7 +35,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.131.0" />
+<meta name="generator" content="Hugo 0.148.0" />
 
 
 <link rel="canonical" href="https://oxygentw.net/blog/computer/apache-hide-sensitive-info/" />
@@ -55,7 +56,7 @@
 
 
 
-<link rel="stylesheet" href="/sass/jane.min.b495b9d81714f85c2c181722869d38324395662be76faebf5a6e36f1b996d1d0.css" integrity="" media="screen" crossorigin="anonymous">
+<link rel="stylesheet" href="/sass/jane.min.2d2189efee6cec3ea8e6d6a81b2cfbca060635e152dca5d5ce35bfb8b4226ead.css" integrity="" media="screen" crossorigin="anonymous">
 
 
 
@@ -64,7 +65,7 @@
 <meta property="og:url" content="https://oxygentw.net/blog/computer/apache-hide-sensitive-info/">
   <meta property="og:site_name" content="氧氣橘子">
   <meta property="og:title" content="Apache Server 隱藏敏感性資訊設定">
-  <meta property="og:description" content="紀錄 Apache Server 的一些基礎安全設定，可以避免伺服器版本號或作業系統等機敏性資料輕易的被取得，雖然說真的有心人士要攻擊的話這些簡單的設定應該也防不了，">
+  <meta property="og:description" content="紀錄 Apache Server 的一些基礎安全設定，可以避免伺服器版本號或作業系統等機敏性資料輕易的被取得，雖然說真的有心人士要攻擊的話這些簡單的設定應該也防不了，不過總是多一分保障啦，至少可以擋一些技術不成熟的攻擊者啊XD">
   <meta property="og:locale" content="zh_tw">
   <meta property="og:type" content="article">
     <meta property="article:section" content="blog">
@@ -72,14 +73,14 @@
     <meta property="article:modified_time" content="2019-02-03T00:00:00+00:00">
 
   <meta itemprop="name" content="Apache Server 隱藏敏感性資訊設定">
-  <meta itemprop="description" content="紀錄 Apache Server 的一些基礎安全設定，可以避免伺服器版本號或作業系統等機敏性資料輕易的被取得，雖然說真的有心人士要攻擊的話這些簡單的設定應該也防不了，">
+  <meta itemprop="description" content="紀錄 Apache Server 的一些基礎安全設定，可以避免伺服器版本號或作業系統等機敏性資料輕易的被取得，雖然說真的有心人士要攻擊的話這些簡單的設定應該也防不了，不過總是多一分保障啦，至少可以擋一些技術不成熟的攻擊者啊XD">
   <meta itemprop="datePublished" content="2019-02-03T00:00:00+00:00">
   <meta itemprop="dateModified" content="2019-02-03T00:00:00+00:00">
   <meta itemprop="wordCount" content="494">
-  <meta itemprop="keywords" content="Computer">
+  <meta itemprop="keywords" content="Oxygen">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Apache Server 隱藏敏感性資訊設定">
-  <meta name="twitter:description" content="紀錄 Apache Server 的一些基礎安全設定，可以避免伺服器版本號或作業系統等機敏性資料輕易的被取得，雖然說真的有心人士要攻擊的話這些簡單的設定應該也防不了，">
+  <meta name="twitter:description" content="紀錄 Apache Server 的一些基礎安全設定，可以避免伺服器版本號或作業系統等機敏性資料輕易的被取得，雖然說真的有心人士要攻擊的話這些簡單的設定應該也防不了，不過總是多一分保障啦，至少可以擋一些技術不成熟的攻擊者啊XD">
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -91,8 +92,6 @@
 <![endif]-->
 
 
-  
-    
       <script async src="https://www.googletagmanager.com/gtag/js?id=4942793011"></script>
       <script>
         var doNotTrack = false;
@@ -107,10 +106,6 @@
           gtag('config', '4942793011');
         }
       </script>
-    
-  
-
-
 
 
 </head>
@@ -326,7 +321,6 @@
           2019-02-03
         </time>
         <div class="post-category">
-            <a href="https://oxygentw.net/categories/computer/"> computer </a>
             
           </div>
         <span class="more-meta"> 約 494 字 </span>
@@ -353,45 +347,45 @@
 <br/>
 <p>詳細參數說明參考 <a href="http://httpd.apache.org/docs/2.2/mod/core.html#servertokens" target="_blank">httpd.apache.org 的文件</a></p>
 <table>
-<thead>
-<tr>
-<th>參數</th>
-<th>說明</th>
-<th>Response header 範例</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Full</td>
-<td>全部顯示</td>
-<td>Server: Apache/2.0.41 (Unix) PHP/4.2.2 MyMod/1.2</td>
-</tr>
-<tr>
-<td>OS</td>
-<td>詳細伺服器軟體版本號與作業系統</td>
-<td>Server: Apache/2.0.41 (Unix)</td>
-</tr>
-<tr>
-<td>Min(imal)</td>
-<td>詳細伺服器軟體版本號</td>
-<td>Server: Apache/2.0.41</td>
-</tr>
-<tr>
-<td>Minor</td>
-<td>伺服器軟體版本號</td>
-<td>Server: Apache/2.0</td>
-</tr>
-<tr>
-<td>Major</td>
-<td>精簡伺服器軟體版本號</td>
-<td>Server: Apache/2</td>
-</tr>
-<tr>
-<td>Prod(uctOnly)</td>
-<td>僅顯示伺服器軟體</td>
-<td>Server: Apache</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th>參數</th>
+          <th>說明</th>
+          <th>Response header 範例</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Full</td>
+          <td>全部顯示</td>
+          <td>Server: Apache/2.0.41 (Unix) PHP/4.2.2 MyMod/1.2</td>
+      </tr>
+      <tr>
+          <td>OS</td>
+          <td>詳細伺服器軟體版本號與作業系統</td>
+          <td>Server: Apache/2.0.41 (Unix)</td>
+      </tr>
+      <tr>
+          <td>Min(imal)</td>
+          <td>詳細伺服器軟體版本號</td>
+          <td>Server: Apache/2.0.41</td>
+      </tr>
+      <tr>
+          <td>Minor</td>
+          <td>伺服器軟體版本號</td>
+          <td>Server: Apache/2.0</td>
+      </tr>
+      <tr>
+          <td>Major</td>
+          <td>精簡伺服器軟體版本號</td>
+          <td>Server: Apache/2</td>
+      </tr>
+      <tr>
+          <td>Prod(uctOnly)</td>
+          <td>僅顯示伺服器軟體</td>
+          <td>Server: Apache</td>
+      </tr>
+  </tbody>
 </table>
 <hr>
 <br/>
@@ -461,7 +455,7 @@
 <div class="post-copyright">
   <p class="copyright-item">
     <span class="item-title">文章作者</span>
-    <span class="item-content">oxygen</span>
+    <span class="item-content"><a href="https://oxygentw.net/author/oxygen/">oxygen</a></span>
   </p>
   <p class="copyright-item">
     <span class="item-title">上次更新</span>
@@ -473,7 +467,7 @@
   
   <p class="copyright-item">
     <span class="item-title">授權條款</span>
-    <span class="item-content">Copyright © 2017-2024 oxygen. All rights reserved.</span>
+    <span class="item-content">Copyright © 2017-2025 oxygen. All rights reserved.</span>
   </p>
 </div>
 
@@ -633,7 +627,7 @@
     &copy;
     
       2017 -
-    2024
+    2025
     <span class="heart">
       
       <i class="iconfont">

@@ -4,149 +4,2733 @@
     <title>Blogs on 氧氣橘子</title>
     <link>https://oxygentw.net/blog/</link>
     <description>Recent content in Blogs on 氧氣橘子</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <lastBuildDate>Sat, 03 Aug 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://oxygentw.net/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+        <atom:link href="https://oxygentw.net/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>在美國生病怎麼辦 | 美國 Urgent Care 經驗分享</title>
       <link>https://oxygentw.net/blog/travel/visit-urgent-care-in-us/</link>
       <pubDate>Sat, 03 Aug 2024 00:00:00 +0000</pubDate>
+      
       <guid>https://oxygentw.net/blog/travel/visit-urgent-care-in-us/</guid>
-      <description>上個月中去美國參加研討會，因此順便也在佛羅里達待了一個禮拜，但在過程中發生了點小插曲，從抵達的第三天開始發燒，我把我帶去的藥吃完無法改善，到</description>
+      
+        <description>&lt;p&gt;上個月中去美國參加研討會，因此順便也在佛羅里達待了一個禮拜，但在過程中發生了點小插曲，從抵達的第三天開始發燒，我把我帶去的藥吃完無法改善，到 Walmart 購買成藥雖然可以將體溫降下來，但藥效結束後仍繼續發燒，連續三天加上其他症狀，我懷疑有細菌感染的可能，又不敢貿然使用抗生素，於是決定前往 Urgent Care 就醫。&lt;/p&gt;
+&lt;p&gt;要去看醫生前我查了一大堆資料，但還是不太確定到底應該怎麼做，因此決定分享一下我的經驗給其他可能需要的人參考。&lt;/p&gt;
+&lt;h2 id=&#34;美國醫療分級&#34;&gt;美國醫療分級&lt;/h2&gt;
+&lt;p&gt;在開始前就得先談談美國的醫療分級，在美國的醫療體系分為三大類：Emergency Room、Urgent Care 和一般診所（Primary Care），一般診所通常需要預約，是用來處理一些不太緊迫的問題，像慢性病追蹤、身體檢查之類的，而另外兩類則是處理較有時間急迫性的情況，通常不用提前預約且等候時間不會太長，Emergency Room 和 Urgent Care 的差別在於 Emergency Room 適用於&lt;strong&gt;緊急且有生命危險&lt;/strong&gt;的情況，而 Urgent Care 則是適用於&lt;strong&gt;緊急但無生命危險&lt;/strong&gt;，如突然發燒、拉肚子、無生命危險的創傷等等。因此在我的情況下較為適用的是 Urgent Care。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Emergency Room：緊急且有生命危險&lt;/li&gt;
+&lt;li&gt;Urgent Care：緊急但無生命危險&lt;/li&gt;
+&lt;li&gt;Primary Care：非緊急情況，需要預約&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;urgent-care-就醫過程&#34;&gt;Urgent Care 就醫過程&lt;/h2&gt;
+&lt;p&gt;在我旅館附近的那間 Urgent Care 需要上他們的網站填寫預約，大家可以在 Google Map 上看有沒有預約的連結，但這個預約比較像是告知他們你預計要到的時間，如果沒有預約也是可以直接到現場掛號。因為當天研討會結束還要處理一些事情，我預約到23:00的時段，不得不說，當我開車抵達診所時我花了十分鐘才做好心理準備，一方面是這是我第一次在國外就醫，我不確定我有沒有辦法順利溝通，另一方面是那間診所看起來真的很像鬼屋&amp;hellip;診所內看起來很正常，但他位於一個商場的二樓，空蕩蕩的停車場，昏暗的樓梯間，只有那間診所亮著燈，診所裡也沒有其他患者，看起來實在有點詭異&amp;hellip;&lt;/p&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://oxygentw.net/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:600px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/visit-urgent-care-in-us/image1.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/visit-urgent-care-in-us/image1.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;總之，我站在門外等到有另一位看起來是要領藥的人進去，我才敢跟著他一起進去XD 那邊冷清到我甚至在櫃台旁站了三分鐘櫃檯的人才發現我，他詢問我我的情況，然後問我有沒有保險，因為我沒有當地的醫療保險，我詢問他通常我的情況需要多少錢，因為我的旅平險最多只能給付到600美元，他們說依照我的症狀大約是450元。 嗯&amp;hellip;夠用，但還是好貴&amp;hellip;&lt;/p&gt;
+&lt;p&gt;決定看診後他請我上網填寫初診資料，接著他就帶我到診療室中。&lt;/p&gt;
+&lt;p&gt;從這邊開始就跟台灣的醫療很不一樣了，進去後一個工作人員(應該是護理師)開始詢問我的症狀、病史、用藥史、過敏等等，並測量生命徵象(體溫、血壓、心率、血氧)，體溫我記得是101°F左右，所以他對我進行流感與A型鏈球菌的快速檢測，然後請我等候結果。&lt;/p&gt;
+&lt;p&gt;等候的過程中醫生有進來做簡單的檢查，檢查喉嚨、耳朵等等，同時詢問我是否願意接受注射的處置，大致上就是跟我詳細的解釋這個處置的理由以及價位，兩針要價250美元&amp;hellip; 我想說等到檢驗結果出來，如果都陰性的話就算了，用症狀治療的藥物處理就好。&lt;/p&gt;
+&lt;p&gt;又等了一段時間，護理師走進來跟我說我的檢驗結果出來了，他一開口我直接驚呆了 &lt;br&gt;
+他說「You got positive for both.」 &lt;br&gt;
+啥&amp;hellip;? &lt;br&gt;
+「Is that possible..?」我問 &lt;br&gt;
+「Yeah. You are a strong man」他尷尬地笑著說。&lt;/p&gt;
+&lt;p&gt;嗯&amp;hellip;謝謝稱讚，但同時感染流感與A型鏈球菌&amp;hellip; 會不會太過分&amp;hellip; 好吧，於是我同意抗生素與類固醇的注射，畢竟醫生說這個處置是可以申請保險的，他處理過很多這種案例，我就相信他&amp;hellip; 因為藥物容量的關係，得注射在臀中肌，我說這是我第一次打這個部位，不太知道怎麼做，他很有耐心的說明，在注射過程中也隨時確定我的狀況，注射完後他還跟我說「Congratulations. This is your first time.」我只能微笑應對，我的英文沒有好到可以回覆這種幽默回應XD 但整體的感覺很好，他們會想辦法緩解你的緊張，而且也不會讓人覺得他想要趕快把你搞定。&lt;/p&gt;
+&lt;p&gt;雖然這一切都是建立在相當高昂的醫療費上，流感快篩70幾元、Strep. A 快篩50幾元，在台灣 Streptococcus A 快篩只給付200點，流感只有150點，難怪醫生跟不要錢一樣的開&amp;hellip; 台灣健保雖然讓每個人都看得起醫生，卻是透過降低醫療品質與醫療人員待遇得來的。&lt;/p&gt;
+&lt;p&gt;結果最終醫療費是大約500元，他們跟我說要我去一間CVS藥局領藥，他們已經把處方傳過去，到現場報姓名即可，然後那間藥局距離診所13公里&amp;hellip;你能想像你在新莊看完醫生要到台北車站才能領藥嗎XD 但美國就是這樣，甚麼東西都離好遠。到CVS後領藥因為沒有醫療保險又付了100多塊的藥費，這個旅平險還是不能理賠的，因為難以證明這個藥費與突發疾病相關。&lt;/p&gt;
+&lt;p&gt;大致上是這樣，我發現在美國就醫困難的是真的好貴，溝通其實不會很困難，就算聽不懂一些句子他們也會用簡單的話解釋給你聽，想辦法讓你理解，就算是英文不好的人搭配上 Google 翻譯應該也能順利完成。倒是他們的藥挺複雜的，不像台灣診所會分三餐幫你包起來，你必須一個一個說明書去看，看藥甚麼時候吃，吃幾顆，哪一種藥藥先吃等等資訊。&lt;/p&gt;
+&lt;br/&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:600px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/visit-urgent-care-in-us/image2.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/visit-urgent-care-in-us/image2.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+甚至有這種六天療程每天都有不同時間指示的藥。&lt;/p&gt;
+&lt;br/&gt;
+&lt;hr&gt;
+&lt;p&gt;這次旅行對我來說真的是突發狀況的訓練營，除了發燒外還有很多其他的突發情況，尤其這次大多數時間又是只有我一個人，在邁阿密高燒的那個晚上真的是覺得很無助，但離家14000公里，再怎麼樣也只能靠自己想出辦法，雖然當下真的很想放棄，但往好處想，經過了這次，我學到如何在海外處理「自己無法處理的醫療情況」，這也是個很重要的經驗，相信在未來的旅程中若是再遇到類似情況，我能更加知道如何應對。&lt;/p&gt;
+</description>
+      
     </item>
+    
     <item>
       <title>國網中心台灣杉三號使用筆記</title>
       <link>https://oxygentw.net/blog/computer/nchc-taiwania-iii-note/</link>
       <pubDate>Sun, 19 Nov 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://oxygentw.net/blog/computer/nchc-taiwania-iii-note/</guid>
-      <description>最近在使用國網中心台灣杉三號上花了點時間研究跟嘗試才成功送出訓練任務，雖然國網的說明已經有寫到大部份資訊了，但相對比較分散而且有些小細節沒有</description>
+      
+        <description>&lt;p&gt;最近在使用國網中心台灣杉三號上花了點時間研究跟嘗試才成功送出訓練任務，雖然國網的說明已經有寫到大部份資訊了，但相對比較分散而且有些小細節沒有提到，我便整理一下寫成筆記免得自己以後忘記，也順便分享給大家，希望大家少遇到一些問題XD&lt;/p&gt;
+&lt;p&gt;此筆記情境為使用台灣杉三號生醫專用節點進行影像分類的訓練任務，以 Python 為程式語言，Pytorch 為深度學習套件，過程中需要調用 GPU 資源。&lt;/p&gt;
+&lt;h2 id=&#34;1-登入&#34;&gt;1. 登入&lt;/h2&gt;
+&lt;p&gt;如同一般的登入方式，使用ssh連線至台灣杉三號生醫專用節點，並輸入帳號密碼。 &lt;br&gt;
+生醫專用節點主機位置：&lt;a href=&#34;twnia3.nchc.org.tw&#34;&gt;twnia3.nchc.org.tw&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;比較特別的是台灣杉三號多了一層 MOTP 驗證，&lt;del&gt;MOTP可以在&lt;a href=&#34;https://iservice.nchc.org.tw/nchc_service/index.php?lang_type=&#34;&gt;計算資源服務網&lt;/a&gt;中：會員中心&amp;gt;會員資訊&amp;gt;主機帳號資訊&amp;gt;OTP 認證碼中找到。&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;2025更新：現在國網的 OTP 改用 IDExpert 了，可參考以下網址進行設定 &lt;a href=&#34;https://man.twcc.ai/@TWCC-III-manual/SJwbCxzqO&#34;&gt;https://man.twcc.ai/@TWCC-III-manual/SJwbCxzqO&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;2-載入-conda-環境&#34;&gt;2. 載入 Conda 環境&lt;/h2&gt;
+&lt;p&gt;台灣杉三號中有預載許多常用的環境，可以使用 &lt;code&gt;module avail&lt;/code&gt; 查看。&lt;/p&gt;
+&lt;p&gt;其中也包含 miniconda3，我們可以使用 &lt;code&gt;module load miniconda3&lt;/code&gt; 或 &lt;code&gt;ml miniconda3&lt;/code&gt; 指令載入 miniconda3 環境，載入後使用方式就與一般conda相同。&lt;/p&gt;
+&lt;h2 id=&#34;3-gpu-環境--pytorch-安裝&#34;&gt;3. GPU 環境 / Pytorch 安裝&lt;/h2&gt;
+&lt;p&gt;在 Conda 環境中安裝套件就和平常的操作方式一樣，比較不同的是 Pytorch，因為台灣杉三號的 CUDA 版本較舊，如果直接安裝最新版會導致 Pytorch 找不到 GPU，因此我們要先使用 &lt;code&gt;nvidia-smi&lt;/code&gt; 指令查看 CUDA 版本。&lt;/p&gt;
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:800px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/nchc-taiwania-iii-note/nvidia.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/nchc-taiwania-iii-note/nvidia.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;截至今日(2023/11/19)，CUDA版本為 11.0，因此我們要到 &lt;a href=&#34;https://pytorch.org/get-started/previous-versions/&#34;&gt;Pytorch 網站&lt;/a&gt; 找適用 CUDA 小於 11.0 的版本安裝，到目前適合的安裝指令為:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# CUDA 10.2&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;conda install &lt;span class=&#34;nv&#34;&gt;pytorch&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;==&lt;/span&gt;1.12.1 &lt;span class=&#34;nv&#34;&gt;torchvision&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;==&lt;/span&gt;0.13.1 &lt;span class=&#34;nv&#34;&gt;torchaudio&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;==&lt;/span&gt;0.12.1 &lt;span class=&#34;nv&#34;&gt;cudatoolkit&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;10.2 -c pytorch&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;另外，透過這樣的環境安裝方式不需要去考慮 cuDNN 的問題，他會自動處理好。&lt;/p&gt;
+&lt;p&gt;安裝好後可以用下列指令測試是否成功安裝並且 Pytorch 可以順利使用 GPU。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#應回應 True&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;python -c &lt;span class=&#34;s2&#34;&gt;&amp;#34;import torch; print(torch.cuda.is_available())&amp;#34;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;4-其餘套件安裝&#34;&gt;4. 其餘套件安裝&lt;/h2&gt;
+&lt;p&gt;到此我們應該已經順利安裝好 Pytorch 並設定好 GPU 了，我列出一些在影像處理與深度學習常用的套件安裝指令。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;conda install -c conda-forge seaborn &lt;span class=&#34;c1&#34;&gt;#DO NOT USE 0.12.*. IT HAS A BUG IN HEATMAP&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;conda install -c anaconda scikit-learn pillow pandas
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;conda install -c conda-forge matplotlib
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;conda install scikit-learn-intelex
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;conda install -c conda-forge tqdm
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;conda install -c conda-forge opencv&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;安裝完後環境設定就完成了!&lt;/p&gt;
+&lt;h2 id=&#34;5-儲存空間&#34;&gt;5. 儲存空間&lt;/h2&gt;
+&lt;p&gt;根據國網中心的說明文件，我們有這些地方可以儲存我們的資料，一般建議執行檔相關或環境檔案才儲存於 &lt;code&gt;/home/$USER&lt;/code&gt;，其餘 Data 儲存在有10TB額度的 &lt;code&gt;/staging/biology/$USER&lt;/code&gt;。&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;空間&lt;/th&gt;
+          &lt;th&gt;容量&lt;/th&gt;
+          &lt;th&gt;刪除期限&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;/home/$USER&lt;/td&gt;
+          &lt;td&gt;100G&lt;/td&gt;
+          &lt;td&gt;無&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;/staging/biology/$USER&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;10T&lt;/td&gt;
+          &lt;td&gt;無&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;/work/$USER&lt;/td&gt;
+          &lt;td&gt;1500GB&lt;/td&gt;
+          &lt;td&gt;一個月不動檔案刪除&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;/staging/reserve/PI_folder&lt;/td&gt;
+          &lt;td&gt;付費空間需另外申請&lt;/td&gt;
+          &lt;td&gt;無&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;巨量資料儲存服務&lt;/td&gt;
+          &lt;td&gt;付費空間需另外申請&lt;/td&gt;
+          &lt;td&gt;無&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;6-提交任務&#34;&gt;6. 提交任務&lt;/h2&gt;
+&lt;p&gt;台灣杉三號屬於高速運算資源，也就是俗稱的超級電腦，使用 &lt;a href=&#34;https://zh.wikipedia.org/zh-tw/Slurm%E5%B7%A5%E4%BD%9C%E8%B0%83%E5%BA%A6%E5%B7%A5%E5%85%B7&#34;&gt;slurm&lt;/a&gt; 作為資源管理工具管理資源的分配，簡單來說就是當你要執行運算時，你得先向 slurm 提交你的運算要求，等 slurm 將資源分配給你進行運算。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;千萬不要在登入節點直接進行運算作業&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;slurm 常用的指令有:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;sbatch job.sh&lt;/code&gt;：將 job.sh 提交給 slurm 申請資源，他會回應一串 job id。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;scancel $job_id&lt;/code&gt;：中止特定任務。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;scontrol show jib $job_id&lt;/code&gt;：顯示特定任務狀態。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;比較要注意的是我們必須在 &lt;code&gt;job.sh&lt;/code&gt; 中定義一些 slurm 的設定(你也可以在命令列用參數輸入，但偏麻煩我就不介紹了) 我直接參考國網中心的說明文件範例。&lt;/p&gt;
+&lt;h4 id=&#34;jobsh-cpu-任務&#34;&gt;job.sh CPU 任務&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#!/usr/bin/sh
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;#SBATCH -A MST109178        # project number&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#SBATCH -J Job_name         # Job name&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#SBATCH -p ngs53G           # Partition Name 等同PBS裡面的 -q Queue name&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#SBATCH -c 8                # 使用的core數 請參考Queue資源設定 &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#SBATCH --mem=53g           # 使用的記憶體量 請參考Queue資源設定&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#SBATCH -o out.log          # Path to the standard output file &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#SBATCH -e err.log          # Path to the standard error ouput file&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#SBATCH --mail-user=XXXX@narlabs.org.tw    # email&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#SBATCH --mail-type=BEGIN,END              # 指定送出email時機 可為NONE, BEGIN, END, FAIL, REQUEUE, ALL&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;Hello world!&amp;#39;&lt;/span&gt;  &lt;span class=&#34;c1&#34;&gt;##這邊寫入你要執行的指令&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;裡面的 Partition Name 請參考說明中 &lt;a href=&#34;https://man.twcc.ai/@Ldk_QYrOR2yo3m8Cb1549A/rkegDKslF#PartitionQueue-%E8%B3%87%E6%BA%90%E8%A8%AD%E5%AE%9A&#34;&gt;Partition(Queue) 資源設定&lt;/a&gt; 表格，依自己所需要的運算資源選擇，其中 Partition Name, memory size, core number，需要和表格中的一樣，如果設定錯誤的話會無法執行任務。&lt;/p&gt;
+&lt;p&gt;例如表格中&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Partition&lt;/th&gt;
+          &lt;th&gt;記憶體配置(&amp;ndash;mem)&lt;/th&gt;
+          &lt;th&gt;核心數搭配(-c)&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;ngs7G&lt;/td&gt;
+          &lt;td&gt;7G&lt;/td&gt;
+          &lt;td&gt;1&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;我們在設定檔中就應該要設定為：
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#SBATCH -p ngs7G   &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#SBATCH -c 1            &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#SBATCH --mem=7g     &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;GPU 任務的設定方式類似，只是多了一行GPU核心數的設定，一樣用國網中心說明文件的範例說明：&lt;/p&gt;
+&lt;h4 id=&#34;jobsh-gpu-任務&#34;&gt;job.sh GPU 任務&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#!/usr/bin/sh
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;#SBATCH -A MST109178        # Account name/project number&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#SBATCH -J Job_name         # Job name&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#SBATCH -p ngs1gpu           # Partition Name 等同PBS裡面的 -q Queue name&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#SBATCH -c 6               # 使用的core數  請參考Queue資源設定 &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#SBATCH --mem=90g           # 使用的記憶體量 請參考Queue資源設定&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#SBATCH --gres=gpu:1        # 使用的GPU數 請參考Queue資源設定&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#SBATCH -o out.log          # Path to the standard output file &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#SBATCH -e err.log          # Path to the standard error ouput file&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#SBATCH --mail-user=XXXX@narlabs.org.tw    # email&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#SBATCH --mail-type=BEGIN,END              # 指定送出email時機 可為NONE, BEGIN, END, FAIL, REQUEUE, ALL&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;nvidia-smi  &lt;span class=&#34;c1&#34;&gt;##這邊寫入你要執行的指令&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;主要就是多了 &lt;code&gt;#SBATCH --gres=gpu:1&lt;/code&gt; 這行而已。 &lt;br&gt;
+其他相關設定如 log file path、email 通知等等就看後面註解的說明。&lt;/p&gt;
+&lt;h2 id=&#34;7-實際執行&#34;&gt;7. 實際執行&lt;/h2&gt;
+&lt;p&gt;到這一步我們應該可以順利撰寫 script file 並提交給 slrum 執行了，完整的 job.sh 範例如下：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#!/usr/bin/sh
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;#SBATCH -A MST109178        # Account name/project number&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#SBATCH -J Job_name         # Job name&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#SBATCH -p ngs1gpu           # Partition Name 等同PBS裡面的 -q Queue name&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#SBATCH -c 6               # 使用的core數  請參考Queue資源設定 &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#SBATCH --mem=90g           # 使用的記憶體量 請參考Queue資源設定&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#SBATCH --gres=gpu:1        # 使用的GPU數 請參考Queue資源設定&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#SBATCH -o out.log          # Path to the standard output file &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#SBATCH -e err.log          # Path to the standard error ouput file&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#SBATCH --mail-user=XXXX@narlabs.org.tw    # email&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#SBATCH --mail-type=BEGIN,END              # 指定送出email時機 可為NONE, BEGIN, END, FAIL, REQUEUE, ALL&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;module purge
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ml miniconda3
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;conda activate myenv &lt;span class=&#34;c1&#34;&gt;#進入 conda 環境&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;python -u /path/to/script.py&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;以上有一個重點!! python 後面要加上 &lt;code&gt;-u&lt;/code&gt;，這個參數的意思是強迫 STDOUT、STDERR 不要使用 buffer(force the stdout and stderr streams to be unbuffered)，如果不這樣做的話會發現在執行過程中 log file 都不會有輸出，要等到執行結束或緩衝滿了才會被輸出到 log file，這樣對於監控程式的執行很不方便。&lt;/p&gt;
+&lt;h2 id=&#34;8-預載模型&#34;&gt;8. 預載模型&lt;/h2&gt;
+&lt;p&gt;這是一個坑，感謝學長幫我解決這問題。說明文件中沒有提到但很重要的一點是&lt;strong&gt;運算節點沒有網路連線&lt;/strong&gt;，因此需要網路的python指令無法執行，例如深度學習常用的下載 Pre-trained 模型
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;resnet34&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;models&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;resnet34&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;pretrained&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;True&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;這段程式就會執行失敗，因為在節點裡無法下載。解決方法是我們先在登入節點的終端機手動用 python下載想要的模型，等到送入運算節點時就會自動包含我們曾經下載過的 pre-trained 模型了。&lt;/p&gt;
+&lt;p&gt;手動執行以下程式碼：
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;torchvision&lt;/span&gt; &lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;models&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;resnet34&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;models&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;resnet34&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;pretrained&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;True&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;#換成你要用的模型 ResNet, VGG, etc...&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;h2 id=&#34;9-其他指令&#34;&gt;9. 其他指令&lt;/h2&gt;
+&lt;p&gt;其他有一些實用的指令&lt;/p&gt;
+&lt;h4 id=&#34;1-查詢剩餘空間額度&#34;&gt;1. 查詢剩餘空間額度&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;/usr/lpp/mmfs/bin/mmlsquota -u &lt;span class=&#34;nv&#34;&gt;$USER_ID&lt;/span&gt; --block-size auto fs01 fs02&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;fs01: /work&lt;/li&gt;
+&lt;li&gt;fs02: /home&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;2-查詢工作記憶體使用狀況&#34;&gt;2. 查詢工作記憶體使用狀況&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sacct -j &lt;span class=&#34;nv&#34;&gt;$jobid&lt;/span&gt; -o JobID,JobName,Partition,User,NCPUS,AllocNodes,maxrss,Start,End,Elapsed,State&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://man.twcc.ai/@Ldk_QYrOR2yo3m8Cb1549A/&#34;&gt;https://man.twcc.ai/@Ldk_QYrOR2yo3m8Cb1549A/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zh.wikipedia.org/zh-tw/Slurm%E5%B7%A5%E4%BD%9C%E8%B0%83%E5%BA%A6%E5%B7%A5%E5%85%B7&#34;&gt;https://zh.wikipedia.org/zh-tw/Slurm%E5%B7%A5%E4%BD%9C%E8%B0%83%E5%BA%A6%E5%B7%A5%E5%85%B7&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pytorch.org/get-started/previous-versions/&#34;&gt;https://pytorch.org/get-started/previous-versions/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      
     </item>
+    
     <item>
       <title>利用 MacOS 捷徑 app 控制 OpenWRT OpenVPN</title>
       <link>https://oxygentw.net/blog/computer/mac-shortcut-control-openwrt-vpn/</link>
       <pubDate>Sun, 20 Aug 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://oxygentw.net/blog/computer/mac-shortcut-control-openwrt-vpn/</guid>
-      <description>這篇給我自己紀錄用的，我的 OpenWRT 上裝有 OpenVPN Client，這樣直接利用路由器連回工作場域所有連這台路由器 WiFi 的設備都可以同時進入內網，雖然 OpenWRT 有提供網頁</description>
+      
+        <description>&lt;p&gt;這篇給我自己紀錄用的，我的 OpenWRT 上裝有 OpenVPN Client，這樣直接利用路由器連回工作場域所有連這台路由器 WiFi 的設備都可以同時進入內網，雖然 OpenWRT 有提供網頁介面控制 VPN 開關，但！這樣每次還要開網頁、打密碼、選擇頁籤等等，我就懶！這樣我也嫌麻煩，我想要按一個按鈕就可以開/關 VPN，於是便有這篇紀錄了🤣&lt;/p&gt;
+&lt;h2 id=&#34;1-利用-command-line-控制-openvpn&#34;&gt;1. 利用 Command Line 控制 OpenVPN&lt;/h2&gt;
+&lt;p&gt;首先我需要先利用 CLI 設定 OpenVPN 的方法，上網查資料後找到下面這樣的格式可以啟動 OpenVPN 並將結果輸出到指定 log 檔。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;若 OpenWRT 沒有安裝 pkill 則用 &lt;em&gt;opkg install procps-ng-pkill&lt;/em&gt; 安裝&lt;/p&gt;&lt;/blockquote&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;openvpn --config CONFIG_FILE --daemon --log-append LOG_FILE&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;而利用 `pkill`` 可以終止 openVPN 服務
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;pkill -f openvpn.*CONFIG_FILE&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;h2 id=&#34;寫成-shell-script&#34;&gt;寫成 Shell Script&lt;/h2&gt;
+&lt;p&gt;有了以上關鍵的指令後，借助 ChatGPT 的力量，腳本就這樣完成了！&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;20
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;21
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;22
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;23
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;24
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;25
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;26
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;27
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;28
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;29
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;30
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;31
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;32
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;33
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;34
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;35
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;36
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;37
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Replace with the actual paths and filenames&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;CONFIG_FILE&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;YOUR_CONFIG_PATH&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;LOG_FILE&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;YOUR_LOG_PATH&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;start_vpn&lt;span class=&#34;o&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Starting OpenVPN...&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    openvpn --config &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$CONFIG_FILE&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt; --daemon --log-append &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$LOG_FILE&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;OpenVPN started.&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;stop_vpn&lt;span class=&#34;o&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Stopping OpenVPN...&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    pkill -f &lt;span class=&#34;s2&#34;&gt;&amp;#34;openvpn.*&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$CONFIG_FILE&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;OpenVPN stopped.&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;case&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$1&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt; in
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    start&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        start_vpn
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    stop&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        stop_vpn
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            stop&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;                           
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        stop_vpn                    
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;;;&lt;/span&gt;                          
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    restart&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;                        
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        stop_vpn                    
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        start_vpn          
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;;;&lt;/span&gt;       
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    *&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;           
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Usage: &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$0&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt; {start|stop|restart}&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;nb&#34;&gt;exit&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;                               
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;;;&lt;/span&gt;                                   
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;esac&lt;/span&gt;                                         
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                                             
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;exit&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;0&lt;/span&gt; &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;測試了一下確實可以開關 OpenVPN! 接著進入下一步驟。&lt;/p&gt;
+&lt;h2 id=&#34;桌面端控制程式&#34;&gt;桌面端控制程式&lt;/h2&gt;
+&lt;p&gt;原先打算在 OpenWRT 上面運行 API Server 去接受外來指令在呼叫腳本執行，但之前的經驗這樣防火牆好像不好處理而且也太費工，因此決定直接用 SSH 協定傳送指令就好，至於要用什麼傳呢？ Python GUI 打包成 App bundle，不行，封裝太麻煩；利用 Swift 寫原生 MacOS App 呢？ 不行，我還不太會寫，最後想到，&lt;a href=&#34;https://support.apple.com/zh-tw/guide/shortcuts/welcome/ios&#34;&gt;Apple Shortcut&lt;/a&gt; 啊！蘋果內建的捷徑 App 就可以執行 SSH 指令了，拉拉方塊，最後長這樣。&lt;/p&gt;
+&lt;p&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://oxygentw.net/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/mac-shortcut-control-openwrt-vpn/1.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/mac-shortcut-control-openwrt-vpn/1.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/mac-shortcut-control-openwrt-vpn/2.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/mac-shortcut-control-openwrt-vpn/2.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/mac-shortcut-control-openwrt-vpn/3.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/mac-shortcut-control-openwrt-vpn/3.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;除了基本的啟動/停止/重啟之外我還加入了開啟 log file 的選項，如果要基本偵錯可以不用 SSH 進去。&lt;/p&gt;
+&lt;h2 id=&#34;完成&#34;&gt;完成！&lt;/h2&gt;
+&lt;p&gt;將捷徑加入選單列後便可以直接在選單列使用捷徑開關 OpenWRT 的 VPN! 我覺得唯一的問題是密碼寫死在裡面這樣有點不太安全，但自己的電腦又為了方便就將就一下，或是之後改成利用憑證登入~&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/mac-shortcut-control-openwrt-vpn/4.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/mac-shortcut-control-openwrt-vpn/4.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/mac-shortcut-control-openwrt-vpn/5.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/mac-shortcut-control-openwrt-vpn/5.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+</description>
+      
     </item>
+    
     <item>
       <title>Home Assistant 連接小米智慧燈泡</title>
       <link>https://oxygentw.net/blog/computer/hass-connect-xiaomi-smartbulb/</link>
       <pubDate>Tue, 24 Jan 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://oxygentw.net/blog/computer/hass-connect-xiaomi-smartbulb/</guid>
-      <description>最近想把小米智慧燈泡接入 Home Assistant，這款燈泡是走 yeelight 系統的，所以理所當然我打算用 Home Assistant 官方的 Yeelight intergation 去連接，卻發現我不論怎麼用都只會得到 No</description>
+      
+        <description>&lt;p&gt;最近想把小米智慧燈泡接入 Home Assistant，這款燈泡是走 yeelight 系統的，所以理所當然我打算用 Home Assistant 官方的 &lt;a href=&#34;https://www.home-assistant.io/integrations/yeelight/&#34;&gt;Yeelight intergation&lt;/a&gt; 去連接，卻發現我不論怎麼用都只會得到 &lt;em&gt;No devices found on the network&lt;/em&gt; 或是 &lt;em&gt;Failed to connect&lt;/em&gt; 的錯誤，我就不明白了，搜尋許多解法後找到一個&lt;a href=&#34;https://community.home-assistant.io/t/integrate-mi-smart-led-bulb-easy-steps/312174&#34;&gt;社群論壇大大給的方法&lt;/a&gt;，成功接入！紀錄一下順便寫個中文版教學給其他遇到相同問題的人參考~&lt;/p&gt;
+&lt;br/&gt;
+&lt;blockquote&gt;
+&lt;p&gt;注意此方法需要安裝 Python！&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h2 id=&#34;燈泡連接米家app&#34;&gt;燈泡連接米家App&lt;/h2&gt;
+&lt;p&gt;首先先依照說明書將燈泡初始化，連接到&lt;strong&gt;米家app&lt;/strong&gt;，連上去後你就可以用米家 App 控制燈泡，但會發現 yeelight intergration 怎樣都找不到燈泡。&lt;/p&gt;
+&lt;p&gt;主因是燈泡沒有開啟開發者模式，我們無法從外面控制，用以下的方法可以把開發者模式打開。&lt;/p&gt;
+&lt;h2 id=&#34;取得燈泡-token&#34;&gt;取得燈泡 Token&lt;/h2&gt;
+&lt;p&gt;我們要先取得控制燈泡的 token，下載 &lt;a href=&#34;https://github.com/PiotrMachowski/Xiaomi-cloud-tokens-extractor/releases/latest/download/token_extractor.zip&#34;&gt;https://github.com/PiotrMachowski/Xiaomi-cloud-tokens-extractor/releases/latest/download/token_extractor.zip&lt;/a&gt; 解壓縮並進到目錄中(&lt;a href=&#34;https://github.com/PiotrMachowski/Xiaomi-cloud-tokens-extractor&#34;&gt;GitHub&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;安裝需要的 python 相依性套件
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;pip install -r requirements.txt&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;br/&gt;
+&lt;p&gt;接著執行腳本提取燈泡的token，需要輸入&lt;strong&gt;米家app&lt;/strong&gt;的帳號密碼
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;python3 token_extractor.py&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;br/&gt;
+&lt;p&gt;輸入完帳號密碼後他會顯示&lt;code&gt;Server (one of: cn, de, us, ru, tw, sg, in, i2) Leave empty to check all available:&lt;/code&gt;問你伺服器，如果不知道就直接按Enter即可。&lt;/p&gt;
+&lt;p&gt;如果有成功提取 token 會出現類似下面的文字，把 token 和 ip 記下來！(圖中我遮掉了)
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/hass-connect-xiaomi-smartbulb/getToken.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/hass-connect-xiaomi-smartbulb/getToken.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;打開開發者模式&#34;&gt;打開開發者模式&lt;/h2&gt;
+&lt;p&gt;接下來要下命令給燈泡開啟開發者模式，首先先安裝套件
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;pip install pycrypto
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;pip install python-miio&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;有趣是我安裝&lt;code&gt;pycrypto&lt;/code&gt;其實是失敗的，但我還是可以用(? XD&lt;/p&gt;
+&lt;br/&gt;
+&lt;p&gt;安裝好後在終端機中輸入，將 &lt;code&gt;IP_OF_DEVICE&lt;/code&gt; 改成燈泡 IP，&lt;code&gt;TOKEN_OF_DEVICE&lt;/code&gt;改成剛剛記下來的燈泡 token。
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;miiocli yeelight --ip IP_OF_DEVICE --token TOKEN_OF_DEVICE set_developer_mode &lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;br/&gt;
+&lt;p&gt;若他回應類似下面的文字就是成功了!&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Setting developer mode to True
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ok
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;接下來再回到 Home Assistant 他應該就會自己找到燈泡，如果沒有的話再去 intergrations 那邊新增 yeelight 讓他搜尋就會找到了！&lt;/p&gt;
+&lt;br/&gt;
+&lt;p&gt;參考資料&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/PiotrMachowski/Xiaomi-cloud-tokens-extractor&#34;&gt;https://github.com/PiotrMachowski/Xiaomi-cloud-tokens-extractor&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://community.home-assistant.io/t/integrate-mi-smart-led-bulb-easy-steps/312174&#34;&gt;https://community.home-assistant.io/t/integrate-mi-smart-led-bulb-easy-steps/312174&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.home-assistant.io/integrations/yeelight/&#34;&gt;https://www.home-assistant.io/integrations/yeelight/&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+      
     </item>
+    
     <item>
       <title>學習利器介紹 - Anki</title>
       <link>https://oxygentw.net/blog/computer/anki-app/</link>
       <pubDate>Tue, 02 Aug 2022 00:00:00 +0000</pubDate>
+      
       <guid>https://oxygentw.net/blog/computer/anki-app/</guid>
-      <description>知道 Anki 這款軟體已經有一段時間，但他操作起來仍然需要一點時間摸索，因為國考的關係被迫學習如何使用他XD 也順利地利用 Anki 的輔助考過國考了！ 便來介紹</description>
+      
+        <description>&lt;p&gt;知道 Anki 這款軟體已經有一段時間，但他操作起來仍然需要一點時間摸索，因為國考的關係被迫學習如何使用他XD 也順利地利用 Anki 的輔助考過國考了！ 便來介紹一下 Anki 如何使用，希望讓想要入門的人可以更快上手。&lt;/p&gt;
+&lt;h2 id=&#34;簡介&#34;&gt;簡介&lt;/h2&gt;
+&lt;p&gt;Anki 是一款輔助記憶方面學習的軟體(例如英文單字、解剖學等)，類似我們以前會使用的單字卡，在正面寫上中文，背面寫上英文這樣，他同時導入了&lt;strong&gt;間隔重複學習法(Spaced memory repetition)&lt;/strong&gt;，主要是利用不斷的重複回憶增加記憶的強度的原理幫你分配學習的進度。&lt;/p&gt;
+&lt;p&gt;Anki 的軟體中答完題目可以依照對題目的熟悉度選擇&lt;strong&gt;重來、困難、良好、簡單&lt;/strong&gt;這四種選擇，Spaced memory repetition的排程器會自動幫你決定同樣的題目應該要多久後再次出現，有興趣可以去研究他更詳細的排程原理與參考，但只適用於學習的話就不用管他，依照感覺選擇即可，依照我的經驗最常用的就是&lt;strong&gt;重來和良好&lt;/strong&gt;這兩項而已。&lt;/p&gt;
+&lt;h2 id=&#34;下載&#34;&gt;下載&lt;/h2&gt;
+&lt;p&gt;前往 &lt;a href=&#34;https://apps.ankiweb.net/&#34;&gt;https://apps.ankiweb.net/&lt;/a&gt; 下載 Anki 主程式，主流作業系統都有支援。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Android：&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.ichi2.anki&amp;amp;hl=zh_TW&amp;amp;gl=US&#34;&gt;https://play.google.com/store/apps/details?id=com.ichi2.anki&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;iOS: &lt;a href=&#34;https://apps.apple.com/tw/app/ankimobile-flashcards/id373493387&#34;&gt;https://apps.apple.com/tw/app/ankimobile-flashcards/id373493387&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;AnkiWeb：&lt;a href=&#34;https://ankiweb.net/about&#34;&gt;https://ankiweb.net/about&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Source(GitHub)：&lt;a href=&#34;https://github.com/ankitects/anki&#34;&gt;https://github.com/ankitects/anki&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;*iOS因為開發平台每年都要付給Apple費用，所以 Anki for iOS 要用約台幣830元購買，如果不想花錢，可以到 &lt;a href=&#34;https://ankiweb.net/about&#34;&gt;AnkiWeb&lt;/a&gt;，功能沒有App那麼完善，但基本的複習功能都有了。&lt;/p&gt;
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/anki-app/1.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/anki-app/1.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;安裝好後進去會進入選擇設定檔的介面，可以依照自己要學習的不同東西建立不同的設定檔&lt;/p&gt;
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/anki-app/2.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/anki-app/2.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;新增牌組&#34;&gt;新增牌組&lt;/h2&gt;
+&lt;p&gt;點擊新增牌組就可以直接新增一個牌組，但如果你想要設定子牌組的話可以利用「::」做分割，例如：&lt;/p&gt;
+&lt;p&gt;新增 &lt;code&gt;Deck::Subdeck&lt;/code&gt;，那麼牌組結構就會像&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Deck
+&lt;ul&gt;
+&lt;li&gt;Subdeck&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;新增題目&#34;&gt;新增題目&lt;/h2&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/anki-app/3-1.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/anki-app/3-1.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+點擊畫面上方的新增即可新增題目，Anki 預設主要有四種題目類型：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;基本型&lt;/li&gt;
+&lt;li&gt;克漏字&lt;/li&gt;
+&lt;li&gt;反向卡片&lt;/li&gt;
+&lt;li&gt;輸入答案&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;首先從基本型開始介紹，他就是正面寫上問題，背面寫上答案，和我們用的紙本單字卡一樣。
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/anki-app/4.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/anki-app/4.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;使用起來類似這樣，正面
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/anki-app/6.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/anki-app/6.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;顯示背面答案後
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/anki-app/5.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/anki-app/5.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;br/&gt;
+&lt;p&gt;克漏字可以在正面的題目敘述中挖空，而背面額外的欄位可以不填，那只是用來做額外的筆記用的
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/anki-app/cloze2.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/anki-app/cloze2.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;克漏字題目預覽
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/anki-app/cloze1.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/anki-app/cloze1.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;br/&gt;
+至於剩下的兩種，反向卡片其實就是基本型的反向，基本型是正面作為題目，但在反向基本型中背面也會被作為題目，例如；
+&lt;ul&gt;
+&lt;li&gt;CD23 &amp;lt;-&amp;gt; FcεRII&lt;/li&gt;
+&lt;li&gt;FcεRII &amp;lt;-&amp;gt; CD23&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;你只需要新增一張卡片，他就會自己幫你生成另一張反向的卡片&lt;/p&gt;
+&lt;p&gt;而輸入答案在背單字上很好用，他會自動檢查你輸入的單字和正確答案的差別
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/anki-app/input2.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/anki-app/input2.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;br/&gt;
+&lt;p&gt;簡單的整理&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;類型&lt;/th&gt;
+          &lt;th&gt;正面&lt;/th&gt;
+          &lt;th&gt;背面&lt;/th&gt;
+          &lt;th&gt;特點&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;基本型&lt;/td&gt;
+          &lt;td&gt;文字題目&lt;/td&gt;
+          &lt;td&gt;答案&lt;/td&gt;
+          &lt;td&gt;普通的卡片&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;克漏字&lt;/td&gt;
+          &lt;td&gt;克漏字挖空&lt;/td&gt;
+          &lt;td&gt;不需要&lt;/td&gt;
+          &lt;td&gt;可以在文字中挖空&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;反向型&lt;/td&gt;
+          &lt;td&gt;答案/題目&lt;/td&gt;
+          &lt;td&gt;答案/題目&lt;/td&gt;
+          &lt;td&gt;一次生成正反兩組卡片&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;輸入答案&lt;/td&gt;
+          &lt;td&gt;文字題目+輸入框&lt;/td&gt;
+          &lt;td&gt;答案&lt;/td&gt;
+          &lt;td&gt;檢查輸入與正確答案的差別&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;練習&#34;&gt;練習&lt;/h2&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/anki-app/ans.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/anki-app/ans.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+複習時可以點選顯示答案翻開背面，或是鍵盤空白鍵也可以翻開背面
+下面的數字代表&lt;strong&gt;新題目數量 + 正在學習中的數量 + 到期數量&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;新加入的題目會歸類到新題目，一但有被複習過，就會被加入學習中，而到期是指排程器覺得你應該再複習一次了，於是把題目放到到期的分類中，一但整個牌組都複習完，三個數字都應該是0。&lt;/p&gt;
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/anki-app/ans2.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/anki-app/ans2.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;顯示答案後下面會出現四個狀態，依據自己對題目的熟悉度選擇，基本上答錯我就會選重來，而上面的時間是指這個題目下一次出現的時間，你覺得題目越難，他就會出現的越頻繁直到學會，他的快捷鍵分別是&lt;strong&gt;重來-1, 困難-2, 良好-3, 簡單-4&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;擱置和暫停的區別&#34;&gt;擱置和暫停的區別&lt;/h3&gt;
+&lt;p&gt;如果你想暫時跳過題目，可以點其他-&amp;gt;&lt;strong&gt;擱置題目&lt;/strong&gt;，那麼這個題目就會到第二天才出現。  &lt;br&gt;
+如果你不想再做某一個題目，點其他-&amp;gt;&lt;strong&gt;暫停題目&lt;/strong&gt;，這個題目在你解除暫停前都不會出現。&lt;/p&gt;
+&lt;h2 id=&#34;同步資料&#34;&gt;同步資料&lt;/h2&gt;
+&lt;p&gt;如果有到AnkiWeb申請免費的帳號，那就可以把牌組上傳到他們的伺服器，在不同台電腦、手機間同步複習狀態，這功能相當好用，出門在外用手機複習，回家再用電腦同步回來即可！&lt;/p&gt;
+&lt;br/&gt;
+&lt;p&gt;以上就是Anki的基本操作介紹，這套軟體本身挺複雜的，一開始入門真的看不太懂，加上他還有許多的擴充功能可以下載，有時間的話再寫文章介紹，熟悉這軟體最好的方法就是去玩玩看，玩久了自然就會理出頭緒！&lt;/p&gt;
+</description>
+      
     </item>
+    
     <item>
       <title>vscode-markdown-pdf 匯出含有 latex 的文件</title>
       <link>https://oxygentw.net/blog/computer/vscode-markdown-pdf-latex/</link>
       <pubDate>Fri, 03 Jun 2022 00:00:00 +0000</pubDate>
+      
       <guid>https://oxygentw.net/blog/computer/vscode-markdown-pdf-latex/</guid>
-      <description>vscode-markdown-pdf 是一個方便的VS Code Extension，可以將code中的PDF轉換為圖片、PDF、HTML等格式，但最近匯出的時候發現裡面含有 Latex 數學公式的</description>
+      
+        <description>&lt;p&gt;&lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf&#34;&gt;vscode-markdown-pdf&lt;/a&gt; 是一個方便的VS Code Extension，可以將code中的PDF轉換為圖片、PDF、HTML等格式，但最近匯出的時候發現裡面含有 Latex 數學公式的筆記沒辦法順利轉換，於是上網找了一下解決方法(&lt;a href=&#34;https://github.com/yzane/vscode-markdown-pdf/issues/21&#34;&gt;Source&lt;/a&gt;)，紀錄一下。&lt;/p&gt;
+&lt;p&gt;如果還沒有安裝也可以到連結裡面安裝喔~&lt;/p&gt;
+&lt;h2 id=&#34;開啟模板檔案&#34;&gt;開啟模板檔案&lt;/h2&gt;
+&lt;p&gt;開啟檔案 &lt;code&gt;/Users/&amp;lt;username&amp;gt;/.vscode/extensions/yzane.markdown-pdf-1.x.x/template/template.html&lt;/code&gt;&lt;/p&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;加入轉換-javascript-檔案&#34;&gt;加入轉換 JavaScript 檔案&lt;/h2&gt;
+&lt;p&gt;將這兩行HTML貼在template.html檔案的最後面，讓渲染過程中載入這兩個 JavaScript 檔案
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;script&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;text/javascript&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;src&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;script&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;script&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;text/x-mathjax-config&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;MathJax&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Hub&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Config&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;({&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;tex2jax&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;inlineMath&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[[&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;$&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;$&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]]},&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;messageStyle&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;none&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;});&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;script&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;如下圖
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://oxygentw.net/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/vscode-markdown-pdf-latex/1.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/vscode-markdown-pdf-latex/1.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;再重新右鍵匯出一次 Markdown 就會有渲染過的結果囉！&lt;/p&gt;
+&lt;h2 id=&#34;完成&#34;&gt;完成!&lt;/h2&gt;
+&lt;p&gt;匯出結果
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/vscode-markdown-pdf-latex/2.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/vscode-markdown-pdf-latex/2.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+</description>
+      
     </item>
+    
     <item>
       <title>中山醫授權軟體認證程式</title>
       <link>https://oxygentw.net/blog/computer/csmu-kms-gui/</link>
       <pubDate>Wed, 16 Feb 2022 00:00:00 +0000</pubDate>
+      
       <guid>https://oxygentw.net/blog/computer/csmu-kms-gui/</guid>
-      <description>希望讓大家在認證 Windows 和 Office 上可以少受點苦的小程式。 1. 下載 CSMU-KMS 軟體 載點1：GitHub 載點2：oxygentw.net 2. 解壓縮後執行 CSMU-KMS.exe 3. 選擇你要認證</description>
+      
+        <description>&lt;p&gt;希望讓大家在認證 Windows 和 Office 上可以少受點苦的小程式。&lt;/p&gt;
+&lt;h2 id=&#34;1-下載-csmu-kms-軟體&#34;&gt;1. 下載 CSMU-KMS 軟體&lt;/h2&gt;
+&lt;p&gt;載點1：&lt;a href=&#34;https://github.com/oxygen-TW/CSMU-KMS/releases/download/v1.3/v1.3.zip&#34;&gt;GitHub&lt;/a&gt; &lt;br&gt;
+載點2：&lt;a href=&#34;https://oxygentw.net/files/CSMU-KMS/v1.3.zip&#34;&gt;oxygentw.net&lt;/a&gt; &lt;br&gt;
+&lt;br/&gt;&lt;/p&gt;
+&lt;h2 id=&#34;2-解壓縮後執行-csmu-kmsexe&#34;&gt;2. 解壓縮後執行 CSMU-KMS.exe&lt;/h2&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://oxygentw.net/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/csmu-kms-gui/1.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/csmu-kms-gui/1.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;3-選擇你要認證的項目&#34;&gt;3. 選擇你要認證的項目&lt;/h2&gt;
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/csmu-kms-gui/2.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/csmu-kms-gui/2.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;4-導向到學校kms驗證網頁輸入帳號密碼&#34;&gt;4. 導向到學校KMS驗證網頁，輸入帳號密碼&lt;/h2&gt;
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/csmu-kms-gui/3.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/csmu-kms-gui/3.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;5-看到驗證成功後點選左上角的繼續啟動程序&#34;&gt;5. 看到驗證成功後點選左上角的繼續啟動程序&lt;/h2&gt;
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/csmu-kms-gui/4.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/csmu-kms-gui/4.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;6-稍等程式執行完成後下面會顯示啟動狀態&#34;&gt;6. 稍等程式執行，完成後下面會顯示啟動狀態&lt;/h2&gt;
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/csmu-kms-gui/5.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/csmu-kms-gui/5.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&#34;常見問答&#34;&gt;常見問答&lt;/h1&gt;
+&lt;h3 id=&#34;1-防毒軟體說這個檔案有病毒會不會危險&#34;&gt;1. 防毒軟體說這個檔案有病毒，會不會危險?&lt;/h3&gt;
+&lt;p&gt;因為我是執行學校給的cmd腳本，這種做法和病毒很像，只是病毒執行惡意腳本，我執行學校的驗證腳本，我可以告訴你我沒有放惡意程式碼，至於要不要信任我就看個人囉~&lt;/p&gt;
+&lt;p&gt;真的覺得我會搞事的話，這邊是程式原始碼可供檢查/自行編譯：&lt;a href=&#34;https://github.com/oxygen-TW/CSMU-KMS/tree/main/CSMU-KMS&#34;&gt;https://github.com/oxygen-TW/CSMU-KMS/tree/main/CSMU-KMS&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;2-我剛裝好office為啟動執行失敗&#34;&gt;2. 我剛裝好Office，為啟動執行失敗?&lt;/h3&gt;
+&lt;p&gt;裝好 Office 後要隨便開啟一個Office的軟體(Word, Excel&amp;hellip;隨便)，然後關掉後再驗證，不然會找不到金鑰。&lt;/p&gt;
+&lt;h3 id=&#34;3-為何要求我要用系統管理員執行&#34;&gt;3. 為何要求我要用系統管理員執行?&lt;/h3&gt;
+&lt;p&gt;Office 認證動作必須用提升的全縣進行，使用學校腳本亦同。
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/csmu-kms-gui/6.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/csmu-kms-gui/6.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;br/&gt;
+&lt;h3 id=&#34;4-如果我要同時啟動-windows-和-office-我需要打兩次密碼嗎&#34;&gt;4. 如果我要同時啟動 Windows 和 Office 我需要打兩次密碼嗎?&lt;/h3&gt;
+&lt;p&gt;如果時間間隔不長，只需要打第一次密碼，第二次啟動跳到輸入密碼的視窗直接點左上角返回即可，&lt;strong&gt;但如果你不確定&lt;/strong&gt;，都打密碼就不會錯。&lt;/p&gt;
+&lt;h3 id=&#34;5-狀態顯示啟動失敗為什麼&#34;&gt;5. 狀態顯示啟動失敗，為什麼?&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;可能你沒有成功輸入帳號密碼&lt;/li&gt;
+&lt;li&gt;你剛裝好Office沒有先啟動一個應用程式，參考 &lt;a href=&#34;https://oxygentw.net/blog/computer/csmu-kms-gui/#%e6%88%91%e5%89%9b%e8%a3%9d%e5%a5%bdOffice%ef%bc%8c%e7%82%ba%e5%95%9f%e5%8b%95%e5%9f%b7%e8%a1%8c%e5%a4%b1%e6%95%97?&#34;&gt;QA#2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;你選錯啟動版本(2010, 2013, 2016&amp;hellip;不同)&lt;/li&gt;
+&lt;li&gt;以上都確定做到仍然失敗，可以聯絡我: &lt;a href=&#34;mailto:oxygen5307@gmail.com&#34;&gt;Mail&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+      
     </item>
+    
     <item>
       <title>Home Assistant 連接 Synology UPS Server</title>
       <link>https://oxygentw.net/blog/computer/ha-connect-upsbynas/</link>
       <pubDate>Tue, 15 Feb 2022 00:00:00 +0000</pubDate>
+      
       <guid>https://oxygentw.net/blog/computer/ha-connect-upsbynas/</guid>
-      <description>便宜的家用 UPS 很多時候都只有一個 USB 通訊埠，我理所當然地把它拿去給最重要的 NAS 連接，但我還有一台運行 Home Assistant 的伺服器怎麼辦? 雖然我的經驗告訴我小樹莓派</description>
+      
+        <description>&lt;p&gt;便宜的家用 UPS 很多時候都只有一個 USB 通訊埠，我理所當然地把它拿去給最重要的 NAS 連接，但我還有一台運行 Home Assistant 的伺服器怎麼辦? 雖然我的經驗告訴我小樹莓派挺耐操的，斷電也還好，只是都接UPS了為甚麼不把效能發揮到極致呢!&lt;/p&gt;
+&lt;p&gt;Synology 的 NAS 有內建的 UPS Server 功能，他上面是寫說可以給其他 Synology NAS 連接，其實他只是運行 &lt;a href=&#34;https://networkupstools.org/&#34;&gt;NUT Server&lt;/a&gt;這個工具罷了，所以表示大家都可以連線，我用 Home Assistant 介紹，但其實所有電腦都可以用相同 &lt;a href=&#34;https://oxygentw.net/blog/computer/ha-connect-upsbynas/#setting-config&#34;&gt;Config&lt;/a&gt; 連線喔!&lt;/p&gt;
+&lt;br/&gt;
+&lt;hr&gt;
+&lt;p&gt;首先先把NAS連上不斷電系統，到&lt;code&gt;控制台-&amp;gt;電源&amp;amp;硬體-&amp;gt;啟動不斷電系統系統支援、啟動網路不斷電系統系統伺服器&lt;/code&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://oxygentw.net/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/ha-connect-upsbynas/1.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/ha-connect-upsbynas/1.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;br/&gt; 
+&lt;p&gt;接著在允許的 Synology NAS 設定允許連線的 IP &lt;br&gt;
+&lt;strong&gt;有開啟防火牆的話記得允許 TCP 3493&lt;/strong&gt;
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/ha-connect-upsbynas/2.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/ha-connect-upsbynas/2.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;br/&gt;
+&lt;p&gt;到 Home Assitant 裡搜尋 Network UPS Tool 並新增
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/ha-connect-upsbynas/3.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/ha-connect-upsbynas/3.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;br/&gt;
+&lt;p&gt;輸入以下資訊，帳號密碼是 Synology 預設的
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/ha-connect-upsbynas/4.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/ha-connect-upsbynas/4.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;setting-config&#34;&gt;Setting Config&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Host: HomeAssitant IP&lt;/li&gt;
+&lt;li&gt;Port 3493&lt;/li&gt;
+&lt;li&gt;Username: monuser&lt;/li&gt;
+&lt;li&gt;Password: secret&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+&lt;p&gt;這樣就可以從Home Assitant 取得 UPS 資訊啦！
+進一步可以搭配 Automation 或 RedNode 設定斷電通知或是電力不足自動關機。
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/ha-connect-upsbynas/5.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/ha-connect-upsbynas/5.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;br/&gt;
+&lt;p&gt;我自己是用 RedNode 設定斷電/斷線/低電量Line Notify通知，並在電力不足時將Home Assistant主機關機！
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/ha-connect-upsbynas/6.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/ha-connect-upsbynas/6.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+</description>
+      
     </item>
+    
     <item>
       <title>MySQL 新增使用者與資料庫指令</title>
       <link>https://oxygentw.net/blog/computer/new-mysql-user/</link>
       <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
+      
       <guid>https://oxygentw.net/blog/computer/new-mysql-user/</guid>
-      <description>建立新資料庫 1 CREATE DATABASE &amp;#39;databaseName&amp;#39;; 簡單粗暴，直接新增即可。 建立新使用者 1 CREATE USER &amp;#39;user_name&amp;#39;@&amp;#39;localhost&amp;#39; IDENTIFIED BY &amp;#39;password&amp;#39;; user_name 為新使用者名稱 僅限本機登入則輸入localhost，若外部可登入則輸</description>
+      
+        <description>&lt;h2 id=&#34;建立新資料庫&#34;&gt;建立新資料庫&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;CREATE DATABASE &lt;span class=&#34;s1&#34;&gt;&amp;#39;databaseName&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;簡單粗暴，直接新增即可。&lt;/p&gt;
+&lt;h2 id=&#34;建立新使用者&#34;&gt;建立新使用者&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;CREATE USER &lt;span class=&#34;s1&#34;&gt;&amp;#39;user_name&amp;#39;&lt;/span&gt;@&lt;span class=&#34;s1&#34;&gt;&amp;#39;localhost&amp;#39;&lt;/span&gt; IDENTIFIED BY &lt;span class=&#34;s1&#34;&gt;&amp;#39;password&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;user_name 為新使用者名稱&lt;/li&gt;
+&lt;li&gt;僅限本機登入則輸入&lt;code&gt;localhost&lt;/code&gt;，若外部可登入則輸入&lt;code&gt;%&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;password 為新使用者密碼&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;設定使用者權限&#34;&gt;設定使用者權限&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;GRANT ALL PRIVILEGES ON &lt;span class=&#34;sb&#34;&gt;`&lt;/span&gt;database&lt;span class=&#34;sb&#34;&gt;`&lt;/span&gt; . * TO &lt;span class=&#34;s1&#34;&gt;&amp;#39;user&amp;#39;&lt;/span&gt;@&lt;span class=&#34;s1&#34;&gt;&amp;#39;localhost&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;這句意思是提升(所有權限) 在 (資料庫) 的 (所有資料表) 有效於 (使用者) @ (本機登入)
+有括弧的地方都可以視情況更改。&lt;/p&gt;
+&lt;p&gt;例如 Read-Only 的權限如下，亦即僅開啟 SELECT 權限。
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;GRANT SELECT ON database.* TO &lt;span class=&#34;s1&#34;&gt;&amp;#39;user&amp;#39;&lt;/span&gt;@&lt;span class=&#34;s1&#34;&gt;&amp;#39;localhost&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;br/&gt;
+&lt;p&gt;根據 &lt;a href=&#34;https://stackoverflow.com/questions/56165311/how-to-give-privilege-to-user-to-grant-other-users-read-only-access-in-mysql&#34;&gt;StackOverflow PirrenCode&lt;/a&gt; 的回答 MySQL能使用的權限有這些&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ALL PRIVILEGES – grants all privileges to the MySQL user&lt;/li&gt;
+&lt;li&gt;CREATE – allows the user to create databases and tables&lt;/li&gt;
+&lt;li&gt;DROP - allows the user to drop databases and tables&lt;/li&gt;
+&lt;li&gt;DELETE - allows the user to delete rows from specific MySQL table&lt;/li&gt;
+&lt;li&gt;INSERT - allows the user to insert rows into specific MySQL table&lt;/li&gt;
+&lt;li&gt;SELECT – allows the user to read the database&lt;/li&gt;
+&lt;li&gt;UPDATE - allows the user to update table rows&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;讀取修改資料&#34;&gt;讀取修改資料&lt;/h2&gt;
+&lt;p&gt;最後，使用 &lt;code&gt;flush privileges&lt;/code&gt; 可以直接將修改後的內容讀取到記憶體，不須重新啟動 MySQL。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;參考資料&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.rackspace.com/support/how-to/create-and-edit-users-in-mysql/&#34;&gt;https://docs.rackspace.com/support/how-to/create-and-edit-users-in-mysql/&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+      
     </item>
+    
     <item>
       <title>醫用真菌學常見學名整理表</title>
       <link>https://oxygentw.net/blog/notes/scientific-name-of-medical-myology/</link>
       <pubDate>Sat, 19 Jun 2021 00:00:00 +0000</pubDate>
+      
       <guid>https://oxygentw.net/blog/notes/scientific-name-of-medical-myology/</guid>
-      <description>管狀菌絲 - 接合菌綱 Zygomycetes 學名 中文名 Rhizopus spp. 根黴菌 Mucor 毛黴菌 Absidia spp. 犁頭黴菌 Syncephalastrum 共頭黴菌 Circinella spp. 卷黴菌 Cunninghamella 小克銀漢黴菌 暗色有隔菌絲 Dematiaceous 學名 中文名 Alternaria 鏈格孢黴菌 Stemphylium 匍根黴菌</description>
+      
+        <description>&lt;h2 id=&#34;管狀菌絲---接合菌綱-zygomycetes&#34;&gt;管狀菌絲 - 接合菌綱 Zygomycetes&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;學名&lt;/th&gt;
+          &lt;th&gt;中文名&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Rhizopus spp.&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;根黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Mucor&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;毛黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Absidia spp.&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;犁頭黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Syncephalastrum&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;共頭黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Circinella spp.&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;卷黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Cunninghamella&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;小克銀漢黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;暗色有隔菌絲-dematiaceous&#34;&gt;暗色有隔菌絲 Dematiaceous&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;學名&lt;/th&gt;
+          &lt;th&gt;中文名&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Alternaria&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;鏈格孢黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Stemphylium&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;匍根黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Epicoccum&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;附球黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Curvularia&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;彎孢黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Helminthosporium&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;長蠕孢黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Cladosporium&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;芽枝黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Nigrospora&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;黑孢黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Aureobasidium pullulans&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;出芽短梗黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Cladosporium carrionii&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;卡氏芽枝黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Phialophora verrucosa&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;疣狀瓶黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Phialophora jeanselmei&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;甄氏瓶黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Fonsecaea pedrosoi&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;裴氏著色黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Fonsecaea compacta&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;緊密著色黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;透明有隔菌絲&#34;&gt;透明有隔菌絲&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;學名&lt;/th&gt;
+          &lt;th&gt;中文名&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Aspergillus spp.&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;麹菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;A.fumigatus&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;煙麹菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;A.flavus&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;黃麹菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;A.niger&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;黑麹菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Penicillium&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;青黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Paecilomyces&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;擬青黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Scopulariopsis&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;帚黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Cephalosporium&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;頭孢黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Trichoderma&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;木黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Gliocladium&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;黏帚黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Fusarium&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;鐮刀菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Chrysosporium&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;金孢子黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Sepedonium&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;瘤孢黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Petriellidium(Allescheria)&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;阿利葉足腫黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Microsporum&lt;/em&gt; spp.&lt;/td&gt;
+          &lt;td&gt;小芽孢癬菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;M. audouinii&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;奧杜盎氏小芽孢癬菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;M. canis&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;犬小芽孢癬菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;M. gypseum&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;石膏樣小芽孢癬菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Trichophyton spp.&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;毛癬菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;T. mentagrophytes&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;鬆毛癬菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;T. rubrum&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;紅色毛癬菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;T. tonsurans&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;斷髮毛癬菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;T. verrucosum&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;疣狀毛癬菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;T. schoenleinii&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;許蘭氏毛癬菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;T. violaceum&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;紫色毛癬菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Epidermophyton spp.&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;表皮癬菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;E. floccosum&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;絮狀表皮癬菌&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;雙形黴菌-dimorphic-molds&#34;&gt;雙形黴菌 Dimorphic Molds&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;學名&lt;/th&gt;
+          &lt;th&gt;中文名&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Blastomyces dermatitidis&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;皮炎芽生菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Histoplasma capsulatum&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;莢膜組織胞菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Coccidioides inmitis&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;粗球孢子菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Sporothrix schenckii&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;申克氏孢子絲菌&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;酵母菌與類酵母菌-yeast--yeast-like&#34;&gt;酵母菌與類酵母菌 Yeast / Yeast-like&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;學名&lt;/th&gt;
+          &lt;th&gt;中文名&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Candida spp.&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;念珠菌屬&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;C. albicans&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;白色念珠菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;C. tropicalis&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;熱帶念珠菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;C.parapsilosis&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;近平滑念珠菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;C.pseudotropicalis&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;偽熱帶念珠菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;C. krusei&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;克柔氏念珠菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;C. glabrata&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;光滑念珠菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;C. dubliniensis&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;都柏林念珠菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Geotrichum&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;地黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Trichosporon&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;絲孢酵母菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Cryptococcus&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;隱球菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Rhodotorula&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;紅酵母菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Torulopsis&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;球擬酵母菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Saccharomyces&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;麵包酵母菌&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;p&gt;真的&amp;hellip;.好多&amp;hellip;.&lt;/p&gt;
+</description>
+      
     </item>
+    
     <item>
       <title>[筆記] 單株抗體製備與應用</title>
       <link>https://oxygentw.net/blog/notes/basic-mab-note/</link>
       <pubDate>Tue, 20 Apr 2021 00:00:00 +0000</pubDate>
+      
       <guid>https://oxygentw.net/blog/notes/basic-mab-note/</guid>
-      <description>單株(Monoclonal)抗體在血清免疫與癌症治療上有很重要的應用，正常人體中產生的抗體為多株(Polyclonal)抗體，以因應各式各樣</description>
+      
+        <description>&lt;p&gt;單株(Monoclonal)抗體在血清免疫與癌症治療上有很重要的應用，正常人體中產生的抗體為多株(Polyclonal)抗體，以因應各式各樣的入侵病原，但在臨床使用上因為太雜亂，應用有限，現在血清免疫檢驗的發展有很大一部分歸功於單株抗體的分離，1975年 Kohler 和 Milstein 成功融合B細胞與腫瘤細胞，創造出融合瘤，成功大量製備單株抗體。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;血清免疫檢驗中，沒有抗體不能解決的，如果有，那就加二級抗體。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h2 id=&#34;單株抗體製備&#34;&gt;單株抗體製備&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;合成 hapten-mimic&lt;/li&gt;
+&lt;li&gt;注入老鼠/兔子等生物體內產生免疫抗體&lt;/li&gt;
+&lt;li&gt;以融合瘤技術產生單株抗體&lt;/li&gt;
+&lt;li&gt;測試單株抗體的敏感度與專一性&lt;/li&gt;
+&lt;li&gt;複製單株抗體產生重組抗體&lt;/li&gt;
+&lt;li&gt;測試重組抗體的敏感度與專一性&lt;/li&gt;
+&lt;li&gt;決定重組抗體序列&lt;/li&gt;
+&lt;li&gt;重組抗體基因改造&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;融合瘤-hat-選殖技術&#34;&gt;融合瘤 HAT 選殖技術&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;B細胞具有產生抗體的能力，但是早期的B細胞存活時間很短&lt;/li&gt;
+&lt;li&gt;腫瘤細胞具有&amp;quot;不死化&amp;quot;的特性&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;製造出融合瘤(Hybridomas)，亦即將B細胞與腫瘤細胞融合，即可創造出&lt;strong&gt;可產生抗體也長期存活&lt;/strong&gt;的細胞。&lt;/p&gt;
+&lt;p&gt;首先，在腫瘤細胞的部分，將 Myeloma cells 以 8-Azaguanine 處理，創造出 Myeloma cells 缺乏HGPRT(Hypoxanthine-guanine phosphoribosyltransferase)，B細胞的部分則是將半抗原注射進老鼠體內，使其免疫系統產生對應抗體的B細胞，再取出老鼠腹腔液或脾臟組織，以ELISA/Flow cytometery技術測定抗體效價。&lt;/p&gt;
+&lt;p&gt;有了兩種細胞，我們便可以利用 polyethylene glycol(PEG) 嘗試融合，我們不會知道融合是否有成功，因此要進行接下來的選殖。&lt;/p&gt;
+&lt;p&gt;Picture: &lt;em&gt;de nove pathway and salvage pathway&lt;/em&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://oxygentw.net/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/basic-mab-note/pathway.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/basic-mab-note/pathway.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;選殖使用的培養基為 HAT medium&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;H: Hypoxanthine&lt;/li&gt;
+&lt;li&gt;T: Thymidine&lt;/li&gt;
+&lt;li&gt;A: Aminopterin(葉酸抑制劑)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;葉酸抑制劑會阻斷細胞進行 de nove pathway，強迫其進行 salvage pathway，但是前述提到處理過的腫瘤細胞為HGPRT-，他不能進行salvage pathway，因此在HAT培養基上會死亡，即使是不死化的癌細胞，完全阻斷他的代謝路徑他還是會死的&amp;hellip;..&lt;/p&gt;
+&lt;p&gt;B細胞有進行salvage pathway的能力，當腫瘤細胞與B細胞融合後同時也會得到B細胞的代謝能力，可以在 HAT 培養基上存活。&lt;/p&gt;
+&lt;p&gt;那沒有融合的純B細胞呢? 他可以利用 HAT 培養基耶，他是不是也會活下來? &lt;strong&gt;不會&lt;/strong&gt;，純B細胞這東西呢，在體外你給他再多的東西，時間到了他就死了，而且那時間還很短。&lt;/p&gt;
+&lt;p&gt;綜合以上，會活下來的細胞就是有融合成功的細胞，這步驟就叫&lt;strong&gt;選殖&lt;/strong&gt;，只允許有我們想要的性狀的細胞存活，其他都會死亡，接下來要進行下一步。&lt;/p&gt;
+&lt;h2 id=&#34;確認抗體敏感度與專一性&#34;&gt;確認抗體敏感度與專一性&lt;/h2&gt;
+&lt;p&gt;到這邊我們可以得到能產生抗體又不死的融合瘤細胞，但是我們要進一步了解他到底產生的抗體是不是我們想要的，我們可以再將融合瘤細胞打進老鼠體內擴增，或是試管中細胞培養都可以，濃度擴增後再用 EIA 或Western blotting 篩選有我們想要的專一性抗體，最後再進行基因定序確定序列。&lt;/p&gt;
+&lt;h2 id=&#34;單株抗體技術演進與命名&#34;&gt;單株抗體技術演進與命名&lt;/h2&gt;
+&lt;p&gt;現在的單株抗體已經可以分為很多種，常見以下這幾種&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;100%老鼠抗體：Murine monoclonal Ab&lt;/li&gt;
+&lt;li&gt;30%老鼠+70%人類抗體：Chimeric(嵌合) monoclonal Ab&lt;/li&gt;
+&lt;li&gt;5-10%老鼠+90-95%人類抗體：Humanized(仿人類) monoclonal Ab&lt;/li&gt;
+&lt;li&gt;100%人類抗體：Human monoclonal Ab&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;各種單株抗體命名是有規則的，當初藥理學如果知道這套規則應該會好讀很多@@&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;結尾皆是&lt;code&gt;-mab&lt;/code&gt;，意即 monoclonal antibody&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-u-&lt;/code&gt;，表示為人類單株抗體&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-zu-&lt;/code&gt;，表示為仿人類單株抗體&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-xi-&lt;/code&gt;，表示嵌合單株抗體&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-o-&lt;/code&gt;，老鼠單株抗體&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-a-&lt;/code&gt;，大鼠單株抗體&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-e-&lt;/code&gt;，倉鼠單株抗體&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-i&lt;/code&gt;，靈長類單株抗體&lt;/li&gt;
+&lt;li&gt;etc&amp;hellip;..&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;其他包含作用位置&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;-tu(m)-&lt;/code&gt;：通用&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-ma(r)-&lt;/code&gt;: 乳房&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-pr(o)-&lt;/code&gt;: 前列腺&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-co(l)-&lt;/code&gt;: 大腸&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-ci(r)-&lt;/code&gt;: 循環系統&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;如 Beva&lt;strong&gt;ci&lt;/strong&gt;&lt;em&gt;zu&lt;/em&gt;mab，表示他是作用在循環系統的仿人類單株抗體。&lt;/p&gt;
+&lt;h2 id=&#34;單株抗體應用&#34;&gt;單株抗體應用&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;基礎研究&lt;/li&gt;
+&lt;li&gt;血清免疫檢驗&lt;/li&gt;
+&lt;li&gt;病理免疫染色&lt;/li&gt;
+&lt;li&gt;標靶抑制癌細胞&lt;/li&gt;
+&lt;li&gt;標靶誘導免疫系統摧毀癌細胞&lt;/li&gt;
+&lt;li&gt;活化T細胞&lt;/li&gt;
+&lt;li&gt;等等一大堆&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      
     </item>
+    
     <item>
       <title>分享 - Levey-Jennings chart 品管圖 Excel 模板</title>
       <link>https://oxygentw.net/blog/notes/lj-chart-excel-share/</link>
       <pubDate>Wed, 24 Mar 2021 00:00:00 +0000</pubDate>
+      
       <guid>https://oxygentw.net/blog/notes/lj-chart-excel-share/</guid>
-      <description>之前想說畫品管圖好麻煩，乾脆寫個程式來畫，但又覺得為這個寫程式有點太大費周章，決定去找找看有沒有現成的模板可以直接用 Excel 畫，結果還真的有! 而且</description>
+      
+        <description>&lt;p&gt;之前想說畫品管圖好麻煩，乾脆寫個程式來畫，但又覺得為這個寫程式有點太大費周章，決定去找找看有沒有現成的模板可以直接用 Excel 畫，結果還真的有! 而且還蠻好用的，紀錄一下順便分享給大家。&lt;/p&gt;
+&lt;p&gt;只要在右邊把平均跟SD填一填，左邊填入品管數據他就會畫出來了！&lt;/p&gt;
+&lt;p&gt;模板下載：&lt;a href=&#34;https://oxygentw.net/files/LJ_Chrt_TEMP.xlsx&#34;&gt;https://oxygentw.net/files/LJ_Chrt_TEMP.xlsx&lt;/a&gt;&lt;/p&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://oxygentw.net/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/lj-chart-excel-share/1.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/lj-chart-excel-share/1.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;模板出處：&lt;a href=&#34;https://resources.psmile.org/resources/process-control/quality-control/lj-charts/Pro5.1-03%20Chemistry%20LJ%20Chart%20TEMPLATE.xls/view&#34;&gt;傳送門&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;模板授權：&lt;a href=&#34;https://www.gnu.org/licenses/old-licenses/gpl-2.0.html&#34;&gt;GNU GPL license&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      
     </item>
+    
     <item>
       <title>簡易細菌鑑別流程圖</title>
       <link>https://oxygentw.net/blog/notes/basicbacindentification/</link>
       <pubDate>Tue, 23 Mar 2021 00:00:00 +0000</pubDate>
+      
       <guid>https://oxygentw.net/blog/notes/basicbacindentification/</guid>
-      <description>整理一下上課講義上的細菌判別總表，放在網路上給大家參考，邊學邊做，有錯拜託告知QQ 資料來源：林世傑教授講義 軟體：Xmind free version 💥PDF下載點</description>
+      
+        <description>&lt;p&gt;整理一下上課講義上的細菌判別總表，放在網路上給大家參考，邊學邊做，有錯拜託告知QQ&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;資料來源：林世傑教授講義&lt;/li&gt;
+&lt;li&gt;軟體：Xmind free version&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;💥&lt;a href=&#34;https://oxygentw.net/files/BasicBacteriaIdentification.pdf&#34;&gt;PDF下載點&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;圖片預覽
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://oxygentw.net/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/basicbacindentification/1.PNG&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/basicbacindentification/1.PNG&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+</description>
+      
     </item>
+    
     <item>
       <title>建立第一個 Flutter App</title>
       <link>https://oxygentw.net/blog/computer/first-flutter-app/</link>
       <pubDate>Thu, 04 Mar 2021 00:00:00 +0000</pubDate>
+      
       <guid>https://oxygentw.net/blog/computer/first-flutter-app/</guid>
-      <description>接續上一篇的環境安裝，我們來測試是否可以成功建立Flutter App，首先先打開 Android studio。 選擇 Create new Flutter project。 選擇Flutter</description>
+      
+        <description>&lt;p&gt;接續上一篇的環境安裝，我們來測試是否可以成功建立Flutter App，首先先打開 Android studio。 &lt;br&gt;
+選擇 &lt;strong&gt;Create new Flutter project。&lt;/strong&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://oxygentw.net/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/first-flutter-app/1.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/first-flutter-app/1.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;選擇&lt;strong&gt;Flutter Application&lt;/strong&gt;。
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/first-flutter-app/2.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/first-flutter-app/2.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;輸入專案名稱、&lt;strong&gt;選擇 Flutter SDK 路徑&lt;/strong&gt;、專案的存檔位置、填寫這個專案的描述，並按下一步。
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/first-flutter-app/3.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/first-flutter-app/3.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;再來要設定 package name，package name攸關到以後上架到Google play和App store是否順利，如果有規劃要上架的話這個必須設定為&lt;strong&gt;唯一&lt;/strong&gt;，也就是不能與已上架的app重複，所以可以加入一些個人名字或公司名稱，但如果沒有要上架純粹自己用就沒關係。
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/first-flutter-app/4.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/first-flutter-app/4.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;設定完點 Finish，進入 IDE 主畫面。
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/first-flutter-app/5.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/first-flutter-app/5.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;我們執行後的程式必須跑在手機上，可是沒有手機怎麼辦? 開發接手機並不方便，所以我們要啟動虛擬機，模擬出一台手機跑我們編譯好的程式。 &lt;br&gt;
+右上角有一個 AVD manager，點開他。
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/first-flutter-app/6.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/first-flutter-app/6.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;裡面有一個像播放的按鈕，那是執行AVD的開關，點下去。進去後他可能會提示你要安裝 intel HAXM，那是一個提升效能的虛擬化技術，就給他安裝下去!
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/first-flutter-app/7.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/first-flutter-app/7.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;開起來的虛擬機長這樣，等他一下，他就會像手機一樣開機。 &lt;br&gt;
+&lt;strong&gt;注意! 開啟虛擬機耗費效能也很耗電，建議筆電插上電源使用。&lt;/strong&gt;
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/first-flutter-app/8.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/first-flutter-app/8.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;開好了之後回到 IDE，我們會看到裝置的地方已經連接上sdk gphone了。
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/first-flutter-app/9.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/first-flutter-app/9.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;點選工具列上綠色的編譯按鈕(像播放鍵的那個)，IDE 就會開始編譯範例程式。請耐心等候&amp;hellip;
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/first-flutter-app/10.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/first-flutter-app/10.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;到虛擬機上看看，編譯成功!
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/first-flutter-app/11.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/first-flutter-app/11.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;就完成第一個 Flutter App 的編譯與執行了! 以後課程的 Flutter App 也是依照這個步驟開啟喔~&lt;/p&gt;
+</description>
+      
     </item>
+    
     <item>
       <title>安裝 Flutter 環境</title>
       <link>https://oxygentw.net/blog/computer/install-flutter-env/</link>
       <pubDate>Wed, 03 Mar 2021 00:00:00 +0000</pubDate>
+      
       <guid>https://oxygentw.net/blog/computer/install-flutter-env/</guid>
-      <description>開源社的同學~ 這是我們第一堂社課要達成的目標，安裝Flutter與Dart環境，未來社課會頻繁的用到，希望大家都能順利安裝~ 網路上的朋友~ 這</description>
+      
+        <description>&lt;p&gt;開源社的同學~ 這是我們第一堂社課要達成的目標，安裝Flutter與Dart環境，未來社課會頻繁的用到，希望大家都能順利安裝~&lt;/p&gt;
+&lt;p&gt;網路上的朋友~ 這是社課的教學內容，因此以大宗的Windows系統為例，還是分享給大家，其他作業系統安裝過程不會差太多，Linux甚至可以直接用套件管理工具安裝！&lt;/p&gt;
+&lt;p&gt;Flutter 環境安裝相較於其他開發工具複雜許多，因為我們必須安裝&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Dart SDK&lt;/li&gt;
+&lt;li&gt;Flutter&lt;/li&gt;
+&lt;li&gt;Git&lt;/li&gt;
+&lt;li&gt;Android studio
+&lt;ol&gt;
+&lt;li&gt;IDE&lt;/li&gt;
+&lt;li&gt;Android SDK&lt;/li&gt;
+&lt;li&gt;Android toolchain&lt;/li&gt;
+&lt;li&gt;Android Virtual Device&lt;/li&gt;
+&lt;li&gt;ADB&lt;/li&gt;
+&lt;li&gt;Dart Plugin&lt;/li&gt;
+&lt;li&gt;Flutter Plugin&lt;/li&gt;
+&lt;li&gt;etc&amp;hellip;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;VScode
+&lt;ol&gt;
+&lt;li&gt;Flutter Extension&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;安裝git&#34;&gt;安裝Git&lt;/h2&gt;
+&lt;p&gt;第一步我們先安裝Dit，到 &lt;a href=&#34;https://git-scm.com/download/win&#34;&gt;https://git-scm.com/download/win&lt;/a&gt; 下載 Windows 版 Git。&lt;/p&gt;
+&lt;p&gt;按照安裝指示安裝。&lt;/p&gt;
+&lt;h2 id=&#34;安裝flutter環境&#34;&gt;安裝Flutter環境&lt;/h2&gt;
+&lt;p&gt;先前往 &lt;a href=&#34;https://flutter.dev/docs/get-started/install&#34;&gt;https://flutter.dev/docs/get-started/install&lt;/a&gt; ，下載 Flutter 安裝檔，點選 Windows 或你使用的作業系統。&lt;/p&gt;
+&lt;p&gt;點選後會看到 Flutter 需要的系統規格。
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://oxygentw.net/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/install-flutter-env/1.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/install-flutter-env/1.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;我們往下拉，找到&lt;code&gt; Get the Flutter SDK&lt;/code&gt;並點選下載。 &lt;br&gt;
+下載完解壓縮後會是一個資料夾，我們把它放到C槽根目錄(你可以放在任何你想放的路徑，只是等等環境變數設定時要更改)&lt;/p&gt;
+&lt;p&gt;把 Flutter 資料夾的路徑複製起來&lt;/p&gt;
+&lt;p&gt;路徑要加上bin，也就是&lt;code&gt;C:\\flutter\bin&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;接著設定環境變數，到**本機 -&amp;gt; (右鍵)內容 -&amp;gt; (左側功能列)進階系統設定 -&amp;gt; 環境變數 -&amp;gt; Path -&amp;gt; 編輯 -&amp;gt; 新增 -&amp;gt; 將Flutter路徑貼上 -&amp;gt; 一路點確定。
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/install-flutter-env/2.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/install-flutter-env/2.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;br/&gt;
+接著打開終端機，輸入 `flutter`，會自動安裝 Dart SDK。
+&lt;p&gt;輸入&lt;code&gt;flutter doctor&lt;/code&gt;，會開始自動安裝需要的檔案，並且進行環境檢測。
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/install-flutter-env/3.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/install-flutter-env/3.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;環境檢測會告訴你那些設定未完成，我們先從VS code設定開始。
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/install-flutter-env/4.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/install-flutter-env/4.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;打開 VScode，從左側選單點選 Extensions，搜尋Flutter並安裝。
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/install-flutter-env/5.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/install-flutter-env/5.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;安裝android-studio&#34;&gt;安裝Android studio&lt;/h2&gt;
+&lt;p&gt;接下來我們要安裝 Android Studio IDE，安裝這個的同時會一起安裝 Android toolchain、Android SDK 等等工具，到 &lt;a href=&#34;https://developer.android.com/studio&#34;&gt;https://developer.android.com/studio&lt;/a&gt; 後點選下載。
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/install-flutter-env/6.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/install-flutter-env/6.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;安裝精靈中&lt;strong&gt;Android studio&lt;/strong&gt;和&lt;strong&gt;Virtual device&lt;/strong&gt;都要打勾，其餘設定可以不動。
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/install-flutter-env/7.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/install-flutter-env/7.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;安裝完成後執行 Android studio 進入設定畫面
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/install-flutter-env/8.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/install-flutter-env/8.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;選擇標準設定
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/install-flutter-env/9.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/install-flutter-env/9.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;依照個人喜好選擇佈景主題，最後按 Finish 開始初始化設定。
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/install-flutter-env/10.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/install-flutter-env/10.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;這邊會有點久&amp;hellip;.
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/install-flutter-env/11.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/install-flutter-env/11.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;安裝完成後，到右下角選擇plugins
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/install-flutter-env/12.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/install-flutter-env/12.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;搜尋Dart和Flutter的插件，安裝他! 然後重新啟動 IDE 載 入plugin。
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/install-flutter-env/13.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/install-flutter-env/13.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/install-flutter-env/14.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/install-flutter-env/14.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;接著執行 &lt;code&gt;flutter doctor&lt;/code&gt;，他會告訴你說你還沒有同意android的條款，我們執行&lt;code&gt;flutter doctor --android-licenses&lt;/code&gt;閱讀條款並同意。
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/install-flutter-env/15.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/install-flutter-env/15.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;同意條款的話就輸入&lt;code&gt;y&lt;/code&gt;，有蠻多頁的，都要輸入&lt;code&gt;y&lt;/code&gt;，官方建議看完，我建議&amp;hellip;..:)
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/install-flutter-env/15.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/install-flutter-env/15.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;到此我們就完成環境安裝囉~ &lt;br&gt;
+下一篇：&lt;a href=&#34;https://oxygentw.net/blog/computer/first-flutter-app&#34;&gt;建立第一個 Flutter App&lt;/a&gt;&lt;/p&gt;
+</description>
+      
     </item>
+    
     <item>
       <title>Remove Macos Hidden File</title>
       <link>https://oxygentw.net/blog/computer/remove-macos-hidden-file/</link>
       <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      
       <guid>https://oxygentw.net/blog/computer/remove-macos-hidden-file/</guid>
-      <description>MacOS 下會為每個資料夾跟檔案新增一個以._開頭的系統隱藏檔案，用來儲存使用者設定和一些系統需要的設定，但是移到其他作業系統時這些檔案完全沒有用!</description>
+      
+        <description>&lt;p&gt;MacOS 下會為每個資料夾跟檔案新增一個以&lt;code&gt;._&lt;/code&gt;開頭的系統隱藏檔案，用來儲存使用者設定和一些系統需要的設定，但是移到其他作業系統時這些檔案完全沒有用!!! 數量一多還是會占空間，而且看了不太舒爽XD 所以記錄一下上網爬文找到的刪除方法。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;資料來源：&lt;a href=&#34;https://www.itread01.com/p/1385436.html&#34;&gt;https://www.itread01.com/p/1385436.html&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;p&gt;切換到要刪除隱藏檔的資料夾開啟 termial 輸入這行指令即可。 &lt;br&gt;
+這個指令會遞迴刪除所有目錄底下以&lt;code&gt;._&lt;/code&gt;開頭的檔案，並且把刪除的檔案顯示出來。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;find  .  -name  &lt;span class=&#34;s1&#34;&gt;&amp;#39;._*&amp;#39;&lt;/span&gt;  -type  f  -print  -exec  rm  -rf  &lt;span class=&#34;o&#34;&gt;{}&lt;/span&gt; &lt;span class=&#34;se&#34;&gt;\;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;*若是在 Windows 下要用 PowerShell 或 Git Bash 執行喔~&lt;/p&gt;
+</description>
+      
     </item>
+    
     <item>
       <title>關於檢驗科抽血</title>
       <link>https://oxygentw.net/blog/notes/mls-venipuncture/</link>
       <pubDate>Mon, 12 Oct 2020 00:00:00 +0000</pubDate>
+      
       <guid>https://oxygentw.net/blog/notes/mls-venipuncture/</guid>
-      <description>靜脈穿刺採血，俗稱抽血，大家應該都有在醫院抽血的經驗，或是健康檢查需要抽血，人體的血液含有大量的資訊，醫學實驗室可以用各種檢驗方法取得各項指</description>
+      
+        <description>&lt;p&gt;靜脈穿刺採血，俗稱抽血，大家應該都有在醫院抽血的經驗，或是健康檢查需要抽血，人體的血液含有大量的資訊，醫學實驗室可以用各種檢驗方法取得各項指標，進行診斷、排除、追蹤、藥量控制等等後續醫療行為。&lt;/p&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://oxygentw.net/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/mls-venipuncture/venipuncture.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/mls-venipuncture/venipuncture.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;我稍微解釋些醫檢師在採集血液檢體時的抽血流程。&lt;/p&gt;
+&lt;h2 id=&#34;檢驗科門診抽血流程醫檢師&#34;&gt;檢驗科門診抽血流程(醫檢師)&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;收檢驗單，詢問病人身分並確認&lt;/li&gt;
+&lt;li&gt;依照檢驗單準備採血管&lt;/li&gt;
+&lt;li&gt;告知受檢者今天的採血計畫&lt;/li&gt;
+&lt;li&gt;組裝&lt;strong&gt;無菌安全針具&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;若是用空針採血，先行順針&lt;/li&gt;
+&lt;li&gt;於受檢者採檢部位上方約一個手掌的距離綁上止血帶&lt;/li&gt;
+&lt;li&gt;決定將穿刺的血管&lt;/li&gt;
+&lt;li&gt;酒精棉片&lt;strong&gt;用力來回&lt;/strong&gt;擦拭*&lt;/li&gt;
+&lt;li&gt;告知受檢者即將下針，深呼吸，避免受檢者驚嚇收手或暈厥&lt;/li&gt;
+&lt;li&gt;採檢完一管檢體，鬆開止血帶&lt;/li&gt;
+&lt;li&gt;採檢剩餘檢體，用鑷子準備棉球至下針處&lt;/li&gt;
+&lt;li&gt;抽針，棉球壓緊傷口&lt;/li&gt;
+&lt;li&gt;啟動針具安全機制&lt;/li&gt;
+&lt;li&gt;透氣膠帶固定受檢者棉球，並進行抽血後衛教&lt;/li&gt;
+&lt;li&gt;整理檢體，依照採血管廠商指示翻轉採血管&lt;/li&gt;
+&lt;li&gt;完成靜脈採血&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;*以前抽血消毒是用由內而外同心圓擦拭，&lt;a href=&#34;https://clsi.org/media/1372/gp41ed7_sample.pdf&#34;&gt;&lt;em&gt;CLSI GP41 2017&lt;/em&gt;&lt;/a&gt; 版本修改為用力來回擦拭&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;我還沒去實習&amp;hellip;但我先列出一些上課教到常見的抽血後問題與衛教給大家參考。&lt;/p&gt;
+&lt;h2 id=&#34;抽血後qa&#34;&gt;抽血後QA&lt;/h2&gt;
+&lt;h3 id=&#34;1-抽完血要壓多久&#34;&gt;1. 抽完血要壓多久？&lt;/h3&gt;
+&lt;p&gt;建議時間五分鐘以上，不再流血即可，剛抽完時要確實壓緊，不然可能會造成瘀血。&lt;/p&gt;
+&lt;p&gt;*實驗課被抽完很快就要去抽別人，所以都只壓一下下就上場了&amp;hellip;.&lt;/p&gt;
+&lt;h3 id=&#34;2-抽血會痛嗎&#34;&gt;2. 抽血會痛嗎？&lt;/h3&gt;
+&lt;p&gt;會痛，畢竟針刺到肉裡，但絕對不會是痛到你難以忍受的痛，如果你覺得痛到難以忍受或有痠麻的感覺須立刻告知醫檢師，可能針碰到神經導致輕微神經傷害。&lt;/p&gt;
+&lt;h3 id=&#34;3-抽血為甚麼要抽這麼多管&#34;&gt;3. 抽血為甚麼要抽這麼多管？&lt;/h3&gt;
+&lt;p&gt;每一種顏色的採血管內含特定的化學成分，以便後續不同的檢驗分析使用，有些檢驗需要用特定成分的採血管來採集血液，所以需要分數管採集。&lt;/p&gt;
+&lt;h3 id=&#34;4-抽血完要揉嗎&#34;&gt;4. 抽血完要揉嗎？&lt;/h3&gt;
+&lt;p&gt;拜託不要，壓緊就好，揉他會很容易導致皮下出血。&lt;/p&gt;
+&lt;h3 id=&#34;5-若抽血後瘀青了怎麼辦&#34;&gt;5. 若抽血後瘀青了怎麼辦？&lt;/h3&gt;
+&lt;p&gt;24小時內冰敷，之後改為熱敷，通常不去理會身體會自行吸收瘀青的血液。&lt;/p&gt;
+&lt;h3 id=&#34;第一次沒抽到血怎麼辦&#34;&gt;第一次沒抽到血怎麼辦？&lt;/h3&gt;
+&lt;p&gt;醫檢師利用觸摸與眼睛判斷血管走向及深度，無法百分百精準，每個人的手部構造並不相同，下針後也可能發生血管滑開而沒有成功穿刺，第一次抽血失敗後會換手再次抽血，若連續兩次失敗則視為困難抽血，會請其他醫檢師進行操作或是更換部位抽血(手背、腳跟上方)。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;2020/11/27 update&lt;/p&gt;
+&lt;h2 id=&#34;技術考流程&#34;&gt;技術考流程&lt;/h2&gt;
+&lt;p&gt;抽血技術考流程&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;洗手&lt;/li&gt;
+&lt;li&gt;戴手套&lt;/li&gt;
+&lt;li&gt;將棉球移到適當位置&lt;/li&gt;
+&lt;li&gt;準備適當長度3M Tape&lt;/li&gt;
+&lt;li&gt;綁Tourniquet&lt;/li&gt;
+&lt;li&gt;決定採血血管&lt;/li&gt;
+&lt;li&gt;鬆Tourniquet&lt;/li&gt;
+&lt;li&gt;組裝針具&lt;/li&gt;
+&lt;li&gt;綁Tourniquet&lt;/li&gt;
+&lt;li&gt;再次確認血管&lt;/li&gt;
+&lt;li&gt;酒精棉片消毒&lt;/li&gt;
+&lt;li&gt;告知病人、下針&lt;/li&gt;
+&lt;li&gt;採血&lt;/li&gt;
+&lt;li&gt;鬆Tourniquet&lt;/li&gt;
+&lt;li&gt;取出真空採血管&lt;/li&gt;
+&lt;li&gt;翻轉採血管&lt;/li&gt;
+&lt;li&gt;夾取棉球&lt;/li&gt;
+&lt;li&gt;抽針&lt;/li&gt;
+&lt;li&gt;啟動安全針具&lt;/li&gt;
+&lt;li&gt;壓緊並貼上3M Tape&lt;/li&gt;
+&lt;li&gt;拋棄針具、清理廢棄物&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+      
     </item>
+    
     <item>
       <title>移除 Android 手機螢幕鎖定密碼</title>
       <link>https://oxygentw.net/blog/computer/remove-android-password/</link>
       <pubDate>Fri, 04 Sep 2020 00:00:00 +0000</pubDate>
+      
       <guid>https://oxygentw.net/blog/computer/remove-android-password/</guid>
-      <description>最近在學 Flutter，想說拿以前的 Android 手機來做測試，沒想到&amp;hellip;.忘記密碼了!!!! 只好去想辦法把密碼解開，於是有了這篇筆記&amp;he</description>
+      
+        <description>&lt;p&gt;最近在學 Flutter，想說拿以前的 Android 手機來做測試，沒想到&amp;hellip;.忘記密碼了!!!! 只好去想辦法把密碼解開，於是有了這篇筆記&amp;hellip;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;首先必須先在電腦裡安裝 adb(&lt;a href=&#34;https://developer.android.com/studio/command-line/adb?authuser=1&#34;&gt;Android debug bridge&lt;/a&gt;)，這是一個 Android 開發時用的偵錯工具，可以利用 choco 下載。 &lt;br&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;choco install adb&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;*&lt;a href=&#34;https://chocolatey.org/&#34;&gt;chocolatey&lt;/a&gt; 是 Windows 下的套件管理工具，用來模擬類 Unix 系統中的套件管理工具，例如 brew, apt, yum&amp;hellip;&amp;hellip;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;.&lt;/p&gt;
+&lt;p&gt;接著將要解除密碼的手機進入 Recovery mode，並用USB線和電腦連接，以啟用ADB偵錯模式。
+通常是在關機的狀態下同時按住&lt;strong&gt;電源鍵與音量下鍵&lt;/strong&gt;，如果這樣不行也不知如何開啟請看&lt;a href=&#34;https://www.google.com/search?q=%E9%96%8B%E5%95%9F&amp;#43;recovery&amp;#43;mode&#34;&gt;Android recoveru mode&lt;/a&gt;，或去搜尋你的手機型號怎麼開啟 Recovery mode。&lt;/p&gt;
+&lt;p&gt;接下來就進入重點了，打開終端機，檢查 ADB 有沒有找到 android 設備。 &lt;br&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# adb devices&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+.&lt;/p&gt;
+&lt;p&gt;看到類似以下畫面就是抓到了！
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://oxygentw.net/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/remove-android-password/1.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/remove-android-password/1.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;.&lt;/p&gt;
+&lt;p&gt;接著進入 Android 設備的終端機
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# adb shell&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;.&lt;/p&gt;
+&lt;p&gt;Android 是 Linux base，所以操作方式和 Linux 一樣，切換到 &lt;code&gt;/data/system&lt;/code&gt; 目錄，查看裡面有哪些檔案&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/remove-android-password/2.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/remove-android-password/2.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+.&lt;/p&gt;
+&lt;p&gt;在裡面找找跟&lt;strong&gt;password&lt;/strong&gt; 或是 &lt;strong&gt;key&lt;/strong&gt; 有關的檔案，以這張圖為例是
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/remove-android-password/3.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/remove-android-password/3.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+.&lt;/p&gt;
+&lt;p&gt;我們刪掉這兩個檔案
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# rm gatekeeper.password.key gatekeeper.pattern.key&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+.&lt;/p&gt;
+&lt;p&gt;將手機重新開機
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# reboot&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;就會發現不用輸入密碼就可以進入手機了!&lt;/p&gt;
+</description>
+      
     </item>
+    
     <item>
       <title>自訂 Windows Terminal 主題</title>
       <link>https://oxygentw.net/blog/computer/set-windows-terminal-themes/</link>
       <pubDate>Tue, 18 Aug 2020 00:00:00 +0000</pubDate>
+      
       <guid>https://oxygentw.net/blog/computer/set-windows-terminal-themes/</guid>
-      <description>Windows Terminal 是 Windows 10 新型的終端機介面，整合傳統 cmd、PowerShell、Azure shell 和 WSL Bash，比原先的 cmd 要好用太多了，我今天來介紹如何更改他的</description>
+      
+        <description>&lt;p&gt;Windows Terminal 是 Windows 10 新型的終端機介面，整合傳統 cmd、PowerShell、Azure shell 和 WSL Bash，比原先的 cmd 要好用太多了，我今天來介紹如何更改他的主題，使用起來更順眼!&lt;/p&gt;
+&lt;hr&gt;
+&lt;br /&gt;
+&lt;p&gt;首先打開 Windows Terminal 點擊&lt;strong&gt;設定&lt;/strong&gt;，並用熟悉的文字編輯器打開 &lt;code&gt;settings.json&lt;/code&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://oxygentw.net/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/set-windows-terminal-themes/01.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/set-windows-terminal-themes/01.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;br/&gt;
+&lt;p&gt;到 &lt;a href=&#34;https://atomcorp.github.io/themes/&#34;&gt;https://atomcorp.github.io/themes/&lt;/a&gt; 挑選喜歡的主題，按 &lt;code&gt;Get theme&lt;/code&gt;，主題設定檔就會複製到剪貼簿&lt;/p&gt;
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/set-windows-terminal-themes/02.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/set-windows-terminal-themes/02.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;
+&lt;p&gt;將剛剛複製的設定檔貼到 &lt;code&gt;settings.json&lt;/code&gt; 中 &lt;code&gt;schemes&lt;/code&gt; 的 list 中&lt;/p&gt;
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/set-windows-terminal-themes/03.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/set-windows-terminal-themes/03.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;
+&lt;p&gt;若要套用至所有終端機則在 &lt;code&gt;profiles -&amp;gt; defaults&lt;/code&gt; 中新增一行 &lt;br&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;colorScheme&amp;#34;&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;THEME NAME&amp;#34;&lt;/span&gt; &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;br&gt;
+&lt;br/&gt;
+若要套用單一的終端機則在 &lt;code&gt;profiles -&amp;gt; list&lt;/code&gt; 中目標終端機的位置新增一行 &lt;br&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;colorScheme&amp;#34;&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;THEME NAME&amp;#34;&lt;/span&gt; &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/set-windows-terminal-themes/04.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/set-windows-terminal-themes/04.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;再重新啟動 Windows Terminal 就完成修改主題了！&lt;/p&gt;
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/set-windows-terminal-themes/05.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/set-windows-terminal-themes/05.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+</description>
+      
     </item>
+    
     <item>
       <title>打工換宿攜帶行李詳解！</title>
       <link>https://oxygentw.net/blog/travel/work-exchange-baggage/</link>
       <pubDate>Sun, 19 Jul 2020 00:00:00 +0000</pubDate>
+      
       <guid>https://oxygentw.net/blog/travel/work-exchange-baggage/</guid>
-      <description>前言 目前我正在澎湖打工換宿！這次也是我第一次打工換宿，出發前一直在想行李要帶什麼好，衣服應該帶多還是帶少? 會不會帶太多東西之類的，想必想要嘗</description>
+      
+        <description>
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/work-exchange-baggage/firework.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/work-exchange-baggage/firework.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+&lt;p&gt;目前我正在澎湖打工換宿！這次也是我第一次打工換宿，出發前一直在想行李要帶什麼好，衣服應該帶多還是帶少? 會不會帶太多東西之類的，想必想要嘗試打工換宿的朋友一定也會有這樣的疑問吧！所以我就來和大家聊聊打工換宿怎麼帶行李最實用方便！&lt;/p&gt;
+&lt;p&gt;這篇會以男生的角度來寫，女生可能就加上生理用品、保養品化妝品之類的吧，我也不熟啊啊啊啊，需要補充的歡迎女生朋友在下面留言告訴我喔~&lt;/p&gt;
+&lt;h2 id=&#34;進入正題&#34;&gt;進入正題&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;打括弧的是看情況攜帶喔~&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;衣服&#34;&gt;衣服&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;衣服/褲子 4-6 套&lt;/li&gt;
+&lt;li&gt;內衣褲 5-6 件&lt;/li&gt;
+&lt;li&gt;睡衣 1-2 套&lt;/li&gt;
+&lt;li&gt;襪子&lt;/li&gt;
+&lt;li&gt;泳衣泳褲 1 套&lt;/li&gt;
+&lt;li&gt;毛巾 2 條(才可以替換著用)&lt;/li&gt;
+&lt;li&gt;拖鞋&lt;/li&gt;
+&lt;li&gt;(外套)&lt;/li&gt;
+&lt;li&gt;(手套)&lt;/li&gt;
+&lt;li&gt;(帽子)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;依照我的經驗，衣服不要帶太少！像這次我只帶了三件褲子，這樣我就要一直洗衣服，很麻煩的&amp;hellip;&lt;/p&gt;
+&lt;p&gt;如果你換宿的地方在離島，會常常玩水的地方的話，記得帶幾件海灘褲或泳裝，而且幾乎每天都是穿拖鞋，襪子就可以少帶一些~&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;生活&#34;&gt;生活&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;牙膏牙刷&lt;/li&gt;
+&lt;li&gt;洗面乳&lt;/li&gt;
+&lt;li&gt;刮鬍刀&lt;/li&gt;
+&lt;li&gt;梳子&lt;/li&gt;
+&lt;li&gt;環保餐具&lt;/li&gt;
+&lt;li&gt;洗衣球(方便好帶)&lt;/li&gt;
+&lt;li&gt;隱形眼鏡&lt;/li&gt;
+&lt;li&gt;隱形眼鏡盒/清潔液&lt;/li&gt;
+&lt;li&gt;衛生紙 &amp;amp; 濕紙巾&lt;/li&gt;
+&lt;li&gt;塑膠袋&lt;/li&gt;
+&lt;li&gt;指甲刀&lt;/li&gt;
+&lt;li&gt;防曬乳&lt;/li&gt;
+&lt;li&gt;雨傘&lt;/li&gt;
+&lt;li&gt;雨衣&lt;/li&gt;
+&lt;li&gt;太陽眼鏡&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;防蚊液&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;(小刀)&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;因為旅館通常會提供沐浴乳和洗髮精，所以可以自備洗面乳即可，如果覺得旅館得太爛(? 也可以把家裡的分裝小瓶帶來或是買三合一洗澡乳~&lt;/p&gt;
+&lt;p&gt;指甲刀很重要！通常我們出去玩不會特地帶指甲刀，但因為換宿時間比較長就會需要，我這次就忘記帶了&amp;hellip;&lt;/p&gt;
+&lt;p&gt;隱形眼鏡可能有人已經有習慣戴了，但若是有近視的朋友想要浮潛或潛水的話記得要準備！！不要期待有度數的面鏡能讓你看得多清楚，還是戴隱形眼鏡比較適合。&lt;/p&gt;
+&lt;p&gt;防蚊液也很重要！！！不然會像我這次依樣被蚊子騷擾到發瘋XD&lt;/p&gt;
+&lt;p&gt;最後一個小刀比較特別，應該大部分人不會有吧(? 我朋友這次有帶一把類似下圖的隨身刀，看起來挺可怕的，但真的很實用，各種場合需要都可以派上用場。&lt;/p&gt;
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/work-exchange-baggage/knife.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/work-exchange-baggage/knife.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;hr&gt;
+&lt;h3 id=&#34;3c產品&#34;&gt;3C產品&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;手機充電器/充電線&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;延長插頭&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;相機 or GoPro(我好想買一台QQ)&lt;/li&gt;
+&lt;li&gt;充電器&lt;/li&gt;
+&lt;li&gt;電腦 (寫網頁、做影片、查資料都方便!)&lt;/li&gt;
+&lt;li&gt;隨身碟&lt;/li&gt;
+&lt;li&gt;耳機&lt;/li&gt;
+&lt;li&gt;行動電源&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;延長插頭很重要！有些青年旅舍的插頭只有一個，插座位置又很畸形，在天花板之類的&amp;hellip;所以帶條延長線或延長插頭不會吃虧的。&lt;/p&gt;
+&lt;p&gt;隨身碟則是有些水上活動的照片需要用隨身碟複製回來，雖然最近很多都會用網路傳了，不過個人還是會帶一下。&lt;/p&gt;
+&lt;p&gt;至於耳機呢~ 青年旅舍背包房大家一起睡，總是需要耳機的。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;基本藥品&#34;&gt;基本藥品&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;列出一些我有準備的備藥，這些藥局都買的到，實際上看個人囉~&lt;/p&gt;&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Ibuprofen / Acetaminophen (退燒止痛)&lt;/li&gt;
+&lt;li&gt;Meclizine (暈船藥)&lt;/li&gt;
+&lt;li&gt;Loperamide (止瀉藥)&lt;/li&gt;
+&lt;li&gt;SHIN BIOFERMIN (欣表飛鳴)&lt;/li&gt;
+&lt;li&gt;外傷處理用藥&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;可參考&lt;a href=&#34;https://oxygentw.net/blog/travel/travel-medicine-first-aid-kits/&#34;&gt;旅行常備藥品與急救包&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;其他&#34;&gt;其他&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;錢&lt;/li&gt;
+&lt;li&gt;身分證/健保卡&lt;/li&gt;
+&lt;li&gt;(駕照)&lt;/li&gt;
+&lt;li&gt;(潛水紀錄本與證照)&lt;/li&gt;
+&lt;li&gt;隨身包&lt;/li&gt;
+&lt;li&gt;筆、筆記本&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;駕照跟潛水證都是有需要才帶喔~ 租車行租車前會看駕照，他們不像警察有辦法用身分證字號查XD 潛店也會要求潛水執照才可以 fun dive，不過如果是體驗潛水就不需要囉~&lt;/p&gt;
+&lt;p&gt;我習慣會記錄旅行手帳，所以會帶筆、紙膠帶、迴紋針，這樣挺好玩的！&lt;/p&gt;
+&lt;br/&gt;
+&lt;h1 id=&#34;總清單&#34;&gt;總清單&lt;/h1&gt;
+&lt;p&gt;最後幫大家整理出一個總清單，收拾行李的時候方便使用，也可以印下來喔！ &lt;a href=&#34;https://oxygentw.net/files/%E6%89%93%E5%B7%A5%E6%8F%9B%E5%AE%BF%E8%A1%8C%E6%9D%8E%E8%A1%A8.pdf&#34;&gt;列印載點&lt;/a&gt;&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;衣物&lt;/th&gt;
+          &lt;th&gt;生活&lt;/th&gt;
+          &lt;th&gt;3C&lt;/th&gt;
+          &lt;th&gt;藥品&lt;/th&gt;
+          &lt;th&gt;其他&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;衣服/褲子 4-6 套&lt;/td&gt;
+          &lt;td&gt;牙膏牙刷&lt;/td&gt;
+          &lt;td&gt;手機充電器/充電線&lt;/td&gt;
+          &lt;td&gt;退燒止痛藥&lt;/td&gt;
+          &lt;td&gt;身分證&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;內衣褲 5-6 件&lt;/td&gt;
+          &lt;td&gt;洗面乳&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;延長插頭&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;暈船藥&lt;/td&gt;
+          &lt;td&gt;健保卡&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;睡衣 1-2 套&lt;/td&gt;
+          &lt;td&gt;刮鬍刀&lt;/td&gt;
+          &lt;td&gt;相機 or GoPro(我好想買一台QQ)&lt;/td&gt;
+          &lt;td&gt;止瀉藥&lt;/td&gt;
+          &lt;td&gt;(駕照)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;泳衣泳褲 1 套&lt;/td&gt;
+          &lt;td&gt;梳子&lt;/td&gt;
+          &lt;td&gt;充電器&lt;/td&gt;
+          &lt;td&gt;欣表飛鳴錠&lt;/td&gt;
+          &lt;td&gt;隨身包&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;毛巾 2 條(才可以替換著用)&lt;/td&gt;
+          &lt;td&gt;環保餐具&lt;/td&gt;
+          &lt;td&gt;隨身碟&lt;/td&gt;
+          &lt;td&gt;外傷用藥&lt;/td&gt;
+          &lt;td&gt;筆、筆記本&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;拖鞋&lt;/td&gt;
+          &lt;td&gt;洗衣球(方便好帶)&lt;/td&gt;
+          &lt;td&gt;耳機&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;(外套)&lt;/td&gt;
+          &lt;td&gt;隱形眼鏡&lt;/td&gt;
+          &lt;td&gt;行動電源&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;(手套)&lt;/td&gt;
+          &lt;td&gt;隱形眼鏡盒/清潔液&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;衛生紙 &amp;amp; 濕紙巾&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;塑膠袋&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;指甲刀&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;防曬乳&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;雨傘/雨衣&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;太陽眼鏡&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;(小刀)&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;最後祝大家找到喜歡又適合的地方換宿！&lt;/p&gt;
+</description>
+      
     </item>
+    
   </channel>
 </rss>

@@ -26,7 +26,8 @@
 <meta name="mobile-web-app-capable" content="yes">
 
 <meta name="author" content="oxygen" />
-  <meta name="description" content="WSL(Windows Subsystem for Linux) 是由 Microsoft 和 Canonical 共同開發，讓使用者可以在 Windows 系統下原生執行 Linux 二進制執行檔，並提供了一個 Bash 以及其他 Linux 內和所支援的功能。若你是開發者，你將可以在" />
+  <meta name="description" content="WSL(Windows Subsystem for Linux) 是由 Microsoft 和 Canonical 共同開發，讓使用者可以在 Windows 系統下原生執行 Linux 二進制執行檔，並提供了一個 Bash 以及其他 Linux 內和所支援的功能。若你是開發者，你將可以在 Windows 下編譯原生 ELF 格式檔案，也可以使用 make 等等開發工具。
+" />
 <meta name="keywords" content="Windows Subsystem for Linux, Windows 10 linux, Windows 10 Ubuntu, Windows Ubuntu, Windows native kernel, 在 Windows 編譯 Linux, Windows ELF, Windows 的 Ubuntu" />
 
 
@@ -35,7 +36,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.131.0" />
+<meta name="generator" content="Hugo 0.148.0" />
 
 
 <link rel="canonical" href="https://oxygentw.net/blog/computer/windows-subsystem-for-linux/" />
@@ -56,7 +57,7 @@
 
 
 
-<link rel="stylesheet" href="/sass/jane.min.b495b9d81714f85c2c181722869d38324395662be76faebf5a6e36f1b996d1d0.css" integrity="" media="screen" crossorigin="anonymous">
+<link rel="stylesheet" href="/sass/jane.min.2d2189efee6cec3ea8e6d6a81b2cfbca060635e152dca5d5ce35bfb8b4226ead.css" integrity="" media="screen" crossorigin="anonymous">
 
 
 
@@ -65,7 +66,7 @@
 <meta property="og:url" content="https://oxygentw.net/blog/computer/windows-subsystem-for-linux/">
   <meta property="og:site_name" content="氧氣橘子">
   <meta property="og:title" content="WSL — Windows 下的原生 Ubuntu 系統">
-  <meta property="og:description" content="WSL(Windows Subsystem for Linux) 是由 Microsoft 和 Canonical 共同開發，讓使用者可以在 Windows 系統下原生執行 Linux 二進制執行檔，並提供了一個 Bash 以及其他 Linux 內和所支援的功能。若你是開發者，你將可以在">
+  <meta property="og:description" content="WSL(Windows Subsystem for Linux) 是由 Microsoft 和 Canonical 共同開發，讓使用者可以在 Windows 系統下原生執行 Linux 二進制執行檔，並提供了一個 Bash 以及其他 Linux 內和所支援的功能。若你是開發者，你將可以在 Windows 下編譯原生 ELF 格式檔案，也可以使用 make 等等開發工具。">
   <meta property="og:locale" content="zh_tw">
   <meta property="og:type" content="article">
     <meta property="article:section" content="blog">
@@ -73,14 +74,14 @@
     <meta property="article:modified_time" content="2017-10-21T00:00:00+00:00">
 
   <meta itemprop="name" content="WSL — Windows 下的原生 Ubuntu 系統">
-  <meta itemprop="description" content="WSL(Windows Subsystem for Linux) 是由 Microsoft 和 Canonical 共同開發，讓使用者可以在 Windows 系統下原生執行 Linux 二進制執行檔，並提供了一個 Bash 以及其他 Linux 內和所支援的功能。若你是開發者，你將可以在">
+  <meta itemprop="description" content="WSL(Windows Subsystem for Linux) 是由 Microsoft 和 Canonical 共同開發，讓使用者可以在 Windows 系統下原生執行 Linux 二進制執行檔，並提供了一個 Bash 以及其他 Linux 內和所支援的功能。若你是開發者，你將可以在 Windows 下編譯原生 ELF 格式檔案，也可以使用 make 等等開發工具。">
   <meta itemprop="datePublished" content="2017-10-21T00:00:00+00:00">
   <meta itemprop="dateModified" content="2017-10-21T00:00:00+00:00">
   <meta itemprop="wordCount" content="576">
   <meta itemprop="keywords" content="Windows Subsystem for Linux,Windows 10 linux,Windows 10 Ubuntu,Windows Ubuntu,Windows native kernel,在 Windows 編譯 Linux,Windows ELF,Windows 的 Ubuntu">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="WSL — Windows 下的原生 Ubuntu 系統">
-  <meta name="twitter:description" content="WSL(Windows Subsystem for Linux) 是由 Microsoft 和 Canonical 共同開發，讓使用者可以在 Windows 系統下原生執行 Linux 二進制執行檔，並提供了一個 Bash 以及其他 Linux 內和所支援的功能。若你是開發者，你將可以在">
+  <meta name="twitter:description" content="WSL(Windows Subsystem for Linux) 是由 Microsoft 和 Canonical 共同開發，讓使用者可以在 Windows 系統下原生執行 Linux 二進制執行檔，並提供了一個 Bash 以及其他 Linux 內和所支援的功能。若你是開發者，你將可以在 Windows 下編譯原生 ELF 格式檔案，也可以使用 make 等等開發工具。">
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -92,8 +93,6 @@
 <![endif]-->
 
 
-  
-    
       <script async src="https://www.googletagmanager.com/gtag/js?id=4942793011"></script>
       <script>
         var doNotTrack = false;
@@ -108,10 +107,6 @@
           gtag('config', '4942793011');
         }
       </script>
-    
-  
-
-
 
 
 </head>
@@ -327,7 +322,6 @@
           2017-10-21
         </time>
         <div class="post-category">
-            <a href="https://oxygentw.net/categories/computer/"> computer </a>
             
           </div>
         <span class="more-meta"> 約 576 字 </span>
@@ -347,7 +341,7 @@
     
     <div class="post-content">
       <p>WSL(Windows Subsystem for Linux) 是由 Microsoft 和 Canonical 共同開發，讓使用者可以在 Windows 系統下原生執行 Linux 二進制執行檔，並提供了一個 Bash 以及其他 Linux 內和所支援的功能。若你是開發者，你將可以在 Windows 下編譯原生 ELF 格式檔案，也可以使用 make 等等開發工具。</p>
-<p><img alt="WSL on Windows store" src="/img/post/windows-subsystem-for-linux/subsystem.png"></p>
+<p><img src="/img/post/windows-subsystem-for-linux/subsystem.png" alt="WSL on Windows store"></p>
 <p>先加入測試人員組建，確定把 Windows 10 升級到 16215.0 以上，而且要是 64 位元系統(現在大多數都是了)。</p>
 <p>直接到 Microsoft 市集搜尋 linux 找到自己喜歡的發行版並安裝它，我以 Ubuntu 為例。<a href="https://www.microsoft.com/store/productId/9NBLGGH4MSV6">Microsoft Store 連結</a></p>
 <br/>
@@ -360,10 +354,10 @@ Error: 0x8007887e</p>
 <br/>
 <p>完成後 PowerShell 會叫你重新啟動電腦以完成設定，就重新啟動吧~</p>
 <p>重新啟動後再開啟 Ubuntu 這個「應用程式」，它會自動開始安裝。</p>
-<p><img alt="Start WSL" src="/img/post/windows-subsystem-for-linux/2017-10-21-1.png"></p>
+<p><img src="/img/post/windows-subsystem-for-linux/2017-10-21-1.png" alt="Start WSL"></p>
 <p>等它個幾分鐘，完成後會叫你設定帳號和密碼，設定完就可以使用 Ubuntu 了！</p>
 <br/>
-<p><img alt="Set sser" src="/img/post/windows-subsystem-for-linux/2017-10-21-2.png"></p>
+<p><img src="/img/post/windows-subsystem-for-linux/2017-10-21-2.png" alt="Set sser"></p>
 <br/>
 <p>接下來的用法就和正常的 Linux 一樣，既然一樣，你可能會想說裝個 GUI 來用，嗯&hellip;&hellip;建議不要，我試過安裝 KDE-Desktop 和 Xfce4，KDE 會有程式崩潰的問題，Xfce 雖然不會，但仍然很不穩定，動不動就會 X server 無法啟動或是 GUI 崩潰，所以建議目前先不要安裝 GUI，就當作是 SSH 遠端來使用吧！等到更新幾次之後再試看看。</p>
 <p>有了這個後寫程式真的變得異常方便啊！不需要開一整個虛擬機就有 Linux 可以用，有 make 是多麼美好的一件事~ 順帶一提，Windows 原本的 C槽路徑會是 /mnt/c，而D槽是 /mnt/d 以此類推。</p>
@@ -375,7 +369,7 @@ Error: 0x8007887e</p>
 <div class="post-copyright">
   <p class="copyright-item">
     <span class="item-title">文章作者</span>
-    <span class="item-content">oxygen</span>
+    <span class="item-content"><a href="https://oxygentw.net/author/oxygen/">oxygen</a></span>
   </p>
   <p class="copyright-item">
     <span class="item-title">上次更新</span>
@@ -387,7 +381,7 @@ Error: 0x8007887e</p>
   
   <p class="copyright-item">
     <span class="item-title">授權條款</span>
-    <span class="item-content">Copyright © 2017-2024 oxygen. All rights reserved.</span>
+    <span class="item-content">Copyright © 2017-2025 oxygen. All rights reserved.</span>
   </p>
 </div>
 
@@ -547,7 +541,7 @@ Error: 0x8007887e</p>
     &copy;
     
       2017 -
-    2024
+    2025
     <span class="heart">
       
       <i class="iconfont">

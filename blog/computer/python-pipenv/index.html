@@ -26,7 +26,8 @@
 <meta name="mobile-web-app-capable" content="yes">
 
 <meta name="author" content="oxygen" />
-  <meta name="description" content="pipenv 是目前 Python 官方推薦的套件管理系統，在一段時間以前，好啦其實就是現在(? 還有很多人使用 pip 和 virtualenv 來進行 python 開發，這樣當然沒問題，只是維護 requirements.txt 有些麻煩，" />
+  <meta name="description" content="pipenv 是目前 Python 官方推薦的套件管理系統，在一段時間以前，好啦其實就是現在(? 還有很多人使用 pip 和 virtualenv 來進行 python 開發，這樣當然沒問題，只是維護 requirements.txt 有些麻煩，pipenv 則是整合兩者的一個工具，挺好用的介紹給大家。
+" />
 
 
 
@@ -34,7 +35,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.131.0" />
+<meta name="generator" content="Hugo 0.148.0" />
 
 
 <link rel="canonical" href="https://oxygentw.net/blog/computer/python-pipenv/" />
@@ -55,7 +56,7 @@
 
 
 
-<link rel="stylesheet" href="/sass/jane.min.b495b9d81714f85c2c181722869d38324395662be76faebf5a6e36f1b996d1d0.css" integrity="" media="screen" crossorigin="anonymous">
+<link rel="stylesheet" href="/sass/jane.min.2d2189efee6cec3ea8e6d6a81b2cfbca060635e152dca5d5ce35bfb8b4226ead.css" integrity="" media="screen" crossorigin="anonymous">
 
 
 
@@ -64,7 +65,7 @@
 <meta property="og:url" content="https://oxygentw.net/blog/computer/python-pipenv/">
   <meta property="og:site_name" content="氧氣橘子">
   <meta property="og:title" content="介紹 pipenv 套件管理工具">
-  <meta property="og:description" content="pipenv 是目前 Python 官方推薦的套件管理系統，在一段時間以前，好啦其實就是現在(? 還有很多人使用 pip 和 virtualenv 來進行 python 開發，這樣當然沒問題，只是維護 requirements.txt 有些麻煩，">
+  <meta property="og:description" content="pipenv 是目前 Python 官方推薦的套件管理系統，在一段時間以前，好啦其實就是現在(? 還有很多人使用 pip 和 virtualenv 來進行 python 開發，這樣當然沒問題，只是維護 requirements.txt 有些麻煩，pipenv 則是整合兩者的一個工具，挺好用的介紹給大家。">
   <meta property="og:locale" content="zh_tw">
   <meta property="og:type" content="article">
     <meta property="article:section" content="blog">
@@ -72,14 +73,14 @@
     <meta property="article:modified_time" content="2019-11-15T00:00:00+00:00">
 
   <meta itemprop="name" content="介紹 pipenv 套件管理工具">
-  <meta itemprop="description" content="pipenv 是目前 Python 官方推薦的套件管理系統，在一段時間以前，好啦其實就是現在(? 還有很多人使用 pip 和 virtualenv 來進行 python 開發，這樣當然沒問題，只是維護 requirements.txt 有些麻煩，">
+  <meta itemprop="description" content="pipenv 是目前 Python 官方推薦的套件管理系統，在一段時間以前，好啦其實就是現在(? 還有很多人使用 pip 和 virtualenv 來進行 python 開發，這樣當然沒問題，只是維護 requirements.txt 有些麻煩，pipenv 則是整合兩者的一個工具，挺好用的介紹給大家。">
   <meta itemprop="datePublished" content="2019-11-15T00:00:00+00:00">
   <meta itemprop="dateModified" content="2019-11-15T00:00:00+00:00">
   <meta itemprop="wordCount" content="520">
-  <meta itemprop="keywords" content="Computer">
+  <meta itemprop="keywords" content="Oxygen">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="介紹 pipenv 套件管理工具">
-  <meta name="twitter:description" content="pipenv 是目前 Python 官方推薦的套件管理系統，在一段時間以前，好啦其實就是現在(? 還有很多人使用 pip 和 virtualenv 來進行 python 開發，這樣當然沒問題，只是維護 requirements.txt 有些麻煩，">
+  <meta name="twitter:description" content="pipenv 是目前 Python 官方推薦的套件管理系統，在一段時間以前，好啦其實就是現在(? 還有很多人使用 pip 和 virtualenv 來進行 python 開發，這樣當然沒問題，只是維護 requirements.txt 有些麻煩，pipenv 則是整合兩者的一個工具，挺好用的介紹給大家。">
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -91,8 +92,6 @@
 <![endif]-->
 
 
-  
-    
       <script async src="https://www.googletagmanager.com/gtag/js?id=4942793011"></script>
       <script>
         var doNotTrack = false;
@@ -107,10 +106,6 @@
           gtag('config', '4942793011');
         }
       </script>
-    
-  
-
-
 
 
 </head>
@@ -326,7 +321,6 @@
           2019-11-15
         </time>
         <div class="post-category">
-            <a href="https://oxygentw.net/categories/computer/"> computer </a>
             
           </div>
         <span class="more-meta"> 約 520 字 </span>
@@ -367,7 +361,7 @@
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>安裝完成的提示：
-<img alt="https://ithelp.ithome.com.tw/upload/images/20190926/20120282tE3r7FvNM9.jpg" src="https://ithelp.ithome.com.tw/upload/images/20190926/20120282tE3r7FvNM9.jpg"></p>
+<img src="https://ithelp.ithome.com.tw/upload/images/20190926/20120282tE3r7FvNM9.jpg" alt="https://ithelp.ithome.com.tw/upload/images/20190926/20120282tE3r7FvNM9.jpg"></p>
 <p>套件安裝，示範安裝 request 和 numpy：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -378,8 +372,8 @@
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>第一次執行 pipenv 後會在目錄下產生 Pipfile 裡面會記載安裝過的套件，就像我們以前用的 requirements.txt 一樣，同時也會在安裝好後新增 Pipfile.lock 作為 Hash 的安全檢查用。</p>
-<p><img alt="https://ithelp.ithome.com.tw/upload/images/20190926/20120282vgs6F4t42V.jpg" src="https://ithelp.ithome.com.tw/upload/images/20190926/20120282vgs6F4t42V.jpg"></p>
-<p><img alt="https://ithelp.ithome.com.tw/upload/images/20190926/2012028233dWyunUsV.jpg" src="https://ithelp.ithome.com.tw/upload/images/20190926/2012028233dWyunUsV.jpg"> <br>
+<p><img src="https://ithelp.ithome.com.tw/upload/images/20190926/20120282vgs6F4t42V.jpg" alt="https://ithelp.ithome.com.tw/upload/images/20190926/20120282vgs6F4t42V.jpg"></p>
+<p><img src="https://ithelp.ithome.com.tw/upload/images/20190926/2012028233dWyunUsV.jpg" alt="https://ithelp.ithome.com.tw/upload/images/20190926/2012028233dWyunUsV.jpg"> <br>
 若在安裝後加上 <code>--dev</code> 參數則會安裝開發階段的套件，不會影響到穩定版，例如</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -458,7 +452,7 @@
 <div class="post-copyright">
   <p class="copyright-item">
     <span class="item-title">文章作者</span>
-    <span class="item-content">oxygen</span>
+    <span class="item-content"><a href="https://oxygentw.net/author/oxygen/">oxygen</a></span>
   </p>
   <p class="copyright-item">
     <span class="item-title">上次更新</span>
@@ -470,7 +464,7 @@
   
   <p class="copyright-item">
     <span class="item-title">授權條款</span>
-    <span class="item-content">Copyright © 2017-2024 oxygen. All rights reserved.</span>
+    <span class="item-content">Copyright © 2017-2025 oxygen. All rights reserved.</span>
   </p>
 </div>
 
@@ -630,7 +624,7 @@
     &copy;
     
       2017 -
-    2024
+    2025
     <span class="heart">
       
       <i class="iconfont">

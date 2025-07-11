@@ -26,7 +26,9 @@
 <meta name="mobile-web-app-capable" content="yes">
 
 <meta name="author" content="oxygen" />
-  <meta name="description" content="前些天很意外地得知學校程式設計居然是教 C語言，非工程相關應該不需要學到這種中階語言才對吧…… 好歹來個 C&#43;&#43; 啊 !!!! 抱怨歸抱怨，課還是得上，只好重新翻" />
+  <meta name="description" content="前些天很意外地得知學校程式設計居然是教 C語言，非工程相關應該不需要學到這種中階語言才對吧…… 好歹來個 C&#43;&#43; 啊 !!!!
+抱怨歸抱怨，課還是得上，只好重新翻閱C的標準函式庫複習一下，結果在裡面挖到很多好用的東西呢XD 其中 stdlib.h 的 qsort 函式我覺得最驚喜，我一直以為只有 C&#43;&#43; 的 STL library才有 sort()，沒想到C語言也有！ 不過用法有點複雜，紀錄一下。
+" />
 <meta name="keywords" content="c, qsort,stdlib.h, qsort,qsort, 用法,stdlib, sort,c, standard, sort,qsort, compare, function,c&#43;&#43;,note" />
 
 
@@ -35,7 +37,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.131.0" />
+<meta name="generator" content="Hugo 0.148.0" />
 
 
 <link rel="canonical" href="https://oxygentw.net/blog/computer/c-standard-library-qsort/" />
@@ -56,7 +58,7 @@
 
 
 
-<link rel="stylesheet" href="/sass/jane.min.b495b9d81714f85c2c181722869d38324395662be76faebf5a6e36f1b996d1d0.css" integrity="" media="screen" crossorigin="anonymous">
+<link rel="stylesheet" href="/sass/jane.min.2d2189efee6cec3ea8e6d6a81b2cfbca060635e152dca5d5ce35bfb8b4226ead.css" integrity="" media="screen" crossorigin="anonymous">
 
 
 
@@ -65,7 +67,8 @@
 <meta property="og:url" content="https://oxygentw.net/blog/computer/c-standard-library-qsort/">
   <meta property="og:site_name" content="氧氣橘子">
   <meta property="og:title" content="C Standard Library QSort 函式">
-  <meta property="og:description" content="前些天很意外地得知學校程式設計居然是教 C語言，非工程相關應該不需要學到這種中階語言才對吧…… 好歹來個 C&#43;&#43; 啊 !!!! 抱怨歸抱怨，課還是得上，只好重新翻">
+  <meta property="og:description" content="前些天很意外地得知學校程式設計居然是教 C語言，非工程相關應該不需要學到這種中階語言才對吧…… 好歹來個 C&#43;&#43; 啊 !!!!
+抱怨歸抱怨，課還是得上，只好重新翻閱C的標準函式庫複習一下，結果在裡面挖到很多好用的東西呢XD 其中 stdlib.h 的 qsort 函式我覺得最驚喜，我一直以為只有 C&#43;&#43; 的 STL library才有 sort()，沒想到C語言也有！ 不過用法有點複雜，紀錄一下。">
   <meta property="og:locale" content="zh_tw">
   <meta property="og:type" content="article">
     <meta property="article:section" content="blog">
@@ -73,14 +76,16 @@
     <meta property="article:modified_time" content="2018-08-30T00:00:00+00:00">
 
   <meta itemprop="name" content="C Standard Library QSort 函式">
-  <meta itemprop="description" content="前些天很意外地得知學校程式設計居然是教 C語言，非工程相關應該不需要學到這種中階語言才對吧…… 好歹來個 C&#43;&#43; 啊 !!!! 抱怨歸抱怨，課還是得上，只好重新翻">
+  <meta itemprop="description" content="前些天很意外地得知學校程式設計居然是教 C語言，非工程相關應該不需要學到這種中階語言才對吧…… 好歹來個 C&#43;&#43; 啊 !!!!
+抱怨歸抱怨，課還是得上，只好重新翻閱C的標準函式庫複習一下，結果在裡面挖到很多好用的東西呢XD 其中 stdlib.h 的 qsort 函式我覺得最驚喜，我一直以為只有 C&#43;&#43; 的 STL library才有 sort()，沒想到C語言也有！ 不過用法有點複雜，紀錄一下。">
   <meta itemprop="datePublished" content="2018-08-30T00:00:00+00:00">
   <meta itemprop="dateModified" content="2018-08-30T00:00:00+00:00">
   <meta itemprop="wordCount" content="465">
   <meta itemprop="keywords" content="c,qsort,stdlib.h,qsort,qsort,用法,stdlib,sort,c,standard,sort,qsort,compare,function,c&#43;&#43;,note">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="C Standard Library QSort 函式">
-  <meta name="twitter:description" content="前些天很意外地得知學校程式設計居然是教 C語言，非工程相關應該不需要學到這種中階語言才對吧…… 好歹來個 C&#43;&#43; 啊 !!!! 抱怨歸抱怨，課還是得上，只好重新翻">
+  <meta name="twitter:description" content="前些天很意外地得知學校程式設計居然是教 C語言，非工程相關應該不需要學到這種中階語言才對吧…… 好歹來個 C&#43;&#43; 啊 !!!!
+抱怨歸抱怨，課還是得上，只好重新翻閱C的標準函式庫複習一下，結果在裡面挖到很多好用的東西呢XD 其中 stdlib.h 的 qsort 函式我覺得最驚喜，我一直以為只有 C&#43;&#43; 的 STL library才有 sort()，沒想到C語言也有！ 不過用法有點複雜，紀錄一下。">
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -92,8 +97,6 @@
 <![endif]-->
 
 
-  
-    
       <script async src="https://www.googletagmanager.com/gtag/js?id=4942793011"></script>
       <script>
         var doNotTrack = false;
@@ -108,10 +111,6 @@
           gtag('config', '4942793011');
         }
       </script>
-    
-  
-
-
 
 
 </head>
@@ -327,7 +326,6 @@
           2018-08-30
         </time>
         <div class="post-category">
-            <a href="https://oxygentw.net/categories/computer/"> computer </a>
             
           </div>
         <span class="more-meta"> 約 465 字 </span>
@@ -351,8 +349,7 @@
 <br/>
 <p>Function Prototype</p>
 <blockquote>
-<p>void qsort(void* base, size_t n, size_t size, int (<em>cmp)(const void</em>, const void*))</p>
-</blockquote>
+<p>void qsort(void* base, size_t n, size_t size, int (<em>cmp)(const void</em>, const void*))</p></blockquote>
 <ul>
 <li>base 是被排序陣列的指標</li>
 <li>n 是被排序陣列的大小 = sizeof(array)/sizeof(array_type)</li>
@@ -439,7 +436,7 @@
 </div></p>
 <br/>
 <p>輸出結果: <br>
-<img alt="Output" src="/img/post/c-standard-library-qsort/output.jpg" title="Output"></p>
+<img src="/img/post/c-standard-library-qsort/output.jpg" alt="Output" title="Output"></p>
 
     </div>
 
@@ -448,7 +445,7 @@
 <div class="post-copyright">
   <p class="copyright-item">
     <span class="item-title">文章作者</span>
-    <span class="item-content">oxygen</span>
+    <span class="item-content"><a href="https://oxygentw.net/author/oxygen/">oxygen</a></span>
   </p>
   <p class="copyright-item">
     <span class="item-title">上次更新</span>
@@ -460,7 +457,7 @@
   
   <p class="copyright-item">
     <span class="item-title">授權條款</span>
-    <span class="item-content">Copyright © 2017-2024 oxygen. All rights reserved.</span>
+    <span class="item-content">Copyright © 2017-2025 oxygen. All rights reserved.</span>
   </p>
 </div>
 
@@ -620,7 +617,7 @@
     &copy;
     
       2017 -
-    2024
+    2025
     <span class="heart">
       
       <i class="iconfont">

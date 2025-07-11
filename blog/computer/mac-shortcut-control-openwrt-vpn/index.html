@@ -26,7 +26,8 @@
 <meta name="mobile-web-app-capable" content="yes">
 
 <meta name="author" content="oxygen" />
-  <meta name="description" content="這篇給我自己紀錄用的，我的 OpenWRT 上裝有 OpenVPN Client，這樣直接利用路由器連回工作場域所有連這台路由器 WiFi 的設備都可以同時進入內網，雖然 OpenWRT 有提供網頁" />
+  <meta name="description" content="這篇給我自己紀錄用的，我的 OpenWRT 上裝有 OpenVPN Client，這樣直接利用路由器連回工作場域所有連這台路由器 WiFi 的設備都可以同時進入內網，雖然 OpenWRT 有提供網頁介面控制 VPN 開關，但！這樣每次還要開網頁、打密碼、選擇頁籤等等，我就懶！這樣我也嫌麻煩，我想要按一個按鈕就可以開/關 VPN，於是便有這篇紀錄了🤣
+" />
 <meta name="keywords" content="OpenWRT, OpenVPN, Apple shortcut, Apple shortcut ssh, OpenVPN Cli, OpenVPN command line" />
 
 
@@ -35,7 +36,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.131.0" />
+<meta name="generator" content="Hugo 0.148.0" />
 
 
 <link rel="canonical" href="https://oxygentw.net/blog/computer/mac-shortcut-control-openwrt-vpn/" />
@@ -56,7 +57,7 @@
 
 
 
-<link rel="stylesheet" href="/sass/jane.min.b495b9d81714f85c2c181722869d38324395662be76faebf5a6e36f1b996d1d0.css" integrity="" media="screen" crossorigin="anonymous">
+<link rel="stylesheet" href="/sass/jane.min.2d2189efee6cec3ea8e6d6a81b2cfbca060635e152dca5d5ce35bfb8b4226ead.css" integrity="" media="screen" crossorigin="anonymous">
 
 
 
@@ -65,7 +66,7 @@
 <meta property="og:url" content="https://oxygentw.net/blog/computer/mac-shortcut-control-openwrt-vpn/">
   <meta property="og:site_name" content="氧氣橘子">
   <meta property="og:title" content="利用 MacOS 捷徑 app 控制 OpenWRT OpenVPN">
-  <meta property="og:description" content="這篇給我自己紀錄用的，我的 OpenWRT 上裝有 OpenVPN Client，這樣直接利用路由器連回工作場域所有連這台路由器 WiFi 的設備都可以同時進入內網，雖然 OpenWRT 有提供網頁">
+  <meta property="og:description" content="這篇給我自己紀錄用的，我的 OpenWRT 上裝有 OpenVPN Client，這樣直接利用路由器連回工作場域所有連這台路由器 WiFi 的設備都可以同時進入內網，雖然 OpenWRT 有提供網頁介面控制 VPN 開關，但！這樣每次還要開網頁、打密碼、選擇頁籤等等，我就懶！這樣我也嫌麻煩，我想要按一個按鈕就可以開/關 VPN，於是便有這篇紀錄了🤣">
   <meta property="og:locale" content="zh_tw">
   <meta property="og:type" content="article">
     <meta property="article:section" content="blog">
@@ -73,14 +74,14 @@
     <meta property="article:modified_time" content="2023-08-20T00:00:00+00:00">
 
   <meta itemprop="name" content="利用 MacOS 捷徑 app 控制 OpenWRT OpenVPN">
-  <meta itemprop="description" content="這篇給我自己紀錄用的，我的 OpenWRT 上裝有 OpenVPN Client，這樣直接利用路由器連回工作場域所有連這台路由器 WiFi 的設備都可以同時進入內網，雖然 OpenWRT 有提供網頁">
+  <meta itemprop="description" content="這篇給我自己紀錄用的，我的 OpenWRT 上裝有 OpenVPN Client，這樣直接利用路由器連回工作場域所有連這台路由器 WiFi 的設備都可以同時進入內網，雖然 OpenWRT 有提供網頁介面控制 VPN 開關，但！這樣每次還要開網頁、打密碼、選擇頁籤等等，我就懶！這樣我也嫌麻煩，我想要按一個按鈕就可以開/關 VPN，於是便有這篇紀錄了🤣">
   <meta itemprop="datePublished" content="2023-08-20T00:00:00+00:00">
   <meta itemprop="dateModified" content="2023-08-20T00:00:00+00:00">
   <meta itemprop="wordCount" content="682">
   <meta itemprop="keywords" content="OpenWRT,OpenVPN,Apple shortcut,Apple shortcut ssh,OpenVPN Cli,OpenVPN command line">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="利用 MacOS 捷徑 app 控制 OpenWRT OpenVPN">
-  <meta name="twitter:description" content="這篇給我自己紀錄用的，我的 OpenWRT 上裝有 OpenVPN Client，這樣直接利用路由器連回工作場域所有連這台路由器 WiFi 的設備都可以同時進入內網，雖然 OpenWRT 有提供網頁">
+  <meta name="twitter:description" content="這篇給我自己紀錄用的，我的 OpenWRT 上裝有 OpenVPN Client，這樣直接利用路由器連回工作場域所有連這台路由器 WiFi 的設備都可以同時進入內網，雖然 OpenWRT 有提供網頁介面控制 VPN 開關，但！這樣每次還要開網頁、打密碼、選擇頁籤等等，我就懶！這樣我也嫌麻煩，我想要按一個按鈕就可以開/關 VPN，於是便有這篇紀錄了🤣">
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -92,8 +93,6 @@
 <![endif]-->
 
 
-  
-    
       <script async src="https://www.googletagmanager.com/gtag/js?id=4942793011"></script>
       <script>
         var doNotTrack = false;
@@ -108,10 +107,6 @@
           gtag('config', '4942793011');
         }
       </script>
-    
-  
-
-
 
 
 </head>
@@ -327,7 +322,6 @@
           2023-08-20
         </time>
         <div class="post-category">
-            <a href="https://oxygentw.net/categories/computer/"> computer </a>
             
           </div>
         <span class="more-meta"> 約 682 字 </span>
@@ -350,8 +344,7 @@
 <h2 id="1-利用-command-line-控制-openvpn">1. 利用 Command Line 控制 OpenVPN</h2>
 <p>首先我需要先利用 CLI 設定 OpenVPN 的方法，上網查資料後找到下面這樣的格式可以啟動 OpenVPN 並將結果輸出到指定 log 檔。</p>
 <blockquote>
-<p>若 OpenWRT 沒有安裝 pkill 則用 <em>opkg install procps-ng-pkill</em> 安裝</p>
-</blockquote>
+<p>若 OpenWRT 沒有安裝 pkill 則用 <em>opkg install procps-ng-pkill</em> 安裝</p></blockquote>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -525,7 +518,7 @@
 <div class="post-copyright">
   <p class="copyright-item">
     <span class="item-title">文章作者</span>
-    <span class="item-content">oxygen</span>
+    <span class="item-content"><a href="https://oxygentw.net/author/oxygen/">oxygen</a></span>
   </p>
   <p class="copyright-item">
     <span class="item-title">上次更新</span>
@@ -537,7 +530,7 @@
   
   <p class="copyright-item">
     <span class="item-title">授權條款</span>
-    <span class="item-content">Copyright © 2017-2024 oxygen. All rights reserved.</span>
+    <span class="item-content">Copyright © 2017-2025 oxygen. All rights reserved.</span>
   </p>
 </div>
 
@@ -697,7 +690,7 @@
     &copy;
     
       2017 -
-    2024
+    2025
     <span class="heart">
       
       <i class="iconfont">

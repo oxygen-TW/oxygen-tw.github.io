@@ -26,7 +26,8 @@
 <meta name="mobile-web-app-capable" content="yes">
 
 <meta name="author" content="oxygen" />
-  <meta name="description" content="DietPi 有預裝 Dropbear SSH Server，機器安裝好系統開機後即可透過 SSH 連入伺服器。 預設 IP 是 192.168.0.100，也可以接上螢幕透過螢幕來設定，我們使" />
+  <meta name="description" content="DietPi 有預裝 Dropbear SSH Server，機器安裝好系統開機後即可透過 SSH 連入伺服器。 預設 IP 是 192.168.0.100，也可以接上螢幕透過螢幕來設定，我們使用 KITTY 來做 SSH 操作。
+" />
 <meta name="keywords" content="家用伺服器, 家用伺服器架設, Home server, dietpi config, dietpi 教學, dietpi 設定, 樹莓派, 伺服器, DietPi, Raspbian, 樹莓派安裝系統, 系統安裝教學, 樹莓派教學, 如何安裝樹莓派系統, 樹莓派怎麼用, Raspberry Pi, Raspberry Pi OS" />
 
 
@@ -35,7 +36,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.131.0" />
+<meta name="generator" content="Hugo 0.148.0" />
 
 
 <link rel="canonical" href="https://oxygentw.net/blog/computer/homeserver/2-init-setting/" />
@@ -56,7 +57,7 @@
 
 
 
-<link rel="stylesheet" href="/sass/jane.min.b495b9d81714f85c2c181722869d38324395662be76faebf5a6e36f1b996d1d0.css" integrity="" media="screen" crossorigin="anonymous">
+<link rel="stylesheet" href="/sass/jane.min.2d2189efee6cec3ea8e6d6a81b2cfbca060635e152dca5d5ce35bfb8b4226ead.css" integrity="" media="screen" crossorigin="anonymous">
 
 
 
@@ -65,23 +66,22 @@
 <meta property="og:url" content="https://oxygentw.net/blog/computer/homeserver/2-init-setting/">
   <meta property="og:site_name" content="氧氣橘子">
   <meta property="og:title" content="架設家用伺服器 PART 2 — 初始設定">
-  <meta property="og:description" content="DietPi 有預裝 Dropbear SSH Server，機器安裝好系統開機後即可透過 SSH 連入伺服器。 預設 IP 是 192.168.0.100，也可以接上螢幕透過螢幕來設定，我們使">
+  <meta property="og:description" content="DietPi 有預裝 Dropbear SSH Server，機器安裝好系統開機後即可透過 SSH 連入伺服器。 預設 IP 是 192.168.0.100，也可以接上螢幕透過螢幕來設定，我們使用 KITTY 來做 SSH 操作。">
   <meta property="og:locale" content="zh_tw">
   <meta property="og:type" content="article">
     <meta property="article:section" content="blog">
     <meta property="article:published_time" content="2019-02-16T00:00:00+00:00">
     <meta property="article:modified_time" content="2019-02-16T00:00:00+00:00">
-    <meta property="article:tag" content="Home Server Series">
 
   <meta itemprop="name" content="架設家用伺服器 PART 2 — 初始設定">
-  <meta itemprop="description" content="DietPi 有預裝 Dropbear SSH Server，機器安裝好系統開機後即可透過 SSH 連入伺服器。 預設 IP 是 192.168.0.100，也可以接上螢幕透過螢幕來設定，我們使">
+  <meta itemprop="description" content="DietPi 有預裝 Dropbear SSH Server，機器安裝好系統開機後即可透過 SSH 連入伺服器。 預設 IP 是 192.168.0.100，也可以接上螢幕透過螢幕來設定，我們使用 KITTY 來做 SSH 操作。">
   <meta itemprop="datePublished" content="2019-02-16T00:00:00+00:00">
   <meta itemprop="dateModified" content="2019-02-16T00:00:00+00:00">
   <meta itemprop="wordCount" content="972">
   <meta itemprop="keywords" content="家用伺服器,家用伺服器架設,Home server,dietpi config,dietpi 教學,dietpi 設定,樹莓派,伺服器,DietPi,Raspbian,樹莓派安裝系統,系統安裝教學,樹莓派教學,如何安裝樹莓派系統,樹莓派怎麼用,Raspberry Pi,Raspberry Pi OS">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="架設家用伺服器 PART 2 — 初始設定">
-  <meta name="twitter:description" content="DietPi 有預裝 Dropbear SSH Server，機器安裝好系統開機後即可透過 SSH 連入伺服器。 預設 IP 是 192.168.0.100，也可以接上螢幕透過螢幕來設定，我們使">
+  <meta name="twitter:description" content="DietPi 有預裝 Dropbear SSH Server，機器安裝好系統開機後即可透過 SSH 連入伺服器。 預設 IP 是 192.168.0.100，也可以接上螢幕透過螢幕來設定，我們使用 KITTY 來做 SSH 操作。">
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -93,8 +93,6 @@
 <![endif]-->
 
 
-  
-    
       <script async src="https://www.googletagmanager.com/gtag/js?id=4942793011"></script>
       <script>
         var doNotTrack = false;
@@ -109,10 +107,6 @@
           gtag('config', '4942793011');
         }
       </script>
-    
-  
-
-
 
 
 </head>
@@ -328,7 +322,6 @@
           2019-02-16
         </time>
         <div class="post-category">
-            <a href="https://oxygentw.net/categories/computer/"> computer </a>
             
           </div>
         <span class="more-meta"> 約 972 字 </span>
@@ -354,10 +347,10 @@
 <p>在 Host Name 的地方輸入主機位置，Port 輸入 SSH 連接埠號(預設22)，就可以建立連線，連進去後會被詢問帳號密碼。</p>
 <p>預設帳號：<code>root</code> <br>
 預設密碼：<code>dietpi</code></p>
-<p><img alt="透過 SSH 連線" src="/img/post/homeserver/3-system-setting/2018-03-04-7.png"></p>
+<p><img src="/img/post/homeserver/3-system-setting/2018-03-04-7.png" alt="透過 SSH 連線"></p>
 <br/>
 <p>第一次進入會顯示作業系統著作權宣告，按OK就好
-<img alt="著作權宣告" src="/img/post/homeserver/2-init-setting/2019-02-16.png"></p>
+<img src="/img/post/homeserver/2-init-setting/2019-02-16.png" alt="著作權宣告"></p>
 <br/>
 <p><span id="setpasswd"></span>
 開機後系統會自動引導你進行初始設定，跳出這個視窗詢問你是否要幫 dietpi-software 設定一組新密碼，這組密碼會被用在安裝軟體時的新使用者和 web 服務( database 之類的)的登入密碼。</p>
@@ -398,7 +391,7 @@
 <div class="post-copyright">
   <p class="copyright-item">
     <span class="item-title">文章作者</span>
-    <span class="item-content">oxygen</span>
+    <span class="item-content"><a href="https://oxygentw.net/author/oxygen/">oxygen</a></span>
   </p>
   <p class="copyright-item">
     <span class="item-title">上次更新</span>
@@ -410,7 +403,7 @@
   
   <p class="copyright-item">
     <span class="item-title">授權條款</span>
-    <span class="item-content">Copyright © 2017-2024 oxygen. All rights reserved.</span>
+    <span class="item-content">Copyright © 2017-2025 oxygen. All rights reserved.</span>
   </p>
 </div>
 
@@ -420,7 +413,6 @@
 
     <footer class="post-footer">
       <div class="post-tags">
-          <a href="https://oxygentw.net/tags/home-server-series/">Home server series</a>
           
         </div>
 
@@ -573,7 +565,7 @@
     &copy;
     
       2017 -
-    2024
+    2025
     <span class="heart">
       
       <i class="iconfont">

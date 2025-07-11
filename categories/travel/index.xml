@@ -2,74 +2,1585 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Travel on 氧氣橘子</title>
-    <link>https://oxygentw.net/categories/travel/</link>
+    <link>http://localhost:1313/categories/travel/</link>
     <description>Recent content in Travel on 氧氣橘子</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <lastBuildDate>Sat, 03 Aug 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://oxygentw.net/categories/travel/index.xml" rel="self" type="application/rss+xml" />
+    
+        <atom:link href="http://localhost:1313/categories/travel/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>在美國生病怎麼辦 | 美國 Urgent Care 經驗分享</title>
-      <link>https://oxygentw.net/blog/travel/visit-urgent-care-in-us/</link>
+      <link>http://localhost:1313/blog/travel/visit-urgent-care-in-us/</link>
       <pubDate>Sat, 03 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://oxygentw.net/blog/travel/visit-urgent-care-in-us/</guid>
-      <description>上個月中去美國參加研討會，因此順便也在佛羅里達待了一個禮拜，但在過程中發生了點小插曲，從抵達的第三天開始發燒，我把我帶去的藥吃完無法改善，到</description>
+      
+      <guid>http://localhost:1313/blog/travel/visit-urgent-care-in-us/</guid>
+      
+        <description>&lt;p&gt;上個月中去美國參加研討會，因此順便也在佛羅里達待了一個禮拜，但在過程中發生了點小插曲，從抵達的第三天開始發燒，我把我帶去的藥吃完無法改善，到 Walmart 購買成藥雖然可以將體溫降下來，但藥效結束後仍繼續發燒，連續三天加上其他症狀，我懷疑有細菌感染的可能，又不敢貿然使用抗生素，於是決定前往 Urgent Care 就醫。&lt;/p&gt;
+&lt;p&gt;要去看醫生前我查了一大堆資料，但還是不太確定到底應該怎麼做，因此決定分享一下我的經驗給其他可能需要的人參考。&lt;/p&gt;
+&lt;h2 id=&#34;美國醫療分級&#34;&gt;美國醫療分級&lt;/h2&gt;
+&lt;p&gt;在開始前就得先談談美國的醫療分級，在美國的醫療體系分為三大類：Emergency Room、Urgent Care 和一般診所（Primary Care），一般診所通常需要預約，是用來處理一些不太緊迫的問題，像慢性病追蹤、身體檢查之類的，而另外兩類則是處理較有時間急迫性的情況，通常不用提前預約且等候時間不會太長，Emergency Room 和 Urgent Care 的差別在於 Emergency Room 適用於&lt;strong&gt;緊急且有生命危險&lt;/strong&gt;的情況，而 Urgent Care 則是適用於&lt;strong&gt;緊急但無生命危險&lt;/strong&gt;，如突然發燒、拉肚子、無生命危險的創傷等等。因此在我的情況下較為適用的是 Urgent Care。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Emergency Room：緊急且有生命危險&lt;/li&gt;
+&lt;li&gt;Urgent Care：緊急但無生命危險&lt;/li&gt;
+&lt;li&gt;Primary Care：非緊急情況，需要預約&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;urgent-care-就醫過程&#34;&gt;Urgent Care 就醫過程&lt;/h2&gt;
+&lt;p&gt;在我旅館附近的那間 Urgent Care 需要上他們的網站填寫預約，大家可以在 Google Map 上看有沒有預約的連結，但這個預約比較像是告知他們你預計要到的時間，如果沒有預約也是可以直接到現場掛號。因為當天研討會結束還要處理一些事情，我預約到23:00的時段，不得不說，當我開車抵達診所時我花了十分鐘才做好心理準備，一方面是這是我第一次在國外就醫，我不確定我有沒有辦法順利溝通，另一方面是那間診所看起來真的很像鬼屋&amp;hellip;診所內看起來很正常，但他位於一個商場的二樓，空蕩蕩的停車場，昏暗的樓梯間，只有那間診所亮著燈，診所裡也沒有其他患者，看起來實在有點詭異&amp;hellip;&lt;/p&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:600px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/visit-urgent-care-in-us/image1.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/visit-urgent-care-in-us/image1.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;總之，我站在門外等到有另一位看起來是要領藥的人進去，我才敢跟著他一起進去XD 那邊冷清到我甚至在櫃台旁站了三分鐘櫃檯的人才發現我，他詢問我我的情況，然後問我有沒有保險，因為我沒有當地的醫療保險，我詢問他通常我的情況需要多少錢，因為我的旅平險最多只能給付到600美元，他們說依照我的症狀大約是450元。 嗯&amp;hellip;夠用，但還是好貴&amp;hellip;&lt;/p&gt;
+&lt;p&gt;決定看診後他請我上網填寫初診資料，接著他就帶我到診療室中。&lt;/p&gt;
+&lt;p&gt;從這邊開始就跟台灣的醫療很不一樣了，進去後一個工作人員(應該是護理師)開始詢問我的症狀、病史、用藥史、過敏等等，並測量生命徵象(體溫、血壓、心率、血氧)，體溫我記得是101°F左右，所以他對我進行流感與A型鏈球菌的快速檢測，然後請我等候結果。&lt;/p&gt;
+&lt;p&gt;等候的過程中醫生有進來做簡單的檢查，檢查喉嚨、耳朵等等，同時詢問我是否願意接受注射的處置，大致上就是跟我詳細的解釋這個處置的理由以及價位，兩針要價250美元&amp;hellip; 我想說等到檢驗結果出來，如果都陰性的話就算了，用症狀治療的藥物處理就好。&lt;/p&gt;
+&lt;p&gt;又等了一段時間，護理師走進來跟我說我的檢驗結果出來了，他一開口我直接驚呆了 &lt;br&gt;
+他說「You got positive for both.」 &lt;br&gt;
+啥&amp;hellip;? &lt;br&gt;
+「Is that possible..?」我問 &lt;br&gt;
+「Yeah. You are a strong man」他尷尬地笑著說。&lt;/p&gt;
+&lt;p&gt;嗯&amp;hellip;謝謝稱讚，但同時感染流感與A型鏈球菌&amp;hellip; 會不會太過分&amp;hellip; 好吧，於是我同意抗生素與類固醇的注射，畢竟醫生說這個處置是可以申請保險的，他處理過很多這種案例，我就相信他&amp;hellip; 因為藥物容量的關係，得注射在臀中肌，我說這是我第一次打這個部位，不太知道怎麼做，他很有耐心的說明，在注射過程中也隨時確定我的狀況，注射完後他還跟我說「Congratulations. This is your first time.」我只能微笑應對，我的英文沒有好到可以回覆這種幽默回應XD 但整體的感覺很好，他們會想辦法緩解你的緊張，而且也不會讓人覺得他想要趕快把你搞定。&lt;/p&gt;
+&lt;p&gt;雖然這一切都是建立在相當高昂的醫療費上，流感快篩70幾元、Strep. A 快篩50幾元，在台灣 Streptococcus A 快篩只給付200點，流感只有150點，難怪醫生跟不要錢一樣的開&amp;hellip; 台灣健保雖然讓每個人都看得起醫生，卻是透過降低醫療品質與醫療人員待遇得來的。&lt;/p&gt;
+&lt;p&gt;結果最終醫療費是大約500元，他們跟我說要我去一間CVS藥局領藥，他們已經把處方傳過去，到現場報姓名即可，然後那間藥局距離診所13公里&amp;hellip;你能想像你在新莊看完醫生要到台北車站才能領藥嗎XD 但美國就是這樣，甚麼東西都離好遠。到CVS後領藥因為沒有醫療保險又付了100多塊的藥費，這個旅平險還是不能理賠的，因為難以證明這個藥費與突發疾病相關。&lt;/p&gt;
+&lt;p&gt;大致上是這樣，我發現在美國就醫困難的是真的好貴，溝通其實不會很困難，就算聽不懂一些句子他們也會用簡單的話解釋給你聽，想辦法讓你理解，就算是英文不好的人搭配上 Google 翻譯應該也能順利完成。倒是他們的藥挺複雜的，不像台灣診所會分三餐幫你包起來，你必須一個一個說明書去看，看藥甚麼時候吃，吃幾顆，哪一種藥藥先吃等等資訊。&lt;/p&gt;
+&lt;br/&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:600px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/visit-urgent-care-in-us/image2.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/visit-urgent-care-in-us/image2.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+甚至有這種六天療程每天都有不同時間指示的藥。&lt;/p&gt;
+&lt;br/&gt;
+&lt;hr&gt;
+&lt;p&gt;這次旅行對我來說真的是突發狀況的訓練營，除了發燒外還有很多其他的突發情況，尤其這次大多數時間又是只有我一個人，在邁阿密高燒的那個晚上真的是覺得很無助，但離家14000公里，再怎麼樣也只能靠自己想出辦法，雖然當下真的很想放棄，但往好處想，經過了這次，我學到如何在海外處理「自己無法處理的醫療情況」，這也是個很重要的經驗，相信在未來的旅程中若是再遇到類似情況，我能更加知道如何應對。&lt;/p&gt;
+</description>
+      
     </item>
+    
     <item>
       <title>打工換宿攜帶行李詳解！</title>
-      <link>https://oxygentw.net/blog/travel/work-exchange-baggage/</link>
+      <link>http://localhost:1313/blog/travel/work-exchange-baggage/</link>
       <pubDate>Sun, 19 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>https://oxygentw.net/blog/travel/work-exchange-baggage/</guid>
-      <description>前言 目前我正在澎湖打工換宿！這次也是我第一次打工換宿，出發前一直在想行李要帶什麼好，衣服應該帶多還是帶少? 會不會帶太多東西之類的，想必想要嘗</description>
+      
+      <guid>http://localhost:1313/blog/travel/work-exchange-baggage/</guid>
+      
+        <description>
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/work-exchange-baggage/firework.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/work-exchange-baggage/firework.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+&lt;p&gt;目前我正在澎湖打工換宿！這次也是我第一次打工換宿，出發前一直在想行李要帶什麼好，衣服應該帶多還是帶少? 會不會帶太多東西之類的，想必想要嘗試打工換宿的朋友一定也會有這樣的疑問吧！所以我就來和大家聊聊打工換宿怎麼帶行李最實用方便！&lt;/p&gt;
+&lt;p&gt;這篇會以男生的角度來寫，女生可能就加上生理用品、保養品化妝品之類的吧，我也不熟啊啊啊啊，需要補充的歡迎女生朋友在下面留言告訴我喔~&lt;/p&gt;
+&lt;h2 id=&#34;進入正題&#34;&gt;進入正題&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;打括弧的是看情況攜帶喔~&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;衣服&#34;&gt;衣服&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;衣服/褲子 4-6 套&lt;/li&gt;
+&lt;li&gt;內衣褲 5-6 件&lt;/li&gt;
+&lt;li&gt;睡衣 1-2 套&lt;/li&gt;
+&lt;li&gt;襪子&lt;/li&gt;
+&lt;li&gt;泳衣泳褲 1 套&lt;/li&gt;
+&lt;li&gt;毛巾 2 條(才可以替換著用)&lt;/li&gt;
+&lt;li&gt;拖鞋&lt;/li&gt;
+&lt;li&gt;(外套)&lt;/li&gt;
+&lt;li&gt;(手套)&lt;/li&gt;
+&lt;li&gt;(帽子)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;依照我的經驗，衣服不要帶太少！像這次我只帶了三件褲子，這樣我就要一直洗衣服，很麻煩的&amp;hellip;&lt;/p&gt;
+&lt;p&gt;如果你換宿的地方在離島，會常常玩水的地方的話，記得帶幾件海灘褲或泳裝，而且幾乎每天都是穿拖鞋，襪子就可以少帶一些~&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;生活&#34;&gt;生活&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;牙膏牙刷&lt;/li&gt;
+&lt;li&gt;洗面乳&lt;/li&gt;
+&lt;li&gt;刮鬍刀&lt;/li&gt;
+&lt;li&gt;梳子&lt;/li&gt;
+&lt;li&gt;環保餐具&lt;/li&gt;
+&lt;li&gt;洗衣球(方便好帶)&lt;/li&gt;
+&lt;li&gt;隱形眼鏡&lt;/li&gt;
+&lt;li&gt;隱形眼鏡盒/清潔液&lt;/li&gt;
+&lt;li&gt;衛生紙 &amp;amp; 濕紙巾&lt;/li&gt;
+&lt;li&gt;塑膠袋&lt;/li&gt;
+&lt;li&gt;指甲刀&lt;/li&gt;
+&lt;li&gt;防曬乳&lt;/li&gt;
+&lt;li&gt;雨傘&lt;/li&gt;
+&lt;li&gt;雨衣&lt;/li&gt;
+&lt;li&gt;太陽眼鏡&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;防蚊液&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;(小刀)&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;因為旅館通常會提供沐浴乳和洗髮精，所以可以自備洗面乳即可，如果覺得旅館得太爛(? 也可以把家裡的分裝小瓶帶來或是買三合一洗澡乳~&lt;/p&gt;
+&lt;p&gt;指甲刀很重要！通常我們出去玩不會特地帶指甲刀，但因為換宿時間比較長就會需要，我這次就忘記帶了&amp;hellip;&lt;/p&gt;
+&lt;p&gt;隱形眼鏡可能有人已經有習慣戴了，但若是有近視的朋友想要浮潛或潛水的話記得要準備！！不要期待有度數的面鏡能讓你看得多清楚，還是戴隱形眼鏡比較適合。&lt;/p&gt;
+&lt;p&gt;防蚊液也很重要！！！不然會像我這次依樣被蚊子騷擾到發瘋XD&lt;/p&gt;
+&lt;p&gt;最後一個小刀比較特別，應該大部分人不會有吧(? 我朋友這次有帶一把類似下圖的隨身刀，看起來挺可怕的，但真的很實用，各種場合需要都可以派上用場。&lt;/p&gt;
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/work-exchange-baggage/knife.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/work-exchange-baggage/knife.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;hr&gt;
+&lt;h3 id=&#34;3c產品&#34;&gt;3C產品&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;手機充電器/充電線&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;延長插頭&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;相機 or GoPro(我好想買一台QQ)&lt;/li&gt;
+&lt;li&gt;充電器&lt;/li&gt;
+&lt;li&gt;電腦 (寫網頁、做影片、查資料都方便!)&lt;/li&gt;
+&lt;li&gt;隨身碟&lt;/li&gt;
+&lt;li&gt;耳機&lt;/li&gt;
+&lt;li&gt;行動電源&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;延長插頭很重要！有些青年旅舍的插頭只有一個，插座位置又很畸形，在天花板之類的&amp;hellip;所以帶條延長線或延長插頭不會吃虧的。&lt;/p&gt;
+&lt;p&gt;隨身碟則是有些水上活動的照片需要用隨身碟複製回來，雖然最近很多都會用網路傳了，不過個人還是會帶一下。&lt;/p&gt;
+&lt;p&gt;至於耳機呢~ 青年旅舍背包房大家一起睡，總是需要耳機的。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;基本藥品&#34;&gt;基本藥品&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;列出一些我有準備的備藥，這些藥局都買的到，實際上看個人囉~&lt;/p&gt;&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Ibuprofen / Acetaminophen (退燒止痛)&lt;/li&gt;
+&lt;li&gt;Meclizine (暈船藥)&lt;/li&gt;
+&lt;li&gt;Loperamide (止瀉藥)&lt;/li&gt;
+&lt;li&gt;SHIN BIOFERMIN (欣表飛鳴)&lt;/li&gt;
+&lt;li&gt;外傷處理用藥&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;可參考&lt;a href=&#34;https://oxygentw.net/blog/travel/travel-medicine-first-aid-kits/&#34;&gt;旅行常備藥品與急救包&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;其他&#34;&gt;其他&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;錢&lt;/li&gt;
+&lt;li&gt;身分證/健保卡&lt;/li&gt;
+&lt;li&gt;(駕照)&lt;/li&gt;
+&lt;li&gt;(潛水紀錄本與證照)&lt;/li&gt;
+&lt;li&gt;隨身包&lt;/li&gt;
+&lt;li&gt;筆、筆記本&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;駕照跟潛水證都是有需要才帶喔~ 租車行租車前會看駕照，他們不像警察有辦法用身分證字號查XD 潛店也會要求潛水執照才可以 fun dive，不過如果是體驗潛水就不需要囉~&lt;/p&gt;
+&lt;p&gt;我習慣會記錄旅行手帳，所以會帶筆、紙膠帶、迴紋針，這樣挺好玩的！&lt;/p&gt;
+&lt;br/&gt;
+&lt;h1 id=&#34;總清單&#34;&gt;總清單&lt;/h1&gt;
+&lt;p&gt;最後幫大家整理出一個總清單，收拾行李的時候方便使用，也可以印下來喔！ &lt;a href=&#34;https://oxygentw.net/files/%E6%89%93%E5%B7%A5%E6%8F%9B%E5%AE%BF%E8%A1%8C%E6%9D%8E%E8%A1%A8.pdf&#34;&gt;列印載點&lt;/a&gt;&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;衣物&lt;/th&gt;
+          &lt;th&gt;生活&lt;/th&gt;
+          &lt;th&gt;3C&lt;/th&gt;
+          &lt;th&gt;藥品&lt;/th&gt;
+          &lt;th&gt;其他&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;衣服/褲子 4-6 套&lt;/td&gt;
+          &lt;td&gt;牙膏牙刷&lt;/td&gt;
+          &lt;td&gt;手機充電器/充電線&lt;/td&gt;
+          &lt;td&gt;退燒止痛藥&lt;/td&gt;
+          &lt;td&gt;身分證&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;內衣褲 5-6 件&lt;/td&gt;
+          &lt;td&gt;洗面乳&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;延長插頭&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;暈船藥&lt;/td&gt;
+          &lt;td&gt;健保卡&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;睡衣 1-2 套&lt;/td&gt;
+          &lt;td&gt;刮鬍刀&lt;/td&gt;
+          &lt;td&gt;相機 or GoPro(我好想買一台QQ)&lt;/td&gt;
+          &lt;td&gt;止瀉藥&lt;/td&gt;
+          &lt;td&gt;(駕照)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;泳衣泳褲 1 套&lt;/td&gt;
+          &lt;td&gt;梳子&lt;/td&gt;
+          &lt;td&gt;充電器&lt;/td&gt;
+          &lt;td&gt;欣表飛鳴錠&lt;/td&gt;
+          &lt;td&gt;隨身包&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;毛巾 2 條(才可以替換著用)&lt;/td&gt;
+          &lt;td&gt;環保餐具&lt;/td&gt;
+          &lt;td&gt;隨身碟&lt;/td&gt;
+          &lt;td&gt;外傷用藥&lt;/td&gt;
+          &lt;td&gt;筆、筆記本&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;拖鞋&lt;/td&gt;
+          &lt;td&gt;洗衣球(方便好帶)&lt;/td&gt;
+          &lt;td&gt;耳機&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;(外套)&lt;/td&gt;
+          &lt;td&gt;隱形眼鏡&lt;/td&gt;
+          &lt;td&gt;行動電源&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;(手套)&lt;/td&gt;
+          &lt;td&gt;隱形眼鏡盒/清潔液&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;衛生紙 &amp;amp; 濕紙巾&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;塑膠袋&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;指甲刀&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;防曬乳&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;雨傘/雨衣&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;太陽眼鏡&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;(小刀)&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;最後祝大家找到喜歡又適合的地方換宿！&lt;/p&gt;
+</description>
+      
     </item>
+    
     <item>
       <title>水肺潛水重裝組裝與拆卸流程</title>
-      <link>https://oxygentw.net/blog/travel/scuba-diving-equipment/</link>
+      <link>http://localhost:1313/blog/travel/scuba-diving-equipment/</link>
       <pubDate>Mon, 29 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://oxygentw.net/blog/travel/scuba-diving-equipment/</guid>
-      <description>基本裝備清單 Buoyancy Compensator Device(BC) 氣瓶 管線組 配重 面鏡 呼吸管 防寒衣 蛙鞋 潛水鞋 氣瓶操作以 Yoke 氣瓶為主 重裝組裝 穿上防寒衣 穿上潛水鞋 面鏡除霧 移除氣瓶的氣瓶頭蓋 BC 氣瓶帶</description>
+      
+      <guid>http://localhost:1313/blog/travel/scuba-diving-equipment/</guid>
+      
+        <description>&lt;h2 id=&#34;基本裝備清單&#34;&gt;基本裝備清單&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Buoyancy Compensator Device(BC)&lt;/li&gt;
+&lt;li&gt;氣瓶&lt;/li&gt;
+&lt;li&gt;管線組&lt;/li&gt;
+&lt;li&gt;配重&lt;/li&gt;
+&lt;li&gt;面鏡&lt;/li&gt;
+&lt;li&gt;呼吸管&lt;/li&gt;
+&lt;li&gt;防寒衣&lt;/li&gt;
+&lt;li&gt;蛙鞋&lt;/li&gt;
+&lt;li&gt;潛水鞋&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+&lt;blockquote&gt;
+&lt;p&gt;氣瓶操作以 Yoke 氣瓶為主&lt;/p&gt;&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;重裝組裝&#34;&gt;重裝組裝&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;穿上防寒衣&lt;/li&gt;
+&lt;li&gt;穿上潛水鞋&lt;/li&gt;
+&lt;li&gt;面鏡除霧&lt;/li&gt;
+&lt;li&gt;移除氣瓶的氣瓶頭蓋&lt;/li&gt;
+&lt;li&gt;BC 氣瓶帶套入氣瓶，氣瓶高度調整帶套入氣瓶頭，確認氣瓶頭與BC領子同高，扣上氣瓶帶&lt;/li&gt;
+&lt;li&gt;鬆開一級頭防塵蓋，將一級頭裝上氣瓶，不須旋轉很緊&lt;/li&gt;
+&lt;li&gt;將中氣管接上BCD控制器&lt;/li&gt;
+&lt;li&gt;殘壓錶錶面朝下，壓住二級頭調節器，開一小段氣瓶，聽到洩氣聲後氣瓶全開，到底後往回轉半圈&lt;/li&gt;
+&lt;li&gt;檢查殘壓是否足夠&lt;/li&gt;
+&lt;li&gt;檢查調節器是否供氣正常&lt;/li&gt;
+&lt;li&gt;檢查備用調節器是否供氣正常&lt;/li&gt;
+&lt;li&gt;將管線移到身體前方，高跪姿準備上裝備&lt;/li&gt;
+&lt;li&gt;請潛伴協助上裝&lt;/li&gt;
+&lt;li&gt;調整BC肩帶，黏上腹帶，扣上腹扣，扣上胸扣&lt;/li&gt;
+&lt;li&gt;備用調節器歸位&lt;/li&gt;
+&lt;li&gt;裝入配重&lt;/li&gt;
+&lt;li&gt;戴上面鏡&lt;/li&gt;
+&lt;li&gt;裝備目視檢查&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;重裝拆卸&#34;&gt;重裝拆卸&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;防寒衣、面鏡、呼吸管、蛙鞋、潛水鞋過淡水陰乾&lt;/li&gt;
+&lt;li&gt;BC洩氣&lt;/li&gt;
+&lt;li&gt;關閉氣瓶閥&lt;/li&gt;
+&lt;li&gt;調節器洩氣&lt;/li&gt;
+&lt;li&gt;備用調節器洩氣&lt;/li&gt;
+&lt;li&gt;檢查殘壓是否為零&lt;/li&gt;
+&lt;li&gt;鬆開一級頭後，開一點氣瓶閥，利用空氣把一級頭上的海水吹乾&lt;/li&gt;
+&lt;li&gt;拆除一級頭&lt;/li&gt;
+&lt;li&gt;同樣做法把氣瓶防塵蓋吹乾&lt;/li&gt;
+&lt;li&gt;鎖上氣瓶防塵蓋 &amp;lt;style color=&amp;ldquo;red&amp;rdquo;;&amp;gt;(不要將氣瓶頭蓋蓋回去)&lt;/style&gt;&lt;/li&gt;
+&lt;li&gt;鬆開BC氣瓶帶，把氣瓶拉出歸位到已使用氣瓶區&lt;/li&gt;
+&lt;li&gt;將管線系統泡進淡水，注意一級頭不可碰水&lt;/li&gt;
+&lt;li&gt;利用BC控制器將BC內灌水、吹氣搖晃一下清洗，排出水&lt;/li&gt;
+&lt;li&gt;第13步執行2-3次&lt;/li&gt;
+&lt;li&gt;BC 外部淡水洗淨陰乾&lt;/li&gt;
+&lt;/ol&gt;
+&lt;br/&gt;
+&lt;p&gt;大致上就是這樣啦~潛水重裝的基本組裝與拆卸步驟！&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;CC0 圖源: &lt;a href=&#34;https://pixabay.com/photos/scuba-diving-scuba-diving-diver-1300853/&#34;&gt;https://pixabay.com/photos/scuba-diving-scuba-diving-diver-1300853/&lt;/a&gt;&lt;/p&gt;
+</description>
+      
     </item>
+    
     <item>
       <title>台灣高鐵車次意義</title>
-      <link>https://oxygentw.net/blog/travel/thsr-train-number/</link>
+      <link>http://localhost:1313/blog/travel/thsr-train-number/</link>
       <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>https://oxygentw.net/blog/travel/thsr-train-number/</guid>
-      <description>紀錄高鐵車次各數字的意義，這樣訂票一目了然很方便，對於常旅行或通勤的人來說是個很有用的常識！ 高鐵車次共有四碼 ABCC 第一碼 A 代表列車週期性，第二碼</description>
+      
+      <guid>http://localhost:1313/blog/travel/thsr-train-number/</guid>
+      
+        <description>&lt;p&gt;紀錄高鐵車次各數字的意義，這樣訂票一目了然很方便，對於常旅行或通勤的人來說是個很有用的常識！&lt;/p&gt;
+&lt;p&gt;高鐵車次共有四碼 &lt;code&gt;ABCC&lt;/code&gt; &lt;br&gt;
+第一碼 A 代表列車週期性，第二碼 B 代表停靠模式，第三四碼 CC 則是班次編號，詳細說明在下面。&lt;/p&gt;
+&lt;hr&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;第一碼&#34;&gt;第一碼&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;0 每日固定班次&lt;/li&gt;
+&lt;li&gt;1 非每日固定班次&lt;/li&gt;
+&lt;li&gt;8 加開車次&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;第二碼&#34;&gt;第二碼&lt;/h2&gt;
+&lt;p&gt;行駛時間計算為 &lt;strong&gt;南港-左營&lt;/strong&gt; 區間&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;車次&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;南港&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;台北&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;板橋&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;桃園&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;新竹&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;苗栗&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;台中&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;彰化&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;雲林&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;嘉義&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;台南&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;左營&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;行駛時間&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;1XX&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;✓&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;✓&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;✓&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;✓&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;✓&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;105分&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2XX&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;✓&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;✓&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;✓&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;✓&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;✓&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;✓&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;110分&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;3XX&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;✓&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;✓&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;✓&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;✓&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;✓&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;✓&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;✓&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;✓&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;✓&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;130分&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;5XX*&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;✓&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;✓&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;✓&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;✓&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;✓&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;✓&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;✓&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;76分&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;5XX*&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;✓&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;✓&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;✓&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;✓&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;✓&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;✓&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;72分&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;6XX&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;✓&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;✓&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;✓&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;✓&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;✓&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;✓&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;✓&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;✓&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;✓&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;130分&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;8XX&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;✓&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;✓&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;✓&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;✓&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;✓&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;✓&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;✓&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;✓&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;✓&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;✓&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;✓&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;✓&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;145分&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;第三四碼&#34;&gt;第三、四碼&lt;/h2&gt;
+&lt;p&gt;每天從 00 開始編號&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;單數南下&lt;/li&gt;
+&lt;li&gt;雙數北上&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;舉例&#34;&gt;舉例&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;1510 非每日開 停靠台中到南港區間各站的車&lt;/li&gt;
+&lt;li&gt;0802 每日開 停靠左營到南港區間各站的車&lt;/li&gt;
+&lt;li&gt;0112 每日開 停靠左營、台中、板橋、台北、南港的直達車&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+&lt;h5 id=&#34;參考資料&#34;&gt;參考資料&lt;/h5&gt;
+&lt;p&gt;&lt;a href=&#34;https://commons.wikimedia.org/wiki/&#34;&gt;https://commons.wikimedia.org/wiki/&lt;/a&gt;&lt;/p&gt;
+</description>
+      
     </item>
+    
     <item>
       <title>[徒步] 台中南區 - 員林</title>
-      <link>https://oxygentw.net/blog/travel/taichung-south-dist-to-yuanlin-bywalk/</link>
+      <link>http://localhost:1313/blog/travel/taichung-south-dist-to-yuanlin-bywalk/</link>
       <pubDate>Sun, 03 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://oxygentw.net/blog/travel/taichung-south-dist-to-yuanlin-bywalk/</guid>
-      <description>這個旅程規劃了也有一段日子了，但一直沒有時間去實踐，剛好 228 連假有空檔就決定出發了！先前陸陸續續有做五公里的練習，這是第一次挑戰 30 公里，也就是</description>
+      
+      <guid>http://localhost:1313/blog/travel/taichung-south-dist-to-yuanlin-bywalk/</guid>
+      
+        <description>&lt;p&gt;這個旅程規劃了也有一段日子了，但一直沒有時間去實踐，剛好 228 連假有空檔就決定出發了！先前陸陸續續有做五公里的練習，這是第一次挑戰 30 公里，也就是徒步環島一天分配到的距離，如果成功就可以考慮環島。  &lt;br&gt;
+當天早上我其實很猶豫要不要出發，那天我感冒，睡眠時間又不是很長，最後想說就試試看吧，結果試了就不捨得停下來了，不然功虧一簣。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;6:33 吃完早餐後從台中南區出發
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:600px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/taichung-south-dist-to-yuanlin-bywalk/IMAG0152_c.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/taichung-south-dist-to-yuanlin-bywalk/IMAG0152_c.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;抵達烏日了！離彰化還有8公里，不過這是離中彰交界8公里，彰化市還遠的哩
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:600px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/taichung-south-dist-to-yuanlin-bywalk/IMAG0154_c.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/taichung-south-dist-to-yuanlin-bywalk/IMAG0154_c.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;中途經過星巴克看到的奇怪公共藝術，長的怪詭異的&amp;hellip;
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:600px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/taichung-south-dist-to-yuanlin-bywalk/IMAG0156_c.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/taichung-south-dist-to-yuanlin-bywalk/IMAG0156_c.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;7:47 烏日 里程 5.74km  &lt;br&gt;
+高鐵站到了！平常都搭公車到這裡搭高鐵，用走的走過來感覺很奇妙。
+繞進高鐵站又要多走一段路，所以我直接到省道上一間7-11休息
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:800px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/taichung-south-dist-to-yuanlin-bywalk/IMAG0160_c.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/taichung-south-dist-to-yuanlin-bywalk/IMAG0160_c.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;繼續前進，在烏日往成功間的電線杆上看到這個被改過的腳踏車符號，挺可愛的，若不是走路經過絕對不會發現吧XD
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:600px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/taichung-south-dist-to-yuanlin-bywalk/IMAG0164_c.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/taichung-south-dist-to-yuanlin-bywalk/IMAG0164_c.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;8:36 里程 8.40km &lt;br&gt;
+抵達成功車站，稍作休息，買了一張成功-追分的車票，這學期就靠他啦!!
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:600px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/taichung-south-dist-to-yuanlin-bywalk/IMAG0165_c.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/taichung-south-dist-to-yuanlin-bywalk/IMAG0165_c.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;準備要接到台一線，這裡路口超級不&amp;quot;walker friendly&amp;quot;，我研究了好久才知道要怎麼安全的走過
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:800px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/taichung-south-dist-to-yuanlin-bywalk/IMAG0166_c.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/taichung-south-dist-to-yuanlin-bywalk/IMAG0166_c.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;台一乙線終點，接著上橋過烏溪就到彰化啦！ &lt;br&gt;
+橋旁邊寫大肚溪，我還想說嗯? 烏溪是下一條嗎? 原來烏溪跟大肚溪是同一條~
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:600px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/taichung-south-dist-to-yuanlin-bywalk/IMAG0168_c.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/taichung-south-dist-to-yuanlin-bywalk/IMAG0168_c.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;橋上風光，旁邊機車都騎超級快，衝過去真的嚇死我，當初我去嘉義也是和他們一樣橋上都用生命在飆車，自從12月那次之後&amp;hellip;不敢了XD &lt;br&gt;
+中途有個很好心阿伯停下來問我要不要載我，但是如果我給你載就沒有意義了啊~只好拒絕了
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:600px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/taichung-south-dist-to-yuanlin-bywalk/IMAG0169_c.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/taichung-south-dist-to-yuanlin-bywalk/IMAG0169_c.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;剛好自強號通過
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:800px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/taichung-south-dist-to-yuanlin-bywalk/IMAG0171_c.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/taichung-south-dist-to-yuanlin-bywalk/IMAG0171_c.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;過橋後繼續往彰化市前進！已經可以看到花壇的指標了
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:800px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/taichung-south-dist-to-yuanlin-bywalk/IMAG0174_c.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/taichung-south-dist-to-yuanlin-bywalk/IMAG0174_c.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;歡喜相逢彰化市，那還真是很&amp;quot;歡喜相逢&amp;quot;呢 XD &lt;br&gt;
+不得不說，成功到彰化這段走省道真的很無聊，四周都是工廠，其他交通工具都以很快的速度離你而去，包括腳踏車！！！就只剩一個人慢慢走。
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:600px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/taichung-south-dist-to-yuanlin-bywalk/IMAG0175_c.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/taichung-south-dist-to-yuanlin-bywalk/IMAG0175_c.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;9:55 台一線 189 里程標 里程 13.25km，已經接近彰師大了 &lt;br&gt;
+休息一下為接下來的路程買兩瓶運動飲料，我可不想再像之前依樣走道熱衰竭。
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:600px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/taichung-south-dist-to-yuanlin-bywalk/IMAG0177_c.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/taichung-south-dist-to-yuanlin-bywalk/IMAG0177_c.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;10:38 彰化市 里程 15.25km 終於到彰化市啦！完成旅程的一半，到八卦山牌樓對面的摩斯吃午餐，休息久一點，後面還有15km&amp;hellip;
+其實這時候就已經蠻累的了，假設時間足夠環島一天排 15-20km 應該最理想，不過這樣可能需要50幾天才能完成，太久了。
+因為我打算休息久一點所以選摩斯，不過好貴喔，如果要環島一定要找到便宜又能讓我久坐的地方。
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:600px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/taichung-south-dist-to-yuanlin-bywalk/IMAG0178_c.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/taichung-south-dist-to-yuanlin-bywalk/IMAG0178_c.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;路過彰化市區，準備經由 137 縣道往花壇
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:600px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/taichung-south-dist-to-yuanlin-bywalk/IMAG0179_c.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/taichung-south-dist-to-yuanlin-bywalk/IMAG0179_c.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;大埔路，137 線道的起點，超熱鬧的一條路，感覺比前面走的彰化市還要熱鬧，東西應有盡有。
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:800px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/taichung-south-dist-to-yuanlin-bywalk/IMAG0181_c.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/taichung-south-dist-to-yuanlin-bywalk/IMAG0181_c.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;大概1公里過後就變得很不熱鬧，不過一公里長的熱鬧區也很夠了!
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:600px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/taichung-south-dist-to-yuanlin-bywalk/IMAG0183_c.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/taichung-south-dist-to-yuanlin-bywalk/IMAG0183_c.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;花壇！原來花壇叫茉莉花之鄉
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:800px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/taichung-south-dist-to-yuanlin-bywalk/IMAG0184_c.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/taichung-south-dist-to-yuanlin-bywalk/IMAG0184_c.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;打算從花壇國中右轉中正路去花壇車站，但從我看到&amp;quot;花壇鄉&amp;quot;這個牌子到我真的走到花壇國中，中間的路程還真是遙遠，遠到我一度以為我走錯路了 &lt;br&gt;
+走到一半我發現山上在冒煙，往前走仔細看，嗯&amp;hellip;山上有火是正常的嗎?誰在燒山啦！在往前走看到消防車，上網查才知道好像是公墓火災，就火燒山了，空氣變得超臭還有很多灰燼到處飛。  &lt;br&gt;
+邊走邊拍，照片歪了~
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:800px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/taichung-south-dist-to-yuanlin-bywalk/IMAG0189_c.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/taichung-south-dist-to-yuanlin-bywalk/IMAG0189_c.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;13:30 花壇市區 里程 23.13km   &lt;br&gt;
+花壇比較熱鬧的市區有長沙村和花壇村，長沙村和火燒山那邊是同一個，但是在熱鬧地區的人似乎是完全不知道山邊發生了麼事。
+彰化到花壇居然要8公里！太遠了吧
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:800px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/taichung-south-dist-to-yuanlin-bywalk/IMAG0190_c.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/taichung-south-dist-to-yuanlin-bywalk/IMAG0190_c.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;Ok 我們繼續出發，回到台一線繼續省道人生(? 看到花壇一間加油站讓我想到去嘉義那次回來在花壇堅持不加油，結果騎到彰化市就熄火&amp;hellip;差點要牽車XD
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:800px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/taichung-south-dist-to-yuanlin-bywalk/IMAG0193_c.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/taichung-south-dist-to-yuanlin-bywalk/IMAG0193_c.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;大村！是大村，這段路也是省道很無聊，而且中途沒有可以休息的地方，我一直想找個地方休息再走淡一直找不到，最後一路走到大村車站附近才有便利商店。
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:600px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/taichung-south-dist-to-yuanlin-bywalk/IMAG0194_c.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/taichung-south-dist-to-yuanlin-bywalk/IMAG0194_c.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;員林還有四公里，我做得到！那時候一直這樣說服自己。
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:600px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/taichung-south-dist-to-yuanlin-bywalk/IMAG0195_c.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/taichung-south-dist-to-yuanlin-bywalk/IMAG0195_c.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;大村葡萄XD
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:600px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/taichung-south-dist-to-yuanlin-bywalk/IMAG0196_c.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/taichung-south-dist-to-yuanlin-bywalk/IMAG0196_c.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;14:53 大村鄉 里程 27.79km &lt;br&gt;
+已經完成大部分的旅程，剩下最後一哩路超級累的我在超商裡做最後的休息，從超商裡拍出去的櫻花路，叫櫻花路應該是因為這邊有櫻花熱水器他們的櫻花歐洲村而得名，只是這時候我已經沒有精力左看看右看看了，只想著到員林。
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:600px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/taichung-south-dist-to-yuanlin-bywalk/IMAG0197_c.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/taichung-south-dist-to-yuanlin-bywalk/IMAG0197_c.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;台一線，往員林出發，到這裡快要靠意志力在走了
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:800px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/taichung-south-dist-to-yuanlin-bywalk/IMAG0198_c.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/taichung-south-dist-to-yuanlin-bywalk/IMAG0198_c.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;大葉大學
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:800px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/taichung-south-dist-to-yuanlin-bywalk/IMAG0199_c.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/taichung-south-dist-to-yuanlin-bywalk/IMAG0199_c.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;員林剩下一公里，這牌子超級振奮人心，走的速度明顯加快~
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:600px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/taichung-south-dist-to-yuanlin-bywalk/IMAG0200_c.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/taichung-south-dist-to-yuanlin-bywalk/IMAG0200_c.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;終於啊！！！！！員林市，看到這牌子真不知有多感動，前面就是員林外環道，過了就真的到員林了！！！
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:800px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/taichung-south-dist-to-yuanlin-bywalk/IMAG0202_c.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/taichung-south-dist-to-yuanlin-bywalk/IMAG0202_c.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;員林大道，在這邊遇到一群騎腳踏車的學生，看起來國中，不知道他們要去哪，看起來裝備都很專業。
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:800px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/taichung-south-dist-to-yuanlin-bywalk/IMAG0203_c.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/taichung-south-dist-to-yuanlin-bywalk/IMAG0203_c.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;員林火車站 750m 看到這牌子我直接暴衝用快走的，心想居然不到一公里就到了，還真近。
+後面基本上沒在關注四周有甚麼了，滿心都是終點 終點 我要到終點，現在想想有點可惜，中途有經過許多我第一次造訪員林時經過的地方，不過也被我略過了。
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:600px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/taichung-south-dist-to-yuanlin-bywalk/IMAG0205_c.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/taichung-south-dist-to-yuanlin-bywalk/IMAG0205_c.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;話說那個750m根本騙人的&amp;hellip;我走到三角公園，真的距離火車站很近的時候看到一個牌子寫(員林火車站 500m)&lt;br&gt;
+Wait!? 你的意思是我剛剛像發了瘋一樣的往前走只走了200公尺，怎麼可能啦，那牌子是當強心針用的喔&amp;hellip;.&lt;/p&gt;
+&lt;br/&gt;
+&lt;p&gt;15:59 員林車站 里程 31.97km
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:800px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/taichung-south-dist-to-yuanlin-bywalk/IMAG0206_c.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/taichung-south-dist-to-yuanlin-bywalk/IMAG0206_c.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;居然成功了！歷時 9 小時 26 分完成了 31.97 公里的旅程，這段換成區間車只要開 33 分鐘即可的旅程，只不過到後面實在太累，心思都用來維持我的毅力不要放棄錯失了很多周遭的風景，這點實在有點可惜，如果都要環島了還是希望可以降低每天的里程數，畢竟環島的意義就是用更慢的速度仔細體會台灣，若是像行軍般地走不如坐高鐵，90 分鐘 300 公里搞定 XD
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:600px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/taichung-south-dist-to-yuanlin-bywalk/IMAG0208_c.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/taichung-south-dist-to-yuanlin-bywalk/IMAG0208_c.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;坐火車回台中心裡充滿著，啊&lt;del&gt;這裡今天我走過&amp;hellip;腦中就浮現那邊的場景，代表還是有對這段路經過的地方更有認識啦，回去的時候看到花壇的天上還是一團白煙，嗯&amp;hellip;..然後哇賽，怎麼又到下一站了也太快了吧&lt;/del&gt;&lt;/p&gt;
+&lt;h3 id=&#34;最後結論&#34;&gt;最後結論:&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;區間車再怎麼慢，都很快。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+2019/03/01 台中南區 - 員林車站</description>
+      
     </item>
+    
     <item>
       <title>臺一線</title>
-      <link>https://oxygentw.net/blog/travel/the-1st-provincial-road/</link>
+      <link>http://localhost:1313/blog/travel/the-1st-provincial-road/</link>
       <pubDate>Fri, 07 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>https://oxygentw.net/blog/travel/the-1st-provincial-road/</guid>
-      <description>臺一線，又名縱貫公路、西部幹線，從清朝開始就是縱貫南北的交通要道。北起臺北市忠孝西路、中山南路，南至屏東縣枋山鄉楓港，全長 461.081 公里。經過臺灣西</description>
+      
+      <guid>http://localhost:1313/blog/travel/the-1st-provincial-road/</guid>
+      
+        <description>&lt;p&gt;臺一線，又名縱貫公路、西部幹線，從清朝開始就是縱貫南北的交通要道。北起臺北市忠孝西路、中山南路，南至屏東縣枋山鄉楓港，全長 461.081 公里。經過臺灣西部14個縣市。&lt;/p&gt;
+&lt;br/&gt;
+&lt;p&gt;第一次，我認識臺一線是在小學，那時我們家常常去墾丁，我好奇問爸爸墾丁要怎麼去呀? 他回應：下國道三號後走臺十七線，轉臺一線，最後從臺26線一直走就會到了，小小年紀的我，不會開車，對地理不是很有概念，這路線我卻深深記著。&lt;/p&gt;
+&lt;br/&gt;
+&lt;p&gt;長大一些，我知道臺一線是縱貫線，可以從臺北直接到屏東，是一條很重要的交通要道，國小畢業那年，媽媽帶著我騎機車從臺北到高雄，我們沿途經過臺一線與臺三線南下，那時候我對臺一線的概念是，只要沿著他走就能到目的地，不會迷路。&lt;/p&gt;
+&lt;br/&gt;
+&lt;p&gt;今天，我有了機車駕照，離開了臺北，一個人到外縣市求學，喜歡旅行和冒險的我還沒開學就騎著機車一天來回200公里從臺中到嘉義找朋友，那一天，和朋友道別後要騎回臺中，在大林繞呀繞的，尋覓著回去的路，終於在一條小路的出口看到一條大馬路，到路口時我看到中央分隔島上的藍色盾牌標誌寫著，1 向北，那一刻，真的瞬間心中充滿了安全感，在一片陌生的道路中，他是一條可以回家的路，看到他，等於看到家，跟著他走，等於走回家，不只可以到臺中，還可以到臺北! 雖然那一次的返程又濕又冷，沿途也荒涼黯然，不過至少心中是溫暖的，充滿著回家的期待。&lt;/p&gt;
+&lt;br/&gt;
+&lt;p&gt;公路不只是交通運輸的工具，他記載著許多旅人的故事，也記載著許多人的童年與青春，每天有多少人經過一條公路，那條公路就寫下多少篇不同的故事，不論是開心，難過，憤怒的情緒，你都能夠回想到「那天我在這條路上，我正要去&amp;hellip;&amp;hellip;而後來我&amp;hellip;&amp;hellip;」&lt;/p&gt;
+&lt;br/&gt;
+&lt;p&gt;今天我寫下的，就是臺一線為我記錄的成長故事。&lt;/p&gt;
+&lt;p&gt;臺一線，從我理解他存在，到我知道他的功能，再到現在我感受他的情感。&lt;/p&gt;
+&lt;br/&gt;
+&lt;hr&gt;
+&lt;p&gt;圖片來源：https://www.flickr.com/photos/jefflen/98371599/&lt;/p&gt;
+</description>
+      
     </item>
+    
     <item>
       <title>[日本] 如何從日本寄明信片！</title>
-      <link>https://oxygentw.net/blog/prose/mail-postcard-in-japan/</link>
+      <link>http://localhost:1313/blog/prose/mail-postcard-in-japan/</link>
       <pubDate>Mon, 25 Jun 2018 00:00:00 +0000</pubDate>
-      <guid>https://oxygentw.net/blog/prose/mail-postcard-in-japan/</guid>
-      <description>許多人在出國時會想從國外寄明信片回台灣吧！之前旅行青蛙的熱潮又助長了一波明信片風潮，日本在 2017 年是最多台灣人旅遊的國家，人數達出國總數的29.</description>
+      
+      <guid>http://localhost:1313/blog/prose/mail-postcard-in-japan/</guid>
+      
+        <description>&lt;p&gt;許多人在出國時會想從國外寄明信片回台灣吧！之前旅行青蛙的熱潮又助長了一波明信片風潮，日本在 2017 年是最多台灣人旅遊的國家，人數達出國總數的29.4%，那麼我就來介紹如何從日本寄明信片回台灣吧！&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;購買明信片&#34;&gt;購買明信片&lt;/h2&gt;
+&lt;p&gt;首先到你參觀的景點或其他地方買張你喜歡的明信片，這很重要，因為寄明信片不能沒有明信片呀XD 我在京都和奈良看到的大約一張 110 日圓，東大寺內部一張 50 日圓。&lt;/p&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;購買郵票&#34;&gt;購買郵票&lt;/h2&gt;
+&lt;p&gt;再到任何一間日本的郵局(郵便局)的郵便窗口買明信片的郵票，日本郵局和台灣一樣要抽號碼牌，只是那時候我去剛好都沒有人，就直接去櫃檯了~ 郵票在哪裡買的不重要，郵戳是根據寄出地而定而不是郵票購買地。&lt;/p&gt;
+&lt;p&gt;和郵局人員說 &lt;font color=&#34;royal blue&#34;&gt;&amp;ldquo;I want to buy stamp for postcard.&amp;quot;&lt;/font&gt; 他就會懂啦！然後會問你要幾張，看個人需求回答他囉。一張國際明信片郵票郵資是 70 日圓，特殊造型的明信片郵資好像是 220 日圓吧? 若要寄特殊造型明信片還是向郵局詢問一下比較好喔！&lt;/p&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;明信片格式&#34;&gt;明信片格式&lt;/h2&gt;
+&lt;p&gt;大致上照著這樣寫不會錯，日本的郵遞區號和台灣不一樣，所以如果你買的明信片有幫你預留郵遞區號的格子可以不用理他，空著就好。寫好基本格式後剩下的地方就可以寫內文。&lt;/p&gt;
+&lt;h2 id=&#34;橫式&#34;&gt;橫式:&lt;/h2&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:500px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/mail-postcard-in-japan/postcard1.png&#34; alt=&#34;橫式明信片&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/mail-postcard-in-japan/postcard1.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;
+&lt;h2 id=&#34;直式&#34;&gt;直式:&lt;/h2&gt;
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/mail-postcard-in-japan/postcard2.png&#34; alt=&#34;直式明信片&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/mail-postcard-in-japan/postcard2.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;地址寫中文或英文都可以，&lt;font color=&#34;red&#34;&gt;最重要的是Taiwan要寫出來&lt;/font&gt;，不然郵差不知道要寄到哪國去，若想將地址換成英文可以參考 &lt;a href=&#34;https://www.post.gov.tw/post/internet/SearchZone/index.jsp?ID=130112&#34; title=&#34;中華郵政中文地址英譯&#34;&gt;中華郵政中文地址英譯&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;AIR MAIL 可以向郵局拿貼紙貼上或自己寫上，不過我們用的郵票就已經是國際郵件用的了，所以沒有寫也無仿！&lt;/p&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;投遞明信片&#34;&gt;投遞明信片&lt;/h2&gt;
+&lt;p&gt;郵票貼好，內容寫完後就找到一個日本的郵筒，想要哪個縣市的郵戳就要在那個縣市的郵筒寄喔！&lt;/p&gt;
+&lt;p&gt;把明信片投進&lt;font color=&#34;magenta&#34;&gt;左邊的口&lt;/font&gt;(&lt;font color=&#34;red&#34;&gt;手紙 • はがき&lt;/font&gt;)，就成功把明信片寄出啦，很簡單吧！&lt;/p&gt;
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:500px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/mail-postcard-in-japan/post_c.jpg&#34; alt=&#34;直式明信片&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/mail-postcard-in-japan/post_c.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;
+&lt;h2 id=&#34;20180625-更&#34;&gt;2018/06/25 更&lt;/h2&gt;
+&lt;p&gt;收到明信片啦！郵寄花了12天，有點久不過還是順利寄到啦~&lt;/p&gt;
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:500px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/mail-postcard-in-japan/IMAG1632_c.jpg&#34; alt=&#34;直式明信片&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/mail-postcard-in-japan/IMAG1632_c.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;
+&lt;h5 id=&#34;相關連結&#34;&gt;相關連結&lt;/h5&gt;
+&lt;p&gt;日本郵便官網:http://www.post.japanpost.jp/index.html&lt;/p&gt;
+&lt;p&gt;日本郵便(English):http://www.post.japanpost.jp/index_en.html&lt;/p&gt;
+</description>
+      
     </item>
+    
     <item>
       <title>[日本] 如何從日本寄明信片！</title>
-      <link>https://oxygentw.net/blog/travel/mail-postcard-in-japan/</link>
+      <link>http://localhost:1313/blog/travel/mail-postcard-in-japan/</link>
       <pubDate>Mon, 25 Jun 2018 00:00:00 +0000</pubDate>
-      <guid>https://oxygentw.net/blog/travel/mail-postcard-in-japan/</guid>
-      <description>許多人在出國時會想從國外寄明信片回台灣吧！之前旅行青蛙的熱潮又助長了一波明信片風潮，日本在 2017 年是最多台灣人旅遊的國家，人數達出國總數的29.</description>
+      
+      <guid>http://localhost:1313/blog/travel/mail-postcard-in-japan/</guid>
+      
+        <description>&lt;p&gt;許多人在出國時會想從國外寄明信片回台灣吧！之前旅行青蛙的熱潮又助長了一波明信片風潮，日本在 2017 年是最多台灣人旅遊的國家，人數達出國總數的29.4%，那麼我就來介紹如何從日本寄明信片回台灣吧！&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;購買明信片&#34;&gt;購買明信片&lt;/h2&gt;
+&lt;p&gt;首先到你參觀的景點或其他地方買張你喜歡的明信片，這很重要，因為寄明信片不能沒有明信片呀XD 我在京都和奈良看到的大約一張 110 日圓，東大寺內部一張 50 日圓。&lt;/p&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;購買郵票&#34;&gt;購買郵票&lt;/h2&gt;
+&lt;p&gt;再到任何一間日本的郵局(郵便局)的郵便窗口買明信片的郵票，日本郵局和台灣一樣要抽號碼牌，只是那時候我去剛好都沒有人，就直接去櫃檯了~ 郵票在哪裡買的不重要，郵戳是根據寄出地而定而不是郵票購買地。&lt;/p&gt;
+&lt;p&gt;和郵局人員說 &lt;font color=&#34;royal blue&#34;&gt;&amp;ldquo;I want to buy stamp for postcard.&amp;quot;&lt;/font&gt; 他就會懂啦！然後會問你要幾張，看個人需求回答他囉。一張國際明信片郵票郵資是 70 日圓，特殊造型的明信片郵資好像是 220 日圓吧? 若要寄特殊造型明信片還是向郵局詢問一下比較好喔！&lt;/p&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;明信片格式&#34;&gt;明信片格式&lt;/h2&gt;
+&lt;p&gt;大致上照著這樣寫不會錯，日本的郵遞區號和台灣不一樣，所以如果你買的明信片有幫你預留郵遞區號的格子可以不用理他，空著就好。寫好基本格式後剩下的地方就可以寫內文。&lt;/p&gt;
+&lt;h2 id=&#34;橫式&#34;&gt;橫式:&lt;/h2&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:500px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/mail-postcard-in-japan/postcard1.png&#34; alt=&#34;橫式明信片&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/mail-postcard-in-japan/postcard1.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;
+&lt;h2 id=&#34;直式&#34;&gt;直式:&lt;/h2&gt;
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/mail-postcard-in-japan/postcard2.png&#34; alt=&#34;直式明信片&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/mail-postcard-in-japan/postcard2.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;地址寫中文或英文都可以，&lt;font color=&#34;red&#34;&gt;最重要的是Taiwan要寫出來&lt;/font&gt;，不然郵差不知道要寄到哪國去，若想將地址換成英文可以參考 &lt;a href=&#34;https://www.post.gov.tw/post/internet/SearchZone/index.jsp?ID=130112&#34; title=&#34;中華郵政中文地址英譯&#34;&gt;中華郵政中文地址英譯&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;AIR MAIL 可以向郵局拿貼紙貼上或自己寫上，不過我們用的郵票就已經是國際郵件用的了，所以沒有寫也無仿！&lt;/p&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;投遞明信片&#34;&gt;投遞明信片&lt;/h2&gt;
+&lt;p&gt;郵票貼好，內容寫完後就找到一個日本的郵筒，想要哪個縣市的郵戳就要在那個縣市的郵筒寄喔！&lt;/p&gt;
+&lt;p&gt;把明信片投進&lt;font color=&#34;magenta&#34;&gt;左邊的口&lt;/font&gt;(&lt;font color=&#34;red&#34;&gt;手紙 • はがき&lt;/font&gt;)，就成功把明信片寄出啦，很簡單吧！&lt;/p&gt;
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:500px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/mail-postcard-in-japan/post_c.jpg&#34; alt=&#34;直式明信片&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/mail-postcard-in-japan/post_c.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;
+&lt;h2 id=&#34;20180625-更&#34;&gt;2018/06/25 更&lt;/h2&gt;
+&lt;p&gt;收到明信片啦！郵寄花了12天，有點久不過還是順利寄到啦~&lt;/p&gt;
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:500px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/mail-postcard-in-japan/IMAG1632_c.jpg&#34; alt=&#34;直式明信片&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/mail-postcard-in-japan/IMAG1632_c.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;
+&lt;h5 id=&#34;相關連結&#34;&gt;相關連結&lt;/h5&gt;
+&lt;p&gt;日本郵便官網:http://www.post.japanpost.jp/index.html&lt;/p&gt;
+&lt;p&gt;日本郵便(English):http://www.post.japanpost.jp/index_en.html&lt;/p&gt;
+</description>
+      
     </item>
+    
     <item>
       <title>旅行常備藥品與急救包</title>
-      <link>https://oxygentw.net/blog/travel/travel-medicine-first-aid-kits/</link>
+      <link>http://localhost:1313/blog/travel/travel-medicine-first-aid-kits/</link>
       <pubDate>Wed, 20 Jun 2018 00:00:00 +0000</pubDate>
-      <guid>https://oxygentw.net/blog/travel/travel-medicine-first-aid-kits/</guid>
-      <description>旅行途中難免會遇到受傷或生病，如何在陌生的環境應變這樣的意外插曲是旅行者必學的重要課題之一，若是像我喜歡去較偏遠的地方旅行，且時常單獨前往，</description>
+      
+      <guid>http://localhost:1313/blog/travel/travel-medicine-first-aid-kits/</guid>
+      
+        <description>&lt;p&gt;旅行途中難免會遇到受傷或生病，如何在陌生的環境應變這樣的意外插曲是旅行者必學的重要課題之一，若是像我喜歡去較偏遠的地方旅行，且時常單獨前往，自行準備藥物與急救包可以在第一時間做自救，也比較不會不知所措！&lt;/p&gt;
+&lt;p&gt;我參加過紅十字會急救員訓練，也對藥物有些認識，因此我就來介紹一下我的旅行常備藥品。不過畢竟我不是藥學專業，若有錯誤也歡迎指正！&lt;/p&gt;
+&lt;h1 id=&#34;內服藥&#34;&gt;內服藥&lt;/h1&gt;
+&lt;h2 id=&#34;消炎止痛解熱藥&#34;&gt;消炎/止痛/解熱藥&lt;/h2&gt;
+&lt;p&gt;市面上能買到的多是 Acetaminophen(普拿疼) 500mg 或 Ibuprofen(布洛芬) 200mg，雖然說 Acetaminophen有不錯的止痛效用，但他消炎能力非常弱，弱到可以忽略，加上我個人覺得 Acetaminophen 在止痛方面比較沒有用，所以我是準備 Ibuprofen 200mg。&lt;/p&gt;
+&lt;p&gt;需要注意的是，Acetaminophen 若攝取過量會產生肝毒性，因此每日不要服用超過4顆(2000mg)，絕對不可超過8顆(4000mg)。而 Ibuprofen 是非類固醇消炎止痛藥(NSAID)，在低劑量下是最安全的 NSAID，一天的劑量不可超過 1200 mg。Acetaminophen 和 Ibuprofen 不可同時服用，若同時服用亦會產生肝毒性。&lt;/p&gt;
+&lt;p&gt;在退燒方面依據我的經驗兩者皆有卓越的表現(? 有一次我的體溫高達39.4度，呈現只剩半條命的狀態，連行走都覺得有困難，服用 Ibuprofen 後我變得能和別人出去逛街了，數小時後再次量體溫為35.3度&amp;hellip;&amp;hellip;也降得太誇張。 不過！這都是假象，這是用藥物強迫體溫中樞降溫讓自己感覺好一點，不代表病好了，一旦藥物作用結束又會回到原本不舒服的狀態，是標準治標不治本的方式，非必要不要亂用，應該找出病因把根本解決才是。&lt;/p&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:500px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/travel-medicine-first-aid-kits/IMAG1140_c.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/travel-medicine-first-aid-kits/IMAG1140_c.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;&lt;h4&gt;Acetaminophen&lt;/h4&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:500px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/travel-medicine-first-aid-kits/IMAG1138_c.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/travel-medicine-first-aid-kits/IMAG1138_c.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;&lt;h4&gt;Ibuprofen&lt;/h4&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;
+&lt;h3 id=&#34;止瀉藥&#34;&gt;止瀉藥&lt;/h3&gt;
+&lt;p&gt;我使用 loperamide (瀉立停)，屬抗腸道蠕動劑，強效止瀉劑。&lt;/p&gt;
+&lt;p&gt;腹瀉的成因很多，輕微腹瀉可以讓他自行痊癒而不必服藥，止瀉藥通常用在不能上廁所的場合，例如肚子不舒服時要搭大眾運輸工具，就可以使用止瀉藥撐一下。止瀉藥的使用可能造成細菌性感染病情加重，須確定非細菌性感染才可使用，且對藥物造成的腹瀉無效。&lt;/p&gt;
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:500px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/travel-medicine-first-aid-kits/IMAG1137_c.jpg&#34; alt=&#34;loperamide&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/travel-medicine-first-aid-kits/IMAG1137_c.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;
+&lt;h3 id=&#34;綜合感冒藥&#34;&gt;綜合感冒藥&lt;/h3&gt;
+&lt;p&gt;綜合感冒藥平時不建議使用，因為他&amp;quot;綜合&amp;quot;，所以包含了緩解各種症狀的藥物，吃的時候會一起吃到不需要的藥物，但這點在旅行上十分方便，一顆膠囊涵蓋一切，我用斯斯感冒膠囊來舉例，它的成份如下：&lt;/p&gt;
+&lt;p&gt;Acetaminophen&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;.100mg &amp;ndash;&amp;gt; 止痛/解熱 &lt;br&gt;
+Ethenzamide&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;.83.33mg &amp;ndash;&amp;gt; 止痛/解熱/消炎 &lt;br&gt;
+Codeine Phosphate&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;..3mg &amp;ndash;&amp;gt; 止咳/止痛 &lt;br&gt;
+Chlorpheniramine Maleate&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;.1.25mg &amp;ndash;&amp;gt; 減輕過敏症狀 &lt;br&gt;
+dl-Methylephedrine Hydrochloride&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;..6.67mg &amp;ndash;&amp;gt; 止咳 &lt;br&gt;
+Caffeine Anhydrous&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;20mg &amp;ndash;&amp;gt; 提振精神&lt;/p&gt;
+&lt;p&gt;是不是幾乎除了腸胃道症狀以外的感冒症狀都涵蓋了呢? 值得注意的是 Chlorpheniramine Maleate 為第一型抗組織胺會有嗜睡的副作用，即使有 Caffeine 來試著提振精神還是有可能會昏昏欲睡，這要視個人體質來決定。&lt;/p&gt;
+&lt;p&gt;而止咳方面他使用可待因與甲基鹽酸麻黃鹼，不可過量服用，會有藥物成癮的可能喔！&lt;/p&gt;
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:500px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/travel-medicine-first-aid-kits/IMAG1136_c.jpg&#34; alt=&#34;cold complex&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/travel-medicine-first-aid-kits/IMAG1136_c.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;
+&lt;h3 id=&#34;暈車藥&#34;&gt;暈車藥&lt;/h3&gt;
+&lt;p&gt;meclizine 是市面上常見的暈車藥，在要搭乘較顛頗的交通工具前30分鐘服用，有抗乙醯膽鹼與抗組織胺的作用，會有蠻強烈嗜睡的副作用，且藥效持久，在25mg的劑量下藥效為4-6小時，30mg的劑量下為12-24小時，一日僅需服用一次即可。&lt;/p&gt;
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:500px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/travel-medicine-first-aid-kits/IMAG1130_c.jpg&#34; alt=&#34;meclizine&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/travel-medicine-first-aid-kits/IMAG1130_c.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;
+### 瀉藥
+這個嗎......旅行途中可能會遇到便祕的情況，如果真的太久沒排便則需要瀉劑的輔助，我使用 Bisacodyl(樂下錠)，我有&#34;實驗&#34;過一次效果還不錯，不過從來沒有真正用到就是了......有備無患嘛！
+&lt;p&gt;如果真的需要用到，而你又沒有使用過瀉劑的經驗，務必從最小劑量 2mg 開始服用，無效再加大劑量，而且要確保你都會在廁所附近，不然你會後悔喔。&lt;/p&gt;
+&lt;p&gt;服用後的腹瀉可能會造成脫水，也請大量補充失去的水分與注意電解質平衡。&lt;/p&gt;
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:500px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/travel-medicine-first-aid-kits/IMAG1135_c.jpg&#34; alt=&#34;LAXATIN&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/travel-medicine-first-aid-kits/IMAG1135_c.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;電解質粉寶礦力水得&#34;&gt;電解質粉(寶礦力水得)&lt;/h3&gt;
+&lt;p&gt;粉末狀方便攜帶，能在短時間內將水變成運動飲料，用來對熱衰竭進行緊急處置，也可用於腹瀉及發燒等會造成電解質不平衡的情況時。&lt;/p&gt;
+&lt;br/&gt;
+&lt;h1 id=&#34;外用藥&#34;&gt;外用藥&lt;/h1&gt;
+&lt;p&gt;外傷用藥比較沒什麼需要說明的，主要的困難點在外傷急救技術而不是器材，因此我簡易帶過。&lt;/p&gt;
+&lt;h3 id=&#34;生理食鹽水注射液&#34;&gt;生理食鹽水注射液&lt;/h3&gt;
+&lt;p&gt;進行清創用，可洗清傷口避免髒東西殘留在傷口上。&lt;/p&gt;
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:500px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/travel-medicine-first-aid-kits/IMAG1128_c.jpg&#34; alt=&#34;saline&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/travel-medicine-first-aid-kits/IMAG1128_c.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;
+&lt;h3 id=&#34;povidone-iodine-1優碘&#34;&gt;Povidone iodine 1%(優碘)&lt;/h3&gt;
+&lt;p&gt;廣效外傷殺菌劑，殺菌時間約 10~15 秒，使用時機為生理食鹽水清除可見髒污後的傷口，殺菌時間結束後需再用一次生理食鹽水把優碘清除，避免繼續傷害組織。&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:500px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/travel-medicine-first-aid-kits/IMAG1127_c.jpg&#34; alt=&#34;Povidone iodine 1%&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/travel-medicine-first-aid-kits/IMAG1127_c.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;&lt;/p&gt;
+&lt;h3 id=&#34;綠油精&#34;&gt;綠油精&lt;/h3&gt;
+&lt;p&gt;蚊蟲叮咬用，必要時也可塗在身上當成防蚊液使用，不過效果沒有真正的防蚊液好就是了&amp;hellip;&amp;hellip;&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:500px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/travel-medicine-first-aid-kits/IMAG1131_c.jpg&#34; alt=&#34;綠油精&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/travel-medicine-first-aid-kits/IMAG1131_c.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;&lt;/p&gt;
+&lt;h3 id=&#34;曼秀雷敦軟膏&#34;&gt;曼秀雷敦軟膏&lt;/h3&gt;
+&lt;p&gt;小型傷口適用，例如小割傷、擦傷，不需要用到生理食鹽水與優點進行清創的傷口可塗抹一點曼秀雷敦軟膏解決。那種傷口通常不大，不使用藥物也是一個選擇。&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:500px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/travel-medicine-first-aid-kits/IMAG1134_c.jpg&#34; alt=&#34;曼秀雷敦軟膏&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/travel-medicine-first-aid-kits/IMAG1134_c.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;&lt;/p&gt;
+&lt;h3 id=&#34;雙氧水h2o2-3&#34;&gt;雙氧水(H&lt;sub&gt;2&lt;/sub&gt;O&lt;sub&gt;2&lt;/sub&gt; 3%)&lt;/h3&gt;
+&lt;p&gt;不建議使用雙氧水來處理傷口，會對組織造成傷害與破壞，但我仍有攜帶一小瓶在急救包中，在紗布背傷口的血黏住時雙氧水可以分解血塊讓紗布脫離，避免撕掉紗布時造成二次受傷。&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:500px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/travel-medicine-first-aid-kits/IMAG1143_c.jpg&#34; alt=&#34;hydrogen peroxide&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/travel-medicine-first-aid-kits/IMAG1143_c.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;&lt;/p&gt;
+&lt;h3 id=&#34;人工淚液&#34;&gt;人工淚液&lt;/h3&gt;
+&lt;p&gt;飛機上眼睛乾澀或有異物跑入眼睛時可以使用。&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:500px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/travel-medicine-first-aid-kits/IMAG1144_c.jpg&#34; alt=&#34;人工淚液&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/travel-medicine-first-aid-kits/IMAG1144_c.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;&lt;/p&gt;
+&lt;h3 id=&#34;紗布ok繃棉花棒&#34;&gt;紗布/OK繃/棉花棒&lt;/h3&gt;
+&lt;p&gt;包紮與清創用。&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:500px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/travel-medicine-first-aid-kits/IMAG1132_c.jpg&#34; alt=&#34;紗布/OK繃/棉花棒&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/travel-medicine-first-aid-kits/IMAG1132_c.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;&lt;/p&gt;
+&lt;h3 id=&#34;透氣膠帶&#34;&gt;透氣膠帶&lt;/h3&gt;
+&lt;p&gt;固定紗布用。&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:500px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/travel-medicine-first-aid-kits/IMAG1133_c.jpg&#34; alt=&#34;透氣膠帶&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/travel-medicine-first-aid-kits/IMAG1133_c.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;&lt;/p&gt;
+&lt;h3 id=&#34;剪刀鑷子&#34;&gt;剪刀/鑷子&lt;/h3&gt;
+&lt;p&gt;避免用手接觸到無菌紗布，不過其實一開袋子就不是無菌了，所以這個非必須。&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:500px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/travel-medicine-first-aid-kits/IMAG1142_c.jpg&#34; alt=&#34;剪刀/鑷子&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/travel-medicine-first-aid-kits/IMAG1142_c.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;參考資料 &lt;br&gt;
+&lt;a href=&#34;http://www.ktgh.com.tw/Medicament_tbDrug_Look.asp?CatID=65&amp;amp;ModuleType=&amp;amp;NewsID=1365&amp;amp;Ordid=23073&#34;&gt;http://www.ktgh.com.tw/Medicament_tbDrug_Look.asp?CatID=65&amp;ModuleType=&amp;NewsID=1365&amp;Ordid=23073&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.nhi.gov.tw/Content_List.aspx?n=E7124A9821F49B47&amp;amp;topn=874605F03B8FDFBA&#34;&gt;https://www.nhi.gov.tw/Content_List.aspx?n=E7124A9821F49B47&amp;topn=874605F03B8FDFBA&lt;/a&gt;&lt;/p&gt;
+</description>
+      
     </item>
+    
   </channel>
 </rss>

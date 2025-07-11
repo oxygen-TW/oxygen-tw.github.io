@@ -2,151 +2,2277 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Notes on 氧氣橘子</title>
-    <link>https://oxygentw.net/categories/notes/</link>
+    <link>http://localhost:1313/categories/notes/</link>
     <description>Recent content in Notes on 氧氣橘子</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <lastBuildDate>Sat, 03 Aug 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://oxygentw.net/categories/notes/index.xml" rel="self" type="application/rss+xml" />
+    
+        <atom:link href="http://localhost:1313/categories/notes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>在美國生病怎麼辦 | 美國 Urgent Care 經驗分享</title>
-      <link>https://oxygentw.net/blog/travel/visit-urgent-care-in-us/</link>
+      <link>http://localhost:1313/blog/travel/visit-urgent-care-in-us/</link>
       <pubDate>Sat, 03 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://oxygentw.net/blog/travel/visit-urgent-care-in-us/</guid>
-      <description>上個月中去美國參加研討會，因此順便也在佛羅里達待了一個禮拜，但在過程中發生了點小插曲，從抵達的第三天開始發燒，我把我帶去的藥吃完無法改善，到</description>
+      
+      <guid>http://localhost:1313/blog/travel/visit-urgent-care-in-us/</guid>
+      
+        <description>&lt;p&gt;上個月中去美國參加研討會，因此順便也在佛羅里達待了一個禮拜，但在過程中發生了點小插曲，從抵達的第三天開始發燒，我把我帶去的藥吃完無法改善，到 Walmart 購買成藥雖然可以將體溫降下來，但藥效結束後仍繼續發燒，連續三天加上其他症狀，我懷疑有細菌感染的可能，又不敢貿然使用抗生素，於是決定前往 Urgent Care 就醫。&lt;/p&gt;
+&lt;p&gt;要去看醫生前我查了一大堆資料，但還是不太確定到底應該怎麼做，因此決定分享一下我的經驗給其他可能需要的人參考。&lt;/p&gt;
+&lt;h2 id=&#34;美國醫療分級&#34;&gt;美國醫療分級&lt;/h2&gt;
+&lt;p&gt;在開始前就得先談談美國的醫療分級，在美國的醫療體系分為三大類：Emergency Room、Urgent Care 和一般診所（Primary Care），一般診所通常需要預約，是用來處理一些不太緊迫的問題，像慢性病追蹤、身體檢查之類的，而另外兩類則是處理較有時間急迫性的情況，通常不用提前預約且等候時間不會太長，Emergency Room 和 Urgent Care 的差別在於 Emergency Room 適用於&lt;strong&gt;緊急且有生命危險&lt;/strong&gt;的情況，而 Urgent Care 則是適用於&lt;strong&gt;緊急但無生命危險&lt;/strong&gt;，如突然發燒、拉肚子、無生命危險的創傷等等。因此在我的情況下較為適用的是 Urgent Care。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Emergency Room：緊急且有生命危險&lt;/li&gt;
+&lt;li&gt;Urgent Care：緊急但無生命危險&lt;/li&gt;
+&lt;li&gt;Primary Care：非緊急情況，需要預約&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;urgent-care-就醫過程&#34;&gt;Urgent Care 就醫過程&lt;/h2&gt;
+&lt;p&gt;在我旅館附近的那間 Urgent Care 需要上他們的網站填寫預約，大家可以在 Google Map 上看有沒有預約的連結，但這個預約比較像是告知他們你預計要到的時間，如果沒有預約也是可以直接到現場掛號。因為當天研討會結束還要處理一些事情，我預約到23:00的時段，不得不說，當我開車抵達診所時我花了十分鐘才做好心理準備，一方面是這是我第一次在國外就醫，我不確定我有沒有辦法順利溝通，另一方面是那間診所看起來真的很像鬼屋&amp;hellip;診所內看起來很正常，但他位於一個商場的二樓，空蕩蕩的停車場，昏暗的樓梯間，只有那間診所亮著燈，診所裡也沒有其他患者，看起來實在有點詭異&amp;hellip;&lt;/p&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:600px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/visit-urgent-care-in-us/image1.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/visit-urgent-care-in-us/image1.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;總之，我站在門外等到有另一位看起來是要領藥的人進去，我才敢跟著他一起進去XD 那邊冷清到我甚至在櫃台旁站了三分鐘櫃檯的人才發現我，他詢問我我的情況，然後問我有沒有保險，因為我沒有當地的醫療保險，我詢問他通常我的情況需要多少錢，因為我的旅平險最多只能給付到600美元，他們說依照我的症狀大約是450元。 嗯&amp;hellip;夠用，但還是好貴&amp;hellip;&lt;/p&gt;
+&lt;p&gt;決定看診後他請我上網填寫初診資料，接著他就帶我到診療室中。&lt;/p&gt;
+&lt;p&gt;從這邊開始就跟台灣的醫療很不一樣了，進去後一個工作人員(應該是護理師)開始詢問我的症狀、病史、用藥史、過敏等等，並測量生命徵象(體溫、血壓、心率、血氧)，體溫我記得是101°F左右，所以他對我進行流感與A型鏈球菌的快速檢測，然後請我等候結果。&lt;/p&gt;
+&lt;p&gt;等候的過程中醫生有進來做簡單的檢查，檢查喉嚨、耳朵等等，同時詢問我是否願意接受注射的處置，大致上就是跟我詳細的解釋這個處置的理由以及價位，兩針要價250美元&amp;hellip; 我想說等到檢驗結果出來，如果都陰性的話就算了，用症狀治療的藥物處理就好。&lt;/p&gt;
+&lt;p&gt;又等了一段時間，護理師走進來跟我說我的檢驗結果出來了，他一開口我直接驚呆了 &lt;br&gt;
+他說「You got positive for both.」 &lt;br&gt;
+啥&amp;hellip;? &lt;br&gt;
+「Is that possible..?」我問 &lt;br&gt;
+「Yeah. You are a strong man」他尷尬地笑著說。&lt;/p&gt;
+&lt;p&gt;嗯&amp;hellip;謝謝稱讚，但同時感染流感與A型鏈球菌&amp;hellip; 會不會太過分&amp;hellip; 好吧，於是我同意抗生素與類固醇的注射，畢竟醫生說這個處置是可以申請保險的，他處理過很多這種案例，我就相信他&amp;hellip; 因為藥物容量的關係，得注射在臀中肌，我說這是我第一次打這個部位，不太知道怎麼做，他很有耐心的說明，在注射過程中也隨時確定我的狀況，注射完後他還跟我說「Congratulations. This is your first time.」我只能微笑應對，我的英文沒有好到可以回覆這種幽默回應XD 但整體的感覺很好，他們會想辦法緩解你的緊張，而且也不會讓人覺得他想要趕快把你搞定。&lt;/p&gt;
+&lt;p&gt;雖然這一切都是建立在相當高昂的醫療費上，流感快篩70幾元、Strep. A 快篩50幾元，在台灣 Streptococcus A 快篩只給付200點，流感只有150點，難怪醫生跟不要錢一樣的開&amp;hellip; 台灣健保雖然讓每個人都看得起醫生，卻是透過降低醫療品質與醫療人員待遇得來的。&lt;/p&gt;
+&lt;p&gt;結果最終醫療費是大約500元，他們跟我說要我去一間CVS藥局領藥，他們已經把處方傳過去，到現場報姓名即可，然後那間藥局距離診所13公里&amp;hellip;你能想像你在新莊看完醫生要到台北車站才能領藥嗎XD 但美國就是這樣，甚麼東西都離好遠。到CVS後領藥因為沒有醫療保險又付了100多塊的藥費，這個旅平險還是不能理賠的，因為難以證明這個藥費與突發疾病相關。&lt;/p&gt;
+&lt;p&gt;大致上是這樣，我發現在美國就醫困難的是真的好貴，溝通其實不會很困難，就算聽不懂一些句子他們也會用簡單的話解釋給你聽，想辦法讓你理解，就算是英文不好的人搭配上 Google 翻譯應該也能順利完成。倒是他們的藥挺複雜的，不像台灣診所會分三餐幫你包起來，你必須一個一個說明書去看，看藥甚麼時候吃，吃幾顆，哪一種藥藥先吃等等資訊。&lt;/p&gt;
+&lt;br/&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:600px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/visit-urgent-care-in-us/image2.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/visit-urgent-care-in-us/image2.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+甚至有這種六天療程每天都有不同時間指示的藥。&lt;/p&gt;
+&lt;br/&gt;
+&lt;hr&gt;
+&lt;p&gt;這次旅行對我來說真的是突發狀況的訓練營，除了發燒外還有很多其他的突發情況，尤其這次大多數時間又是只有我一個人，在邁阿密高燒的那個晚上真的是覺得很無助，但離家14000公里，再怎麼樣也只能靠自己想出辦法，雖然當下真的很想放棄，但往好處想，經過了這次，我學到如何在海外處理「自己無法處理的醫療情況」，這也是個很重要的經驗，相信在未來的旅程中若是再遇到類似情況，我能更加知道如何應對。&lt;/p&gt;
+</description>
+      
     </item>
+    
     <item>
       <title>學習利器介紹 - Anki</title>
-      <link>https://oxygentw.net/blog/computer/anki-app/</link>
+      <link>http://localhost:1313/blog/computer/anki-app/</link>
       <pubDate>Tue, 02 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>https://oxygentw.net/blog/computer/anki-app/</guid>
-      <description>知道 Anki 這款軟體已經有一段時間，但他操作起來仍然需要一點時間摸索，因為國考的關係被迫學習如何使用他XD 也順利地利用 Anki 的輔助考過國考了！ 便來介紹</description>
+      
+      <guid>http://localhost:1313/blog/computer/anki-app/</guid>
+      
+        <description>&lt;p&gt;知道 Anki 這款軟體已經有一段時間，但他操作起來仍然需要一點時間摸索，因為國考的關係被迫學習如何使用他XD 也順利地利用 Anki 的輔助考過國考了！ 便來介紹一下 Anki 如何使用，希望讓想要入門的人可以更快上手。&lt;/p&gt;
+&lt;h2 id=&#34;簡介&#34;&gt;簡介&lt;/h2&gt;
+&lt;p&gt;Anki 是一款輔助記憶方面學習的軟體(例如英文單字、解剖學等)，類似我們以前會使用的單字卡，在正面寫上中文，背面寫上英文這樣，他同時導入了&lt;strong&gt;間隔重複學習法(Spaced memory repetition)&lt;/strong&gt;，主要是利用不斷的重複回憶增加記憶的強度的原理幫你分配學習的進度。&lt;/p&gt;
+&lt;p&gt;Anki 的軟體中答完題目可以依照對題目的熟悉度選擇&lt;strong&gt;重來、困難、良好、簡單&lt;/strong&gt;這四種選擇，Spaced memory repetition的排程器會自動幫你決定同樣的題目應該要多久後再次出現，有興趣可以去研究他更詳細的排程原理與參考，但只適用於學習的話就不用管他，依照感覺選擇即可，依照我的經驗最常用的就是&lt;strong&gt;重來和良好&lt;/strong&gt;這兩項而已。&lt;/p&gt;
+&lt;h2 id=&#34;下載&#34;&gt;下載&lt;/h2&gt;
+&lt;p&gt;前往 &lt;a href=&#34;https://apps.ankiweb.net/&#34;&gt;https://apps.ankiweb.net/&lt;/a&gt; 下載 Anki 主程式，主流作業系統都有支援。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Android：&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.ichi2.anki&amp;amp;hl=zh_TW&amp;amp;gl=US&#34;&gt;https://play.google.com/store/apps/details?id=com.ichi2.anki&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;iOS: &lt;a href=&#34;https://apps.apple.com/tw/app/ankimobile-flashcards/id373493387&#34;&gt;https://apps.apple.com/tw/app/ankimobile-flashcards/id373493387&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;AnkiWeb：&lt;a href=&#34;https://ankiweb.net/about&#34;&gt;https://ankiweb.net/about&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Source(GitHub)：&lt;a href=&#34;https://github.com/ankitects/anki&#34;&gt;https://github.com/ankitects/anki&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;*iOS因為開發平台每年都要付給Apple費用，所以 Anki for iOS 要用約台幣830元購買，如果不想花錢，可以到 &lt;a href=&#34;https://ankiweb.net/about&#34;&gt;AnkiWeb&lt;/a&gt;，功能沒有App那麼完善，但基本的複習功能都有了。&lt;/p&gt;
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/anki-app/1.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/anki-app/1.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;安裝好後進去會進入選擇設定檔的介面，可以依照自己要學習的不同東西建立不同的設定檔&lt;/p&gt;
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/anki-app/2.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/anki-app/2.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;新增牌組&#34;&gt;新增牌組&lt;/h2&gt;
+&lt;p&gt;點擊新增牌組就可以直接新增一個牌組，但如果你想要設定子牌組的話可以利用「::」做分割，例如：&lt;/p&gt;
+&lt;p&gt;新增 &lt;code&gt;Deck::Subdeck&lt;/code&gt;，那麼牌組結構就會像&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Deck
+&lt;ul&gt;
+&lt;li&gt;Subdeck&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;新增題目&#34;&gt;新增題目&lt;/h2&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/anki-app/3-1.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/anki-app/3-1.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+點擊畫面上方的新增即可新增題目，Anki 預設主要有四種題目類型：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;基本型&lt;/li&gt;
+&lt;li&gt;克漏字&lt;/li&gt;
+&lt;li&gt;反向卡片&lt;/li&gt;
+&lt;li&gt;輸入答案&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;首先從基本型開始介紹，他就是正面寫上問題，背面寫上答案，和我們用的紙本單字卡一樣。
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/anki-app/4.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/anki-app/4.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;使用起來類似這樣，正面
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/anki-app/6.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/anki-app/6.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;顯示背面答案後
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/anki-app/5.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/anki-app/5.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;br/&gt;
+&lt;p&gt;克漏字可以在正面的題目敘述中挖空，而背面額外的欄位可以不填，那只是用來做額外的筆記用的
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/anki-app/cloze2.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/anki-app/cloze2.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;克漏字題目預覽
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/anki-app/cloze1.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/anki-app/cloze1.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;br/&gt;
+至於剩下的兩種，反向卡片其實就是基本型的反向，基本型是正面作為題目，但在反向基本型中背面也會被作為題目，例如；
+&lt;ul&gt;
+&lt;li&gt;CD23 &amp;lt;-&amp;gt; FcεRII&lt;/li&gt;
+&lt;li&gt;FcεRII &amp;lt;-&amp;gt; CD23&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;你只需要新增一張卡片，他就會自己幫你生成另一張反向的卡片&lt;/p&gt;
+&lt;p&gt;而輸入答案在背單字上很好用，他會自動檢查你輸入的單字和正確答案的差別
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/anki-app/input2.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/anki-app/input2.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;br/&gt;
+&lt;p&gt;簡單的整理&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;類型&lt;/th&gt;
+          &lt;th&gt;正面&lt;/th&gt;
+          &lt;th&gt;背面&lt;/th&gt;
+          &lt;th&gt;特點&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;基本型&lt;/td&gt;
+          &lt;td&gt;文字題目&lt;/td&gt;
+          &lt;td&gt;答案&lt;/td&gt;
+          &lt;td&gt;普通的卡片&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;克漏字&lt;/td&gt;
+          &lt;td&gt;克漏字挖空&lt;/td&gt;
+          &lt;td&gt;不需要&lt;/td&gt;
+          &lt;td&gt;可以在文字中挖空&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;反向型&lt;/td&gt;
+          &lt;td&gt;答案/題目&lt;/td&gt;
+          &lt;td&gt;答案/題目&lt;/td&gt;
+          &lt;td&gt;一次生成正反兩組卡片&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;輸入答案&lt;/td&gt;
+          &lt;td&gt;文字題目+輸入框&lt;/td&gt;
+          &lt;td&gt;答案&lt;/td&gt;
+          &lt;td&gt;檢查輸入與正確答案的差別&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;練習&#34;&gt;練習&lt;/h2&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/anki-app/ans.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/anki-app/ans.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+複習時可以點選顯示答案翻開背面，或是鍵盤空白鍵也可以翻開背面
+下面的數字代表&lt;strong&gt;新題目數量 + 正在學習中的數量 + 到期數量&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;新加入的題目會歸類到新題目，一但有被複習過，就會被加入學習中，而到期是指排程器覺得你應該再複習一次了，於是把題目放到到期的分類中，一但整個牌組都複習完，三個數字都應該是0。&lt;/p&gt;
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/anki-app/ans2.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/anki-app/ans2.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;顯示答案後下面會出現四個狀態，依據自己對題目的熟悉度選擇，基本上答錯我就會選重來，而上面的時間是指這個題目下一次出現的時間，你覺得題目越難，他就會出現的越頻繁直到學會，他的快捷鍵分別是&lt;strong&gt;重來-1, 困難-2, 良好-3, 簡單-4&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;擱置和暫停的區別&#34;&gt;擱置和暫停的區別&lt;/h3&gt;
+&lt;p&gt;如果你想暫時跳過題目，可以點其他-&amp;gt;&lt;strong&gt;擱置題目&lt;/strong&gt;，那麼這個題目就會到第二天才出現。  &lt;br&gt;
+如果你不想再做某一個題目，點其他-&amp;gt;&lt;strong&gt;暫停題目&lt;/strong&gt;，這個題目在你解除暫停前都不會出現。&lt;/p&gt;
+&lt;h2 id=&#34;同步資料&#34;&gt;同步資料&lt;/h2&gt;
+&lt;p&gt;如果有到AnkiWeb申請免費的帳號，那就可以把牌組上傳到他們的伺服器，在不同台電腦、手機間同步複習狀態，這功能相當好用，出門在外用手機複習，回家再用電腦同步回來即可！&lt;/p&gt;
+&lt;br/&gt;
+&lt;p&gt;以上就是Anki的基本操作介紹，這套軟體本身挺複雜的，一開始入門真的看不太懂，加上他還有許多的擴充功能可以下載，有時間的話再寫文章介紹，熟悉這軟體最好的方法就是去玩玩看，玩久了自然就會理出頭緒！&lt;/p&gt;
+</description>
+      
     </item>
+    
     <item>
       <title>醫用真菌學常見學名整理表</title>
-      <link>https://oxygentw.net/blog/notes/scientific-name-of-medical-myology/</link>
+      <link>http://localhost:1313/blog/notes/scientific-name-of-medical-myology/</link>
       <pubDate>Sat, 19 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>https://oxygentw.net/blog/notes/scientific-name-of-medical-myology/</guid>
-      <description>管狀菌絲 - 接合菌綱 Zygomycetes 學名 中文名 Rhizopus spp. 根黴菌 Mucor 毛黴菌 Absidia spp. 犁頭黴菌 Syncephalastrum 共頭黴菌 Circinella spp. 卷黴菌 Cunninghamella 小克銀漢黴菌 暗色有隔菌絲 Dematiaceous 學名 中文名 Alternaria 鏈格孢黴菌 Stemphylium 匍根黴菌</description>
+      
+      <guid>http://localhost:1313/blog/notes/scientific-name-of-medical-myology/</guid>
+      
+        <description>&lt;h2 id=&#34;管狀菌絲---接合菌綱-zygomycetes&#34;&gt;管狀菌絲 - 接合菌綱 Zygomycetes&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;學名&lt;/th&gt;
+          &lt;th&gt;中文名&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Rhizopus spp.&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;根黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Mucor&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;毛黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Absidia spp.&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;犁頭黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Syncephalastrum&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;共頭黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Circinella spp.&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;卷黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Cunninghamella&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;小克銀漢黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;暗色有隔菌絲-dematiaceous&#34;&gt;暗色有隔菌絲 Dematiaceous&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;學名&lt;/th&gt;
+          &lt;th&gt;中文名&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Alternaria&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;鏈格孢黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Stemphylium&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;匍根黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Epicoccum&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;附球黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Curvularia&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;彎孢黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Helminthosporium&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;長蠕孢黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Cladosporium&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;芽枝黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Nigrospora&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;黑孢黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Aureobasidium pullulans&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;出芽短梗黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Cladosporium carrionii&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;卡氏芽枝黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Phialophora verrucosa&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;疣狀瓶黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Phialophora jeanselmei&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;甄氏瓶黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Fonsecaea pedrosoi&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;裴氏著色黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Fonsecaea compacta&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;緊密著色黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;透明有隔菌絲&#34;&gt;透明有隔菌絲&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;學名&lt;/th&gt;
+          &lt;th&gt;中文名&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Aspergillus spp.&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;麹菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;A.fumigatus&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;煙麹菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;A.flavus&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;黃麹菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;A.niger&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;黑麹菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Penicillium&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;青黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Paecilomyces&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;擬青黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Scopulariopsis&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;帚黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Cephalosporium&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;頭孢黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Trichoderma&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;木黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Gliocladium&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;黏帚黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Fusarium&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;鐮刀菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Chrysosporium&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;金孢子黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Sepedonium&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;瘤孢黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Petriellidium(Allescheria)&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;阿利葉足腫黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Microsporum&lt;/em&gt; spp.&lt;/td&gt;
+          &lt;td&gt;小芽孢癬菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;M. audouinii&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;奧杜盎氏小芽孢癬菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;M. canis&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;犬小芽孢癬菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;M. gypseum&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;石膏樣小芽孢癬菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Trichophyton spp.&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;毛癬菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;T. mentagrophytes&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;鬆毛癬菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;T. rubrum&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;紅色毛癬菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;T. tonsurans&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;斷髮毛癬菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;T. verrucosum&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;疣狀毛癬菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;T. schoenleinii&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;許蘭氏毛癬菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;T. violaceum&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;紫色毛癬菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Epidermophyton spp.&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;表皮癬菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;E. floccosum&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;絮狀表皮癬菌&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;雙形黴菌-dimorphic-molds&#34;&gt;雙形黴菌 Dimorphic Molds&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;學名&lt;/th&gt;
+          &lt;th&gt;中文名&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Blastomyces dermatitidis&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;皮炎芽生菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Histoplasma capsulatum&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;莢膜組織胞菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Coccidioides inmitis&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;粗球孢子菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Sporothrix schenckii&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;申克氏孢子絲菌&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;酵母菌與類酵母菌-yeast--yeast-like&#34;&gt;酵母菌與類酵母菌 Yeast / Yeast-like&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;學名&lt;/th&gt;
+          &lt;th&gt;中文名&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Candida spp.&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;念珠菌屬&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;C. albicans&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;白色念珠菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;C. tropicalis&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;熱帶念珠菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;C.parapsilosis&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;近平滑念珠菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;C.pseudotropicalis&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;偽熱帶念珠菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;C. krusei&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;克柔氏念珠菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;C. glabrata&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;光滑念珠菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;C. dubliniensis&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;都柏林念珠菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Geotrichum&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;地黴菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Trichosporon&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;絲孢酵母菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Cryptococcus&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;隱球菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Rhodotorula&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;紅酵母菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Torulopsis&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;球擬酵母菌&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;em&gt;Saccharomyces&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;麵包酵母菌&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;p&gt;真的&amp;hellip;.好多&amp;hellip;.&lt;/p&gt;
+</description>
+      
     </item>
+    
     <item>
       <title>[筆記] 單株抗體製備與應用</title>
-      <link>https://oxygentw.net/blog/notes/basic-mab-note/</link>
+      <link>http://localhost:1313/blog/notes/basic-mab-note/</link>
       <pubDate>Tue, 20 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>https://oxygentw.net/blog/notes/basic-mab-note/</guid>
-      <description>單株(Monoclonal)抗體在血清免疫與癌症治療上有很重要的應用，正常人體中產生的抗體為多株(Polyclonal)抗體，以因應各式各樣</description>
+      
+      <guid>http://localhost:1313/blog/notes/basic-mab-note/</guid>
+      
+        <description>&lt;p&gt;單株(Monoclonal)抗體在血清免疫與癌症治療上有很重要的應用，正常人體中產生的抗體為多株(Polyclonal)抗體，以因應各式各樣的入侵病原，但在臨床使用上因為太雜亂，應用有限，現在血清免疫檢驗的發展有很大一部分歸功於單株抗體的分離，1975年 Kohler 和 Milstein 成功融合B細胞與腫瘤細胞，創造出融合瘤，成功大量製備單株抗體。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;血清免疫檢驗中，沒有抗體不能解決的，如果有，那就加二級抗體。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h2 id=&#34;單株抗體製備&#34;&gt;單株抗體製備&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;合成 hapten-mimic&lt;/li&gt;
+&lt;li&gt;注入老鼠/兔子等生物體內產生免疫抗體&lt;/li&gt;
+&lt;li&gt;以融合瘤技術產生單株抗體&lt;/li&gt;
+&lt;li&gt;測試單株抗體的敏感度與專一性&lt;/li&gt;
+&lt;li&gt;複製單株抗體產生重組抗體&lt;/li&gt;
+&lt;li&gt;測試重組抗體的敏感度與專一性&lt;/li&gt;
+&lt;li&gt;決定重組抗體序列&lt;/li&gt;
+&lt;li&gt;重組抗體基因改造&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;融合瘤-hat-選殖技術&#34;&gt;融合瘤 HAT 選殖技術&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;B細胞具有產生抗體的能力，但是早期的B細胞存活時間很短&lt;/li&gt;
+&lt;li&gt;腫瘤細胞具有&amp;quot;不死化&amp;quot;的特性&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;製造出融合瘤(Hybridomas)，亦即將B細胞與腫瘤細胞融合，即可創造出&lt;strong&gt;可產生抗體也長期存活&lt;/strong&gt;的細胞。&lt;/p&gt;
+&lt;p&gt;首先，在腫瘤細胞的部分，將 Myeloma cells 以 8-Azaguanine 處理，創造出 Myeloma cells 缺乏HGPRT(Hypoxanthine-guanine phosphoribosyltransferase)，B細胞的部分則是將半抗原注射進老鼠體內，使其免疫系統產生對應抗體的B細胞，再取出老鼠腹腔液或脾臟組織，以ELISA/Flow cytometery技術測定抗體效價。&lt;/p&gt;
+&lt;p&gt;有了兩種細胞，我們便可以利用 polyethylene glycol(PEG) 嘗試融合，我們不會知道融合是否有成功，因此要進行接下來的選殖。&lt;/p&gt;
+&lt;p&gt;Picture: &lt;em&gt;de nove pathway and salvage pathway&lt;/em&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/basic-mab-note/pathway.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/basic-mab-note/pathway.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;選殖使用的培養基為 HAT medium&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;H: Hypoxanthine&lt;/li&gt;
+&lt;li&gt;T: Thymidine&lt;/li&gt;
+&lt;li&gt;A: Aminopterin(葉酸抑制劑)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;葉酸抑制劑會阻斷細胞進行 de nove pathway，強迫其進行 salvage pathway，但是前述提到處理過的腫瘤細胞為HGPRT-，他不能進行salvage pathway，因此在HAT培養基上會死亡，即使是不死化的癌細胞，完全阻斷他的代謝路徑他還是會死的&amp;hellip;..&lt;/p&gt;
+&lt;p&gt;B細胞有進行salvage pathway的能力，當腫瘤細胞與B細胞融合後同時也會得到B細胞的代謝能力，可以在 HAT 培養基上存活。&lt;/p&gt;
+&lt;p&gt;那沒有融合的純B細胞呢? 他可以利用 HAT 培養基耶，他是不是也會活下來? &lt;strong&gt;不會&lt;/strong&gt;，純B細胞這東西呢，在體外你給他再多的東西，時間到了他就死了，而且那時間還很短。&lt;/p&gt;
+&lt;p&gt;綜合以上，會活下來的細胞就是有融合成功的細胞，這步驟就叫&lt;strong&gt;選殖&lt;/strong&gt;，只允許有我們想要的性狀的細胞存活，其他都會死亡，接下來要進行下一步。&lt;/p&gt;
+&lt;h2 id=&#34;確認抗體敏感度與專一性&#34;&gt;確認抗體敏感度與專一性&lt;/h2&gt;
+&lt;p&gt;到這邊我們可以得到能產生抗體又不死的融合瘤細胞，但是我們要進一步了解他到底產生的抗體是不是我們想要的，我們可以再將融合瘤細胞打進老鼠體內擴增，或是試管中細胞培養都可以，濃度擴增後再用 EIA 或Western blotting 篩選有我們想要的專一性抗體，最後再進行基因定序確定序列。&lt;/p&gt;
+&lt;h2 id=&#34;單株抗體技術演進與命名&#34;&gt;單株抗體技術演進與命名&lt;/h2&gt;
+&lt;p&gt;現在的單株抗體已經可以分為很多種，常見以下這幾種&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;100%老鼠抗體：Murine monoclonal Ab&lt;/li&gt;
+&lt;li&gt;30%老鼠+70%人類抗體：Chimeric(嵌合) monoclonal Ab&lt;/li&gt;
+&lt;li&gt;5-10%老鼠+90-95%人類抗體：Humanized(仿人類) monoclonal Ab&lt;/li&gt;
+&lt;li&gt;100%人類抗體：Human monoclonal Ab&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;各種單株抗體命名是有規則的，當初藥理學如果知道這套規則應該會好讀很多@@&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;結尾皆是&lt;code&gt;-mab&lt;/code&gt;，意即 monoclonal antibody&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-u-&lt;/code&gt;，表示為人類單株抗體&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-zu-&lt;/code&gt;，表示為仿人類單株抗體&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-xi-&lt;/code&gt;，表示嵌合單株抗體&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-o-&lt;/code&gt;，老鼠單株抗體&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-a-&lt;/code&gt;，大鼠單株抗體&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-e-&lt;/code&gt;，倉鼠單株抗體&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-i&lt;/code&gt;，靈長類單株抗體&lt;/li&gt;
+&lt;li&gt;etc&amp;hellip;..&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;其他包含作用位置&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;-tu(m)-&lt;/code&gt;：通用&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-ma(r)-&lt;/code&gt;: 乳房&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-pr(o)-&lt;/code&gt;: 前列腺&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-co(l)-&lt;/code&gt;: 大腸&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-ci(r)-&lt;/code&gt;: 循環系統&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;如 Beva&lt;strong&gt;ci&lt;/strong&gt;&lt;em&gt;zu&lt;/em&gt;mab，表示他是作用在循環系統的仿人類單株抗體。&lt;/p&gt;
+&lt;h2 id=&#34;單株抗體應用&#34;&gt;單株抗體應用&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;基礎研究&lt;/li&gt;
+&lt;li&gt;血清免疫檢驗&lt;/li&gt;
+&lt;li&gt;病理免疫染色&lt;/li&gt;
+&lt;li&gt;標靶抑制癌細胞&lt;/li&gt;
+&lt;li&gt;標靶誘導免疫系統摧毀癌細胞&lt;/li&gt;
+&lt;li&gt;活化T細胞&lt;/li&gt;
+&lt;li&gt;等等一大堆&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      
     </item>
+    
     <item>
       <title>分享 - Levey-Jennings chart 品管圖 Excel 模板</title>
-      <link>https://oxygentw.net/blog/notes/lj-chart-excel-share/</link>
+      <link>http://localhost:1313/blog/notes/lj-chart-excel-share/</link>
       <pubDate>Wed, 24 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>https://oxygentw.net/blog/notes/lj-chart-excel-share/</guid>
-      <description>之前想說畫品管圖好麻煩，乾脆寫個程式來畫，但又覺得為這個寫程式有點太大費周章，決定去找找看有沒有現成的模板可以直接用 Excel 畫，結果還真的有! 而且</description>
+      
+      <guid>http://localhost:1313/blog/notes/lj-chart-excel-share/</guid>
+      
+        <description>&lt;p&gt;之前想說畫品管圖好麻煩，乾脆寫個程式來畫，但又覺得為這個寫程式有點太大費周章，決定去找找看有沒有現成的模板可以直接用 Excel 畫，結果還真的有! 而且還蠻好用的，紀錄一下順便分享給大家。&lt;/p&gt;
+&lt;p&gt;只要在右邊把平均跟SD填一填，左邊填入品管數據他就會畫出來了！&lt;/p&gt;
+&lt;p&gt;模板下載：&lt;a href=&#34;http://localhost:1313/files/LJ_Chrt_TEMP.xlsx&#34;&gt;https://oxygentw.net/files/LJ_Chrt_TEMP.xlsx&lt;/a&gt;&lt;/p&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/lj-chart-excel-share/1.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/lj-chart-excel-share/1.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;模板出處：&lt;a href=&#34;https://resources.psmile.org/resources/process-control/quality-control/lj-charts/Pro5.1-03%20Chemistry%20LJ%20Chart%20TEMPLATE.xls/view&#34;&gt;傳送門&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;模板授權：&lt;a href=&#34;https://www.gnu.org/licenses/old-licenses/gpl-2.0.html&#34;&gt;GNU GPL license&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      
     </item>
+    
     <item>
       <title>簡易細菌鑑別流程圖</title>
-      <link>https://oxygentw.net/blog/notes/basicbacindentification/</link>
+      <link>http://localhost:1313/blog/notes/basicbacindentification/</link>
       <pubDate>Tue, 23 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>https://oxygentw.net/blog/notes/basicbacindentification/</guid>
-      <description>整理一下上課講義上的細菌判別總表，放在網路上給大家參考，邊學邊做，有錯拜託告知QQ 資料來源：林世傑教授講義 軟體：Xmind free version 💥PDF下載點</description>
+      
+      <guid>http://localhost:1313/blog/notes/basicbacindentification/</guid>
+      
+        <description>&lt;p&gt;整理一下上課講義上的細菌判別總表，放在網路上給大家參考，邊學邊做，有錯拜託告知QQ&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;資料來源：林世傑教授講義&lt;/li&gt;
+&lt;li&gt;軟體：Xmind free version&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;💥&lt;a href=&#34;https://oxygentw.net/files/BasicBacteriaIdentification.pdf&#34;&gt;PDF下載點&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;圖片預覽
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/basicbacindentification/1.PNG&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/basicbacindentification/1.PNG&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+</description>
+      
     </item>
+    
     <item>
       <title>關於檢驗科抽血</title>
-      <link>https://oxygentw.net/blog/notes/mls-venipuncture/</link>
+      <link>http://localhost:1313/blog/notes/mls-venipuncture/</link>
       <pubDate>Mon, 12 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>https://oxygentw.net/blog/notes/mls-venipuncture/</guid>
-      <description>靜脈穿刺採血，俗稱抽血，大家應該都有在醫院抽血的經驗，或是健康檢查需要抽血，人體的血液含有大量的資訊，醫學實驗室可以用各種檢驗方法取得各項指</description>
+      
+      <guid>http://localhost:1313/blog/notes/mls-venipuncture/</guid>
+      
+        <description>&lt;p&gt;靜脈穿刺採血，俗稱抽血，大家應該都有在醫院抽血的經驗，或是健康檢查需要抽血，人體的血液含有大量的資訊，醫學實驗室可以用各種檢驗方法取得各項指標，進行診斷、排除、追蹤、藥量控制等等後續醫療行為。&lt;/p&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/mls-venipuncture/venipuncture.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/mls-venipuncture/venipuncture.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;我稍微解釋些醫檢師在採集血液檢體時的抽血流程。&lt;/p&gt;
+&lt;h2 id=&#34;檢驗科門診抽血流程醫檢師&#34;&gt;檢驗科門診抽血流程(醫檢師)&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;收檢驗單，詢問病人身分並確認&lt;/li&gt;
+&lt;li&gt;依照檢驗單準備採血管&lt;/li&gt;
+&lt;li&gt;告知受檢者今天的採血計畫&lt;/li&gt;
+&lt;li&gt;組裝&lt;strong&gt;無菌安全針具&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;若是用空針採血，先行順針&lt;/li&gt;
+&lt;li&gt;於受檢者採檢部位上方約一個手掌的距離綁上止血帶&lt;/li&gt;
+&lt;li&gt;決定將穿刺的血管&lt;/li&gt;
+&lt;li&gt;酒精棉片&lt;strong&gt;用力來回&lt;/strong&gt;擦拭*&lt;/li&gt;
+&lt;li&gt;告知受檢者即將下針，深呼吸，避免受檢者驚嚇收手或暈厥&lt;/li&gt;
+&lt;li&gt;採檢完一管檢體，鬆開止血帶&lt;/li&gt;
+&lt;li&gt;採檢剩餘檢體，用鑷子準備棉球至下針處&lt;/li&gt;
+&lt;li&gt;抽針，棉球壓緊傷口&lt;/li&gt;
+&lt;li&gt;啟動針具安全機制&lt;/li&gt;
+&lt;li&gt;透氣膠帶固定受檢者棉球，並進行抽血後衛教&lt;/li&gt;
+&lt;li&gt;整理檢體，依照採血管廠商指示翻轉採血管&lt;/li&gt;
+&lt;li&gt;完成靜脈採血&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;*以前抽血消毒是用由內而外同心圓擦拭，&lt;a href=&#34;https://clsi.org/media/1372/gp41ed7_sample.pdf&#34;&gt;&lt;em&gt;CLSI GP41 2017&lt;/em&gt;&lt;/a&gt; 版本修改為用力來回擦拭&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;我還沒去實習&amp;hellip;但我先列出一些上課教到常見的抽血後問題與衛教給大家參考。&lt;/p&gt;
+&lt;h2 id=&#34;抽血後qa&#34;&gt;抽血後QA&lt;/h2&gt;
+&lt;h3 id=&#34;1-抽完血要壓多久&#34;&gt;1. 抽完血要壓多久？&lt;/h3&gt;
+&lt;p&gt;建議時間五分鐘以上，不再流血即可，剛抽完時要確實壓緊，不然可能會造成瘀血。&lt;/p&gt;
+&lt;p&gt;*實驗課被抽完很快就要去抽別人，所以都只壓一下下就上場了&amp;hellip;.&lt;/p&gt;
+&lt;h3 id=&#34;2-抽血會痛嗎&#34;&gt;2. 抽血會痛嗎？&lt;/h3&gt;
+&lt;p&gt;會痛，畢竟針刺到肉裡，但絕對不會是痛到你難以忍受的痛，如果你覺得痛到難以忍受或有痠麻的感覺須立刻告知醫檢師，可能針碰到神經導致輕微神經傷害。&lt;/p&gt;
+&lt;h3 id=&#34;3-抽血為甚麼要抽這麼多管&#34;&gt;3. 抽血為甚麼要抽這麼多管？&lt;/h3&gt;
+&lt;p&gt;每一種顏色的採血管內含特定的化學成分，以便後續不同的檢驗分析使用，有些檢驗需要用特定成分的採血管來採集血液，所以需要分數管採集。&lt;/p&gt;
+&lt;h3 id=&#34;4-抽血完要揉嗎&#34;&gt;4. 抽血完要揉嗎？&lt;/h3&gt;
+&lt;p&gt;拜託不要，壓緊就好，揉他會很容易導致皮下出血。&lt;/p&gt;
+&lt;h3 id=&#34;5-若抽血後瘀青了怎麼辦&#34;&gt;5. 若抽血後瘀青了怎麼辦？&lt;/h3&gt;
+&lt;p&gt;24小時內冰敷，之後改為熱敷，通常不去理會身體會自行吸收瘀青的血液。&lt;/p&gt;
+&lt;h3 id=&#34;第一次沒抽到血怎麼辦&#34;&gt;第一次沒抽到血怎麼辦？&lt;/h3&gt;
+&lt;p&gt;醫檢師利用觸摸與眼睛判斷血管走向及深度，無法百分百精準，每個人的手部構造並不相同，下針後也可能發生血管滑開而沒有成功穿刺，第一次抽血失敗後會換手再次抽血，若連續兩次失敗則視為困難抽血，會請其他醫檢師進行操作或是更換部位抽血(手背、腳跟上方)。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;2020/11/27 update&lt;/p&gt;
+&lt;h2 id=&#34;技術考流程&#34;&gt;技術考流程&lt;/h2&gt;
+&lt;p&gt;抽血技術考流程&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;洗手&lt;/li&gt;
+&lt;li&gt;戴手套&lt;/li&gt;
+&lt;li&gt;將棉球移到適當位置&lt;/li&gt;
+&lt;li&gt;準備適當長度3M Tape&lt;/li&gt;
+&lt;li&gt;綁Tourniquet&lt;/li&gt;
+&lt;li&gt;決定採血血管&lt;/li&gt;
+&lt;li&gt;鬆Tourniquet&lt;/li&gt;
+&lt;li&gt;組裝針具&lt;/li&gt;
+&lt;li&gt;綁Tourniquet&lt;/li&gt;
+&lt;li&gt;再次確認血管&lt;/li&gt;
+&lt;li&gt;酒精棉片消毒&lt;/li&gt;
+&lt;li&gt;告知病人、下針&lt;/li&gt;
+&lt;li&gt;採血&lt;/li&gt;
+&lt;li&gt;鬆Tourniquet&lt;/li&gt;
+&lt;li&gt;取出真空採血管&lt;/li&gt;
+&lt;li&gt;翻轉採血管&lt;/li&gt;
+&lt;li&gt;夾取棉球&lt;/li&gt;
+&lt;li&gt;抽針&lt;/li&gt;
+&lt;li&gt;啟動安全針具&lt;/li&gt;
+&lt;li&gt;壓緊並貼上3M Tape&lt;/li&gt;
+&lt;li&gt;拋棄針具、清理廢棄物&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+      
     </item>
+    
     <item>
       <title>心臟停止的急救技術</title>
-      <link>https://oxygentw.net/blog/notes/simple-cpr/</link>
+      <link>http://localhost:1313/blog/notes/simple-cpr/</link>
       <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://oxygentw.net/blog/notes/simple-cpr/</guid>
-      <description>CPR 想必大家不陌生，很多連續劇裡也都會演(? 身為醫事人員我們必須學會基本的急救技術，所以在醫學院裡的學生都會學，但我覺得這項技能應該是全民都該</description>
+      
+      <guid>http://localhost:1313/blog/notes/simple-cpr/</guid>
+      
+        <description>&lt;p&gt;CPR 想必大家不陌生，很多連續劇裡也都會演(? 身為醫事人員我們必須學會基本的急救技術，所以在醫學院裡的學生都會學，但我覺得這項技能應該是全民都該會的，才能在最緊急時給予患者協助，數據顯示高品質的CPR與五分鐘內進行去顫能使心臟停止患者存活率從&lt;strong&gt;49%提高到75%&lt;/strong&gt;，可見正確急救的重要性。&lt;/p&gt;
+&lt;p&gt;所以我把複習的筆記放上網站希望給大家一個參考，前半段是希望大家認識的，從藥物開始是給專業醫護人員操作的步驟，所以那邊可以斟酌著看~ 希望會對大家有幫助。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;基本上流程看這張圖，下面會一一介紹
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:720px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/simple-cpr/flowchart.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/simple-cpr/flowchart.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;叫叫CABD&lt;/p&gt;&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;叫: 叫病人&lt;/li&gt;
+&lt;li&gt;叫: 求救&lt;/li&gt;
+&lt;li&gt;C (Circulation): 維持循環系統(CPR)&lt;/li&gt;
+&lt;li&gt;A (Airway): 維持呼吸道暢通&lt;/li&gt;
+&lt;li&gt;B (Breathing): 人工呼吸&lt;/li&gt;
+&lt;li&gt;D (Defibrillation): 體外去顫&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;叫&#34;&gt;叫&lt;/h2&gt;
+&lt;p&gt;呼叫病人有無反應，有反應結束急救，無反應則下一步驟。&lt;/p&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;叫-1&#34;&gt;叫&lt;/h2&gt;
+&lt;p&gt;啟動 EMS(Emergency Medical Services)，叫人幫忙、求救&lt;/p&gt;
+&lt;p&gt;求救優先於急救，並請人取得&lt;strong&gt;去顫器或****AED&lt;/strong&gt;。&lt;/p&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;circulation-維持循環系統&#34;&gt;Circulation 維持循環系統&lt;/h2&gt;
+&lt;p&gt;檢查頸動脈脈搏 5-10 秒，若無脈搏進行。&lt;/p&gt;
+&lt;br/&gt;
+&lt;p&gt;為何不檢查肱動脈?&lt;/p&gt;
+&lt;p&gt;因虛弱的患者血壓可能不高，無法在肱動脈產生脈搏，導致誤判沒有脈搏。&lt;/p&gt;
+&lt;br/&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;位置：胸骨下半、兩乳頭中間&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;速度：100 bpm&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;深度：4-5 cm&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;時間：五個循環或兩分鐘&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;結束時機：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;去顫器抵達&lt;/li&gt;
+&lt;li&gt;ALS專業人員接手&lt;/li&gt;
+&lt;li&gt;患者有反應&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+&lt;blockquote&gt;
+&lt;p&gt;壓的深、壓得快、胸回彈、莫中斷&lt;/p&gt;&lt;/blockquote&gt;
+&lt;br/&gt;
+&lt;p&gt;&lt;strong&gt;Asphyxial arrest 窒息性心跳停止&lt;/strong&gt;例外：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;嬰幼兒&lt;/li&gt;
+&lt;li&gt;溺水&lt;/li&gt;
+&lt;li&gt;藥物過量&lt;/li&gt;
+&lt;li&gt;外傷&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+&lt;p&gt;先立刻進行五個循環或兩分鐘CPR再求救&lt;/p&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;airway-維持呼吸道暢通&#34;&gt;Airway 維持呼吸道暢通&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;壓額抬下巴&lt;/li&gt;
+&lt;li&gt;推下顎法&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;breathing-人工呼吸&#34;&gt;Breathing 人工呼吸&lt;/h2&gt;
+&lt;p&gt;呼吸評估：觀察胸部起伏約十秒，默念1001、1002……1007&lt;/p&gt;
+&lt;p&gt;給予人工呼吸&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;口對口&lt;/li&gt;
+&lt;li&gt;面罩&lt;/li&gt;
+&lt;li&gt;甦醒球&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;吹氣一秒，每次潮氣量 6-7 ml * Weight (約 500-600 ml)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;注意要有胸部起伏&lt;/strong&gt;&lt;/p&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;defibrillation-體外去顫&#34;&gt;Defibrillation 體外去顫&lt;/h2&gt;
+&lt;p&gt;電擊後仍要進行CPR，電擊後可能會產生幾分鐘PEA(Pulseless Electrical Activity)、Asystole&lt;/p&gt;
+&lt;p&gt;可繼續胸部按壓恢復心律。&lt;/p&gt;
+&lt;br/&gt;
+&lt;p&gt;直到救護人員接手。&lt;/p&gt;
+&lt;br/&gt;
+&lt;hr&gt;
+&lt;h2&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;藥物輔助治療&#34;&gt;藥物輔助治療&lt;/h2&gt;
+&lt;p&gt;First line:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Epinephrine(腎上腺素)&lt;/li&gt;
+&lt;li&gt;Vasopressin(血管升壓素)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Second line:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Aminodarone(胺碘酮)&lt;/li&gt;
+&lt;li&gt;Lidocaine(利多卡因)&lt;/li&gt;
+&lt;li&gt;Magnesium sulfate(硫酸鎂)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;二級急救流程-abcd&#34;&gt;二級急救流程 ABCD&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;插管，維持呼吸道暢通&lt;/li&gt;
+&lt;li&gt;插管，供氧&lt;/li&gt;
+&lt;li&gt;on IV、監測、輸液給藥&lt;/li&gt;
+&lt;li&gt;區分診斷(6H6T)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;6h6t&#34;&gt;6H6T&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Hypovolemia（低血容）&lt;/li&gt;
+&lt;li&gt;Hypoxia（低血氧）&lt;/li&gt;
+&lt;li&gt;Hydrogen ion（酸血症）&lt;/li&gt;
+&lt;li&gt;Hyper/Hypokalemia（高或低血鉀）&lt;/li&gt;
+&lt;li&gt;Hypothermia（低體溫）&lt;/li&gt;
+&lt;li&gt;Hypo/Hyperglycemia（高或低血糖）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+&lt;ul&gt;
+&lt;li&gt;Toxin/Tablets（中毒）&lt;/li&gt;
+&lt;li&gt;Tamponade cardiac（心包膜填塞）&lt;/li&gt;
+&lt;li&gt;Tension pneumothorax（張力性氣胸）&lt;/li&gt;
+&lt;li&gt;Thrombosis, coronary（心肌梗塞）&lt;/li&gt;
+&lt;li&gt;Thrombosis, pulmonary（肺塞栓）&lt;/li&gt;
+&lt;li&gt;Trauma（外傷）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;參考資料：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;臨床生理學 課程講義&lt;/li&gt;
+&lt;li&gt;紅十字會急救理論與技術&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.nfa.gov.tw/cht/index.php?code=list&amp;amp;ids=895&#34;&gt;https://www.nfa.gov.tw/cht/index.php?code=list&amp;ids=895&lt;/a&gt; 內政部消防署&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cn.depositphotos.com/107372408/stock-photo-girl-making-cardiopulmonary-resuscitation-to.html&#34;&gt;https://cn.depositphotos.com/107372408/stock-photo-girl-making-cardiopulmonary-resuscitation-to.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      
     </item>
+    
     <item>
       <title>西班牙文筆記</title>
-      <link>https://oxygentw.net/blog/notes/spanish-note/</link>
+      <link>http://localhost:1313/blog/notes/spanish-note/</link>
       <pubDate>Sat, 28 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>https://oxygentw.net/blog/notes/spanish-note/</guid>
-      <description>Tema 1 Ser 用來表示不常變動的狀態，例如國籍、職業、價值判斷等。 Estar 用來表示當下的心裡、生理狀態、空間、地點、位置等。 Ser 與 Estar 的差別類似天氣與氣候定義</description>
+      
+      <guid>http://localhost:1313/blog/notes/spanish-note/</guid>
+      
+        <description>&lt;h1 id=&#34;tema-1&#34;&gt;Tema 1&lt;/h1&gt;
+&lt;p&gt;Ser 用來表示不常變動的狀態，例如國籍、職業、價值判斷等。 &lt;br&gt;
+Estar 用來表示當下的心裡、生理狀態、空間、地點、位置等。 &lt;br&gt;
+Ser 與 Estar 的差別類似天氣與氣候定義上的差別。&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;人稱&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;ser&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;estar&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;yo&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;soy&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;estoy&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;tu&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;eles&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;estáis&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;el / elle / usted&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;es&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;está&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;nosotros/nosotras&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;somos&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;estamos&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;vosotros/vosodras&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;sois&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;estáis&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;ellos/ellas/ustedes&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;son&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;están&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;基本招呼語&#34;&gt;基本招呼語&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;你好 Hola&lt;/li&gt;
+&lt;li&gt;早安 buenos diás&lt;/li&gt;
+&lt;li&gt;午安 buenas tartes&lt;/li&gt;
+&lt;li&gt;晚安 buenás noches&lt;/li&gt;
+&lt;li&gt;再見 adios / chao&lt;/li&gt;
+&lt;li&gt;你好嗎? ¿Cómo estás?&lt;/li&gt;
+&lt;li&gt;我很好，你呢? ¿Muy bien y tu?&lt;/li&gt;
+&lt;li&gt;明天見 Hasta mañana&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;冠詞&#34;&gt;冠詞&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;/th&gt;
+          &lt;th&gt;陽性單數&lt;/th&gt;
+          &lt;th&gt;陰性單數&lt;/th&gt;
+          &lt;th&gt;陽性複數&lt;/th&gt;
+          &lt;th&gt;陰性複數&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;定冠詞&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;el&lt;/td&gt;
+          &lt;td&gt;la&lt;/td&gt;
+          &lt;td&gt;los&lt;/td&gt;
+          &lt;td&gt;las&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;不定冠詞&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;un&lt;/td&gt;
+          &lt;td&gt;una&lt;/td&gt;
+          &lt;td&gt;unos&lt;/td&gt;
+          &lt;td&gt;unas&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;五大問句&#34;&gt;五大問句&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;what = ¿Qué?&lt;/li&gt;
+&lt;li&gt;when&lt;/li&gt;
+&lt;li&gt;where = ¿De dónde?&lt;/li&gt;
+&lt;li&gt;who = ¿Quién? / ¿Quiénes?&lt;/li&gt;
+&lt;li&gt;how = ¿cómo?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;西班牙文姓名結構&#34;&gt;西班牙文姓名結構&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;名字 父姓 母性&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;例：Carlos Ruiz Sánchez&lt;/p&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;llamarse-與反身動詞&#34;&gt;llamarse 與反身動詞&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;人稱&lt;/th&gt;
+          &lt;th&gt;llamarse&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;yo&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;me&lt;/strong&gt; llamao&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;tú&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;te&lt;/strong&gt; llamas&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;el / elle / usted&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;señ&lt;/strong&gt; llama&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;nosotros / nosodras&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;nos&lt;/strong&gt; llamamos&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;vosodros / vosodras&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;os&lt;/strong&gt; llamáis&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;ellos / ellas / ustedes&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;se&lt;/strong&gt; llaman&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;你叫什麼名字? &lt;strong&gt;¿Cómo te llamas?&lt;/strong&gt; &lt;br&gt;
+我叫 Elena. &lt;strong&gt;Se llamo Elena.&lt;/strong&gt;&lt;/p&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;國家與國籍&#34;&gt;國家與國籍&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;-o -&amp;gt; -a&lt;/li&gt;
+&lt;li&gt;子音 -&amp;gt; +a&lt;/li&gt;
+&lt;li&gt;-í, -ense 陰陽同型&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;其他文法&#34;&gt;其他文法&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;no&lt;/strong&gt; 放置於 verb. 前則為否定句&lt;/p&gt;
+&lt;br/&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;tema-2&#34;&gt;Tema 2&lt;/h1&gt;
+&lt;h2 id=&#34;招呼語&#34;&gt;招呼語&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;很高興認識你&lt;/p&gt;&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Encantado / Encantada 依照&lt;strong&gt;說的人&lt;/strong&gt;性別改變陰陽性&lt;/li&gt;
+&lt;li&gt;mucho gusto (mucho=很多; gusto=榮幸) 不分陰陽性&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;tema-3&#34;&gt;Tema 3&lt;/h1&gt;
+&lt;h2 id=&#34;西文地址表示&#34;&gt;西文地址表示&lt;/h2&gt;
+&lt;br/&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;西文數字&#34;&gt;西文數字&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;0 cero&lt;/li&gt;
+&lt;li&gt;1 uno&lt;/li&gt;
+&lt;li&gt;2 dos&lt;/li&gt;
+&lt;li&gt;3 tres&lt;/li&gt;
+&lt;li&gt;4 cuatro&lt;/li&gt;
+&lt;li&gt;5 cinco&lt;/li&gt;
+&lt;li&gt;6 seis&lt;/li&gt;
+&lt;li&gt;7 siete&lt;/li&gt;
+&lt;li&gt;8 ocho&lt;/li&gt;
+&lt;li&gt;9  nueve&lt;/li&gt;
+&lt;li&gt;10  &lt;strong&gt;diez&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;11 on&lt;strong&gt;ce&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;12 do&lt;strong&gt;ce&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;13 tre&lt;strong&gt;ce&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;14 catro&lt;strong&gt;ce&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;15 quin&lt;strong&gt;ce&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;16 &lt;strong&gt;dieci&lt;/strong&gt;séis&lt;/li&gt;
+&lt;li&gt;17 &lt;strong&gt;dieci&lt;/strong&gt;siete&lt;/li&gt;
+&lt;li&gt;18 &lt;strong&gt;dieci&lt;/strong&gt;ocho&lt;/li&gt;
+&lt;li&gt;19 &lt;strong&gt;dieci&lt;/strong&gt;nueve&lt;/li&gt;
+&lt;li&gt;20 viente&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;veinti-個位數字&lt;/p&gt;&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;21 veintiuno&lt;/li&gt;
+&lt;li&gt;22 veintidós&lt;/li&gt;
+&lt;li&gt;23 veintitrés&lt;/li&gt;
+&lt;li&gt;24 veinticuatro&lt;/li&gt;
+&lt;li&gt;25 veinticinco&lt;/li&gt;
+&lt;li&gt;26 veintiséis&lt;/li&gt;
+&lt;li&gt;27 veintisiete&lt;/li&gt;
+&lt;li&gt;28 veintiocho&lt;/li&gt;
+&lt;li&gt;29 veintinueve&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;十位數字 + y + 個位數字 &lt;br&gt;
+67 = sesenta y siete&lt;/p&gt;&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;30 treinta&lt;/li&gt;
+&lt;li&gt;40 cuarenta&lt;/li&gt;
+&lt;li&gt;50 cincuenta&lt;/li&gt;
+&lt;li&gt;60 sesenta&lt;/li&gt;
+&lt;li&gt;70 setenta&lt;/li&gt;
+&lt;li&gt;80 ochenta&lt;/li&gt;
+&lt;li&gt;90 noventa&lt;/li&gt;
+&lt;li&gt;100 cien&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+&lt;h1 id=&#34;tema-4-final-exam&#34;&gt;Tema 4 Final exam&lt;/h1&gt;
+&lt;h2 id=&#34;不規則動詞變化&#34;&gt;不規則動詞變化&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;strong&gt;decir&lt;/strong&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;strong&gt;ser&lt;/strong&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;strong&gt;estar&lt;/strong&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;digo&lt;/td&gt;
+          &lt;td&gt;soy&lt;/td&gt;
+          &lt;td&gt;estoy&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;dices&lt;/td&gt;
+          &lt;td&gt;eres&lt;/td&gt;
+          &lt;td&gt;estás&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;dice&lt;/td&gt;
+          &lt;td&gt;es&lt;/td&gt;
+          &lt;td&gt;está&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;decimos&lt;/td&gt;
+          &lt;td&gt;somos&lt;/td&gt;
+          &lt;td&gt;estamos&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;decís&lt;/td&gt;
+          &lt;td&gt;sois&lt;/td&gt;
+          &lt;td&gt;estáis&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;dicen&lt;/td&gt;
+          &lt;td&gt;son&lt;/td&gt;
+          &lt;td&gt;están&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;感嘆句&#34;&gt;感嘆句&lt;/h2&gt;
+&lt;h2 id=&#34;祝賀語&#34;&gt;祝賀語&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;聖誕快樂 Feliz Navidad!&lt;/li&gt;
+&lt;li&gt;新年快樂&lt;/li&gt;
+&lt;li&gt;恭喜 Felicidades&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;更新紀錄 &lt;br&gt;
+2019/10/21 &lt;br&gt;
+2019/11/09 &lt;br&gt;
+2019/12/04 &lt;br&gt;
+2019/12/28&lt;/p&gt;
+&lt;br/&gt;
+上課參考書籍：[讓學生不想下課的西文課](https://www.books.com.tw/products/0010611178?gclid=CjwKCAiA5JnuBRA-EiwA-0ggPbEbq0JBnEffdWSt8DIFCTVzHcIqw4nY-AMsx7Yot_ZD3QXxBdJxOhoCyVYQAvD_BwE)</description>
+      
     </item>
+    
     <item>
       <title>清肝養目茶配方</title>
-      <link>https://oxygentw.net/blog/notes/chrysanthemum-cassia-tea/</link>
+      <link>http://localhost:1313/blog/notes/chrysanthemum-cassia-tea/</link>
       <pubDate>Sun, 08 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://oxygentw.net/blog/notes/chrysanthemum-cassia-tea/</guid>
-      <description>幾年前，那個我依然年輕的時候(? 在北醫藥學營方劑學學到清肝養目茶的配方與沖法，可是我一直不知道怎麼買中藥，剛剛去市場無意間看到就想說，恩，來</description>
+      
+      <guid>http://localhost:1313/blog/notes/chrysanthemum-cassia-tea/</guid>
+      
+        <description>&lt;p&gt;幾年前，那個我依然年輕的時候(? 在北醫藥學營方劑學學到清肝養目茶的配方與沖法，可是我一直不知道怎麼買中藥，剛剛去市場無意間看到就想說，恩，來泡泡看吧！&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;中藥材&#34;&gt;中藥材&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;炒決明子 1錢&lt;/li&gt;
+&lt;li&gt;枸杞 1錢&lt;/li&gt;
+&lt;li&gt;菊花 數朵(選用)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;在台灣一錢相當於 3.75g，可以自行依比例修改&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;這邊列的是北醫給的標準配方，但我在買中藥的時候只跟老闆講這三種藥材，他就幫我配好裝袋了，而且他加了一大堆菊花，其實只要數朵啊啊啊啊 XD
+不過多了一些菊花應該更棒吧~&lt;/p&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;煮法&#34;&gt;煮法&lt;/h2&gt;
+&lt;p&gt;將所有藥材裝進過濾袋或是茶包，先用水沖洗兩次後即可用沸水浸泡，我泡在咖啡壺裡面，其實直接放進杯子當茶包泡也沒問題，只是過濾袋就要用小一點的。&lt;/p&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:504px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/chrysanthemum-cassia-tea/image1_c.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/chrysanthemum-cassia-tea/image1_c.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;
+&lt;p&gt;然後&amp;hellip;.泡著泡著就完成啦！超級簡單的吧，喝完之後還可以再沖個一兩泡沒問題~&lt;/p&gt;
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:504px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/chrysanthemum-cassia-tea/image2_c.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/chrysanthemum-cassia-tea/image2_c.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;
+## 口感
+我覺得喝起來還不錯，我不是很喜歡加糖的茶，所以沒有加糖，喜歡的可以斟酌加一些冰糖，喝起來主要的味道是枸杞的香味，另外兩種藥材泡久一點比較有味道，都很香XD 跟咖啡很像，剛泡和泡一段時間各有不同的感受~ 但也不要泡太久，到顏色變得太深雖然香味很濃郁，但會有點苦苦的。
+&lt;p&gt;有興趣的朋友可以試試看喔~&lt;/p&gt;
+&lt;br/&gt;
+&lt;h6 id=&#34;參考資料&#34;&gt;參考資料&lt;/h6&gt;
+&lt;p&gt;台北醫學大學 &lt;a href=&#34;http://tmucamp.tmu.edu.tw/&#34;&gt;楓杏藥學營&lt;/a&gt;&lt;/p&gt;
+</description>
+      
     </item>
+    
     <item>
       <title>果蠅培養基製備法</title>
-      <link>https://oxygentw.net/blog/notes/fruit-fly-medium/</link>
+      <link>http://localhost:1313/blog/notes/fruit-fly-medium/</link>
       <pubDate>Fri, 30 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://oxygentw.net/blog/notes/fruit-fly-medium/</guid>
-      <description>實驗室以果蠅為模式生物，因此我多了許多和果蠅接觸的機會，也和學姊學了一些基本果蠅養殖方法，看久了真的覺得果蠅挺可愛的，就從將要被拋棄的舊培養</description>
+      
+      <guid>http://localhost:1313/blog/notes/fruit-fly-medium/</guid>
+      
+        <description>&lt;p&gt;實驗室以果蠅為模式生物，因此我多了許多和果蠅接觸的機會，也和學姊學了一些基本果蠅養殖方法，看久了真的覺得果蠅挺可愛的，就從將要被拋棄的舊培養管 transfer 一點成蟲帶回家養 XD 每天觀察牠們求偶、交配、幼蟲成長，有點像小時候養蠶寶寶的感覺，這個我覺得更可愛呢。&lt;/p&gt;
+&lt;p&gt;不過我要離開實驗室了，就沒有果蠅培養基可以用了，只能把培養管回收再利用，並且自製培養基，找了一段時間終於找到一篇大甲高中的小論文內有記載果蠅培養基的做法，該篇小論文的作者居然還是我朋友的同班同學，真巧啊！&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;培養基材料&#34;&gt;培養基材料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;玉米粉 25g&lt;/li&gt;
+&lt;li&gt;紅糖 10g&lt;/li&gt;
+&lt;li&gt;乾燥酵母粉 7.5g&lt;/li&gt;
+&lt;li&gt;洋菜/agar 5g&lt;/li&gt;
+&lt;li&gt;ddH&lt;sub&gt;2&lt;/sub&gt;O 300 ml&lt;/li&gt;
+&lt;li&gt;(10% Propanoic acid) 3 ml選用，防腐作用。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;2019124-大甲二號配方&#34;&gt;2019/12/4 大甲二號配方&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;玉米粉 25g&lt;/li&gt;
+&lt;li&gt;紅糖 10g&lt;/li&gt;
+&lt;li&gt;乾燥酵母粉 7.5g&lt;/li&gt;
+&lt;li&gt;洋菜粉/agar 5g&lt;/li&gt;
+&lt;li&gt;ddH&lt;sub&gt;2&lt;/sub&gt;O 300 ml&lt;/li&gt;
+&lt;li&gt;丙酸鈉 3g&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;作法&#34;&gt;作法&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;將所有固體材料加入 500 ml 燒杯&lt;/li&gt;
+&lt;li&gt;加入 ddH&lt;sub&gt;2&lt;/sub&gt;O&lt;/li&gt;
+&lt;li&gt;加熱並持續攪拌，直到沸騰，agar溶解&lt;/li&gt;
+&lt;li&gt;加熱結束後加入 Propanoic acid&lt;/li&gt;
+&lt;li&gt;Autoclave 高溫高壓滅菌(家裡沒有啊QQ)&lt;/li&gt;
+&lt;li&gt;於無菌作業將培養基倒入培養管&lt;/li&gt;
+&lt;li&gt;冷卻凝固，低溫保存&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:360px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/fruit-fly-medium/photo1.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/fruit-fly-medium/photo1.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:360px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/fruit-fly-medium/photo2.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/fruit-fly-medium/photo2.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+幼蟲長大囉~~~&lt;/p&gt;
+&lt;br/&gt;
+&lt;h5 id=&#34;參考資料&#34;&gt;參考資料&lt;/h5&gt;
+&lt;p&gt;陳子云、陳沛晴、黃玟瑜(2017) 從孟德爾與摩根的遺傳理論推論親代果蠅殘翅的基因型態
+&lt;a href=&#34;https://www.shs.edu.tw/works/essay/2017/09/2017091507454682.pdf&#34;&gt;https://www.shs.edu.tw/works/essay/2017/09/2017091507454682.pdf&lt;/a&gt;&lt;/p&gt;
+</description>
+      
     </item>
+    
     <item>
       <title>Excel 繪製回歸直線</title>
-      <link>https://oxygentw.net/blog/notes/excel-linear-regression/</link>
+      <link>http://localhost:1313/blog/notes/excel-linear-regression/</link>
       <pubDate>Fri, 24 May 2019 00:00:00 +0000</pubDate>
-      <guid>https://oxygentw.net/blog/notes/excel-linear-regression/</guid>
-      <description>線性回歸是很多定量實驗必須做的前置步驟，要先將標準品測得的實驗數據透過線性回歸的方式繪製出標準曲線，再將未知待測物以內插的方式帶入求值才是一</description>
+      
+      <guid>http://localhost:1313/blog/notes/excel-linear-regression/</guid>
+      
+        <description>&lt;p&gt;線性回歸是很多定量實驗必須做的前置步驟，要先將標準品測得的實驗數據透過線性回歸的方式繪製出標準曲線，再將未知待測物以內插的方式帶入求值才是一個可靠的定量分析方式，因此紀錄如何使用 Excel 進行簡單的標準曲線繪製。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;先將標準品實驗數據輸入儲存格並選取
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/excel-linear-regression/excel-Linear-regression%20%282%29.png&#34; alt=&#34;輸入數據&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/excel-linear-regression/excel-Linear-regression%20%282%29.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;br/&gt;
+&lt;p&gt;插入 -&amp;gt; 圖表 -&amp;gt; 選擇散佈圖
+即可得下列基本圖形&lt;/p&gt;
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/excel-linear-regression/excel-Linear-regression%20%283%29e.png&#34; alt=&#34;所有材料&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/excel-linear-regression/excel-Linear-regression%20%283%29e.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;
+&lt;p&gt;點擊其中一個數據點，並按右鍵，選擇加上趨勢線&lt;/p&gt;
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/excel-linear-regression/excel-Linear-regression%20%284%29e.PNG&#34; alt=&#34;所有材料&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/excel-linear-regression/excel-Linear-regression%20%284%29e.PNG&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;
+&lt;p&gt;右側趨勢線格式選擇&lt;strong&gt;線性&lt;/strong&gt;，&lt;strong&gt;圖表上顯示公式&lt;/strong&gt;，以及&lt;strong&gt;顯示 R 平方值&lt;/strong&gt;
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/excel-linear-regression/excel-Linear-regression%20%285%29e.png&#34; alt=&#34;所有材料&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/excel-linear-regression/excel-Linear-regression%20%285%29e.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;br/&gt;
+&lt;p&gt;回歸直線就完成啦~ 可以把圖表直接複製到 Word 去寫報告，公式也可以進一步應用，記得要確認 R&lt;sup&gt;2&lt;/sup&gt; 是否可信，免得交出數據很離譜的實驗結果~
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/excel-linear-regression/excel-Linear-regression%20%281%29.png&#34; alt=&#34;所有材料&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/excel-linear-regression/excel-Linear-regression%20%281%29.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+</description>
+      
     </item>
+    
     <item>
       <title>蛋白質操作筆記</title>
-      <link>https://oxygentw.net/blog/notes/protein-operating/</link>
+      <link>http://localhost:1313/blog/notes/protein-operating/</link>
       <pubDate>Sun, 24 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://oxygentw.net/blog/notes/protein-operating/</guid>
-      <description>生物化學課蛋白質操作相關的筆記。 Protein purification 溶解度 大小 電荷 特殊結合位 Dialysis 透析 通常不會用來分離不同種類的蛋白質，只會用來去除鹽類(Desalt)或其他小</description>
+      
+      <guid>http://localhost:1313/blog/notes/protein-operating/</guid>
+      
+        <description>&lt;p&gt;生物化學課蛋白質操作相關的筆記。&lt;/p&gt;
+&lt;hr&gt;
+&lt;br/&gt;
+&lt;h1 id=&#34;protein-purification&#34;&gt;Protein purification&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;溶解度&lt;/li&gt;
+&lt;li&gt;大小&lt;/li&gt;
+&lt;li&gt;電荷&lt;/li&gt;
+&lt;li&gt;特殊結合位&lt;/li&gt;
+&lt;/ol&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;dialysis-透析&#34;&gt;Dialysis 透析&lt;/h2&gt;
+&lt;p&gt;通常不會用來分離不同種類的蛋白質，只會用來去除鹽類(Desalt)或其他小分子&lt;/p&gt;
+&lt;p&gt;透析三次即可除去大部分雜質&lt;/p&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;liquid-chromatography-液相層析&#34;&gt;Liquid Chromatography 液相層析&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Column chromatography 管柱層析法&lt;/p&gt;&lt;/blockquote&gt;
+&lt;br/&gt;
+&lt;h3 id=&#34;gel-filtration-膠體過濾分子篩&#34;&gt;Gel Filtration 膠體過濾/分子篩&lt;/h3&gt;
+&lt;p&gt;使用膠體或顆粒透過&lt;strong&gt;分子大小&lt;/strong&gt;進行分群，無法精確區分不同物質&lt;/p&gt;
+&lt;p&gt;小分子因為會進入膠體內部孔隙，流動速度較慢，大分子直接從膠體間通過，流速較快&lt;/p&gt;
+&lt;p&gt;分離出來的液體皆為透明，可透過&lt;strong&gt;分光光度計&lt;/strong&gt;檢測&lt;strong&gt;吸光度&lt;/strong&gt;得知含有蛋白質的收集液&lt;/p&gt;
+&lt;p&gt;可以用來去鹽與緩衝液交換&lt;/p&gt;
+&lt;br/&gt;
+&lt;h3 id=&#34;ion-exchange-離子交換層析法&#34;&gt;Ion Exchange 離子交換層析法&lt;/h3&gt;
+&lt;p&gt;將帶有電荷的官能基固定在膠體上，當被檢測物通過時則會依電性吸引&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;固定相為陰離子：陽離子交換樹脂&lt;/li&gt;
+&lt;li&gt;固定相為陽離子：陰離子交換樹脂&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+&lt;h4 id=&#34;離子取代優先順序&#34;&gt;離子取代優先順序&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;電荷高者&lt;/li&gt;
+&lt;li&gt;離子大小較大者&lt;/li&gt;
+&lt;li&gt;濃度大者&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;逐步增加鹽梯度，當鹽濃度大於蛋白質濃度時蛋白質會被鹽離子取代而流出，進入收集管&lt;/p&gt;
+&lt;br/&gt;
+&lt;h3 id=&#34;affinity-chromatography-親和性層析法&#34;&gt;Affinity chromatography 親和性層析法&lt;/h3&gt;
+&lt;p&gt;蛋白質有特定的結合位的話，則可以用他的反應物將蛋白質卡在管中，透過此方法可以收集到90%純度的濾液。&lt;/p&gt;
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;準備有葡萄糖殘基的物質固定在管中&lt;/li&gt;
+&lt;li&gt;含有葡萄糖結合蛋白的混合物進入管中，葡萄糖結合蛋白與管壁結合&lt;/li&gt;
+&lt;li&gt;剩餘廢液流出&lt;/li&gt;
+&lt;li&gt;使用&lt;strong&gt;高濃度葡萄糖水溶液&lt;/strong&gt;把管中的葡萄糖結合蛋白置換出來&lt;/li&gt;
+&lt;li&gt;成功取得葡萄糖結合蛋白&lt;/li&gt;
+&lt;/ol&gt;
+&lt;br/&gt;
+&lt;h1 id=&#34;protein-quantification&#34;&gt;Protein quantification&lt;/h1&gt;
+&lt;h2 id=&#34;uv-absorbance&#34;&gt;UV absorbance&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;通常使用波長 = 280 nm&lt;/p&gt;&lt;/blockquote&gt;
+&lt;br/&gt;
+&lt;p&gt;Beer-Lambert Law&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A = εbC&lt;/p&gt;&lt;/blockquote&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;biuret-method&#34;&gt;Biuret method&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;快速、簡單、但靈敏度低&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;讓蛋白質與二價銅離子反應，銅離子會結合在肽鏈骨幹上，使待測溶液變成靛色，在經過分光光度計測定吸光度。&lt;/p&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;lowry-method&#34;&gt;Lowry method&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;增加 Folin reagent 補足 biuret method 低靈敏度的問題&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Reagent A: alkaline copper&lt;/p&gt;
+&lt;p&gt;Reagent B: folin reagent(Phosphotungstic acid + Phosphomolybdic acid)&lt;/p&gt;
+&lt;p&gt;和銅離子結合的蛋白質進一步&lt;strong&gt;還原&lt;/strong&gt;Folin reagent，放大顏色變化。(鎢藍、鉬藍)&lt;/p&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;bca-method&#34;&gt;BCA method&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;biuret method 衍生&lt;/p&gt;
+&lt;p&gt;BCA = bicinchoninic acid 常用此方法&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Cu&lt;sup&gt;2+&lt;/sup&gt;再鹼性環境下會被蛋白質&lt;strong&gt;還原&lt;/strong&gt;成Cu&lt;sup&gt;+&lt;/sup&gt;，Cu&lt;sup&gt;+&lt;/sup&gt;再進一步跟BCA形成紫色結合物。&lt;/p&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;bradford-method&#34;&gt;Bradford method&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;用 coomassie blue 做蛋白質染色&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;染色後會變成藍色，再進行吸光度測定。&lt;/p&gt;
+&lt;br/&gt;
+&lt;ol&gt;
+&lt;li&gt;先配置已知濃度&lt;strong&gt;標準蛋白液&lt;/strong&gt;，通常用BSA(牛血清白蛋白)。&lt;/li&gt;
+&lt;li&gt;做定量並繪製標準曲線。&lt;/li&gt;
+&lt;li&gt;待測蛋白質定量，已標準曲線內插得濃度。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;br/&gt;
+&lt;h1 id=&#34;sds-page&#34;&gt;SDS-PAGE&lt;/h1&gt;
+&lt;h3 id=&#34;sds&#34;&gt;SDS&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;十二烷基硫酸鈉&lt;/li&gt;
+&lt;li&gt;加入 SDS 共熱，使蛋白質變性&lt;/li&gt;
+&lt;li&gt;SDS 作為界面活性劑，使蛋白質親水呈現線性不凝集&lt;/li&gt;
+&lt;li&gt;SDS 給予蛋白質極大的負電荷，&lt;strong&gt;SDS:Protein = 1.4:1&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;f = ma，A為陰電性，&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      
     </item>
+    
     <item>
       <title>PyMOL 蛋白質3D結構軟體安裝</title>
-      <link>https://oxygentw.net/blog/computer/pymol-install/</link>
+      <link>http://localhost:1313/blog/computer/pymol-install/</link>
       <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://oxygentw.net/blog/computer/pymol-install/</guid>
-      <description>讀生物化學查資料時發現了這個軟體，由 Python 和 C/C++ 開發而成，可以用來繪製蛋白質與氨基酸等生物體內大分子的立體結構，雖然我現在還用不到這個，但爲了以後</description>
+      
+      <guid>http://localhost:1313/blog/computer/pymol-install/</guid>
+      
+        <description>&lt;p&gt;讀生物化學查資料時發現了這個軟體，由 Python 和 C/C++ 開發而成，可以用來繪製蛋白質與氨基酸等生物體內大分子的立體結構，雖然我現在還用不到這個，但爲了以後可能需要的時候先把他的安裝過程記下來，免得到時候真的需要時忘記有這個軟體。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://pymol.org/&#34; title=&#34;PyMOL&#34;&gt;PyMOL 官網&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;1-下載主程式&#34;&gt;1. 下載主程式&lt;/h2&gt;
+&lt;p&gt;依照平臺選擇載點，我是用 Linux，他也能用 &lt;code&gt;conda&lt;/code&gt; 安裝呢！
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/pymol-install/pymol.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/pymol-install/pymol.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;&lt;h4&gt;PyMOL download&lt;/h4&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;2-解壓縮執行&#34;&gt;2. 解壓縮執行&lt;/h2&gt;
+&lt;p&gt;解壓縮之後就可以執行啦，超簡單的 XD&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;tar -jxf PyMOL-2.3.0_66-Linux-x86_64-py37.tar.bz2
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; pymol
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;./pymol&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;3-輸入序號&#34;&gt;3. 輸入序號&lt;/h2&gt;
+&lt;p&gt;他是要收費的，但會給你30天免費試用，如果是學生或老師有教育版可以用在受限制的環境。&lt;/p&gt;
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/pymol-install/pymol2.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/pymol-install/pymol2.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;&lt;h4&gt;PyMOL&lt;/h4&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;
+&lt;h2 id=&#34;4-從資料庫下載蛋白資料繪製&#34;&gt;4. 從資料庫下載蛋白資料繪製&lt;/h2&gt;
+&lt;p&gt;在指令列輸入 &lt;code&gt;fetch 6HIN&lt;/code&gt; 從 PDB 下載血清素的模型來看看，真的是挺漂亮的。 &lt;br&gt;
+也可以從 File -&amp;gt; Get PDB 來下載&lt;/p&gt;
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/pymol-install/pymol3.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/pymol-install/pymol3.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;&lt;h4&gt;Serotonin&lt;/h4&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+</description>
+      
     </item>
+    
     <item>
       <title>Quantum Numbers</title>
-      <link>https://oxygentw.net/blog/notes/quantum-numbers/</link>
+      <link>http://localhost:1313/blog/notes/quantum-numbers/</link>
       <pubDate>Tue, 08 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://oxygentw.net/blog/notes/quantum-numbers/</guid>
-      <description>一些關於量子數與原子軌域的筆記 (n , l , ml , ms) = (主量子數,角量子數,磁量子數,自旋量子數) 主量子數 Principal QN n = 1,2,3&amp;hellip;.. 決定原子的大小和能量 n2 = 能形成的</description>
+      
+      <guid>http://localhost:1313/blog/notes/quantum-numbers/</guid>
+      
+        <description>&lt;p&gt;一些關於量子數與原子軌域的筆記&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;(n , l , m&lt;sub&gt;l&lt;/sub&gt; , m&lt;sub&gt;s&lt;/sub&gt;) = (主量子數,角量子數,磁量子數,自旋量子數)&lt;/p&gt;&lt;/blockquote&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;主量子數-principal--qn&#34;&gt;主量子數 Principal  QN&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;n = 1,2,3&amp;hellip;..&lt;/p&gt;&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;決定原子的&lt;strong&gt;大小&lt;/strong&gt;和&lt;strong&gt;能量&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;n&lt;sup&gt;2&lt;/sup&gt; = 能形成的軌域數總和&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;​&lt;br/&gt;&lt;/p&gt;
+&lt;h2 id=&#34;角量子數-angular--qn&#34;&gt;角量子數 Angular  QN&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;l = 0 ~ n-1&lt;/p&gt;&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;決定軌域的形狀,數目&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;軌域數目 = 2l+1&lt;/p&gt;
+&lt;p&gt;因為 -l ~ l = 2l+1&lt;/p&gt;&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;角量子數字母代碼&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;0 = s&lt;/li&gt;
+&lt;li&gt;1 = p&lt;/li&gt;
+&lt;li&gt;2 = d&lt;/li&gt;
+&lt;li&gt;3 = f&lt;/li&gt;
+&lt;li&gt;4 = g&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;f 以後照字母排&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;字母代表意義&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;s = Sharp&lt;/li&gt;
+&lt;li&gt;p = Principal&lt;/li&gt;
+&lt;li&gt;d = Diffuse&lt;/li&gt;
+&lt;li&gt;f = Fundamental&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;磁量子數-magnetic--qn&#34;&gt;磁量子數 Magnetic  QN&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;m&lt;sub&gt;l&lt;/sub&gt; = -l ~ l&lt;/p&gt;&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;決定軌域的方向&lt;/li&gt;
+&lt;li&gt;依據角量子數的不同會有不同的組合&lt;/li&gt;
+&lt;li&gt;總軌域和就是所有磁量子數組合的總和&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;電子自旋量子數--electron-spin-qn&#34;&gt;電子自旋量子數  Electron Spin QN&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;m&lt;sub&gt;s&lt;/sub&gt; = +1/2 or -1/2&lt;/p&gt;&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;決定電子的自旋狀態&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;example&#34;&gt;Example&lt;/h1&gt;
+&lt;h2 id=&#34;3d-orbital&#34;&gt;3d orbital&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;n = 3&lt;/li&gt;
+&lt;li&gt;l = 0,1,2(s,p,d)&lt;/li&gt;
+&lt;li&gt;m&lt;sub&gt;l&lt;/sub&gt; = -2,-1,0,1,2&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;5f-orbital&#34;&gt;5f orbital&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;n = 5&lt;/li&gt;
+&lt;li&gt;l = 0,1,2,3,(s,p,d,f)&lt;/li&gt;
+&lt;li&gt;m&lt;sub&gt;l&lt;/sub&gt; = -3 ~ 3&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;n--4&#34;&gt;n = 4&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;l = 0,1,2,3&lt;/li&gt;
+&lt;li&gt;l = 4s,4p,4d,4f&lt;/li&gt;
+&lt;li&gt;m&lt;sub&gt;l&lt;/sub&gt; = -3 ~ 3&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;write-all--qn-of-3p-orbital&#34;&gt;write all  QN of 3p orbital&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;(3,1,-1,-1/2)&lt;/li&gt;
+&lt;li&gt;(3,1,-1,+1/2)&lt;/li&gt;
+&lt;li&gt;(3,1,0,-1/2)&lt;/li&gt;
+&lt;li&gt;(3,1,0,+1/2)&lt;/li&gt;
+&lt;li&gt;(3,1,1,-1/2)&lt;/li&gt;
+&lt;li&gt;(3,1,01+1/2)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;相關定理&#34;&gt;相關定理&lt;/h1&gt;
+&lt;h2 id=&#34;包利不相容原理-pauli-exclusion-principle&#34;&gt;包利不相容原理 Pauli Exclusion Principle&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;在每一個原子中，沒有任何兩個電子可以擁有同組的四個量子數&lt;/p&gt;
+&lt;p&gt;每個軌域只能填入兩個自旋相反的電子&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h2 id=&#34;遞鍵原理-the-aufbau-principle&#34;&gt;遞鍵原理 The Aufbau Principle&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;電子填入 Hydrogen-like 軌域時以低能量的先填&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h2 id=&#34;洪德定則-hunds-rule&#34;&gt;洪德定則 Hund&amp;rsquo;s Rule&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;電子填入簡併軌域時，會先以自旋相同的方式填入不同軌域&lt;/p&gt;
+&lt;p&gt;因這樣能量最低&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h2 id=&#34;電子組態-electron-configuration&#34;&gt;電子組態 Electron configuration&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;依照遮蔽效應與穿透效應影響，真實順序為&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;(1s),(2s,2p),(3s,3p),(4s,3d,4p),(5s,4d,5p)&amp;hellip;.&lt;/p&gt;&lt;/blockquote&gt;
+</description>
+      
     </item>
+    
     <item>
       <title>Physical properties of functional group</title>
-      <link>https://oxygentw.net/blog/notes/physical-properties-of-functional-group/</link>
+      <link>http://localhost:1313/blog/notes/physical-properties-of-functional-group/</link>
       <pubDate>Mon, 07 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://oxygentw.net/blog/notes/physical-properties-of-functional-group/</guid>
-      <description>簡單整理官能基的物理性質 官能基比較表 官能基 極性 分子間作用力 水溶能力 沸點 info 醇 alcohol True H-bond 高/隨碳鍊增長遞減 較高 氫鍵給予者 醚 ether True weak 偶極-偶極 / 立體障礙</description>
+      
+      <guid>http://localhost:1313/blog/notes/physical-properties-of-functional-group/</guid>
+      
+        <description>&lt;p&gt;簡單整理官能基的物理性質&lt;/p&gt;
+&lt;h2 id=&#34;官能基比較表&#34;&gt;官能基比較表&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;官能基&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;極性&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;分子間作用力&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;水溶能力&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;沸點&lt;/th&gt;
+          &lt;th&gt;info&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;醇 alcohol&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;True&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;H-bond&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;高/隨碳鍊增長遞減&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;較高&lt;/td&gt;
+          &lt;td&gt;氫鍵給予者&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;醚 ether&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;True&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;weak 偶極-偶極 / 立體障礙&lt;br/&gt;H-bond / 和水形成&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;烴 &amp;lt; 醚 &amp;lt; 醇&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;低 / 接近烴類&lt;/td&gt;
+          &lt;td&gt;氫鍵接受者&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;硫醇 thiol&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;False&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;偶極-偶極&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;低&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;烴&amp;lt; 醚 &amp;lt; 硫醇 &amp;lt; 醇&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;胺 amine&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;True&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;1°/2° weak H-bond&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;高/隨碳鍊增長遞減&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;胺 &amp;lt; 醇&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;醛 aldehyde&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;True&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;偶極-偶極&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;高/隨碳鍊增長遞減&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;烴&amp;lt;醛&amp;lt;酮&lt;/td&gt;
+          &lt;td&gt;C親電子/O親核&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;酮 ketone&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;True&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;偶極-偶極&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;高/隨碳鍊增長遞減&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;烴&amp;lt;醛&amp;lt;酮&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;羧 carbonyl&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;True&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;strong H-bond / 形成雙體&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;醇/酮 &amp;lt; 羧酸&lt;br/&gt;隨碳鍊增長遞減&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;醇/酮 &amp;lt; 羧酸&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;​&lt;/p&gt;
+&lt;h2 id=&#34;沸點比較&#34;&gt;沸點比較&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;醯胺 &amp;gt; 羧酸 &amp;gt; 醇 &amp;gt; 胺 &amp;gt; 酮 &amp;gt; &amp;gt; 醛 &amp;gt; 醚 &amp;gt; 烴&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;​&lt;/p&gt;
+&lt;h2 id=&#34;常用氫鍵強度&#34;&gt;常用氫鍵強度&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;F—H ᠁ :F （155 kJ/mol 或 40 kcal/mol）&lt;/li&gt;
+&lt;li&gt;O—H ᠁ :N （29 kJ/mol 或 6.9 kcal/mol）&lt;/li&gt;
+&lt;li&gt;O—H ᠁ :O （21 kJ/mol 或 5.0 kcal/mol）&lt;/li&gt;
+&lt;li&gt;N—H ᠁ :N （13 kJ/mol 或 3.1 kcal/mol）&lt;/li&gt;
+&lt;li&gt;N—H ᠁ :O （8 kJ/mol 或 1.9 kcal/mol）&lt;/li&gt;
+&lt;li&gt;HO—H ᠁ :OH3+ （18 kJ/mol 或 4.3 kcal/mol）&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      
     </item>
+    
     <item>
       <title>聚合酶連鎖反應</title>
-      <link>https://oxygentw.net/blog/notes/pcr-introduction/</link>
+      <link>http://localhost:1313/blog/notes/pcr-introduction/</link>
       <pubDate>Sat, 08 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>https://oxygentw.net/blog/notes/pcr-introduction/</guid>
-      <description>什麼是 PCR? The Polymerase Chain Reaction(PCR) 中譯聚合酶連鎖反應，為生物科技中一個極度重要的革命性技術，操作難度不高，但應用面卻極為廣泛，在 1986 年由 Kary Banks Mullis 博士發明，1993</description>
+      
+      <guid>http://localhost:1313/blog/notes/pcr-introduction/</guid>
+      
+        <description>&lt;h2 id=&#34;什麼是-pcr&#34;&gt;什麼是 PCR?&lt;/h2&gt;
+&lt;p&gt;The Polymerase Chain Reaction(PCR) 中譯&lt;strong&gt;聚合酶連鎖反應&lt;/strong&gt;，為生物科技中一個極度重要的革命性技術，操作難度不高，但應用面卻極為廣泛，在 1986 年由 Kary Banks Mullis 博士發明，1993年他因這項技術獲得諾貝爾化學獎。 &lt;br&gt;
+PCR 主要的功能在放大基因序，把微小的 DNA 樣本(可小到 nanogram)複製非常多份，以便後續的分析與操作，例如從刑案現場採集到的微小 DNA，量不足以進行分析，就可以使用PCR放大成足夠的量來進行各項實驗。&lt;/p&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;pcr-所需材料&#34;&gt;PCR 所需材料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;DNA 模板(DNA template)&lt;/li&gt;
+&lt;li&gt;引子(Primers)&lt;/li&gt;
+&lt;li&gt;DNA 聚合酶(DNA polymerase)&lt;/li&gt;
+&lt;li&gt;去氧核糖核苷三磷酸(dNTP)&lt;/li&gt;
+&lt;li&gt;緩衝液(Buffer)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;pcr-原理&#34;&gt;PCR 原理&lt;/h2&gt;
+&lt;p&gt;在細胞中 DNA 複製流程大致如下，詳細可參考&lt;a href=&#34;http://biotech.nstm.gov.tw/LifeScienceConcept/SpiralC/Spiral04.htm&#34;&gt;DNA複製&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;DNA 解旋酶解開雙股螺旋&lt;/li&gt;
+&lt;li&gt;RNA 引子附著在 DNA 上&lt;/li&gt;
+&lt;li&gt;DNA 聚合酶接上 DNA 進行新股合成&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;現在我們將這個步驟移到試管中&lt;/p&gt;
+&lt;h3 id=&#34;1--denaturation-變性---9495--30-60-sec-&#34;&gt;1.  Denaturation 變性  [ 94~95℃ , 30-60 sec ]&lt;/h3&gt;
+&lt;p&gt;在細胞中是由DNA 解旋酶解開 DNA 的結構，在細胞外我們使用熱來破壞DNA的氫鍵，迫使他回到單股DNA的形態。&lt;/p&gt;
+&lt;br/&gt;
+&lt;h3 id=&#34;2-annealing-降溫接合--5060---30-60-sec-&#34;&gt;2. Annealing 降溫接合 [ 50~60℃  , 30-60 sec ]&lt;/h3&gt;
+&lt;p&gt;解開後我們加入 RNA 引子，把溫度降到50~60C讓引子能順利地與單股DNA形成氫鍵結，實際上的溫度依照引子的不同種核苷酸數目而定，由以下公式粗略計算。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;T&lt;sub&gt;m&lt;/sub&gt; = ( 4 x [ G+C ] + 2 x [ A+T ]) ℃&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;這個步驟非常重要，若溫度過低會導致引子與模板不正確的鍵結，溫度過高則引子無法和模板鍵結，通常會以較高的溫度慢慢往下降，因為若一開始溫度過低而錯誤鍵結就失敗了。&lt;/p&gt;
+&lt;br/&gt;
+&lt;h3 id=&#34;3-extension-延伸---72---30-60-sec-&#34;&gt;3. Extension 延伸  [ 72℃  , 30-60 sec ]&lt;/h3&gt;
+&lt;p&gt;加入 &lt;em&gt;taq&lt;/em&gt; polymerase，這是一種由 &lt;em&gt;Thermus aquaticus&lt;/em&gt; 耐熱菌株中提取出的 DNA 聚合酶，到94℃仍然不會永久失活，最高效率溫度在72℃，這時DNA聚合酶會從引子的地方進入，並由 3&amp;rsquo; 往 5&amp;rsquo; 開始 DNA 複製新股。&lt;/p&gt;
+&lt;br/&gt;
+&lt;h3 id=&#34;4-denaturation-ii--9495--30-60-sec-&#34;&gt;4. Denaturation II [ 94~95℃ , 30-60 sec ]&lt;/h3&gt;
+&lt;p&gt;第二循環的變性步驟溫度會再回到 94~95℃，這時上個循環合成的DNA新股會脫離變成獨立的新股，同時也成為下一循環的模板，完整PCR 流程約會循環 35 次，大約 2 小時。&lt;/p&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;pcr-的結束&#34;&gt;PCR 的結束&lt;/h2&gt;
+&lt;p&gt;PCR 是連鎖反應，但不代表他會永無止盡的進行下去，當下面兩項條件達成一項時 DNA 數目會停止增加趨於穩定&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;反應物消耗殆盡&lt;/li&gt;
+&lt;li&gt;DNA 聚合酶被破壞&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;最後的產物要拿去進行瓊脂電泳，確認複製出來的 DNA 片段是否為正確的片段。&lt;/p&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;設計引子&#34;&gt;設計引子&lt;/h2&gt;
+&lt;p&gt;引子的設計十分重要，兩端引子3&amp;rsquo;的包含區域暨是被大量複製的DNA序列區域，如果設計錯誤則會導致DNA複製跟著錯誤，也因此引子的特殊性很重要，我們要確保設計出來的引子只會和我們想要的序列區互補，而不會有其他可互補的地方，要做到這一點我們就得增加引子的核苷酸數量，越多特殊性就越高，不過這時問題來了，核苷酸越多越難合成，也會拖慢整個 PCR 過程的效率，那到底該用多少個核苷酸才適合呢?&lt;/p&gt;
+&lt;p&gt;人類的基因是所有生物中最多的，有 3x10&lt;sup&gt;9&lt;/sup&gt; bp，以簡單的機率估算，會有 1.2x10&lt;sup&gt;10&lt;/sup&gt; 種可能，假設今天我們用八個核甘酸來設計引子，會有 65536 種可能，這樣&lt;strong&gt;算出在人類所有基因可以和我們設計的引子序列互補的區塊&lt;/strong&gt;有 3x10&lt;sup&gt;9 / 65536 = 46000 個，如果引子和46000個地方互補了，這樣 PCR 還做得下去嗎?!&lt;/p&gt;
+&lt;p&gt;所以我們會使用17個以上的核苷酸來設計引子，通常取18~20個，因為 3x10&lt;sup&gt;9&lt;/sup&gt;  / 4&lt;sup&gt;17&lt;/sup&gt; &amp;laquo; 1，在這樣的情況下就能設計出&lt;strong&gt;能達到特殊性要求的最短引子。&lt;/strong&gt;&lt;/p&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;pcr-應用實例&#34;&gt;PCR 應用實例&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;診斷遺傳疾病&lt;/li&gt;
+&lt;li&gt;感染病原檢驗&lt;/li&gt;
+&lt;li&gt;基因複製&lt;/li&gt;
+&lt;li&gt;基因工程&lt;/li&gt;
+&lt;li&gt;親子鑑定&lt;/li&gt;
+&lt;li&gt;法醫鑑識&lt;/li&gt;
+&lt;li&gt;癌症篩檢&lt;/li&gt;
+&lt;li&gt;等等極廣的應用&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+##### 參考資料
+---
+賴雯玲教授 分子生物概論 2018/12/6</description>
+      
     </item>
+    
     <item>
       <title>醫事檢驗流程</title>
-      <link>https://oxygentw.net/blog/notes/medical-laboratory-operate-process/</link>
+      <link>http://localhost:1313/blog/notes/medical-laboratory-operate-process/</link>
       <pubDate>Wed, 28 Nov 2018 00:00:00 +0000</pubDate>
-      <guid>https://oxygentw.net/blog/notes/medical-laboratory-operate-process/</guid>
-      <description>大家應該都有在醫院做檢查的經驗，我們給醫院的檢體(尿液、血液、切片等等)大多不是醫師在檢驗，而是由檢驗科內專門的醫事檢驗師進行，醫師只會開立</description>
+      
+      <guid>http://localhost:1313/blog/notes/medical-laboratory-operate-process/</guid>
+      
+        <description>&lt;p&gt;大家應該都有在醫院做檢查的經驗，我們給醫院的檢體(尿液、血液、切片等等)大多不是醫師在檢驗，而是由檢驗科內專門的醫事檢驗師進行，醫師只會開立醫囑與檢驗單告訴醫檢師他希望做甚麼檢查來協助他診斷，就像醫師開立處方簽給藥師一樣，從醫師告訴你要去哪裡做檢查的那一刻起檢驗的流程就開始了，這個流程粗略可以分成下列幾步。&lt;/p&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;檢驗前&#34;&gt;檢驗前&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;醫師用 LIS(Laboratory Information System) 開立醫囑&lt;/li&gt;
+&lt;li&gt;採檢人員對病人採檢&lt;/li&gt;
+&lt;li&gt;將檢驗單與檢體送至醫學實驗室&lt;/li&gt;
+&lt;li&gt;檢驗科依照檢驗單醫囑收件&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;檢驗中&#34;&gt;檢驗中&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;由醫事檢驗師進行各項檢驗工作&lt;/li&gt;
+&lt;li&gt;確保檢驗品質與正確性&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;檢驗後&#34;&gt;檢驗後&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;醫事檢驗師檢查報告是否正確並簽署&lt;/li&gt;
+&lt;li&gt;由 LIS 傳輸 檢驗報告/臨危值通報 給醫師&lt;/li&gt;
+&lt;li&gt;保存檢體&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;一般實驗室標準是 &lt;code&gt;ISO 17025&lt;/code&gt;，醫學實驗室則是 &lt;code&gt;ISO 15189&lt;/code&gt;，在規範上更為嚴謹，是負責檢驗醫學的重要部門，一個看似簡單的健康檢查背後涉及到一整個流程與許多醫事人員的參與，一再的確認與品管，嚴格的自檢程序確保每一份報告送到醫師手上都是正確的，畢竟醫學實驗室送出去的數值若是錯誤可能會白白葬送一條無辜的生命。&lt;/p&gt;
+</description>
+      
     </item>
+    
     <item>
       <title>基本化學物命名 Chemical Nomenclature</title>
-      <link>https://oxygentw.net/blog/notes/simple-chemical-nomenclature/</link>
+      <link>http://localhost:1313/blog/notes/simple-chemical-nomenclature/</link>
       <pubDate>Tue, 06 Nov 2018 00:00:00 +0000</pubDate>
-      <guid>https://oxygentw.net/blog/notes/simple-chemical-nomenclature/</guid>
-      <description>期中考期中考期中考，一大堆化學啊啊啊，順手把化學命名放上網站，就要繼續泡在化學堆了&amp;hellip; 離子化合物 金屬 + 非金屬 陰離子名字後 + &amp;ldquo;ide&amp;rdquo; BaCl2 barium</description>
+      
+      <guid>http://localhost:1313/blog/notes/simple-chemical-nomenclature/</guid>
+      
+        <description>&lt;p&gt;期中考期中考期中考，一大堆化學啊啊啊，順手把化學命名放上網站，就要繼續泡在化學堆了&amp;hellip;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;離子化合物&#34;&gt;離子化合物&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;金屬 + 非金屬&lt;/p&gt;
+&lt;p&gt;陰離子名字後 + &amp;ldquo;ide&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;BaCl&lt;sub&gt;2&lt;/sub&gt;       barium chlor&lt;strong&gt;ide&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;K&lt;sub&gt;2&lt;/sub&gt;O          potassium ox&lt;strong&gt;ide&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;KNO&lt;sub&gt;3&lt;/sub&gt;        potassium nitr&lt;strong&gt;ate&lt;/strong&gt;&lt;/p&gt;
+&lt;br/&gt;
+&lt;h1 id=&#34;過渡金屬化合物&#34;&gt;過渡金屬化合物&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;用羅馬數字在金屬名稱後標明價數&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;FeCl&lt;sub&gt;2&lt;/sub&gt;       Iron(II) chlor&lt;strong&gt;ide&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;FeCl&lt;sub&gt;3&lt;/sub&gt;       Iron(III) chlor&lt;strong&gt;ide&lt;/strong&gt;&lt;/p&gt;
+&lt;br/&gt;
+&lt;h1 id=&#34;分子化合物&#34;&gt;分子化合物&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;非金屬(Nonmetals) or 非金屬 + 類金屬(metalloids)&lt;/p&gt;
+&lt;p&gt;週期表中高週期的元素和越接近1A族放名稱前面&lt;/p&gt;
+&lt;p&gt;若化合物中有多個同一元素則用 prefixes 指出數量&lt;/p&gt;
+&lt;p&gt;最後元素以 &amp;ldquo;ide&amp;rdquo; 結尾&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;HI          hydrogen iodide&lt;/p&gt;
+&lt;p&gt;NF&lt;sub&gt;3&lt;/sub&gt;        nitrogen &lt;strong&gt;tri&lt;/strong&gt;fluoride&lt;/p&gt;
+&lt;p&gt;N&lt;sub&gt;2&lt;/sub&gt;Cl&lt;sub&gt;4&lt;/sub&gt;     &lt;strong&gt;di&lt;/strong&gt;nitrogen &lt;strong&gt;tetra&lt;/strong&gt;chloride&lt;/p&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;prifixes-table&#34;&gt;Prifixes table&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Prefix&lt;/th&gt;
+          &lt;th&gt;Number&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;mono-&lt;/td&gt;
+          &lt;td&gt;1&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;di-&lt;/td&gt;
+          &lt;td&gt;2&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;tri-&lt;/td&gt;
+          &lt;td&gt;3&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;tetra-&lt;/td&gt;
+          &lt;td&gt;4&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;penta-&lt;/td&gt;
+          &lt;td&gt;5&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;hexa-&lt;/td&gt;
+          &lt;td&gt;6&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;hepta-&lt;/td&gt;
+          &lt;td&gt;7&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;octa-&lt;/td&gt;
+          &lt;td&gt;8&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;nona-&lt;/td&gt;
+          &lt;td&gt;9&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;deca-&lt;/td&gt;
+          &lt;td&gt;10&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br/&gt;
+&lt;h1 id=&#34;氫酸&#34;&gt;氫酸&lt;/h1&gt;
+&lt;h2 id=&#34;純物質狀態下&#34;&gt;純物質狀態下&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;hydrogen + 另一化合物名 + ide&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;HCl&lt;sub&gt;(g)&lt;/sub&gt;       hydrogen chloride&lt;/p&gt;
+&lt;p&gt;HI&lt;sub&gt;(g)&lt;/sub&gt;         hydrogen iodide&lt;/p&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;溶於水狀態下&#34;&gt;溶於水狀態下&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;hydro化合物名ic + acid&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;HCl&lt;sub&gt;(aq)&lt;/sub&gt;       hydrochloric acid&lt;/p&gt;
+&lt;p&gt;HI&lt;sub&gt;(aq)&lt;/sub&gt;         hydroiodic acid&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;H&lt;sub&gt;2&lt;/sub&gt;S&lt;sub&gt;(aq)&lt;/sub&gt;      hydrosulfuric acid&lt;/strong&gt;&lt;/p&gt;
+&lt;br/&gt;
+&lt;h1 id=&#34;含氧酸&#34;&gt;含氧酸&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;依照不同酸種適用下列表格&lt;/p&gt;
+&lt;p&gt;含氧酸移除所有氫後稱為 Oxoanion&lt;/p&gt;
+&lt;p&gt;若有移除氫但不是完全移除，則須於前面用 prefix 註明氫的數量&lt;/p&gt;&lt;/blockquote&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;酸&lt;/th&gt;
+          &lt;th&gt;Oxoacid&lt;/th&gt;
+          &lt;th&gt;Oxoanion&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;過酸&lt;/td&gt;
+          &lt;td&gt;per-  -ic acid&lt;/td&gt;
+          &lt;td&gt;per-  -ate&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;正酸&lt;/td&gt;
+          &lt;td&gt;-ic acid&lt;/td&gt;
+          &lt;td&gt;-ate&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;亞酸&lt;/td&gt;
+          &lt;td&gt;-ous acid&lt;/td&gt;
+          &lt;td&gt;-ite&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;次酸&lt;/td&gt;
+          &lt;td&gt;hypo-  -ous acid&lt;/td&gt;
+          &lt;td&gt;hypo-  -ite&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br/&gt;
+&lt;p&gt;過氯酸  HClO&lt;sub&gt;4&lt;/sub&gt;  &lt;strong&gt;per&lt;/strong&gt;chlor&lt;strong&gt;ic&lt;/strong&gt; acid&lt;/p&gt;
+&lt;p&gt;氯酸  HClO&lt;sub&gt;3&lt;/sub&gt;      chlor&lt;strong&gt;ic&lt;/strong&gt; acid&lt;/p&gt;
+&lt;p&gt;亞氯酸  HClO&lt;sub&gt;2&lt;/sub&gt;  chlor&lt;strong&gt;ous&lt;/strong&gt; acid&lt;/p&gt;
+&lt;p&gt;次氯酸  HClO    &lt;strong&gt;hypo&lt;/strong&gt;chlor&lt;strong&gt;ous&lt;/strong&gt; acid&lt;/p&gt;
+&lt;p&gt;​&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;過氯酸根  ClO&lt;sub&gt;4&lt;/sub&gt;&lt;sup&gt;+&lt;/sup&gt;  &lt;strong&gt;per&lt;/strong&gt;chlor&lt;strong&gt;ate&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;氯酸根  ClO&lt;sub&gt;3&lt;/sub&gt;&lt;sup&gt;+&lt;/sup&gt;      chlor&lt;strong&gt;ate&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;亞氯酸根  ClO&lt;sub&gt;2&lt;sup&gt;+&lt;/sup&gt;&lt;/sub&gt;  chlor&lt;strong&gt;ite&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;次氯酸根  ClO&lt;sup&gt;+&lt;/sup&gt;    &lt;strong&gt;hypo&lt;/strong&gt;chlor&lt;strong&gt;ite&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;​&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;H&lt;sub&gt;2&lt;/sub&gt;PO&lt;sub&gt;4&lt;/sub&gt;  dihydrogen posphate&lt;/p&gt;
+&lt;br/&gt;
+&lt;h1 id=&#34;oh鹼&#34;&gt;OH鹼&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;陽離子名(Cation) + hydrox&lt;strong&gt;ide&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;NaOH      sodium hydrox&lt;strong&gt;ide&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Ba(OH)&lt;sub&gt;2&lt;/sub&gt;   barium hydrox&lt;strong&gt;ide&lt;/strong&gt;&lt;/p&gt;
+&lt;br/&gt;
+&lt;h1 id=&#34;水合物&#34;&gt;水合物&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;化合物名 + prefix+hydrate&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;BaCl&lt;sub&gt;2 &lt;/sub&gt;∙ 2H&lt;sub&gt;2&lt;/sub&gt;O barium chloride dihydrate 二合水氯化鋇&lt;/p&gt;
+&lt;p&gt;MgSO&lt;sub&gt;4&lt;/sub&gt; ∙ 7H&lt;sub&gt;2&lt;/sub&gt;O magnesium sulfate heptahydrate 七合水硫酸鎂&lt;/p&gt;
+&lt;p&gt;CuSO&lt;sub&gt;4&lt;/sub&gt; ∙ 5H&lt;sub&gt;2&lt;/sub&gt;O  copper(II) sulfate pentahydrate 五合水硫酸銅&lt;/p&gt;
+&lt;br/&gt;
+&lt;h1 id=&#34;有機化合物&#34;&gt;有機化合物&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;請參考 IUPAC 有機化學命名&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;br/&gt;&lt;br/&gt;&lt;/p&gt;
+</description>
+      
     </item>
+    
     <item>
       <title>變態行為診斷 4D</title>
-      <link>https://oxygentw.net/blog/notes/abnormal-behavior-4d/</link>
+      <link>http://localhost:1313/blog/notes/abnormal-behavior-4d/</link>
       <pubDate>Mon, 05 Nov 2018 00:00:00 +0000</pubDate>
-      <guid>https://oxygentw.net/blog/notes/abnormal-behavior-4d/</guid>
-      <description>變態行為診斷 Abnormal behavior 4D Deviance Distress Dysfunction/Disability Danger Deviance 異常 異常是指一個人的行為不同於普遍社會規範，和大多數人們不同，以統計數據上表示即為偏離常態分佈的個體，不過此項標</description>
+      
+      <guid>http://localhost:1313/blog/notes/abnormal-behavior-4d/</guid>
+      
+        <description>&lt;h1 id=&#34;變態行為診斷&#34;&gt;變態行為診斷&lt;/h1&gt;
+&lt;h2 id=&#34;abnormal-behavior-4d&#34;&gt;Abnormal behavior 4D&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Deviance&lt;/li&gt;
+&lt;li&gt;Distress&lt;/li&gt;
+&lt;li&gt;Dysfunction/Disability&lt;/li&gt;
+&lt;li&gt;Danger&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;deviance-異常&#34;&gt;Deviance 異常&lt;/h4&gt;
+&lt;p&gt;異常是指一個人的行為不同於普遍社會規範，和大多數人們不同，以統計數據上表示即為偏離常態分佈的個體，不過此項標準在鑑定上顯得模稜量可，因社會規範會因文化族群而異，對一部分族群的規範不一定適用另一族群，即使年齡層不同也可能形成差異，若是這種情況，即使有個體與&amp;quot;我們群體&amp;quot;異常也不可被分類為變態行為。
+如年輕人與老年人的思考方式不同，會造成雙方的不理解。&lt;/p&gt;
+&lt;br/&gt;
+&lt;h4 id=&#34;distress-痛苦&#34;&gt;Distress 痛苦&lt;/h4&gt;
+&lt;p&gt;指&lt;strong&gt;變態行為本身對個體造成壓力、恐懼、憂鬱、焦慮等等心理上的傷害&lt;/strong&gt;，此痛苦需由變態行為本身引起，而不是社會大眾對變態行為的不理解或是敵意所產生。例如躁鬱症病患內心的拉扯、自傷行為患者對於自己傷害自己這個行為產生恐懼就可以歸類於這邊所述的痛苦，而像同性戀者的性向與社會多數不同，但因其符合自身意願，同性戀者的痛苦多半來自於社會的異樣眼光，則此痛苦就&lt;strong&gt;不符合&lt;/strong&gt;由行為本身造成。&lt;/p&gt;
+&lt;br/&gt;
+&lt;h4 id=&#34;dysfunctiondisability-功能失常失能&#34;&gt;Dysfunction/Disability 功能失常/失能&lt;/h4&gt;
+&lt;p&gt;指變態行為患者因心理巨大的痛苦或認知上的失常造成無法正常發揮自身功能，失去原本擁有的能力，例如記憶力下降、數理功能降低、無法專注等等甚至導致無法上班、上課，最嚴重的無法自理生活。也就是&lt;strong&gt;身為一個人本身應該發揮的能力(功能)被變態行為或其他心理障礙剝奪&lt;/strong&gt;。&lt;/p&gt;
+&lt;br/&gt;
+&lt;h4 id=&#34;danger-危險&#34;&gt;Danger 危險&lt;/h4&gt;
+&lt;p&gt;指變態行為者的自傷或傷人行為，自傷可能包含割腕、蓄意燙傷、自殺；傷人可能包含打人、砍人甚至殺人，這部分通常是已經涉及嚴重的心理疾病，亟需尋求協助的患者，然而社會上對精神疾病的歧視會使患者不願意尋求醫療協助，而導致憾事發生。會&lt;strong&gt;產生傷害行為的人通常伴隨著認知上的失常&lt;/strong&gt;，健康的人即使他人挑釁也會克制自己不會去殺人，而認知異常的患者可能無法克制，抑或是因為認知異常，使他認為全世界都想要傷害他而先行傷人。&lt;/p&gt;
+&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;p&gt;王郁茗 (2018-09-17)。變態行為與現代生活。課程簡報&lt;/p&gt;
+</description>
+      
     </item>
+    
   </channel>
 </rss>

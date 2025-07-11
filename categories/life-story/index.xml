@@ -2,32 +2,109 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Life-Story on 氧氣橘子</title>
-    <link>https://oxygentw.net/categories/life-story/</link>
+    <link>http://localhost:1313/categories/life-story/</link>
     <description>Recent content in Life-Story on 氧氣橘子</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <lastBuildDate>Sun, 22 Mar 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://oxygentw.net/categories/life-story/index.xml" rel="self" type="application/rss+xml" />
+    
+        <atom:link href="http://localhost:1313/categories/life-story/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>入住中山醫宿舍感想...真心不建議</title>
-      <link>https://oxygentw.net/blog/life-story/about-csmu-dorm/</link>
+      <link>http://localhost:1313/blog/life-story/about-csmu-dorm/</link>
       <pubDate>Sun, 22 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>https://oxygentw.net/blog/life-story/about-csmu-dorm/</guid>
-      <description>又到了很多高中生選學校的時候，或許有人會來中山醫，所以我介紹一下中山醫的宿舍，給各位當參考&amp;hellip;或是說勸世(? 關於中山醫的宿舍呢&amp;</description>
+      
+      <guid>http://localhost:1313/blog/life-story/about-csmu-dorm/</guid>
+      
+        <description>&lt;p&gt;又到了很多高中生選學校的時候，或許有人會來中山醫，所以我介紹一下中山醫的宿舍，給各位當參考&amp;hellip;或是說勸世(?  &lt;br&gt;
+關於中山醫的宿舍呢&amp;hellip;我們學校因為超小，所以宿舍被分散在三個地方，一個是學校對面口腔醫學大樓樓上的&lt;strong&gt;口腔女宿&lt;/strong&gt;，在牙醫門診的樓上，另外是&lt;strong&gt;大慶男宿&lt;/strong&gt;及&lt;strong&gt;大慶女宿&lt;/strong&gt;，在距離學校約 1.7 公里外的台中高工對面，以前學校買下好幾棟大慶國宅作為宿舍。&lt;/p&gt;
+&lt;p&gt;先來說說中山醫宿舍的優點吧，少的先講比較不累(? 我們宿舍有一個很多人會羨慕的地方，大慶男女宿是一人一間雅房，口腔女宿是給大一住的，2-3人一間，不過我沒住過，所以詳細介紹會是大慶宿舍。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;宿舍優點&#34;&gt;宿舍優點&lt;/h1&gt;
+&lt;h2 id=&#34;獨立雅房&#34;&gt;獨立雅房&lt;/h2&gt;
+&lt;p&gt;因為一人一間雅房的關係，你可以很晚睡很晚起，裸體亂跑，都不用顧慮到室友，這一點倒是真的不錯，你也可以保有自己的隱私，讀書不被打擾。&lt;/p&gt;
+&lt;h2 id=&#34;生活機能佳&#34;&gt;生活機能佳&lt;/h2&gt;
+&lt;p&gt;再來是宿舍原本是國宅，所以整體而言就像個社區，住起來還算舒適，附近也有很多好吃的東西，像高工路、美村南路、大慶街等等，但如果沒有騎車，每天早上要跟很多高中生一起擠公車，如果技術不好可能2-3班才搭得上去XD&lt;/p&gt;
+&lt;h1 id=&#34;宿舍缺點&#34;&gt;宿舍缺點&lt;/h1&gt;
+&lt;p&gt;缺點嗎&amp;hellip; 讓我娓娓道來。&lt;/p&gt;
+&lt;h2 id=&#34;宿舍費用很高&#34;&gt;宿舍費用很高&lt;/h2&gt;
+&lt;p&gt;前面說的優點，自己一人一間雅房，那是建立在超級貴的宿舍費上，學校雅房有各種大小，一學期價格如下：&lt;/p&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/post/about-csmu-dorm/img1.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/post/about-csmu-dorm/img1.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;學校還大言不慚的作一個整理表，說中山醫在私立大學中不算貴，或許是吧，但你想想，而且宿舍停車場要再花1500租，網路再1500，加起來這個價錢到外面去租雅房也差不多啊，還可以免除接下來我要說的缺點。&lt;/p&gt;
+&lt;h2 id=&#34;門禁系統不安全&#34;&gt;門禁系統不安全&lt;/h2&gt;
+&lt;p&gt;宿舍門禁是用學生證當作門禁，但是他並沒有作任何加密，他只用學生證裡面的卡片編號當作辨識的 key，這代表隨便一個人都可以到鎖店複製學生證當成門禁，甚至只要撿到學生證把卡片編號抄起來就可以複製，任意進出。&lt;/p&gt;
+&lt;h2 id=&#34;部分區域訊號不好宿舍網路不便宜&#34;&gt;部分區域訊號不好，宿舍網路不便宜&lt;/h2&gt;
+&lt;p&gt;宿舍沒有免費網路使用，部分宿舍內行動網路的訊號不是太好，晚上就會報復社會XD，所以想要網速快最好購買宿舍的網路，但是一學期 1500，不算便宜，自行斟酌囉。&lt;/p&gt;
+&lt;h2 id=&#34;不能帶同學來玩&#34;&gt;不能帶同學來玩&lt;/h2&gt;
+&lt;p&gt;這很正常啦，很多宿舍都這樣不准外人進入，這點宿舍作的很合理，但是對我們來說也算是的缺點，住外面就沒這困擾啦~&lt;/p&gt;
+&lt;h2 id=&#34;學校漠視學生住宿權益&#34;&gt;學校漠視學生住宿權益&lt;/h2&gt;
+&lt;p&gt;這是最嚴重也最令人難以接受的，住在宿舍裡你不會覺得這是你花錢和學校租的宿舍，像是學校施捨給你的，學校說不讓你住就不讓你住，還大言不慚。&lt;/p&gt;
+&lt;p&gt;不知道各位有沒有看過這則新聞，沒有的話讓大家看一下&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://tw.news.yahoo.com/%E4%B8%AD%E5%8D%88%E6%89%8D%E8%AA%AA%E6%99%9A%E4%B8%8A%E5%B0%B1%E6%92%A4-%E4%B8%AD%E5%B1%B1%E9%86%AB%E5%A4%A7%E7%94%9F%E6%80%A8-%E5%AE%BF%E8%88%8D%E7%95%B6%E9%9A%94%E9%9B%A2%E6%89%80-114010093.html&#34;&gt;中午才說晚上就撤 中山醫大生怨「宿舍當隔離所」- Yahoo 新聞  &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=uzOv9w8dNrc&#34;&gt;https://www.youtube.com/watch?v=uzOv9w8dNrc&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;以及 2010 無預警消磁的行為&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ptt.cc/bbs/CSMU-Talk/M.1268926814.A.B89.html&#34;&gt;https://www.ptt.cc/bbs/CSMU-Talk/M.1268926814.A.B89.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;中山醫宿舍無預警封鎖宿舍做為港澳學生隔離所，不准本國學生回宿，許多學生寒假是要在實驗室或實習的，這樣封鎖讓他們連東西都沒辦法回去拿，就無家可歸，學生會給出一些很貴的特約旅館說是配套措施，最後草草的說退費10%作為補償就結束。&lt;/p&gt;
+&lt;p&gt;這件事情過去，開學後居然又強迫自主管理而不是居家檢疫或隔離的學生不准進入宿舍，仍然沒有改進，一通知馬上就鎖學生證，不給學生進入拿東西，讓學生無家可歸，那時已經開學，學生也不知道怎麼辦，舍監態度也很差，讓學生甚至得去睡公園和麥當勞，宿舍很喜歡用&amp;quot;鎖學生證&amp;quot;來禁止學生回房間，覺得你可疑鎖門禁，有事情要找你也鎖門禁，因為你進不去房間就會去舍輔室，他們就可以找到你，隨時要冒著回不了房間的風險&amp;hellip;&amp;hellip;&lt;/p&gt;
+&lt;h2 id=&#34;宿舍很難抽&#34;&gt;宿舍很難抽&lt;/h2&gt;
+&lt;p&gt;校地小，所以宿舍也小，抽不抽的到宿舍會依照你的戶籍地離學校的距離而定，不過我朋友住高雄，居然沒有抽到宿舍!!!! 想住還沒辦法，只有一小部分能順利住到宿舍，其他人還是得出去找房子呦~&lt;/p&gt;
+&lt;p&gt;大概就是這樣吧，這是我住了幾年後的想法跟體會，我已經開始在找房子租了@@  &lt;br&gt;
+其他資訊可以上中山醫宿舍網站看，不過要住的真的建議不要抱太大期望就是了。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://osa.csmu.edu.tw/files/13-1022-33317-1.php?Lang=zh-tw#dorm-comp&#34;&gt;中山醫宿舍網站&lt;/a&gt;&lt;/p&gt;
+</description>
+      
     </item>
+    
     <item>
       <title>對！我跨校雙主修</title>
-      <link>https://oxygentw.net/blog/life-story/double-major-adventure/</link>
+      <link>http://localhost:1313/blog/life-story/double-major-adventure/</link>
       <pubDate>Thu, 19 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://oxygentw.net/blog/life-story/double-major-adventure/</guid>
-      <description>大二上，許多大學生最活躍的時刻，我也不例外，參與了一大堆活動，社團、學校單位、校外等等，幾乎每天都要把自己榨乾，我甚至做了一個連我自己都害怕</description>
+      
+      <guid>http://localhost:1313/blog/life-story/double-major-adventure/</guid>
+      
+        <description>&lt;p&gt;大二上，許多大學生最活躍的時刻，我也不例外，參與了一大堆活動，社團、學校單位、校外等等，幾乎每天都要把自己榨乾，我甚至做了一個連我自己都害怕的決定，&lt;strong&gt;跨校雙主修&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;108 學年我們學校才剛通過熱騰騰的合作協定，讓我們與友校互修輔系與雙主修，我想說把握這個機會去看看不一樣的東西，也去體驗看看真正的大學校園是什麼感覺，然而這個東西連雙方的教務處都不是很清楚，因為依照教務處的說法，我是全校唯一去跨校雙主修的人，沒有，其他人了&amp;hellip;&amp;hellip;&lt;/p&gt;
+&lt;p&gt;因為友校的畜產系頗有名，加上先前認識一個很好的朋友高中是畜產保健科，她曾經帶我到她母校參觀牧場與學生現場擠牛奶的過程，也和我分享很多高中有趣的事情，從此我開始認識從來不曾打算讀的農學院，其實本來我是要去資工系的，但同學和我說畜產系的上課內容會是很特別的經驗，我想了一下也挺有道理的，資工系的東西網路上學就好，但是家畜養殖可不能線上體驗啊！而且平常哪有實習農牧場可以讓我實作呢? 但家人感覺似乎不是很希望我去畜產系，他們覺得資工比較有前途、未來薪水也高，這是事實，但這次我記取高科大航運技術系的經驗，我照著我的想法走，最後，成為畜產系的雙主修學生，也很感謝我的父母尊重我的選擇，沒有強制我做出他們期待的決定。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;但這樣的決定對我而言是個極大的挑戰。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;這學期在本校我有非常多通識課要修，學分直逼上限，卻來不及申請超修，我和教務處申請人工加退選，退掉了一堂必修課，用空的時間與學分去修友校的課，這個行為令我很不安，如果明年必修衝堂不能補修怎麼辦? 大家都在讀免疫學我卻在讀遺傳學，萬一來不及修我是不是不能去臨床實習? 我該怎麼安排兩校間的通勤時間? 一大堆的問題同時轟炸著我，現在的我很忙，加上這些惱人的決策，讓我的生活過得很凌亂，睡眠時間亂七八糟，三餐可能只吃到一餐，而且還是隨便亂吃，修這個學程是要收學分費的，因此也面臨了大學以來最嚴重的經濟困難，即使沒有到沒錢吃飯，但卻是幾乎要動要到緊急儲備金的地步，助眠藥物的用量也比以往要頻繁許多，忘東忘西的，沒有能力妥當的安排事件與事件之間的行程，社團時常臨時缺席，很簡單的說就是事情已經多到超出我這個人所能負荷的程度了，努力學習如何在這樣的環境下管理好自己，大概是我現在最重要的課題。&lt;/p&gt;
+&lt;p&gt;我有很高的機率不會修完雙主修，只會拿到輔系學位而已，但其實我不在乎，我並不是為了文憑才去修的，純粹是想體驗那些在牧場工作的人們他們的工作內容，多多了解第一級產業在動物養殖的部分，老實說，有一部分也是想了解我那位很好的朋友她高中所學習的課程。平時我們在商店買牛奶，卻不曾思考過牛奶從乳牛到市場之間到底經過了那些過程，也不曾思考過香腸、培根等等加工肉品是如何被製作的，希望我可以透過這冒險的決定，讓我更加了解，學到更多。&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;為什麼要把大學搞得這麼累呢? 別人大學都是拿來好好談一場戀愛。&amp;rdquo; 我爸和我說的一句話，我不知道，我ㄊ自己也不知道為什麼，這句話我一直記著，一直反覆思考，但總想不出個所以然來，現在認識我的人都知道我非常忙，但是沒有人知道我為什麼要把自己搞得這麼忙，包括我自己也不知道。似乎，我不把自己填滿，我就會被焦慮取代，害怕我沒用，不被世界需要，成為大家的負擔，唯有創造光鮮亮麗與多元的生活才能令人羨慕，成為一個看似&amp;quot;有用的人&amp;quot;，維持著我脆弱的價值，這是我的推測，沒有驗證，真正的答案可能會在某一天突然頓悟，也可能是個終生的謎團吧?&lt;/p&gt;
+</description>
+      
     </item>
+    
     <item>
       <title>新增生活故事系列！</title>
-      <link>https://oxygentw.net/blog/life-story/start/</link>
+      <link>http://localhost:1313/blog/life-story/start/</link>
       <pubDate>Fri, 06 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://oxygentw.net/blog/life-story/start/</guid>
-      <description>我從小就嚮往走遍世界，看看這世界每一個角落發生的點點滴滴，認識各地的人，體驗當地風土名情。每一個人從出生到死亡每分每秒都在寫下他的人生故事，</description>
+      
+      <guid>http://localhost:1313/blog/life-story/start/</guid>
+      
+        <description>&lt;p&gt;我從小就嚮往走遍世界，看看這世界每一個角落發生的點點滴滴，認識各地的人，體驗當地風土名情。每一個人從出生到死亡每分每秒都在寫下他的人生故事，不論開心、難過，而他的父母、兒女、朋友，也有著他們自己的故事，讓我們生活的地方成為一片用故事編織而成的無限網絡。&lt;/p&gt;
+&lt;p&gt;她那時候和我說，你像是個故事的收集者，藉著他人的眼睛仔細的觀察著世界，這句話令我永生難忘，深深刻印在我的腦海中，沒錯！這正是我期盼的，收集大家的故事，真正深入的了解我們所在的這空間這土地上曾經發生過怎麼樣的事，然而，理科出身的我，文學不是我的專業，如何將收集到的故事真實的呈現給讀者是我要努力的課題，盡可能將故事中的經過、感情、真相用文字的方式記錄。&lt;/p&gt;
+&lt;p&gt;我會死，人類會死，生物會死，但故事可以突破生命的時間枷鎖，一直一直流傳下去。&lt;/p&gt;
+&lt;p&gt;我打算先從自己經歷過的故事寫起，練習如何敘事，希望也能藉此讓我內心的焦慮與不安減弱，願意敞開心胸向大家講述何謂，我、以及我所看見的世界。&lt;/p&gt;
+</description>
+      
     </item>
+    
   </channel>
 </rss>
