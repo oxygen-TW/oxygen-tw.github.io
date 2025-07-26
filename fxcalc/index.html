@@ -467,11 +467,11 @@
                 });
 
                 const response = await fetch(`https://usa.visa.com/cmsapi/fx/rates?${params}`, {
-                    method: 'GET',
-                    headers: {
-                        'User-Agent': 'Mozilla/5.0',
-                        'Accept': 'application/json, text/plain, */*'
-                    }
+                    // method: 'GET',
+                    // headers: {
+                    //     'User-Agent': 'Mozilla/5.0',
+                    //     'Accept': 'application/json, text/plain, */*'
+                    // }
                 });
 
                 if (!response.ok) {
