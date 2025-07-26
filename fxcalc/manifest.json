@@ -8,8 +8,8 @@
     "theme_color": "#495057",
     "icons": [
         {
-        "src": "/fxcalc/icons/icon-128.png",
-        "sizes": "128x128",
+        "src": "/fxcalc/icons/icon-192.png",
+        "sizes": "192x192",
         "type": "image/png"
         },
         {
