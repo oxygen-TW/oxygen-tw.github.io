@@ -1,0 +1,21 @@
+{
+    "id": "/fxcalc/v1",
+    "name": "Fx Rate Calculator",
+    "short_name": "FxCalc",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#f8f9fa",
+    "theme_color": "#495057",
+    "icons": [
+        {
+        "src": "icons/icon-128.png",
+        "sizes": "128x128",
+        "type": "image/png"
+        },
+        {
+        "src": "icons/icon-512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+        }
+    ]
+}
