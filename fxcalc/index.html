@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
     <title>Fx Rate Calculator</title>
 
     <!-- PWA Manifest -->
@@ -54,12 +55,32 @@
             text-align: center;
             padding: 20px;
             border-bottom: 1px solid #dee2e6;
+            position: relative;
         }
         
         .card-header h4 {
             margin: 0;
             font-weight: 600;
             font-size: 1.25rem;
+        }
+        
+        .clear-settings-btn {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            color: white;
+            border-radius: 6px;
+            padding: 6px 10px;
+            font-size: 0.8rem;
+            transition: all 0.15s ease-in-out;
+        }
+        
+        .clear-settings-btn:hover {
+            background: rgba(255, 255, 255, 0.2);
+            border-color: rgba(255, 255, 255, 0.3);
+            color: white;
         }
         
         .form-control, .form-select {
@@ -212,6 +233,10 @@
                     <i class="fas fa-exchange-alt me-2"></i>
                     Fx Rate Calculator
                 </h4>
+                <button type="button" class="btn btn-sm clear-settings-btn" id="clearSettingsBtn" title="清除所有設定並還原預設值">
+                    <i class="fas fa-eraser me-1"></i>
+                    重置
+                </button>
             </div>
             <div class="card-body p-4">
                 <form id="converterForm">
@@ -252,7 +277,7 @@
                             <i class="fas fa-money-bill text-info me-1"></i>
                             現金匯率
                         </label>
-                        <input type="text" inputmode="decimal" pattern="[0-9]*[.,]?[0-9]*" class="form-control" id="cashRate" step="0.0001" placeholder="請輸入現金匯率" required>
+                        <input type="text" inputmode="decimal" pattern="[0-9]*[.,]?[0-9]*" class="form-control" id="cashRate" step="0.0001" placeholder="請輸入現金匯率(Optional)">
                     </div>
 
                     <!-- VISA設定 -->
@@ -312,7 +337,7 @@
                 轉換結果
             </h5>
             
-            <div class="result-item">
+            <div class="result-item" id="cashResult">
                 <div class="d-flex align-items-center justify-content-between">
                     <div class="d-flex align-items-center">
                         <div class="currency-icon">
@@ -393,6 +418,17 @@
             'ZAR', 'ZMW', 'ZWL'
         ];
 
+        // 預設值定義
+        const defaultValues = {
+            fromCurrency: 'USD',
+            toCurrency: 'TWD',
+            cashRate: '',
+            visaFee: '1.5',
+            visaReward: '2.2',
+            masterFee: '1.5',
+            masterReward: '3'
+        };
+
         // Cookie 操作函數
         function setCookie(name, value, days) {
             let expires = "";
@@ -415,34 +451,60 @@
             return null;
         }
 
-        // 儲存貨幣選擇到 Cookie
-        function saveCurrencySelection() {
-            const fromCurrency = document.getElementById('fromCurrency').value;
-            const toCurrency = document.getElementById('toCurrency').value;
+        // 儲存所有設定到 Cookie（除了金額）
+        function saveAllSettings() {
+            const settingsToSave = [
+                'fromCurrency', 'toCurrency', 'cashRate', 
+                'visaFee', 'visaReward', 'masterFee', 'masterReward'
+            ];
             
-            if (fromCurrency) setCookie('fromCurrency', fromCurrency, 30); // 保存30天
-            if (toCurrency) setCookie('toCurrency', toCurrency, 30);
+            settingsToSave.forEach(fieldId => {
+                const element = document.getElementById(fieldId);
+                if (element && element.value) {
+                    setCookie(fieldId, element.value, 30); // 保存30天
+                }
+            });
         }
 
-        // 從 Cookie 讀取貨幣選擇
-        function loadCurrencySelection() {
-            const savedFromCurrency = getCookie('fromCurrency');
-            const savedToCurrency = getCookie('toCurrency');
+        // 從 Cookie 載入所有設定
+        function loadAllSettings() {
+            Object.keys(defaultValues).forEach(fieldId => {
+                const element = document.getElementById(fieldId);
+                const savedValue = getCookie(fieldId);
+                
+                if (element) {
+                    if (savedValue !== null) {
+                        element.value = savedValue;
+                    } else {
+                        element.value = defaultValues[fieldId];
+                    }
+                }
+            });
+        }
+
+        // 清除所有 Cookie 並還原預設值
+        function clearAllSettings() {
+            // 清除所有相關的 Cookie
+            Object.keys(defaultValues).forEach(fieldId => {
+                setCookie(fieldId, '', -1); // 設定過期時間為過去，刪除 Cookie
+            });
             
-            const fromSelect = document.getElementById('fromCurrency');
-            const toSelect = document.getElementById('toCurrency');
+            // 還原所有欄位到預設值
+            Object.keys(defaultValues).forEach(fieldId => {
+                const element = document.getElementById(fieldId);
+                if (element) {
+                    element.value = defaultValues[fieldId];
+                }
+            });
             
-            if (savedFromCurrency && fromSelect.querySelector(`option[value="${savedFromCurrency}"]`)) {
-                fromSelect.value = savedFromCurrency;
-            } else {
-                fromSelect.value = 'USD'; // 預設值
-            }
+            // 清空金額欄位
+            document.getElementById('amount').value = '';
             
-            if (savedToCurrency && toSelect.querySelector(`option[value="${savedToCurrency}"]`)) {
-                toSelect.value = savedToCurrency;
-            } else {
-                toSelect.value = 'TWD'; // 預設值
-            }
+            // 隱藏結果區域
+            document.getElementById('results').style.display = 'none';
+            
+            // 顯示提示訊息
+            console.log('所有設定已清除並還原為預設值');
         }
 
         // 初始化貨幣選項
@@ -462,21 +524,31 @@
                 toSelect.appendChild(option2);
             });
             
-            // 載入上次選擇的貨幣
-            loadCurrencySelection();
+            // 載入儲存的設定
+            loadAllSettings();
             
-            // 監聽貨幣選擇變化
-            fromSelect.addEventListener('change', saveCurrencySelection);
-            toSelect.addEventListener('change', saveCurrencySelection);
+            // 監聽所有相關欄位的變化，儲存到 Cookie（除了金額）
+            const fieldsToWatch = [
+                'fromCurrency', 'toCurrency', 'cashRate', 
+                'visaFee', 'visaReward', 'masterFee', 'masterReward'
+            ];
+            
+            fieldsToWatch.forEach(fieldId => {
+                const element = document.getElementById(fieldId);
+                if (element) {
+                    element.addEventListener('change', saveAllSettings);
+                    element.addEventListener('input', saveAllSettings);
+                }
+            });
         }
 
         // VISA 匯率 API 呼叫
         async function visa_fx(fromCurrency, toCurrency, amount = 100, fee = 1.5) {
             try {
                 const today = new Date();
-                const dateString = String(today.getMonth() + 1).padStart(2, '0') + '/' + 
-                                 String(today.getDate()).padStart(2, '0') + '/' + 
-                                 today.getFullYear();
+                const dateString = String(today.getUTCMonth() + 1).padStart(2, '0') + '/' + 
+                                String(today.getUTCDate()).padStart(2, '0') + '/' + 
+                                today.getUTCFullYear();
                 
                 const params = new URLSearchParams({
                     amount: amount,
@@ -530,9 +602,9 @@
         async function master_fx(fromCurrency, toCurrency, amount = 100, fee = 1.5) {
             try {
                 const today = new Date();
-                const dateString = String(today.getDate()).padStart(2, '0') + '/' + 
-                                 String(today.getMonth() + 1).padStart(2, '0') + '/' + 
-                                 today.getFullYear();
+                const dateString = String(today.getUTCDate()).padStart(2, '0') + '/' + 
+                                String(today.getUTCMonth() + 1).padStart(2, '0') + '/' + 
+                                today.getUTCFullYear();
 
                 const requestBody = {
                     transactionDetails: {
@@ -593,7 +665,20 @@
         // 計算轉換結果
         async function calculateConversion() {
             const amount = parseFloat(document.getElementById('amount').value);
-            const cashRate = parseFloat(document.getElementById('cashRate').value);
+
+            //Check if cashRate is provided, if so, hasCashRate will be true
+            const hasCashRate = document.getElementById('cashRate').value.trim() !== '';
+            //console.log('hasCashRate:', hasCashRate);
+            
+            let cashRate = 0.0;
+            let cashAmount = 0.0 ;
+            //Cash rate is only used if hasCashRate is true
+            if(hasCashRate) {
+                cashRate = parseFloat(document.getElementById('cashRate').value);
+                cashAmount = amount * cashRate;
+            }
+            //console.log('cashRate:', cashRate);
+
             const visaFee = parseFloat(document.getElementById('visaFee').value);
             const masterFee = parseFloat(document.getElementById('masterFee').value);
             const visaReward = parseFloat(document.getElementById('visaReward').value);
@@ -601,8 +686,6 @@
             const fromCurrency = document.getElementById('fromCurrency').value;
             const toCurrency = document.getElementById('toCurrency').value;
 
-            // 計算現金轉換
-            const cashAmount = amount * cashRate;
 
             // 獲取信用卡匯率（實際API呼叫）
             const visaData = await visa_fx(fromCurrency, toCurrency, amount, visaFee);
@@ -646,16 +729,26 @@
 
         // 顯示轉換結果
         function displayResults(data) {
-            document.getElementById('cashRateDisplay').textContent = `匯率: ${data.cash.rate.toFixed(4)}`;
-            document.getElementById('cashAmount').textContent = `${data.cash.amount.toFixed(2)} ${data.toCurrency}`;
+
+            if(data.cash.rate != 0.0){
+                document.getElementById("cashResult").style.display="";
+                document.getElementById('cashRateDisplay').textContent = `匯率: ${data.cash.rate.toFixed(4)}`;
+                document.getElementById('cashAmount').textContent = `${data.cash.amount.toFixed(2)} ${data.toCurrency}`;
+            }
+            else{
+                document.getElementById("cashResult").style.display="none";
+            }
 
             // VISA 結果顯示
             let visaRateText = `有效匯率: ${data.visa.rate.toFixed(4)}`;
             if (!data.visa.success) {
-                visaRateText += ' (備援數據)';
+                document.getElementById('visaRateDisplay').textContent = "API異常";
+                document.getElementById('visaAmount').textContent = "無法計算匯率";
             }
-            document.getElementById('visaRateDisplay').textContent = visaRateText;
-            document.getElementById('visaAmount').textContent = `${data.visa.amount.toFixed(2)} ${data.toCurrency}`;
+            else{
+                document.getElementById('visaRateDisplay').textContent = visaRateText;
+                document.getElementById('visaAmount').textContent = `${data.visa.amount.toFixed(2)} ${data.toCurrency}`;
+            }
             
             // 設定VISA API狀態指示器
             const visaStatus = document.getElementById('visaStatus');
@@ -670,10 +763,13 @@
             // MasterCard 結果顯示
             let masterRateText = `有效匯率: ${data.master.rate.toFixed(4)}`;
             if (!data.master.success) {
-                masterRateText += ' (備援數據)';
+                document.getElementById('masterRateDisplay').textContent = "API異常";
+                document.getElementById('masterAmount').textContent = "無法計算匯率";
             }
-            document.getElementById('masterRateDisplay').textContent = masterRateText;
-            document.getElementById('masterAmount').textContent = `${data.master.amount.toFixed(2)} ${data.toCurrency}`;
+            else{
+                document.getElementById('masterRateDisplay').textContent = masterRateText;
+                document.getElementById('masterAmount').textContent = `${data.master.amount.toFixed(2)} ${data.toCurrency}`;
+            }
             
             // 設定MasterCard API狀態指示器
             const masterStatus = document.getElementById('masterStatus');
@@ -718,6 +814,11 @@
                 submitBtn.innerHTML = originalText;
                 submitBtn.disabled = false;
             }
+        });
+        
+        //When clearSerringsBtn is clicked, clear all settings
+        document.getElementById('clearSettingsBtn').addEventListener('click', function() {
+            clearAllSettings();
         });
 
         // 頁面載入完成後初始化
