@@ -1,10 +1,13 @@
 const CACHE_NAME = 'fx-rate-v1';
+
+const BASE = '/fxcalc'; // 根目錄，根據你的實際部署路徑調整
+
 const ASSETS = [
-    '/',                 // 根目錄對應 /index.html
-    '/index.html',
-    '/manifest.json',
-    '/icons/icon-192.png',
-    '/icons/icon-512.png',
+    `${BASE}/`,                    // 通常會轉向 index.html
+    `${BASE}/index.html`,
+    `${BASE}/manifest.json`,
+    `${BASE}/icons/icon-192.png`,
+    `${BASE}/icons/icon-512.png`,
     // 請將你所有的 CSS、JS、字體檔、Bootstrap CDN 等列到這裡
     'https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css',
     'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css',
