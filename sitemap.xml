@@ -23,15 +23,22 @@
   </url>
   
   <url>
-    <loc>https://oxygentw.net/blog/travel/visit-urgent-care-in-us/</loc>
-    <lastmod>2024-08-03T00:00:00+00:00</lastmod>
+    <loc>https://oxygentw.net/</loc>
+    <lastmod>2025-07-11T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://oxygentw.net/</loc>
+    <loc>https://oxygentw.net/blog/travel/register-drone-in-eu/</loc>
     <lastmod>2025-07-11T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://oxygentw.net/blog/travel/visit-urgent-care-in-us/</loc>
+    <lastmod>2024-08-03T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -620,48 +627,6 @@
   <url>
     <loc>https://oxygentw.net/blog/poetry/desk_memories/</loc>
     <lastmod>2017-06-24T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://oxygentw.net/series/item1/</loc>
-    <lastmod>2017-06-22T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://oxygentw.net/series/item2/</loc>
-    <lastmod>2017-06-22T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://oxygentw.net/series/item3/</loc>
-    <lastmod>2017-06-22T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://oxygentw.net/series/item4/</loc>
-    <lastmod>2017-06-22T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://oxygentw.net/author/george-jetson/</loc>
-    <lastmod>2017-06-22T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://oxygentw.net/series/</loc>
-    <lastmod>2017-06-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
