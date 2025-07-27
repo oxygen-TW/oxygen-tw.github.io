@@ -639,7 +639,7 @@
                 const data = await response.json();
                 
                 return {
-                    rate: data.response.mastercard.mastercardConvRateExclAllFees,
+                    rate: data.response.mastercard.mastercardConvRateInclPctFee,
                     convertedAmount: parseFloat(data.response.mastercard.crdhldBillAmtInclAllFees),
                     convertedAmountWoFee: parseFloat(data.response.mastercard.crdhldBillAmtExclAllFees),
                     //transactionAmount: parseFloat(data.response.mastercard.crdhldBillAmtInclAllFees),
@@ -695,6 +695,7 @@
 
             const visaRate = parseFloat(visaData.rate);
             const masterRate = parseFloat(masterData.rate);
+            //console.log('VISA Rate:', visaRate, 'MasterCard Rate:', masterRate);
 
             // 計算信用卡轉換（考慮回饋）
             // VISA: 使用API回傳的已含手續費金額，再扣除回饋
@@ -808,10 +809,13 @@
             
             try {
                 await calculateConversion();
+                //Clear the amount field after conversion
+                document.getElementById('amount').value = '';
             } catch (error) {
                 alert('計算過程中發生錯誤，請稍後再試。');
                 console.error('Conversion error:', error);
-            } finally {
+            } 
+            finally {
                 // 恢復按鈕狀態
                 submitBtn.innerHTML = originalText;
                 submitBtn.disabled = false;

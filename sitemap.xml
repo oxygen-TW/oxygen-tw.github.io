@@ -2,21 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://oxygentw.net/author/</loc>
-    <lastmod>2025-07-11T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://oxygentw.net/blog/</loc>
-    <lastmod>2025-07-11T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://oxygentw.net/author/oxygen/</loc>
     <lastmod>2025-07-11T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -30,7 +16,14 @@
   </url>
   
   <url>
-    <loc>https://oxygentw.net/blog/travel/register-drone-in-eu/</loc>
+    <loc>https://oxygentw.net/author/</loc>
+    <lastmod>2025-07-11T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://oxygentw.net/author/oxygen/</loc>
     <lastmod>2025-07-11T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
