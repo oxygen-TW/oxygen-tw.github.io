@@ -12,6 +12,320 @@
     
     
     <item>
+      <title>歐洲可以飛空拍嗎？歐盟無人機免費註冊與考照</title>
+      <link>https://oxygentw.net/blog/travel/register-drone-in-eu/</link>
+      <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/travel/register-drone-in-eu/</guid>
+      
+        <description>&lt;p&gt;最近在為之後交換做準備，順便查了一下歐洲的無人機使用規定，在歐盟內部雖然可以飛空拍，但前置作業有點小複雜，網路上提供的資訊也很零散，我整理我成功註冊無人機與取得 A1/A3 證照的過程，供大家參考。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;注意：本文僅分享個人經驗，實際操作前請務必查閱當地最新的法律與規定。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h2 id=&#34;歐盟空拍法規&#34;&gt;歐盟空拍法規&lt;/h2&gt;
+&lt;p&gt;基本上所有的歐盟國家以及EASA成員國(挪威、冰島、瑞士等)都採用歐洲航空安全總署(EASA)的無人機主要法規，不同國家可能會有一些自己的規定，但大致上是相似的。各國的當地法規可以參考：&lt;a href=&#34;https://www.easa.europa.eu/en/domains/civil-drones/naa&#34;&gt;https://www.easa.europa.eu/en/domains/civil-drones/naa&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;歐盟系統很方便的地方是，在EASA的任何一個成員國註冊無人機或考取無人機飛行資格就可以在歐盟所有國家使用，他們之間是互相承認的。&lt;/p&gt;
+&lt;p&gt;EASA的法規中雖有提到 &amp;lt;250g 的無人機是免註冊的，但他的前提是沒有搭載攝影設備，&lt;strong&gt;若無人機有搭載攝影設備就必須要註冊&lt;/strong&gt;，無論其重量為何，所以即使是 Dji Mini 系列仍然要依法註冊。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Relevant regulation: article 21 of EU regulation 2019/947.[&lt;a href=&#34;https://www.easa.europa.eu/en/the-agency/faqs/drones-uas#category-registration-requirements&#34;&gt;ref&lt;/a&gt;]&lt;/em&gt;
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/register-drone-in-eu/rule.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/register-drone-in-eu/rule.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;在EASA規範下，無人機被分為三大等級：Open, Specific 和 Certified，業餘無人機通常會屬於Open Category，因此接下來的說明也都是針對 Open Category。&lt;/p&gt;
+&lt;p&gt;先來解釋 Open Category 裡的三個子類別&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;A1: 不可飛越人群上空、預計不飛越無關人士(uninvolved people)、可在盡量避免的情況下飛越無關人士(飛行路過)。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A2: 禁止飛越無關人士、必須與無關人士保持水平距離30公尺(慢速模式下為5公尺)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A3: 禁止飛越無關人士、必須與無關人士保持水平距離150公尺&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;那麼至於哪些無人機適用於哪個類別，在下面這張圖最左邊C0-C4的分類，在歐盟販售的新無人機會強制標示這個 class identification label，但像我們不在歐盟購買的無人機或是法規執行前買的就不會有此標章，那認定方式很簡單，分成legacy &amp;lt;250g 以及 Legacy drone，小於250公克的無人機適用A1，而大於的其他無人機適用A3。&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/register-drone-in-eu/open.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/register-drone-in-eu/open.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;a href=&#34;https://www.easa.europa.eu/en/domains/drones-air-mobility/operating-drone/open-category-low-risk-civil-drones&#34;&gt;https://www.easa.europa.eu/en/domains/drones-air-mobility/operating-drone/open-category-low-risk-civil-drones&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;operator-and-flyer&#34;&gt;Operator and Flyer&lt;/h2&gt;
+&lt;p&gt;不像台灣，歐盟空拍法規中的考照與註冊分為兩個部分，無人機經營者(Operator)和無人機飛行員(Flyer/Pilot)，操作者是指&lt;strong&gt;擁有&lt;/strong&gt;無人機的人，而飛行員是實際&lt;strong&gt;操作&lt;/strong&gt;無人機的人，簡單來說，經營者需要負責無人機保險、註冊以及確保飛行員有適當資格的責任，而飛行員則是需要通過對應等級的測驗以獲得飛行資格。&lt;/p&gt;
+&lt;p&gt;可以參考下表：&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;負責項目&lt;/th&gt;
+          &lt;th&gt;Operator&lt;/th&gt;
+          &lt;th&gt;Flyer&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;無人機註冊&lt;/td&gt;
+          &lt;td&gt;需要&lt;/td&gt;
+          &lt;td&gt;檢查即可&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;無人機保險&lt;/td&gt;
+          &lt;td&gt;需要&lt;/td&gt;
+          &lt;td&gt;檢查即可&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;無人機飛行資格證書&lt;/td&gt;
+          &lt;td&gt;檢查即可&lt;/td&gt;
+          &lt;td&gt;需要&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;但對於個人來說，通常我們會同時持有無人機與飛行無人機，也就是同時擔任經營者與飛行員的角色，所以我們會需要完成註冊、保險及考試三項任務。但如果是一家人，則可以由其中一人擔任經營者，其他人僅需要考取飛行員資格即可。&lt;/p&gt;
+&lt;h2 id=&#34;無人機註冊&#34;&gt;無人機註冊&lt;/h2&gt;
+&lt;p&gt;首先來進行無人機註冊，原則上你需要去第一個計劃飛行無人機的國家的系統進行註冊，然而有些國家的註冊是需要費用的，大概20-30歐元之間，所以我推薦大家第一個都去法國飛(?，因為他們的註冊與考試目前都是免費的，而拿到法國註冊與證書後也可以在其他歐盟國家使用，相當划算。&lt;/p&gt;
+&lt;p&gt;首先前往 &lt;a href=&#34;https://alphatango.aviation-civile.gouv.fr/login.jsp&#34;&gt;https://alphatango.aviation-civile.gouv.fr/login.jsp&lt;/a&gt; ，網站的右下可以切換成英文。然後使用Create Account先註冊一個帳號。註冊完後登入會看到以下畫面，點選 My aircraft&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/register-drone-in-eu/fr1.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/register-drone-in-eu/fr1.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;接著點選 Register a new aircraft&lt;/p&gt;
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/register-drone-in-eu/fr2.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/register-drone-in-eu/fr2.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;
+詢問是否已經有註冊序號，選No，開始全新註冊
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/register-drone-in-eu/fr3.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/register-drone-in-eu/fr3.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;
+選 No 之後就依序填入無人機資訊，如下圖
+全部填寫完後點選右下角的 Register My Aircraft 
+&lt;p&gt;
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/register-drone-in-eu/fr4.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/register-drone-in-eu/fr4.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/register-drone-in-eu/fr5.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/register-drone-in-eu/fr5.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;br/&gt;
+看到以下畫面就是完成了
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/register-drone-in-eu/fr6.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/register-drone-in-eu/fr6.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;
+接著回到首頁你應該會看到像這樣的結果，在 MY REGISTERED AIRCRAFT 多了已註冊的無人機資訊，這樣無人機的註冊就完成了。
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/register-drone-in-eu/fr7.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/register-drone-in-eu/fr7.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;oprator-註冊&#34;&gt;Oprator 註冊&lt;/h2&gt;
+&lt;p&gt;再來是要註冊Operator ID，要貼在無人機上的ID就是這個，無論你註冊了幾台無人機都是用同一個Oprator ID。&lt;/p&gt;
+&lt;p&gt;前往AlphaTango首頁，點選左側的 My Operator Activity，然後依照他的步驟完成申請(我已經註冊過了沒辦法示範)，畫面上Registration number就是你的Operator ID，依規定必須標示在無人機上清晰可見的地方。如下圖所示：&lt;/p&gt;
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:300px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/register-drone-in-eu/drone_id.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/register-drone-in-eu/drone_id.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;
+其中前三碼應該會是FRA，表示在法國註冊的Operator ID，如果你是在其他國家系統註冊就會是其他代碼。
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/register-drone-in-eu/fr8.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/register-drone-in-eu/fr8.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;
+&lt;p&gt;到這邊就完成無人機註冊的部分，另一部分則是保險，目前歐盟法規要求重量20公斤以上的無人機才必須保險[&lt;a href=&#34;https://www.easa.europa.eu/en/light/topics/drone-insurance&#34;&gt;ref&lt;/a&gt;]，20公斤以下是建議保險，但不同國家內部可能會有自己的保險規定，在飛行前仍要再次確認當地法規。&lt;/p&gt;
+&lt;h2 id=&#34;a1a3-證照考試&#34;&gt;A1/A3 證照考試&lt;/h2&gt;
+&lt;p&gt;再來處理無人機飛行員的部分，凡事要操作無人機的人A1/A3等級的考試僅需要線上測驗通過即可，是很基礎的認證，基本上就是台灣無人機普通操作證的英文版而已，除了 Open Category 的等級分類、允許範圍需要特別去熟悉一下而已。&lt;/p&gt;
+&lt;p&gt;一樣是在AlphaTengo的管理介面左側，點選My remotepilot titles，然後選擇下方的 A1/A3 Open Category Training&lt;/p&gt;
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/register-drone-in-eu/fr9.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/register-drone-in-eu/fr9.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;
+會跳轉到另一個頁面，點選左邊選單「我的目錄」「Rigister to Open Category」再選擇「[English] Open Category Training」
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/register-drone-in-eu/fr10.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/register-drone-in-eu/fr10.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;
+會先給你看一些影片與教材，如果有考過台灣操作證的人稍微簡單了解一下應該就足夠了。可以參考網頁前面那張 Open Category 的圖，了解各個等級的差異。
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/register-drone-in-eu/fr11.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/register-drone-in-eu/fr11.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;
+完成課程後就會進行四十題的線上測驗，75分以上及格。
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/register-drone-in-eu/fr12.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/register-drone-in-eu/fr12.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;
+考試通過後回到AlphaTengo首頁，找到 Remote pilot in open category or aeromodelling 下面應該就會出現合格的序號和效期了，如果回去還沒有，等他一下重新整理後就會有了
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/register-drone-in-eu/fr13.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/register-drone-in-eu/fr13.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;
+同時你可以下載到一張長這樣的證書，這就是全歐盟通用的A1/A3證書了。最好印出一份隨身攜帶。
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/register-drone-in-eu/easa.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/register-drone-in-eu/easa.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;
+就這樣！一毛不花就完成了歐盟的無人機註冊與考照，先前我在網路上看到一個YouTuber教學說要去愛爾蘭網站繳費註冊，所以我剛找到這個免費註冊的系統時一直很懷疑到底能不能用，但後來查了很多資料，這應該確實是DSAC發布的證書，是有效的！
+&lt;hr&gt;
+&lt;p&gt;但我真的也不能保證我所看到的資訊100%正確，只是看到相關資料網路上不多，寫個筆記和大家分享，如果有任何疑慮還是要查閱當地的最新法規，第一手資訊才是最可信的。&lt;/p&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.easa.europa.eu/en/light/topics/drone-operators-pilots&#34;&gt;https://www.easa.europa.eu/en/light/topics/drone-operators-pilots&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.easa.europa.eu/en/the-agency/faqs/drones-uas#category-registration-requirements&#34;&gt;https://www.easa.europa.eu/en/the-agency/faqs/drones-uas#category-registration-requirements&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.easa.europa.eu/en/domains/drones-air-mobility/operating-drone/open-category-low-risk-civil-drones&#34;&gt;https://www.easa.europa.eu/en/domains/drones-air-mobility/operating-drone/open-category-low-risk-civil-drones&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.easa.europa.eu/en/domains/civil-drones/naa&#34;&gt;https://www.easa.europa.eu/en/domains/civil-drones/naa&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+      
+    </item>
+    
+    <item>
       <title>在美國生病怎麼辦 | 美國 Urgent Care 經驗分享</title>
       <link>https://oxygentw.net/blog/travel/visit-urgent-care-in-us/</link>
       <pubDate>Sat, 03 Aug 2024 00:00:00 +0000</pubDate>
@@ -2429,106 +2743,6 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;/p&gt;
 &lt;p&gt;就會發現不用輸入密碼就可以進入手機了!&lt;/p&gt;
-</description>
-      
-    </item>
-    
-    <item>
-      <title>自訂 Windows Terminal 主題</title>
-      <link>https://oxygentw.net/blog/computer/set-windows-terminal-themes/</link>
-      <pubDate>Tue, 18 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://oxygentw.net/blog/computer/set-windows-terminal-themes/</guid>
-      
-        <description>&lt;p&gt;Windows Terminal 是 Windows 10 新型的終端機介面，整合傳統 cmd、PowerShell、Azure shell 和 WSL Bash，比原先的 cmd 要好用太多了，我今天來介紹如何更改他的主題，使用起來更順眼!&lt;/p&gt;
-&lt;hr&gt;
-&lt;br /&gt;
-&lt;p&gt;首先打開 Windows Terminal 點擊&lt;strong&gt;設定&lt;/strong&gt;，並用熟悉的文字編輯器打開 &lt;code&gt;settings.json&lt;/code&gt;
-
-&lt;link rel=&#34;stylesheet&#34; href=&#34;https://oxygentw.net/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/set-windows-terminal-themes/01.png&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://oxygentw.net/img/post/set-windows-terminal-themes/01.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-&lt;/p&gt;
-&lt;br/&gt;
-&lt;p&gt;到 &lt;a href=&#34;https://atomcorp.github.io/themes/&#34;&gt;https://atomcorp.github.io/themes/&lt;/a&gt; 挑選喜歡的主題，按 &lt;code&gt;Get theme&lt;/code&gt;，主題設定檔就會複製到剪貼簿&lt;/p&gt;
-
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/set-windows-terminal-themes/02.png&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://oxygentw.net/img/post/set-windows-terminal-themes/02.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;br/&gt;
-&lt;p&gt;將剛剛複製的設定檔貼到 &lt;code&gt;settings.json&lt;/code&gt; 中 &lt;code&gt;schemes&lt;/code&gt; 的 list 中&lt;/p&gt;
-
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/set-windows-terminal-themes/03.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://oxygentw.net/img/post/set-windows-terminal-themes/03.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;br/&gt;
-&lt;p&gt;若要套用至所有終端機則在 &lt;code&gt;profiles -&amp;gt; defaults&lt;/code&gt; 中新增一行 &lt;br&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;colorScheme&amp;#34;&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;THEME NAME&amp;#34;&lt;/span&gt; &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;br&gt;
-&lt;br/&gt;
-若要套用單一的終端機則在 &lt;code&gt;profiles -&amp;gt; list&lt;/code&gt; 中目標終端機的位置新增一行 &lt;br&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;colorScheme&amp;#34;&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;THEME NAME&amp;#34;&lt;/span&gt; &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;
-
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/set-windows-terminal-themes/04.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://oxygentw.net/img/post/set-windows-terminal-themes/04.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;再重新啟動 Windows Terminal 就完成修改主題了！&lt;/p&gt;
-
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/set-windows-terminal-themes/05.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://oxygentw.net/img/post/set-windows-terminal-themes/05.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
 </description>
       
     </item>

@@ -12,6 +12,320 @@
     
     
     <item>
+      <title>歐洲可以飛空拍嗎？歐盟無人機免費註冊與考照</title>
+      <link>https://oxygentw.net/blog/travel/register-drone-in-eu/</link>
+      <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxygentw.net/blog/travel/register-drone-in-eu/</guid>
+      
+        <description>&lt;p&gt;最近在為之後交換做準備，順便查了一下歐洲的無人機使用規定，在歐盟內部雖然可以飛空拍，但前置作業有點小複雜，網路上提供的資訊也很零散，我整理我成功註冊無人機與取得 A1/A3 證照的過程，供大家參考。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;注意：本文僅分享個人經驗，實際操作前請務必查閱當地最新的法律與規定。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h2 id=&#34;歐盟空拍法規&#34;&gt;歐盟空拍法規&lt;/h2&gt;
+&lt;p&gt;基本上所有的歐盟國家以及EASA成員國(挪威、冰島、瑞士等)都採用歐洲航空安全總署(EASA)的無人機主要法規，不同國家可能會有一些自己的規定，但大致上是相似的。各國的當地法規可以參考：&lt;a href=&#34;https://www.easa.europa.eu/en/domains/civil-drones/naa&#34;&gt;https://www.easa.europa.eu/en/domains/civil-drones/naa&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;歐盟系統很方便的地方是，在EASA的任何一個成員國註冊無人機或考取無人機飛行資格就可以在歐盟所有國家使用，他們之間是互相承認的。&lt;/p&gt;
+&lt;p&gt;EASA的法規中雖有提到 &amp;lt;250g 的無人機是免註冊的，但他的前提是沒有搭載攝影設備，&lt;strong&gt;若無人機有搭載攝影設備就必須要註冊&lt;/strong&gt;，無論其重量為何，所以即使是 Dji Mini 系列仍然要依法註冊。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Relevant regulation: article 21 of EU regulation 2019/947.[&lt;a href=&#34;https://www.easa.europa.eu/en/the-agency/faqs/drones-uas#category-registration-requirements&#34;&gt;ref&lt;/a&gt;]&lt;/em&gt;
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/register-drone-in-eu/rule.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/register-drone-in-eu/rule.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;在EASA規範下，無人機被分為三大等級：Open, Specific 和 Certified，業餘無人機通常會屬於Open Category，因此接下來的說明也都是針對 Open Category。&lt;/p&gt;
+&lt;p&gt;先來解釋 Open Category 裡的三個子類別&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;A1: 不可飛越人群上空、預計不飛越無關人士(uninvolved people)、可在盡量避免的情況下飛越無關人士(飛行路過)。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A2: 禁止飛越無關人士、必須與無關人士保持水平距離30公尺(慢速模式下為5公尺)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A3: 禁止飛越無關人士、必須與無關人士保持水平距離150公尺&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;那麼至於哪些無人機適用於哪個類別，在下面這張圖最左邊C0-C4的分類，在歐盟販售的新無人機會強制標示這個 class identification label，但像我們不在歐盟購買的無人機或是法規執行前買的就不會有此標章，那認定方式很簡單，分成legacy &amp;lt;250g 以及 Legacy drone，小於250公克的無人機適用A1，而大於的其他無人機適用A3。&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/register-drone-in-eu/open.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/register-drone-in-eu/open.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;a href=&#34;https://www.easa.europa.eu/en/domains/drones-air-mobility/operating-drone/open-category-low-risk-civil-drones&#34;&gt;https://www.easa.europa.eu/en/domains/drones-air-mobility/operating-drone/open-category-low-risk-civil-drones&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;operator-and-flyer&#34;&gt;Operator and Flyer&lt;/h2&gt;
+&lt;p&gt;不像台灣，歐盟空拍法規中的考照與註冊分為兩個部分，無人機經營者(Operator)和無人機飛行員(Flyer/Pilot)，操作者是指&lt;strong&gt;擁有&lt;/strong&gt;無人機的人，而飛行員是實際&lt;strong&gt;操作&lt;/strong&gt;無人機的人，簡單來說，經營者需要負責無人機保險、註冊以及確保飛行員有適當資格的責任，而飛行員則是需要通過對應等級的測驗以獲得飛行資格。&lt;/p&gt;
+&lt;p&gt;可以參考下表：&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;負責項目&lt;/th&gt;
+          &lt;th&gt;Operator&lt;/th&gt;
+          &lt;th&gt;Flyer&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;無人機註冊&lt;/td&gt;
+          &lt;td&gt;需要&lt;/td&gt;
+          &lt;td&gt;檢查即可&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;無人機保險&lt;/td&gt;
+          &lt;td&gt;需要&lt;/td&gt;
+          &lt;td&gt;檢查即可&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;無人機飛行資格證書&lt;/td&gt;
+          &lt;td&gt;檢查即可&lt;/td&gt;
+          &lt;td&gt;需要&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;但對於個人來說，通常我們會同時持有無人機與飛行無人機，也就是同時擔任經營者與飛行員的角色，所以我們會需要完成註冊、保險及考試三項任務。但如果是一家人，則可以由其中一人擔任經營者，其他人僅需要考取飛行員資格即可。&lt;/p&gt;
+&lt;h2 id=&#34;無人機註冊&#34;&gt;無人機註冊&lt;/h2&gt;
+&lt;p&gt;首先來進行無人機註冊，原則上你需要去第一個計劃飛行無人機的國家的系統進行註冊，然而有些國家的註冊是需要費用的，大概20-30歐元之間，所以我推薦大家第一個都去法國飛(?，因為他們的註冊與考試目前都是免費的，而拿到法國註冊與證書後也可以在其他歐盟國家使用，相當划算。&lt;/p&gt;
+&lt;p&gt;首先前往 &lt;a href=&#34;https://alphatango.aviation-civile.gouv.fr/login.jsp&#34;&gt;https://alphatango.aviation-civile.gouv.fr/login.jsp&lt;/a&gt; ，網站的右下可以切換成英文。然後使用Create Account先註冊一個帳號。註冊完後登入會看到以下畫面，點選 My aircraft&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/register-drone-in-eu/fr1.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/register-drone-in-eu/fr1.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;接著點選 Register a new aircraft&lt;/p&gt;
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/register-drone-in-eu/fr2.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/register-drone-in-eu/fr2.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;
+詢問是否已經有註冊序號，選No，開始全新註冊
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/register-drone-in-eu/fr3.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/register-drone-in-eu/fr3.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;
+選 No 之後就依序填入無人機資訊，如下圖
+全部填寫完後點選右下角的 Register My Aircraft 
+&lt;p&gt;
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/register-drone-in-eu/fr4.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/register-drone-in-eu/fr4.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/register-drone-in-eu/fr5.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/register-drone-in-eu/fr5.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;br/&gt;
+看到以下畫面就是完成了
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/register-drone-in-eu/fr6.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/register-drone-in-eu/fr6.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;
+接著回到首頁你應該會看到像這樣的結果，在 MY REGISTERED AIRCRAFT 多了已註冊的無人機資訊，這樣無人機的註冊就完成了。
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/register-drone-in-eu/fr7.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/register-drone-in-eu/fr7.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;oprator-註冊&#34;&gt;Oprator 註冊&lt;/h2&gt;
+&lt;p&gt;再來是要註冊Operator ID，要貼在無人機上的ID就是這個，無論你註冊了幾台無人機都是用同一個Oprator ID。&lt;/p&gt;
+&lt;p&gt;前往AlphaTango首頁，點選左側的 My Operator Activity，然後依照他的步驟完成申請(我已經註冊過了沒辦法示範)，畫面上Registration number就是你的Operator ID，依規定必須標示在無人機上清晰可見的地方。如下圖所示：&lt;/p&gt;
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:300px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/register-drone-in-eu/drone_id.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/register-drone-in-eu/drone_id.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;
+其中前三碼應該會是FRA，表示在法國註冊的Operator ID，如果你是在其他國家系統註冊就會是其他代碼。
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/register-drone-in-eu/fr8.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/register-drone-in-eu/fr8.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;
+&lt;p&gt;到這邊就完成無人機註冊的部分，另一部分則是保險，目前歐盟法規要求重量20公斤以上的無人機才必須保險[&lt;a href=&#34;https://www.easa.europa.eu/en/light/topics/drone-insurance&#34;&gt;ref&lt;/a&gt;]，20公斤以下是建議保險，但不同國家內部可能會有自己的保險規定，在飛行前仍要再次確認當地法規。&lt;/p&gt;
+&lt;h2 id=&#34;a1a3-證照考試&#34;&gt;A1/A3 證照考試&lt;/h2&gt;
+&lt;p&gt;再來處理無人機飛行員的部分，凡事要操作無人機的人A1/A3等級的考試僅需要線上測驗通過即可，是很基礎的認證，基本上就是台灣無人機普通操作證的英文版而已，除了 Open Category 的等級分類、允許範圍需要特別去熟悉一下而已。&lt;/p&gt;
+&lt;p&gt;一樣是在AlphaTengo的管理介面左側，點選My remotepilot titles，然後選擇下方的 A1/A3 Open Category Training&lt;/p&gt;
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/register-drone-in-eu/fr9.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/register-drone-in-eu/fr9.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;
+會跳轉到另一個頁面，點選左邊選單「我的目錄」「Rigister to Open Category」再選擇「[English] Open Category Training」
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/register-drone-in-eu/fr10.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/register-drone-in-eu/fr10.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;
+會先給你看一些影片與教材，如果有考過台灣操作證的人稍微簡單了解一下應該就足夠了。可以參考網頁前面那張 Open Category 的圖，了解各個等級的差異。
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/register-drone-in-eu/fr11.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/register-drone-in-eu/fr11.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;
+完成課程後就會進行四十題的線上測驗，75分以上及格。
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/register-drone-in-eu/fr12.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/register-drone-in-eu/fr12.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;
+考試通過後回到AlphaTengo首頁，找到 Remote pilot in open category or aeromodelling 下面應該就會出現合格的序號和效期了，如果回去還沒有，等他一下重新整理後就會有了
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/register-drone-in-eu/fr13.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/register-drone-in-eu/fr13.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;
+同時你可以下載到一張長這樣的證書，這就是全歐盟通用的A1/A3證書了。最好印出一份隨身攜帶。
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/register-drone-in-eu/easa.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://oxygentw.net/img/post/register-drone-in-eu/easa.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;
+就這樣！一毛不花就完成了歐盟的無人機註冊與考照，先前我在網路上看到一個YouTuber教學說要去愛爾蘭網站繳費註冊，所以我剛找到這個免費註冊的系統時一直很懷疑到底能不能用，但後來查了很多資料，這應該確實是DSAC發布的證書，是有效的！
+&lt;hr&gt;
+&lt;p&gt;但我真的也不能保證我所看到的資訊100%正確，只是看到相關資料網路上不多，寫個筆記和大家分享，如果有任何疑慮還是要查閱當地的最新法規，第一手資訊才是最可信的。&lt;/p&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.easa.europa.eu/en/light/topics/drone-operators-pilots&#34;&gt;https://www.easa.europa.eu/en/light/topics/drone-operators-pilots&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.easa.europa.eu/en/the-agency/faqs/drones-uas#category-registration-requirements&#34;&gt;https://www.easa.europa.eu/en/the-agency/faqs/drones-uas#category-registration-requirements&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.easa.europa.eu/en/domains/drones-air-mobility/operating-drone/open-category-low-risk-civil-drones&#34;&gt;https://www.easa.europa.eu/en/domains/drones-air-mobility/operating-drone/open-category-low-risk-civil-drones&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.easa.europa.eu/en/domains/civil-drones/naa&#34;&gt;https://www.easa.europa.eu/en/domains/civil-drones/naa&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+      
+    </item>
+    
+    <item>
       <title>在美國生病怎麼辦 | 美國 Urgent Care 經驗分享</title>
       <link>https://oxygentw.net/blog/travel/visit-urgent-care-in-us/</link>
       <pubDate>Sat, 03 Aug 2024 00:00:00 +0000</pubDate>
@@ -2485,249 +2799,6 @@
   &lt;/figure&gt;
 &lt;/div&gt;
 
-</description>
-      
-    </item>
-    
-    <item>
-      <title>打工換宿攜帶行李詳解！</title>
-      <link>https://oxygentw.net/blog/travel/work-exchange-baggage/</link>
-      <pubDate>Sun, 19 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://oxygentw.net/blog/travel/work-exchange-baggage/</guid>
-      
-        <description>
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/work-exchange-baggage/firework.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://oxygentw.net/img/post/work-exchange-baggage/firework.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
-&lt;p&gt;目前我正在澎湖打工換宿！這次也是我第一次打工換宿，出發前一直在想行李要帶什麼好，衣服應該帶多還是帶少? 會不會帶太多東西之類的，想必想要嘗試打工換宿的朋友一定也會有這樣的疑問吧！所以我就來和大家聊聊打工換宿怎麼帶行李最實用方便！&lt;/p&gt;
-&lt;p&gt;這篇會以男生的角度來寫，女生可能就加上生理用品、保養品化妝品之類的吧，我也不熟啊啊啊啊，需要補充的歡迎女生朋友在下面留言告訴我喔~&lt;/p&gt;
-&lt;h2 id=&#34;進入正題&#34;&gt;進入正題&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;打括弧的是看情況攜帶喔~&lt;/p&gt;&lt;/blockquote&gt;
-&lt;h3 id=&#34;衣服&#34;&gt;衣服&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;衣服/褲子 4-6 套&lt;/li&gt;
-&lt;li&gt;內衣褲 5-6 件&lt;/li&gt;
-&lt;li&gt;睡衣 1-2 套&lt;/li&gt;
-&lt;li&gt;襪子&lt;/li&gt;
-&lt;li&gt;泳衣泳褲 1 套&lt;/li&gt;
-&lt;li&gt;毛巾 2 條(才可以替換著用)&lt;/li&gt;
-&lt;li&gt;拖鞋&lt;/li&gt;
-&lt;li&gt;(外套)&lt;/li&gt;
-&lt;li&gt;(手套)&lt;/li&gt;
-&lt;li&gt;(帽子)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;依照我的經驗，衣服不要帶太少！像這次我只帶了三件褲子，這樣我就要一直洗衣服，很麻煩的&amp;hellip;&lt;/p&gt;
-&lt;p&gt;如果你換宿的地方在離島，會常常玩水的地方的話，記得帶幾件海灘褲或泳裝，而且幾乎每天都是穿拖鞋，襪子就可以少帶一些~&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;生活&#34;&gt;生活&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;牙膏牙刷&lt;/li&gt;
-&lt;li&gt;洗面乳&lt;/li&gt;
-&lt;li&gt;刮鬍刀&lt;/li&gt;
-&lt;li&gt;梳子&lt;/li&gt;
-&lt;li&gt;環保餐具&lt;/li&gt;
-&lt;li&gt;洗衣球(方便好帶)&lt;/li&gt;
-&lt;li&gt;隱形眼鏡&lt;/li&gt;
-&lt;li&gt;隱形眼鏡盒/清潔液&lt;/li&gt;
-&lt;li&gt;衛生紙 &amp;amp; 濕紙巾&lt;/li&gt;
-&lt;li&gt;塑膠袋&lt;/li&gt;
-&lt;li&gt;指甲刀&lt;/li&gt;
-&lt;li&gt;防曬乳&lt;/li&gt;
-&lt;li&gt;雨傘&lt;/li&gt;
-&lt;li&gt;雨衣&lt;/li&gt;
-&lt;li&gt;太陽眼鏡&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;防蚊液&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;(小刀)&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;因為旅館通常會提供沐浴乳和洗髮精，所以可以自備洗面乳即可，如果覺得旅館得太爛(? 也可以把家裡的分裝小瓶帶來或是買三合一洗澡乳~&lt;/p&gt;
-&lt;p&gt;指甲刀很重要！通常我們出去玩不會特地帶指甲刀，但因為換宿時間比較長就會需要，我這次就忘記帶了&amp;hellip;&lt;/p&gt;
-&lt;p&gt;隱形眼鏡可能有人已經有習慣戴了，但若是有近視的朋友想要浮潛或潛水的話記得要準備！！不要期待有度數的面鏡能讓你看得多清楚，還是戴隱形眼鏡比較適合。&lt;/p&gt;
-&lt;p&gt;防蚊液也很重要！！！不然會像我這次依樣被蚊子騷擾到發瘋XD&lt;/p&gt;
-&lt;p&gt;最後一個小刀比較特別，應該大部分人不會有吧(? 我朋友這次有帶一把類似下圖的隨身刀，看起來挺可怕的，但真的很實用，各種場合需要都可以派上用場。&lt;/p&gt;
-
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://oxygentw.net/img/post/work-exchange-baggage/knife.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://oxygentw.net/img/post/work-exchange-baggage/knife.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;hr&gt;
-&lt;h3 id=&#34;3c產品&#34;&gt;3C產品&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;手機充電器/充電線&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;延長插頭&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;相機 or GoPro(我好想買一台QQ)&lt;/li&gt;
-&lt;li&gt;充電器&lt;/li&gt;
-&lt;li&gt;電腦 (寫網頁、做影片、查資料都方便!)&lt;/li&gt;
-&lt;li&gt;隨身碟&lt;/li&gt;
-&lt;li&gt;耳機&lt;/li&gt;
-&lt;li&gt;行動電源&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;延長插頭很重要！有些青年旅舍的插頭只有一個，插座位置又很畸形，在天花板之類的&amp;hellip;所以帶條延長線或延長插頭不會吃虧的。&lt;/p&gt;
-&lt;p&gt;隨身碟則是有些水上活動的照片需要用隨身碟複製回來，雖然最近很多都會用網路傳了，不過個人還是會帶一下。&lt;/p&gt;
-&lt;p&gt;至於耳機呢~ 青年旅舍背包房大家一起睡，總是需要耳機的。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;基本藥品&#34;&gt;基本藥品&lt;/h3&gt;
-&lt;blockquote&gt;
-&lt;p&gt;列出一些我有準備的備藥，這些藥局都買的到，實際上看個人囉~&lt;/p&gt;&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;Ibuprofen / Acetaminophen (退燒止痛)&lt;/li&gt;
-&lt;li&gt;Meclizine (暈船藥)&lt;/li&gt;
-&lt;li&gt;Loperamide (止瀉藥)&lt;/li&gt;
-&lt;li&gt;SHIN BIOFERMIN (欣表飛鳴)&lt;/li&gt;
-&lt;li&gt;外傷處理用藥&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;可參考&lt;a href=&#34;https://oxygentw.net/blog/travel/travel-medicine-first-aid-kits/&#34;&gt;旅行常備藥品與急救包&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;其他&#34;&gt;其他&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;錢&lt;/li&gt;
-&lt;li&gt;身分證/健保卡&lt;/li&gt;
-&lt;li&gt;(駕照)&lt;/li&gt;
-&lt;li&gt;(潛水紀錄本與證照)&lt;/li&gt;
-&lt;li&gt;隨身包&lt;/li&gt;
-&lt;li&gt;筆、筆記本&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;駕照跟潛水證都是有需要才帶喔~ 租車行租車前會看駕照，他們不像警察有辦法用身分證字號查XD 潛店也會要求潛水執照才可以 fun dive，不過如果是體驗潛水就不需要囉~&lt;/p&gt;
-&lt;p&gt;我習慣會記錄旅行手帳，所以會帶筆、紙膠帶、迴紋針，這樣挺好玩的！&lt;/p&gt;
-&lt;br/&gt;
-&lt;h1 id=&#34;總清單&#34;&gt;總清單&lt;/h1&gt;
-&lt;p&gt;最後幫大家整理出一個總清單，收拾行李的時候方便使用，也可以印下來喔！ &lt;a href=&#34;https://oxygentw.net/files/%E6%89%93%E5%B7%A5%E6%8F%9B%E5%AE%BF%E8%A1%8C%E6%9D%8E%E8%A1%A8.pdf&#34;&gt;列印載點&lt;/a&gt;&lt;/p&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;衣物&lt;/th&gt;
-          &lt;th&gt;生活&lt;/th&gt;
-          &lt;th&gt;3C&lt;/th&gt;
-          &lt;th&gt;藥品&lt;/th&gt;
-          &lt;th&gt;其他&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;衣服/褲子 4-6 套&lt;/td&gt;
-          &lt;td&gt;牙膏牙刷&lt;/td&gt;
-          &lt;td&gt;手機充電器/充電線&lt;/td&gt;
-          &lt;td&gt;退燒止痛藥&lt;/td&gt;
-          &lt;td&gt;身分證&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;內衣褲 5-6 件&lt;/td&gt;
-          &lt;td&gt;洗面乳&lt;/td&gt;
-          &lt;td&gt;&lt;strong&gt;延長插頭&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;暈船藥&lt;/td&gt;
-          &lt;td&gt;健保卡&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;睡衣 1-2 套&lt;/td&gt;
-          &lt;td&gt;刮鬍刀&lt;/td&gt;
-          &lt;td&gt;相機 or GoPro(我好想買一台QQ)&lt;/td&gt;
-          &lt;td&gt;止瀉藥&lt;/td&gt;
-          &lt;td&gt;(駕照)&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;泳衣泳褲 1 套&lt;/td&gt;
-          &lt;td&gt;梳子&lt;/td&gt;
-          &lt;td&gt;充電器&lt;/td&gt;
-          &lt;td&gt;欣表飛鳴錠&lt;/td&gt;
-          &lt;td&gt;隨身包&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;毛巾 2 條(才可以替換著用)&lt;/td&gt;
-          &lt;td&gt;環保餐具&lt;/td&gt;
-          &lt;td&gt;隨身碟&lt;/td&gt;
-          &lt;td&gt;外傷用藥&lt;/td&gt;
-          &lt;td&gt;筆、筆記本&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;拖鞋&lt;/td&gt;
-          &lt;td&gt;洗衣球(方便好帶)&lt;/td&gt;
-          &lt;td&gt;耳機&lt;/td&gt;
-          &lt;td&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;(外套)&lt;/td&gt;
-          &lt;td&gt;隱形眼鏡&lt;/td&gt;
-          &lt;td&gt;行動電源&lt;/td&gt;
-          &lt;td&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;(手套)&lt;/td&gt;
-          &lt;td&gt;隱形眼鏡盒/清潔液&lt;/td&gt;
-          &lt;td&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;/td&gt;
-          &lt;td&gt;衛生紙 &amp;amp; 濕紙巾&lt;/td&gt;
-          &lt;td&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;/td&gt;
-          &lt;td&gt;塑膠袋&lt;/td&gt;
-          &lt;td&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;/td&gt;
-          &lt;td&gt;指甲刀&lt;/td&gt;
-          &lt;td&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;/td&gt;
-          &lt;td&gt;防曬乳&lt;/td&gt;
-          &lt;td&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;/td&gt;
-          &lt;td&gt;雨傘/雨衣&lt;/td&gt;
-          &lt;td&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;/td&gt;
-          &lt;td&gt;太陽眼鏡&lt;/td&gt;
-          &lt;td&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;/td&gt;
-          &lt;td&gt;(小刀)&lt;/td&gt;
-          &lt;td&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;最後祝大家找到喜歡又適合的地方換宿！&lt;/p&gt;
 </description>
       
     </item>
